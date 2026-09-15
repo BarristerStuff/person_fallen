@@ -1,0 +1,20 @@
+{
+  "ground_lying": {
+    "n": 145,
+    "union": 97,
+    "lying": 96,
+    "all_up": 44
+  },
+  "floor_sitting": {
+    "n": 55,
+    "union": 0,
+    "lying": 0,
+    "all_up": 55
+  },
+  "auxiliary_attention": {
+    "n": 41,
+    "union": 36,
+    "lying": 36,
+    "all_up": 5
+  }
+}

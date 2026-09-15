@@ -1,0 +1,1 @@
+{"status":"PASS_FOR_STAGE2_INPUTS","manifests":["pilot156.csv","full_combined436.csv","regression1.csv"],"full_dev_rows":436,"pilot_rows":156,"regression_rows":1,"val_rows_read":0,"holdout_rows_read":0}

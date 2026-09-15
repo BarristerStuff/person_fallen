@@ -1,0 +1,49 @@
+{
+  "candidate": "V7-A0-GEOMETRY-VERIFIER",
+  "execution_dir": "/home/yanbo/net_vlm_person_fallen_v2_optimization/25_person_fallen_v7_a0_geometry_verifier",
+  "final_status": "STAGE2_GEOMETRY_FAIL",
+  "detector": {
+    "det_weight_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+    "pose_weight_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+    "pose_weight_source": "https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11n-pose.pt",
+    "persons_total": 596,
+    "primary_total": 530,
+    "background_total": 66,
+    "images_with_zero_person": 0
+  },
+  "geometry": {
+    "stage2_gate_checks": {
+      "ground_lying_union_lying_or_uncertain": "97/145 FAIL (required 145/145)",
+      "ground_lying_geom_lying": "96/145 FAIL (required >=130/145)",
+      "floor_sitting_all_primary_upright": "55/55 PASS (required >=45/55)",
+      "floor_sitting_geom_lying": "0/55 PASS (required <=3/55)",
+      "auxiliary_geom_lying": "36/41 FAIL (required <=4/41)"
+    },
+    "logo_cv_summary": "not run because deterministic geometry gates already fail",
+    "thresholds": "not frozen"
+  },
+  "pilot": {
+    "vlm_requests": 0,
+    "gate": "NOT_RUN"
+  },
+  "regression": {
+    "vlm_requests": 0,
+    "gate": "NOT_RUN"
+  },
+  "full_dev": {
+    "rows": 436,
+    "gate": "NOT_RUN"
+  },
+  "limitations": [
+    "Stage 2 failed before any VLM request",
+    "DEV synthetic evidence only",
+    "REAL_CAMERA_VALIDATED=false",
+    "keypoint accuracy on synthetic images not manually validated",
+    "no VAL or Holdout access"
+  ],
+  "VAL_REQUESTS": 0,
+  "HOLDOUT_REQUESTS": 0,
+  "CODE_COMMITTED": false,
+  "CURRENT_WINNER": "NONE",
+  "NEXT_ACTION": "CLOSE_V7_A0_CANDIDATE"
+}

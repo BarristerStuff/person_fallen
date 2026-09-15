@@ -1,0 +1,1 @@
+{"audit":"independent offline recount","status":"FAIL_CONFIRMED","detector_csv_rows":276,"stage2_geometry":{"ground_union":97,"ground_lying":96,"floor_all_primary_upright":55,"floor_geom_lying":0,"aux_geom_lying":36},"vlm_requests":0,"val_requests":0,"holdout_requests":0,"freeze_created":false}
