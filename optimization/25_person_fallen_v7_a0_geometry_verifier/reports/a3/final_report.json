@@ -1,0 +1,212 @@
+{
+  "candidate": "V7-A3",
+  "final_status": "BLOCKED_OLLAMA_CONNECTION_RESET_NO_RETRY",
+  "stage2_final": {
+    "ground_detected": 141,
+    "ground_all_primary_upright": 0,
+    "pilot_ground_all_primary_upright": 0,
+    "zero_detection_ground": [
+      "V2_ORIGINAL::IMG_004085",
+      "V2_ORIGINAL::IMG_004086",
+      "V2_ORIGINAL::IMG_004091",
+      "V2_ORIGINAL::IMG_004080"
+    ],
+    "ground_all_primary_upright_items": [],
+    "floor_all_primary_upright": 53,
+    "floor_items": [
+      "P4D_PLAN::PF_P4D_HN_SIT_G001_V01",
+      "P4D_PLAN::PF_P4D_HN_SIT_G001_V02",
+      "P4D_PLAN::PF_P4D_HN_SIT_G001_V03",
+      "P4D_PLAN::PF_P4D_HN_SIT_G001_V04",
+      "P4D_PLAN::PF_P4D_HN_SIT_G001_V05",
+      "P4D_PLAN::PF_P4D_HN_SIT_G002_V01",
+      "P4D_PLAN::PF_P4D_HN_SIT_G002_V02",
+      "P4D_PLAN::PF_P4D_HN_SIT_G002_V03",
+      "P4D_PLAN::PF_P4D_HN_SIT_G002_V04",
+      "P4D_PLAN::PF_P4D_HN_SIT_G002_V05",
+      "P4D_PLAN::PF_P4D_HN_SIT_G003_V01",
+      "P4D_PLAN::PF_P4D_HN_SIT_G003_V02",
+      "P4D_PLAN::PF_P4D_HN_SIT_G003_V03",
+      "P4D_PLAN::PF_P4D_HN_SIT_G003_V04",
+      "P4D_PLAN::PF_P4D_HN_SIT_G003_V05",
+      "P4D_PLAN::PF_P4D_HN_SIT_G004_V01",
+      "P4D_PLAN::PF_P4D_HN_SIT_G004_V02",
+      "P4D_PLAN::PF_P4D_HN_SIT_G004_V03",
+      "P4D_PLAN::PF_P4D_HN_SIT_G004_V04",
+      "P4D_PLAN::PF_P4D_HN_SIT_G004_V05",
+      "P4D_PLAN::PF_P4D_HN_SIT_G005_V01",
+      "P4D_PLAN::PF_P4D_HN_SIT_G005_V02",
+      "P4D_PLAN::PF_P4D_HN_SIT_G005_V03",
+      "P4D_PLAN::PF_P4D_HN_SIT_G005_V04",
+      "P4D_PLAN::PF_P4D_HN_SIT_G005_V05",
+      "P4D_PLAN::PF_P4D_HN_SIT_G006_V01",
+      "P4D_PLAN::PF_P4D_HN_SIT_G006_V02",
+      "P4D_PLAN::PF_P4D_HN_SIT_G006_V03",
+      "P4D_PLAN::PF_P4D_HN_SIT_G006_V04",
+      "P4D_PLAN::PF_P4D_HN_SIT_G006_V05",
+      "P4D_PLAN::PF_P4D_HN_SIT_G007_V01",
+      "P4D_PLAN::PF_P4D_HN_SIT_G007_V02",
+      "P4D_PLAN::PF_P4D_HN_SIT_G007_V03",
+      "P4D_PLAN::PF_P4D_HN_SIT_G007_V04",
+      "P4D_PLAN::PF_P4D_HN_SIT_G007_V05",
+      "V2_ORIGINAL::IMG_003703",
+      "V2_ORIGINAL::IMG_003704",
+      "V2_ORIGINAL::IMG_003705",
+      "V2_ORIGINAL::IMG_003706",
+      "V2_ORIGINAL::IMG_003708",
+      "V2_ORIGINAL::IMG_003709",
+      "V2_ORIGINAL::IMG_003710",
+      "V2_ORIGINAL::IMG_003711",
+      "V2_ORIGINAL::IMG_003712",
+      "V2_ORIGINAL::IMG_003713",
+      "V2_ORIGINAL::IMG_003714",
+      "V2_ORIGINAL::IMG_003715",
+      "V2_ORIGINAL::IMG_003716",
+      "V2_ORIGINAL::IMG_003717",
+      "V2_ORIGINAL::IMG_003718",
+      "V2_ORIGINAL::IMG_003719",
+      "V2_ORIGINAL::IMG_003720",
+      "V2_ORIGINAL::IMG_003721"
+    ],
+    "stage2_gate": "PASS"
+  },
+  "g2_fp_recheck": [
+    {
+      "item_id": "P4D_PLAN::PF_P4D_HN_SIT_G001_V03",
+      "request_id": "V6_TARGET_SUPPORT_PILOT_0003",
+      "matches": [
+        {
+          "person_id": 1,
+          "iou": 0.7448124853008026,
+          "geom_state": "GEOM_UPRIGHT",
+          "det_box": [
+            "817.0878295898438",
+            "339.00054931640625",
+            "1416.5223388671875",
+            "780.271728515625"
+          ]
+        }
+      ],
+      "all_upright": true
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_HN_SIT_G002_V04",
+      "request_id": "V6_TARGET_SUPPORT_PILOT_0009",
+      "matches": [
+        {
+          "person_id": 1,
+          "iou": 0.7299209621512435,
+          "geom_state": "GEOM_UPRIGHT",
+          "det_box": [
+            "742.63916015625",
+            "303.9053649902344",
+            "1511.0487060546875",
+            "791.9378051757812"
+          ]
+        }
+      ],
+      "all_upright": true
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_HN_SIT_G005_V03",
+      "request_id": "V6_TARGET_SUPPORT_PILOT_0023",
+      "matches": [
+        {
+          "person_id": 1,
+          "iou": 0.6517674346719003,
+          "geom_state": "GEOM_UPRIGHT",
+          "det_box": [
+            "576.9746704101562",
+            "350.4998474121094",
+            "1234.5697021484375",
+            "790.3956909179688"
+          ]
+        }
+      ],
+      "all_upright": true
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_HN_SIT_G007_V03",
+      "request_id": "V6_TARGET_SUPPORT_PILOT_0033",
+      "matches": [
+        {
+          "person_id": 1,
+          "iou": 0.7263411299807044,
+          "geom_state": "GEOM_UPRIGHT",
+          "det_box": [
+            "650.70556640625",
+            "254.40797424316406",
+            "1212.34423828125",
+            "651.1446533203125"
+          ]
+        }
+      ],
+      "all_upright": true
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_HN_SIT_G007_V04",
+      "request_id": "V6_TARGET_SUPPORT_PILOT_0034",
+      "matches": [
+        {
+          "person_id": 1,
+          "iou": 0.7113845258931806,
+          "geom_state": "GEOM_UPRIGHT",
+          "det_box": [
+            "763.7032470703125",
+            "435.27630615234375",
+            "1385.2113037109375",
+            "765.2935791015625"
+          ]
+        }
+      ],
+      "all_upright": true
+    }
+  ],
+  "pilot": {
+    "planned_rows": 156,
+    "completed_image_rows": 148,
+    "successful_vlm_requests": 110,
+    "unknown_requests": 1,
+    "route_requests": {
+      "P1_background": 14,
+      "P1_primary": 96
+    },
+    "latency_seconds": {
+      "p50": 2.6158251070000915,
+      "p95": 3.2033800429999246
+    },
+    "decision_counts": {
+      "('floor_sitting', 'NO_ALERT_NORMAL_POSE')": 48,
+      "('floor_sitting', 'ALERT_GROUND_LYING')": 7,
+      "('prone_ground_lying', 'ALERT_GROUND_LYING')": 18,
+      "('side_lying', 'ALERT_GROUND_LYING')": 18,
+      "('supine_ground_lying', 'ALERT_GROUND_LYING')": 19,
+      "('pushup_plank', 'NO_ALERT_NORMAL_POSE')": 21,
+      "('pushup_plank', 'ATTENTION_NEAR_GROUND')": 2,
+      "('pushup_plank', 'ALERT_GROUND_LYING')": 1,
+      "('pushup_plank', 'RECHECK_VISUAL_UNCERTAIN')": 2,
+      "('crawling_without_explicit_maintenance', 'ATTENTION_NEAR_GROUND')": 3,
+      "('crawling_without_explicit_maintenance', 'ALERT_GROUND_LYING')": 1,
+      "('crawling_without_explicit_maintenance', 'NO_ALERT_NORMAL_POSE')": 6,
+      "('crawling_quadruped_support', 'NO_ALERT_NORMAL_POSE')": 2
+    },
+    "strict_json_success": "all successful responses parsed; unknown request has no result",
+    "source_binding": "not independently completed"
+  },
+  "regression": {
+    "status": "NOT_RUN",
+    "requests": 0
+  },
+  "limitations": [
+    "connection reset by peer during Pilot; completion-unknown is isolated and not retried",
+    "no Regression was run",
+    "no Full Remaining",
+    "GT_TYPE=PROMPT_DERIVED_SYNTHETIC_GT",
+    "REAL_CAMERA_VALIDATED=false"
+  ],
+  "VAL_REQUESTS": 0,
+  "HOLDOUT_REQUESTS": 0,
+  "CODE_COMMITTED": false,
+  "CURRENT_WINNER": "NONE",
+  "NEXT_ACTION": "WAIT_FOR_EXPLICIT_PROTOCOL_RECOVERY_AUTHORIZATION"
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "item_id": "P4D_PLAN::PF_P4D_HN_SIT_G001_V03",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0003",
+    "matches": [
+      {
+        "person_id": 1,
+        "iou": 0.7448124853008026,
+        "geom_state": "GEOM_UPRIGHT",
+        "det_box": [
+          "817.0878295898438",
+          "339.00054931640625",
+          "1416.5223388671875",
+          "780.271728515625"
+        ]
+      }
+    ],
+    "all_upright": true
+  },
+  {
+    "item_id": "P4D_PLAN::PF_P4D_HN_SIT_G002_V04",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0009",
+    "matches": [
+      {
+        "person_id": 1,
+        "iou": 0.7299209621512435,
+        "geom_state": "GEOM_UPRIGHT",
+        "det_box": [
+          "742.63916015625",
+          "303.9053649902344",
+          "1511.0487060546875",
+          "791.9378051757812"
+        ]
+      }
+    ],
+    "all_upright": true
+  },
+  {
+    "item_id": "P4D_PLAN::PF_P4D_HN_SIT_G005_V03",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0023",
+    "matches": [
+      {
+        "person_id": 1,
+        "iou": 0.6517674346719003,
+        "geom_state": "GEOM_UPRIGHT",
+        "det_box": [
+          "576.9746704101562",
+          "350.4998474121094",
+          "1234.5697021484375",
+          "790.3956909179688"
+        ]
+      }
+    ],
+    "all_upright": true
+  },
+  {
+    "item_id": "P4D_PLAN::PF_P4D_HN_SIT_G007_V03",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0033",
+    "matches": [
+      {
+        "person_id": 1,
+        "iou": 0.7263411299807044,
+        "geom_state": "GEOM_UPRIGHT",
+        "det_box": [
+          "650.70556640625",
+          "254.40797424316406",
+          "1212.34423828125",
+          "651.1446533203125"
+        ]
+      }
+    ],
+    "all_upright": true
+  },
+  {
+    "item_id": "P4D_PLAN::PF_P4D_HN_SIT_G007_V04",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0034",
+    "matches": [
+      {
+        "person_id": 1,
+        "iou": 0.7113845258931806,
+        "geom_state": "GEOM_UPRIGHT",
+        "det_box": [
+          "763.7032470703125",
+          "435.27630615234375",
+          "1385.2113037109375",
+          "765.2935791015625"
+        ]
+      }
+    ],
+    "all_upright": true
+  }
+]
