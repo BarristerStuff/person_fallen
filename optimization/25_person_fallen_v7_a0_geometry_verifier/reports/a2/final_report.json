@@ -1,0 +1,13 @@
+{
+ "candidate":"V7-A2-TWO_STATE_VETO_SCENE_FALLBACK",
+ "final_status":"STAGE2_A2_GEOMETRY_FAIL",
+ "thresholds":{"tau_ang":45,"tau_dy":0.3,"tau_kp":0.5},
+ "logo":"reports/a2/logo.json",
+ "G1":{"ground_detected":141,"all_primary_upright":4,"required_max":2,"pilot_ground_all_upright":0,"pilot_required":0,"gate":"FAIL"},
+ "G2":{"floor_all_primary_upright":53,"total":55,"required_min":50,"gate":"PASS_BY_GEOMETRY_COUNT","specified_v6_false_positive_recheck":"not_completed"},
+ "G3":{"ground_vetoed_persons":"reports/a2/vetoed_ground.json","auxiliary_not_upright":41,"total_auxiliary":41,"normal_negative_non_floor_all_vetoed":91},
+ "G4":{"pilot_p1_requests":"NOT_RUN","pilot_p2_requests":"NOT_RUN","budget":"NOT_APPLICABLE"},
+ "pilot":{"requests":0,"gate":"NOT_RUN"},"regression":{"requests":0,"gate":"NOT_RUN"},
+ "limitations":["Stage 2 G1 failed: four detected ground-lying images had all primary persons GEOM_UPRIGHT; no VLM requests were made","thresholds are diagnostic only and not frozen","DEV includes pilot images","GT_TYPE=PROMPT_DERIVED_SYNTHETIC_GT","REAL_CAMERA_VALIDATED=false"],
+ "VAL_REQUESTS":0,"HOLDOUT_REQUESTS":0,"CODE_COMMITTED":false,"CURRENT_WINNER":"NONE","NEXT_ACTION":"CLOSE_V7_A2_CANDIDATE"
+}

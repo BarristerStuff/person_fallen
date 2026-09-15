@@ -1,0 +1,2280 @@
+{
+  "global_candidates": 24,
+  "selected_thresholds": [
+    45,
+    0.3,
+    0.5
+  ],
+  "selected_metrics": {
+    "ground_detected": 141,
+    "ground_all_upright": 0,
+    "pilot_ground_all_upright": 0,
+    "floor_all_upright": 53
+  },
+  "logo": [
+    {
+      "held_out_group": "PF_P4D_HN_CRAWL_G001",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "P4D_PLAN::PF_P4D_HN_CRAWL_G001_V01": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_CRAWL_G001_V02": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_CRAWL_G001_V03": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_CRAWL_G001_V04": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_CRAWL_G001_V05": [
+            "GEOM_NOT_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "PF_P4D_HN_KNEEL_G001",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "P4D_PLAN::PF_P4D_HN_KNEEL_G001_V01": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_KNEEL_G001_V02": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_KNEEL_G001_V03": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_KNEEL_G001_V04": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_KNEEL_G001_V05": [
+            "GEOM_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "PF_P4D_HN_KNEEL_G002",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "P4D_PLAN::PF_P4D_HN_KNEEL_G002_V01": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_KNEEL_G002_V02": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_KNEEL_G002_V03": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_KNEEL_G002_V04": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_KNEEL_G002_V05": [
+            "GEOM_NOT_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "PF_P4D_HN_KNEEL_G003",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "P4D_PLAN::PF_P4D_HN_KNEEL_G003_V01": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_KNEEL_G003_V02": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_KNEEL_G003_V03": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_KNEEL_G003_V04": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_KNEEL_G003_V05": [
+            "GEOM_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "PF_P4D_HN_KNEEL_G004",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "P4D_PLAN::PF_P4D_HN_KNEEL_G004_V01": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_KNEEL_G004_V02": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_KNEEL_G004_V03": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_KNEEL_G004_V04": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_KNEEL_G004_V05": [
+            "GEOM_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "PF_P4D_HN_KNEEL_G005",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "P4D_PLAN::PF_P4D_HN_KNEEL_G005_V01": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_KNEEL_G005_V02": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_KNEEL_G005_V03": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_KNEEL_G005_V04": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_KNEEL_G005_V05": [
+            "GEOM_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "PF_P4D_HN_KNEEL_G006",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "P4D_PLAN::PF_P4D_HN_KNEEL_G006_V01": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_KNEEL_G006_V02": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_KNEEL_G006_V03": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_KNEEL_G006_V04": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_KNEEL_G006_V05": [
+            "GEOM_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "PF_P4D_HN_KNEEL_G007",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "P4D_PLAN::PF_P4D_HN_KNEEL_G007_V01": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_KNEEL_G007_V02": [
+            "GEOM_UPRIGHT",
+            "GEOM_UNCERTAIN"
+          ],
+          "P4D_PLAN::PF_P4D_HN_KNEEL_G007_V03": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_KNEEL_G007_V04": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_KNEEL_G007_V05": [
+            "GEOM_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "PF_P4D_HN_MAINT_G002",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "P4D_PLAN::PF_P4D_HN_MAINT_G002_V01": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_MAINT_G002_V02": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_MAINT_G002_V03": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_MAINT_G002_V04": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_MAINT_G002_V05": [
+            "GEOM_NOT_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "PF_P4D_HN_PLANK_G001",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "P4D_PLAN::PF_P4D_HN_PLANK_G001_V01": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_PLANK_G001_V02": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_PLANK_G001_V03": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_PLANK_G001_V04": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_PLANK_G001_V05": [
+            "GEOM_NOT_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "PF_P4D_HN_PLANK_G002",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "P4D_PLAN::PF_P4D_HN_PLANK_G002_V01": [
+            "GEOM_NOT_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "PF_P4D_HN_SIT_G001",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 5,
+        "states": {
+          "P4D_PLAN::PF_P4D_HN_SIT_G001_V01": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_SIT_G001_V02": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_SIT_G001_V03": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_SIT_G001_V04": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_SIT_G001_V05": [
+            "GEOM_UPRIGHT",
+            "GEOM_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "PF_P4D_HN_SIT_G002",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 5,
+        "states": {
+          "P4D_PLAN::PF_P4D_HN_SIT_G002_V01": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_SIT_G002_V02": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_SIT_G002_V03": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_SIT_G002_V04": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_SIT_G002_V05": [
+            "GEOM_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "PF_P4D_HN_SIT_G003",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 5,
+        "states": {
+          "P4D_PLAN::PF_P4D_HN_SIT_G003_V01": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_SIT_G003_V02": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_SIT_G003_V03": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_SIT_G003_V04": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_SIT_G003_V05": [
+            "GEOM_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "PF_P4D_HN_SIT_G004",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 5,
+        "states": {
+          "P4D_PLAN::PF_P4D_HN_SIT_G004_V01": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_SIT_G004_V02": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_SIT_G004_V03": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_SIT_G004_V04": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_SIT_G004_V05": [
+            "GEOM_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "PF_P4D_HN_SIT_G005",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 5,
+        "states": {
+          "P4D_PLAN::PF_P4D_HN_SIT_G005_V01": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_SIT_G005_V02": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_SIT_G005_V03": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_SIT_G005_V04": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_SIT_G005_V05": [
+            "GEOM_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "PF_P4D_HN_SIT_G006",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 5,
+        "states": {
+          "P4D_PLAN::PF_P4D_HN_SIT_G006_V01": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_SIT_G006_V02": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_SIT_G006_V03": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_SIT_G006_V04": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_SIT_G006_V05": [
+            "GEOM_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "PF_P4D_HN_SIT_G007",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 5,
+        "states": {
+          "P4D_PLAN::PF_P4D_HN_SIT_G007_V01": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_SIT_G007_V02": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_SIT_G007_V03": [
+            "GEOM_UPRIGHT",
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_SIT_G007_V04": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_HN_SIT_G007_V05": [
+            "GEOM_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "PF_P4D_NEG_CHAIR_G001",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "P4D_PLAN::PF_P4D_NEG_CHAIR_G001_V01": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_NEG_CHAIR_G001_V02": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_NEG_CHAIR_G001_V03": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_NEG_CHAIR_G001_V04": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_NEG_CHAIR_G001_V05": [
+            "GEOM_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "PF_P4D_NEG_CHAIR_G002",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "P4D_PLAN::PF_P4D_NEG_CHAIR_G002_V01": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_NEG_CHAIR_G002_V02": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_NEG_CHAIR_G002_V03": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_NEG_CHAIR_G002_V04": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_NEG_CHAIR_G002_V05": [
+            "GEOM_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "PF_P4D_NEG_CHAIR_G003",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "P4D_PLAN::PF_P4D_NEG_CHAIR_G003_V01": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_NEG_CHAIR_G003_V02": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_NEG_CHAIR_G003_V03": [
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_UPRIGHT",
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_NEG_CHAIR_G003_V04": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_NEG_CHAIR_G003_V05": [
+            "GEOM_NOT_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "PF_P4D_POS_INTENTIONAL_G001",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 5,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "P4D_PLAN::PF_P4D_POS_INTENTIONAL_G001_V01": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_POS_INTENTIONAL_G001_V02": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_POS_INTENTIONAL_G001_V03": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_POS_INTENTIONAL_G001_V04": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_POS_INTENTIONAL_G001_V05": [
+            "GEOM_NOT_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "PF_P4D_POS_MULTI_G001",
+      "selected": [
+        45,
+        0.28,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 5,
+        "ground_all_upright": 1,
+        "pilot_ground_all_upright": 1,
+        "floor_all_upright": 0,
+        "states": {
+          "P4D_PLAN::PF_P4D_POS_MULTI_G001_V01": [
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_POS_MULTI_G001_V02": [
+            "GEOM_UPRIGHT",
+            "GEOM_UPRIGHT",
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_POS_MULTI_G001_V03": [
+            "GEOM_UPRIGHT",
+            "GEOM_UPRIGHT",
+            "GEOM_UPRIGHT",
+            "GEOM_UNCERTAIN",
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_POS_MULTI_G001_V04": [
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_POS_MULTI_G001_V05": [
+            "GEOM_UPRIGHT",
+            "GEOM_UPRIGHT",
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "PF_P4D_POS_PRONE_G001",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 5,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "P4D_PLAN::PF_P4D_POS_PRONE_G001_V01": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_POS_PRONE_G001_V02": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_POS_PRONE_G001_V03": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_POS_PRONE_G001_V04": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_POS_PRONE_G001_V05": [
+            "GEOM_NOT_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "PF_P4D_POS_SIDE_G001",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 5,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "P4D_PLAN::PF_P4D_POS_SIDE_G001_V01": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_POS_SIDE_G001_V02": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_POS_SIDE_G001_V03": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_POS_SIDE_G001_V04": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_POS_SIDE_G001_V05": [
+            "GEOM_NOT_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "PF_P4D_POS_SUPINE_G001",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 5,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "P4D_PLAN::PF_P4D_POS_SUPINE_G001_V01": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_POS_SUPINE_G001_V02": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_POS_SUPINE_G001_V03": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_POS_SUPINE_G001_V04": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "P4D_PLAN::PF_P4D_POS_SUPINE_G001_V05": [
+            "GEOM_NOT_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "pf_v2_aigc_h01-sitting-on-floor",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 8,
+        "states": {
+          "V2_ORIGINAL::IMG_003702": [
+            "GEOM_UPRIGHT",
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003703": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003704": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003705": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003706": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003707": [
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003708": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003709": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003710": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003711": [
+            "GEOM_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "pf_v2_aigc_h02-sitting-on-floor",
+      "selected": [
+        45,
+        0.32,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 9,
+        "states": {
+          "V2_ORIGINAL::IMG_003712": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003713": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003714": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003715": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003716": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003717": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003718": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003719": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003720": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003721": [
+            "GEOM_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "pf_v2_aigc_h03-kneeling",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "V2_ORIGINAL::IMG_003722": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003723": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003724": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003725": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003726": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003727": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003728": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003729": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003730": [
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003731": [
+            "GEOM_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "pf_v2_aigc_h04-kneeling",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "V2_ORIGINAL::IMG_003732": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003733": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003734": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003735": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003736": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003737": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003738": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003740": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003741": [
+            "GEOM_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "pf_v2_aigc_h05-squatting",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "V2_ORIGINAL::IMG_003742": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003743": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003744": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003745": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003746": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003747": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003748": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003750": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003751": [
+            "GEOM_UPRIGHT",
+            "GEOM_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "pf_v2_aigc_h06-squatting",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "V2_ORIGINAL::IMG_003752": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003753": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003754": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003755": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003756": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003757": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003758": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003759": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003760": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003761": [
+            "GEOM_NOT_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "pf_v2_aigc_h07-deep-bending-picking-up-items",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "V2_ORIGINAL::IMG_003762": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003763": [
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_UNCERTAIN"
+          ],
+          "V2_ORIGINAL::IMG_003764": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003765": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003766": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003767": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003768": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003770": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003771": [
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_UPRIGHT",
+            "GEOM_NOT_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "pf_v2_aigc_h08-deep-bending-picking-up-items",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "V2_ORIGINAL::IMG_003772": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003773": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003774": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003775": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003776": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003777": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003778": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003779": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003780": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003781": [
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_UPRIGHT",
+            "GEOM_UNCERTAIN",
+            "GEOM_UNCERTAIN",
+            "GEOM_UNCERTAIN"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "pf_v2_aigc_h09-exercise-push-up-plank",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "V2_ORIGINAL::IMG_003782": [
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_UPRIGHT",
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003783": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003784": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003785": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003786": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003787": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003788": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003789": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003790": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003791": [
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "pf_v2_aigc_h10-exercise-push-up-plank",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "V2_ORIGINAL::IMG_003792": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003793": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003794": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003795": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003796": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003797": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003798": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003799": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003800": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003801": [
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_UPRIGHT",
+            "GEOM_UPRIGHT",
+            "GEOM_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "pf_v2_aigc_h11-crawling-under-equipment-inspection",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "V2_ORIGINAL::IMG_003802": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003803": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003804": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003805": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003806": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003807": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003808": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003809": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003810": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003811": [
+            "GEOM_NOT_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "pf_v2_aigc_n01-normal-standing",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "V2_ORIGINAL::IMG_003882": [
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003883": [
+            "GEOM_UPRIGHT",
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003884": [
+            "GEOM_UPRIGHT",
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003885": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003886": [
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003887": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003888": [
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003889": [
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003890": [
+            "GEOM_UPRIGHT",
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003891": [
+            "GEOM_UPRIGHT",
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "pf_v2_aigc_n02-normal-walking",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "V2_ORIGINAL::IMG_003892": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003893": [
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003894": [
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003895": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003896": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003897": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003898": [
+            "GEOM_UPRIGHT",
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003899": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003900": [
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003901": [
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_NOT_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "pf_v2_aigc_n03-normal-seated-on-chair-stool",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "V2_ORIGINAL::IMG_003902": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003903": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003904": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003905": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003906": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003907": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003908": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003909": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003910": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003911": [
+            "GEOM_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "pf_v2_aigc_n04-normal-seated-on-chair-stool",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "V2_ORIGINAL::IMG_003912": [
+            "GEOM_UPRIGHT",
+            "GEOM_UPRIGHT",
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003913": [
+            "GEOM_UPRIGHT",
+            "GEOM_UPRIGHT",
+            "GEOM_UPRIGHT",
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003914": [
+            "GEOM_UPRIGHT",
+            "GEOM_UPRIGHT",
+            "GEOM_UPRIGHT",
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003915": [
+            "GEOM_UPRIGHT",
+            "GEOM_UPRIGHT",
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003916": [
+            "GEOM_UPRIGHT",
+            "GEOM_UPRIGHT",
+            "GEOM_UPRIGHT",
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003917": [
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_UPRIGHT",
+            "GEOM_UPRIGHT",
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003918": [
+            "GEOM_UPRIGHT",
+            "GEOM_UPRIGHT",
+            "GEOM_UPRIGHT",
+            "GEOM_UPRIGHT",
+            "GEOM_UPRIGHT",
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003919": [
+            "GEOM_UPRIGHT",
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003920": [
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_UPRIGHT",
+            "GEOM_UPRIGHT",
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003921": [
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_UPRIGHT",
+            "GEOM_UPRIGHT",
+            "GEOM_UPRIGHT",
+            "GEOM_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "pf_v2_aigc_n05-normal-work-activity",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "V2_ORIGINAL::IMG_003922": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003923": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003924": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003925": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003926": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003927": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003928": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003929": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003930": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003931": [
+            "GEOM_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "pf_v2_aigc_n06-normal-work-activity",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "V2_ORIGINAL::IMG_003932": [
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_UPRIGHT",
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003933": [
+            "GEOM_UPRIGHT",
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003934": [
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003935": [
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003936": [
+            "GEOM_UPRIGHT",
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003937": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003938": [
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_UPRIGHT",
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003939": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003940": [
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003941": [
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_UPRIGHT",
+            "GEOM_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "pf_v2_aigc_p01-supine-on-floor",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 10,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "V2_ORIGINAL::IMG_003982": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003983": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003984": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003985": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003986": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003987": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003988": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003989": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003990": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003991": [
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_UPRIGHT",
+            "GEOM_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "pf_v2_aigc_p02-supine-on-floor",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 10,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "V2_ORIGINAL::IMG_003992": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003993": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003994": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003995": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003996": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003997": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003998": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_003999": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004000": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004001": [
+            "GEOM_NOT_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "pf_v2_aigc_p03-prone-on-floor",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 10,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "V2_ORIGINAL::IMG_004002": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004003": [
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_UNCERTAIN"
+          ],
+          "V2_ORIGINAL::IMG_004004": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004005": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004006": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004007": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004008": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004009": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004010": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004011": [
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_UPRIGHT",
+            "GEOM_UPRIGHT",
+            "GEOM_UPRIGHT",
+            "GEOM_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "pf_v2_aigc_p04-prone-on-floor",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 10,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "V2_ORIGINAL::IMG_004012": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004013": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004014": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004015": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004016": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004017": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004018": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004019": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004020": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004021": [
+            "GEOM_NOT_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "pf_v2_aigc_p05-side-lying-on-floor",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 10,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "V2_ORIGINAL::IMG_004022": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004023": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004024": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004025": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004026": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004027": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004028": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004029": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004030": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004031": [
+            "GEOM_NOT_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "pf_v2_aigc_p06-side-lying-on-floor",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 10,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "V2_ORIGINAL::IMG_004032": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004033": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004034": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004035": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004036": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004037": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004038": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004039": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004040": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004041": [
+            "GEOM_NOT_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "pf_v2_aigc_p07-irregular-sprawled-posture",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 10,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "V2_ORIGINAL::IMG_004042": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004043": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004044": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004045": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004046": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004047": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004048": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004049": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004050": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004051": [
+            "GEOM_NOT_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "pf_v2_aigc_p08-irregular-sprawled-posture",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 10,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "V2_ORIGINAL::IMG_004052": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004053": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004054": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004055": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004056": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004057": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004058": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004059": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004060": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004061": [
+            "GEOM_NOT_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "pf_v2_aigc_p09-partially-occluded-fallen-person",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 10,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "V2_ORIGINAL::IMG_004062": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004063": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004064": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004065": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004066": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004067": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004068": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004069": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004070": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004071": [
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_UNCERTAIN"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "pf_v2_aigc_p10-partially-occluded-fallen-person",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 9,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "V2_ORIGINAL::IMG_004072": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004073": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004074": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004075": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004076": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004077": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004078": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004079": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004081": [
+            "GEOM_NOT_UPRIGHT",
+            "GEOM_UNCERTAIN"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "pf_v2_aigc_p11-small-target-far-distance",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 7,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "V2_ORIGINAL::IMG_004082": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004083": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004084": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004087": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004088": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004089": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004090": [
+            "GEOM_NOT_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "pf_v2_aigc_p12-small-target-far-distance",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 10,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "V2_ORIGINAL::IMG_004092": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004093": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004094": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004095": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004096": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004097": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004098": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004099": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004100": [
+            "GEOM_NOT_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004101": [
+            "GEOM_NOT_UPRIGHT"
+          ]
+        }
+      }
+    },
+    {
+      "held_out_group": "pf_v2_aigc_u01-severely-occluded-tiny-blurry",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {}
+      }
+    },
+    {
+      "held_out_group": "pf_v2_aigc_u02-unclear-support-surface-partial-body",
+      "selected": [
+        45,
+        0.3,
+        0.5
+      ],
+      "held_out": {
+        "ground_detected": 0,
+        "ground_all_upright": 0,
+        "pilot_ground_all_upright": 0,
+        "floor_all_upright": 0,
+        "states": {
+          "V2_ORIGINAL::IMG_004192": [
+            "GEOM_UNCERTAIN"
+          ],
+          "V2_ORIGINAL::IMG_004193": [
+            "GEOM_UNCERTAIN"
+          ],
+          "V2_ORIGINAL::IMG_004194": [
+            "GEOM_UPRIGHT"
+          ],
+          "V2_ORIGINAL::IMG_004195": [
+            "GEOM_UNCERTAIN"
+          ],
+          "V2_ORIGINAL::IMG_004196": [
+            "GEOM_UNCERTAIN",
+            "GEOM_UNCERTAIN"
+          ],
+          "V2_ORIGINAL::IMG_004200": [
+            "GEOM_UNCERTAIN",
+            "GEOM_UNCERTAIN"
+          ],
+          "V2_ORIGINAL::IMG_004201": [
+            "GEOM_UNCERTAIN"
+          ]
+        }
+      }
+    }
+  ]
+}
