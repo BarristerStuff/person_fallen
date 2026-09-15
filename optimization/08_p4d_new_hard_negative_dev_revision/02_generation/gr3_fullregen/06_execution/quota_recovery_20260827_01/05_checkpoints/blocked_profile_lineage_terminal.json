@@ -1,0 +1,20 @@
+{
+  "C3": false,
+  "CONTINUATION_COMPATIBLE": false,
+  "FORMAL_INGEST": false,
+  "HOLDOUT": 0,
+  "NEW_VAL": 0,
+  "OUTSTANDING": 341,
+  "P4D_GR3Q1_STATUS": "BLOCKED_PROFILE_LINEAGE_CHANGE",
+  "P4D_STATUS": "GENERATION_REQUIRED",
+  "PRESERVED_GR3E_SUCCESS": 99,
+  "PROVIDER_REQUESTS": 0,
+  "QUOTA_RECOVERY_AUTHORIZED": false,
+  "QUOTA_RECOVERY_EXECUTION_ELIGIBLE": false,
+  "all_bound_artifacts_match": true,
+  "captured_at": "2026-08-27T14:21:39.470+00:00",
+  "next_valid_lifecycle": "NEW_FULL_REGENERATION_LINEAGE_440",
+  "preparation_freeze": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_recovery_20260827_01/freeze/p4d_gr3q1_preparation_freeze.json",
+  "preparation_freeze_sha256": "e64a41f735c8837b273b9100a40f7437e70721df4f1f5be8230a9e634890a847",
+  "preparation_sidecar_sha256": "c5b53a410ff2184125611611b665cc98556365b429c4a96d2c38040ace1ee34b"
+}

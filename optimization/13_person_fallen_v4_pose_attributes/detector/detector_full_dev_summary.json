@@ -1,0 +1,35 @@
+{
+  "by_ground_truth": {
+    "negative": {
+      "coverage": 0.9956521739130435,
+      "detected": 229,
+      "total": 230
+    },
+    "positive": {
+      "coverage": 0.978494623655914,
+      "detected": 182,
+      "total": 186
+    },
+    "uncertain": {
+      "coverage": 0.35,
+      "detected": 7,
+      "total": 20
+    }
+  },
+  "confidence_threshold": 0.15,
+  "crop_manifest": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/manifests/v4_full_dev_crop_manifest.csv",
+  "crop_manifest_sha256": "36b92f06c3be9a9d6450f0239d06a270ef2a57a2062bc674d21c08ebe4afb88f",
+  "detector_name": "Ultralytics_YOLO11n_COCO",
+  "holdout_rows_read": 0,
+  "minimum_box_area_ratio": 0.002,
+  "person_detected_count": 418,
+  "person_detection_coverage": 0.9587155963302753,
+  "runtime_python": "/home/yanbo/net_vlm_person_smoking_optimization/.venv_person_detector/bin/python",
+  "sample_count": 436,
+  "screen_rows_read": 0,
+  "status": "PASS",
+  "ultralytics_version": "8.4.104",
+  "val_rows_read": 0,
+  "vlm_request_count": 0,
+  "weight_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1"
+}

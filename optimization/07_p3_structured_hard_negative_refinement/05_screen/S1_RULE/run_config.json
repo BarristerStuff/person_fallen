@@ -1,0 +1,11 @@
+{
+  "candidate_freeze_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/07_p3_structured_hard_negative_refinement/03_candidates/candidate_freeze.json",
+  "candidate_freeze_sha256": "b67d3016eade8f33a8b167ff03aaacc0061f96b3d78b7a13518a27f8276542df",
+  "derived_offline": true,
+  "holdout_requests": 0,
+  "model_requests": 0,
+  "source_stream": "/home/yanbo/net_vlm_person_fallen_v2_optimization/07_p3_structured_hard_negative_refinement/05_screen/S1_STRUCTURED",
+  "source_stream_predictions_sha256": "26d6a65183a56d29edb3b930d956364f522620072a8fc0d49286c89f04124f4b",
+  "val_requests": 0,
+  "variant": "S1_RULE"
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS_FAKE_TRANSPORT_FULL_E2E",
+  "temporary_output_removed_after_test": true,
+  "rows": 436,
+  "reused_rows": 115,
+  "new_requests": 321,
+  "full_dev_gate": "PASS",
+  "partial_summary_updates_observed": true,
+  "requests_parent_created": true,
+  "jsonl_line_count": 436,
+  "completion_lock_present": true,
+  "completion_lock_gate": "PASS",
+  "protocol_failures": 0,
+  "network_requests": 0
+}

@@ -1,0 +1,18 @@
+{
+  "captured_at": "2026-08-30T11:05:30.007+00:00",
+  "current_local": "2026-08-30T19:05:30.007855+08:00",
+  "current_utc": "2026-08-30T11:05:30.007855+00:00",
+  "do_not_sleep": true,
+  "historical_time_gate_blocking": false,
+  "not_before_local_historical": "2026-08-28T19:00:00+08:00",
+  "not_before_utc_historical": "2026-08-28T11:00:00+00:00",
+  "provider_error_type": "usage_limit_reached",
+  "provider_requests": 0,
+  "resets_at_epoch": 1787914147,
+  "resets_at_local": "2026-08-28T18:49:07+08:00",
+  "resets_at_utc": "2026-08-28T10:49:07+00:00",
+  "safety_margin_seconds": 653,
+  "source_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_window_recovery_20260828_02/00_preflight/quota_reset_evidence.json",
+  "source_sha256": "a2d3a613a8728979eaa71555af5fc90fdbabc0dc8adde556ce630dc4b151aedb",
+  "time_gate_pass_for_current_task": true
+}

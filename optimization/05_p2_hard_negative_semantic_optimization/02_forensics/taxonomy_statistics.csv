@@ -1,0 +1,6 @@
+taxonomy,total_hard_negative_count,baseline_FP_count,baseline_TN_count,category_FPR,group_count,model_evidence_pattern
+deep_bending_or_picking,20,0,20,0.0,2,no baseline DESIGN false positive
+exercise_pushup_or_plank,10,2,8,0.2,1,misread a horizontal torso actively elevated by hands and feet as prone lying
+kneeling_or_half_kneeling,20,2,18,0.1,2,misread knee/shin support and forward-bent torso as prone ground support
+sitting_on_floor,10,2,8,0.2,1,misread seated buttocks/legs and wall-supported upright torso as ground-supported lying
+squatting_or_crouching,10,1,9,0.1,1,misread a compact low crouch as curled lying

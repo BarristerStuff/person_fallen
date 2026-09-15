@@ -1,0 +1,19 @@
+{
+  "adapter_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_02_policy_adapter_20260830_01/01_adapter/render_prompt_manifest_v1.csv",
+  "adapter_row_count": 308,
+  "adapter_sha256": "b2b69c7eebbb4175294b0094e6dc50a804a25244ff7aecd2e359f47c417e1c0b",
+  "captured_at": "2026-09-01T03:16:55.114+00:00",
+  "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/03_fullregen_plan/full_regen_prompt_manifest.csv",
+  "role_counts": {
+    "hard_negative": 300,
+    "ordinary_negative": 40,
+    "positive": 100
+  },
+  "row_count": 440,
+  "sha256": "5f7afbc010a0028497ec0210e75dc28cc79212fbc114cbf4741ee0bc4ce361c4",
+  "split_counts": {
+    "NEW_DESIGN": 265,
+    "NEW_SCREEN": 175
+  },
+  "unique_prompt_ids": 440
+}

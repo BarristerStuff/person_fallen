@@ -1,0 +1,202 @@
+{
+  "P4D_IMAGES_ACCEPTED": 0,
+  "dimension_failures": 0,
+  "exact_duplicate_hits": 0,
+  "full_440_qa": "NOT_REACHED",
+  "gr1_sha_hits": 0,
+  "items": [
+    {
+      "crop_box": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "final_sha256": "ba6d65e33971be24526c565da46a9af23ca4e7ffb5acfe581345df47a73d82ce",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_POS_CURLED_G003_V03",
+      "raw_sha256": "68e137b3d3db8c0755cba0df4df407a7c3cb3393d7569f65367f05a0716efa5c",
+      "raw_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "crop_box": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "final_sha256": "061022f4fc20068e241079c06f07ecfc0b6f47f3d854fd6fc9e8dba458f8118b",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_POS_CURLED_G003_V04",
+      "raw_sha256": "a64c24f13e28cd182bba558951ee88c90947e53e000e981234aadd42b95235da",
+      "raw_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "crop_box": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "final_sha256": "cc7aa39aba0d92ccdd1caba5648e295b8398cde4675128d20b667c20d82d7ca0",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_POS_CURLED_G003_V05",
+      "raw_sha256": "5e7c862cdae251642d9ac981fd8c52fbe1f9291ccc5141741db61b98601c9473",
+      "raw_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "crop_box": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "final_sha256": "acea414095fe7f68655f2f36be7baa67c19b612161bd24aef5e1815484517511",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_NEG_CHAIR_G002_V01",
+      "raw_sha256": "bcdd9e24fb01512463ba94d249ebe3aac6d6c4a0283d3535b178d696c207251f",
+      "raw_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "crop_box": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "final_sha256": "a5f6f88a5c980eb047748fb00c5554b1a616e707293615131c95f9c4f4afc6c8",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_NEG_CHAIR_G002_V02",
+      "raw_sha256": "8c9fd8b8137efac5e2fd99117524c823b350c4b589150c2fdd98b06bc444a30a",
+      "raw_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "crop_box": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "final_sha256": "02c8ff9cde3518c617ac15ab5b02c21552420e51bfb071afd35de209b8cee038",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_NEG_CHAIR_G002_V03",
+      "raw_sha256": "2c646c5343a696249449bdc3f5ff145fe4d1e345e37d1e6fae1029ee1993a6fa",
+      "raw_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "crop_box": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "final_sha256": "6d0c7a604f84040ba6139f177ecbb1acd9e312d5214875b88be1d8cb2aa119d2",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_NEG_CHAIR_G002_V04",
+      "raw_sha256": "d23fd5bc1efaaf8cb414edaa50292158c276f545f66e933b12cefe1fb7ebbe0a",
+      "raw_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "crop_box": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "final_sha256": "80f9be381d67188e2bf8e4f43e8f931c1e3a8e3164cd533f3cb336bd51ce31b4",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_NEG_CHAIR_G002_V05",
+      "raw_sha256": "fb2b298c8d2b0f22bd9778e9932d4559cbf27fd0cfc213bccd307afbb5e3e66f",
+      "raw_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "crop_box": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "final_sha256": "b1ff824c20d282d9f18178d743a4627b3d266600380bd17bb152590af0a87b12",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_NEG_CHAIR_G003_V01",
+      "raw_sha256": "5b1d237b68b88da54c7e15dda4977d584e34c7a35e8eb2d4891095c74de9879a",
+      "raw_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "crop_box": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "final_sha256": "de99e3d567f081b3a95073da94cab3d44d8a69a56dfa9595fd70b64ade24bc8e",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_NEG_CHAIR_G003_V02",
+      "raw_sha256": "beca7137cd1eec284c36263186cc7ffcdf0b8b9f30d63f3c36a22b7f2d605f2f",
+      "raw_size": [
+        1672,
+        941
+      ]
+    }
+  ],
+  "new_final_count": 10,
+  "new_raw_count": 10,
+  "pillow_failures": 0
+}

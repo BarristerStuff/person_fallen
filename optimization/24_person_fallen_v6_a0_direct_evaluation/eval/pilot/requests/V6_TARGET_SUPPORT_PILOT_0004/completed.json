@@ -1,0 +1,61 @@
+{
+  "state": "completed",
+  "phase": "pilot",
+  "request_id": "V6_TARGET_SUPPORT_PILOT_0004",
+  "item_id": "P4D_PLAN::PF_P4D_HN_SIT_G001_V04",
+  "operational_id": "PFV6_PILOT_0004",
+  "taxonomy": "floor_sitting",
+  "group_id": "PF_P4D_HN_SIT_G001",
+  "evaluation_stratum": "normal_negative",
+  "source_image_sha256": "6c15404fd1f16c2c4e478e153bd3d7cc723e4e279c80ea6e91832cc998c0aa89",
+  "full_view_sha256": "417ec8415be70a01a6fce18bbeb57a958e7fd8a898832661352beefef8ab3793",
+  "crop_view_sha256": "a3ebd00681a018a4d5665c34c18d69423a3aa04edf661d1b52749fe9c3085079",
+  "payload_sha256": "72cfbbeb60e649dcf8898b48dfdddb4dbb24836b56bb0ad40655f4a621e5a9ed",
+  "claimed_timestamp": "2026-09-14T10:18:24.899107+00:00",
+  "http_status": 200,
+  "latency_seconds": 5.714362920996791,
+  "completion_unknown": false,
+  "transport_error": null,
+  "raw_response_sha256": "8e0a3e71d4e359097d2b23a24b394ec70f1e5f30b9b5c1b5bb64f046a4f304ab",
+  "raw_response_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/24_person_fallen_v6_a0_direct_evaluation/eval/pilot/requests/V6_TARGET_SUPPORT_PILOT_0004/response.raw",
+  "received_timestamp": "2026-09-14T10:18:30.616062+00:00",
+  "strict_json_ok": true,
+  "source_binding_ok": true,
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 198,
+  "parsed": {
+    "scene_coverage": "complete",
+    "people": [
+      {
+        "person_id": 1,
+        "bbox_1000": [
+          380,
+          380,
+          750,
+          770
+        ],
+        "person_visible": "yes",
+        "pose": "floor_sitting",
+        "torso_orientation": "inclined",
+        "torso_ground_contact": "partial",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "body_support_configuration": "pelvis_supported",
+        "explicit_work_evidence": "yes",
+        "visual_quality": "clear",
+        "evidence": "Person is seated on the floor with legs extended, leaning forward into an open electrical cabinet."
+      }
+    ]
+  },
+  "person_decisions": [
+    {
+      "person_id": 1,
+      "decision": "NO_ALERT_NORMAL_POSE",
+      "reason": "CONSISTENT_FLOOR_SITTING"
+    }
+  ],
+  "image_decision": "NO_ALERT_NORMAL_POSE",
+  "image_reason": "ALL_PEOPLE_NORMAL",
+  "completed_timestamp": "2026-09-14T10:18:30.616855+00:00"
+}

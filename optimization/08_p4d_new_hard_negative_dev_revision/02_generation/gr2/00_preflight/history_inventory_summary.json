@@ -1,0 +1,26 @@
+{
+  "final_unique_count": 192,
+  "first_outstanding_prompt_id": "PF_P4D_HN_CRAWL_G005_V01",
+  "frozen_prompt_count": 440,
+  "frozen_prompt_unique_count": 440,
+  "gr1_ledger_rows": 226,
+  "gr1_ledger_sha256": "20e00361c532f8386d3f160363cc76d12f104618b6c9fd270d2ec5c78a1a2fd4",
+  "gr1_ledger_sha_expected": "20e00361c532f8386d3f160363cc76d12f104618b6c9fd270d2ec5c78a1a2fd4",
+  "gr1_success_rows": 192,
+  "gr1_unique_attempted_prompt_ids": 226,
+  "gr1_unique_success_ids": 192,
+  "intersection_count": 0,
+  "missing_prompt_ids": [],
+  "outstanding_by_gr1_state": {
+    "FAILED_401": 2,
+    "FAILED_429": 32,
+    "NEVER_STARTED": 214
+  },
+  "outstanding_count": 248,
+  "preserved_verification_issue_count": 0,
+  "preserved_verification_issues": [],
+  "raw_unique_count": 192,
+  "unexpected_preserved_prompt_ids": [],
+  "union_count": 440,
+  "verified_preserved_success_count": 192
+}

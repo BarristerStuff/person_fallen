@@ -1,0 +1,585 @@
+{
+  "P4D_IMAGES_ACCEPTED": 0,
+  "captured_at": "2026-08-30T11:47:53.151465+00:00",
+  "dimension_failures": 0,
+  "duplicate_prompt_ids": [],
+  "exact_duplicate_hits": 0,
+  "full_440_qa": "NOT_REACHED",
+  "human_semantic_acceptance": "NOT_STARTED",
+  "images": [
+    {
+      "final_error": "",
+      "final_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/08_final/PF_P4D_HN_KNEEL_G009_V03.png",
+      "final_pillow_ok": true,
+      "final_sha256": "217fe977333506f063cf4574d441a9644bb71c85fcba8a38bc9f836c5d7c826c",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_HN_KNEEL_G009_V03",
+      "raw_error": "",
+      "raw_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/07_generated_raw/PF_P4D_HN_KNEEL_G009_V03.png",
+      "raw_pillow_ok": true,
+      "raw_sha256": "cb5588082724b81597fd3a477312eabe7a083fb55dfc4671c0a1cb8f0d0ff907",
+      "raw_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "final_error": "",
+      "final_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/08_final/PF_P4D_HN_KNEEL_G009_V04.png",
+      "final_pillow_ok": true,
+      "final_sha256": "9f3c79cd42d307dab91e5030e46e3509044abf996fec3917652b9824407c2ca7",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_HN_KNEEL_G009_V04",
+      "raw_error": "",
+      "raw_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/07_generated_raw/PF_P4D_HN_KNEEL_G009_V04.png",
+      "raw_pillow_ok": true,
+      "raw_sha256": "bdc837322ec4bddfc4e85f6930651f3f5a7b9df6df8031f11c72299b685e80b4",
+      "raw_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "final_error": "",
+      "final_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/08_final/PF_P4D_HN_KNEEL_G009_V05.png",
+      "final_pillow_ok": true,
+      "final_sha256": "2d75e4de53d2edad686a5d004c88a08ddc8807b275d0ea9a99a27ff825bc361d",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_HN_KNEEL_G009_V05",
+      "raw_error": "",
+      "raw_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/07_generated_raw/PF_P4D_HN_KNEEL_G009_V05.png",
+      "raw_pillow_ok": true,
+      "raw_sha256": "a415e2a29d9de05e97aa4863ec939842d37cc885e8f88d2af1a1a366800b2ccf",
+      "raw_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "final_error": "",
+      "final_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/08_final/PF_P4D_POS_SUPINE_G004_V01.png",
+      "final_pillow_ok": true,
+      "final_sha256": "8099807b5016585ee3ad05867beafcc3a6c1d9ac4bd836157d6d0909519859d2",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_POS_SUPINE_G004_V01",
+      "raw_error": "",
+      "raw_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/07_generated_raw/PF_P4D_POS_SUPINE_G004_V01.png",
+      "raw_pillow_ok": true,
+      "raw_sha256": "edf32b43601685cffdcf20bb335de0b71daa1d044b580bc2b50853947989fd18",
+      "raw_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "final_error": "",
+      "final_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/08_final/PF_P4D_POS_SUPINE_G004_V02.png",
+      "final_pillow_ok": true,
+      "final_sha256": "0f7980a5fa653d0df5e828a14192d525f287dcc1df92e8c9012444f249b11b12",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_POS_SUPINE_G004_V02",
+      "raw_error": "",
+      "raw_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/07_generated_raw/PF_P4D_POS_SUPINE_G004_V02.png",
+      "raw_pillow_ok": true,
+      "raw_sha256": "adc18c6878ae9860487a3056acfc31c34cc8d17a57e9b0e440e08379b9b806f9",
+      "raw_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "final_error": "",
+      "final_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/08_final/PF_P4D_POS_SUPINE_G004_V03.png",
+      "final_pillow_ok": true,
+      "final_sha256": "8edee3b619ed808644e94e7b0c9d64b8b4e4c8ffddc812bf7411bbca57f819c8",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_POS_SUPINE_G004_V03",
+      "raw_error": "",
+      "raw_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/07_generated_raw/PF_P4D_POS_SUPINE_G004_V03.png",
+      "raw_pillow_ok": true,
+      "raw_sha256": "ea26bebb5217d6e9d7af58ef2f366b1ef2d6af4bf69af71cac873d27b8fdd95d",
+      "raw_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "final_error": "",
+      "final_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/08_final/PF_P4D_POS_SUPINE_G004_V04.png",
+      "final_pillow_ok": true,
+      "final_sha256": "df951b32f24404546b4782d0b353325838abb1af907eb681b947ed31bfadd2c4",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_POS_SUPINE_G004_V04",
+      "raw_error": "",
+      "raw_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/07_generated_raw/PF_P4D_POS_SUPINE_G004_V04.png",
+      "raw_pillow_ok": true,
+      "raw_sha256": "c6bde2ca780fe179445693ef8ebc45d7cc658a6579d08ca797b8a6af53c1368e",
+      "raw_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "final_error": "",
+      "final_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/08_final/PF_P4D_POS_SUPINE_G004_V05.png",
+      "final_pillow_ok": true,
+      "final_sha256": "2667430870aec5cac19459fb2c24b4fae06b248c8d37a74bb35dee008b6e33f0",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_POS_SUPINE_G004_V05",
+      "raw_error": "",
+      "raw_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/07_generated_raw/PF_P4D_POS_SUPINE_G004_V05.png",
+      "raw_pillow_ok": true,
+      "raw_sha256": "bcbffe8b75ecb938cb5fd4d0d74de0d0ef5d186412d9ac775e052bcff54cfed6",
+      "raw_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "final_error": "",
+      "final_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/08_final/PF_P4D_NEG_STAND_G003_V01.png",
+      "final_pillow_ok": true,
+      "final_sha256": "895ad7f662f1604e82a007429438cca8a824d36c33d5d54512b9583fa212f872",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_NEG_STAND_G003_V01",
+      "raw_error": "",
+      "raw_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/07_generated_raw/PF_P4D_NEG_STAND_G003_V01.png",
+      "raw_pillow_ok": true,
+      "raw_sha256": "c2474538d68dc26f0fc44ae8fbf682688fef2683498089027c93a7cc32762c3e",
+      "raw_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "final_error": "",
+      "final_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/08_final/PF_P4D_NEG_STAND_G003_V02.png",
+      "final_pillow_ok": true,
+      "final_sha256": "b54a3504508a49e81ae9d0d9b35784acf97673496d0e93d09e8b35cbf8cf9937",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_NEG_STAND_G003_V02",
+      "raw_error": "",
+      "raw_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/07_generated_raw/PF_P4D_NEG_STAND_G003_V02.png",
+      "raw_pillow_ok": true,
+      "raw_sha256": "e04ec450d64e68eed63e7175f33060316b0a2a3ed8011fcf388c85b16caae28d",
+      "raw_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "final_error": "",
+      "final_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/08_final/PF_P4D_NEG_STAND_G003_V03.png",
+      "final_pillow_ok": true,
+      "final_sha256": "cae4fe15440e43003bab4423bf43209de42e40d1d306a8138857c6c2f8752c8f",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_NEG_STAND_G003_V03",
+      "raw_error": "",
+      "raw_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/07_generated_raw/PF_P4D_NEG_STAND_G003_V03.png",
+      "raw_pillow_ok": true,
+      "raw_sha256": "be07e54dfd9f1e8a3ea4436fb21c44f9cac0f78b88be30cc4b427118214ab37d",
+      "raw_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "final_error": "",
+      "final_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/08_final/PF_P4D_NEG_STAND_G003_V04.png",
+      "final_pillow_ok": true,
+      "final_sha256": "73bbf09724dd17872b93fb98553ba7b8d61b01f70f3c4797cc8715b062d8f70d",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_NEG_STAND_G003_V04",
+      "raw_error": "",
+      "raw_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/07_generated_raw/PF_P4D_NEG_STAND_G003_V04.png",
+      "raw_pillow_ok": true,
+      "raw_sha256": "49df822ff215503142938fb75baf0f4e884ec7aed119118a154aa31a6aa3570f",
+      "raw_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "final_error": "",
+      "final_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/08_final/PF_P4D_NEG_STAND_G003_V05.png",
+      "final_pillow_ok": true,
+      "final_sha256": "3d7fa4d17bb6ef2dc979a3cb49bfae426866742aad5d07abad972c09a09da04c",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_NEG_STAND_G003_V05",
+      "raw_error": "",
+      "raw_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/07_generated_raw/PF_P4D_NEG_STAND_G003_V05.png",
+      "raw_pillow_ok": true,
+      "raw_sha256": "39a64d5ef43bda44a711e110c25d7796e8056bc53ec483aa1c128ff3ac45662a",
+      "raw_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "final_error": "",
+      "final_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/08_final/PF_P4D_POS_PRONE_G004_V01.png",
+      "final_pillow_ok": true,
+      "final_sha256": "24f532ea6ac012a9bfd87ccbc6a6773f000fa4839f70b55a39674a7148425bba",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_POS_PRONE_G004_V01",
+      "raw_error": "",
+      "raw_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/07_generated_raw/PF_P4D_POS_PRONE_G004_V01.png",
+      "raw_pillow_ok": true,
+      "raw_sha256": "7d2637bf1e24396e10bc26c69ad1a3d726ef8eba56e09820a3cfda03852b986c",
+      "raw_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "final_error": "",
+      "final_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/08_final/PF_P4D_POS_PRONE_G004_V02.png",
+      "final_pillow_ok": true,
+      "final_sha256": "318c1dd42378c7de8ef42c7981fe5e710e46535b93405f5c2352ade5c90b5f4f",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_POS_PRONE_G004_V02",
+      "raw_error": "",
+      "raw_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/07_generated_raw/PF_P4D_POS_PRONE_G004_V02.png",
+      "raw_pillow_ok": true,
+      "raw_sha256": "47f8637d7c170d32389e16d25cafa30fb9808e05c06413e78233de4a20890b26",
+      "raw_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "final_error": "",
+      "final_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/08_final/PF_P4D_POS_PRONE_G004_V03.png",
+      "final_pillow_ok": true,
+      "final_sha256": "50cedbcdf8e36ea95ccb8312b25492a79738a4caa726231937549fd00c6a4d75",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_POS_PRONE_G004_V03",
+      "raw_error": "",
+      "raw_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/07_generated_raw/PF_P4D_POS_PRONE_G004_V03.png",
+      "raw_pillow_ok": true,
+      "raw_sha256": "51ec9c65e90d0d38ed29207e8a1b3859689f36a332f10e70d5a13f4e4aff748b",
+      "raw_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "final_error": "",
+      "final_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/08_final/PF_P4D_POS_PRONE_G004_V04.png",
+      "final_pillow_ok": true,
+      "final_sha256": "4b3d7b219028eca6059d33dc1cb462db42ff8a0e202bda634ba3525a7a1b0383",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_POS_PRONE_G004_V04",
+      "raw_error": "",
+      "raw_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/07_generated_raw/PF_P4D_POS_PRONE_G004_V04.png",
+      "raw_pillow_ok": true,
+      "raw_sha256": "7b21d326920e5395c35c5578ba88169d28c04ce9a8a94e44ba06ecea1ffea491",
+      "raw_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "final_error": "",
+      "final_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/08_final/PF_P4D_POS_PRONE_G004_V05.png",
+      "final_pillow_ok": true,
+      "final_sha256": "857478e79a9c14bbfcb631f824aec33c3ddc678aa02ab6acb018a808710d1a5e",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_POS_PRONE_G004_V05",
+      "raw_error": "",
+      "raw_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/07_generated_raw/PF_P4D_POS_PRONE_G004_V05.png",
+      "raw_pillow_ok": true,
+      "raw_sha256": "f808015f61a3a4ba3d4cf924b404ca71a60d44ea6d5756ed931a5d6d543d918a",
+      "raw_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "final_error": "",
+      "final_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/08_final/PF_P4D_POS_SIDE_G001_V01.png",
+      "final_pillow_ok": true,
+      "final_sha256": "364c38dabcb618fb649b5241411515ef9ef6184903462ded70fae014cdf05da5",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_POS_SIDE_G001_V01",
+      "raw_error": "",
+      "raw_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/07_generated_raw/PF_P4D_POS_SIDE_G001_V01.png",
+      "raw_pillow_ok": true,
+      "raw_sha256": "2e300f2d142c8fa4e17149b6a53ed8d37ee64757a78e81b56d4d5a9d1f9c3213",
+      "raw_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "final_error": "",
+      "final_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/08_final/PF_P4D_POS_SIDE_G001_V02.png",
+      "final_pillow_ok": true,
+      "final_sha256": "d2b75a57f860260b487d5f15a945592ab80636aac0e15a7ab049acfe14fbefbc",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_POS_SIDE_G001_V02",
+      "raw_error": "",
+      "raw_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/07_generated_raw/PF_P4D_POS_SIDE_G001_V02.png",
+      "raw_pillow_ok": true,
+      "raw_sha256": "5dd44a5035f10c894c7ce3ecc8acb432f464dd441385251273c4abbbb5d9ac40",
+      "raw_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "final_error": "",
+      "final_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/08_final/PF_P4D_POS_SIDE_G001_V03.png",
+      "final_pillow_ok": true,
+      "final_sha256": "d0fa1fb807894961e1b2f5bbec816990aef2fa91c2601adf4be1cac44d61b3a2",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_POS_SIDE_G001_V03",
+      "raw_error": "",
+      "raw_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/07_generated_raw/PF_P4D_POS_SIDE_G001_V03.png",
+      "raw_pillow_ok": true,
+      "raw_sha256": "7cf9de12548d4d66814ac2a1686010373b73e3538e7173dd050ad2fe32b2d226",
+      "raw_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "final_error": "",
+      "final_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/08_final/PF_P4D_POS_SIDE_G001_V04.png",
+      "final_pillow_ok": true,
+      "final_sha256": "996c125e7b5e83d1222b5b20bae00dec92d702263b8505ddd9ed2f3bffaff9c2",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_POS_SIDE_G001_V04",
+      "raw_error": "",
+      "raw_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/07_generated_raw/PF_P4D_POS_SIDE_G001_V04.png",
+      "raw_pillow_ok": true,
+      "raw_sha256": "dc3b5ba68409c3cca323389bffa694cd5f7b6dde0cc63ac3f23a64817a5330ee",
+      "raw_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "final_error": "",
+      "final_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/08_final/PF_P4D_POS_SIDE_G001_V05.png",
+      "final_pillow_ok": true,
+      "final_sha256": "244eaa9aa70cccf4e497f5d0e97b852361fa89c95cb2e219ef16e0a2565b5329",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_POS_SIDE_G001_V05",
+      "raw_error": "",
+      "raw_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/07_generated_raw/PF_P4D_POS_SIDE_G001_V05.png",
+      "raw_pillow_ok": true,
+      "raw_sha256": "efc0a8b3d9a2a5826d4ee3f32ee09cc3d348cac7145dc05fa5ae6b39e2f44dab",
+      "raw_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "final_error": "",
+      "final_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/08_final/PF_P4D_NEG_CHAIR_G001_V01.png",
+      "final_pillow_ok": true,
+      "final_sha256": "e1cd8c750986633e2f5398348459d36f4c51e5204d79ef33953afea97861e02e",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_NEG_CHAIR_G001_V01",
+      "raw_error": "",
+      "raw_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/07_generated_raw/PF_P4D_NEG_CHAIR_G001_V01.png",
+      "raw_pillow_ok": true,
+      "raw_sha256": "1de38b0faddc2cd72ce9f0129338e516bca8c7ba00058d98733178eb23d46e86",
+      "raw_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "final_error": "",
+      "final_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/08_final/PF_P4D_NEG_CHAIR_G001_V02.png",
+      "final_pillow_ok": true,
+      "final_sha256": "2d35dca7ea17ce4620079a39728dd948ad1ef03d1313618cded17aaa9abde28c",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_NEG_CHAIR_G001_V02",
+      "raw_error": "",
+      "raw_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/07_generated_raw/PF_P4D_NEG_CHAIR_G001_V02.png",
+      "raw_pillow_ok": true,
+      "raw_sha256": "3d072442152b829ad09cc0e43cc6549a521fa688b7bc32d6a85c90e393fa88ac",
+      "raw_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "final_error": "",
+      "final_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/08_final/PF_P4D_NEG_CHAIR_G001_V03.png",
+      "final_pillow_ok": true,
+      "final_sha256": "a057becd859cd1d2c7f0e249f78668be378f9de6e44638811c4433753f3f2649",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_NEG_CHAIR_G001_V03",
+      "raw_error": "",
+      "raw_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/07_generated_raw/PF_P4D_NEG_CHAIR_G001_V03.png",
+      "raw_pillow_ok": true,
+      "raw_sha256": "139ce751e02e8924f30dd887a5e452be5aa00670979d08454aa23ec85bc7ddf5",
+      "raw_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "final_error": "",
+      "final_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/08_final/PF_P4D_NEG_CHAIR_G001_V04.png",
+      "final_pillow_ok": true,
+      "final_sha256": "0113b0565996cebc830db470a133ba2b122eb6bfa88130ee68ba617d066be9d4",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_NEG_CHAIR_G001_V04",
+      "raw_error": "",
+      "raw_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/07_generated_raw/PF_P4D_NEG_CHAIR_G001_V04.png",
+      "raw_pillow_ok": true,
+      "raw_sha256": "f44825c0f1c6fedce390e44603fa95c2af70ca4dcdf858ed93aa78d1943b6fd5",
+      "raw_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "final_error": "",
+      "final_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/08_final/PF_P4D_NEG_CHAIR_G001_V05.png",
+      "final_pillow_ok": true,
+      "final_sha256": "721a0f5ac930b5d0d991cc4d6bb2f5ed36d4745661eeae086011abcd3f58013b",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_NEG_CHAIR_G001_V05",
+      "raw_error": "",
+      "raw_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/07_generated_raw/PF_P4D_NEG_CHAIR_G001_V05.png",
+      "raw_pillow_ok": true,
+      "raw_sha256": "2018196024adb717088abf1e36a878a698608c6749310426f808b7e93d820d78",
+      "raw_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "final_error": "",
+      "final_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/08_final/PF_P4D_POS_CURLED_G003_V01.png",
+      "final_pillow_ok": true,
+      "final_sha256": "0ec8ab3eef2dee7d34110766dc459c6d3d7fbc48407a8ada7394e30c2408abfb",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_POS_CURLED_G003_V01",
+      "raw_error": "",
+      "raw_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/07_generated_raw/PF_P4D_POS_CURLED_G003_V01.png",
+      "raw_pillow_ok": true,
+      "raw_sha256": "2d8e68b505450c9f1b2ada5ae61bd8955cdf71c3bde3ce301f8ed2932db0168a",
+      "raw_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "final_error": "",
+      "final_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/08_final/PF_P4D_POS_CURLED_G003_V02.png",
+      "final_pillow_ok": true,
+      "final_sha256": "857f76dd2f773aa40c1cfbe097c7df7948af8db7274d0394a1aa45e40967651c",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "prompt_id": "PF_P4D_POS_CURLED_G003_V02",
+      "raw_error": "",
+      "raw_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_authorized_20260830_05/07_generated_raw/PF_P4D_POS_CURLED_G003_V02.png",
+      "raw_pillow_ok": true,
+      "raw_sha256": "2a9769e46475875d7e41dc62314cbf82f4b0dc7ddc321e7e1e109ce1875e5c39",
+      "raw_size": [
+        1672,
+        941
+      ]
+    }
+  ],
+  "new_final_count": 30,
+  "new_raw_count": 30,
+  "pillow_failures": 0,
+  "semantic_filtering": false
+}

@@ -1,0 +1,84 @@
+{
+  "captured_at": "2026-08-28T06:08:57.302+00:00",
+  "completion_unknown": 0,
+  "derived_outstanding": 341,
+  "failed_confirmed_429": 1,
+  "failed_parent_request_id": "P4D_GR3E_BULK_0100_PF_P4D_HN_KNEEL_G008_V05",
+  "failed_prompt_id": "PF_P4D_HN_KNEEL_G008_V05",
+  "final_integrity_issues": 0,
+  "final_issues": [],
+  "gr1_sha_hit_records": [],
+  "gr1_sha_hits": 0,
+  "manifest_slots": 440,
+  "never_started": 340,
+  "parent_ledger_csv_rows": 100,
+  "parent_logical_invocations": 100,
+  "parent_state_counts": {
+    "FAILED_CONFIRMED": 1,
+    "NOT_STARTED": 340,
+    "SUCCESS": 99
+  },
+  "preserved_success_expected": 99,
+  "preserved_success_ledger": 99,
+  "preserved_success_verified": 99,
+  "profile_role_confounding": true,
+  "profile_split_confounding": true,
+  "profile_split_confounding_detail": {
+    "A_NEW_DESIGN_RATE": 0.7070707070707071,
+    "B_NEW_DESIGN_RATE": 0.5718475073313783,
+    "interpretation": "Both strata occur in both DESIGN and SCREEN, but their proportions differ; role/taxonomy confounding is stronger because Profile-A has no positive or ordinary-negative slots."
+  },
+  "profile_strata": {
+    "GR3E_PROFILE_A": {
+      "count": 99,
+      "role_counts": {
+        "hard_negative": 99
+      },
+      "split_counts": {
+        "NEW_DESIGN": 70,
+        "NEW_SCREEN": 29
+      },
+      "taxonomy_counts": {
+        "floor_sitting": 60,
+        "kneeling_half_kneeling": 39
+      }
+    },
+    "GR3Q2_PROFILE_B": {
+      "count": 341,
+      "role_counts": {
+        "hard_negative": 201,
+        "ordinary_negative": 40,
+        "positive": 100
+      },
+      "split_counts": {
+        "NEW_DESIGN": 195,
+        "NEW_SCREEN": 146
+      },
+      "taxonomy_counts": {
+        "chair_seated_normal_work": 20,
+        "crawling_quadruped_support": 40,
+        "curled_or_partially_occluded_lying": 15,
+        "ground_maintenance": 40,
+        "horizontal_corridor_ground_lying": 5,
+        "intentional_ground_lying": 10,
+        "kneeling_half_kneeling": 21,
+        "mixed_hard_negative": 20,
+        "multi_person_one_lying": 10,
+        "prone_ground_lying": 20,
+        "pushup_plank": 50,
+        "side_lying": 20,
+        "squat_crouch_deep_bend": 30,
+        "standing_walking": 20,
+        "supine_ground_lying": 20
+      }
+    }
+  },
+  "profile_taxonomy_confounding": true,
+  "raw_integrity_issues": 0,
+  "raw_issues": [],
+  "samefile_hit_records": [],
+  "samefile_hits": 0,
+  "sqlite_slots": 440,
+  "symlink_hit_records": [],
+  "symlink_hits": 0
+}

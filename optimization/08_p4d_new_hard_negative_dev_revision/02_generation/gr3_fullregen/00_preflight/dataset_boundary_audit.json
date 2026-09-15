@@ -1,0 +1,40 @@
+{
+  "after_annotation_sha256": {
+    "batches.csv": "3d547c4f9b7a33c52eb1f21cea7d27a5021a806e8ad176ecfac7f1d374a87f8c",
+    "labels.csv": "a12c08e587196350557749e1d24c138f089d8d96db27bcd458ff4c693de5ca54",
+    "media.csv": "9cff39e63d4e5e0cb478df9caba9aaea626a446402800131930e6b21caccffc2",
+    "splits.csv": "967018452f8fe5334b438a6be554d3333533cd947fd52c0ccf66f594c8439c18"
+  },
+  "after_counts": {
+    "batch_count": 44,
+    "label_count": 4521,
+    "media_count": 4583,
+    "split_count": 2058
+  },
+  "after_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/00_preflight/dataset_boundary_after.json",
+  "before_annotation_sha256": {
+    "batches.csv": "3d547c4f9b7a33c52eb1f21cea7d27a5021a806e8ad176ecfac7f1d374a87f8c",
+    "labels.csv": "a12c08e587196350557749e1d24c138f089d8d96db27bcd458ff4c693de5ca54",
+    "media.csv": "3f4f625fb6d5ec29143c54c49d3675c1df71bf04cc6b31b8e20d178afdc10b17",
+    "splits.csv": "967018452f8fe5334b438a6be554d3333533cd947fd52c0ccf66f594c8439c18"
+  },
+  "before_counts": {
+    "batch_count": 44,
+    "label_count": 4521,
+    "media_count": 4581,
+    "split_count": 2058
+  },
+  "before_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/00_preflight/dataset_boundary_before.json",
+  "captured_at": "2026-08-27T09:20:22.299+00:00",
+  "count_delta": {
+    "batch_count": 0,
+    "label_count": 0,
+    "media_count": 2,
+    "split_count": 0
+  },
+  "formal_dataset_mutation": false,
+  "interpretation": "Any shared-dataset delta is external unless P4D references appear; this preparation never writes the dataset.",
+  "p4d_reference_hits_after": 0,
+  "p4d_reference_hits_before": 0,
+  "p4d_reference_hits_total": 0
+}

@@ -1,0 +1,95 @@
+{
+  "command": [
+    "<node>",
+    "<gpt-image-2-skill>",
+    "--json",
+    "--json-events",
+    "--provider",
+    "codex",
+    "images",
+    "generate",
+    "--model",
+    "gpt-5.4",
+    "--prompt_sha256",
+    "2afdc90701b33449d1bf4cce0d0b5b82ed36757b547ee62a57456bb7e4c1515d",
+    "--out",
+    "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/generated_raw/PF_P4D_HN_SIT_G011_V04.png",
+    "--format",
+    "png",
+    "--size",
+    "1536x1024",
+    "--quality",
+    "medium"
+  ],
+  "elapsed_seconds": 43.23309812300067,
+  "finished_at": "2026-08-27T06:43:26.200+00:00",
+  "payload": {
+    "auth": {
+      "account_id": "f0bc3591-e6fc-442d-a52e-e99efbf5c1eb",
+      "auth_file": "/home/yanbo/.codex/auth.json",
+      "refreshed": false,
+      "source": "auth.json"
+    },
+    "command": "images generate",
+    "events": {
+      "count": 22
+    },
+    "history": {
+      "job_id": "job-1787813006192340849-19409"
+    },
+    "ok": true,
+    "output": {
+      "bytes": 1950825,
+      "files": [
+        {
+          "bytes": 1950825,
+          "index": 0,
+          "path": "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/generated_raw/PF_P4D_HN_SIT_G011_V04.png"
+        }
+      ],
+      "path": "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/generated_raw/PF_P4D_HN_SIT_G011_V04.png"
+    },
+    "provider": "codex",
+    "provider_selection": {
+      "edit_region_mode": "reference-hint",
+      "kind": "codex",
+      "reason": "explicit",
+      "requested": "codex",
+      "resolved": "codex",
+      "supports_n": false
+    },
+    "request": {
+      "background": "auto",
+      "delegated_image_model": "gpt-image-2",
+      "format": "png",
+      "model": "gpt-5.4",
+      "operation": "generate",
+      "provider": "codex",
+      "quality": "medium",
+      "ref_image_count": 0,
+      "size": "1536x1024"
+    },
+    "response": {
+      "image_count": 1,
+      "item_ids": [
+        "ig_08b96e1afd273473016a8fdc633e9887d0a3fe9c0d35f7c4f0"
+      ],
+      "model": "gpt-5.4",
+      "response_id": "resp_08b96e1afd273473016a8fdc62791087d0be344f80922067ff",
+      "revised_prompts": [
+        "Photorealistic 1920x1080 landscape frame from a fixed safety-inspection CCTV-style camera mounted about 1.5 meters above the floor, observing a paved campus walkway beside a building. Scene includes benches, planted edges, painted loading-bay concrete, and warm practical interior light spilling from the building. Front-oblique view, slightly distant framing, natural perspective, realistic scale, ample surrounding context to judge body support. A middle-aged woman with a sturdy build wearing dark work trousers and a muted green jacket, subdued gray and olive clothing, is clearly visible sitting on one bent leg with the other leg extended, hips low but torso clearly non-horizontal. Plausible unedited inspection-camera capture, ordinary photographic detail, restrained contrast, not cinematic or advertising style. Include a cart near one edge and ample negative space around the subject. No text, caption, watermark, logo, warning label, overlay, bounding box, arrow, circle, or annotation."
+      ],
+      "service_tier": "default",
+      "status": "completed"
+    },
+    "retry": {
+      "count": 0,
+      "max_retries": 3
+    }
+  },
+  "phase": "BULK",
+  "prompt_id": "PF_P4D_HN_SIT_G011_V04",
+  "returncode": 0,
+  "sequence": 71,
+  "started_at": "2026-08-27T06:42:42.967+00:00"
+}

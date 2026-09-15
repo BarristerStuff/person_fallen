@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "frozen_manifest_count": 500,
+  "formal_person_fallen_media_count": 500,
+  "formal_person_fallen_label_count": 500,
+  "event_definition_versions": [
+    "v2.0"
+  ],
+  "split_counts": {
+    "DEV": 310,
+    "VAL": 100,
+    "HOLDOUT": 90
+  },
+  "role_counts": {
+    "positive": 200,
+    "negative": 100,
+    "hard_negative": 180,
+    "uncertain": 20
+  },
+  "group_count": 50,
+  "cross_split_group_count": 0,
+  "frozen_manifest_sha256": "771380b70099e2e2e641330a7d4f04860e2284725722bde3cd2da8988abfb2c6",
+  "frozen_splits_sha256": "16b95d59c25313a6a8e35e4d0056b5626a04d44edc0e017549e628b92f15f33a"
+}

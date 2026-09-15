@@ -1,0 +1,22 @@
+{
+  "state": "claimed",
+  "phase": "pilot",
+  "request_id": "V6_TARGET_SUPPORT_PILOT_0116",
+  "item_id": "V2_ORIGINAL::IMG_003787",
+  "operational_id": "PFV6_PILOT_0116",
+  "taxonomy": "pushup_plank",
+  "group_id": "pf_v2_aigc_h09-exercise-push-up-plank",
+  "evaluation_stratum": "auxiliary_attention",
+  "source_image_sha256": "4b03baae4546eb6f47fb73a16830c7a1ba949f331babc98b0bbccba0c05b7c11",
+  "full_view_sha256": "e2d15747a77874a3806f7c150c83a35ad2760247d4342e67d5bf4c4d0946f421",
+  "crop_view_sha256": "8239590f175aef9a3d8ec89f2df845412383715ef9d43e89cc04f42a763980e7",
+  "payload_sha256": "c697f66c0e87465ef0e06e8a6c77bbd84789a3a946f909022401e4e40dd4a1f4",
+  "claimed_timestamp": "2026-09-14T10:29:13.665768+00:00",
+  "http_status": 200,
+  "latency_seconds": 5.638360803000978,
+  "completion_unknown": false,
+  "transport_error": null,
+  "raw_response_sha256": "f03d51c60b618a75db33bedbc00796498ad1eb90f6829751459ca2a0e9121682",
+  "raw_response_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/24_person_fallen_v6_a0_direct_evaluation/eval/pilot/requests/V6_TARGET_SUPPORT_PILOT_0116/response.raw",
+  "received_timestamp": "2026-09-14T10:29:19.307267+00:00"
+}

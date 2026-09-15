@@ -1,0 +1,51 @@
+{
+  "C3": false,
+  "HOLDOUT": 0,
+  "NEW_VAL": 0,
+  "authorization_required": false,
+  "authorized": false,
+  "bulk_micro_batch": 10,
+  "concurrency": 1,
+  "exact_monetary_cost": "UNKNOWN",
+  "execution_eligible": false,
+  "first_recovery_prompt_id": "PF_P4D_HN_KNEEL_G008_V05",
+  "first_request_is_recovery_smoke": true,
+  "formal_ingest": false,
+  "generation_lineage": "P4D_FULLREGEN_CODEX_PROFILE2_20260827_01",
+  "global_stop_conditions": [
+    "HTTP_429",
+    "HTTP_401",
+    "HTTP_403",
+    "timeout",
+    "HTTP_5xx",
+    "connection_reset"
+  ],
+  "native_max_retries": 3,
+  "outer_automatic_retry": false,
+  "outstanding": 341,
+  "parent_failed_history_immutable": true,
+  "parent_request_binding_required": true,
+  "possible_new_logical_invocations": 341,
+  "possible_provider_attempt_upper_bound": 1364,
+  "preserve_existing_gr3e_99": true,
+  "profile_continuity": false,
+  "provider_identity": {
+    "binary_sha256": "1ac830fed5349f1c1a1c2fd1a4280b487a2d75962d22d9fbd4e4b2451ab208ba",
+    "generation_backend": "image_generation",
+    "provider": "codex",
+    "request_model": "gpt-5.4",
+    "runtime_version": "0.7.3",
+    "safe_profile_fingerprint": "d80e86e6d2324b14d5b7a37821b1f42684b62f80c69e03350c9b0c3ae0f7c190",
+    "wrapper_sha256": "f01c85e448a078c508d015e2c0ac5208b12a9f126ce83e47da11fce542b440fe"
+  },
+  "provider_requests": 0,
+  "blocked_reason": "PROFILE_LINEAGE_CHANGE",
+  "ramp_after_smoke": [
+    5,
+    10
+  ],
+  "recovery_revision": "P4D_GR3Q1_QUOTA_RECOVERY_20260827_01",
+  "stage": "P4D_GR3Q1_PROVIDER_QUOTA_RECOVERY_PREPARATION",
+  "template_status": "HISTORICAL_CONDITIONAL_PLAN_NOT_EXECUTABLE",
+  "verified_preserved_success": 99
+}

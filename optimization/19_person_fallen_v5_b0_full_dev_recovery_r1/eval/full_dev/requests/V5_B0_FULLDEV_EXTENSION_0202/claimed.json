@@ -1,0 +1,39 @@
+{
+  "state": "claimed",
+  "phase": "full_dev_extension",
+  "request_id": "V5_B0_FULLDEV_EXTENSION_0202",
+  "item_id": "V2_ORIGINAL::IMG_004001",
+  "operational_id": "PFV4DEV_0050",
+  "evaluation_stratum": "ground_lying",
+  "source_image_sha256": "5bac427ba05af7d58237cbf9d1d3606a4615caa7c3c7a8e01d301442ce4c7f63",
+  "full_view_sha256": "e6c5ff737e0b3d26d9e8d57f480ef0b1a1335471ec7728a6404c7daff238c1d3",
+  "crop_view_sha256": "91899de48d36e54dbdde25a4634e66d65101d944e8690ebc60a6397fd589539b",
+  "view_count": 2,
+  "view_order": [
+    "full_scene",
+    "person_crop"
+  ],
+  "prompt_sha256": "757fb445efa3f05327947a4c32115e3735823c81d14177199bbf8a6381d3300a",
+  "schema_sha256": "1ccf5a08cd1d6287b33f5d04b0f06101ae75666919c1a9f160ac0c5c335d7817",
+  "policy_sha256": "b2126bf86378fa6d0bcbc67861fa794b320affb1de90dc445f5838223cae68b9",
+  "contracts_sha256": "e88cb1cb2c297200245531d5c5802aa9224dcd1a43e181402adeac23bf949edd",
+  "model": {
+    "endpoint": "http://192.168.20.62:11434",
+    "name": "qwen3.5:4b",
+    "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+    "ollama_version": "0.23.2",
+    "think": false,
+    "stream": false,
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 768,
+    "concurrency": 1,
+    "timeout_seconds": 120,
+    "automatic_retry": false,
+    "resend_completion_unknown": false,
+    "api": "/api/generate"
+  },
+  "freeze_sha256": "900dfdc9fcf0aad9e95ba2c5abfbc23cfdc8dcdec4b9680f36b03fecff750eee",
+  "payload_sha256": "83dbaaac58371a918517d7c6e0b5dee8e0f7b307ed7426c3f1b87d4538cea17a",
+  "claimed_timestamp": "2026-09-09T11:13:20.810876+00:00"
+}

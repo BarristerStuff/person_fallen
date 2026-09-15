@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "/home/yanbo/net_vlm_xunjian_dataset/tools/ingest_media.py",
+    "validate",
+    "--json-output"
+  ],
+  "interface_available": false,
+  "interpretation": "The current ingest_media.py interface exposes add/add-label rather than validate; use validate_dataset.py --json as the authoritative fallback.",
+  "read_only_probe": true,
+  "returncode": 2,
+  "stderr": "usage: ingest_media.py [-h] {add,add-label} ...\ningest_media.py: error: argument command: invalid choice: 'validate' (choose from 'add', 'add-label')\n",
+  "stdout": ""
+}

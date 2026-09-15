@@ -1,0 +1,61 @@
+{
+  "state": "completed",
+  "phase": "pilot",
+  "request_id": "V6_TARGET_SUPPORT_PILOT_0124",
+  "item_id": "V2_ORIGINAL::IMG_003795",
+  "operational_id": "PFV6_PILOT_0124",
+  "taxonomy": "pushup_plank",
+  "group_id": "pf_v2_aigc_h10-exercise-push-up-plank",
+  "evaluation_stratum": "auxiliary_attention",
+  "source_image_sha256": "703e735086d99182053612c80c9c6ea191cce537dfeb1d2c61626e6efb394b1b",
+  "full_view_sha256": "349dca02aa842f24e018662fdbffaa3e793a8942f2042d7a6becbaf903fc3cda",
+  "crop_view_sha256": "8c7bea17325cc02d9f765043bab72bf74474e0995fb38165de5aa83484412c5d",
+  "payload_sha256": "5b37cd0917f38cf0202ed8f148fdc2f95f84137c33f4eaeedec9f63af9b2734d",
+  "claimed_timestamp": "2026-09-14T10:30:00.136379+00:00",
+  "http_status": 200,
+  "latency_seconds": 5.4931135950027965,
+  "completion_unknown": false,
+  "transport_error": null,
+  "raw_response_sha256": "c3dc762b6d59a4a90d7a5daa034a31adf3c68eb264e389cb8e68e73307ae61d5",
+  "raw_response_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/24_person_fallen_v6_a0_direct_evaluation/eval/pilot/requests/V6_TARGET_SUPPORT_PILOT_0124/response.raw",
+  "received_timestamp": "2026-09-14T10:30:05.631576+00:00",
+  "strict_json_ok": true,
+  "source_binding_ok": true,
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 199,
+  "parsed": {
+    "scene_coverage": "complete",
+    "people": [
+      {
+        "person_id": 1,
+        "bbox_1000": [
+          248,
+          408,
+          768,
+          583
+        ],
+        "person_visible": "yes",
+        "pose": "prone",
+        "torso_orientation": "horizontal",
+        "torso_ground_contact": "broad",
+        "head_shoulders_above_hips": "no",
+        "support_surface": "floor",
+        "body_support_configuration": "forearms_feet_supported",
+        "explicit_work_evidence": "no",
+        "visual_quality": "clear",
+        "evidence": "Person is lying prone on a mat in a hallway, supported by forearms and feet."
+      }
+    ]
+  },
+  "person_decisions": [
+    {
+      "person_id": 1,
+      "decision": "RECHECK_VISUAL_UNCERTAIN",
+      "reason": "LIMB_SUPPORT_VS_BROAD_TORSO_CONTACT"
+    }
+  ],
+  "image_decision": "RECHECK_VISUAL_UNCERTAIN",
+  "image_reason": "EMPTY_UNRESOLVED_OR_INCOMPLETE_COVERAGE",
+  "completed_timestamp": "2026-09-14T10:30:05.632356+00:00"
+}

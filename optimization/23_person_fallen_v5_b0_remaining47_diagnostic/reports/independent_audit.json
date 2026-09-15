@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "checks": {
+    "new_request_count": "47/47",
+    "new_unknown": 0,
+    "new_request_ids_unique": true,
+    "new_item_ids_unique": true,
+    "full_dev_unique_rows": "436/436",
+    "reused_rows": 389,
+    "raw_parser_policy_replay": "389/389",
+    "source_binding": "436/436",
+    "jsonl_line_objects": true,
+    "completion_lock_matches_output_events_summary": true,
+    "val_requests": 0,
+    "holdout_requests": 0,
+    "v6_requests": 0,
+    "production_changes": 0,
+    "git_commits": 0
+  },
+  "gate_recomputed": "FAIL",
+  "gate_failure": "auxiliary_attention ALERT=3/41 (pushup_plank=2, crawling=1); visual_uncertain ALERT=5/20 is separately reported",
+  "semantic_changes_after_freeze": false,
+  "evidence_keywords_used_for_decision": false,
+  "object_localization_accuracy": "UNVERIFIED"
+}

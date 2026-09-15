@@ -1,0 +1,45 @@
+{
+  "revision_id": "PERSON_FALLEN_V4_SCENE_ANY_LYING_20260909_01",
+  "candidate": "REV15_SCENE_ANY_LYING",
+  "definition": {
+    "path": "definition/person_fallen_v4_operational_definition.md",
+    "sha256": "e0a3b10456ee11b28a7a6bd678a6e76bd6d94fa98b8035b21a8ca57693706d7e"
+  },
+  "prompt": {
+    "path": "prompt/V4_scene_any_lying_prompt.txt",
+    "sha256": "415868d5828521d84073c548769b11b1ce4d524d1e8090736e1920d667e7db9c"
+  },
+  "policy": {
+    "path": "policy/deterministic_policy.py",
+    "sha256": "9a4c677ecf295b1cfde3bf354af63a3ebccf39fc5cc8690867b8233a0f2385cd"
+  },
+  "temporal_policy": {
+    "path": "policy/deterministic_policy.py",
+    "sha256": "9a4c677ecf295b1cfde3bf354af63a3ebccf39fc5cc8690867b8233a0f2385cd"
+  },
+  "model": {
+    "endpoint": "http://192.168.20.62:11434",
+    "name": "qwen3.5:4b",
+    "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+    "ollama_version": "0.23.2",
+    "think": false,
+    "stream": false,
+    "format": "json",
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 384,
+    "timeout_seconds": 120,
+    "concurrency": 1,
+    "automatic_retry": false,
+    "resend_transport_unknown": false
+  },
+  "source_manifests": {},
+  "execution_tools": {},
+  "operational_gate": {
+    "ground_lying_alert_recall_min": 0.95,
+    "ground_lying_alert_recheck_coverage_required": 1.0,
+    "floor_sitting_alert_fpr_max": 0,
+    "determinate_negative_alert_fpr_max": 0,
+    "strict_json_success_min": 1.0
+  }
+}

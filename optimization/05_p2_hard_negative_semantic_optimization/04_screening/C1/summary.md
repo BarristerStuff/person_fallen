@@ -1,0 +1,67 @@
+# P2 SCREEN C1 summary
+
+```json
+{
+  "candidate": "C1",
+  "config_sha256": "8f3e64f30beeadb0a31e2ac909fd0c57562a1a06291d0a93360ce788a4b1f10d",
+  "execution_status": "COMPLETE",
+  "holdout_consumed": false,
+  "holdout_requests": 0,
+  "ledger_states": {
+    "COMPLETED": 120
+  },
+  "manifest_sha256": "ccb8c9df51371dbfd2a8e34201ccd42b0a825eea4444ba45a3aaa6945094aab5",
+  "materializer_sha256": "d2485bc89345df7b03bfae42e7cbea206cc1136271381a6cbf3da9d29092482b",
+  "metrics": {
+    "FN": 0,
+    "FP": 22,
+    "TN": 38,
+    "TP": 50,
+    "accuracy": 0.8,
+    "determinate_count": 110,
+    "f1": 0.819672131147541,
+    "fpr": 0.36666666666666664,
+    "gt_uncertain_prediction_distribution": {
+      "negative": 2,
+      "positive": 8
+    },
+    "hard_negative_fpr": 0.55,
+    "model_uncertain_count": 0,
+    "model_uncertain_rate": 0.0,
+    "ordinary_negative_fpr": 0.0,
+    "positive_recall": 1.0,
+    "precision": 0.6944444444444444,
+    "recall": 1.0,
+    "specificity": 0.6333333333333333
+  },
+  "phase": "screen",
+  "planned_requests": 120,
+  "predictions_sha256": "8c550514d06f0d159e4b85e1ad462258bf90ecbade587b79adbf87074e68eabd",
+  "prompt_sha256": "f3291b1f231316f3d424a2d4d4a1ac43fe0010205bef4528d62ca1771cb2d396",
+  "protocol": {
+    "canonical_prediction_success_rate": 1.0,
+    "http_success_rate": 1.0,
+    "json_parse_success_rate": 1.0,
+    "latency_seconds": {
+      "cold": 1.624937,
+      "max": 2.149303,
+      "p50": 1.539897,
+      "p95": 1.761156,
+      "warm_mean": 1.559612655462185
+    },
+    "prediction_distribution": {
+      "negative": 40,
+      "positive": 80
+    },
+    "request_count": 120,
+    "response_nonempty_rate": 1.0,
+    "schema_success_rate": 1.0,
+    "thinking_present_rate": 0.0
+  },
+  "protocol_gate_pass": true,
+  "raw_responses_sha256": "51adef8a8c874488b4a9973805ee9c840cda097715fbd2ffc804248826fd0588",
+  "request_log_sha256": "974764e16c6d147de15c652460e5388e2184ea2fe359ce4d6709672e616495b2",
+  "runner_sha256": "72a3ffdd044cbea46025e0fe90f9c7e62350af194e0ccaa89f267d1cf0f0a568",
+  "stage": "P2_HARD_NEGATIVE_SEMANTIC_OPTIMIZATION"
+}
+```

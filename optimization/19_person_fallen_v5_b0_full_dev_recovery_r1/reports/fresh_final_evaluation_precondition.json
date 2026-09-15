@@ -1,0 +1,37 @@
+{
+  "status": "NOT_ELIGIBLE_CURRENT_CANDIDATE_CLOSED",
+  "candidate": "V5-B0-TARGET-ATTRIBUTES",
+  "execution": "FULL_DEV_RECOVERY_R1",
+  "reason": "Pre-registered auxiliary_attention ALERT caused irreversible early failure before full DEV completion",
+  "fresh_final_evaluation_authorized": false,
+  "request_fresh_final_evaluation_now": false,
+  "current_winner": "NONE",
+  "production_integration_ready": false,
+  "historical_val_exposure": {
+    "status": "HISTORICALLY_EXPOSED_NOT_PRISTINE",
+    "media_id_overlap": 100,
+    "image_sha256_overlap": 100,
+    "p1r_execution_status": "COMPLETE",
+    "planned_requests": 100,
+    "completed_requests": 100,
+    "P1R_VAL_IS_PRISTINE": false,
+    "metadata_gap": "P1R recovery manifest has no item_id column; item_id overlap is unavailable (not inferred). Media and image SHA overlap remain directly verified."
+  },
+  "holdout": {
+    "requests": 0,
+    "images_read": 0,
+    "consumed": false
+  },
+  "required_new_authorization_if_future": {
+    "fresh_data": true,
+    "nonoverlap_audit_before_image_access": true,
+    "new_immutable_protocol_freeze": true,
+    "separate_model_request_authorization": true,
+    "no_automatic_holdout_execution": true
+  },
+  "not_a_model_optimization_plan": true,
+  "next_action": "CLOSE_CURRENT_MODEL_CANDIDATE",
+  "NEXT_ACTION": "CLOSE_CURRENT_MODEL_CANDIDATE",
+  "FINAL_STATUS": "V5_B0_FULL_DEV_EARLY_GATE_FAIL",
+  "READY_FOR_FRESH_FINAL_EVALUATION_PROTOCOL_REVIEW": false
+}

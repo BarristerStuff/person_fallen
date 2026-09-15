@@ -1,0 +1,56 @@
+# 32 — P4D_GR1 semantic review and ingest
+
+PROJECT=net_vlm
+EVENT=person_fallen
+EVENT_VERSION=v2.0
+P0_STATUS=COMPLETE_PROTOCOL_FAILURE
+P1A_STATUS=COMPLETE
+P1A_VALID_CLASSIFICATION_BASELINE=true
+P1A_PROTOCOL_STATUS=PASS
+P2_EXECUTED=false
+P3_EXECUTED=false
+P4D_NAME=P4D_NEW_HARD_NEGATIVE_DEV_REVISION
+P4D_GR1_NAME=P4D_GR1_GENERATION_RESUME
+P4D_GR1_CHANGE=provider_revision_only_after_old_ebond_401
+P4D_GR1_PROMPT_CHANGED=false
+P4D_GR1_GROUP_PLAN_CHANGED=false
+P4D_GR1_TAXONOMY_CHANGED=false
+P4D_GR1_STATUS=BLOCKED_PROVIDER_AUTH_RECURRENCE
+P4D_STATUS=GENERATION_REQUIRED
+P4D_NEW_TOTAL=440
+P4D_HARD_NEGATIVE=300
+P4D_POSITIVE=100
+P4D_ORDINARY_NEGATIVE=40
+P4D_GROUPS=88
+P4D_NEW_DESIGN=265
+P4D_NEW_SCREEN=175
+P4D_CROSS_SPLIT_GROUPS=0
+P4D_IMAGES_GENERATED=192
+P4D_IMAGES_ACCEPTED=0
+P4D_IMAGES_REJECTED=0
+P4D_OUTSTANDING_SLOTS=248
+P4D_EXACT_DUPLICATES=0
+P4D_NEAR_DUPLICATE_GROUPS=0
+P4D_CROSS_SPLIT_NEAR_DUPLICATES=0
+P4D_PROMPT_IMAGE_MAPPINGS=N/A
+P4D_MISSING_MAPPINGS=N/A
+FORMAL_INGEST_EXECUTED=false
+MEDIA_ADDED=0
+LABELS_ADDED=0
+C3_EXECUTED=false
+P4D_NEW_VAL_REQUESTS=0
+P4D_HOLDOUT_REQUESTS=0
+HOLDOUT_REQUESTS=0
+HOLDOUT_CONSUMED=false
+VAL_P0_PROTOCOL_EXPOSED=true
+VAL_SEMANTIC_METRICS_USED_FOR_TUNING=false
+PRODUCTION_CODE_MODIFIED=false
+OLLAMA_SERVICE_MODIFIED=false
+
+
+## Semantic review and formal ingest gate
+
+Generation/mechanical QA did not complete because the provider-auth recurrence gate stopped the 440-slot run.  Human semantic review was therefore **not reached** and no review package was promoted or used as ground truth.  If a future authorized continuation completes generation, it must create the review package and obtain explicit human approval before ingest.
+
+`FORMAL_INGEST_EXECUTED=false`, `MEDIA_ADDED=0`, and `LABELS_ADDED=0`.  No shared CSV was hand-edited, no NEW_DESIGN/NEW_SCREEN materialization occurred, and no C3 request was made.  Explicit human semantic approval is required before any later ingest transaction.
+

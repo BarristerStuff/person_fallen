@@ -1,0 +1,36 @@
+{
+  "artifact_sha256": {
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_02_policy_adapter_20260830_01/freeze/p4d_gr3q5_terminal_freeze.json": "3c219c9d75803cd5427862c0255ab557e92969085a864b116435aea85f8817f2",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_03_gr3q6_20260831_02/00_preflight/provider_runtime.json": "32817677c461a077bb1d2356838bb62386d26e60e7c65ca23e33802817ec34fa",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_03_gr3q6_20260831_02/00_preflight/q5_retry_telemetry_erratum.json": "25cd83c3a3896521f6aa8d454894b8c2c9e22155816db76de8b7c4899131e531",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_03_gr3q6_20260831_02/01_inventory/current_verified_success_142.csv": "bc9eea9a71b91f0b201a3df5e03038a32b28214256e0e792ca95c65b5d2266f9",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_03_gr3q6_20260831_02/01_inventory/outstanding_298.csv": "cd4a56eb54ce2294f8069f98006aba949eb5910a11b1ab0ad73112ff028c0f8d",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_03_gr3q6_20260831_02/02_plan/q6_balanced_window_33_plan.csv": "11821c0b090706467cac98e84cddcecd76f9d2ac7d7a2b3ae0368e86c3a1f2f8",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_03_gr3q6_20260831_02/02_plan/q6_plan_audit.json": "dabd45233ccf95db748484480760ce9a2a0c25ce3e72176866a5cf946276f332",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_03_gr3q6_20260831_02/05_checkpoints/authorization_gate.json": "393a4b13dc03464d86f4293bb0b000829fb95e70cf3e56a360cfc0f83734e799",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/tools/p4d_gr3q6_prepare.py": "612fcaf67c21cceddb962cae04ce1ac6b13b51e4d18d7497b03473746bfc6055"
+  },
+  "authorization": {
+    "authorized": false,
+    "provider_requests": 0,
+    "reason": "no_explicit_Q6_generation_authorization_in_current_top_level_message"
+  },
+  "parent_q5_freeze_sha256": "3c219c9d75803cd5427862c0255ab557e92969085a864b116435aea85f8817f2",
+  "q6_plan_sha256": "11821c0b090706467cac98e84cddcecd76f9d2ac7d7a2b3ae0368e86c3a1f2f8",
+  "starting_outstanding": 298,
+  "starting_success": 142,
+  "status": "AWAITING_Q6_GENERATION_AUTHORIZATION",
+  "telemetry": {
+    "current_utc": "2026-08-31T06:12:39.636217+00:00",
+    "failed_logical_request_started_events": 4,
+    "q5_frozen_physical_lower_bound": 17,
+    "q5_frozen_retry_counter": 6,
+    "quota_reset_time_gate_pass": true,
+    "raw_evidence_physical_attempt_lower_bound": 14,
+    "reset_at_local": "2026-08-31T00:14:53+08:00",
+    "reset_at_utc": "2026-08-30T16:14:53+00:00",
+    "status_change": false,
+    "stop_reason_change": false,
+    "unique_native_retry_events": 3
+  }
+}

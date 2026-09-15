@@ -1,0 +1,9 @@
+{
+  "http_status": 200,
+  "json": {
+    "models": []
+  },
+  "ok": true,
+  "raw": "{\"models\":[]}",
+  "url": "http://192.168.20.62:11434/api/ps"
+}

@@ -1,0 +1,112 @@
+{
+  "absolute_hard_negative_fpr_reduction": 0.42500000000000004,
+  "baseline": "C0",
+  "baseline_screen_metrics": {
+    "FN": 0,
+    "FP": 22,
+    "TN": 38,
+    "TP": 50,
+    "accuracy": 0.8,
+    "determinate_count": 110,
+    "f1": 0.819672131147541,
+    "gt_uncertain_prediction_distribution": {
+      "negative": 1,
+      "positive": 9
+    },
+    "hard_negative_fpr": 0.55,
+    "model_uncertain_count": 0,
+    "model_uncertain_rate": 0.0,
+    "ordinary_negative_fpr": 0.0,
+    "positive_recall": 1.0,
+    "precision": 0.6944444444444444,
+    "recall": 1.0
+  },
+  "candidates": [
+    "C1",
+    "C2",
+    "C3"
+  ],
+  "eligible_candidates": [
+    "C3"
+  ],
+  "f1_delta": 0.13270882123341132,
+  "holdout_requests": 0,
+  "ineligible_candidates": {
+    "C1": [
+      "hard_negative_improvement_insufficient"
+    ],
+    "C2": [
+      "hard_negative_improvement_insufficient"
+    ]
+  },
+  "latency_limit_seconds": 1.8520842,
+  "latency_p95_delta": 0.22063374999999996,
+  "minimum_improvement_rule": "hard_negative_fpr<=0.05 OR absolute reduction>=0.05",
+  "p2_val_requests_before_winner_freeze": 0,
+  "paired_comparison": {
+    "C1": {
+      "baseline_FN_to_candidate_TP": 0,
+      "baseline_FP_to_candidate_TN": 2,
+      "baseline_TN_to_candidate_FP": 2,
+      "baseline_TP_to_candidate_FN": 0,
+      "baseline_correct_candidate_wrong": 2,
+      "baseline_wrong_candidate_correct": 2,
+      "candidate": "C1",
+      "mcnemar_exact_p": 1.0
+    },
+    "C2": {
+      "baseline_FN_to_candidate_TP": 0,
+      "baseline_FP_to_candidate_TN": 0,
+      "baseline_TN_to_candidate_FP": 7,
+      "baseline_TP_to_candidate_FN": 0,
+      "baseline_correct_candidate_wrong": 7,
+      "baseline_wrong_candidate_correct": 0,
+      "candidate": "C2",
+      "mcnemar_exact_p": 0.015625
+    },
+    "C3": {
+      "baseline_FN_to_candidate_TP": 0,
+      "baseline_FP_to_candidate_TN": 17,
+      "baseline_TN_to_candidate_FP": 0,
+      "baseline_TP_to_candidate_FN": 0,
+      "baseline_correct_candidate_wrong": 0,
+      "baseline_wrong_candidate_correct": 17,
+      "candidate": "C3",
+      "mcnemar_exact_p": 1.52587890625e-05
+    }
+  },
+  "precision_delta": 0.21464646464646464,
+  "recall_delta": 0.0,
+  "screen_blind_before_candidate_freeze": true,
+  "selection_rule": [
+    "minimum hard_negative_fpr",
+    "maximum precision",
+    "maximum f1",
+    "minimum p95 latency"
+  ],
+  "stage": "P2_HARD_NEGATIVE_SEMANTIC_OPTIMIZATION",
+  "val_errors_used_for_prompt_design": false,
+  "winner": "C3",
+  "winner_screen_metrics": {
+    "FN": 0,
+    "FP": 5,
+    "TN": 55,
+    "TP": 50,
+    "accuracy": 0.9545454545454546,
+    "determinate_count": 110,
+    "f1": 0.9523809523809523,
+    "fpr": 0.08333333333333333,
+    "gt_uncertain_prediction_distribution": {
+      "negative": 2,
+      "positive": 8
+    },
+    "hard_negative_fpr": 0.125,
+    "model_uncertain_count": 0,
+    "model_uncertain_rate": 0.0,
+    "ordinary_negative_fpr": 0.0,
+    "positive_recall": 1.0,
+    "precision": 0.9090909090909091,
+    "recall": 1.0,
+    "specificity": 0.9166666666666666
+  }
+}

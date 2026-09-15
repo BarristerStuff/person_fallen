@@ -1,0 +1,9 @@
+{
+  "http_status": 200,
+  "json": {
+    "version": "0.23.2"
+  },
+  "ok": true,
+  "raw": "{\"version\":\"0.23.2\"}",
+  "url": "http://192.168.20.62:11434/api/version"
+}

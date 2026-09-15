@@ -1,0 +1,58 @@
+{
+  "dev_only": true,
+  "expected_outcome_counts": {
+    "ALERT_GROUND_LYING": 145,
+    "ATTENTION_NEAR_GROUND": 41,
+    "NO_ALERT_NORMAL_POSE": 230,
+    "RECHECK_VISUAL_UNCERTAIN": 20
+  },
+  "ground_truth_counts": {
+    "negative": 230,
+    "positive": 186,
+    "uncertain": 20
+  },
+  "gt_type": "PROMPT_DERIVED_SYNTHETIC_GT",
+  "holdout_rows_read": 0,
+  "human_pixel_semantic_gt_available": false,
+  "metric_stratum_counts": {
+    "hard_negative": 155,
+    "ordinary_negative": 75,
+    "positive": 186,
+    "uncertain": 20
+  },
+  "output_manifest": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/manifests/v4_full_dev_436.csv",
+  "output_manifest_sha256": "85f00afef907de927b1e463eea0382170a453da138a841ed8b68c268649d1ddd",
+  "parent_manifest": "/home/yanbo/net_vlm_person_fallen_v2_optimization/11_person_fallen_v3_revision/remap/person_fallen_v3_dev_manifest.csv",
+  "parent_manifest_sha256": "fc41fcc39b87d8da7decfd50a4d832e8c5f38470c7c6cf08aaaaa160aa751f2b",
+  "screen_rows_read": 0,
+  "selected_count": 436,
+  "selection_uses_model_predictions": false,
+  "status": "PASS",
+  "taxonomy_counts": {
+    "bending_pickup": 20,
+    "chair_seated_normal_work": 15,
+    "chair_sitting": 20,
+    "crawling_quadruped_support": 5,
+    "crawling_without_explicit_maintenance": 10,
+    "curled_or_sprawled_lying": 10,
+    "floor_sitting": 55,
+    "ground_maintenance": 5,
+    "intentional_ground_lying": 5,
+    "irregular_sprawled_lying": 10,
+    "kneeling_half_kneeling": 55,
+    "multi_person_one_lying": 5,
+    "ordinary_work": 20,
+    "partially_occluded_lying": 20,
+    "person_unconfirmable": 20,
+    "prone_ground_lying": 25,
+    "pushup_plank": 26,
+    "side_lying": 25,
+    "small_target_ground_lying": 20,
+    "squat_crouch_deep_bend": 20,
+    "standing": 10,
+    "supine_ground_lying": 25,
+    "walking": 10
+  },
+  "unique_image_sha256": 436,
+  "val_rows_read": 0
+}

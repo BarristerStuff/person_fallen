@@ -1,0 +1,41 @@
+{
+  "checks": {
+    "c3_not_run": true,
+    "cross_split_group_count_zero": true,
+    "formal_mutation_false": true,
+    "group_count_88": true,
+    "no_holdout_attempt_rows": true,
+    "no_successful_images": true,
+    "planned_design_265": true,
+    "planned_screen_175": true,
+    "pre_generation_split_frozen": true,
+    "prompt_count_440": true,
+    "prompt_ids_unique": true,
+    "single_failed_smoke_recorded": true,
+    "validator_after_pass": true,
+    "validator_before_pass": true
+  },
+  "counts": {
+    "accepted_images": 0,
+    "failed_generation_attempts": 1,
+    "generation_attempt_rows": 1,
+    "groups": 88,
+    "holdout_requests": 0,
+    "images_generated": 0,
+    "new_val_requests": 0,
+    "prompt_slots": 440,
+    "rejected_images": 0,
+    "successful_generation_attempts": 0
+  },
+  "hashes": {
+    "generation_state_sha256": "ea4718658b53ab8fa8e5911a99c200094e80cb19742201fb2d9c4571c2d4bb59",
+    "group_manifest_sha256": "11ab903056e0acbdb9ca5a507f33f3237f3b90f059f445f8df76c1dde174fbab",
+    "group_split_freeze_sha256": "b9d1df02541454b38ab296bd0033b0d327cca0ba720b95c7414ea6ec1bc05843",
+    "prompt_manifest_sha256": "e75c48626f2eabade9cdbc48bb77072c5d470ddce60ec9a903f580d4990aeceb",
+    "prompt_pack_freeze_sha256": "385b7b9f0b6b675c3820e97fe1931bd0e19b9b5839f50a3fcae70fd1feec136b",
+    "prompt_pack_sha256": "8b791d2007b0866f83275082a7394a0d33a5d7bd0aef4ab9f19993fba857a250",
+    "terminal_freeze_sha256": "7dd2128df475c579fcb54fafa4f6ecbd583f674104df46ef5ca36eb9f70a3279"
+  },
+  "stage": "P4D_NEW_HARD_NEGATIVE_DEV_REVISION",
+  "status": "GENERATION_REQUIRED"
+}

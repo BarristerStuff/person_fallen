@@ -1,0 +1,47 @@
+{
+  "captured_at_utc": "2026-08-26T15:01:34.286214+00:00",
+  "hashes": {
+    "frozen_manifest": {
+      "expected_sha256": "771380b70099e2e2e641330a7d4f04860e2284725722bde3cd2da8988abfb2c6",
+      "match": true,
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/01_data/frozen_manifest.csv",
+      "sha256": "771380b70099e2e2e641330a7d4f04860e2284725722bde3cd2da8988abfb2c6"
+    },
+    "frozen_splits": {
+      "expected_sha256": "16b95d59c25313a6a8e35e4d0056b5626a04d44edc0e017549e628b92f15f33a",
+      "match": true,
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/01_data/frozen_splits.csv",
+      "sha256": "16b95d59c25313a6a8e35e4d0056b5626a04d44edc0e017549e628b92f15f33a"
+    },
+    "p1a_dev_manifest": {
+      "expected_sha256": "7f8ff256a8da3cc6451e1ec3f6a842dc9b3eb6f4080e4fb5a1a49dda9bc7d7d8",
+      "match": true,
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/03_p1a_think_false_protocol/dev/dev_manifest.csv",
+      "sha256": "7f8ff256a8da3cc6451e1ec3f6a842dc9b3eb6f4080e4fb5a1a49dda9bc7d7d8"
+    },
+    "p1a_dev_predictions": {
+      "expected_sha256": "5d67e80d753ed71ae33cf9c222a8793b829c60a0bc1ff5ee09085518bf9d359b",
+      "match": true,
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/03_p1a_think_false_protocol/dev/predictions.csv",
+      "sha256": "5d67e80d753ed71ae33cf9c222a8793b829c60a0bc1ff5ee09085518bf9d359b"
+    },
+    "p1r_val_manifest": {
+      "expected_sha256": "f3feb12b364ffbf045857d6b4ba77ed28932ccf0d9c1d644db7a10de7dfd7762",
+      "match": true,
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/04_p1r_freeze_binding_recovery/preflight/recovery_val_manifest.csv",
+      "sha256": "f3feb12b364ffbf045857d6b4ba77ed28932ccf0d9c1d644db7a10de7dfd7762"
+    },
+    "p1r_val_predictions": {
+      "expected_sha256": "7f221795f9a21febd47d5861ee58492dbef6eb00a1032ea240bc1c536de1e38b",
+      "match": true,
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/04_p1r_freeze_binding_recovery/val/predictions.csv",
+      "sha256": "7f221795f9a21febd47d5861ee58492dbef6eb00a1032ea240bc1c536de1e38b"
+    },
+    "prompt": {
+      "expected_sha256": "b457a2442b8c4cca66866ecd7fcaaa765524740f1019e7811a05ec8e2c8335f4",
+      "match": true,
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/00_definition/p0_prompt.txt",
+      "sha256": "b457a2442b8c4cca66866ecd7fcaaa765524740f1019e7811a05ec8e2c8335f4"
+    }
+  }
+}

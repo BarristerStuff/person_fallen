@@ -1,0 +1,209 @@
+{
+  "audit_id": "PERSON_FALLEN_V3_BINDING_AUDIT_20260901_01",
+  "created_at": "2026-09-01T19:21:00+08:00",
+  "status": "PASS_BINDING_INTEGRITY_FAIL_MODEL_GATE",
+  "event_name": "person_fallen",
+  "event_definition_version": "v3.0",
+  "revision_id": "PERSON_FALLEN_V3_ANOMALOUS_NEAR_GROUND_20260901_01",
+  "scope": {
+    "root": "/home/yanbo/net_vlm_person_fallen_v2_optimization/11_person_fallen_v3_revision",
+    "lifecycle_isolated_from_v2": true,
+    "production_dataset_written": false,
+    "production_code_written": false,
+    "final_holdout_requests": 0,
+    "final_holdout_consumed": false,
+    "further_p4d_generation": "STOPPED_AND_SUPERSEDED_FOR_V3"
+  },
+  "binding": {
+    "definition_path": "definition/person_fallen_v3_definition.md",
+    "definition_sha256": "16fbe644285756d4568b4470d8d7168a048bb6719e186cce82f56ef0a59d9bce",
+    "prompt_path": "prompt/V3-C0_prompt.txt",
+    "prompt_sha256": "805a7276e0e6291059ab990f3426b609797342838805c417eb0a15db804c182f",
+    "protocol_path": "protocol/person_fallen_v3_protocol.json",
+    "protocol_sha256": "9998c90b3717b2a75c91034800f95e9ddcd7fbf66b3d109110170d7c66941ecd",
+    "config_path": "protocol/v3_eval_config.json",
+    "config_sha256": "8a1edccf97f0117f5d733d851570c86b45ba1d32b995b7d84158f47ddb3d15a0",
+    "runner_path": "tools/run_v3_eval.py",
+    "runner_sha256": "d87a1cfb0f9ed11e99e9630e21f62786c23504eb25a2d207d631156d53c51850",
+    "model": "qwen3.5:4b",
+    "model_digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+    "ollama_version": "0.23.2",
+    "endpoint": "http://192.168.20.62:11434",
+    "runtime_options": {
+      "temperature": 0,
+      "think": false,
+      "stream": false,
+      "strict_json": true,
+      "concurrency": 1,
+      "automatic_retry": false,
+      "resend_completion_unknown": false,
+      "preprocess": "letterbox",
+      "jpeg_quality": 70
+    }
+  },
+  "remap_audit": {
+    "remap_manifest_path": "remap/person_fallen_v3_remap_manifest.csv",
+    "remap_manifest_sha256": "ecc5f4b1ddcd25640b4e97322c9485480bc78601be7014d1db2bf173a4d65868",
+    "remap_audit_path": "remap/person_fallen_v3_remap_audit.json",
+    "remap_audit_sha256": "518d0321c7e5604c60471e091be968f674f741cd729b1d543cfabcf6c4f41325",
+    "lineage_rows": 940,
+    "lineage_source_families": {
+      "V2_ORIGINAL_SYNTHETIC_500": 500,
+      "P4D_FAST_CLOSE_CLEAN_202": 202,
+      "P4D_PLAN_EXCLUDED_OR_UNEXECUTED": 238
+    },
+    "formal_v3_rows": 612,
+    "formal_v3_by_split": {
+      "V3_DEV": 436,
+      "V3_SCREEN": 76,
+      "V3_VAL": 100
+    },
+    "formal_v3_labels": {
+      "positive": 251,
+      "negative": 341,
+      "uncertain": 20
+    },
+    "dev_labels": {
+      "positive": 186,
+      "negative": 230,
+      "uncertain": 20
+    },
+    "group_count_dev": 57,
+    "group_cross_split_leakage": 0,
+    "prompt_mapping_ambiguity": 0,
+    "holdout_rows_in_v3_dev": 0,
+    "model_prediction_used_as_gt": false,
+    "human_semantic_review_required": false,
+    "synthetic_gt_policy": "FROZEN_GENERATION_PROMPT_AND_PLANNED_ROLE"
+  },
+  "candidate_audits": [
+    {
+      "candidate": "V3-C0-448",
+      "resolution": "448x336",
+      "run_dir": "eval/runs/dev_V3-C0-448",
+      "summary_sha256": "bfa8e840db53b113799f2af4ee8506839911abd3b2139637d8a8fab46b83d286",
+      "status": "COMPLETE",
+      "request_audit": {
+        "planned": 436,
+        "completed": 436,
+        "unique_request_ids": 436,
+        "unique_item_ids": 436,
+        "manifest_item_mismatch": 0,
+        "image_sha_mismatch": 0,
+        "prompt_sha_mismatch": 0,
+        "gt_or_stratum_mismatch": 0,
+        "strict_json_bad": 0,
+        "transport_unknown": 0,
+        "confirmed_failures": 0,
+        "holdout_rows": 0
+      },
+      "metrics": {
+        "TP": 185,
+        "FN": 1,
+        "TN": 193,
+        "FP": 37,
+        "precision": 0.8333333333333334,
+        "recall": 0.9946236559139785,
+        "hard_negative_count": 155,
+        "hard_negative_fp": 37,
+        "hard_negative_fpr": 0.23870967741935484,
+        "ordinary_negative_count": 75,
+        "ordinary_negative_fp": 0,
+        "ordinary_negative_fpr": 0.0,
+        "accuracy": 0.9086538461538461,
+        "f1": 0.9068627450980392
+      },
+      "protocol": {
+        "mean_latency_seconds": 4.4178767591743116,
+        "p50_latency_seconds": 4.443172000000001,
+        "p95_latency_seconds": 5.47514725,
+        "max_latency_seconds": 10.841529,
+        "schema_success_rate": 1.0,
+        "strict_json_success_rate": 1.0
+      },
+      "gate": {
+        "precision_min": 0.93,
+        "recall_min": 0.95,
+        "hard_negative_fpr_max": 0.05,
+        "ordinary_negative_fpr_required": 0.0,
+        "precision_pass": false,
+        "recall_pass": true,
+        "hard_negative_fpr_pass": false,
+        "ordinary_negative_fpr_pass": true,
+        "strict_json_success_pass": true,
+        "pass": false
+      },
+      "independent_recompute": "PASS"
+    },
+    {
+      "candidate": "V3-C0-896",
+      "resolution": "896x672",
+      "run_dir": "eval/runs/dev_V3-C0-896",
+      "summary_sha256": "651ba1beb5227cce4339d576bae4fa7686a21da9f750ad0ef845044a1255aaa7",
+      "status": "COMPLETE",
+      "request_audit": {
+        "planned": 436,
+        "completed": 436,
+        "unique_request_ids": 436,
+        "unique_item_ids": 436,
+        "manifest_item_mismatch": 0,
+        "image_sha_mismatch": 0,
+        "prompt_sha_mismatch": 0,
+        "gt_or_stratum_mismatch": 0,
+        "strict_json_bad": 0,
+        "transport_unknown": 0,
+        "confirmed_failures": 0,
+        "holdout_rows": 0
+      },
+      "metrics": {
+        "TP": 185,
+        "FN": 1,
+        "TN": 195,
+        "FP": 35,
+        "precision": 0.8409090909090909,
+        "recall": 0.9946236559139785,
+        "hard_negative_count": 155,
+        "hard_negative_fp": 35,
+        "hard_negative_fpr": 0.22580645161290322,
+        "ordinary_negative_count": 75,
+        "ordinary_negative_fp": 0,
+        "ordinary_negative_fpr": 0.0,
+        "accuracy": 0.9134615384615384,
+        "f1": 0.9113300492610837
+      },
+      "protocol": {
+        "mean_latency_seconds": 12.254244706422018,
+        "p50_latency_seconds": 9.445309,
+        "p95_latency_seconds": 28.62508175,
+        "max_latency_seconds": 49.000225,
+        "schema_success_rate": 1.0,
+        "strict_json_success_rate": 1.0
+      },
+      "gate": {
+        "precision_min": 0.93,
+        "recall_min": 0.95,
+        "hard_negative_fpr_max": 0.05,
+        "ordinary_negative_fpr_required": 0.0,
+        "precision_pass": false,
+        "recall_pass": true,
+        "hard_negative_fpr_pass": false,
+        "ordinary_negative_fpr_pass": true,
+        "strict_json_success_pass": true,
+        "pass": false
+      },
+      "independent_recompute": "PASS"
+    }
+  ],
+  "decision": {
+    "status": "MODEL_SIDE_LIMIT_REACHED",
+    "winner": null,
+    "dev_winner_frozen": false,
+    "screen_status": "NOT_RUN_NO_DEV_WINNER",
+    "validation_status": "NOT_RUN_NO_DEV_WINNER",
+    "ready_for_final_holdout": false,
+    "final_holdout_requests": 0,
+    "final_holdout_consumed": false,
+    "p4d_continuation": "NOT_AUTHORIZED",
+    "next_allowed_work": "Create a new separately authorized and self-consistent lifecycle before changing model, prompt, GT, or scope; do not resume this revision."
+  }
+}

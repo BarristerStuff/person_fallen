@@ -1,0 +1,95 @@
+{
+  "command": [
+    "<node>",
+    "<gpt-image-2-skill>",
+    "--json",
+    "--json-events",
+    "--provider",
+    "codex",
+    "images",
+    "generate",
+    "--model",
+    "gpt-5.4",
+    "--prompt_sha256",
+    "e8087add798a0c0a7aae3d85ef62f16c2cbf6eb44b531b949643d24494fe8f6b",
+    "--out",
+    "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/generated_raw/PF_P4D_HN_PLANK_G005_V01.png",
+    "--format",
+    "png",
+    "--size",
+    "1536x1024",
+    "--quality",
+    "medium"
+  ],
+  "elapsed_seconds": 34.900856539001325,
+  "finished_at": "2026-08-27T06:21:48.727+00:00",
+  "payload": {
+    "auth": {
+      "account_id": "f0bc3591-e6fc-442d-a52e-e99efbf5c1eb",
+      "auth_file": "/home/yanbo/.codex/auth.json",
+      "refreshed": false,
+      "source": "auth.json"
+    },
+    "command": "images generate",
+    "events": {
+      "count": 21
+    },
+    "history": {
+      "job_id": "job-1787811708719819675-16770"
+    },
+    "ok": true,
+    "output": {
+      "bytes": 2250354,
+      "files": [
+        {
+          "bytes": 2250354,
+          "index": 0,
+          "path": "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/generated_raw/PF_P4D_HN_PLANK_G005_V01.png"
+        }
+      ],
+      "path": "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/generated_raw/PF_P4D_HN_PLANK_G005_V01.png"
+    },
+    "provider": "codex",
+    "provider_selection": {
+      "edit_region_mode": "reference-hint",
+      "kind": "codex",
+      "reason": "explicit",
+      "requested": "codex",
+      "resolved": "codex",
+      "supports_n": false
+    },
+    "request": {
+      "background": "auto",
+      "delegated_image_model": "gpt-image-2",
+      "format": "png",
+      "model": "gpt-5.4",
+      "operation": "generate",
+      "provider": "codex",
+      "quality": "medium",
+      "ref_image_count": 0,
+      "size": "1536x1024"
+    },
+    "response": {
+      "image_count": 1,
+      "item_ids": [
+        "ig_09a5dfe68d0582e0016a8fd75a8c4c87d0b6cdc201e9ad8a1c"
+      ],
+      "model": "gpt-5.4",
+      "response_id": "resp_09a5dfe68d0582e0016a8fd7595ab087d0978e0159a5cad3c5",
+      "revised_prompts": [
+        "Photorealistic 1920x1080 landscape frame from a fixed safety-inspection camera mounted about 1.5 meters above the floor, observing a large indoor public area with varied furniture, open sightlines, realistic foot traffic cues, industrial vinyl flooring, and neutral indoor illumination. Off-axis corridor view at closer inspection distance, natural perspective, realistic scale, enough surrounding context to judge body support. Visible subject: a shorter adult with a compact build wearing a blue hoodie and gray trousers, purple and gray casual clothing, holding a high plank with straight arms, palms under shoulders, toes on the floor, abdomen lifted between active supports. Plausible unedited inspection-camera capture, subject clearly visible, a few tools and boxes placed naturally in the background. Ordinary photographic detail, restrained contrast, not cinematic or advertising. No text, caption, watermark, logo, warning label, overlay, bounding box, arrow, circle, or annotation."
+      ],
+      "service_tier": "default",
+      "status": "completed"
+    },
+    "retry": {
+      "count": 0,
+      "max_retries": 3
+    }
+  },
+  "phase": "RAMP2",
+  "prompt_id": "PF_P4D_HN_PLANK_G005_V01",
+  "returncode": 0,
+  "sequence": 25,
+  "started_at": "2026-08-27T06:21:13.826+00:00"
+}

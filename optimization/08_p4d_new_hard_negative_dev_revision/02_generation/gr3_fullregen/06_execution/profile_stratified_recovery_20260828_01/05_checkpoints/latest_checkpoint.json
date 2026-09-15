@@ -1,0 +1,36 @@
+{
+  "c3": false,
+  "captured_at": "2026-08-28T06:34:29.966+00:00",
+  "counts": {
+    "COMPLETION_UNKNOWN": 0,
+    "FAILED_CONFIRMED_PROFILE_B": 1,
+    "NOT_STARTED_PROFILE_B": 337,
+    "PRESERVED_PROFILE_A": 99,
+    "PROFILE_A_PRESERVED": 99,
+    "PROFILE_B_FAILED": 1,
+    "PROFILE_B_NOT_STARTED": 337,
+    "PROFILE_B_STARTED": 0,
+    "PROFILE_B_SUCCESS": 3,
+    "PROVIDER_REQUESTS": 4,
+    "SUCCESS_PROFILE_B": 3,
+    "TOTAL": 440
+  },
+  "formal_ingest": false,
+  "global_stop": true,
+  "holdout_requests": 0,
+  "last": {
+    "error_code": "http_error",
+    "final_sha256": null,
+    "http_status": "429",
+    "latency_seconds": 12.727057194000281,
+    "native_retry_count": 3,
+    "prompt_id": "PF_P4D_HN_KNEEL_G009_V03",
+    "raw_sha256": null,
+    "recovery_order": 4,
+    "request_id": "P4D_GR3Q2E_RECOVERY_0004_PF_P4D_HN_KNEEL_G009_V03",
+    "state": "FAILED_CONFIRMED_PROFILE_B"
+  },
+  "new_val": 0,
+  "stage": "P4D_GR3Q2E_PROFILE_STRATIFIED_RECOVERY",
+  "status": "STOPPED"
+}

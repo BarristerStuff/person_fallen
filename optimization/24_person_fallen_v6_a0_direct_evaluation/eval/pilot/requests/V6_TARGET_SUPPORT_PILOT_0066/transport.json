@@ -1,0 +1,22 @@
+{
+  "state": "claimed",
+  "phase": "pilot",
+  "request_id": "V6_TARGET_SUPPORT_PILOT_0066",
+  "item_id": "V2_ORIGINAL::IMG_004007",
+  "operational_id": "PFV6_PILOT_0066",
+  "taxonomy": "prone_ground_lying",
+  "group_id": "pf_v2_aigc_p03-prone-on-floor",
+  "evaluation_stratum": "ground_lying",
+  "source_image_sha256": "ffea712d59fccabbaf558579286df4d7fe6c99afeb817ce0bf8dad7d3377a921",
+  "full_view_sha256": "1d3075d2dce7a1f5364e3b69aade979e9f74c4e5ce56a278d0e1a6f8729abee0",
+  "crop_view_sha256": "f624d7550b5bde42a6bfd9729d1c2418845b35d769e1d6f4637c4a422d01e356",
+  "payload_sha256": "3e49163e4c1fba3a00b46a4ca34d02adef2c96787293ac952443262654aa96b3",
+  "claimed_timestamp": "2026-09-14T10:24:21.053163+00:00",
+  "http_status": 200,
+  "latency_seconds": 5.204905824997695,
+  "completion_unknown": false,
+  "transport_error": null,
+  "raw_response_sha256": "34ee4d41d7816e55d0e4aaf34bff96968e7534e33a03a8ad9570777680a70841",
+  "raw_response_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/24_person_fallen_v6_a0_direct_evaluation/eval/pilot/requests/V6_TARGET_SUPPORT_PILOT_0066/response.raw",
+  "received_timestamp": "2026-09-14T10:24:26.260541+00:00"
+}

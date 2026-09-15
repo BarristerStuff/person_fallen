@@ -1,0 +1,61 @@
+{
+  "state": "completed",
+  "phase": "pilot",
+  "request_id": "V6_TARGET_SUPPORT_PILOT_0127",
+  "item_id": "V2_ORIGINAL::IMG_003798",
+  "operational_id": "PFV6_PILOT_0127",
+  "taxonomy": "pushup_plank",
+  "group_id": "pf_v2_aigc_h10-exercise-push-up-plank",
+  "evaluation_stratum": "auxiliary_attention",
+  "source_image_sha256": "fd83f0b1328d4a65b2fd7492af0781dcc050a19361b41e7a19d46a9630fff142",
+  "full_view_sha256": "2192d987930c283e7653b8dc17a43569e36e0469950ec8cfc27cf2818f75389c",
+  "crop_view_sha256": "c8742182e745eea382d6a7140e01aef3a7e65de36f20db481201023deee7c235",
+  "payload_sha256": "348ade62c92d133abcc768e2d1ff52e7c768b0867c49916c91db405683a9acd9",
+  "claimed_timestamp": "2026-09-14T10:30:16.865979+00:00",
+  "http_status": 200,
+  "latency_seconds": 5.802011085004779,
+  "completion_unknown": false,
+  "transport_error": null,
+  "raw_response_sha256": "f3dbaefd6819f74ed37aa082307982280757d5566f1a26e88b6917c82ff69c6c",
+  "raw_response_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/24_person_fallen_v6_a0_direct_evaluation/eval/pilot/requests/V6_TARGET_SUPPORT_PILOT_0127/response.raw",
+  "received_timestamp": "2026-09-14T10:30:22.672339+00:00",
+  "strict_json_ok": true,
+  "source_binding_ok": true,
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 204,
+  "parsed": {
+    "scene_coverage": "complete",
+    "people": [
+      {
+        "person_id": 1,
+        "bbox_1000": [
+          318,
+          508,
+          686,
+          788
+        ],
+        "person_visible": "yes",
+        "pose": "prone",
+        "torso_orientation": "horizontal",
+        "torso_ground_contact": "broad",
+        "head_shoulders_above_hips": "no",
+        "support_surface": "floor",
+        "body_support_configuration": "forearms_feet_supported",
+        "explicit_work_evidence": "no",
+        "visual_quality": "clear",
+        "evidence": "Person is lying prone on a mat in a laboratory setting, supporting their body weight on their forearms and feet."
+      }
+    ]
+  },
+  "person_decisions": [
+    {
+      "person_id": 1,
+      "decision": "RECHECK_VISUAL_UNCERTAIN",
+      "reason": "LIMB_SUPPORT_VS_BROAD_TORSO_CONTACT"
+    }
+  ],
+  "image_decision": "RECHECK_VISUAL_UNCERTAIN",
+  "image_reason": "EMPTY_UNRESOLVED_OR_INCOMPLETE_COVERAGE",
+  "completed_timestamp": "2026-09-14T10:30:22.673190+00:00"
+}

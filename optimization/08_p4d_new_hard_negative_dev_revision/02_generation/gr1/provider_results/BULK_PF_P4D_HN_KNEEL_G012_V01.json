@@ -1,0 +1,95 @@
+{
+  "command": [
+    "<node>",
+    "<gpt-image-2-skill>",
+    "--json",
+    "--json-events",
+    "--provider",
+    "codex",
+    "images",
+    "generate",
+    "--model",
+    "gpt-5.4",
+    "--prompt_sha256",
+    "4d9cf6d05158049d6de1cfe616e2f7db520c8eb88f9677ae7bca3725a585492c",
+    "--out",
+    "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/generated_raw/PF_P4D_HN_KNEEL_G012_V01.png",
+    "--format",
+    "png",
+    "--size",
+    "1536x1024",
+    "--quality",
+    "medium"
+  ],
+  "elapsed_seconds": 57.3826464119993,
+  "finished_at": "2026-08-27T07:08:26.506+00:00",
+  "payload": {
+    "auth": {
+      "account_id": "f0bc3591-e6fc-442d-a52e-e99efbf5c1eb",
+      "auth_file": "/home/yanbo/.codex/auth.json",
+      "refreshed": false,
+      "source": "auth.json"
+    },
+    "command": "images generate",
+    "events": {
+      "count": 22
+    },
+    "history": {
+      "job_id": "job-1787814506497144771-21912"
+    },
+    "ok": true,
+    "output": {
+      "bytes": 2495732,
+      "files": [
+        {
+          "bytes": 2495732,
+          "index": 0,
+          "path": "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/generated_raw/PF_P4D_HN_KNEEL_G012_V01.png"
+        }
+      ],
+      "path": "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/generated_raw/PF_P4D_HN_KNEEL_G012_V01.png"
+    },
+    "provider": "codex",
+    "provider_selection": {
+      "edit_region_mode": "reference-hint",
+      "kind": "codex",
+      "reason": "explicit",
+      "requested": "codex",
+      "resolved": "codex",
+      "supports_n": false
+    },
+    "request": {
+      "background": "auto",
+      "delegated_image_model": "gpt-image-2",
+      "format": "png",
+      "model": "gpt-5.4",
+      "operation": "generate",
+      "provider": "codex",
+      "quality": "medium",
+      "ref_image_count": 0,
+      "size": "1536x1024"
+    },
+    "response": {
+      "image_count": 1,
+      "item_ids": [
+        "ig_016c5bbe6eea4ad6016a8fe2316ad887d0a5b184750f0617a8"
+      ],
+      "model": "gpt-5.4",
+      "response_id": "resp_016c5bbe6eea4ad6016a8fe230af0887d0950101fa451db23a",
+      "revised_prompts": [
+        "Photorealistic 1920x1080 landscape frame from a fixed safety-inspection camera mounted about 1.5 meters above the floor, showing a broad factory corridor with safety rails, distant machinery, and a clean matte concrete industrial floor under neutral indoor illumination. Slightly distant oblique view at medium distance, natural perspective, realistic scale, enough surrounding context to judge body support. Main visible subject: a tall broad-built adult wearing a reflective work vest over neutral clothing with muted orange workwear accents, kneeling on both knees with shins and knees actively supporting the body while the torso remains upright. Plausible unedited inspection-camera capture. Subject clearly visible. Include a safety rail and a distant worker-shaped silhouette that is not the subject. Ordinary photographic detail, restrained contrast, non-cinematic, non-advertising look. No text, caption, watermark, logo, warning label, overlay, bounding box, arrow, circle, or annotation."
+      ],
+      "service_tier": "default",
+      "status": "completed"
+    },
+    "retry": {
+      "count": 0,
+      "max_retries": 3
+    }
+  },
+  "phase": "BULK",
+  "prompt_id": "PF_P4D_HN_KNEEL_G012_V01",
+  "returncode": 0,
+  "sequence": 125,
+  "started_at": "2026-08-27T07:07:29.123+00:00"
+}

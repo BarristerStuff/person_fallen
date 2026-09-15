@@ -1,0 +1,1 @@
+{"type":"object","additionalProperties":false,"required":["scene_review","evidence"],"properties":{"scene_review":{"type":"string","enum":["candidate_present","candidate_absent","uncertain"]},"evidence":{"type":"string","minLength":1}}}

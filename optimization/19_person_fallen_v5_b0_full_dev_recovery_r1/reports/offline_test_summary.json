@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "test_count": 16,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s 19_person_fallen_v5_b0_full_dev_recovery_r1/tests -v",
+  "fake_e2e": {
+    "status": "PASS_FAKE_TRANSPORT_FULL_E2E",
+    "temporary_output_removed_after_test": true,
+    "rows": 436,
+    "reused_rows": 115,
+    "new_requests": 321,
+    "full_dev_gate": "PASS",
+    "partial_summary_updates_observed": true,
+    "requests_parent_created": true,
+    "jsonl_line_count": 436,
+    "completion_lock_present": true,
+    "completion_lock_gate": "PASS",
+    "protocol_failures": 0,
+    "network_requests": 0
+  },
+  "previous_v5_b0_offline_tests_evidence": {
+    "count": 85,
+    "status": "PASS",
+    "source": "17/PILOT candidate report"
+  },
+  "network_requests": 0,
+  "model_requests": 0
+}

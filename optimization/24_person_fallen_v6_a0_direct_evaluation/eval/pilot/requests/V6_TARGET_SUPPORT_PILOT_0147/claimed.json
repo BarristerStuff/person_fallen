@@ -1,0 +1,15 @@
+{
+  "state": "claimed",
+  "phase": "pilot",
+  "request_id": "V6_TARGET_SUPPORT_PILOT_0147",
+  "item_id": "P4D_PLAN::PF_P4D_HN_CRAWL_G001_V01",
+  "operational_id": "PFV6_PILOT_0147",
+  "taxonomy": "crawling_quadruped_support",
+  "group_id": "PF_P4D_HN_CRAWL_G001",
+  "evaluation_stratum": "auxiliary_attention",
+  "source_image_sha256": "80e28147640d5f74a7e7153f4499eecfb9cfd7b2eb8ec84020bf2d7a0a4378cf",
+  "full_view_sha256": "602d47fb1982a19698da6097f3a042bfbb6b2112f8d13fda500b71ecbb798057",
+  "crop_view_sha256": "b11b55f6d4d9ab62dcc1d4f3686a9099daffb4aac009c055febbf89648ba674e",
+  "payload_sha256": "14f9a0362d29b478785d683f715f39dcab78034a1989fe18a6ff9ca6d97ad10d",
+  "claimed_timestamp": "2026-09-14T10:32:17.132742+00:00"
+}

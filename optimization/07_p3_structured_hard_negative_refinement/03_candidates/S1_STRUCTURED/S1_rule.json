@@ -1,0 +1,16 @@
+{
+  "rule_id": "S1_RULE_V1",
+  "description": "Frozen deterministic post-processing for S1 structured evidence.",
+  "ordered_rules": [
+    {"if": "real_person == no", "then": "negative"},
+    {"if": "support_surface == normal_rest_surface", "then": "negative"},
+    {"if": "torso_pelvis_state == nonlying", "then": "negative"},
+    {"if": "active_nonlying_support == yes", "then": "negative"},
+    {"if": "real_person == yes AND support_surface == abnormal_non_rest_surface AND torso_pelvis_state == lying AND active_nonlying_support == no", "then": "positive"},
+    {"if": "otherwise", "then": "uncertain"}
+  ],
+  "unknown_policy": "Any unresolved key evidence yields uncertain; never coerce unknown to negative.",
+  "alert_behavior": {"positive": "alert", "negative": "no_alert", "uncertain": "no_alert"},
+  "gt_uncertain_policy": "Exclude GT uncertain from TP/FP/TN/FN and report prediction distribution separately.",
+  "freeze_before_screen": true
+}

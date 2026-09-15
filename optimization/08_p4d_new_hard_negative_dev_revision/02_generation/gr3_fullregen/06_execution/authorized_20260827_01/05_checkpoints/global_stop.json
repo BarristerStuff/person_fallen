@@ -1,0 +1,10 @@
+{
+  "captured_at": "2026-08-27T11:53:19.056+00:00",
+  "error_code": "http_error",
+  "http_status": "429",
+  "phase": "BULK",
+  "prompt_id": "PF_P4D_HN_KNEEL_G008_V05",
+  "provider_request_id": "unknown",
+  "reason": "HTTP_429",
+  "status": "GLOBAL_STOP"
+}

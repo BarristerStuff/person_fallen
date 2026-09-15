@@ -1,0 +1,12 @@
+{
+  "run_id": "P1R_VAL_20260826_221040",
+  "created_at_utc": "2026-08-26T14:10:40.379866+00:00",
+  "manifest_sha256": "f3feb12b364ffbf045857d6b4ba77ed28932ccf0d9c1d644db7a10de7dfd7762",
+  "config_sha256": "f15d4083ae7c52ccf668b75982aee98e35f24d28bf96fe1303e0d9885c94de8c",
+  "runner_sha256": "18e45f2693334baac80105ccbb9a094cd6781022e5243955e0b9ed8e61260eb5",
+  "attempts_per_media": 1,
+  "automatic_retry": false,
+  "planned_requests": 100,
+  "prior_val_confirmed_exposure": 10,
+  "prior_val_possible_additional_exposure": 1
+}

@@ -1,0 +1,22 @@
+{
+  "auth_ready": true,
+  "binary_sha256": "1ac830fed5349f1c1a1c2fd1a4280b487a2d75962d22d9fbd4e4b2451ab208ba",
+  "captured_at": "2026-08-28T06:30:46.627+00:00",
+  "endpoint_reachable": true,
+  "generation_backend": "image_generation",
+  "image_generation_provider_requests": 0,
+  "native_max_retries": 3,
+  "native_retry_policy": {
+    "base_delay_seconds": 1,
+    "max_retries": 3
+  },
+  "outer_retry": false,
+  "profile_account_present": true,
+  "profile_fingerprint_safe_hash": "d80e86e6d2324b14d5b7a37821b1f42684b62f80c69e03350c9b0c3ae0f7c190",
+  "profile_user_present": true,
+  "provider": "codex",
+  "request_model": "gpt-5.4",
+  "runtime_version": "0.7.3",
+  "session_ready": true,
+  "wrapper_sha256": "f01c85e448a078c508d015e2c0ac5208b12a9f126ce83e47da11fce542b440fe"
+}

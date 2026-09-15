@@ -1,0 +1,69 @@
+{
+  "revision_id": "PERSON_FALLEN_V4_POSE_ATTRIBUTES_20260908_01",
+  "candidate": "V4-A0-FULL-CROP-110",
+  "event_name": "person_fallen",
+  "event_definition_version": "v4.0-development-only",
+  "parent_dev_manifest": "/home/yanbo/net_vlm_person_fallen_v2_optimization/11_person_fallen_v3_revision/remap/person_fallen_v3_dev_manifest.csv",
+  "parent_dev_manifest_sha256": "fc41fcc39b87d8da7decfd50a4d832e8c5f38470c7c6cf08aaaaa160aa751f2b",
+  "selection": {
+    "floor_sitting": 55,
+    "supine_ground_lying": 19,
+    "side_lying": 18,
+    "prone_ground_lying": 18
+  },
+  "selection_uses_model_predictions": false,
+  "gt_type": "PROMPT_DERIVED_SYNTHETIC_GT",
+  "human_semantic_review_required": false,
+  "diagnostic_only": true,
+  "detector": {
+    "name": "Ultralytics_YOLO11n_COCO",
+    "source_weight": "/home/yanbo/net_vlm_person_smoking_optimization/00_assets/person_detector/yolo11n.pt",
+    "weight_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+    "runtime_python": "/home/yanbo/net_vlm_person_smoking_optimization/.venv_person_detector/bin/python",
+    "ultralytics_version": "8.4.104",
+    "person_class_id": 0,
+    "confidence_threshold": 0.15,
+    "nms_iou_threshold": 0.7,
+    "minimum_box_area_ratio": 0.002,
+    "imgsz": 640,
+    "max_persons": 3,
+    "crop_expand_x": 0.2,
+    "crop_expand_y": 0.15
+  },
+  "model": {
+    "endpoint": "http://192.168.20.62:11434",
+    "name": "qwen3.5:4b",
+    "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+    "ollama_version": "0.23.2",
+    "think": false,
+    "stream": false,
+    "format": "json",
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 384,
+    "timeout_seconds": 120,
+    "concurrency": 1,
+    "automatic_retry": false,
+    "resend_transport_unknown": false
+  },
+  "preprocess": {
+    "mode": "letterbox",
+    "width": 448,
+    "height": 336,
+    "jpeg_quality": 70,
+    "letterbox_rgb": [128, 128, 128],
+    "views": ["full_scene", "largest_person_full_body_crop"]
+  },
+  "gate": {
+    "strict_json_success_min": 1.0,
+    "detector_coverage_min": 0.95,
+    "floor_sitting_false_alarm_rate_max": 0.05,
+    "floor_sitting_no_alert_rate_min": 0.9,
+    "lying_alert_recall_min": 0.95,
+    "recheck_rate_max": 0.1
+  },
+  "screen_requests": 0,
+  "val_requests": 0,
+  "holdout_requests": 0
+}
+

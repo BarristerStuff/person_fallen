@@ -1,0 +1,2 @@
+prompt_id,role,taxonomy,planned_split,source,raw_path,final_path,raw_sha256,final_sha256,adapter_version
+PF_P4D_HN_MAINT_G006_V02,hard_negative,ground_maintenance,NEW_SCREEN,PRE_Q7_UNKNOWN,,,,,CODEX_SAFE_STAGED_CV_V1

@@ -1,0 +1,20 @@
+test_audit_scope_and_counts (test_manifests.ManifestTests) ... ok
+test_pilot_shape_and_strata (test_manifests.ManifestTests) ... ok
+test_refuses_overwrite (test_manifests.ManifestTests) ... ok
+test_regression_exact_binding (test_manifests.ManifestTests) ... ok
+test_required_fields_and_view_bindings (test_manifests.ManifestTests) ... ok
+test_missing_duplicate_failed_never_pass (test_metrics.MetricsTests) ... ok
+test_phase (test_metrics.MetricsTests) ... ok
+test_recheck_not_alert_and_latency (test_metrics.MetricsTests) ... ok
+test_regression_contract (test_metrics.MetricsTests) ... ok
+test_schema_bbox_and_duplicate_people (test_metrics.MetricsTests) ... ok
+test_alert_exact_five_field_conjunction (test_policy_contract.PolicyContract) ... ok
+test_duplicate_id_and_json_contract (test_policy_contract.PolicyContract) ... ok
+test_floor_crawl_rest (test_policy_contract.PolicyContract) ... ok
+test_limb_support_never_alert (test_policy_contract.PolicyContract) ... ok
+test_scene_priority_and_evidence_invariance (test_policy_contract.PolicyContract) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.031s
+
+OK

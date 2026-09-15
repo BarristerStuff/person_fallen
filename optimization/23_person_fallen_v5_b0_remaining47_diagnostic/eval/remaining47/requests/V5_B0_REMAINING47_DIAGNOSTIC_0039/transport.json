@@ -1,0 +1,19 @@
+{
+  "state": "received",
+  "phase": "remaining47_diagnostic",
+  "request_id": "V5_B0_REMAINING47_DIAGNOSTIC_0039",
+  "item_id": "P4D_PLAN::PF_P4D_HN_PLANK_G001_V03",
+  "payload_sha256": "28e16b04b2fc33a5829f4f28cabef4830cbb0e08a4b4cb6fe43d769be3edda42",
+  "full_view_sha256": "5862d057013643a712dfeb90226bfbca542a1f956fb3cea15d11ea4814347483",
+  "crop_view_sha256": "a5669873d9046a4b39245ab56dffc6b88046709d7e0a9e438fa5a9878eabe5e8",
+  "prompt_sha256": "757fb445efa3f05327947a4c32115e3735823c81d14177199bbf8a6381d3300a",
+  "schema_sha256": "1ccf5a08cd1d6287b33f5d04b0f06101ae75666919c1a9f160ac0c5c335d7817",
+  "policy_sha256": "b2126bf86378fa6d0bcbc67861fa794b320affb1de90dc445f5838223cae68b9",
+  "claimed_timestamp": "2026-09-14T08:20:14.012610+00:00",
+  "http_status": 200,
+  "completion_unknown": false,
+  "transport_error": null,
+  "latency_seconds": 18.41692054500163,
+  "raw_response_sha256": "d00943ae1d112c72f38470e603839519ad193dc21670ed49e6d43984474416e7",
+  "received_timestamp": "2026-09-14T08:20:32.432207+00:00"
+}

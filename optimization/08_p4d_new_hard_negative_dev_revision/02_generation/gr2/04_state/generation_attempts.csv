@@ -1,0 +1,1 @@
+gr2_attempt_id,prompt_id,group_id,planned_split,taxonomy,target_role,previous_gr1_state,provider_revision_id,provider,model,generation_backend,session_revision,request_started_at,request_finished_at,http_status,status,error_code,error_message_safe,raw_output_path,raw_sha256,final_output_path,final_sha256,native_width,native_height,final_width,final_height,latency_seconds

@@ -1,0 +1,15 @@
+{
+  "captured_at": "2026-08-28T08:00:31.392+00:00",
+  "evidence_matches_expected": true,
+  "not_before_local": "2026-08-28T19:00:00+08:00",
+  "not_before_utc": "2026-08-28T11:00:00+00:00",
+  "parent_raw_failure_sha256": "a21d6034962800409ef117e7f01435b11d1dd328671ccfba2282be5b66963e99",
+  "provider_error_type": "usage_limit_reached",
+  "resets_at_epoch": 1787914147,
+  "resets_at_local": "2026-08-28T18:49:07+08:00",
+  "resets_at_utc": "2026-08-28T10:49:07+00:00",
+  "resets_in_seconds": 15278,
+  "safety_margin_seconds": 653,
+  "source_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_window_recovery_20260828_02/00_preflight/quota_reset_evidence.json",
+  "source_sha256": "a2d3a613a8728979eaa71555af5fc90fdbabc0dc8adde556ce630dc4b151aedb"
+}

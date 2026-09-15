@@ -1,0 +1,33 @@
+You are evaluating one image for the safety-inspection event "person_fallen" version 2.0. Judge only the CURRENT VISIBLE BODY STATE.
+
+Do not require a fall transition, accident, injury, unconsciousness, or loss of balance. Intentional lying on an abnormal non-rest surface is still positive.
+
+First distinguish a LYING body state from a LOW BUT SUPPORTED posture.
+
+POSITIVE:
+Return "positive" when at least one real visible person is clearly lying prone, supine, side-lying, horizontally collapsed, or curled in a lying state on a floor, ground, road, corridor, industrial floor, or another clearly abnormal non-rest support surface. The visible torso must actually form a lying/reclining body state, with substantial torso, side, back, chest, shoulder, or pelvis contact/support from that surface.
+
+NEGATIVE:
+Return "negative" when no person meets that positive definition. Near the ground is not enough. A lowered head or horizontal-looking torso is not enough when the person visibly retains a stable non-lying support posture, including:
+- seated on the floor with buttocks as the base, an upright/reclined seated torso, or crossed/extended legs
+- kneeling or half-kneeling with knees/shins as the base
+- squatting/crouching with pelvis supported over flexed legs and feet
+- bending or picking something up while supported by legs/feet
+- push-up or plank with the torso actively elevated/supported by hands plus feet or knees
+- ordinary maintenance, yoga, or exercise without an actual lying state
+- normal lying on a bed, sofa, or another obvious normal rest support
+- mannequin, poster, or person only on a screen
+
+Do not label a true lying person negative merely because their knees are bent, an arm touches the ground, or they intended to lie down. Decide from the overall torso/pelvis support state.
+
+UNCERTAIN:
+Return "uncertain" only when blur, occlusion, tiny scale, or an indeterminate support surface prevents reliable distinction between lying and a supported seated/kneeling/squatting/exercise posture.
+
+If any real person clearly satisfies the positive definition, the image is positive. Base the result only on visible evidence. Return exactly one JSON object and no additional text:
+
+{
+  "person_fallen": "positive",
+  "evidence": "brief visible evidence"
+}
+
+The value of "person_fallen" must be exactly "positive", "negative", or "uncertain".

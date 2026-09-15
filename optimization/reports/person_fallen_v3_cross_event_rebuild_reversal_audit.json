@@ -1,0 +1,336 @@
+{
+  "apply_requested": true,
+  "candidate_count": 45,
+  "candidates": [
+    {
+      "media_id": "IMG_004578",
+      "mtime": 1788333156.5853438,
+      "relative_link": "02_review_by_event/fire_passage_blocked/negative/IMG_004578__143_fpb-s-fire-passage-uncertain-007.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004578.png",
+      "role": "negative"
+    },
+    {
+      "media_id": "IMG_004652",
+      "mtime": 1788333156.586344,
+      "relative_link": "02_review_by_event/fire_passage_blocked/negative/IMG_004652__210_fpb-s-evacuation-route-uncertain-002.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004652.png",
+      "role": "negative"
+    },
+    {
+      "media_id": "IMG_004653",
+      "mtime": 1788333156.586344,
+      "relative_link": "02_review_by_event/fire_passage_blocked/negative/IMG_004653__211_fpb-s-evacuation-route-uncertain-003.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004653.png",
+      "role": "negative"
+    },
+    {
+      "media_id": "IMG_004654",
+      "mtime": 1788333156.586344,
+      "relative_link": "02_review_by_event/fire_passage_blocked/negative/IMG_004654__212_fpb-s-evacuation-route-uncertain-004.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004654.png",
+      "role": "negative"
+    },
+    {
+      "media_id": "IMG_004655",
+      "mtime": 1788333156.586344,
+      "relative_link": "02_review_by_event/fire_passage_blocked/negative/IMG_004655__213_fpb-s-evacuation-route-uncertain-005.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004655.png",
+      "role": "negative"
+    },
+    {
+      "media_id": "IMG_004656",
+      "mtime": 1788333156.586344,
+      "relative_link": "02_review_by_event/fire_passage_blocked/negative/IMG_004656__214_fpb-s-evacuation-route-uncertain-006.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004656.png",
+      "role": "negative"
+    },
+    {
+      "media_id": "IMG_004657",
+      "mtime": 1788333156.586344,
+      "relative_link": "02_review_by_event/fire_passage_blocked/negative/IMG_004657__215_fpb-s-evacuation-route-uncertain-007.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004657.png",
+      "role": "negative"
+    },
+    {
+      "media_id": "IMG_004731",
+      "mtime": 1788333156.586344,
+      "relative_link": "02_review_by_event/fire_passage_blocked/negative/IMG_004731__282_fpb-s-emergency-exit-approach-uncertain-002.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004731.png",
+      "role": "negative"
+    },
+    {
+      "media_id": "IMG_004732",
+      "mtime": 1788333156.587344,
+      "relative_link": "02_review_by_event/fire_passage_blocked/negative/IMG_004732__283_fpb-s-emergency-exit-approach-uncertain-003.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004732.png",
+      "role": "negative"
+    },
+    {
+      "media_id": "IMG_004736",
+      "mtime": 1788333156.587344,
+      "relative_link": "02_review_by_event/fire_passage_blocked/negative/IMG_004736__287_fpb-s-emergency-exit-approach-uncertain-007.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004736.png",
+      "role": "negative"
+    },
+    {
+      "media_id": "IMG_004737",
+      "mtime": 1788333156.587344,
+      "relative_link": "02_review_by_event/fire_passage_blocked/negative/IMG_004737__288_fpb-s-emergency-exit-approach-uncertain-008.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004737.png",
+      "role": "negative"
+    },
+    {
+      "media_id": "IMG_004809",
+      "mtime": 1788333156.587344,
+      "relative_link": "02_review_by_event/fire_passage_blocked/negative/IMG_004809__353_fpb-s-fire-exit-door-approach-uncertain-001.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004809.png",
+      "role": "negative"
+    },
+    {
+      "media_id": "IMG_004811",
+      "mtime": 1788333156.587344,
+      "relative_link": "02_review_by_event/fire_passage_blocked/negative/IMG_004811__355_fpb-s-fire-exit-door-approach-uncertain-003.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004811.png",
+      "role": "negative"
+    },
+    {
+      "media_id": "IMG_004813",
+      "mtime": 1788333156.587344,
+      "relative_link": "02_review_by_event/fire_passage_blocked/negative/IMG_004813__357_fpb-s-fire-exit-door-approach-uncertain-005.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004813.png",
+      "role": "negative"
+    },
+    {
+      "media_id": "IMG_004815",
+      "mtime": 1788333156.587344,
+      "relative_link": "02_review_by_event/fire_passage_blocked/negative/IMG_004815__359_fpb-s-fire-exit-door-approach-uncertain-007.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004815.png",
+      "role": "negative"
+    },
+    {
+      "media_id": "IMG_004817",
+      "mtime": 1788333156.587344,
+      "relative_link": "02_review_by_event/fire_passage_blocked/negative/IMG_004817__360_fpb-s-fire-exit-door-approach-uncertain-008.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004817.png",
+      "role": "negative"
+    },
+    {
+      "media_id": "IMG_005052",
+      "mtime": 1788333156.587344,
+      "relative_link": "02_review_by_event/fire_passage_blocked/negative/IMG_005052__70_fpb-s-fire-lane-uncertain-006.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_005052.png",
+      "role": "negative"
+    },
+    {
+      "media_id": "IMG_005054",
+      "mtime": 1788333156.587344,
+      "relative_link": "02_review_by_event/fire_passage_blocked/negative/IMG_005054__72_fpb-s-fire-lane-uncertain-008.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_005054.png",
+      "role": "negative"
+    },
+    {
+      "media_id": "IMG_004546",
+      "mtime": 1788333156.587344,
+      "relative_link": "02_review_by_event/fire_passage_blocked/positive/IMG_004546__114_fpb-s-fire-passage-hard-negative-002.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004546.png",
+      "role": "positive"
+    },
+    {
+      "media_id": "IMG_004555",
+      "mtime": 1788333156.5883439,
+      "relative_link": "02_review_by_event/fire_passage_blocked/positive/IMG_004555__122_fpb-s-fire-passage-hard-negative-010.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004555.png",
+      "role": "positive"
+    },
+    {
+      "media_id": "IMG_004567",
+      "mtime": 1788333156.5883439,
+      "relative_link": "02_review_by_event/fire_passage_blocked/positive/IMG_004567__133_fpb-s-fire-passage-hard-negative-021.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004567.png",
+      "role": "positive"
+    },
+    {
+      "media_id": "IMG_004572",
+      "mtime": 1788333156.5883439,
+      "relative_link": "02_review_by_event/fire_passage_blocked/positive/IMG_004572__138_fpb-s-fire-passage-uncertain-002.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004572.png",
+      "role": "positive"
+    },
+    {
+      "media_id": "IMG_004576",
+      "mtime": 1788333156.5883439,
+      "relative_link": "02_review_by_event/fire_passage_blocked/positive/IMG_004576__141_fpb-s-fire-passage-uncertain-005.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004576.png",
+      "role": "positive"
+    },
+    {
+      "media_id": "IMG_004577",
+      "mtime": 1788333156.5883439,
+      "relative_link": "02_review_by_event/fire_passage_blocked/positive/IMG_004577__142_fpb-s-fire-passage-uncertain-006.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004577.png",
+      "role": "positive"
+    },
+    {
+      "media_id": "IMG_004579",
+      "mtime": 1788333156.5883439,
+      "relative_link": "02_review_by_event/fire_passage_blocked/positive/IMG_004579__144_fpb-s-fire-passage-uncertain-008.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004579.png",
+      "role": "positive"
+    },
+    {
+      "media_id": "IMG_004624",
+      "mtime": 1788333156.5883439,
+      "relative_link": "02_review_by_event/fire_passage_blocked/positive/IMG_004624__185_fpb-s-evacuation-route-hard-negative-001.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004624.png",
+      "role": "positive"
+    },
+    {
+      "media_id": "IMG_004625",
+      "mtime": 1788333156.5883439,
+      "relative_link": "02_review_by_event/fire_passage_blocked/positive/IMG_004625__186_fpb-s-evacuation-route-hard-negative-002.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004625.png",
+      "role": "positive"
+    },
+    {
+      "media_id": "IMG_004641",
+      "mtime": 1788333156.5883439,
+      "relative_link": "02_review_by_event/fire_passage_blocked/positive/IMG_004641__200_fpb-s-evacuation-route-hard-negative-016.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004641.png",
+      "role": "positive"
+    },
+    {
+      "media_id": "IMG_004704",
+      "mtime": 1788333156.589344,
+      "relative_link": "02_review_by_event/fire_passage_blocked/positive/IMG_004704__258_fpb-s-emergency-exit-approach-hard-negative-002.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004704.png",
+      "role": "positive"
+    },
+    {
+      "media_id": "IMG_004705",
+      "mtime": 1788333156.589344,
+      "relative_link": "02_review_by_event/fire_passage_blocked/positive/IMG_004705__259_fpb-s-emergency-exit-approach-hard-negative-003.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004705.png",
+      "role": "positive"
+    },
+    {
+      "media_id": "IMG_004722",
+      "mtime": 1788333156.589344,
+      "relative_link": "02_review_by_event/fire_passage_blocked/positive/IMG_004722__274_fpb-s-emergency-exit-approach-hard-negative-018.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004722.png",
+      "role": "positive"
+    },
+    {
+      "media_id": "IMG_004730",
+      "mtime": 1788333156.589344,
+      "relative_link": "02_review_by_event/fire_passage_blocked/positive/IMG_004730__281_fpb-s-emergency-exit-approach-uncertain-001.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004730.png",
+      "role": "positive"
+    },
+    {
+      "media_id": "IMG_004733",
+      "mtime": 1788333156.589344,
+      "relative_link": "02_review_by_event/fire_passage_blocked/positive/IMG_004733__284_fpb-s-emergency-exit-approach-uncertain-004.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004733.png",
+      "role": "positive"
+    },
+    {
+      "media_id": "IMG_004734",
+      "mtime": 1788333156.589344,
+      "relative_link": "02_review_by_event/fire_passage_blocked/positive/IMG_004734__285_fpb-s-emergency-exit-approach-uncertain-005.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004734.png",
+      "role": "positive"
+    },
+    {
+      "media_id": "IMG_004784",
+      "mtime": 1788333156.589344,
+      "relative_link": "02_review_by_event/fire_passage_blocked/positive/IMG_004784__330_fpb-s-fire-exit-door-approach-hard-negative-002.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004784.png",
+      "role": "positive"
+    },
+    {
+      "media_id": "IMG_004785",
+      "mtime": 1788333156.590344,
+      "relative_link": "02_review_by_event/fire_passage_blocked/positive/IMG_004785__331_fpb-s-fire-exit-door-approach-hard-negative-003.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004785.png",
+      "role": "positive"
+    },
+    {
+      "media_id": "IMG_004801",
+      "mtime": 1788333156.590344,
+      "relative_link": "02_review_by_event/fire_passage_blocked/positive/IMG_004801__346_fpb-s-fire-exit-door-approach-hard-negative-018.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004801.png",
+      "role": "positive"
+    },
+    {
+      "media_id": "IMG_004812",
+      "mtime": 1788333156.590344,
+      "relative_link": "02_review_by_event/fire_passage_blocked/positive/IMG_004812__356_fpb-s-fire-exit-door-approach-uncertain-004.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004812.png",
+      "role": "positive"
+    },
+    {
+      "media_id": "IMG_004814",
+      "mtime": 1788333156.590344,
+      "relative_link": "02_review_by_event/fire_passage_blocked/positive/IMG_004814__358_fpb-s-fire-exit-door-approach-uncertain-006.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004814.png",
+      "role": "positive"
+    },
+    {
+      "media_id": "IMG_004893",
+      "mtime": 1788333156.590344,
+      "relative_link": "02_review_by_event/fire_passage_blocked/positive/IMG_004893__42_fpb-s-fire-lane-hard-negative-002.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004893.png",
+      "role": "positive"
+    },
+    {
+      "media_id": "IMG_004904",
+      "mtime": 1788333156.590344,
+      "relative_link": "02_review_by_event/fire_passage_blocked/positive/IMG_004904__43_fpb-s-fire-lane-hard-negative-003.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004904.png",
+      "role": "positive"
+    },
+    {
+      "media_id": "IMG_004915",
+      "mtime": 1788333156.590344,
+      "relative_link": "02_review_by_event/fire_passage_blocked/positive/IMG_004915__44_fpb-s-fire-lane-hard-negative-004.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_004915.png",
+      "role": "positive"
+    },
+    {
+      "media_id": "IMG_005044",
+      "mtime": 1788333156.5913439,
+      "relative_link": "02_review_by_event/fire_passage_blocked/positive/IMG_005044__62_fpb-s-fire-lane-hard-negative-022.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_005044.png",
+      "role": "positive"
+    },
+    {
+      "media_id": "IMG_005048",
+      "mtime": 1788333156.5913439,
+      "relative_link": "02_review_by_event/fire_passage_blocked/positive/IMG_005048__66_fpb-s-fire-lane-uncertain-002.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_005048.png",
+      "role": "positive"
+    },
+    {
+      "media_id": "IMG_005051",
+      "mtime": 1788333156.5913439,
+      "relative_link": "02_review_by_event/fire_passage_blocked/positive/IMG_005051__69_fpb-s-fire-lane-uncertain-005.png",
+      "relative_target": "00_raw/ai_generated/images/fire_passage_blocked_aigc_v1_static/IMG_005051.png",
+      "role": "positive"
+    }
+  ],
+  "event_name": "fire_passage_blocked",
+  "expected_count": 45,
+  "expected_role_counts": {
+    "negative": 18,
+    "positive": 27
+  },
+  "operation": "revert_unintended_cross_event_review_links",
+  "preflight_errors": [],
+  "reason": "global rebuild-links created non-target links during the person_fallen v3 Codex ingest; restore the pre-task boundary",
+  "reverted_link_count": 45,
+  "role_counts": {
+    "negative": 18,
+    "positive": 27
+  },
+  "status": "ok"
+}

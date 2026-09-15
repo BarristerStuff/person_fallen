@@ -1,0 +1,71 @@
+{
+  "candidate": "C3_BASELINE",
+  "config_sha256": "102c1e82706a78aacbb8e6e07f41d6b1d0233e4c72954a7d3ab46d07529a5779",
+  "execution_status": "COMPLETE",
+  "holdout_requests": 0,
+  "ledger_states": {
+    "COMPLETED": 190
+  },
+  "manifest_sha256": "f221e760bd1e6a86c648a60750db7d6f06119c7b872da894cf121e17ed6a79d1",
+  "metrics_direct": {
+    "FN": 0,
+    "FP": 2,
+    "TN": 108,
+    "TP": 70,
+    "accuracy": 0.9888888888888889,
+    "determinate_count": 180,
+    "f1": 0.9859154929577465,
+    "fpr": 0.01818181818181818,
+    "gt_uncertain_prediction_distribution": {
+      "negative": 6,
+      "positive": 4
+    },
+    "hard_negative_fpr": 0.02857142857142857,
+    "model_uncertain_count": 0,
+    "model_uncertain_rate": 0.0,
+    "ordinary_negative_fpr": 0.0,
+    "positive_recall": 1.0,
+    "precision": 0.9722222222222222,
+    "recall": 1.0,
+    "specificity": 0.9818181818181818
+  },
+  "metrics_rule": null,
+  "phase": "design",
+  "planned_requests": 190,
+  "predictions_sha256": "731d4d35b1c55dd519a5ac89350aeaf93cd4f30437ebc350fd39981fa3f6bd13",
+  "prompt_sha256": "685bb9724b1faa96298c1e6cf8139774d82afbc9d2f30cdd154fbe5cb776951e",
+  "protocol": {
+    "canonical_prediction_success_rate": 1.0,
+    "http_success_rate": 1.0,
+    "json_parse_success_rate": 1.0,
+    "latency_seconds": {
+      "cold": 6.895656,
+      "max": 1.979164,
+      "observed_max": 6.895656,
+      "observed_p50": 1.6008285,
+      "observed_p95": 1.87175045,
+      "p50": 1.600693,
+      "p95": 1.868383,
+      "warm_mean": 1.6200135396825397
+    },
+    "prediction_distribution_direct": {
+      "negative": 114,
+      "positive": 76
+    },
+    "prediction_distribution_rule": {
+      "protocol_failure": 190
+    },
+    "request_count": 190,
+    "response_nonempty_rate": 1.0,
+    "schema_success_rate": 1.0,
+    "thinking_present_rate": 0.0
+  },
+  "protocol_gate_pass": true,
+  "raw_responses_sha256": "b9e62ed998a43d33fe10c72432863d5acbade0468d81c111690a9e55c9a0e6b4",
+  "request_log_sha256": "cf20278b1614de1cac9ffe70779bbfb6bdac0a9269cd639b3de8b0a879b43bd1",
+  "runner_sha256": "4e103b1e6b42418315f6b572b3b53618eb66ba952f32f02157907e3b4122d22b",
+  "stage": "P3_STRUCTURED_HARD_NEGATIVE_REFINEMENT",
+  "structured_conflict_count": 0,
+  "structured_conflict_rate": 0.0,
+  "val_requests": 0
+}

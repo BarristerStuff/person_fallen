@@ -1,0 +1,134 @@
+{
+  "actual_sha256": "9ccc13936d0b62a5d352a0c2a402603e99712bc2064beca67b4ee7fd56fb7a44",
+  "all_bound_artifacts_match": true,
+  "all_match": true,
+  "bound_artifact_count": 17,
+  "bound_artifacts": [
+    {
+      "actual_sha256": "5a39745d0a80759af1eb133c901fd63764610288727fbccb5e08f31c208f96f5",
+      "expected_sha256": "5a39745d0a80759af1eb133c901fd63764610288727fbccb5e08f31c208f96f5",
+      "match": true,
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/profile_stratified_recovery_20260828_01/00_preflight/dataset_boundary_after_execution.json"
+    },
+    {
+      "actual_sha256": "520d494734408841dbe35f622e6e5c8adc73c944810974e201ea6e7537a232f9",
+      "expected_sha256": "520d494734408841dbe35f622e6e5c8adc73c944810974e201ea6e7537a232f9",
+      "match": true,
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/profile_stratified_recovery_20260828_01/00_preflight/dataset_boundary_before_execution.json"
+    },
+    {
+      "actual_sha256": "7633373e4f601e9b93bd9378cbe5290b4c3836a84284e6c94fe42db1df2b75b6",
+      "expected_sha256": "7633373e4f601e9b93bd9378cbe5290b4c3836a84284e6c94fe42db1df2b75b6",
+      "match": true,
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/profile_stratified_recovery_20260828_01/01_authorization/recovery_authorization_attestation.json"
+    },
+    {
+      "actual_sha256": "5a08f9a935f43614ef66b654c008e5c9b52f32a1728366f9cd9dcb6de25d086a",
+      "expected_sha256": "5a08f9a935f43614ef66b654c008e5c9b52f32a1728366f9cd9dcb6de25d086a",
+      "match": true,
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/profile_stratified_recovery_20260828_01/02_runner/run_config.json"
+    },
+    {
+      "actual_sha256": "40a170cc48526e04bc344b55f4060c8bc0ab8c729c7c9f8ee126ede1da8c2fd0",
+      "expected_sha256": "40a170cc48526e04bc344b55f4060c8bc0ab8c729c7c9f8ee126ede1da8c2fd0",
+      "match": true,
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/profile_stratified_recovery_20260828_01/03_ledger/execution_ledger.csv"
+    },
+    {
+      "actual_sha256": "07f4f4c35c93c072dd5dfd5b0db576b8a7451726c4b878929f380da641e0fa14",
+      "expected_sha256": "07f4f4c35c93c072dd5dfd5b0db576b8a7451726c4b878929f380da641e0fa14",
+      "match": true,
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/profile_stratified_recovery_20260828_01/03_ledger/initial_profile_stratified_slot_plan.csv"
+    },
+    {
+      "actual_sha256": "f41f0a0c70afc48957df60e60759d65c075f266a9b082cf639be53e965819ce7",
+      "expected_sha256": "f41f0a0c70afc48957df60e60759d65c075f266a9b082cf639be53e965819ce7",
+      "match": true,
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/profile_stratified_recovery_20260828_01/03_ledger/p4d_gr3q2e_execution.sqlite3"
+    },
+    {
+      "actual_sha256": "67ae2ff6287b4485004968860aceccc445b0c218c25eb1a95c5d8a091c497974",
+      "expected_sha256": "67ae2ff6287b4485004968860aceccc445b0c218c25eb1a95c5d8a091c497974",
+      "match": true,
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/profile_stratified_recovery_20260828_01/05_checkpoints/initial_terminal_freeze_binding_error_audit.json"
+    },
+    {
+      "actual_sha256": "f5faf31c986e38fccca0422e7474dc8843510aeea32a859a2075f97169c73393",
+      "expected_sha256": "f5faf31c986e38fccca0422e7474dc8843510aeea32a859a2075f97169c73393",
+      "match": true,
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/profile_stratified_recovery_20260828_01/06_full_qa/batch_output_inventory.json"
+    },
+    {
+      "actual_sha256": "12b0abfa30b0e8cec0a9f25d5fc456625b73592587f2ad0dcaeb390680506e06",
+      "expected_sha256": "12b0abfa30b0e8cec0a9f25d5fc456625b73592587f2ad0dcaeb390680506e06",
+      "match": true,
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/profile_stratified_recovery_20260828_01/06_full_qa/raw_response_manifest.json"
+    },
+    {
+      "actual_sha256": "5ed7db5f0b0a623e380b1daf3201518c920cdcd1aca0d2d796d5dcccabcf0f67",
+      "expected_sha256": "5ed7db5f0b0a623e380b1daf3201518c920cdcd1aca0d2d796d5dcccabcf0f67",
+      "match": true,
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/profile_stratified_recovery_20260828_01/freeze/p4d_gr3q2e_execution_preflight_freeze.json"
+    },
+    {
+      "actual_sha256": "f68257b67d0c4685f394fc1a77a5dff74a3c100b6c2f442a91075f8e850355e5",
+      "expected_sha256": "f68257b67d0c4685f394fc1a77a5dff74a3c100b6c2f442a91075f8e850355e5",
+      "match": true,
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/profile_stratified_recovery_20260828_01/freeze/p4d_gr3q2e_terminal_freeze_initial_binding_error.json"
+    },
+    {
+      "actual_sha256": "f2a263951b832377254ed08a8c02e8c6395092f20e448397d8c9788b1515bc63",
+      "expected_sha256": "f2a263951b832377254ed08a8c02e8c6395092f20e448397d8c9788b1515bc63",
+      "match": true,
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/profile_stratified_recovery_20260828_01/freeze/p4d_gr3q2e_terminal_freeze_initial_binding_error.original_sidecar.txt"
+    },
+    {
+      "actual_sha256": "fc16d104248a157e3c3ab67f98fbebd37a54639be0dc602b1d37320eef08236d",
+      "expected_sha256": "fc16d104248a157e3c3ab67f98fbebd37a54639be0dc602b1d37320eef08236d",
+      "match": true,
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/profile_stratified_recovery_20260828_01/raw_responses.jsonl"
+    },
+    {
+      "actual_sha256": "f2083b8379d01893efe932d599c8f58f20cb8a071101fbc5fe646d0275e00637",
+      "expected_sha256": "f2083b8379d01893efe932d599c8f58f20cb8a071101fbc5fe646d0275e00637",
+      "match": true,
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/profile_stratified_recovery_20260828_01/request_log.jsonl"
+    },
+    {
+      "actual_sha256": "707033a48a8189e774682a8ef734797b41f925a19d03b5408da43ec7fd47be3c",
+      "expected_sha256": "707033a48a8189e774682a8ef734797b41f925a19d03b5408da43ec7fd47be3c",
+      "match": true,
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/tools/p4d_gr3q2e_profile_stratified_recovery.py"
+    },
+    {
+      "actual_sha256": "4d349916e171b272788258a11dea578f6d3bfc97825886689a9b29747f4d4037",
+      "expected_sha256": "4d349916e171b272788258a11dea578f6d3bfc97825886689a9b29747f4d4037",
+      "match": true,
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/tools/p4d_gr3q2e_reseal_terminal_freeze.py"
+    }
+  ],
+  "canonical_parent": true,
+  "captured_at": "2026-08-28T07:14:26.149+00:00",
+  "expected_sha256": "9ccc13936d0b62a5d352a0c2a402603e99712bc2064beca67b4ee7fd56fb7a44",
+  "initial_binding_error_freeze_not_used": true,
+  "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/profile_stratified_recovery_20260828_01/freeze/p4d_gr3q2e_terminal_freeze.json",
+  "revision_id": "P4D_GR3Q2E_PROFILE_STRATIFIED_RECOVERY_20260828_01",
+  "sidecar_match": true,
+  "sidecar_sha256": "9ccc13936d0b62a5d352a0c2a402603e99712bc2064beca67b4ee7fd56fb7a44",
+  "stage": "P4D_GR3Q2E_PROFILE_STRATIFIED_RECOVERY",
+  "status": "STOPPED_BY_FAILURE_POLICY",
+  "terminal_counts": {
+    "COMPLETION_UNKNOWN": 0,
+    "FAILED_CONFIRMED_PROFILE_B": 1,
+    "NOT_STARTED_PROFILE_B": 337,
+    "PRESERVED_PROFILE_A": 99,
+    "PROFILE_A_PRESERVED": 99,
+    "PROFILE_B_FAILED": 1,
+    "PROFILE_B_NOT_STARTED": 337,
+    "PROFILE_B_STARTED": 0,
+    "PROFILE_B_SUCCESS": 3,
+    "PROVIDER_REQUESTS": 4,
+    "SUCCESS_PROFILE_B": 3,
+    "TOTAL": 440
+  }
+}

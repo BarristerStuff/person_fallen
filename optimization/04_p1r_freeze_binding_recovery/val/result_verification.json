@@ -1,0 +1,53 @@
+{
+  "P1R_RESULT_VERIFICATION": "PASS",
+  "checks": {
+    "manifest_count": 100,
+    "prediction_count": 100,
+    "raw_count": 100,
+    "log_count": 100,
+    "ledger_completed_count": 100,
+    "manifest_unique": 100,
+    "prediction_unique": 100,
+    "raw_unique_requests": 100,
+    "log_unique_requests": 100,
+    "sets_match": true,
+    "holdout_rows": 0,
+    "canonical_all": true
+  },
+  "recomputed_metrics": {
+    "TP": 40,
+    "FP": 11,
+    "TN": 49,
+    "FN": 0,
+    "precision": 0.7843137254901961,
+    "recall": 1.0,
+    "f1": 0.8791208791208791,
+    "accuracy": 0.89,
+    "fpr": 0.18333333333333332,
+    "specificity": 0.8166666666666667,
+    "ordinary_negative_fpr": 0.0,
+    "hard_negative_fpr": 0.275,
+    "positive_recall": 1.0,
+    "model_uncertain_count": 0,
+    "model_uncertain_rate": 0.0
+  },
+  "summary_metrics": {
+    "TP": 40,
+    "FP": 11,
+    "TN": 49,
+    "FN": 0,
+    "precision": 0.7843137254901961,
+    "recall": 1.0,
+    "f1": 0.8791208791208791,
+    "accuracy": 0.89,
+    "fpr": 0.18333333333333332,
+    "specificity": 0.8166666666666667,
+    "ordinary_negative_fpr": 0.0,
+    "hard_negative_fpr": 0.275,
+    "positive_recall": 1.0,
+    "model_uncertain_count": 0,
+    "model_uncertain_rate": 0.0
+  },
+  "METRIC_RECOMPUTE_MATCH": true,
+  "P1R_VALID_RECOVERY_BASELINE": true
+}

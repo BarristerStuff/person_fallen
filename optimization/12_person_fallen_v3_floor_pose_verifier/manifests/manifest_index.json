@@ -1,0 +1,9 @@
+{
+  "dev_full_manifest_sha256": "fc41fcc39b87d8da7decfd50a4d832e8c5f38470c7c6cf08aaaaa160aa751f2b",
+  "dev_stage2_manifest_sha256": "ba86894e90b20c4ab27d798902241a2ccb85f05dc3f2e2720fea9017cd7ea258",
+  "holdout_rows": 0,
+  "screen_full_manifest_sha256": "8e9b4048c0bc97807e8afe647eee11c0903d50108844f2117ae41b85c6e8923c",
+  "stage1_dev_positive_calls_to_stage2": 233,
+  "status": "PASS",
+  "val_full_manifest_sha256": "ffe093f90a64698f1006541400dc8bf6bda774bbe54febc47ef2c388ef184302"
+}

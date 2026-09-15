@@ -1,0 +1,11 @@
+{
+  "error": {
+    "code": "http_error",
+    "detail": {
+      "detail": "{\n  \"error\": {\n    \"message\": \"Your session has ended. Please log in again.\",\n    \"type\": \"invalid_request_error\",\n    \"param\": null,\n    \"code\": \"refresh_token_invalidated\"\n  }\n}",
+      "message": "Refresh request failed."
+    },
+    "message": "HTTP 401"
+  },
+  "ok": false
+}

@@ -1,0 +1,74 @@
+{
+  "checks": {
+    "candidate_freeze": {
+      "actual_sha256": "7ab9169a9502c832c8a10b522ab7257eba846a5ff7ecef39f6139b7e5d9beebe",
+      "expected_sha256": "7ab9169a9502c832c8a10b522ab7257eba846a5ff7ecef39f6139b7e5d9beebe",
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/05_p2_hard_negative_semantic_optimization/03_candidates/candidate_freeze.json"
+    },
+    "config": {
+      "actual_sha256": "8f3e64f30beeadb0a31e2ac909fd0c57562a1a06291d0a93360ce788a4b1f10d",
+      "expected_sha256": "8f3e64f30beeadb0a31e2ac909fd0c57562a1a06291d0a93360ce788a4b1f10d",
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/05_p2_hard_negative_semantic_optimization/05_winner_freeze/p2_winner_config.json"
+    },
+    "design_manifest": {
+      "actual_sha256": "f221e760bd1e6a86c648a60750db7d6f06119c7b872da894cf121e17ed6a79d1",
+      "expected_sha256": "f221e760bd1e6a86c648a60750db7d6f06119c7b872da894cf121e17ed6a79d1",
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/05_p2_hard_negative_semantic_optimization/01_internal_split/p2_design_manifest.csv"
+    },
+    "internal_split": {
+      "actual_sha256": "a9edfb22fc0170ce774dfe5e6229bf776c8c272868b55c303e74ae629b153892",
+      "expected_sha256": "a9edfb22fc0170ce774dfe5e6229bf776c8c272868b55c303e74ae629b153892",
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/05_p2_hard_negative_semantic_optimization/01_internal_split/p2_internal_split.json"
+    },
+    "materializer": {
+      "actual_sha256": "d2485bc89345df7b03bfae42e7cbea206cc1136271381a6cbf3da9d29092482b",
+      "expected_sha256": "d2485bc89345df7b03bfae42e7cbea206cc1136271381a6cbf3da9d29092482b",
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/tools/p2_materialize_results.py"
+    },
+    "p1r_predictions": {
+      "actual_sha256": "7f221795f9a21febd47d5861ee58492dbef6eb00a1032ea240bc1c536de1e38b",
+      "expected_sha256": "7f221795f9a21febd47d5861ee58492dbef6eb00a1032ea240bc1c536de1e38b",
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/04_p1r_freeze_binding_recovery/val/predictions.csv"
+    },
+    "prompt": {
+      "actual_sha256": "685bb9724b1faa96298c1e6cf8139774d82afbc9d2f30cdd154fbe5cb776951e",
+      "expected_sha256": "685bb9724b1faa96298c1e6cf8139774d82afbc9d2f30cdd154fbe5cb776951e",
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/05_p2_hard_negative_semantic_optimization/05_winner_freeze/p2_winner_prompt.txt"
+    },
+    "runner": {
+      "actual_sha256": "72a3ffdd044cbea46025e0fe90f9c7e62350af194e0ccaa89f267d1cf0f0a568",
+      "expected_sha256": "72a3ffdd044cbea46025e0fe90f9c7e62350af194e0ccaa89f267d1cf0f0a568",
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/tools/p2_inference_runner.py"
+    },
+    "screen_manifest": {
+      "actual_sha256": "ccb8c9df51371dbfd2a8e34201ccd42b0a825eea4444ba45a3aaa6945094aab5",
+      "expected_sha256": "ccb8c9df51371dbfd2a8e34201ccd42b0a825eea4444ba45a3aaa6945094aab5",
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/05_p2_hard_negative_semantic_optimization/01_internal_split/p2_screen_manifest.csv"
+    },
+    "screen_predictions": {
+      "actual_sha256": "5d21d873dc327c8e59d25c59fad79522f65d6d0e19a817c5d893f662aaa1a848",
+      "expected_sha256": "5d21d873dc327c8e59d25c59fad79522f65d6d0e19a817c5d893f662aaa1a848",
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/05_p2_hard_negative_semantic_optimization/04_screening/C3/predictions.csv"
+    },
+    "screen_summary": {
+      "actual_sha256": "4c6c0233a92e9a918d176d866286849a1fd59865d2dff85d7ae0e2a77bce78be",
+      "expected_sha256": "4c6c0233a92e9a918d176d866286849a1fd59865d2dff85d7ae0e2a77bce78be",
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/05_p2_hard_negative_semantic_optimization/04_screening/C3/summary.json"
+    },
+    "val_manifest": {
+      "actual_sha256": "f3feb12b364ffbf045857d6b4ba77ed28932ccf0d9c1d644db7a10de7dfd7762",
+      "expected_sha256": "f3feb12b364ffbf045857d6b4ba77ed28932ccf0d9c1d644db7a10de7dfd7762",
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/04_p1r_freeze_binding_recovery/preflight/recovery_val_manifest.csv"
+    },
+    "winner_decision": {
+      "actual_sha256": "2a371f566b02826c688d4d914a5fc678e8e293be34f4d8b4f5df19f7e3a194b4",
+      "expected_sha256": "2a371f566b02826c688d4d914a5fc678e8e293be34f4d8b4f5df19f7e3a194b4",
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/05_p2_hard_negative_semantic_optimization/04_screening/winner_decision.json"
+    }
+  },
+  "errors": [],
+  "freeze_sha256": "ffbf7cf4cb914b54226ef974f0a51674fcd42b3ad98be98cc210474f434131c0",
+  "freeze_unchanged_during_verification": true,
+  "verification_result": "PASS",
+  "verified_at_utc": "2026-08-27T01:39:48.812657+00:00"
+}

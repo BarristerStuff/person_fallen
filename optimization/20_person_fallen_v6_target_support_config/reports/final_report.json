@@ -1,0 +1,57 @@
+{
+  "CANDIDATE": "V6-A0-TARGET-SUPPORT-CONFIG",
+  "EVALUATION_MODE": "NEW_TARGET_SUPPORT_ATTRIBUTES_ONLY",
+  "FINAL_STATUS": "V6_FREEZE_BLOCKED_BEFORE_REQUEST",
+  "reason": "Frozen runner requires budget dict exactly {pilot,regression,total}, while frozen execution plan and candidate freeze include explicit zero budgets full_dev/val/holdout. The runner/freeze interface is inconsistent.",
+  "freeze_budget": {
+    "pilot": 156,
+    "regression": 1,
+    "total": 157,
+    "full_dev": 0,
+    "val": 0,
+    "holdout": 0
+  },
+  "runner_expected_budget": {
+    "pilot": 156,
+    "regression": 1,
+    "total": 157
+  },
+  "freeze_sha256": "cf581b82febef1e76a6a812b594e379f473e70b30ac14e959bdfc7e027f9e5f7",
+  "freeze_binding_count": 652,
+  "PILOT_DEV_156": {
+    "status": "NOT_RUN",
+    "rows_expected": 156,
+    "new_model_requests": 0,
+    "valid_responses": "NOT_RUN",
+    "gate": "NOT_RUN"
+  },
+  "KNOWN_FAILURE_REGRESSION_1": {
+    "status": "NOT_RUN",
+    "request_count": 0,
+    "gate": "NOT_RUN"
+  },
+  "TOTAL_NEW_MODEL_REQUESTS": 0,
+  "CLAIMED_REQUESTS": 0,
+  "RAW_RESPONSES": 0,
+  "COMPLETED_REQUESTS": 0,
+  "ACTIVE_RUNNERS": 0,
+  "VAL_REQUESTS": 0,
+  "VAL_IMAGES_READ": 0,
+  "HOLDOUT_REQUESTS": 0,
+  "HOLDOUT_CONSUMED": false,
+  "ROBOT_CONTROL_REQUESTS": 0,
+  "OBJECT_LOCALIZATION_ACCURACY": "UNVERIFIED",
+  "REAL_CAMERA_VALIDATED": false,
+  "VIDEO_VALIDATED": false,
+  "ROBOT_REOBSERVATION_VALIDATED": false,
+  "CURRENT_WINNER": "NONE",
+  "READY_FOR_FULL_DEV_EXTENSION_AUTHORIZATION": false,
+  "READY_FOR_VAL": false,
+  "READY_FOR_FINAL_HOLDOUT": false,
+  "PRODUCTION_INTEGRATION_READY": false,
+  "NEXT_ACTION": "WAIT_FOR_EXPLICIT_FREEZE_RECOVERY_AUTHORIZATION",
+  "candidate_source_files_modified_after_freeze": false,
+  "candidate_resealed": false,
+  "V6_A1_CREATED": false,
+  "timestamp": "2026-09-10T03:13:44.113913+00:00"
+}

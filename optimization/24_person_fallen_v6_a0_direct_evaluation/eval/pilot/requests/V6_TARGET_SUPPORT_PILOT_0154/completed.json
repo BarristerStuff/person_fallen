@@ -1,0 +1,109 @@
+{
+  "state": "completed",
+  "phase": "pilot",
+  "request_id": "V6_TARGET_SUPPORT_PILOT_0154",
+  "item_id": "P4D_PLAN::PF_P4D_POS_MULTI_G001_V03",
+  "operational_id": "PFV6_PILOT_0154",
+  "taxonomy": "multi_person_one_lying",
+  "group_id": "PF_P4D_POS_MULTI_G001",
+  "evaluation_stratum": "ground_lying",
+  "source_image_sha256": "078df807ba36c7014717f00fbe459dbb4e8a846d1e9ccad6ce2100fc646c6b35",
+  "full_view_sha256": "e01642ca1bff4c6a92125f9d897d79254bd3aab623386bb6974024c870cd7728",
+  "crop_view_sha256": "0fb2f38e32947e684a2288e4a922735de6df7249e94d1a7401b7ea7e5ea623ea",
+  "payload_sha256": "f4ea90e9e567d74e3874a9061a19920f95b73731f39da1ce02da1583d158c984",
+  "claimed_timestamp": "2026-09-14T10:33:02.237348+00:00",
+  "http_status": 200,
+  "latency_seconds": 12.294184291007696,
+  "completion_unknown": false,
+  "transport_error": null,
+  "raw_response_sha256": "f1246c52186ccc693a8ba8efdccd5aa94b6e44cab28aa72284ef04a77bb3e871",
+  "raw_response_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/24_person_fallen_v6_a0_direct_evaluation/eval/pilot/requests/V6_TARGET_SUPPORT_PILOT_0154/response.raw",
+  "received_timestamp": "2026-09-14T10:33:14.533749+00:00",
+  "strict_json_ok": true,
+  "source_binding_ok": true,
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 497,
+  "parsed": {
+    "scene_coverage": "complete",
+    "people": [
+      {
+        "person_id": 1,
+        "bbox_1000": [
+          308,
+          473,
+          568,
+          629
+        ],
+        "person_visible": "yes",
+        "pose": "supine",
+        "torso_orientation": "horizontal",
+        "torso_ground_contact": "broad",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "body_support_configuration": "torso_ground_supported",
+        "explicit_work_evidence": "no",
+        "visual_quality": "clear",
+        "evidence": "Person lying on back on floor, head and shoulders elevated above hips, arms extended."
+      },
+      {
+        "person_id": 2,
+        "bbox_1000": [
+          700,
+          276,
+          938,
+          875
+        ],
+        "person_visible": "yes",
+        "pose": "walking",
+        "torso_orientation": "upright",
+        "torso_ground_contact": "none",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "body_support_configuration": "torso_ground_supported",
+        "explicit_work_evidence": "no",
+        "visual_quality": "clear",
+        "evidence": "Person viewed from behind, walking away from camera."
+      },
+      {
+        "person_id": 3,
+        "bbox_1000": [
+          58,
+          118,
+          168,
+          434
+        ],
+        "person_visible": "yes",
+        "pose": "walking",
+        "torso_orientation": "upright",
+        "torso_ground_contact": "none",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "body_support_configuration": "torso_ground_supported",
+        "explicit_work_evidence": "no",
+        "visual_quality": "clear",
+        "evidence": "Person viewed from side, walking away from camera."
+      }
+    ]
+  },
+  "person_decisions": [
+    {
+      "person_id": 1,
+      "decision": "ALERT_GROUND_LYING",
+      "reason": "CLEAR_TORSO_GROUND_SUPPORTED_LYING"
+    },
+    {
+      "person_id": 2,
+      "decision": "RECHECK_VISUAL_UNCERTAIN",
+      "reason": "NORMAL_POSE_SUPPORT_CONFLICT"
+    },
+    {
+      "person_id": 3,
+      "decision": "RECHECK_VISUAL_UNCERTAIN",
+      "reason": "NORMAL_POSE_SUPPORT_CONFLICT"
+    }
+  ],
+  "image_decision": "ALERT_GROUND_LYING",
+  "image_reason": "AT_LEAST_ONE_TORSO_GROUND_SUPPORTED_PERSON",
+  "completed_timestamp": "2026-09-14T10:33:14.534665+00:00"
+}

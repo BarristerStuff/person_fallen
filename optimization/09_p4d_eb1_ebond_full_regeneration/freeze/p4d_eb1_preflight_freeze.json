@@ -1,0 +1,1171 @@
+{
+  "created_at": "2026-08-28T08:50:33.198+00:00",
+  "dataset_boundary_before": {
+    "error_count": 0,
+    "full_hash_check": true,
+    "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/09_p4d_eb1_ebond_full_regeneration/config/dataset_validator_before.json",
+    "sha256": "050adc33b95f73d9e0b19d279fe94031962aa2d77407f822865773447aabe5f7",
+    "status": "valid",
+    "warning_count": 387
+  },
+  "event": "person_fallen",
+  "event_version": "v2.0",
+  "execution_order": {
+    "first_16_group_ids": [
+      "PF_P4D_HN_SIT_G001",
+      "PF_P4D_POS_SUPINE_G004",
+      "PF_P4D_NEG_STAND_G001",
+      "PF_P4D_HN_KNEEL_G008"
+    ],
+    "first_16_role_counts": {
+      "hard_negative": 6,
+      "ordinary_negative": 5,
+      "positive": 5
+    },
+    "first_16_split_counts": {
+      "NEW_DESIGN": 10,
+      "NEW_SCREEN": 6
+    },
+    "first_16_taxonomy_counts": {
+      "floor_sitting": 5,
+      "kneeling_half_kneeling": 1,
+      "standing_walking": 5,
+      "supine_ground_lying": 5
+    },
+    "full_role_counts": {
+      "hard_negative": 300,
+      "ordinary_negative": 40,
+      "positive": 100
+    },
+    "full_split_counts": {
+      "NEW_DESIGN": 265,
+      "NEW_SCREEN": 175
+    },
+    "full_taxonomy_counts": {
+      "chair_seated_normal_work": 20,
+      "crawling_quadruped_support": 40,
+      "curled_or_partially_occluded_lying": 15,
+      "floor_sitting": 60,
+      "ground_maintenance": 40,
+      "horizontal_corridor_ground_lying": 5,
+      "intentional_ground_lying": 10,
+      "kneeling_half_kneeling": 60,
+      "mixed_hard_negative": 20,
+      "multi_person_one_lying": 10,
+      "prone_ground_lying": 20,
+      "pushup_plank": 50,
+      "side_lying": 20,
+      "squat_crouch_deep_bend": 30,
+      "standing_walking": 20,
+      "supine_ground_lying": 20
+    },
+    "group_count": 88,
+    "group_order": [
+      "PF_P4D_HN_SIT_G001",
+      "PF_P4D_POS_SUPINE_G004",
+      "PF_P4D_NEG_STAND_G001",
+      "PF_P4D_HN_KNEEL_G008",
+      "PF_P4D_HN_PLANK_G001",
+      "PF_P4D_HN_CRAWL_G001",
+      "PF_P4D_POS_PRONE_G004",
+      "PF_P4D_HN_MAINT_G001",
+      "PF_P4D_HN_SQUAT_G005",
+      "PF_P4D_HN_MIX_G001",
+      "PF_P4D_POS_SIDE_G001",
+      "PF_P4D_NEG_CHAIR_G004",
+      "PF_P4D_POS_CURLED_G001",
+      "PF_P4D_POS_INTENTIONAL_G002",
+      "PF_P4D_POS_MULTI_G001",
+      "PF_P4D_POS_CORRIDOR_G001",
+      "PF_P4D_HN_SIT_G002",
+      "PF_P4D_HN_KNEEL_G001",
+      "PF_P4D_HN_PLANK_G007",
+      "PF_P4D_HN_CRAWL_G002",
+      "PF_P4D_HN_MAINT_G002",
+      "PF_P4D_HN_SIT_G008",
+      "PF_P4D_HN_KNEEL_G002",
+      "PF_P4D_HN_SQUAT_G006",
+      "PF_P4D_HN_PLANK_G002",
+      "PF_P4D_NEG_STAND_G002",
+      "PF_P4D_HN_SIT_G009",
+      "PF_P4D_HN_KNEEL_G003",
+      "PF_P4D_HN_CRAWL_G006",
+      "PF_P4D_HN_MAINT_G003",
+      "PF_P4D_HN_MIX_G002",
+      "PF_P4D_POS_SIDE_G003",
+      "PF_P4D_NEG_CHAIR_G001",
+      "PF_P4D_HN_PLANK_G008",
+      "PF_P4D_POS_SUPINE_G001",
+      "PF_P4D_HN_SIT_G003",
+      "PF_P4D_POS_PRONE_G001",
+      "PF_P4D_HN_KNEEL_G009",
+      "PF_P4D_HN_SQUAT_G001",
+      "PF_P4D_HN_CRAWL_G007",
+      "PF_P4D_HN_MAINT_G004",
+      "PF_P4D_POS_CURLED_G003",
+      "PF_P4D_HN_PLANK_G003",
+      "PF_P4D_HN_SIT_G010",
+      "PF_P4D_HN_KNEEL_G004",
+      "PF_P4D_HN_SIT_G004",
+      "PF_P4D_NEG_STAND_G003",
+      "PF_P4D_HN_KNEEL_G005",
+      "PF_P4D_HN_PLANK_G009",
+      "PF_P4D_HN_CRAWL_G003",
+      "PF_P4D_POS_SUPINE_G002",
+      "PF_P4D_HN_MAINT_G006",
+      "PF_P4D_HN_SQUAT_G002",
+      "PF_P4D_HN_MIX_G003",
+      "PF_P4D_POS_PRONE_G002",
+      "PF_P4D_NEG_CHAIR_G002",
+      "PF_P4D_POS_SIDE_G004",
+      "PF_P4D_HN_SIT_G005",
+      "PF_P4D_POS_MULTI_G002",
+      "PF_P4D_HN_KNEEL_G006",
+      "PF_P4D_HN_PLANK_G004",
+      "PF_P4D_POS_INTENTIONAL_G001",
+      "PF_P4D_HN_CRAWL_G008",
+      "PF_P4D_HN_MAINT_G007",
+      "PF_P4D_HN_SIT_G006",
+      "PF_P4D_HN_KNEEL_G007",
+      "PF_P4D_HN_SQUAT_G003",
+      "PF_P4D_HN_PLANK_G010",
+      "PF_P4D_POS_CURLED_G002",
+      "PF_P4D_NEG_STAND_G004",
+      "PF_P4D_HN_SIT_G007",
+      "PF_P4D_HN_KNEEL_G010",
+      "PF_P4D_HN_CRAWL_G004",
+      "PF_P4D_HN_MAINT_G008",
+      "PF_P4D_POS_SUPINE_G003",
+      "PF_P4D_HN_MIX_G004",
+      "PF_P4D_NEG_CHAIR_G003",
+      "PF_P4D_HN_PLANK_G005",
+      "PF_P4D_POS_PRONE_G003",
+      "PF_P4D_HN_SIT_G011",
+      "PF_P4D_POS_SIDE_G002",
+      "PF_P4D_HN_KNEEL_G011",
+      "PF_P4D_HN_SQUAT_G004",
+      "PF_P4D_HN_CRAWL_G005",
+      "PF_P4D_HN_MAINT_G005",
+      "PF_P4D_HN_SIT_G012",
+      "PF_P4D_HN_PLANK_G006",
+      "PF_P4D_HN_KNEEL_G012"
+    ],
+    "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/09_p4d_eb1_ebond_full_regeneration/order/ebond_balanced_execution_order.csv",
+    "score_trace": [
+      {
+        "contributions": {
+          "planned_internal_split": 1.5,
+          "target_role": 1.5,
+          "taxonomy": 1.5
+        },
+        "group_id": "PF_P4D_HN_SIT_G001",
+        "score": 4.5
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 1.5,
+          "target_role": 1.5,
+          "taxonomy": 1.5
+        },
+        "group_id": "PF_P4D_POS_SUPINE_G004",
+        "score": 4.5
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.9811320754716981,
+          "target_role": 1.5,
+          "taxonomy": 1.5
+        },
+        "group_id": "PF_P4D_NEG_STAND_G001",
+        "score": 3.98113208
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.9714285714285714,
+          "target_role": 0.9833333333333333,
+          "taxonomy": 1.5
+        },
+        "group_id": "PF_P4D_HN_KNEEL_G008",
+        "score": 3.4547619
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.9622641509433962,
+          "target_role": 0.9666666666666667,
+          "taxonomy": 1.5
+        },
+        "group_id": "PF_P4D_HN_PLANK_G001",
+        "score": 3.42893082
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.9433962264150944,
+          "target_role": 0.95,
+          "taxonomy": 1.5
+        },
+        "group_id": "PF_P4D_HN_CRAWL_G001",
+        "score": 3.39339623
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.9428571428571428,
+          "target_role": 0.95,
+          "taxonomy": 1.5
+        },
+        "group_id": "PF_P4D_POS_PRONE_G004",
+        "score": 3.39285714
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.9245283018867925,
+          "target_role": 0.9333333333333333,
+          "taxonomy": 1.5
+        },
+        "group_id": "PF_P4D_HN_MAINT_G001",
+        "score": 3.35786164
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.9142857142857143,
+          "target_role": 0.9166666666666666,
+          "taxonomy": 1.5
+        },
+        "group_id": "PF_P4D_HN_SQUAT_G005",
+        "score": 3.33095238
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.9056603773584906,
+          "target_role": 0.9,
+          "taxonomy": 1.5
+        },
+        "group_id": "PF_P4D_HN_MIX_G001",
+        "score": 3.30566038
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.8867924528301887,
+          "target_role": 0.9,
+          "taxonomy": 1.5
+        },
+        "group_id": "PF_P4D_POS_SIDE_G001",
+        "score": 3.28679245
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.8857142857142857,
+          "target_role": 0.875,
+          "taxonomy": 1.5
+        },
+        "group_id": "PF_P4D_NEG_CHAIR_G004",
+        "score": 3.26071429
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.8679245283018868,
+          "target_role": 0.85,
+          "taxonomy": 1.5
+        },
+        "group_id": "PF_P4D_POS_CURLED_G001",
+        "score": 3.21792453
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.8571428571428572,
+          "target_role": 0.8,
+          "taxonomy": 1.5
+        },
+        "group_id": "PF_P4D_POS_INTENTIONAL_G002",
+        "score": 3.15714286
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.8490566037735849,
+          "target_role": 0.75,
+          "taxonomy": 1.5
+        },
+        "group_id": "PF_P4D_POS_MULTI_G001",
+        "score": 3.0990566
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.8285714285714285,
+          "target_role": 0.7,
+          "taxonomy": 1.5
+        },
+        "group_id": "PF_P4D_POS_CORRIDOR_G001",
+        "score": 3.02857143
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.8301886792452831,
+          "target_role": 0.8833333333333333,
+          "taxonomy": 0.9166666666666666
+        },
+        "group_id": "PF_P4D_HN_SIT_G002",
+        "score": 2.63018868
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.8113207547169812,
+          "target_role": 0.8666666666666667,
+          "taxonomy": 0.9166666666666666
+        },
+        "group_id": "PF_P4D_HN_KNEEL_G001",
+        "score": 2.59465409
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.8,
+          "target_role": 0.85,
+          "taxonomy": 0.9
+        },
+        "group_id": "PF_P4D_HN_PLANK_G007",
+        "score": 2.55
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.7924528301886793,
+          "target_role": 0.8333333333333334,
+          "taxonomy": 0.875
+        },
+        "group_id": "PF_P4D_HN_CRAWL_G002",
+        "score": 2.50078616
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.7735849056603774,
+          "target_role": 0.8166666666666667,
+          "taxonomy": 0.875
+        },
+        "group_id": "PF_P4D_HN_MAINT_G002",
+        "score": 2.46525157
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.7714285714285715,
+          "target_role": 0.8,
+          "taxonomy": 0.8333333333333334
+        },
+        "group_id": "PF_P4D_HN_SIT_G008",
+        "score": 2.4047619
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.7547169811320755,
+          "target_role": 0.7833333333333333,
+          "taxonomy": 0.8333333333333334
+        },
+        "group_id": "PF_P4D_HN_KNEEL_G002",
+        "score": 2.37138365
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.7428571428571429,
+          "target_role": 0.7666666666666666,
+          "taxonomy": 0.8333333333333334
+        },
+        "group_id": "PF_P4D_HN_SQUAT_G006",
+        "score": 2.34285714
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.7358490566037736,
+          "target_role": 0.75,
+          "taxonomy": 0.8
+        },
+        "group_id": "PF_P4D_HN_PLANK_G002",
+        "score": 2.28584906
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.7169811320754718,
+          "target_role": 0.75,
+          "taxonomy": 0.75
+        },
+        "group_id": "PF_P4D_NEG_STAND_G002",
+        "score": 2.21698113
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.7142857142857143,
+          "target_role": 0.7333333333333334,
+          "taxonomy": 0.75
+        },
+        "group_id": "PF_P4D_HN_SIT_G009",
+        "score": 2.19761905
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.6981132075471699,
+          "target_role": 0.7166666666666667,
+          "taxonomy": 0.75
+        },
+        "group_id": "PF_P4D_HN_KNEEL_G003",
+        "score": 2.16477987
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.6857142857142857,
+          "target_role": 0.7,
+          "taxonomy": 0.75
+        },
+        "group_id": "PF_P4D_HN_CRAWL_G006",
+        "score": 2.13571429
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.679245283018868,
+          "target_role": 0.6833333333333333,
+          "taxonomy": 0.75
+        },
+        "group_id": "PF_P4D_HN_MAINT_G003",
+        "score": 2.11257862
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.6603773584905661,
+          "target_role": 0.6666666666666667,
+          "taxonomy": 0.75
+        },
+        "group_id": "PF_P4D_HN_MIX_G002",
+        "score": 2.07704403
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.6571428571428571,
+          "target_role": 0.65,
+          "taxonomy": 0.75
+        },
+        "group_id": "PF_P4D_POS_SIDE_G003",
+        "score": 2.05714286
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.6415094339622642,
+          "target_role": 0.625,
+          "taxonomy": 0.75
+        },
+        "group_id": "PF_P4D_NEG_CHAIR_G001",
+        "score": 2.01650943
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.6285714285714286,
+          "target_role": 0.65,
+          "taxonomy": 0.7
+        },
+        "group_id": "PF_P4D_HN_PLANK_G008",
+        "score": 1.97857143
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.6226415094339622,
+          "target_role": 0.6,
+          "taxonomy": 0.75
+        },
+        "group_id": "PF_P4D_POS_SUPINE_G001",
+        "score": 1.97264151
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.6037735849056604,
+          "target_role": 0.6333333333333333,
+          "taxonomy": 0.6666666666666667
+        },
+        "group_id": "PF_P4D_HN_SIT_G003",
+        "score": 1.90377358
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.5849056603773585,
+          "target_role": 0.55,
+          "taxonomy": 0.75
+        },
+        "group_id": "PF_P4D_POS_PRONE_G001",
+        "score": 1.88490566
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.6,
+          "target_role": 0.6166666666666667,
+          "taxonomy": 0.6666666666666667
+        },
+        "group_id": "PF_P4D_HN_KNEEL_G009",
+        "score": 1.88333333
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.5660377358490566,
+          "target_role": 0.6,
+          "taxonomy": 0.6666666666666667
+        },
+        "group_id": "PF_P4D_HN_SQUAT_G001",
+        "score": 1.8327044
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.5714285714285714,
+          "target_role": 0.5833333333333333,
+          "taxonomy": 0.625
+        },
+        "group_id": "PF_P4D_HN_CRAWL_G007",
+        "score": 1.7797619
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.5471698113207547,
+          "target_role": 0.5666666666666667,
+          "taxonomy": 0.625
+        },
+        "group_id": "PF_P4D_HN_MAINT_G004",
+        "score": 1.73883648
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.5428571428571429,
+          "target_role": 0.5,
+          "taxonomy": 0.6666666666666667
+        },
+        "group_id": "PF_P4D_POS_CURLED_G003",
+        "score": 1.70952381
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.5283018867924528,
+          "target_role": 0.55,
+          "taxonomy": 0.6
+        },
+        "group_id": "PF_P4D_HN_PLANK_G003",
+        "score": 1.67830189
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.5142857142857142,
+          "target_role": 0.5333333333333333,
+          "taxonomy": 0.5833333333333333
+        },
+        "group_id": "PF_P4D_HN_SIT_G010",
+        "score": 1.63095238
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.5094339622641509,
+          "target_role": 0.5166666666666666,
+          "taxonomy": 0.5833333333333333
+        },
+        "group_id": "PF_P4D_HN_KNEEL_G004",
+        "score": 1.60943396
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.49056603773584906,
+          "target_role": 0.5,
+          "taxonomy": 0.5
+        },
+        "group_id": "PF_P4D_HN_SIT_G004",
+        "score": 1.49056604
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.48571428571428577,
+          "target_role": 0.5,
+          "taxonomy": 0.5
+        },
+        "group_id": "PF_P4D_NEG_STAND_G003",
+        "score": 1.48571429
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.4716981132075472,
+          "target_role": 0.4833333333333333,
+          "taxonomy": 0.5
+        },
+        "group_id": "PF_P4D_HN_KNEEL_G005",
+        "score": 1.45503145
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.4571428571428572,
+          "target_role": 0.4666666666666667,
+          "taxonomy": 0.5
+        },
+        "group_id": "PF_P4D_HN_PLANK_G009",
+        "score": 1.42380952
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.4528301886792453,
+          "target_role": 0.44999999999999996,
+          "taxonomy": 0.5
+        },
+        "group_id": "PF_P4D_HN_CRAWL_G003",
+        "score": 1.40283019
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.4339622641509434,
+          "target_role": 0.44999999999999996,
+          "taxonomy": 0.5
+        },
+        "group_id": "PF_P4D_POS_SUPINE_G002",
+        "score": 1.38396226
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.4285714285714286,
+          "target_role": 0.43333333333333335,
+          "taxonomy": 0.5
+        },
+        "group_id": "PF_P4D_HN_MAINT_G006",
+        "score": 1.36190476
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.41509433962264153,
+          "target_role": 0.41666666666666663,
+          "taxonomy": 0.5
+        },
+        "group_id": "PF_P4D_HN_SQUAT_G002",
+        "score": 1.33176101
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.4,
+          "target_role": 0.4,
+          "taxonomy": 0.5
+        },
+        "group_id": "PF_P4D_HN_MIX_G003",
+        "score": 1.3
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.39622641509433965,
+          "target_role": 0.4,
+          "taxonomy": 0.5
+        },
+        "group_id": "PF_P4D_POS_PRONE_G002",
+        "score": 1.29622642
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.37735849056603776,
+          "target_role": 0.375,
+          "taxonomy": 0.5
+        },
+        "group_id": "PF_P4D_NEG_CHAIR_G002",
+        "score": 1.25235849
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.37142857142857144,
+          "target_role": 0.35,
+          "taxonomy": 0.5
+        },
+        "group_id": "PF_P4D_POS_SIDE_G004",
+        "score": 1.22142857
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.3584905660377359,
+          "target_role": 0.3833333333333333,
+          "taxonomy": 0.41666666666666663
+        },
+        "group_id": "PF_P4D_HN_SIT_G005",
+        "score": 1.15849057
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.34285714285714286,
+          "target_role": 0.30000000000000004,
+          "taxonomy": 0.5
+        },
+        "group_id": "PF_P4D_POS_MULTI_G002",
+        "score": 1.14285714
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.339622641509434,
+          "target_role": 0.3666666666666667,
+          "taxonomy": 0.41666666666666663
+        },
+        "group_id": "PF_P4D_HN_KNEEL_G006",
+        "score": 1.12295597
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.3207547169811321,
+          "target_role": 0.35,
+          "taxonomy": 0.4
+        },
+        "group_id": "PF_P4D_HN_PLANK_G004",
+        "score": 1.07075472
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.30188679245283023,
+          "target_role": 0.25,
+          "taxonomy": 0.5
+        },
+        "group_id": "PF_P4D_POS_INTENTIONAL_G001",
+        "score": 1.05188679
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.3142857142857143,
+          "target_role": 0.33333333333333337,
+          "taxonomy": 0.375
+        },
+        "group_id": "PF_P4D_HN_CRAWL_G008",
+        "score": 1.02261905
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.2857142857142857,
+          "target_role": 0.31666666666666665,
+          "taxonomy": 0.375
+        },
+        "group_id": "PF_P4D_HN_MAINT_G007",
+        "score": 0.97738095
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.28301886792452835,
+          "target_role": 0.30000000000000004,
+          "taxonomy": 0.33333333333333337
+        },
+        "group_id": "PF_P4D_HN_SIT_G006",
+        "score": 0.9163522
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.26415094339622647,
+          "target_role": 0.2833333333333333,
+          "taxonomy": 0.33333333333333337
+        },
+        "group_id": "PF_P4D_HN_KNEEL_G007",
+        "score": 0.88081761
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.24528301886792447,
+          "target_role": 0.2666666666666667,
+          "taxonomy": 0.33333333333333337
+        },
+        "group_id": "PF_P4D_HN_SQUAT_G003",
+        "score": 0.84528302
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.2571428571428571,
+          "target_role": 0.25,
+          "taxonomy": 0.30000000000000004
+        },
+        "group_id": "PF_P4D_HN_PLANK_G010",
+        "score": 0.80714286
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.2264150943396226,
+          "target_role": 0.19999999999999996,
+          "taxonomy": 0.33333333333333337
+        },
+        "group_id": "PF_P4D_POS_CURLED_G002",
+        "score": 0.75974843
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.22857142857142854,
+          "target_role": 0.25,
+          "taxonomy": 0.25
+        },
+        "group_id": "PF_P4D_NEG_STAND_G004",
+        "score": 0.72857143
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.2075471698113207,
+          "target_role": 0.23333333333333328,
+          "taxonomy": 0.25
+        },
+        "group_id": "PF_P4D_HN_SIT_G007",
+        "score": 0.6908805
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.19999999999999996,
+          "target_role": 0.21666666666666667,
+          "taxonomy": 0.25
+        },
+        "group_id": "PF_P4D_HN_KNEEL_G010",
+        "score": 0.66666667
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.18867924528301883,
+          "target_role": 0.19999999999999996,
+          "taxonomy": 0.25
+        },
+        "group_id": "PF_P4D_HN_CRAWL_G004",
+        "score": 0.63867925
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.17142857142857137,
+          "target_role": 0.18333333333333335,
+          "taxonomy": 0.25
+        },
+        "group_id": "PF_P4D_HN_MAINT_G008",
+        "score": 0.6047619
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.16981132075471694,
+          "target_role": 0.15000000000000002,
+          "taxonomy": 0.25
+        },
+        "group_id": "PF_P4D_POS_SUPINE_G003",
+        "score": 0.56981132
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.1428571428571429,
+          "target_role": 0.16666666666666663,
+          "taxonomy": 0.25
+        },
+        "group_id": "PF_P4D_HN_MIX_G004",
+        "score": 0.55952381
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.15094339622641506,
+          "target_role": 0.125,
+          "taxonomy": 0.25
+        },
+        "group_id": "PF_P4D_NEG_CHAIR_G003",
+        "score": 0.5259434
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.13207547169811318,
+          "target_role": 0.15000000000000002,
+          "taxonomy": 0.19999999999999996
+        },
+        "group_id": "PF_P4D_HN_PLANK_G005",
+        "score": 0.48207547
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.1132075471698113,
+          "target_role": 0.09999999999999998,
+          "taxonomy": 0.25
+        },
+        "group_id": "PF_P4D_POS_PRONE_G003",
+        "score": 0.46320755
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.11428571428571432,
+          "target_role": 0.1333333333333333,
+          "taxonomy": 0.16666666666666663
+        },
+        "group_id": "PF_P4D_HN_SIT_G011",
+        "score": 0.41428571
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.09433962264150941,
+          "target_role": 0.050000000000000044,
+          "taxonomy": 0.25
+        },
+        "group_id": "PF_P4D_POS_SIDE_G002",
+        "score": 0.39433962
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.08571428571428574,
+          "target_role": 0.1166666666666667,
+          "taxonomy": 0.16666666666666663
+        },
+        "group_id": "PF_P4D_HN_KNEEL_G011",
+        "score": 0.36904762
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.07547169811320753,
+          "target_role": 0.09999999999999998,
+          "taxonomy": 0.16666666666666663
+        },
+        "group_id": "PF_P4D_HN_SQUAT_G004",
+        "score": 0.34213836
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.05660377358490565,
+          "target_role": 0.08333333333333337,
+          "taxonomy": 0.125
+        },
+        "group_id": "PF_P4D_HN_CRAWL_G005",
+        "score": 0.26493711
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.037735849056603765,
+          "target_role": 0.06666666666666665,
+          "taxonomy": 0.125
+        },
+        "group_id": "PF_P4D_HN_MAINT_G005",
+        "score": 0.22940252
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.05714285714285716,
+          "target_role": 0.050000000000000044,
+          "taxonomy": 0.08333333333333337
+        },
+        "group_id": "PF_P4D_HN_SIT_G012",
+        "score": 0.19047619
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.018867924528301883,
+          "target_role": 0.033333333333333326,
+          "taxonomy": 0.09999999999999998
+        },
+        "group_id": "PF_P4D_HN_PLANK_G006",
+        "score": 0.15220126
+      },
+      {
+        "contributions": {
+          "planned_internal_split": 0.02857142857142858,
+          "target_role": 0.01666666666666672,
+          "taxonomy": 0.08333333333333337
+        },
+        "group_id": "PF_P4D_HN_KNEEL_G012",
+        "score": 0.12857143
+      }
+    ],
+    "sha256": "ab59e376af28fae2239377f2b6941a065dc2fb3297c0179988b847441c9e2f76",
+    "slot_count": 440,
+    "strategy": "deterministic group-aware normalized remaining deficit with unseen coverage bonus; complete groups are contiguous"
+  },
+  "formal_writes": {
+    "c3": false,
+    "formal_ingest": false,
+    "holdout_consumed": false,
+    "holdout_requests": 0,
+    "labels_added": 0,
+    "media_added": 0,
+    "new_val": 0
+  },
+  "frozen_assets": {
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/07_p3_structured_hard_negative_refinement/03_candidates/C3_BASELINE/C3_prompt.txt": {
+      "actual_sha256": "685bb9724b1faa96298c1e6cf8139774d82afbc9d2f30cdd154fbe5cb776951e",
+      "bytes": 1973,
+      "expected_sha256": "685bb9724b1faa96298c1e6cf8139774d82afbc9d2f30cdd154fbe5cb776951e",
+      "match": true
+    },
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/01_prompt_plan/group_manifest.csv": {
+      "actual_sha256": "11ab903056e0acbdb9ca5a507f33f3237f3b90f059f445f8df76c1dde174fbab",
+      "bytes": 16961,
+      "expected_sha256": "11ab903056e0acbdb9ca5a507f33f3237f3b90f059f445f8df76c1dde174fbab",
+      "match": true
+    },
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/01_prompt_plan/group_split_freeze.json": {
+      "actual_sha256": "b9d1df02541454b38ab296bd0033b0d327cca0ba720b95c7414ea6ec1bc05843",
+      "bytes": 4136,
+      "expected_sha256": "b9d1df02541454b38ab296bd0033b0d327cca0ba720b95c7414ea6ec1bc05843",
+      "match": true
+    },
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/01_prompt_plan/prompt_manifest.csv": {
+      "actual_sha256": "e75c48626f2eabade9cdbc48bb77072c5d470ddce60ec9a903f580d4990aeceb",
+      "bytes": 206660,
+      "expected_sha256": "e75c48626f2eabade9cdbc48bb77072c5d470ddce60ec9a903f580d4990aeceb",
+      "match": true
+    },
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/01_prompt_plan/prompt_pack.md": {
+      "actual_sha256": "8b791d2007b0866f83275082a7394a0d33a5d7bd0aef4ab9f19993fba857a250",
+      "bytes": 589639,
+      "expected_sha256": "8b791d2007b0866f83275082a7394a0d33a5d7bd0aef4ab9f19993fba857a250",
+      "match": true
+    },
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/01_prompt_plan/prompt_pack_freeze.json": {
+      "actual_sha256": "385b7b9f0b6b675c3820e97fe1931bd0e19b9b5839f50a3fcae70fd1feec136b",
+      "bytes": 1139,
+      "expected_sha256": "385b7b9f0b6b675c3820e97fe1931bd0e19b9b5839f50a3fcae70fd1feec136b",
+      "match": true
+    },
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/03_fullregen_plan/full_regen_prompt_manifest.csv": {
+      "actual_sha256": "5f7afbc010a0028497ec0210e75dc28cc79212fbc114cbf4741ee0bc4ce361c4",
+      "bytes": 175198,
+      "expected_sha256": "5f7afbc010a0028497ec0210e75dc28cc79212fbc114cbf4741ee0bc4ce361c4",
+      "match": true
+    }
+  },
+  "frozen_full_manifest": {
+    "cross_split_group_count": 0,
+    "group_size_counts": {
+      "5": 88
+    },
+    "holdout_rows": 0,
+    "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/03_fullregen_plan/full_regen_prompt_manifest.csv",
+    "prompt_byte_hash_mismatch_count": 0,
+    "role_counts": {
+      "hard_negative": 300,
+      "ordinary_negative": 40,
+      "positive": 100
+    },
+    "rows": 440,
+    "sha256": "5f7afbc010a0028497ec0210e75dc28cc79212fbc114cbf4741ee0bc4ce361c4",
+    "split_counts": {
+      "NEW_DESIGN": 265,
+      "NEW_SCREEN": 175
+    },
+    "taxonomy_counts": {
+      "chair_seated_normal_work": 20,
+      "crawling_quadruped_support": 40,
+      "curled_or_partially_occluded_lying": 15,
+      "floor_sitting": 60,
+      "ground_maintenance": 40,
+      "horizontal_corridor_ground_lying": 5,
+      "intentional_ground_lying": 10,
+      "kneeling_half_kneeling": 60,
+      "mixed_hard_negative": 20,
+      "multi_person_one_lying": 10,
+      "prone_ground_lying": 20,
+      "pushup_plank": 50,
+      "side_lying": 20,
+      "squat_crouch_deep_bend": 30,
+      "standing_walking": 20,
+      "supine_ground_lying": 20
+    },
+    "unique_groups": 88,
+    "unique_prompt_ids": 440
+  },
+  "generation_config": {
+    "conversion": "controlled center crop to 16:9 then Pillow LANCZOS resize",
+    "final_size": [
+      1920,
+      1080
+    ],
+    "native_size_requested": "1536x1024",
+    "quality": "medium"
+  },
+  "lineage_policy": {
+    "ebond_lineage_reused_codex_images": 0,
+    "ebond_new_images_required": 440,
+    "gr1_images_reused": 0,
+    "gr3_codex_images_reused": 0,
+    "group_changed": false,
+    "historical_codex_generation_assets": true,
+    "prompt_changed": false,
+    "split_changed": false,
+    "taxonomy_changed": false
+  },
+  "new_batch_zero_check": {
+    "batch_path": "/home/yanbo/下载/batches/batch-person-fallen-v2-p4d-ebond-fullregen-r1-camera1p5m",
+    "directory_file_counts": {
+      "final": 0,
+      "generated_raw": 0,
+      "metadata": 0,
+      "prompts": 0,
+      "rejected": 0
+    },
+    "final_images": 0,
+    "non_readme_counts": {
+      "final": 0,
+      "generated_raw": 0,
+      "metadata": 0,
+      "prompts": 0,
+      "rejected": 0
+    },
+    "raw_images": 0
+  },
+  "p4d_eb1_generation_revision": "P4D_EBOND_FULLREGEN_20260828_01",
+  "p4d_eb1_name": "P4D_EB1_EBOND_FULL_REGENERATION",
+  "p4d_eb1_new_generation_lineage": true,
+  "p4d_eb1_provider": "ebond",
+  "preflight_status": "FROZEN_BEFORE_PROVIDER_REQUEST",
+  "project": "net_vlm",
+  "provider": {
+    "api_base": "https://api.ebondai.com/v1",
+    "api_host": "api.ebondai.com",
+    "credential_fingerprint_sha256": "43d31d860533665709eb74ab30e6643ae2addd79d71156940e517c75db44873f",
+    "credential_slot_selected": "PRIMARY",
+    "generation_endpoint": "https://api.ebondai.com/v1/images/generations",
+    "model": "gpt-image-2",
+    "provider": "ebond",
+    "secondary_discovered": false,
+    "secret_persisted": false
+  },
+  "run_config": {
+    "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/09_p4d_eb1_ebond_full_regeneration/execution/run_config.json",
+    "sha256": "462421fa3d6d73bf0fa79a75e8cc07278cd743e71999a4adda105b0bc536471a"
+  },
+  "runner": {
+    "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/09_p4d_eb1_ebond_full_regeneration/tools/ebond_one_shot_runner.py",
+    "sha256": "1131bc96261751670b816faa2d5e20a03b1b33357751a2f18e2849671fa145db"
+  },
+  "schema_audit": {
+    "historical_evidence": {
+      "automatic_retries": 0,
+      "endpoint": "https://api.ebondai.com/v1/images/generations",
+      "generation_api_calls": 1,
+      "historical_actual_size": null,
+      "historical_requested_size": "1920x1080",
+      "http_status": 200,
+      "image_source": "b64_json",
+      "response_image_field": "data[0].b64_json",
+      "tested_at": "2026-07-31T12:55:30.3713519+08:00"
+    },
+    "no_guessing": true,
+    "request_schema": {
+      "extra_generation_fields": [],
+      "headers": [
+        "Authorization: Bearer <redacted>",
+        "Content-Type: application/json",
+        "Accept: application/json"
+      ],
+      "json_fields": {
+        "model": "gpt-image-2",
+        "prompt": "frozen prompt text",
+        "quality": "medium",
+        "size": "1536x1024"
+      },
+      "method": "POST",
+      "url": "https://api.ebondai.com/v1/images/generations"
+    },
+    "response_schema": {
+      "required": [
+        "data[0].b64_json"
+      ],
+      "url_fallback": false
+    },
+    "schema_verified": true,
+    "source_files": [
+      {
+        "kind": "historical successful direct capability result",
+        "path": "/home/yanbo/.local/share/Trash/files/image.2/archive/api-capability-tests-20260731/ebondai-direct-1920x1080-result.json",
+        "sha256": "166bcb793437f41a873ff9d2d3f00ef4eba07cfda93855ee7cbb779e63d9a68d"
+      },
+      {
+        "kind": "local skill provider reference",
+        "path": "/home/yanbo/.codex/skills/gpt-image-2-skill/references/providers.md",
+        "sha256": "649f1ae1eaa9ceb943710d71511dfc9715b2c2fba4033d61519e30a850f7bf78"
+      }
+    ]
+  },
+  "schema_version": 1,
+  "transport_policy": {
+    "client_http_generation_attempts_max": 1,
+    "concurrency": 1,
+    "http_client_retry_total": 0,
+    "http_library": "urllib.request",
+    "logical_retry": false,
+    "max_concurrency": 1,
+    "one_http_generation_request_per_logical_slot": true,
+    "outer_retry": false,
+    "provider_wrapper_retry": 0,
+    "timeout_seconds": 900
+  }
+}

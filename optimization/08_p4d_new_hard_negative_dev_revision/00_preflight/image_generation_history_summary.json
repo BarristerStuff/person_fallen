@@ -1,0 +1,9 @@
+{
+  "job_count": 100,
+  "providers": {
+    "ebond-gpt-image-2": 100
+  },
+  "statuses": {
+    "completed": 100
+  }
+}

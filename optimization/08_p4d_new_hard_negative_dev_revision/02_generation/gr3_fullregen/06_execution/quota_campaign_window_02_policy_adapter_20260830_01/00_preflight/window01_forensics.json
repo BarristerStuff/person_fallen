@@ -1,0 +1,23 @@
+{
+  "all_bound_artifacts_match": true,
+  "evidence": [
+    "request accepted",
+    "image_generation_call created",
+    "image_generation_call failed",
+    "response completed",
+    "image_count=0",
+    "no image bytes",
+    "native retry=0",
+    "assistant refusal text"
+  ],
+  "failed": 1,
+  "failed_prompt": "PF_P4D_POS_CURLED_G003_V03",
+  "failure_class": "CONTENT_POLICY_REFUSAL_CONFIRMED",
+  "http429": 0,
+  "logical": 31,
+  "old_error_code": "missing_image_result",
+  "physical_lower_bound": 31,
+  "retry_events": 0,
+  "success": 30,
+  "window01_freeze_sha256": "33a35af1db28c0a86f30da3762e82fb20462651481bb089028d25213307596d5"
+}

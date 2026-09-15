@@ -1,0 +1,26 @@
+{
+  "name": "P1A_THINK_FALSE_PROTOCOL",
+  "event_name": "person_fallen",
+  "event_definition_version": "v2.0",
+  "model": "qwen3.5:4b",
+  "endpoint": "http://192.168.20.62:11434",
+  "stream": false,
+  "format": "json",
+  "think": false,
+  "options": {
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 256
+  },
+  "concurrency": 1,
+  "timeout_seconds": 120,
+  "max_transport_retries": 2,
+  "preprocess_mode": "letterbox",
+  "target_size": "448x336",
+  "jpeg_quality": 70,
+  "allowed_splits": ["DEV", "VAL"],
+  "formal_output_source": "response_only",
+  "thinking_fallback": false,
+  "prompt_changed": false,
+  "preprocess_changed": false
+}

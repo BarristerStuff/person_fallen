@@ -1,0 +1,27 @@
+{
+  "EXPLICIT_RECOVERY_AUTHORIZATION": true,
+  "authorization_source": "standalone_user_message_after_GR3Q2_preparation",
+  "authorization_text": "我明确授权 P4D_GR3Q2E 在新的 lineage-policy amendment 下继续当前 P4D full-regeneration revision：保留已经成功并通过完整性验证的 99 张 GR3E 图像，并将其标记为历史生成 profile stratum A；允许使用当前 Codex profile 作为 profile stratum B，重新尝试此前已确认 HTTP 429 失败的 1 个 slot，并生成其余 340 个从未开始的 frozen slots，共最多 341 个新的 logical slot invocations。我接受 profile/account fingerprint 不同但 provider、request model、generation backend、runtime、prompt 和 generation configuration 一致时作为 provenance 分层而不是强制 semantic-lineage break；同时继续接受 GPT Image 2 runtime max_retries=3、单 logical invocation 最多约4次 provider attempts、精确费用未知以及 quota/成本风险。任何 logical invocation 返回 429/401/403/timeout/5xx 均立即停止后续 slot，不执行外层自动 recovery。",
+  "authorization_text_sha256": "ae484cf957c0e88f6a7329c3359e2ebbc7a3e4794fd3dc35f22dbc9f606e9cbd",
+  "authorized": true,
+  "c3": false,
+  "captured_at": "2026-08-28T06:30:34.936+00:00",
+  "checks": {
+    "authorization_text_matches_packet": true,
+    "packet_authorized_false_before_q2e": true,
+    "packet_continue_341": true,
+    "packet_execution_eligible": true,
+    "packet_max_slots": true,
+    "packet_native_retries": true,
+    "packet_outer_retry": true,
+    "packet_preserve_99": true,
+    "packet_profile_stratification": true
+  },
+  "formal_ingest": false,
+  "holdout": 0,
+  "maximum_new_logical_slot_invocations": 341,
+  "new_val": 0,
+  "packet_required_authorization_text_sha256": "ae484cf957c0e88f6a7329c3359e2ebbc7a3e4794fd3dc35f22dbc9f606e9cbd",
+  "provider_requests_before_execution": 0,
+  "stage": "P4D_GR3Q2E_PROFILE_STRATIFIED_RECOVERY"
+}

@@ -1,0 +1,19 @@
+{
+  "batch_path": "/home/yanbo/下载/batches/batch-person-fallen-v2-p4d-ebond-fullregen-r1-camera1p5m",
+  "directory_file_counts": {
+    "final": 0,
+    "generated_raw": 0,
+    "metadata": 0,
+    "prompts": 0,
+    "rejected": 0
+  },
+  "final_images": 0,
+  "non_readme_counts": {
+    "final": 0,
+    "generated_raw": 0,
+    "metadata": 0,
+    "prompts": 0,
+    "rejected": 0
+  },
+  "raw_images": 0
+}

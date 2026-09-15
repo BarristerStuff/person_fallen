@@ -1,0 +1,10 @@
+{
+  "FORMAL_DATASET_MUTATION": false,
+  "FORMAL_INGEST_EXECUTED": false,
+  "labels_added": 0,
+  "media_added": 0,
+  "reason": "Generation gate failed before image intake; no media or labels were eligible for ingest.",
+  "validator_after": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/03_intake_audit/dataset_validator_after.json",
+  "validator_after_pass": true,
+  "validator_before": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/00_preflight/dataset_validator_before.json"
+}

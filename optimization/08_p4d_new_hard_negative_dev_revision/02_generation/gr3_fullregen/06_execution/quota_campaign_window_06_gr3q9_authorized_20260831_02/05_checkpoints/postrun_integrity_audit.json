@@ -1,0 +1,19 @@
+{
+  "status": "POSTRUN_CONFIG_BINDING_MISMATCH",
+  "provider_requests_sent": 30,
+  "actual_runner_enforced": {
+    "max_logical_invocations": 30,
+    "max_physical_attempt_lower_bound": 36
+  },
+  "frozen_authorization_artifact": {
+    "max_logical_invocations": 25,
+    "max_physical_attempt_lower_bound": 30
+  },
+  "mismatch_fields": [
+    "max_logical_invocations",
+    "max_physical_attempt_lower_bound"
+  ],
+  "containment": "No further provider requests; no ingest, C3, VAL, HOLDOUT, or production integration.",
+  "history_policy": "Preserve all generated artifacts and terminal freeze; do not rewrite the sealed historical artifact.",
+  "formal_acceptance": "BLOCKED_PENDING_NEW_SELF_CONSISTENT_REVISION"
+}

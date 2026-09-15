@@ -1,0 +1,65 @@
+{
+  "state": "completed",
+  "phase": "remaining47_diagnostic",
+  "request_id": "V5_B0_REMAINING47_DIAGNOSTIC_0042",
+  "item_id": "P4D_PLAN::PF_P4D_HN_PLANK_G002_V01",
+  "payload_sha256": "14df0e8105bb661b96cd26118c78425b0011022712dce34c9d2f863455ee2f6b",
+  "full_view_sha256": "e102de23f4a3c1d8ff39da470b0a4cadd6cdfecb2e12589d49144165a8f00c8b",
+  "crop_view_sha256": "5eb115dc5ac057b4651e854abf5a667cd6bdd93ed7653b0b82a3d076b9ea33fc",
+  "prompt_sha256": "757fb445efa3f05327947a4c32115e3735823c81d14177199bbf8a6381d3300a",
+  "schema_sha256": "1ccf5a08cd1d6287b33f5d04b0f06101ae75666919c1a9f160ac0c5c335d7817",
+  "policy_sha256": "b2126bf86378fa6d0bcbc67861fa794b320affb1de90dc445f5838223cae68b9",
+  "claimed_timestamp": "2026-09-14T08:21:09.333371+00:00",
+  "http_status": 200,
+  "completion_unknown": false,
+  "transport_error": null,
+  "latency_seconds": 17.357487486005994,
+  "raw_response_sha256": "430c8d4503a338603f8e5a40cbddfda4e37c4a22f2166b77db8c0430f607ebfa",
+  "received_timestamp": "2026-09-14T08:21:26.694201+00:00",
+  "strict_json_ok": true,
+  "source_binding_ok": true,
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 182,
+  "parsed": {
+    "scene_coverage": "complete",
+    "people": [
+      {
+        "person_id": 1,
+        "bbox_1000": [
+          388,
+          438,
+          738,
+          678
+        ],
+        "person_visible": "yes",
+        "pose": "pushup_plank",
+        "torso_orientation": "horizontal",
+        "torso_ground_contact": "none",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "explicit_work_evidence": "no",
+        "visual_quality": "clear",
+        "evidence": "A person in a safety vest is performing a pushup plank on the warehouse floor."
+      }
+    ]
+  },
+  "person_decisions": [
+    {
+      "person_id": 1,
+      "decision": "ATTENTION_NEAR_GROUND",
+      "reason": "CONSISTENT_AUXILIARY_POSE:pushup_plank"
+    }
+  ],
+  "image_decision": "ATTENTION_NEAR_GROUND",
+  "image_reason": "AUXILIARY_WITHOUT_ALERT_OR_UNRESOLVED_TARGET",
+  "taxonomy": "pushup_plank",
+  "group_id": "PF_P4D_HN_PLANK_G002",
+  "source_split": "NEW_DESIGN",
+  "v3_split": "V3_DEV",
+  "ground_truth": "positive",
+  "expected_v4_outcome": "ATTENTION_NEAR_GROUND",
+  "evaluation_stratum": "auxiliary_attention",
+  "result_source": "NEW_DIAGNOSTIC_INFERENCE",
+  "completed_timestamp": "2026-09-14T08:21:26.695070+00:00"
+}

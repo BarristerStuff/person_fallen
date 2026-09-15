@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "immutable_dependencies": {
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/14_person_fallen_v4_operational_freeze/definition/person_fallen_v4_operational_definition.md": "e0a3b10456ee11b28a7a6bd678a6e76bd6d94fa98b8035b21a8ca57693706d7e",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/14_person_fallen_v4_operational_freeze/prompt/V4-A0_pose_attributes_prompt.txt": "a81367203bfff7fe8aaae491bf04a8d9eb92057c701412bbd316b8d43f98fad7",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/14_person_fallen_v4_operational_freeze/policy/deterministic_policy.py": "3a3e16f177c1806b74f4018bc269068e7715bba43eb20a5b3797b02c4ca9ccaf",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/14_person_fallen_v4_operational_freeze/protocol/final_operational_plan.json": "88ffaf7cbba8a72eb2d2e71e50715aeace9bac09767d3f48de2271cec84f9d37",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/16_person_fallen_v5_patrol_recheck/README.md": "cb12d49cfe20b588de7d123438d4a33e19a1ea3539e531725e8bfdd5c7f83028",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/16_person_fallen_v5_patrol_recheck/candidates/V5-A0-INDEPENDENT-RECHECK/reports/final_report.json": "6d8057e7e4bf7c5e716d19a9fe7d4305aa6d623c3a1c64fa159d9078d0900249",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/16_person_fallen_v5_patrol_recheck/candidates/V5-A0-INDEPENDENT-RECHECK/reports/independent_output_audit.json": "6fa808fae5c20b857879aa05e6864b017dbc82f5f627df7917351ca0a84a7b6e",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/16_person_fallen_v5_patrol_recheck/candidates/V5-A0-INDEPENDENT-RECHECK/prompt/scene_review.txt": "2c7cc0b64496cb7c550b325660ae2ad0a6038ebfab06b16445d253a01107d036"
+  },
+  "handoff_source_path": "/home/yanbo/net_vlm_yanboversion/docs/person_fallen/codex-handoff.md",
+  "handoff_original_sha256": "648934631e1c4e8c757df4eeb302018a198d41b9dfaeb8a178d14e33ad97035d",
+  "handoff_snapshot": "/home/yanbo/net_vlm_person_fallen_v2_optimization/17_person_fallen_v5_target_attributes/reports/handoff_at_preflight.md",
+  "known_regression_crop_contains_two_visible_people": true,
+  "regression_crop_inspection": "local crop inspection only, not box annotation or model request",
+  "GT_type": "PROMPT_DERIVED_SYNTHETIC_GT",
+  "human_pixel_review_required": false,
+  "pixel_semantic_full_audit_claimed": false,
+  "auxiliary_agents_used": 2,
+  "auxiliary_agents_ollama_access": false
+}

@@ -1,0 +1,18 @@
+{
+  "C3": false,
+  "HOLDOUT": 0,
+  "HOLDOUT_CONSUMED": false,
+  "NEW_VAL": 0,
+  "P4D_GR3Q2_STATUS": "READY_AWAITING_PROFILE_STRATIFIED_RECOVERY_AUTHORIZATION",
+  "P4D_STATUS": "GENERATION_REQUIRED",
+  "all_bound_artifacts_match": true,
+  "bound_artifact_count": 44,
+  "canonical_freeze": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/lineage_policy_amendment_20260828_01/freeze/p4d_gr3q2_preparation_freeze.json",
+  "canonical_freeze_sha256": "bd788e5b2d72bb1681846909e4cb2a2bf314897523c8011285f78deae5889801",
+  "canonical_sidecar_sha256": "014dc8e504ce80c16ee5b27a4fbcb3b7286e685e6687e4660bd8212141509bf1",
+  "canonical_sidecar_value": "bd788e5b2d72bb1681846909e4cb2a2bf314897523c8011285f78deae5889801",
+  "captured_at": "2026-08-28T06:13:08.206+00:00",
+  "formal_ingest": false,
+  "freeze_binding_revision": "RESEALED_AFTER_INITIAL_LOCAL_BINDING_ERROR",
+  "provider_requests": 0
+}

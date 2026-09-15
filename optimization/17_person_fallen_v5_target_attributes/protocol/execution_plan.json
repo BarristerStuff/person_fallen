@@ -1,0 +1,23 @@
+{
+ "candidate":"V5-B0-TARGET-ATTRIBUTES",
+ "authorization":"User authorized one controlled new target-attributes candidate on fixed DEV115 plus one conditional consumed known failure, 2026-09-09; maximum116 new model requests, at most2 auxiliary engineering agents, only main agent may access Ollama.",
+ "hypothesis":"Per-person visible posture and support attributes followed by deterministic aggregation may preserve floor-sitting boundaries and find lying people in multi-person scenes.",
+ "EVALUATION_MODE":"NEW_TARGET_ATTRIBUTES_ONLY",
+ "CACHED_PRIMARY_USED_FOR_FINAL_DECISION":false,
+ "GT_TYPE":"PROMPT_DERIVED_SYNTHETIC_GT",
+ "HUMAN_SEMANTIC_REVIEW_REQUIRED_FOR_SYNTHETIC_DEVELOPMENT":false,
+ "MODEL_PREDICTION_USED_AS_GT":false,
+ "OBJECT_LOCALIZATION_ACCURACY":"UNVERIFIED",
+ "model":{"endpoint":"http://192.168.20.62:11434","name":"qwen3.5:4b","digest":"2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd","ollama_version":"0.23.2","think":false,"stream":false,"temperature":0,"num_ctx":8192,"num_predict":768,"concurrency":1,"automatic_retry":false,"resend_completion_unknown":false,"timeout_seconds":120,"api":"/api/generate","format_schema":"schema/target_attributes.json","transport":"direct,no proxies,no redirects"},
+ "budget":{"pilot":115,"regression":1,"total":116},
+ "stage_order":["pilot","regression_only_after_all_pilot_gates_pass"],
+ "canary_requests":0,
+ "warmup_requests":0,
+ "views":{"source":"existing frozen full_scene plus person_crop only if original person_detected=true","width":448,"height":336,"jpeg_quality":70,"new_processing":false,"coordinate_basis":"bbox normalized0..1000 to first full input including letterbox","no_per_person_YOLO_detection_claim":true},
+ "pilot_gates":{"rows":115,"valid_strict_JSON":115,"source_hash_binding":1.0,"ground_lying_count":60,"ground_lying_ALERT_min":57,"ground_lying_ALERT_RECHECK_count":60,"floor_sitting_count":55,"floor_sitting_ALERT":0,"floor_sitting_RECHECK_max":5,"floor_sitting_NO_ALERT_min":50,"multi_person_rows":5,"multi_person_group_count":1,"multi_person_ALERT":5},
+ "regression_gates":{"rows":1,"strict_JSON":1,"minimum_distinct_person_records":2,"minimum_person_ALERT_decisions":1,"image_decision":"ALERT_GROUND_LYING"},
+ "stop_rules":["existing freeze/ledger/result refuses overwrite or resume","source/schema/GT/split/hash/model/version mismatch blocks","persist claim before request and raw bytes before parse","HTTP/connection/completion unknown/model mismatch/truncation/strict JSON failure immediately stops without resend","no candidate edits after first model request","any pilot metric gate failure closes candidate; no regression","regression failure closes candidate","no second candidate B1/B2/V6; no prompt/parameter search","no fullDEV/remainingSCREEN/VAL/Holdout/detector/robot/production execution"],
+ "terminal_statuses":{"protocol":"V5_B0_PROTOCOL_INCOMPLETE_NO_RETRY","pilot_fail":"V5_B0_PILOT_DEV_GATE_FAIL","regression_fail":"V5_B0_KNOWN_FAILURE_REGRESSION_GATE_FAIL","pass":"V5_B0_PILOT_AND_KNOWN_REGRESSION_PASS"},
+ "regression_role":"KNOWN_FAILURE_DEVELOPMENT_REGRESSION",
+ "generalization_or_localization_proof":false
+}

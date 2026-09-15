@@ -1,0 +1,319 @@
+{
+  "account_or_user_raw_values_persisted": false,
+  "auth_ready_observed": true,
+  "binary_path": "/home/yanbo/.cache/gpt-image-2-skill/0.7.3/x86_64-unknown-linux-gnu/gpt-image-2-skill",
+  "binary_sha256": "1ac830fed5349f1c1a1c2fd1a4280b487a2d75962d22d9fbd4e4b2451ab208ba",
+  "captured_at": "2026-08-28T07:15:30.412+00:00",
+  "commands": {
+    "auth_inspect": {
+      "captured_at": "2026-08-28T07:15:30.379+00:00",
+      "command": [
+        "node",
+        "<gpt-image-2-skill>",
+        "--json",
+        "--provider",
+        "codex",
+        "auth",
+        "inspect"
+      ],
+      "image_generation_provider_requests": 0,
+      "label": "auth_inspect",
+      "payload": {
+        "command": "auth inspect",
+        "ok": true,
+        "providers": {
+          "codex": {
+            "access_token_present": true,
+            "account_id": "<REDACTED>",
+            "auth_file": "<REDACTED>",
+            "auth_mode": "chatgpt",
+            "auth_source": "config",
+            "chatgpt_user_id": "<REDACTED>",
+            "email": "<REDACTED>",
+            "exists": true,
+            "expired": false,
+            "expires_at": 1788763171,
+            "id_token_present": true,
+            "last_refresh": "2026-08-28T06:39:33.641841393Z",
+            "parse_ok": true,
+            "plan_type": "plus",
+            "provider": "codex",
+            "ready": true,
+            "refresh_token_present": true,
+            "seconds_until_expiry": 861841
+          },
+          "configured": {
+            "ebond-gpt-image-2": {
+              "api_base": "https://api.ebondai.com/v1",
+              "credentials": {
+                "api_key": "<REDACTED>"
+              },
+              "endpoint": null,
+              "model": "gpt-image-2",
+              "proxy": null,
+              "supports_n": null,
+              "type": "openai-compatible"
+            }
+          },
+          "openai": {
+            "api_key_present": false,
+            "auth_source": "missing",
+            "default_model": "gpt-image-2",
+            "env_var": "OPENAI_API_KEY",
+            "provider": "openai",
+            "ready": false
+          }
+        },
+        "requested_provider": "codex"
+      },
+      "returncode": 0,
+      "stderr": ""
+    },
+    "config_inspect": {
+      "captured_at": "2026-08-28T07:15:27.207+00:00",
+      "command": [
+        "node",
+        "<gpt-image-2-skill>",
+        "--json",
+        "--provider",
+        "codex",
+        "config",
+        "inspect"
+      ],
+      "image_generation_provider_requests": 0,
+      "label": "config_inspect",
+      "payload": {
+        "command": "config inspect",
+        "config": {
+          "default_provider": "ebond-gpt-image-2",
+          "logging": {
+            "debug": false
+          },
+          "notifications": {
+            "email": "<REDACTED>",
+            "enabled": true,
+            "on_cancelled": true,
+            "on_completed": true,
+            "on_failed": true,
+            "system": {
+              "enabled": false,
+              "mode": "auto"
+            },
+            "toast": {
+              "enabled": true
+            },
+            "webhooks": []
+          },
+          "paths": {
+            "app_data_dir": {
+              "mode": "default"
+            },
+            "default_export_dir": {
+              "mode": "result_library"
+            },
+            "legacy_shared_codex_dir": {
+              "enabled_for_read": true,
+              "path": "/home/yanbo/.codex/gpt-image-2-skill"
+            },
+            "result_library_dir": {
+              "mode": "default"
+            }
+          },
+          "providers": {
+            "ebond-gpt-image-2": {
+              "api_base": "https://api.ebondai.com/v1",
+              "credentials": {
+                "api_key": "<REDACTED>"
+              },
+              "endpoint": null,
+              "model": "gpt-image-2",
+              "proxy": null,
+              "supports_n": null,
+              "type": "openai-compatible"
+            }
+          },
+          "proxy": {
+            "mode": "system",
+            "no_proxy": [],
+            "url": null
+          },
+          "storage": {
+            "default_targets": [],
+            "fallback_policy": "on_failure",
+            "fallback_targets": [],
+            "policy": {
+              "allow_user_overrides": false,
+              "allowed_modes": [],
+              "locked_archives": [],
+              "managed": false
+            },
+            "target_concurrency": 2,
+            "targets": {},
+            "upload_concurrency": 4
+          },
+          "version": 1
+        },
+        "config_file": "/home/yanbo/.codex/gpt-image-2-skill/config.json",
+        "exists": true,
+        "ok": true
+      },
+      "returncode": 0,
+      "stderr": ""
+    },
+    "doctor": {
+      "captured_at": "2026-08-28T07:15:30.349+00:00",
+      "command": [
+        "node",
+        "<gpt-image-2-skill>",
+        "--json",
+        "--provider",
+        "codex",
+        "doctor"
+      ],
+      "image_generation_provider_requests": 0,
+      "label": "doctor",
+      "payload": {
+        "command": "doctor",
+        "defaults": {
+          "codex_endpoint": "https://chatgpt.com/backend-api/codex/responses",
+          "codex_model": "gpt-5.4",
+          "config_file": "/home/yanbo/.codex/gpt-image-2-skill/config.json",
+          "default_provider": "ebond-gpt-image-2",
+          "openai_api_base": "https://api.openai.com/v1",
+          "openai_model": "gpt-image-2",
+          "provider": "auto"
+        },
+        "ok": true,
+        "provider_selection": {
+          "edit_region_mode": "reference-hint",
+          "error": null,
+          "kind": "codex",
+          "reason": "explicit",
+          "requested": "codex",
+          "resolved": "codex",
+          "supports_n": false
+        },
+        "providers": {
+          "codex": {
+            "auth": {
+              "access_token_present": true,
+              "account_id": "<REDACTED>",
+              "auth_file": "<REDACTED>",
+              "auth_mode": "chatgpt",
+              "auth_source": "config",
+              "chatgpt_user_id": "<REDACTED>",
+              "email": "<REDACTED>",
+              "exists": true,
+              "expired": false,
+              "expires_at": 1788763171,
+              "id_token_present": true,
+              "last_refresh": "2026-08-28T06:39:33.641841393Z",
+              "parse_ok": true,
+              "plan_type": "plus",
+              "provider": "codex",
+              "ready": true,
+              "refresh_token_present": true,
+              "seconds_until_expiry": 861844
+            },
+            "endpoint": {
+              "endpoint": "https://chatgpt.com/backend-api/codex/responses",
+              "error": null,
+              "host": "chatgpt.com",
+              "port": 443,
+              "proxy": "system",
+              "reachable": true,
+              "scheme": "https",
+              "status": 405,
+              "tls_ok": true
+            }
+          },
+          "configured": {
+            "ebond-gpt-image-2": {
+              "api_base": "https://api.ebondai.com/v1",
+              "credentials": {
+                "api_key": "<REDACTED>"
+              },
+              "endpoint": null,
+              "model": "gpt-image-2",
+              "proxy": null,
+              "supports_n": null,
+              "type": "openai-compatible"
+            }
+          },
+          "openai": {
+            "auth": {
+              "api_key_present": false,
+              "auth_source": "missing",
+              "default_model": "gpt-image-2",
+              "env_var": "OPENAI_API_KEY",
+              "provider": "openai",
+              "ready": false
+            },
+            "endpoint": {
+              "endpoint": "https://api.openai.com/v1",
+              "error": null,
+              "host": "api.openai.com",
+              "port": 443,
+              "proxy": "system",
+              "reachable": true,
+              "scheme": "https",
+              "status": 404,
+              "tls_ok": true
+            }
+          }
+        },
+        "retry_policy": {
+          "base_delay_seconds": 1,
+          "max_retries": 3
+        },
+        "version": "0.7.3"
+      },
+      "returncode": 0,
+      "stderr": ""
+    },
+    "images_generate_help": {
+      "captured_at": "2026-08-28T07:15:30.411+00:00",
+      "command": [
+        "node",
+        "<gpt-image-2-skill>",
+        "--json",
+        "--provider",
+        "codex",
+        "images",
+        "generate",
+        "--help"
+      ],
+      "image_generation_provider_requests": 0,
+      "label": "images_generate_help",
+      "payload": {
+        "error": {
+          "code": "invalid_command",
+          "message": "Usage: gpt-image-2-skill images generate [OPTIONS] --prompt <PROMPT> --out <OUT>\n\nOptions:\n      --prompt <PROMPT>\n          \n      --out <OUT>\n          \n  -m, --model <MODEL>\n          \n      --instructions <INSTRUCTIONS>\n          [default: \"You are a concise assistant.\"]\n      --background <BACKGROUND>\n          [default: auto] [possible values: auto, transparent, opaque]\n      --size <SIZE>\n          \n      --quality <QUALITY>\n          [possible values: auto, low, medium, high]\n      --format <OUTPUT_FORMAT>\n          [possible values: png, jpeg, webp]\n      --compression <OUTPUT_COMPRESSION>\n          \n      --n <N>\n          \n      --moderation <MODERATION>\n          [possible values: auto, low]\n  -h, --help\n          Print help\n"
+        },
+        "ok": false
+      },
+      "returncode": 2,
+      "stderr": ""
+    }
+  },
+  "endpoint_reachable_observed": true,
+  "generation_backend": "image_generation",
+  "image_generation_provider_requests": 0,
+  "native_max_retries": 3,
+  "native_retry_policy": {
+    "base_delay_seconds": 1,
+    "max_retries": 3
+  },
+  "outer_retry": false,
+  "profile_fingerprint_matches_expected_b": false,
+  "profile_fingerprint_safe_hash": "ab7f2704e5b70b62ccfd48b241b649716e6ddd6cb9a1bfe14d992df646dcaffe",
+  "provider": "codex",
+  "read_only_capability_audit": true,
+  "request_model": "gpt-5.4",
+  "requested_provider": "codex",
+  "resolved_provider": "codex",
+  "runtime_version": "0.7.3",
+  "tls_ok_observed": true,
+  "wrapper_path": "/home/yanbo/.codex/skills/gpt-image-2-skill/scripts/gpt_image_2_skill.cjs",
+  "wrapper_sha256": "f01c85e448a078c508d015e2c0ac5208b12a9f126ce83e47da11fce542b440fe"
+}

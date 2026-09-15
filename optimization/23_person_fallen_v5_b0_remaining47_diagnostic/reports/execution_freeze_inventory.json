@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "freeze_sha256": "f34803713ac3c40613caf96fabad0a9b25445ddb3b9c17abd36cb7be02692baf",
+  "binding_count": 1758,
+  "reused_raw_ledger_rows": 389,
+  "actual_manifest": "/home/yanbo/net_vlm_person_fallen_v2_optimization/23_person_fallen_v5_b0_remaining47_diagnostic/manifests/remaining47.json",
+  "actual_manifest_sha256": "6c305d86f45108d7d609a3570b469c5b982835102efc33c36159242ba686e9c7",
+  "semantic_sha256": {
+    "prompt": "757fb445efa3f05327947a4c32115e3735823c81d14177199bbf8a6381d3300a",
+    "schema": "1ccf5a08cd1d6287b33f5d04b0f06101ae75666919c1a9f160ac0c5c335d7817",
+    "policy": "b2126bf86378fa6d0bcbc67861fa794b320affb1de90dc445f5838223cae68b9",
+    "contracts": "e88cb1cb2c297200245531d5c5802aa9224dcd1a43e181402adeac23bf949edd"
+  }
+}

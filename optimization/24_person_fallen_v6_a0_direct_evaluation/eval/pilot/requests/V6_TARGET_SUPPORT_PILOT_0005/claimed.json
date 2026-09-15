@@ -1,0 +1,15 @@
+{
+  "state": "claimed",
+  "phase": "pilot",
+  "request_id": "V6_TARGET_SUPPORT_PILOT_0005",
+  "item_id": "P4D_PLAN::PF_P4D_HN_SIT_G001_V05",
+  "operational_id": "PFV6_PILOT_0005",
+  "taxonomy": "floor_sitting",
+  "group_id": "PF_P4D_HN_SIT_G001",
+  "evaluation_stratum": "normal_negative",
+  "source_image_sha256": "8a601a296c493209ea6d0e4d3c42904a94ece62d0d799b801df68eeb49a3ec96",
+  "full_view_sha256": "6db4e0f7736abbd876b08bb9199a29df8a704564d362eefdddf26ee1cc861ba7",
+  "crop_view_sha256": "103261737812ab0e53996d4906a529b114044c7e05e74fa9cfdae786064ca49a",
+  "payload_sha256": "1d10545dea765334410fe187a7a4be1b1f2c55748c25fd0aec1b68d8d6971440",
+  "claimed_timestamp": "2026-09-14T10:18:30.620742+00:00"
+}

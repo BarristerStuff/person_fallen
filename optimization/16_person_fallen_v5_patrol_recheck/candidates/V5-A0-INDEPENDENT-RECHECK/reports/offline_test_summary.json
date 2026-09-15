@@ -1,0 +1,7 @@
+{
+  "candidate_tests_passed": 18,
+  "preparation_tests_passed": 13,
+  "failed": 0,
+  "scope": "OFFLINE_ONLY",
+  "preparation_test_output": "test_attention_not_ground_lying (test_v5_contract.MetricContract) ... ok\ntest_duplicate_ids_rejected (test_v5_contract.MetricContract) ... ok\ntest_floor_sitting_counts_as_negative_false_positive (test_v5_contract.MetricContract) ... ok\ntest_gt_conflict_rejected (test_v5_contract.MetricContract) ... ok\ntest_incomplete_predictions_rejected (test_v5_contract.MetricContract) ... ok\ntest_uncertain_not_determinate_negative (test_v5_contract.MetricContract) ... ok\ntest_clear_negative_keeps_normal (test_v5_contract.RoutingContract) ... ok\ntest_missing_or_uncertain_cannot_silently_clear (test_v5_contract.RoutingContract) ... ok\ntest_possible_other_person_requests_reobservation (test_v5_contract.RoutingContract) ... ok\ntest_primary_alert_preserved (test_v5_contract.RoutingContract) ... ok\ntest_primary_recheck_cannot_be_cleared (test_v5_contract.RoutingContract) ... ok\ntest_secondary_cannot_create_alert (test_v5_contract.RoutingContract) ... ok\ntest_unknown_enums_fail (test_v5_contract.RoutingContract) ... ok\n\n----------------------------------------------------------------------\nRan 13 tests in 0.000s\n\nOK\n"
+}

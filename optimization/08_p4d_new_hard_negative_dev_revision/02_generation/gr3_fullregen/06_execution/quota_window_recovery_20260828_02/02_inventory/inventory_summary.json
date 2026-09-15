@@ -1,0 +1,28 @@
+{
+  "all_verified": true,
+  "captured_at": "2026-08-28T07:15:38.302+00:00",
+  "expected_total": 102,
+  "inventory_csv_sha256": "c77d57e33da99add3744c03c9bfb5344b3b81d5c3b5a59a1481443ea6078831b",
+  "inventory_issues": [],
+  "profile_strata": {
+    "GR3E_PROFILE_A": 99,
+    "GR3Q2_PROFILE_B": 3
+  },
+  "role_counts": {
+    "hard_negative": 102
+  },
+  "source_counts": {
+    "gr3e_success_rows": 99,
+    "q2e_success_profile_b_rows": 3
+  },
+  "split_counts": {
+    "NEW_DESIGN": 70,
+    "NEW_SCREEN": 32
+  },
+  "taxonomy_counts": {
+    "floor_sitting": 60,
+    "kneeling_half_kneeling": 42
+  },
+  "total_verified_success": 102,
+  "unique_prompt_ids": 102
+}

@@ -1,0 +1,32 @@
+{
+  "api_base": "https://api.ebondai.com/v1",
+  "c3": false,
+  "client_http_generation_attempts_max": 1,
+  "concurrency": 1,
+  "created_at": "2026-08-28T08:50:33.197+00:00",
+  "credential_fingerprint_sha256": "43d31d860533665709eb74ab30e6643ae2addd79d71156940e517c75db44873f",
+  "credential_slot": "PRIMARY",
+  "final_size": [
+    1920,
+    1080
+  ],
+  "formal_ingest": false,
+  "generation_endpoint": "https://api.ebondai.com/v1/images/generations",
+  "holdout_planned_requests": 0,
+  "http_client_retry_total": 0,
+  "http_library": "urllib.request",
+  "lineage": "P4D_EB1_EBOND_FULL_REGENERATION",
+  "logical_retry": false,
+  "max_concurrency": 1,
+  "model": "gpt-image-2",
+  "native_size_requested": "1536x1024",
+  "new_val": 0,
+  "outer_retry": false,
+  "provider": "ebond",
+  "provider_wrapper_retry": 0,
+  "quality": "medium",
+  "revision": "P4D_EBOND_FULLREGEN_20260828_01",
+  "schema_version": 1,
+  "secret_persisted": false,
+  "timeout_seconds": 900
+}

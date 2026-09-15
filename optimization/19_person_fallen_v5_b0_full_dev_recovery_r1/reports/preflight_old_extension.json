@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "old_extension": "18_person_fallen_v5_full_dev_extension",
+  "old_extension_sha256": "6e709558b815d935faacf9f647094bc0570cf4bca844ed08d31ea147d165b50d",
+  "old_patterns": {
+    "**/claimed.json": [],
+    "**/completed.json": [],
+    "**/response.raw": [],
+    "**/failure.json": [],
+    "**/*ACTIVE*": [],
+    "**/*.jsonl": []
+  },
+  "old_execution_process_lines": [],
+  "old_claimed_count": 0,
+  "old_completed_count": 0,
+  "old_raw_count": 0,
+  "old_active_count": 0,
+  "old_jsonl_count": 0,
+  "new_recovery_created": true,
+  "new_recovery_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/19_person_fallen_v5_b0_full_dev_recovery_r1",
+  "requests_sent_by_this_recovery": 0,
+  "VAL_images_read": 0,
+  "VAL_predictions_read": 0,
+  "HOLDOUT_read": 0
+}

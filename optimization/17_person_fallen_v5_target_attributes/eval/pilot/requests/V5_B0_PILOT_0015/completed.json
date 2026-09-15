@@ -1,0 +1,87 @@
+{
+  "state": "completed",
+  "phase": "pilot",
+  "request_id": "V5_B0_PILOT_0015",
+  "item_id": "P4D_PLAN::PF_P4D_HN_SIT_G003_V05",
+  "operational_id": "PFV4DEV_0325",
+  "source_image_sha256": "d4b910a71663ae1b2d90e1edb5af4980842e20eb492d861eb965db1d5c14ab0d",
+  "full_view_sha256": "79d200abc29a7fba72cc04b06c4127268439b3a9c0bdc088fdceb092845355d9",
+  "crop_view_sha256": "82947727abed54d74764e49f515a9cbcb4b65b671a4126d5cbd758fbd2f82e04",
+  "view_count": 2,
+  "view_sha256": [
+    "79d200abc29a7fba72cc04b06c4127268439b3a9c0bdc088fdceb092845355d9",
+    "82947727abed54d74764e49f515a9cbcb4b65b671a4126d5cbd758fbd2f82e04"
+  ],
+  "prompt_sha256": "757fb445efa3f05327947a4c32115e3735823c81d14177199bbf8a6381d3300a",
+  "schema_sha256": "1ccf5a08cd1d6287b33f5d04b0f06101ae75666919c1a9f160ac0c5c335d7817",
+  "person_policy_sha256": "b2126bf86378fa6d0bcbc67861fa794b320affb1de90dc445f5838223cae68b9",
+  "scene_aggregation_sha256": "b2126bf86378fa6d0bcbc67861fa794b320affb1de90dc445f5838223cae68b9",
+  "model_binding": {
+    "endpoint": "http://192.168.20.62:11434",
+    "name": "qwen3.5:4b",
+    "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+    "ollama_version": "0.23.2",
+    "think": false,
+    "stream": false,
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 768,
+    "concurrency": 1,
+    "automatic_retry": false,
+    "resend_completion_unknown": false,
+    "timeout_seconds": 120,
+    "api": "/api/generate",
+    "format_schema": "schema/target_attributes.json",
+    "transport": "direct,no proxies,no redirects"
+  },
+  "freeze_sha256": "4ea0db2dce0d0cdea4af1bf799cd3e5d3ca1e2fd5293d1d352bf40e1978c25e4",
+  "payload_sha256": "2835eb979079827d15210bb3fdf2ab3612be628cc9c6fff9581f7ef9062b42e1",
+  "claimed_timestamp": "2026-09-09T07:43:25.626872+00:00",
+  "http_status": 200,
+  "latency_seconds": 6.136060311997426,
+  "completion_unknown": false,
+  "transport_error": null,
+  "received_timestamp": "2026-09-09T07:43:31.764942+00:00",
+  "raw_response_sha256": "f2fce74e0fe452de19c8e769faa5dcc9efb08598973ba8e1fdfa4da1299ecb89",
+  "raw_response_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/17_person_fallen_v5_target_attributes/eval/pilot/requests/V5_B0_PILOT_0015/response.raw",
+  "strict_json_ok": true,
+  "source_binding_ok": true,
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 186,
+  "parsed": {
+    "scene_coverage": "complete",
+    "people": [
+      {
+        "person_id": 1,
+        "bbox_1000": [
+          388,
+          318,
+          618,
+          718
+        ],
+        "person_visible": "yes",
+        "pose": "floor_sitting",
+        "torso_orientation": "upright",
+        "torso_ground_contact": "none",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "explicit_work_evidence": "yes",
+        "visual_quality": "clear",
+        "evidence": "A person is sitting on the floor with a blue crate in front of them, appearing to sort items."
+      }
+    ]
+  },
+  "person_decisions": [
+    {
+      "person_id": 1,
+      "decision": "NO_ALERT_NORMAL_POSE",
+      "reason": "TARGET_EXPLICIT_WORK_CONTEXT"
+    }
+  ],
+  "image_decision": "NO_ALERT_NORMAL_POSE",
+  "image_reason": "ALL_ENUMERATED_PEOPLE_CLEAR_NORMAL",
+  "completed_timestamp": "2026-09-09T07:43:31.765800+00:00",
+  "EVALUATION_MODE": "NEW_TARGET_ATTRIBUTES_ONLY",
+  "CACHED_PRIMARY_USED_FOR_FINAL_DECISION": false
+}

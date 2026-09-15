@@ -1,0 +1,18 @@
+{
+  "candidate": "V5-B0-TARGET-ATTRIBUTES",
+  "execution": "REMAINING47_DIAGNOSTIC",
+  "purpose": "COMPLETE_DEVELOPMENT_RISK_PROFILE",
+  "original_candidate_rejection_remains": true,
+  "budget_source": "protocol/spec.py:REQUEST_BUDGET",
+  "stage": "remaining47_diagnostic",
+  "new_model_requests_max": 47,
+  "reused_results": 389,
+  "full_dev_unique_rows": 436,
+  "business_failure_early_stop": false,
+  "protocol_failure_stop_no_retry": true,
+  "val_requests": 0,
+  "holdout_requests": 0,
+  "v6_requests": 0,
+  "production_changes": 0,
+  "git_commits": 0
+}

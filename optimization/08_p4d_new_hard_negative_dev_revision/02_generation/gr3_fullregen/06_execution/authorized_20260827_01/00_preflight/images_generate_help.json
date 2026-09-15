@@ -1,0 +1,24 @@
+{
+  "captured_at": "2026-08-27T10:30:43.946+00:00",
+  "command": [
+    "node",
+    "/home/yanbo/.codex/skills/gpt-image-2-skill/scripts/gpt_image_2_skill.cjs",
+    "--json",
+    "--provider",
+    "codex",
+    "images",
+    "generate",
+    "--help"
+  ],
+  "label": "images_generate_help",
+  "payload": {
+    "error": {
+      "code": "invalid_command",
+      "message": "Usage: gpt-image-2-skill images generate [OPTIONS] --prompt <PROMPT> --out <OUT>\n\nOptions:\n      --prompt <PROMPT>\n          \n      --out <OUT>\n          \n  -m, --model <MODEL>\n          \n      --instructions <INSTRUCTIONS>\n          [default: \"You are a concise assistant.\"]\n      --background <BACKGROUND>\n          [default: auto] [possible values: auto, transparent, opaque]\n      --size <SIZE>\n          \n      --quality <QUALITY>\n          [possible values: auto, low, medium, high]\n      --format <OUTPUT_FORMAT>\n          [possible values: png, jpeg, webp]\n      --compression <OUTPUT_COMPRESSION>\n          \n      --n <N>\n          \n      --moderation <MODERATION>\n          [possible values: auto, low]\n  -h, --help\n          Print help\n"
+    },
+    "ok": false
+  },
+  "returncode": 2,
+  "stderr": "",
+  "stdout": "{\n  \"error\": {\n    \"code\": \"invalid_command\",\n    \"message\": \"Usage: gpt-image-2-skill images generate [OPTIONS] --prompt <PROMPT> --out <OUT>\\n\\nOptions:\\n      --prompt <PROMPT>\\n          \\n      --out <OUT>\\n          \\n  -m, --model <MODEL>\\n          \\n      --instructions <INSTRUCTIONS>\\n          [default: \\\"You are a concise assistant.\\\"]\\n      --background <BACKGROUND>\\n          [default: auto] [possible values: auto, transparent, opaque]\\n      --size <SIZE>\\n          \\n      --quality <QUALITY>\\n          [possible values: auto, low, medium, high]\\n      --format <OUTPUT_FORMAT>\\n          [possible values: png, jpeg, webp]\\n      --compression <OUTPUT_COMPRESSION>\\n          \\n      --n <N>\\n          \\n      --moderation <MODERATION>\\n          [possible values: auto, low]\\n  -h, --help\\n          Print help\\n\"\n  },\n  \"ok\": false\n}\n"
+}

@@ -1,0 +1,15 @@
+{
+  "state": "claimed",
+  "phase": "pilot",
+  "request_id": "V6_TARGET_SUPPORT_PILOT_0135",
+  "item_id": "V2_ORIGINAL::IMG_003806",
+  "operational_id": "PFV6_PILOT_0135",
+  "taxonomy": "crawling_without_explicit_maintenance",
+  "group_id": "pf_v2_aigc_h11-crawling-under-equipment-inspection",
+  "evaluation_stratum": "auxiliary_attention",
+  "source_image_sha256": "8820768b55dd9b07c8d0589459ca0a8e5ee5404ee710ad1930f0084083825031",
+  "full_view_sha256": "072204255e08e04d9df089f7dad3798df1d0885025f799ca9a2f224eb95034bf",
+  "crop_view_sha256": "8f5b8a8fe25dba82644015a547ccda6dc6d6a93b9111e738addf37de8eb42401",
+  "payload_sha256": "e9cc4120ef7d0c11461ea11aa8e471746db635d7b57e399114ddca9a8cc66a8d",
+  "claimed_timestamp": "2026-09-14T10:31:10.002948+00:00"
+}

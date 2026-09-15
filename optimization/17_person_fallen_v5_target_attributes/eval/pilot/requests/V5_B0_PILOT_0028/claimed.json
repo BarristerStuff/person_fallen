@@ -1,0 +1,40 @@
+{
+  "state": "claimed",
+  "phase": "pilot",
+  "request_id": "V5_B0_PILOT_0028",
+  "item_id": "P4D_PLAN::PF_P4D_HN_SIT_G006_V03",
+  "operational_id": "PFV4DEV_0338",
+  "source_image_sha256": "3fb6a031562a93c0c4b0eb650169a3e64cd7b02b683434ad1968406d72e538b9",
+  "full_view_sha256": "419811775b2e3619126c7d613750517bc9ebcbe2d1f89d0f61a3fcd26f428407",
+  "crop_view_sha256": "a658eb5ecedbf29ce8474db43a2b352a503851da83c4873f26374b3140998c93",
+  "view_count": 2,
+  "view_sha256": [
+    "419811775b2e3619126c7d613750517bc9ebcbe2d1f89d0f61a3fcd26f428407",
+    "a658eb5ecedbf29ce8474db43a2b352a503851da83c4873f26374b3140998c93"
+  ],
+  "prompt_sha256": "757fb445efa3f05327947a4c32115e3735823c81d14177199bbf8a6381d3300a",
+  "schema_sha256": "1ccf5a08cd1d6287b33f5d04b0f06101ae75666919c1a9f160ac0c5c335d7817",
+  "person_policy_sha256": "b2126bf86378fa6d0bcbc67861fa794b320affb1de90dc445f5838223cae68b9",
+  "scene_aggregation_sha256": "b2126bf86378fa6d0bcbc67861fa794b320affb1de90dc445f5838223cae68b9",
+  "model_binding": {
+    "endpoint": "http://192.168.20.62:11434",
+    "name": "qwen3.5:4b",
+    "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+    "ollama_version": "0.23.2",
+    "think": false,
+    "stream": false,
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 768,
+    "concurrency": 1,
+    "automatic_retry": false,
+    "resend_completion_unknown": false,
+    "timeout_seconds": 120,
+    "api": "/api/generate",
+    "format_schema": "schema/target_attributes.json",
+    "transport": "direct,no proxies,no redirects"
+  },
+  "freeze_sha256": "4ea0db2dce0d0cdea4af1bf799cd3e5d3ca1e2fd5293d1d352bf40e1978c25e4",
+  "payload_sha256": "6ecbd88ef48f51980976428e727f9d4a122c41793fc9196fbaa238e0d4ce825d",
+  "claimed_timestamp": "2026-09-09T07:45:24.038332+00:00"
+}

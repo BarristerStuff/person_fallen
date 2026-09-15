@@ -1,0 +1,64 @@
+# P3 C3 SCREEN baseline reuse
+
+```json
+{
+  "candidate": "C3_BASELINE",
+  "holdout_requests": 0,
+  "manifest_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/05_p2_hard_negative_semantic_optimization/01_internal_split/p2_screen_manifest.csv",
+  "manifest_sha256": "ccb8c9df51371dbfd2a8e34201ccd42b0a825eea4444ba45a3aaa6945094aab5",
+  "metrics_direct": {
+    "FN": 0,
+    "FP": 5,
+    "TN": 55,
+    "TP": 50,
+    "accuracy": 0.9545454545454546,
+    "determinate_count": 110,
+    "f1": 0.9523809523809523,
+    "fpr": 0.08333333333333333,
+    "gt_uncertain_prediction_distribution": {
+      "negative": 2,
+      "positive": 8
+    },
+    "hard_negative_fpr": 0.125,
+    "model_uncertain_count": 0,
+    "model_uncertain_rate": 0.0,
+    "ordinary_negative_fpr": 0.0,
+    "positive_recall": 1.0,
+    "precision": 0.9090909090909091,
+    "recall": 1.0,
+    "specificity": 0.9166666666666666
+  },
+  "new_requests": 0,
+  "p2_screen_individual_errors_used_for_p3_design": false,
+  "phase": "screen_reuse",
+  "predictions_sha256": "5d21d873dc327c8e59d25c59fad79522f65d6d0e19a817c5d893f662aaa1a848",
+  "protocol": {
+    "canonical_prediction_success_rate": 1.0,
+    "http_success_rate": 1.0,
+    "json_parse_success_rate": 1.0,
+    "latency_seconds": {
+      "cold": 1.589639,
+      "max": 1.992321,
+      "p50": 1.580759,
+      "p95": 1.8150098,
+      "warm_mean": 1.5936711176470588
+    },
+    "prediction_distribution": {
+      "negative": 57,
+      "positive": 63
+    },
+    "request_count": 120,
+    "response_nonempty_rate": 1.0,
+    "schema_success_rate": 1.0,
+    "thinking_present_rate": 0.0
+  },
+  "protocol_gate_pass": true,
+  "request_count": 120,
+  "screen_is_pristine": false,
+  "source_predictions_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/05_p2_hard_negative_semantic_optimization/04_screening/C3/predictions.csv",
+  "source_predictions_sha256": "5d21d873dc327c8e59d25c59fad79522f65d6d0e19a817c5d893f662aaa1a848",
+  "source_stage": "P2_HARD_NEGATIVE_SEMANTIC_OPTIMIZATION",
+  "stage": "P3_STRUCTURED_HARD_NEGATIVE_REFINEMENT",
+  "val_requests": 0
+}
+```

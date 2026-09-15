@@ -1,0 +1,93 @@
+{
+  "audit_type": "independent_offline_v6_metrics_audit",
+  "audit_date": "2026-09-10",
+  "workspace": "/home/yanbo/net_vlm_person_fallen_v2_optimization/20_person_fallen_v6_target_support_config",
+  "scope": {
+    "network_access": false,
+    "ollama_access": false,
+    "holdout_or_val_access": false,
+    "image_access": false,
+    "model_requests": false,
+    "spawned_agents": false,
+    "git_write_operations": false,
+    "implementation": "pure aggregation and contract validation over supplied Python records"
+  },
+  "changed_files": [
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/20_person_fallen_v6_target_support_config/tools/metrics.py",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/20_person_fallen_v6_target_support_config/tests/test_metrics.py",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/20_person_fallen_v6_target_support_config/reports/independent_audit.json"
+  ],
+  "interface": {
+    "function": "summarize(phase, manifest_rows, output_rows, request_records)",
+    "accepted_phases": [
+      "pilot",
+      "regression"
+    ],
+    "invalid_phase_behavior": "ValueError"
+  },
+  "contract_checks": {
+    "strict_json_and_source_binding": true,
+    "person_schema_12_fields": true,
+    "bbox_1000_validation": true,
+    "http_status_and_latency_validation": true,
+    "manifest_output_identity_and_duplicate_detection": true,
+    "missing_failed_duplicate_or_unrun_request_records_cannot_pass": true,
+    "recheck_is_not_alert": true,
+    "regression_target_PFV4_SCREEN_0066": true,
+    "pilot_gate_targets": {
+      "rows": 156,
+      "ground": {
+        "rows": 60,
+        "alert_min": 57,
+        "coverage_alert_plus_recheck": 60,
+        "no_alert": 0,
+        "attention": 0
+      },
+      "floor": {
+        "rows": 55,
+        "alert": 0,
+        "recheck_max": 5,
+        "no_alert_min": 50,
+        "attention": 0
+      },
+      "pushup_plank": {
+        "rows": 26,
+        "alert": 0
+      },
+      "crawling": {
+        "rows": 15,
+        "alert": 0
+      },
+      "multi": {
+        "rows": 5,
+        "alert": 5,
+        "single_group": true
+      }
+    }
+  },
+  "reported_metrics": [
+    "body_support_configuration_distribution",
+    "people_count_distribution",
+    "coverage_rate",
+    "bbox_null_count",
+    "conflict_reason_distribution",
+    "taxonomy",
+    "latencies_p50_p95_min_max_mean",
+    "stratified_decision_counts"
+  ],
+  "synthetic_test_result": {
+    "command": "python3 -m unittest discover -s /home/yanbo/net_vlm_person_fallen_v2_optimization/20_person_fallen_v6_target_support_config/tests -v",
+    "tests_run": 11,
+    "failures": 0,
+    "errors": 0,
+    "status": "PASS",
+    "coverage_note": "schema, stratification, aggregation, latency, operational regression target lookup, and contract-boundary cases use synthetic records only; existing offline manifest tests also passed"
+  },
+  "limitations_and_risks": [
+    "No pilot or regression dataset was executed; this is an offline implementation and synthetic contract audit, not a claim that any V6 gate passed.",
+    "Taxonomy normalization accepts common aliases; unknown taxonomy values remain visible as unknown and cannot satisfy a named gate.",
+    "Request identity is matched by manifest request_id when present, otherwise item_id; output identity is matched by item_id/image_id/id. Production callers should provide unique identifiers.",
+    "The report intentionally contains no image, holdout, VAL, or model-derived content."
+  ],
+  "overall_status": "IMPLEMENTED_AND_SYNTHETIC_TESTED_NOT_EVALUATED_ON_REAL_RUN"
+}

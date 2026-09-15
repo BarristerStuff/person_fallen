@@ -1,0 +1,64 @@
+{
+  "auth": {
+    "account_id": "f0bc3591-e6fc-442d-a52e-e99efbf5c1eb",
+    "auth_file": "/home/yanbo/.codex/auth.json",
+    "refreshed": false,
+    "source": "auth.json"
+  },
+  "command": "images generate",
+  "events": {
+    "count": 31
+  },
+  "history": {
+    "job_id": "job-1787812023214071144-17224"
+  },
+  "ok": true,
+  "output": {
+    "bytes": 2267763,
+    "files": [
+      {
+        "bytes": 2267763,
+        "index": 0,
+        "path": "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/generated_raw/PF_P4D_HN_SIT_G003_V03.png"
+      }
+    ],
+    "path": "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/generated_raw/PF_P4D_HN_SIT_G003_V03.png"
+  },
+  "provider": "codex",
+  "provider_selection": {
+    "edit_region_mode": "reference-hint",
+    "kind": "codex",
+    "reason": "explicit",
+    "requested": "codex",
+    "resolved": "codex",
+    "supports_n": false
+  },
+  "request": {
+    "background": "auto",
+    "delegated_image_model": "gpt-image-2",
+    "format": "png",
+    "model": "gpt-5.4",
+    "operation": "generate",
+    "provider": "codex",
+    "quality": "medium",
+    "ref_image_count": 0,
+    "size": "1536x1024"
+  },
+  "response": {
+    "image_count": 1,
+    "item_ids": [
+      "ig_0162454be44e8657016a8fd88d798887d0b560b1aff1baf1be"
+    ],
+    "model": "gpt-5.4",
+    "response_id": "resp_0162454be44e8657016a8fd88c13ac87d081c182d9c46a5da3",
+    "revised_prompts": [
+      "Photorealistic 1920x1080 landscape frame from a fixed safety-inspection camera mounted about 1.5 meters above the floor, showing a large indoor public area with varied furniture, open sightlines, realistic foot-traffic cues, industrial vinyl flooring, moderate backlight balanced by usable foreground fill. Moderate side view at closer inspection distance, natural perspective, realistic scale, enough surrounding context to judge body support. Visible subject: a young adult woman with an athletic build, wearing a pale sweater and black trousers with black and teal clothing accents, sitting on the floor with legs extended forward, pelvis on the floor, back lightly self-supported by posture rather than lying flat. Plausible unedited inspection-camera capture, subject clearly visible, practical clutter kept behind the subject, no foreground obstruction. Ordinary photographic detail, restrained contrast, not cinematic or advertising. No text, caption, watermark, logo, warning label, overlay, bounding box, arrow, circle, or annotation."
+    ],
+    "service_tier": "default",
+    "status": "completed"
+  },
+  "retry": {
+    "count": 1,
+    "max_retries": 3
+  }
+}

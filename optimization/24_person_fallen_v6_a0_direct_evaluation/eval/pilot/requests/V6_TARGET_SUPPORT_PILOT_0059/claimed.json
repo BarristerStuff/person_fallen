@@ -1,0 +1,15 @@
+{
+  "state": "claimed",
+  "phase": "pilot",
+  "request_id": "V6_TARGET_SUPPORT_PILOT_0059",
+  "item_id": "P4D_PLAN::PF_P4D_POS_PRONE_G001_V04",
+  "operational_id": "PFV6_PILOT_0059",
+  "taxonomy": "prone_ground_lying",
+  "group_id": "PF_P4D_POS_PRONE_G001",
+  "evaluation_stratum": "ground_lying",
+  "source_image_sha256": "0f9a47785f5255a87ca5b63b577704d9da8d8d75966a94f6e7a2f57dd9912965",
+  "full_view_sha256": "868a2d628f5b6491ce2655b770fdc7cfd2d88bb890cc0cbf34bf717d12b037d2",
+  "crop_view_sha256": "a728e4fb82b83e3f05194de6552c5937a0d5063d0188e420b4a9b09797851d62",
+  "payload_sha256": "6f7d8b60a985bcb022991c579913038ed2ad670e529ba6d65cd5a452f5f565a6",
+  "claimed_timestamp": "2026-09-14T10:23:44.177607+00:00"
+}

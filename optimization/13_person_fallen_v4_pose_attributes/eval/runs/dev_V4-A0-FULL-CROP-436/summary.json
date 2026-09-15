@@ -1,0 +1,237 @@
+{
+  "candidate": "V4-A0-FULL-CROP-FULLDEV-436",
+  "conservative_uncertain_as_error": true,
+  "crop_manifest_sha256": "36b92f06c3be9a9d6450f0239d06a270ef2a57a2062bc674d21c08ebe4afb88f",
+  "dev_only": true,
+  "gate_checks": {
+    "detector_coverage": true,
+    "hard_negative_fpr": true,
+    "ordinary_negative_fpr": true,
+    "precision": true,
+    "recall": false,
+    "strict_json": true
+  },
+  "gate_pass": false,
+  "gt_type": "PROMPT_DERIVED_SYNTHETIC_GT",
+  "holdout_requests": 0,
+  "independent_validation": false,
+  "metrics": {
+    "accuracy": 0.9543269230769231,
+    "attention_exact_count": 26,
+    "attention_exact_recall": 0.6341463414634146,
+    "cache_reuse_count": 110,
+    "decision_distribution": {
+      "ALERT_GROUND_LYING": 148,
+      "ATTENTION_NEAR_GROUND": 26,
+      "NO_ALERT_NORMAL_POSE": 243,
+      "RECHECK_VISUAL_UNCERTAIN": 19
+    },
+    "detector_coverage": 0.9587155963302753,
+    "determinate_recheck_count": 6,
+    "determinate_recheck_rate": 0.014423076923076924,
+    "exact_expected_outcome_accuracy": 0.9357798165137615,
+    "f1": 0.9467787114845938,
+    "fn": 17,
+    "fp": 2,
+    "hard_negative_count": 155,
+    "hard_negative_fp": 2,
+    "hard_negative_fpr": 0.012903225806451613,
+    "labeled_count": 416,
+    "lying_alert_count": 141,
+    "lying_alert_recall": 0.9724137931034482,
+    "new_model_request_count": 326,
+    "new_request_latency_seconds": {
+      "max": 8.666265658001066,
+      "mean": 2.424644462852858,
+      "p50": 2.39973711499988,
+      "p95": 2.7191347825018966
+    },
+    "ordinary_negative_count": 75,
+    "ordinary_negative_fp": 0,
+    "ordinary_negative_fpr": 0.0,
+    "pose_distribution": {
+      "bending": 19,
+      "chair_sitting": 36,
+      "crawling": 2,
+      "curled_lying": 5,
+      "floor_sitting": 61,
+      "kneeling": 69,
+      "other_near_ground": 1,
+      "prone": 43,
+      "pushup_plank": 24,
+      "side_lying": 31,
+      "squat_crouch": 27,
+      "standing": 19,
+      "supine": 76,
+      "unknown": 3,
+      "walking": 20
+    },
+    "precision": 0.9883040935672515,
+    "recall": 0.9086021505376344,
+    "sample_count": 436,
+    "source_uncertain_count": 20,
+    "source_uncertain_recheck_count": 13,
+    "source_uncertain_recheck_rate": 0.65,
+    "strict_json_success": 1.0,
+    "taxonomy": {
+      "bending_pickup": {
+        "decisions": {
+          "NO_ALERT_NORMAL_POSE": 19,
+          "RECHECK_VISUAL_UNCERTAIN": 1
+        },
+        "total": 20
+      },
+      "chair_seated_normal_work": {
+        "decisions": {
+          "NO_ALERT_NORMAL_POSE": 15
+        },
+        "total": 15
+      },
+      "chair_sitting": {
+        "decisions": {
+          "NO_ALERT_NORMAL_POSE": 20
+        },
+        "total": 20
+      },
+      "crawling_quadruped_support": {
+        "decisions": {
+          "ATTENTION_NEAR_GROUND": 2,
+          "NO_ALERT_NORMAL_POSE": 3
+        },
+        "total": 5
+      },
+      "crawling_without_explicit_maintenance": {
+        "decisions": {
+          "NO_ALERT_NORMAL_POSE": 10
+        },
+        "total": 10
+      },
+      "curled_or_sprawled_lying": {
+        "decisions": {
+          "ALERT_GROUND_LYING": 10
+        },
+        "total": 10
+      },
+      "floor_sitting": {
+        "decisions": {
+          "NO_ALERT_NORMAL_POSE": 54,
+          "RECHECK_VISUAL_UNCERTAIN": 1
+        },
+        "total": 55
+      },
+      "ground_maintenance": {
+        "decisions": {
+          "NO_ALERT_NORMAL_POSE": 5
+        },
+        "total": 5
+      },
+      "intentional_ground_lying": {
+        "decisions": {
+          "ALERT_GROUND_LYING": 5
+        },
+        "total": 5
+      },
+      "irregular_sprawled_lying": {
+        "decisions": {
+          "ALERT_GROUND_LYING": 10
+        },
+        "total": 10
+      },
+      "kneeling_half_kneeling": {
+        "decisions": {
+          "NO_ALERT_NORMAL_POSE": 55
+        },
+        "total": 55
+      },
+      "multi_person_one_lying": {
+        "decisions": {
+          "ALERT_GROUND_LYING": 5
+        },
+        "total": 5
+      },
+      "ordinary_work": {
+        "decisions": {
+          "NO_ALERT_NORMAL_POSE": 20
+        },
+        "total": 20
+      },
+      "partially_occluded_lying": {
+        "decisions": {
+          "ALERT_GROUND_LYING": 19,
+          "RECHECK_VISUAL_UNCERTAIN": 1
+        },
+        "total": 20
+      },
+      "person_unconfirmable": {
+        "decisions": {
+          "ALERT_GROUND_LYING": 5,
+          "NO_ALERT_NORMAL_POSE": 2,
+          "RECHECK_VISUAL_UNCERTAIN": 13
+        },
+        "total": 20
+      },
+      "prone_ground_lying": {
+        "decisions": {
+          "ALERT_GROUND_LYING": 25
+        },
+        "total": 25
+      },
+      "pushup_plank": {
+        "decisions": {
+          "ALERT_GROUND_LYING": 2,
+          "ATTENTION_NEAR_GROUND": 24
+        },
+        "total": 26
+      },
+      "side_lying": {
+        "decisions": {
+          "ALERT_GROUND_LYING": 25
+        },
+        "total": 25
+      },
+      "small_target_ground_lying": {
+        "decisions": {
+          "ALERT_GROUND_LYING": 17,
+          "RECHECK_VISUAL_UNCERTAIN": 3
+        },
+        "total": 20
+      },
+      "squat_crouch_deep_bend": {
+        "decisions": {
+          "NO_ALERT_NORMAL_POSE": 20
+        },
+        "total": 20
+      },
+      "standing": {
+        "decisions": {
+          "NO_ALERT_NORMAL_POSE": 10
+        },
+        "total": 10
+      },
+      "supine_ground_lying": {
+        "decisions": {
+          "ALERT_GROUND_LYING": 25
+        },
+        "total": 25
+      },
+      "walking": {
+        "decisions": {
+          "NO_ALERT_NORMAL_POSE": 10
+        },
+        "total": 10
+      }
+    },
+    "tn": 228,
+    "tp": 169
+  },
+  "model_prediction_used_as_gt": false,
+  "next_action": "STOP_AND_REVIEW_TAXONOMY_ERRORS_NO_PROMPT_CHANGE",
+  "plan_sha256": "239dfa86264f190573a86401e47be426a5ed80ee68925b04b228a4c9258dea5e",
+  "policy_sha256": "3a3e16f177c1806b74f4018bc269068e7715bba43eb20a5b3797b02c4ca9ccaf",
+  "prompt_sha256": "a81367203bfff7fe8aaae491bf04a8d9eb92057c701412bbd316b8d43f98fad7",
+  "revision_id": "PERSON_FALLEN_V4_POSE_ATTRIBUTES_20260908_01",
+  "screen_requests": 0,
+  "sequential_dev_optimization": true,
+  "status": "COMPLETE",
+  "val_requests": 0
+}

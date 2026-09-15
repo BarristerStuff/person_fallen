@@ -1,0 +1,21 @@
+{
+  "authorization_text_sha256": "1ba32346cf94f71a80af18559c218cb3a360b020a7f2a2ff42c3e76165c3861e",
+  "authorized": true,
+  "scope": {
+    "concurrency": 1,
+    "first_slot": "PF_P4D_HN_KNEEL_G009_V03",
+    "native_max_retries": 3,
+    "native_retry_event_cap": 5,
+    "no_c3": true,
+    "no_formal_ingest": true,
+    "no_holdout": true,
+    "no_production": true,
+    "no_val": true,
+    "outer_retry": false,
+    "outstanding_frozen_slots": 338,
+    "physical_lower_bound_cap": 80,
+    "preserve_verified_generation_lineage": 102,
+    "window_01_slots": 68
+  },
+  "stage": "P4D_GR3Q4E_WINDOW01"
+}

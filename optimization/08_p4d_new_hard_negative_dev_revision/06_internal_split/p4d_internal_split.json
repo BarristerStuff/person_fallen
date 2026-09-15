@@ -1,0 +1,19 @@
+{
+  "accepted_image_count": 0,
+  "cross_split_group_count": 0,
+  "group_split_freeze": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/01_prompt_plan/group_split_freeze.json",
+  "new_design_manifest": null,
+  "new_screen_manifest": null,
+  "planned_group_counts": {
+    "NEW_DESIGN": 53,
+    "NEW_SCREEN": 35
+  },
+  "planned_split_counts": {
+    "NEW_DESIGN": 265,
+    "NEW_SCREEN": 175
+  },
+  "post_image_manifest_materialized": false,
+  "pre_generation_group_split_frozen": true,
+  "reason": "No generated/accepted images exist; do not materialize a post-image split or call it a formal split freeze.",
+  "status": "PLANNED_FREEZE_ONLY_NO_ACCEPTED_IMAGES"
+}

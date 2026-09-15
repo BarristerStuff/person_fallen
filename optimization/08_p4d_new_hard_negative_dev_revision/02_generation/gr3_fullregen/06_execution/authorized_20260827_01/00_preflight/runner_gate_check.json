@@ -1,0 +1,45 @@
+{
+  "all_pass": true,
+  "authorization_attestation_sha256": "c5605ea785f04ba93b7017e9ccb0d586826a6c1094d0545538f2b5da67a5f7e9",
+  "checks": {
+    "authorization_attestation": true,
+    "manifest_sha": true,
+    "preflight_identity": true,
+    "preflight_provider_ready": true,
+    "preflight_runtime": true,
+    "preparation_authorized_false_unchanged": true,
+    "preparation_freeze": true,
+    "previous_no_auth_freeze": true,
+    "wrapper_sha": true
+  },
+  "preflight_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/authorized_20260827_01/00_preflight/authorized_runtime_preflight.json",
+  "preflight_summary": {
+    "auth_ready": true,
+    "binary_sha256_actual": "1ac830fed5349f1c1a1c2fd1a4280b487a2d75962d22d9fbd4e4b2451ab208ba",
+    "endpoint_reachable": true,
+    "generation_backend": "image_generation",
+    "native_retry_policy_preparation": {
+      "base_delay_seconds": 1,
+      "max_retries": 3
+    },
+    "no_retry_guarantee": false,
+    "profile_continuity_match": true,
+    "provider": "codex",
+    "request_model": "gpt-5.4",
+    "runtime_version": {
+      "binary_probe": {
+        "returncode": 2,
+        "stderr": "",
+        "stdout": "{\n  \"error\": {\n    \"code\": \"invalid_command\",\n    \"message\": \"gpt-image-2-skill 0.7.3\\n\"\n  },\n  \"ok\": false\n}\n"
+      },
+      "doctor_version": "0.7.3"
+    },
+    "safe_profile_fingerprint_current": "ab7f2704e5b70b62ccfd48b241b649716e6ddd6cb9a1bfe14d992df646dcaffe",
+    "safe_profile_fingerprint_preparation": "ab7f2704e5b70b62ccfd48b241b649716e6ddd6cb9a1bfe14d992df646dcaffe",
+    "session_ready": true,
+    "wrapper_sha256_actual": "f01c85e448a078c508d015e2c0ac5208b12a9f126ce83e47da11fce542b440fe"
+  },
+  "preparation_freeze_sha256": "a637a289b1a657a33fe777b97f5f769815b307c5404a47d48f9f2644123c415f",
+  "previous_terminal_freeze_sha256": "8ff93df4e33d670ab626fc0584d0cf27f0e5bbddd0d216dbdd821adbfd11ade1",
+  "verified_at": "2026-08-27T10:50:56.452+00:00"
+}

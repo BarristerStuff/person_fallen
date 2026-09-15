@@ -1,0 +1,63 @@
+{
+  "design_baseline_false_positive_count": 7,
+  "design_hard_negative_count": 70,
+  "design_ordinary_negative_false_positive_count": 0,
+  "design_role_counts": {
+    "hard_negative": 70,
+    "negative": 40,
+    "positive": 70,
+    "uncertain": 10
+  },
+  "design_rows": 190,
+  "forensic_source": "P2_DESIGN_ONLY",
+  "gt_integrity_concern": false,
+  "screen_individual_prediction_rows_used": 0,
+  "taxonomy": [
+    {
+      "baseline_FP_count": 0,
+      "baseline_TN_count": 20,
+      "category_FPR": 0.0,
+      "group_count": 2,
+      "model_evidence_pattern": "no baseline DESIGN false positive",
+      "taxonomy": "deep_bending_or_picking",
+      "total_hard_negative_count": 20
+    },
+    {
+      "baseline_FP_count": 2,
+      "baseline_TN_count": 8,
+      "category_FPR": 0.2,
+      "group_count": 1,
+      "model_evidence_pattern": "misread a horizontal torso actively elevated by hands and feet as prone lying",
+      "taxonomy": "exercise_pushup_or_plank",
+      "total_hard_negative_count": 10
+    },
+    {
+      "baseline_FP_count": 2,
+      "baseline_TN_count": 18,
+      "category_FPR": 0.1,
+      "group_count": 2,
+      "model_evidence_pattern": "misread knee/shin support and forward-bent torso as prone ground support",
+      "taxonomy": "kneeling_or_half_kneeling",
+      "total_hard_negative_count": 20
+    },
+    {
+      "baseline_FP_count": 2,
+      "baseline_TN_count": 8,
+      "category_FPR": 0.2,
+      "group_count": 1,
+      "model_evidence_pattern": "misread seated buttocks/legs and wall-supported upright torso as ground-supported lying",
+      "taxonomy": "sitting_on_floor",
+      "total_hard_negative_count": 10
+    },
+    {
+      "baseline_FP_count": 1,
+      "baseline_TN_count": 9,
+      "category_FPR": 0.1,
+      "group_count": 1,
+      "model_evidence_pattern": "misread a compact low crouch as curled lying",
+      "taxonomy": "squatting_or_crouching",
+      "total_hard_negative_count": 10
+    }
+  ],
+  "val_error_cases_used_for_prompt_design": false
+}

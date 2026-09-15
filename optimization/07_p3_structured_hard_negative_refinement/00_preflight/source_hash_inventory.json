@@ -1,0 +1,82 @@
+{
+  "checked_at_utc": "2026-08-27T03:19:10.816344+00:00",
+  "errors": [],
+  "expected": {
+    "c3_prompt_sha256": "685bb9724b1faa96298c1e6cf8139774d82afbc9d2f30cdd154fbe5cb776951e",
+    "model_digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+    "p2_winner_freeze_sha256": "ffbf7cf4cb914b54226ef974f0a51674fcd42b3ad98be98cc210474f434131c0"
+  },
+  "files": {
+    "c3_prompt": {
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/05_p2_hard_negative_semantic_optimization/03_candidates/C3/C3_prompt.txt",
+      "sha256": "685bb9724b1faa96298c1e6cf8139774d82afbc9d2f30cdd154fbe5cb776951e"
+    },
+    "frozen_splits": {
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/01_data/frozen_splits.csv",
+      "sha256": "16b95d59c25313a6a8e35e4d0056b5626a04d44edc0e017549e628b92f15f33a"
+    },
+    "p2_design_manifest": {
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/05_p2_hard_negative_semantic_optimization/01_internal_split/p2_design_manifest.csv",
+      "sha256": "f221e760bd1e6a86c648a60750db7d6f06119c7b872da894cf121e17ed6a79d1"
+    },
+    "p2_internal_split": {
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/05_p2_hard_negative_semantic_optimization/01_internal_split/p2_internal_split.json",
+      "sha256": "a9edfb22fc0170ce774dfe5e6229bf776c8c272868b55c303e74ae629b153892"
+    },
+    "p2_internal_split_verification": {
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/05_p2_hard_negative_semantic_optimization/01_internal_split/p2_internal_split_verification.json",
+      "sha256": "6b748be20c1ed4b793e36bbb42988092a5f519c3bcfa12c0f465a24e1ceef263"
+    },
+    "p2_request_config": {
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/05_p2_hard_negative_semantic_optimization/03_candidates/p2_request_config.json",
+      "sha256": "8f3e64f30beeadb0a31e2ac909fd0c57562a1a06291d0a93360ce788a4b1f10d"
+    },
+    "p2_screen_manifest": {
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/05_p2_hard_negative_semantic_optimization/01_internal_split/p2_screen_manifest.csv",
+      "sha256": "ccb8c9df51371dbfd2a8e34201ccd42b0a825eea4444ba45a3aaa6945094aab5"
+    },
+    "p2_screen_predictions": {
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/05_p2_hard_negative_semantic_optimization/04_screening/C3/predictions.csv",
+      "sha256": "5d21d873dc327c8e59d25c59fad79522f65d6d0e19a817c5d893f662aaa1a848"
+    },
+    "p2_screen_summary": {
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/05_p2_hard_negative_semantic_optimization/04_screening/C3/summary.json",
+      "sha256": "4c6c0233a92e9a918d176d866286849a1fd59865d2dff85d7ae0e2a77bce78be"
+    },
+    "p2_winner_freeze": {
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/05_p2_hard_negative_semantic_optimization/05_winner_freeze/p2_winner_freeze.json",
+      "sha256": "ffbf7cf4cb914b54226ef974f0a51674fcd42b3ad98be98cc210474f434131c0"
+    },
+    "p2l_final_audit": {
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/06_p2l_remote_latency_forensics/07_analysis/final_audit.json",
+      "sha256": "426f709756ecde81b4773d734bdfd076c2e01108de1caa12bed2471e39e3df48"
+    }
+  },
+  "preflight_source_gate": true,
+  "split_audit": {
+    "design_holdout_rows": 0,
+    "design_original_splits": [
+      "DEV"
+    ],
+    "design_roles": [
+      "P2_DESIGN"
+    ],
+    "design_rows": 190,
+    "design_screen_group_overlap": [],
+    "design_screen_media_overlap": [],
+    "design_unique_groups": 19,
+    "design_unique_media": 190,
+    "design_val_rows": 0,
+    "screen_holdout_rows": 0,
+    "screen_original_splits": [
+      "DEV"
+    ],
+    "screen_roles": [
+      "P2_SCREEN"
+    ],
+    "screen_rows": 120,
+    "screen_unique_groups": 12,
+    "screen_unique_media": 120,
+    "screen_val_rows": 0
+  }
+}

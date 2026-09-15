@@ -1,0 +1,70 @@
+{
+  "cases": {
+    "A_window01_content_refusal": {
+      "actual": {
+        "evidence": {
+          "error_code": "missing_image_result",
+          "explicit_refusal_decision": true,
+          "image_count_zero": true,
+          "image_generation_call_failed": true,
+          "metadata_fields_ignored": [
+            "safety_identifier",
+            "safety_id",
+            "metadata.safety_identifier"
+          ],
+          "response_completed": true
+        },
+        "reason": "STRUCTURED_EXPLICIT_REFUSAL",
+        "state": "CONTENT_POLICY_REFUSAL_CONFIRMED"
+      },
+      "expected_reason": "STRUCTURED_EXPLICIT_REFUSAL",
+      "expected_state": "CONTENT_POLICY_REFUSAL_CONFIRMED",
+      "pass": true
+    },
+    "B_q5_quota": {
+      "actual": {
+        "evidence": {
+          "error_code": "http_error",
+          "explicit_refusal_decision": false,
+          "image_count_zero": false,
+          "image_generation_call_failed": false,
+          "metadata_fields_ignored": [
+            "safety_identifier",
+            "safety_id",
+            "metadata.safety_identifier"
+          ],
+          "response_completed": false
+        },
+        "reason": "HTTP429_USAGE_LIMIT_REACHED",
+        "state": "FAILED_CONFIRMED"
+      },
+      "expected_reason": "HTTP429_USAGE_LIMIT_REACHED",
+      "expected_state": "FAILED_CONFIRMED",
+      "pass": true
+    },
+    "C_q6_network_unknown": {
+      "actual": {
+        "evidence": {
+          "error_code": "network_error",
+          "explicit_refusal_decision": false,
+          "image_count_zero": false,
+          "image_generation_call_failed": false,
+          "metadata_fields_ignored": [
+            "safety_identifier",
+            "safety_id",
+            "metadata.safety_identifier"
+          ],
+          "response_completed": false
+        },
+        "reason": "NETWORK_ERROR_COMPLETION_AMBIGUITY",
+        "state": "COMPLETION_UNKNOWN"
+      },
+      "expected_reason": "NETWORK_ERROR_COMPLETION_AMBIGUITY",
+      "expected_state": "COMPLETION_UNKNOWN",
+      "pass": true
+    }
+  },
+  "classifier_sha256": "fbd773b5d5d131f06abd334e041377fc5e0c7b9c0e5e6179164979c2abb624c0",
+  "pass_count": 3,
+  "total": 3
+}

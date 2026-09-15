@@ -1,0 +1,8 @@
+{
+  "all_bound_artifacts_match": true,
+  "bound_artifact_count": 10,
+  "freeze_sha256": "4719e6fa842ada2346596bb3316661926082e5a741c7217740d6143c3a13010b",
+  "original_terminal_freeze_sha256": "95df937db097e23f2e3939fbd132f3e9a24a20bff3d0d91eb174285a082d8d52",
+  "original_terminal_freeze_still_valid": true,
+  "sidecar_match": true
+}

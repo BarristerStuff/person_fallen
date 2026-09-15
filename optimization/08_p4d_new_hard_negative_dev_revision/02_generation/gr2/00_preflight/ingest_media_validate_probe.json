@@ -1,0 +1,13 @@
+{
+  "command": [
+    "python3",
+    "/home/yanbo/net_vlm_xunjian_dataset/tools/ingest_media.py",
+    "validate",
+    "--json-output"
+  ],
+  "interface_available": false,
+  "interpretation": "The current CLI exposes add/add-label only; tools/validate_dataset.py --json is the read-only fallback.",
+  "returncode": 2,
+  "stderr_present": true,
+  "stdout_present": false
+}

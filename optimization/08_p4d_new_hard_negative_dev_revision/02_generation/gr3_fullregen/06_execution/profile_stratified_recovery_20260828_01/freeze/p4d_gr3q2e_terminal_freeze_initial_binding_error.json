@@ -1,0 +1,89 @@
+{
+  "artifact_sha256": {
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/profile_stratified_recovery_20260828_01/00_preflight/dataset_boundary_after_execution.json": "5a39745d0a80759af1eb133c901fd63764610288727fbccb5e08f31c208f96f5",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/profile_stratified_recovery_20260828_01/00_preflight/dataset_boundary_before_execution.json": "520d494734408841dbe35f622e6e5c8adc73c944810974e201ea6e7537a232f9",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/profile_stratified_recovery_20260828_01/01_authorization/recovery_authorization_attestation.json": "7633373e4f601e9b93bd9378cbe5290b4c3836a84284e6c94fe42db1df2b75b6",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/profile_stratified_recovery_20260828_01/02_runner/run_config.json": "5a08f9a935f43614ef66b654c008e5c9b52f32a1728366f9cd9dcb6de25d086a",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/profile_stratified_recovery_20260828_01/03_ledger/execution_ledger.csv": "40a170cc48526e04bc344b55f4060c8bc0ab8c729c7c9f8ee126ede1da8c2fd0",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/profile_stratified_recovery_20260828_01/03_ledger/initial_profile_stratified_slot_plan.csv": "07f4f4c35c93c072dd5dfd5b0db576b8a7451726c4b878929f380da641e0fa14",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/profile_stratified_recovery_20260828_01/03_ledger/p4d_gr3q2e_execution.sqlite3": "565914925fa556b53096c7267188eeb9ae0cc1b8667f54716c5def08980c2612",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/profile_stratified_recovery_20260828_01/06_full_qa/batch_output_inventory.json": "f5faf31c986e38fccca0422e7474dc8843510aeea32a859a2075f97169c73393",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/profile_stratified_recovery_20260828_01/06_full_qa/raw_response_manifest.json": "12b0abfa30b0e8cec0a9f25d5fc456625b73592587f2ad0dcaeb390680506e06",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/profile_stratified_recovery_20260828_01/freeze/p4d_gr3q2e_execution_preflight_freeze.json": "5ed7db5f0b0a623e380b1daf3201518c920cdcd1aca0d2d796d5dcccabcf0f67",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/profile_stratified_recovery_20260828_01/raw_responses.jsonl": "fc16d104248a157e3c3ab67f98fbebd37a54639be0dc602b1d37320eef08236d",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/profile_stratified_recovery_20260828_01/request_log.jsonl": "f2083b8379d01893efe932d599c8f58f20cb8a071101fbc5fe646d0275e00637",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/tools/p4d_gr3q2e_profile_stratified_recovery.py": "707033a48a8189e774682a8ef734797b41f925a19d03b5408da43ec7fd47be3c"
+  },
+  "batch_output_sha256": "c7f60a5f39c117b5cf96bd1e579345d97da1cee1b54668351ea4cbefe215cf36",
+  "captured_at": "2026-08-28T06:34:49.994+00:00",
+  "preflight_freeze_sha256": "5ed7db5f0b0a623e380b1daf3201518c920cdcd1aca0d2d796d5dcccabcf0f67",
+  "raw_response_file_count": 4,
+  "revision_id": "P4D_GR3Q2E_PROFILE_STRATIFIED_RECOVERY_20260828_01",
+  "stage": "P4D_GR3Q2E_PROFILE_STRATIFIED_RECOVERY",
+  "status": "STOPPED_BY_FAILURE_POLICY",
+  "terminal": {
+    "batch_image_counts": {
+      "final": 102,
+      "raw": 102
+    },
+    "c3": false,
+    "captured_at": "2026-08-28T06:34:49.991+00:00",
+    "completion_unknown": 0,
+    "counts": {
+      "COMPLETION_UNKNOWN": 0,
+      "FAILED_CONFIRMED_PROFILE_B": 1,
+      "NOT_STARTED_PROFILE_B": 337,
+      "PRESERVED_PROFILE_A": 99,
+      "PROFILE_A_PRESERVED": 99,
+      "PROFILE_B_FAILED": 1,
+      "PROFILE_B_NOT_STARTED": 337,
+      "PROFILE_B_STARTED": 0,
+      "PROFILE_B_SUCCESS": 3,
+      "PROVIDER_REQUESTS": 4,
+      "SUCCESS_PROFILE_B": 3,
+      "TOTAL": 440
+    },
+    "dataset_after": {
+      "annotation_sha256": {
+        "batches.csv": "50f3fc10dcb2a4cad030113342448e2d164000a84c86e95db30090636cee3a14",
+        "labels.csv": "6d40babf13010d1a66aea7c3b6a249b762ddd23a8cd0293cd9e7302428071d13",
+        "media.csv": "2b9f3c0597fa41e16a03298c4ec480a1db2b01f4e05784380ae60d937b94b601",
+        "splits.csv": "640d43cc3fa4643cf6163485c29065e750c58f8380529d6727bf54772b2a0137"
+      },
+      "counts": {
+        "batch_count": 45,
+        "label_count": 4881,
+        "media_count": 5081,
+        "split_count": 2618
+      },
+      "p4d_reference_hits_total": 0,
+      "validator_errors": 0,
+      "validator_status": "valid"
+    },
+    "formal_ingest": false,
+    "holdout_consumed": false,
+    "holdout_requests": 0,
+    "new_val": 0,
+    "parent_metadata_unchanged": true,
+    "profile_a_preserved": 99,
+    "profile_b_failed": 1,
+    "profile_b_success": 3,
+    "profile_b_unstarted": 337,
+    "provider_requests": 4,
+    "revision_id": "P4D_GR3Q2E_PROFILE_STRATIFIED_RECOVERY_20260828_01",
+    "stage": "P4D_GR3Q2E_PROFILE_STRATIFIED_RECOVERY",
+    "stop_marker": {
+      "captured_at": "2026-08-28T06:34:29.964+00:00",
+      "error_code": "http_error",
+      "http_status": "429",
+      "native_retry_count": 3,
+      "prompt_id": "PF_P4D_HN_KNEEL_G009_V03",
+      "provider_request_id": "unknown",
+      "provider_requests": 4,
+      "reason": "HTTP_429",
+      "recovery_order": 4,
+      "status": "GLOBAL_STOP"
+    },
+    "terminal_status": "STOPPED_BY_FAILURE_POLICY"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "command": [
+    "<node>",
+    "<gpt-image-2-skill>",
+    "--json",
+    "--json-events",
+    "--provider",
+    "codex",
+    "images",
+    "generate",
+    "--model",
+    "gpt-5.4",
+    "--prompt_sha256",
+    "5e7ff475e1377454c54fc31ba63e2072cceb4c3520863b1a0cb3f497cc05f221",
+    "--out",
+    "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/generated_raw/PF_P4D_HN_CRAWL_G008_V01.png",
+    "--format",
+    "png",
+    "--size",
+    "1536x1024",
+    "--quality",
+    "medium"
+  ],
+  "elapsed_seconds": 11.5173469270012,
+  "finished_at": "2026-08-27T07:42:47.846+00:00",
+  "payload": {
+    "error": {
+      "code": "http_error",
+      "detail": "{\"error\":{\"type\":\"usage_limit_reached\",\"message\":\"The usage limit has been reached\",\"plan_type\":\"plus\",\"resets_at\":1787829318,\"eligible_promo\":null,\"resets_in_seconds\":12752}}",
+      "message": "HTTP 429"
+    },
+    "ok": false
+  },
+  "phase": "BULK",
+  "prompt_id": "PF_P4D_HN_CRAWL_G008_V01",
+  "returncode": 1,
+  "sequence": 208,
+  "started_at": "2026-08-27T07:42:36.329+00:00"
+}

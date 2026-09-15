@@ -1,0 +1,44 @@
+{
+  "/home/yanbo/net_vlm_person_fallen_v2_optimization/07_p3_structured_hard_negative_refinement/03_candidates/C3_BASELINE/C3_prompt.txt": {
+    "actual_sha256": "685bb9724b1faa96298c1e6cf8139774d82afbc9d2f30cdd154fbe5cb776951e",
+    "bytes": 1973,
+    "expected_sha256": "685bb9724b1faa96298c1e6cf8139774d82afbc9d2f30cdd154fbe5cb776951e",
+    "match": true
+  },
+  "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/01_prompt_plan/group_manifest.csv": {
+    "actual_sha256": "11ab903056e0acbdb9ca5a507f33f3237f3b90f059f445f8df76c1dde174fbab",
+    "bytes": 16961,
+    "expected_sha256": "11ab903056e0acbdb9ca5a507f33f3237f3b90f059f445f8df76c1dde174fbab",
+    "match": true
+  },
+  "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/01_prompt_plan/group_split_freeze.json": {
+    "actual_sha256": "b9d1df02541454b38ab296bd0033b0d327cca0ba720b95c7414ea6ec1bc05843",
+    "bytes": 4136,
+    "expected_sha256": "b9d1df02541454b38ab296bd0033b0d327cca0ba720b95c7414ea6ec1bc05843",
+    "match": true
+  },
+  "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/01_prompt_plan/prompt_manifest.csv": {
+    "actual_sha256": "e75c48626f2eabade9cdbc48bb77072c5d470ddce60ec9a903f580d4990aeceb",
+    "bytes": 206660,
+    "expected_sha256": "e75c48626f2eabade9cdbc48bb77072c5d470ddce60ec9a903f580d4990aeceb",
+    "match": true
+  },
+  "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/01_prompt_plan/prompt_pack.md": {
+    "actual_sha256": "8b791d2007b0866f83275082a7394a0d33a5d7bd0aef4ab9f19993fba857a250",
+    "bytes": 589639,
+    "expected_sha256": "8b791d2007b0866f83275082a7394a0d33a5d7bd0aef4ab9f19993fba857a250",
+    "match": true
+  },
+  "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/01_prompt_plan/prompt_pack_freeze.json": {
+    "actual_sha256": "385b7b9f0b6b675c3820e97fe1931bd0e19b9b5839f50a3fcae70fd1feec136b",
+    "bytes": 1139,
+    "expected_sha256": "385b7b9f0b6b675c3820e97fe1931bd0e19b9b5839f50a3fcae70fd1feec136b",
+    "match": true
+  },
+  "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/03_fullregen_plan/full_regen_prompt_manifest.csv": {
+    "actual_sha256": "5f7afbc010a0028497ec0210e75dc28cc79212fbc114cbf4741ee0bc4ce361c4",
+    "bytes": 175198,
+    "expected_sha256": "5f7afbc010a0028497ec0210e75dc28cc79212fbc114cbf4741ee0bc4ce361c4",
+    "match": true
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "captured_at": "2026-08-27T08:36:39.144+00:00",
+  "frozen_hash_check": {
+    "actual": {
+      "C3_prompt.txt": "685bb9724b1faa96298c1e6cf8139774d82afbc9d2f30cdd154fbe5cb776951e",
+      "group_manifest.csv": "11ab903056e0acbdb9ca5a507f33f3237f3b90f059f445f8df76c1dde174fbab",
+      "group_split_freeze.json": "b9d1df02541454b38ab296bd0033b0d327cca0ba720b95c7414ea6ec1bc05843",
+      "prompt_manifest.csv": "e75c48626f2eabade9cdbc48bb77072c5d470ddce60ec9a903f580d4990aeceb",
+      "prompt_pack.md": "8b791d2007b0866f83275082a7394a0d33a5d7bd0aef4ab9f19993fba857a250",
+      "prompt_pack_freeze.json": "385b7b9f0b6b675c3820e97fe1931bd0e19b9b5839f50a3fcae70fd1feec136b"
+    },
+    "all_match": true,
+    "checks": {
+      "C3_prompt.txt": true,
+      "group_manifest.csv": true,
+      "group_split_freeze.json": true,
+      "prompt_manifest.csv": true,
+      "prompt_pack.md": true,
+      "prompt_pack_freeze.json": true
+    },
+    "expected": {
+      "C3_prompt.txt": "685bb9724b1faa96298c1e6cf8139774d82afbc9d2f30cdd154fbe5cb776951e",
+      "group_manifest.csv": "11ab903056e0acbdb9ca5a507f33f3237f3b90f059f445f8df76c1dde174fbab",
+      "group_split_freeze.json": "b9d1df02541454b38ab296bd0033b0d327cca0ba720b95c7414ea6ec1bc05843",
+      "prompt_manifest.csv": "e75c48626f2eabade9cdbc48bb77072c5d470ddce60ec9a903f580d4990aeceb",
+      "prompt_pack.md": "8b791d2007b0866f83275082a7394a0d33a5d7bd0aef4ab9f19993fba857a250",
+      "prompt_pack_freeze.json": "385b7b9f0b6b675c3820e97fe1931bd0e19b9b5839f50a3fcae70fd1feec136b"
+    }
+  },
+  "gr1_blocked_freeze_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/freeze/p4d_gr1_blocked_freeze.json",
+  "gr1_blocked_freeze_sha256_actual": "7bb9bf547ab07ad9f0f64193aae2ee69d15f17d0eb8cfd05722ae3d79afe2fd9",
+  "gr1_blocked_freeze_sha256_expected": "7bb9bf547ab07ad9f0f64193aae2ee69d15f17d0eb8cfd05722ae3d79afe2fd9",
+  "gr1_blocked_freeze_sidecar_value": "7bb9bf547ab07ad9f0f64193aae2ee69d15f17d0eb8cfd05722ae3d79afe2fd9",
+  "gr1_blocked_freeze_verified": true,
+  "gr1_ledger_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr1/generation_attempts.csv",
+  "gr1_ledger_sha256_actual": "20e00361c532f8386d3f160363cc76d12f104618b6c9fd270d2ec5c78a1a2fd4",
+  "gr1_ledger_sha256_expected": "20e00361c532f8386d3f160363cc76d12f104618b6c9fd270d2ec5c78a1a2fd4",
+  "gr1_ledger_sha_match": true,
+  "gr1_read_only": true,
+  "inventory_summary": {
+    "final_unique_count": 192,
+    "first_outstanding_prompt_id": "PF_P4D_HN_CRAWL_G005_V01",
+    "frozen_prompt_count": 440,
+    "frozen_prompt_unique_count": 440,
+    "gr1_ledger_rows": 226,
+    "gr1_ledger_sha256": "20e00361c532f8386d3f160363cc76d12f104618b6c9fd270d2ec5c78a1a2fd4",
+    "gr1_ledger_sha_expected": "20e00361c532f8386d3f160363cc76d12f104618b6c9fd270d2ec5c78a1a2fd4",
+    "gr1_success_rows": 192,
+    "gr1_unique_attempted_prompt_ids": 226,
+    "gr1_unique_success_ids": 192,
+    "intersection_count": 0,
+    "missing_prompt_ids": [],
+    "outstanding_by_gr1_state": {
+      "FAILED_401": 2,
+      "FAILED_429": 32,
+      "NEVER_STARTED": 214
+    },
+    "outstanding_count": 248,
+    "preserved_verification_issue_count": 0,
+    "preserved_verification_issues": [],
+    "raw_unique_count": 192,
+    "unexpected_preserved_prompt_ids": [],
+    "union_count": 440,
+    "verified_preserved_success_count": 192
+  },
+  "outstanding_inventory_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr2/00_preflight/outstanding_slots.csv",
+  "preserved_inventory_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr2/00_preflight/preserved_success_inventory.csv"
+}

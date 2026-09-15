@@ -1,0 +1,32 @@
+{
+  "authorization_attestation_sha256": "c5605ea785f04ba93b7017e9ccb0d586826a6c1094d0545538f2b5da67a5f7e9",
+  "batch_id": "batch-person-fallen-v2-p4d-hardneg-fullregen-r2-camera1p5m",
+  "batch_path": "/home/yanbo/下载/batches/batch-person-fallen-v2-p4d-hardneg-fullregen-r2-camera1p5m",
+  "binary_sha256": "1ac830fed5349f1c1a1c2fd1a4280b487a2d75962d22d9fbd4e4b2451ab208ba",
+  "c3": false,
+  "concurrency": 1,
+  "continuation_revision": "authorized_20260827_01",
+  "created_at": "2026-08-27T10:35:54.035+00:00",
+  "final_size": [
+    1920,
+    1080
+  ],
+  "formal_ingest": false,
+  "generation_backend": "image_generation",
+  "holdout_requests": 0,
+  "manifest_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/03_fullregen_plan/full_regen_prompt_manifest.csv",
+  "manifest_sha256": "5f7afbc010a0028497ec0210e75dc28cc79212fbc114cbf4741ee0bc4ce361c4",
+  "model": "gpt-5.4",
+  "native_size_requested": "1536x1024",
+  "new_val": 0,
+  "outer_retry": false,
+  "preparation_freeze_sha256": "a637a289b1a657a33fe777b97f5f769815b307c5404a47d48f9f2644123c415f",
+  "previous_no_auth_terminal_freeze_sha256": "8ff93df4e33d670ab626fc0584d0cf27f0e5bbddd0d216dbdd821adbfd11ade1",
+  "provider": "codex",
+  "provider_preflight_sha256": "774b53b6bf1963e5ba0421fb4500080e976407768a67c84fff9b9261c9a3b5c5",
+  "quality": "medium",
+  "recovery_pass": false,
+  "revision_id": "P4D_FULLREGEN_CODEX_PROFILE2_20260827_01",
+  "stage": "P4D_GR3E_FULL_REGEN_EXECUTION",
+  "wrapper_sha256": "f01c85e448a078c508d015e2c0ac5208b12a9f126ce83e47da11fce542b440fe"
+}

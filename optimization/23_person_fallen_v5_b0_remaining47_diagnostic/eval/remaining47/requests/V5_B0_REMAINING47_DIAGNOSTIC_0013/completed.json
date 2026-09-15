@@ -1,0 +1,65 @@
+{
+  "state": "completed",
+  "phase": "remaining47_diagnostic",
+  "request_id": "V5_B0_REMAINING47_DIAGNOSTIC_0013",
+  "item_id": "V2_ORIGINAL::IMG_003808",
+  "payload_sha256": "41666e1f845a04532b37af8d74b20dd243d71123c4bb571e5072991157f195bb",
+  "full_view_sha256": "afb08e86a744918f532d8b35e6e315c77c8ed6c57aa9c4970ba4d38edc5710dd",
+  "crop_view_sha256": "000ba6d5afec1a5e02f78a54c31ec385e646428933d9317ac422fa3724d6d79d",
+  "prompt_sha256": "757fb445efa3f05327947a4c32115e3735823c81d14177199bbf8a6381d3300a",
+  "schema_sha256": "1ccf5a08cd1d6287b33f5d04b0f06101ae75666919c1a9f160ac0c5c335d7817",
+  "policy_sha256": "b2126bf86378fa6d0bcbc67861fa794b320affb1de90dc445f5838223cae68b9",
+  "claimed_timestamp": "2026-09-14T08:12:28.967581+00:00",
+  "http_status": 200,
+  "completion_unknown": false,
+  "transport_error": null,
+  "latency_seconds": 18.523676771001192,
+  "raw_response_sha256": "0f5acf7fdfc3142b88b31b801b278cd1110fb5102c052fab8d90a2f2b791534e",
+  "received_timestamp": "2026-09-14T08:12:47.493630+00:00",
+  "strict_json_ok": true,
+  "source_binding_ok": true,
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 184,
+  "parsed": {
+    "scene_coverage": "complete",
+    "people": [
+      {
+        "person_id": 1,
+        "bbox_1000": [
+          380,
+          460,
+          680,
+          800
+        ],
+        "person_visible": "yes",
+        "pose": "kneeling",
+        "torso_orientation": "inclined",
+        "torso_ground_contact": "partial",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "explicit_work_evidence": "no",
+        "visual_quality": "clear",
+        "evidence": "A person in a white lab coat is kneeling on the floor with hands placed on the wall."
+      }
+    ]
+  },
+  "person_decisions": [
+    {
+      "person_id": 1,
+      "decision": "NO_ALERT_NORMAL_POSE",
+      "reason": "CONSISTENT_NORMAL_GROUND_POSE:kneeling"
+    }
+  ],
+  "image_decision": "NO_ALERT_NORMAL_POSE",
+  "image_reason": "ALL_ENUMERATED_PEOPLE_CLEAR_NORMAL",
+  "taxonomy": "crawling_without_explicit_maintenance",
+  "group_id": "pf_v2_aigc_h11-crawling-under-equipment-inspection",
+  "source_split": "DEV",
+  "v3_split": "V3_DEV",
+  "ground_truth": "positive",
+  "expected_v4_outcome": "ATTENTION_NEAR_GROUND",
+  "evaluation_stratum": "auxiliary_attention",
+  "result_source": "NEW_DIAGNOSTIC_INFERENCE",
+  "completed_timestamp": "2026-09-14T08:12:47.494379+00:00"
+}

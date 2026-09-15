@@ -1,0 +1,21 @@
+{
+  "adapter_version": "CODEX_SAFE_STAGED_CV_V1",
+  "concurrency": 1,
+  "final_size": [
+    1920,
+    1080
+  ],
+  "format": "png",
+  "generation_backend": "image_generation",
+  "native_max_retries": 3,
+  "native_size": "1536x1024",
+  "outer_retry": false,
+  "parser_sha256": "a1b936678f7e4b237e3c938c762dfcf8a0723fd318c8dcc9af2b8db83628961d",
+  "provider": "codex",
+  "provider_render_prompt_changed": true,
+  "q6_plan_sha256": "11821c0b090706467cac98e84cddcecd76f9d2ac7d7a2b3ae0368e86c3a1f2f8",
+  "quality": "medium",
+  "request_model": "gpt-5.4",
+  "runner_sha256": "da52a3d4475b9e78d419348cc6eceb4f3c00b12ab4e59fbfd13c754f0bff5b8c",
+  "semantic_frozen_prompt_changed": false
+}

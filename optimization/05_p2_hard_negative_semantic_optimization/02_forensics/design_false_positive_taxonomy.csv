@@ -1,0 +1,8 @@
+media_id,taxonomy,group_id,scenario_id,baseline_evidence,possible_GT_boundary_review_needed
+IMG_003719,sitting_on_floor,pf_v2_aigc_h02-sitting-on-floor,pf_v2_aigc_h02-sitting-on-floor,"A person is clearly lying on their back on the floor in a collapsed/lying state, supported by the ground surface.",false
+IMG_003721,sitting_on_floor,pf_v2_aigc_h02-sitting-on-floor,pf_v2_aigc_h02-sitting-on-floor,person is lying on the floor in a side-lying/collapsed posture with substantial body weight supported by the ground.,false
+IMG_003729,kneeling_or_half_kneeling,pf_v2_aigc_h03-kneeling,pf_v2_aigc_h03-kneeling,person is lying face-down on the floor with a substantial part of the body supported by the ground surface.,false
+IMG_003739,kneeling_or_half_kneeling,pf_v2_aigc_h04-kneeling,pf_v2_aigc_h04-kneeling,"A person is clearly lying horizontally on the floor in a collapsed or prone position, supported by the ground surface.",false
+IMG_003750,squatting_or_crouching,pf_v2_aigc_h05-squatting,pf_v2_aigc_h05-squatting,"person is curled up on the floor with substantial body supported by the ground, consistent with a lying/collapsed state.",false
+IMG_003782,exercise_pushup_or_plank,pf_v2_aigc_h09-exercise-push-up-plank,pf_v2_aigc_h09-exercise-push-up-plank,person is lying face-down on the industrial floor in a prone position with body supported by the ground,false
+IMG_003786,exercise_pushup_or_plank,pf_v2_aigc_h09-exercise-push-up-plank,pf_v2_aigc_h09-exercise-push-up-plank,"A person is lying face-down on the floor in a prone position, supported by the floor surface.",false

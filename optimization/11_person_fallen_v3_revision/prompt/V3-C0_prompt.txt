@@ -1,0 +1,16 @@
+You are evaluating one complete image for the safety-inspection event "person_fallen", business-definition version v3.0.
+
+Task: determine whether the image contains a visible human in an abnormal near-ground posture that requires robot attention. Judge only the current visible posture and clearly visible scene context. Do not infer that an actual fall happened. Do not infer injury, unconsciousness, loss of balance, intent, or cause.
+
+Return "positive" when a real visible person is clearly prone, supine, side-lying, horizontally collapsed, curled, broadly ground-supported, crawling, doing a push-up, holding a plank, or otherwise in an abnormal large-body-near-ground posture. A person lying or curled on a corridor, road, workshop, warehouse, or other non-rest area is positive. An obvious prone or ground-near posture without a clear maintenance, construction, or installation context is positive. Crawling, push-up, and plank are positive even when hands, feet, or knees actively support the body.
+
+Return "negative" for standing, walking, normal chair sitting, normal floor sitting, squatting or crouching, kneeling or half-kneeling, bending or picking something up, normal equipment checking, and normal lying on a bed, sofa, recliner, or other ordinary rest support. Explicit maintenance, repair, construction, or installation is negative only when visible tools, equipment, an object, an action, material, or a clear person-to-work relationship provides that context; merely being near equipment is not enough. A clearly identifiable mannequin, poster, display screen, mirror reflection, or photograph rather than a real person is negative.
+
+Return "uncertain" only when the person is too small, severely occluded or blurred, only partly visible, or it is impossible to confirm a real person or the decisive posture/support relationship. Do not use "uncertain" merely because fall versus crawling, push-up, or plank is unclear: all of those visible postures are positive. If the person and the decisive posture are clear, choose positive or negative according to the rules.
+
+Apply this priority when cues compete: (1) cannot confirm a real person -> uncertain; (2) clear normal bed/sofa support -> negative; (3) clear maintenance/construction/installation -> negative; (4) lying, prone, crawling, push-up, plank, ground-supported, or curled -> positive; (5) sitting, kneeling, squatting, crouching, or bending -> negative; (6) standing or walking -> negative.
+
+Return exactly one JSON object and no additional text:
+{"person_fallen":"positive|negative|uncertain","evidence":"brief visible evidence"}
+
+The value of "person_fallen" must be exactly "positive", "negative", or "uncertain". The evidence must be a short description of visible posture/support/context only; do not output hidden reasoning or chain-of-thought.

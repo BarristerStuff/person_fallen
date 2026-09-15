@@ -1,0 +1,111 @@
+{
+  "captured_at": "2026-08-28T07:14:30.006+00:00",
+  "command": [
+    "node",
+    "<gpt-image-2-skill>",
+    "--json",
+    "--provider",
+    "codex",
+    "doctor"
+  ],
+  "image_generation_provider_requests": 0,
+  "label": "doctor",
+  "payload": {
+    "command": "doctor",
+    "defaults": {
+      "codex_endpoint": "https://chatgpt.com/backend-api/codex/responses",
+      "codex_model": "gpt-5.4",
+      "config_file": "/home/yanbo/.codex/gpt-image-2-skill/config.json",
+      "default_provider": "ebond-gpt-image-2",
+      "openai_api_base": "https://api.openai.com/v1",
+      "openai_model": "gpt-image-2",
+      "provider": "auto"
+    },
+    "ok": true,
+    "provider_selection": {
+      "edit_region_mode": "reference-hint",
+      "error": null,
+      "kind": "codex",
+      "reason": "explicit",
+      "requested": "codex",
+      "resolved": "codex",
+      "supports_n": false
+    },
+    "providers": {
+      "codex": {
+        "auth": {
+          "access_token_present": true,
+          "account_id": "<REDACTED>",
+          "auth_file": "<REDACTED>",
+          "auth_mode": "chatgpt",
+          "auth_source": "config",
+          "chatgpt_user_id": "<REDACTED>",
+          "email": "<REDACTED>",
+          "exists": true,
+          "expired": false,
+          "expires_at": 1788763171,
+          "id_token_present": true,
+          "last_refresh": "2026-08-28T06:39:33.641841393Z",
+          "parse_ok": true,
+          "plan_type": "plus",
+          "provider": "codex",
+          "ready": true,
+          "refresh_token_present": true,
+          "seconds_until_expiry": 861905
+        },
+        "endpoint": {
+          "endpoint": "https://chatgpt.com/backend-api/codex/responses",
+          "error": null,
+          "host": "chatgpt.com",
+          "port": 443,
+          "proxy": "system",
+          "reachable": true,
+          "scheme": "https",
+          "status": 405,
+          "tls_ok": true
+        }
+      },
+      "configured": {
+        "ebond-gpt-image-2": {
+          "api_base": "https://api.ebondai.com/v1",
+          "credentials": {
+            "api_key": "<REDACTED>"
+          },
+          "endpoint": null,
+          "model": "gpt-image-2",
+          "proxy": null,
+          "supports_n": null,
+          "type": "openai-compatible"
+        }
+      },
+      "openai": {
+        "auth": {
+          "api_key_present": false,
+          "auth_source": "missing",
+          "default_model": "gpt-image-2",
+          "env_var": "OPENAI_API_KEY",
+          "provider": "openai",
+          "ready": false
+        },
+        "endpoint": {
+          "endpoint": "https://api.openai.com/v1",
+          "error": null,
+          "host": "api.openai.com",
+          "port": 443,
+          "proxy": "system",
+          "reachable": true,
+          "scheme": "https",
+          "status": 404,
+          "tls_ok": true
+        }
+      }
+    },
+    "retry_policy": {
+      "base_delay_seconds": 1,
+      "max_retries": 3
+    },
+    "version": "0.7.3"
+  },
+  "returncode": 0,
+  "stderr": ""
+}

@@ -1,0 +1,21 @@
+{
+  "captured_at_utc": "2026-08-26T15:01:34.286214+00:00",
+  "model": {
+    "details": {
+      "families": [
+        "qwen35"
+      ],
+      "family": "qwen35",
+      "format": "gguf",
+      "parameter_size": "4.7B",
+      "parent_model": "",
+      "quantization_level": "Q4_K_M"
+    },
+    "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+    "model": "qwen3.5:4b",
+    "modified_at": "2026-05-09T11:55:23.851873734+08:00",
+    "name": "qwen3.5:4b",
+    "size": 3389983735
+  },
+  "ollama_version": "0.23.2"
+}

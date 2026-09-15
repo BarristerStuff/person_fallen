@@ -1,0 +1,37 @@
+{
+  "candidate": "REV15_SCENE_ANY_LYING",
+  "captured_at_utc": "2026-09-09T04:44:07.840185+00:00",
+  "crop_manifest_sha256": "f30d656bc0fe0fd772cb7932ab760a9150cc8e77838bb51d960ff62bb54f6236",
+  "definition_sha256": "e0a3b10456ee11b28a7a6bd678a6e76bd6d94fa98b8035b21a8ca57693706d7e",
+  "freeze_sha256": null,
+  "holdout_rows_read": 0,
+  "input_count": 3,
+  "phase": "dev",
+  "plan_sha256": "4ddeec91f495560c35635a979b0b680426ec494115469c2e9e06a4deddf31f5e",
+  "policy_sha256": "9a4c677ecf295b1cfde3bf354af63a3ebccf39fc5cc8690867b8233a0f2385cd",
+  "prompt_sha256": "415868d5828521d84073c548769b11b1ce4d524d1e8090736e1920d667e7db9c",
+  "revision_id": "PERSON_FALLEN_V4_SCENE_ANY_LYING_20260909_01",
+  "screen_rows_read": 0,
+  "selected_model": {
+    "details": {
+      "families": [
+        "qwen35"
+      ],
+      "family": "qwen35",
+      "format": "gguf",
+      "parameter_size": "4.7B",
+      "parent_model": "",
+      "quantization_level": "Q4_K_M"
+    },
+    "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+    "model": "qwen3.5:4b",
+    "modified_at": "2026-05-09T11:55:23.851873734+08:00",
+    "name": "qwen3.5:4b",
+    "size": 3389983735
+  },
+  "status": "PASS",
+  "val_rows_read": 0,
+  "version": {
+    "version": "0.23.2"
+  }
+}

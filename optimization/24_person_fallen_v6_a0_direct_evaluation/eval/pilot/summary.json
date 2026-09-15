@@ -1,0 +1,47 @@
+{
+  "phase": "pilot",
+  "rows": 156,
+  "new_requests": 156,
+  "valid_responses": 156,
+  "ground": {
+    "ALERT_GROUND_LYING": 59,
+    "RECHECK_VISUAL_UNCERTAIN": 1,
+    "NO_ALERT_NORMAL_POSE": 0,
+    "ATTENTION_NEAR_GROUND": 0
+  },
+  "floor": {
+    "ALERT_GROUND_LYING": 5,
+    "RECHECK_VISUAL_UNCERTAIN": 5,
+    "NO_ALERT_NORMAL_POSE": 45,
+    "ATTENTION_NEAR_GROUND": 0
+  },
+  "pushup": {
+    "ALERT_GROUND_LYING": 0,
+    "RECHECK_VISUAL_UNCERTAIN": 2,
+    "NO_ALERT_NORMAL_POSE": 0,
+    "ATTENTION_NEAR_GROUND": 24
+  },
+  "crawling": {
+    "ALERT_GROUND_LYING": 1,
+    "RECHECK_VISUAL_UNCERTAIN": 0,
+    "NO_ALERT_NORMAL_POSE": 9,
+    "ATTENTION_NEAR_GROUND": 5
+  },
+  "multi": {
+    "ALERT_GROUND_LYING": 4,
+    "RECHECK_VISUAL_UNCERTAIN": 1,
+    "NO_ALERT_NORMAL_POSE": 0,
+    "ATTENTION_NEAR_GROUND": 0
+  },
+  "gate_checks": {
+    "rows": true,
+    "strict": true,
+    "source": true,
+    "ground": true,
+    "floor": false,
+    "push": true,
+    "crawl": false,
+    "multi": false
+  },
+  "gate": "FAIL"
+}

@@ -1,0 +1,6 @@
+taxonomy,total_samples,C3_FP,C3_TN,C3_category_FPR,group_count,typical_C3_evidence_error
+deep_bending_or_picking,20,0,20,0.0,2,no DESIGN residual FP in this category
+exercise_pushup_or_plank,10,1,9,0.1,1,C3 evidence noticed hands/feet support but interpreted the body as collapsed lying rather than supported exercise
+kneeling_or_half_kneeling,20,1,19,0.05,2,C3 evidence called a forward-supported posture prone/collapsed; the visible knee/hand-supported posture was not extracted as the final posture
+sitting_on_floor,10,0,10,0.0,1,no DESIGN residual FP in this category
+squatting_or_crouching,10,0,10,0.0,1,no DESIGN residual FP in this category

@@ -1,0 +1,18 @@
+{
+  "P4D_STATUS": "GENERATION_REQUIRED",
+  "error_code": "INVALID_API_KEY",
+  "error_message": "Invalid API key",
+  "failed_request_count": 1,
+  "http_status": "401",
+  "images_generated": 0,
+  "no_provider_switch": true,
+  "no_retry": true,
+  "prompt_id": "PF_P4D_HN_SIT_G001_V01",
+  "request_evidence": {
+    "attempts_csv": "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/generation_attempts.csv",
+    "provider_result_json": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/provider_results/PF_P4D_HN_SIT_G001_V01.json",
+    "stdout_json": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/cli_logs/PF_P4D_HN_SIT_G001_V01.stdout.json"
+  },
+  "smoke_request_count": 1,
+  "successful_request_count": 0
+}

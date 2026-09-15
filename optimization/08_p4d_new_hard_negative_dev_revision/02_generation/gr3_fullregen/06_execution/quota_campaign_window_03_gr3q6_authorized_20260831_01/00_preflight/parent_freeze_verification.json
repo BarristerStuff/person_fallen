@@ -1,0 +1,26 @@
+{
+  "preparation": {
+    "actual_sha256": "0895c36bb13ce7fbd7c8eebb24deeea6ba650ef6247c294cc9656722b19dd900",
+    "all_bound_artifacts_match": true,
+    "bound_artifact_count": 9,
+    "expected_sha256": "0895c36bb13ce7fbd7c8eebb24deeea6ba650ef6247c294cc9656722b19dd900",
+    "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_03_gr3q6_20260831_02/freeze/p4d_gr3q6_preparation_freeze.json",
+    "sidecar_match": true
+  },
+  "q5": {
+    "actual_sha256": "3c219c9d75803cd5427862c0255ab557e92969085a864b116435aea85f8817f2",
+    "all_bound_artifacts_match": true,
+    "bound_artifact_count": 40,
+    "expected_sha256": "3c219c9d75803cd5427862c0255ab557e92969085a864b116435aea85f8817f2",
+    "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_02_policy_adapter_20260830_01/freeze/p4d_gr3q5_terminal_freeze.json",
+    "sidecar_match": true
+  },
+  "supplement": {
+    "actual_sha256": "ad26987713e0a0910393a3c6613d24b7d5a1d63b63f3810bebfbe8ee8c56143b",
+    "all_bound_artifacts_match": true,
+    "bound_artifact_count": 18,
+    "expected_sha256": "ad26987713e0a0910393a3c6613d24b7d5a1d63b63f3810bebfbe8ee8c56143b",
+    "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_03_gr3q6_20260831_02/freeze/p4d_gr3q6_preparation_supplement_freeze.json",
+    "sidecar_match": true
+  }
+}

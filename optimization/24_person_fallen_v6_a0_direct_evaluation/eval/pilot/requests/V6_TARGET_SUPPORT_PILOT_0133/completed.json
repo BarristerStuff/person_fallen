@@ -1,0 +1,61 @@
+{
+  "state": "completed",
+  "phase": "pilot",
+  "request_id": "V6_TARGET_SUPPORT_PILOT_0133",
+  "item_id": "V2_ORIGINAL::IMG_003804",
+  "operational_id": "PFV6_PILOT_0133",
+  "taxonomy": "crawling_without_explicit_maintenance",
+  "group_id": "pf_v2_aigc_h11-crawling-under-equipment-inspection",
+  "evaluation_stratum": "auxiliary_attention",
+  "source_image_sha256": "1db53aef77ba24f7d2cd4f78fe254555ec844ac3258796d8cd88825b7d1b0f1d",
+  "full_view_sha256": "3a4332bf0c87549b7e65b4e43369449e9105b8a12e7c7c9968a09cae2168198f",
+  "crop_view_sha256": "8a205d8927cdd1046f1212318098f8ceffd8863d84f40cb7ea8fe886652a78ea",
+  "payload_sha256": "4b2f9bf74e2960876a9fbdb34abf547078a421d73647793016e18ea951e7cf51",
+  "claimed_timestamp": "2026-09-14T10:30:58.154149+00:00",
+  "http_status": 200,
+  "latency_seconds": 5.904619541004649,
+  "completion_unknown": false,
+  "transport_error": null,
+  "raw_response_sha256": "0ee48fc28b36ca18c1baa0724980850811e7b5650f533841811bf98a114c6fba",
+  "raw_response_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/24_person_fallen_v6_a0_direct_evaluation/eval/pilot/requests/V6_TARGET_SUPPORT_PILOT_0133/response.raw",
+  "received_timestamp": "2026-09-14T10:31:04.060851+00:00",
+  "strict_json_ok": true,
+  "source_binding_ok": true,
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 209,
+  "parsed": {
+    "scene_coverage": "complete",
+    "people": [
+      {
+        "person_id": 1,
+        "bbox_1000": [
+          268,
+          308,
+          688,
+          856
+        ],
+        "person_visible": "yes",
+        "pose": "prone",
+        "torso_orientation": "horizontal",
+        "torso_ground_contact": "broad",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "body_support_configuration": "torso_ground_supported",
+        "explicit_work_evidence": "no",
+        "visual_quality": "clear",
+        "evidence": "Person is lying prone on the floor with torso broadly supported by the ground, head and shoulders elevated above hips, supported by forearms and feet."
+      }
+    ]
+  },
+  "person_decisions": [
+    {
+      "person_id": 1,
+      "decision": "ALERT_GROUND_LYING",
+      "reason": "CLEAR_TORSO_GROUND_SUPPORTED_LYING"
+    }
+  ],
+  "image_decision": "ALERT_GROUND_LYING",
+  "image_reason": "AT_LEAST_ONE_TORSO_GROUND_SUPPORTED_PERSON",
+  "completed_timestamp": "2026-09-14T10:31:04.061549+00:00"
+}

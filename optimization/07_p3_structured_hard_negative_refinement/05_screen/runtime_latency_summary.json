@@ -1,0 +1,60 @@
+{
+  "C3_BASELINE": {
+    "candidate": "C3_BASELINE",
+    "component_max": {
+      "client_latency_seconds": 1.992321491241455,
+      "eval_duration": 0.813112733,
+      "load_duration": 0.520834357,
+      "prompt_eval_duration": 0.160799673,
+      "total_duration": 1.983871098
+    },
+    "component_p50": {
+      "client_latency_seconds": 1.5810661315917969,
+      "eval_duration": 0.466142865,
+      "load_duration": 0.460095626,
+      "prompt_eval_duration": 0.120805699,
+      "total_duration": 1.573187597
+    },
+    "component_p95": {
+      "client_latency_seconds": 1.814213514328003,
+      "eval_duration": 0.638429255,
+      "load_duration": 0.505404549,
+      "prompt_eval_duration": 0.142281965,
+      "total_duration": 1.805755843
+    },
+    "load_duration_gt_5s_count": 0,
+    "longest_sustained_load_gt_5s": 0,
+    "request_count": 120,
+    "sustained_load_anomaly": false
+  },
+  "S1_STRUCTURED": {
+    "candidate": "S1_STRUCTURED",
+    "component_max": {
+      "client_latency_seconds": 22.183683182000095,
+      "eval_duration": 1.287135997,
+      "load_duration": 20.138334072,
+      "prompt_eval_duration": 0.305158177,
+      "total_duration": 22.175572839
+    },
+    "component_p50": {
+      "client_latency_seconds": 2.1353879150001376,
+      "eval_duration": 0.894835487,
+      "load_duration": 0.468808199,
+      "prompt_eval_duration": 0.209565068,
+      "total_duration": 2.126368336
+    },
+    "component_p95": {
+      "client_latency_seconds": 9.21063727300043,
+      "eval_duration": 1.004021293,
+      "load_duration": 7.049979143,
+      "prompt_eval_duration": 0.251898092,
+      "total_duration": 9.202203978
+    },
+    "load_duration_gt_5s_count": 7,
+    "longest_sustained_load_gt_5s": 3,
+    "request_count": 120,
+    "sustained_load_anomaly": true
+  },
+  "reference_limit_seconds": 1.852084,
+  "runtime_anomaly_detected": true
+}

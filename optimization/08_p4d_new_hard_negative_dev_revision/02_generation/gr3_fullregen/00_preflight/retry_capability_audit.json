@@ -1,0 +1,26 @@
+{
+  "automatic_retry_requested": false,
+  "captured_at": "2026-08-27T09:20:10.235+00:00",
+  "codex_401_refresh_retry_documented": true,
+  "config_retry_setting_found": false,
+  "decision": "BLOCKED_RETRY_POLICY",
+  "effective_attempts_basis": "native max_retries=3 implies up to four attempts per logical slot; Codex 401 has specialized refresh/retry behavior.",
+  "effective_possible_attempts_per_logical_slot": 4,
+  "environment_retry_setting_found": false,
+  "generation_requests": 0,
+  "images_generate_help_has_no_retry_flag": false,
+  "images_generate_help_returncode": 2,
+  "installed_binary_path": "/home/yanbo/.cache/gpt-image-2-skill/0.7.3/x86_64-unknown-linux-gnu/gpt-image-2-skill",
+  "installed_binary_sha256": "1ac830fed5349f1c1a1c2fd1a4280b487a2d75962d22d9fbd4e4b2451ab208ba",
+  "native_retry_policy_observed": {
+    "base_delay_seconds": 1,
+    "max_retries": 3
+  },
+  "no_retry_guarantee": false,
+  "stage": "P4D_GR3_RETRY_CAPABILITY_AUDIT",
+  "third_party_runtime_modified": false,
+  "wrapper_is_only_dispatcher": true,
+  "wrapper_max_retries": 3,
+  "wrapper_path": "/home/yanbo/.codex/skills/gpt-image-2-skill/scripts/gpt_image_2_skill.cjs",
+  "wrapper_sha256": "f01c85e448a078c508d015e2c0ac5208b12a9f126ce83e47da11fce542b440fe"
+}

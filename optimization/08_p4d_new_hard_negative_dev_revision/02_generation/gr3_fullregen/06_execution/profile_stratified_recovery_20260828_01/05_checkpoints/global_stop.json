@@ -1,0 +1,12 @@
+{
+  "captured_at": "2026-08-28T06:34:29.964+00:00",
+  "error_code": "http_error",
+  "http_status": "429",
+  "native_retry_count": 3,
+  "prompt_id": "PF_P4D_HN_KNEEL_G009_V03",
+  "provider_request_id": "unknown",
+  "provider_requests": 4,
+  "reason": "HTTP_429",
+  "recovery_order": 4,
+  "status": "GLOBAL_STOP"
+}

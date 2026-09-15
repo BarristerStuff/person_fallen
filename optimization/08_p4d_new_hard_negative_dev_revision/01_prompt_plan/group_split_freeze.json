@@ -1,0 +1,158 @@
+{
+  "c3_or_vlm_used_before_freeze": false,
+  "created_at": "2026-08-27T04:55:01+00:00",
+  "cross_split_group_count": 0,
+  "design_screen_decided_before_generation": true,
+  "formal_dataset_mutation": false,
+  "freeze_type": "pre_generation_group_split_freeze",
+  "generation_batch": "batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m",
+  "group_count": 88,
+  "group_manifest_sha256": "11ab903056e0acbdb9ca5a507f33f3237f3b90f059f445f8df76c1dde174fbab",
+  "holdout_requests": 0,
+  "images_planned": 440,
+  "new_batch_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m",
+  "new_text_to_image_lineage": true,
+  "old_batch_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m",
+  "split_counts": {
+    "NEW_DESIGN": {
+      "groups": 53,
+      "images": 265
+    },
+    "NEW_SCREEN": {
+      "groups": 35,
+      "images": 175
+    }
+  },
+  "stage": "P4D_NEW_HARD_NEGATIVE_DEV_REVISION",
+  "taxonomy_counts": {
+    "chair_seated_normal_work": {
+      "NEW_DESIGN_groups": 3,
+      "NEW_DESIGN_images": 15,
+      "NEW_SCREEN_groups": 1,
+      "NEW_SCREEN_images": 5,
+      "groups": 4,
+      "images": 20
+    },
+    "crawling_quadruped_support": {
+      "NEW_DESIGN_groups": 5,
+      "NEW_DESIGN_images": 25,
+      "NEW_SCREEN_groups": 3,
+      "NEW_SCREEN_images": 15,
+      "groups": 8,
+      "images": 40
+    },
+    "curled_or_partially_occluded_lying": {
+      "NEW_DESIGN_groups": 2,
+      "NEW_DESIGN_images": 10,
+      "NEW_SCREEN_groups": 1,
+      "NEW_SCREEN_images": 5,
+      "groups": 3,
+      "images": 15
+    },
+    "floor_sitting": {
+      "NEW_DESIGN_groups": 7,
+      "NEW_DESIGN_images": 35,
+      "NEW_SCREEN_groups": 5,
+      "NEW_SCREEN_images": 25,
+      "groups": 12,
+      "images": 60
+    },
+    "ground_maintenance": {
+      "NEW_DESIGN_groups": 5,
+      "NEW_DESIGN_images": 25,
+      "NEW_SCREEN_groups": 3,
+      "NEW_SCREEN_images": 15,
+      "groups": 8,
+      "images": 40
+    },
+    "horizontal_corridor_ground_lying": {
+      "NEW_DESIGN_groups": 0,
+      "NEW_DESIGN_images": 0,
+      "NEW_SCREEN_groups": 1,
+      "NEW_SCREEN_images": 5,
+      "groups": 1,
+      "images": 5
+    },
+    "intentional_ground_lying": {
+      "NEW_DESIGN_groups": 1,
+      "NEW_DESIGN_images": 5,
+      "NEW_SCREEN_groups": 1,
+      "NEW_SCREEN_images": 5,
+      "groups": 2,
+      "images": 10
+    },
+    "kneeling_half_kneeling": {
+      "NEW_DESIGN_groups": 7,
+      "NEW_DESIGN_images": 35,
+      "NEW_SCREEN_groups": 5,
+      "NEW_SCREEN_images": 25,
+      "groups": 12,
+      "images": 60
+    },
+    "mixed_hard_negative": {
+      "NEW_DESIGN_groups": 2,
+      "NEW_DESIGN_images": 10,
+      "NEW_SCREEN_groups": 2,
+      "NEW_SCREEN_images": 10,
+      "groups": 4,
+      "images": 20
+    },
+    "multi_person_one_lying": {
+      "NEW_DESIGN_groups": 1,
+      "NEW_DESIGN_images": 5,
+      "NEW_SCREEN_groups": 1,
+      "NEW_SCREEN_images": 5,
+      "groups": 2,
+      "images": 10
+    },
+    "prone_ground_lying": {
+      "NEW_DESIGN_groups": 3,
+      "NEW_DESIGN_images": 15,
+      "NEW_SCREEN_groups": 1,
+      "NEW_SCREEN_images": 5,
+      "groups": 4,
+      "images": 20
+    },
+    "pushup_plank": {
+      "NEW_DESIGN_groups": 6,
+      "NEW_DESIGN_images": 30,
+      "NEW_SCREEN_groups": 4,
+      "NEW_SCREEN_images": 20,
+      "groups": 10,
+      "images": 50
+    },
+    "side_lying": {
+      "NEW_DESIGN_groups": 2,
+      "NEW_DESIGN_images": 10,
+      "NEW_SCREEN_groups": 2,
+      "NEW_SCREEN_images": 10,
+      "groups": 4,
+      "images": 20
+    },
+    "squat_crouch_deep_bend": {
+      "NEW_DESIGN_groups": 4,
+      "NEW_DESIGN_images": 20,
+      "NEW_SCREEN_groups": 2,
+      "NEW_SCREEN_images": 10,
+      "groups": 6,
+      "images": 30
+    },
+    "standing_walking": {
+      "NEW_DESIGN_groups": 2,
+      "NEW_DESIGN_images": 10,
+      "NEW_SCREEN_groups": 2,
+      "NEW_SCREEN_images": 10,
+      "groups": 4,
+      "images": 20
+    },
+    "supine_ground_lying": {
+      "NEW_DESIGN_groups": 3,
+      "NEW_DESIGN_images": 15,
+      "NEW_SCREEN_groups": 1,
+      "NEW_SCREEN_images": 5,
+      "groups": 4,
+      "images": 20
+    }
+  },
+  "val_requests": 0
+}

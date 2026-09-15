@@ -1,0 +1,37 @@
+{
+  "candidate": "V4-A0-FULL-CROP",
+  "captured_at_utc": "2026-09-09T02:22:03.454360+00:00",
+  "crop_manifest_sha256": "1c43be68c8fadf15043c2087d310534c76791ca1ac640693a10d867ad47fe82f",
+  "definition_sha256": "e0a3b10456ee11b28a7a6bd678a6e76bd6d94fa98b8035b21a8ca57693706d7e",
+  "freeze_sha256": "8c84b445c7b37a5e4673f4ee1544edc9f2b762857711b9e876aa02b9b0a98140",
+  "holdout_rows_read": 0,
+  "input_count": 76,
+  "phase": "screen",
+  "plan_sha256": "88ffaf7cbba8a72eb2d2e71e50715aeace9bac09767d3f48de2271cec84f9d37",
+  "policy_sha256": "3a3e16f177c1806b74f4018bc269068e7715bba43eb20a5b3797b02c4ca9ccaf",
+  "prompt_sha256": "a81367203bfff7fe8aaae491bf04a8d9eb92057c701412bbd316b8d43f98fad7",
+  "revision_id": "PERSON_FALLEN_V4_OPERATIONAL_FREEZE_20260909_01",
+  "screen_rows_read": 0,
+  "selected_model": {
+    "details": {
+      "families": [
+        "qwen35"
+      ],
+      "family": "qwen35",
+      "format": "gguf",
+      "parameter_size": "4.7B",
+      "parent_model": "",
+      "quantization_level": "Q4_K_M"
+    },
+    "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+    "model": "qwen3.5:4b",
+    "modified_at": "2026-05-09T11:55:23.851873734+08:00",
+    "name": "qwen3.5:4b",
+    "size": 3389983735
+  },
+  "status": "PASS",
+  "val_rows_read": 0,
+  "version": {
+    "version": "0.23.2"
+  }
+}

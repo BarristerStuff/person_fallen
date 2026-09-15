@@ -1,0 +1,50 @@
+{
+  "P4D_IMAGES_ACCEPTED": 0,
+  "adapter_provenance": "PASS",
+  "current_completion_unknown": 1,
+  "current_safe_executable_outstanding": 213,
+  "current_verified_success": 226,
+  "dimension_failures": 0,
+  "exact_duplicate_hits": 0,
+  "final_output_dimension_contract": "1920x1080",
+  "foreign_event_assets_used": 0,
+  "full_440_qa": "NOT_REACHED",
+  "gr1_sha_hits": 0,
+  "native_size_contract_enforced": false,
+  "new_final_count": 30,
+  "new_raw_count": 30,
+  "observed_native_size_distribution": {
+    "1672x941": 30
+  },
+  "partial_mechanical_qa": "PASS",
+  "pillow_failures": 0,
+  "profile_provenance": "RECORDED",
+  "requested_native_size": "1536x1024",
+  "role_distribution": {
+    "hard_negative": 151,
+    "ordinary_negative": 20,
+    "positive": 55
+  },
+  "split_distribution": {
+    "NEW_DESIGN": 135,
+    "NEW_SCREEN": 91
+  },
+  "taxonomy_distribution": {
+    "chair_seated_normal_work": 15,
+    "crawling_quadruped_support": 10,
+    "curled_or_partially_occluded_lying": 10,
+    "floor_sitting": 60,
+    "ground_maintenance": 6,
+    "horizontal_corridor_ground_lying": 5,
+    "intentional_ground_lying": 5,
+    "kneeling_half_kneeling": 45,
+    "mixed_hard_negative": 10,
+    "multi_person_one_lying": 5,
+    "prone_ground_lying": 10,
+    "pushup_plank": 10,
+    "side_lying": 10,
+    "squat_crouch_deep_bend": 10,
+    "standing_walking": 5,
+    "supine_ground_lying": 10
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "state": "claimed",
+  "phase": "pilot",
+  "request_id": "V6_TARGET_SUPPORT_PILOT_0092",
+  "item_id": "P4D_PLAN::PF_P4D_POS_SUPINE_G001_V01",
+  "operational_id": "PFV6_PILOT_0092",
+  "taxonomy": "supine_ground_lying",
+  "group_id": "PF_P4D_POS_SUPINE_G001",
+  "evaluation_stratum": "ground_lying",
+  "source_image_sha256": "e3e039b8e2130df68ff57dea9ba8cb49ac5a1f1ab7ac8cc6327d084589b26b90",
+  "full_view_sha256": "556d8c059ca12aa6a69016244975638ee4242d0ae0c33f0d1a07229fbd6d3170",
+  "crop_view_sha256": "0222b550cf8575b4d336d37f7c2808df0f93731a976d9b659d3f21d6277c7c64",
+  "payload_sha256": "0850d1a54c92f4300d690dafc883d5fa5c8f380397cbefc84c123f2e1d9c4a45",
+  "claimed_timestamp": "2026-09-14T10:26:53.659727+00:00"
+}

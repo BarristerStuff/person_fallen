@@ -1,0 +1,24 @@
+{
+  "model": "qwen3.5:4b",
+  "endpoint": "http://192.168.20.62:11434",
+  "stream": false,
+  "format": "json",
+  "think": false,
+  "concurrency": 1,
+  "preprocess_mode": "letterbox",
+  "target_size": "448x336",
+  "jpeg_quality": 70,
+  "options": {
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 256
+  },
+  "parser_source": "response_only",
+  "thinking_fallback": false,
+  "attempts_per_media": 1,
+  "automatic_retry": false,
+  "ledger": "sqlite_wal_synchronous_full",
+  "request_semantics_source": "P1A config db933a7420a4ca0f50785c487c1f0703830af9804e4cac1f0a962f18d4500557",
+  "prompt_changed": false,
+  "preprocess_changed": false
+}

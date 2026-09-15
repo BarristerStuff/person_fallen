@@ -1,0 +1,95 @@
+{
+  "command": [
+    "<node>",
+    "<gpt-image-2-skill>",
+    "--json",
+    "--json-events",
+    "--provider",
+    "codex",
+    "images",
+    "generate",
+    "--model",
+    "gpt-5.4",
+    "--prompt_sha256",
+    "e4c7fa7585a12d94a0c1d9ee41e57aef3661ccfb44944ddcb7a384df44b7ff92",
+    "--out",
+    "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/generated_raw/PF_P4D_HN_CRAWL_G003_V02.png",
+    "--format",
+    "png",
+    "--size",
+    "1536x1024",
+    "--quality",
+    "medium"
+  ],
+  "elapsed_seconds": 48.78049003100023,
+  "finished_at": "2026-08-27T07:37:28.551+00:00",
+  "payload": {
+    "auth": {
+      "account_id": "f0bc3591-e6fc-442d-a52e-e99efbf5c1eb",
+      "auth_file": "/home/yanbo/.codex/auth.json",
+      "refreshed": false,
+      "source": "auth.json"
+    },
+    "command": "images generate",
+    "events": {
+      "count": 22
+    },
+    "history": {
+      "job_id": "job-1787816248542806463-29218"
+    },
+    "ok": true,
+    "output": {
+      "bytes": 1909377,
+      "files": [
+        {
+          "bytes": 1909377,
+          "index": 0,
+          "path": "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/generated_raw/PF_P4D_HN_CRAWL_G003_V02.png"
+        }
+      ],
+      "path": "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/generated_raw/PF_P4D_HN_CRAWL_G003_V02.png"
+    },
+    "provider": "codex",
+    "provider_selection": {
+      "edit_region_mode": "reference-hint",
+      "kind": "codex",
+      "reason": "explicit",
+      "requested": "codex",
+      "resolved": "codex",
+      "supports_n": false
+    },
+    "request": {
+      "background": "auto",
+      "delegated_image_model": "gpt-image-2",
+      "format": "png",
+      "model": "gpt-5.4",
+      "operation": "generate",
+      "provider": "codex",
+      "quality": "medium",
+      "ref_image_count": 0,
+      "size": "1536x1024"
+    },
+    "response": {
+      "image_count": 1,
+      "item_ids": [
+        "ig_07186f7c8ecd6ee3016a8fe9084a1487d0a12bbed8de8ded46"
+      ],
+      "model": "gpt-5.4",
+      "response_id": "resp_07186f7c8ecd6ee3016a8fe9076dfc87d0a7955d5d14354a88",
+      "revised_prompts": [
+        "Photorealistic 1920x1080 landscape frame from a fixed safety-inspection camera mounted about 1.5 meters above the floor, showing a utility-room passage with cabinets, conduits, and inspection access panels, large neutral floor tiles, slightly dim but readable ambient light. Rear-oblique view, medium-wide framing, natural perspective, realistic scale, enough surrounding context to judge body support. Visible subject: an older adult man with a stocky build wearing a charcoal cardigan, light neutral clothing, and practical shoes, moving in a quadruped posture with both hands and both feet supporting the body, not resting horizontally. Plausible unedited inspection-camera capture, subject clearly visible, doorway and structural lines create depth without blocking the subject. Ordinary photographic detail, restrained contrast, not cinematic or advertising. No text, caption, watermark, logo, warning label, overlay, bounding box, arrow, circle, or artificial annotation."
+      ],
+      "service_tier": "default",
+      "status": "completed"
+    },
+    "retry": {
+      "count": 0,
+      "max_retries": 3
+    }
+  },
+  "phase": "BULK",
+  "prompt_id": "PF_P4D_HN_CRAWL_G003_V02",
+  "returncode": 0,
+  "sequence": 184,
+  "started_at": "2026-08-27T07:36:39.770+00:00"
+}

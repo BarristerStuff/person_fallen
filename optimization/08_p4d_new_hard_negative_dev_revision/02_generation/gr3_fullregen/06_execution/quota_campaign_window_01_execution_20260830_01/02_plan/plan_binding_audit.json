@@ -1,0 +1,26 @@
+{
+  "adaptive_exact_outstanding": true,
+  "adaptive_expected_sha256": "acb4abca77c2c1a4c08d4028b3ce95a0dff503ffb68e5995e9fecae9d8749033",
+  "adaptive_rows": 338,
+  "adaptive_sha256": "acb4abca77c2c1a4c08d4028b3ce95a0dff503ffb68e5995e9fecae9d8749033",
+  "adaptive_source": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_20260828_03/02_order/adaptive_execution_order.csv",
+  "adaptive_unique_prompt_ids": 338,
+  "captured_at": "2026-08-30T10:55:52.002+00:00",
+  "first_window_exact": true,
+  "first_window_expected_sha256": "2d1c22a111325be77cc35949563884800925a7ce7e99272d4910e15022fd8bfd",
+  "first_window_first_prompt": "PF_P4D_HN_KNEEL_G009_V03",
+  "first_window_group_count": 14,
+  "first_window_role_counts": {
+    "hard_negative": 23,
+    "ordinary_negative": 10,
+    "positive": 35
+  },
+  "first_window_rows": 68,
+  "first_window_sha256": "2d1c22a111325be77cc35949563884800925a7ce7e99272d4910e15022fd8bfd",
+  "first_window_source": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_20260828_03/02_order/first_window_68_plan.csv",
+  "first_window_split_counts": {
+    "NEW_DESIGN": 30,
+    "NEW_SCREEN": 38
+  },
+  "first_window_unique_prompt_ids": 68
+}

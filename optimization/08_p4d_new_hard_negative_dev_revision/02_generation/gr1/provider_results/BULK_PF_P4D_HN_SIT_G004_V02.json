@@ -1,0 +1,95 @@
+{
+  "command": [
+    "<node>",
+    "<gpt-image-2-skill>",
+    "--json",
+    "--json-events",
+    "--provider",
+    "codex",
+    "images",
+    "generate",
+    "--model",
+    "gpt-5.4",
+    "--prompt_sha256",
+    "4517579bd4a99a33eb794f019ea69b9ffe8d5cf0864148f890fe7ace47c4ed61",
+    "--out",
+    "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/generated_raw/PF_P4D_HN_SIT_G004_V02.png",
+    "--format",
+    "png",
+    "--size",
+    "1536x1024",
+    "--quality",
+    "medium"
+  ],
+  "elapsed_seconds": 39.63398802200027,
+  "finished_at": "2026-08-27T06:28:28.011+00:00",
+  "payload": {
+    "auth": {
+      "account_id": "f0bc3591-e6fc-442d-a52e-e99efbf5c1eb",
+      "auth_file": "/home/yanbo/.codex/auth.json",
+      "refreshed": false,
+      "source": "auth.json"
+    },
+    "command": "images generate",
+    "events": {
+      "count": 22
+    },
+    "history": {
+      "job_id": "job-1787812108004813782-17586"
+    },
+    "ok": true,
+    "output": {
+      "bytes": 2191981,
+      "files": [
+        {
+          "bytes": 2191981,
+          "index": 0,
+          "path": "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/generated_raw/PF_P4D_HN_SIT_G004_V02.png"
+        }
+      ],
+      "path": "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/generated_raw/PF_P4D_HN_SIT_G004_V02.png"
+    },
+    "provider": "codex",
+    "provider_selection": {
+      "edit_region_mode": "reference-hint",
+      "kind": "codex",
+      "reason": "explicit",
+      "requested": "codex",
+      "resolved": "codex",
+      "supports_n": false
+    },
+    "request": {
+      "background": "auto",
+      "delegated_image_model": "gpt-image-2",
+      "format": "png",
+      "model": "gpt-5.4",
+      "operation": "generate",
+      "provider": "codex",
+      "quality": "medium",
+      "ref_image_count": 0,
+      "size": "1536x1024"
+    },
+    "response": {
+      "image_count": 1,
+      "item_ids": [
+        "ig_09d01d93049f45e9016a8fd8e5516487d0bb91c2c1ad44431f"
+      ],
+      "model": "gpt-5.4",
+      "response_id": "resp_09d01d93049f45e9016a8fd8e455e487d0840f4e46f9486a7e",
+      "revised_prompts": [
+        "Photorealistic 1920x1080 landscape frame from a fixed safety-inspection camera mounted about 1.5 meters above the floor, observing an indoor parking garage. Left-oblique view at closer inspection distance, natural perspective, realistic scale, and enough surrounding context to judge body support. Scene includes concrete pillars, parked vehicles, clean lane markings made of industrial vinyl, and slightly dim but readable ambient light. Visible subject: an older adult woman with a small build, wearing a beige coat, blue and charcoal clothing, and comfortable shoes, sitting cross-legged on the floor with hips grounded and chest upright, not horizontal. Composition should look like a plausible unedited inspection-camera capture, subject clearly visible, ordinary photographic detail, restrained contrast, non-cinematic, non-advertising look. Do not add any text, caption, watermark, logo, warning label, overlay, bounding box, arrow, circle, symbol, or artificial annotation."
+      ],
+      "service_tier": "default",
+      "status": "completed"
+    },
+    "retry": {
+      "count": 0,
+      "max_retries": 3
+    }
+  },
+  "phase": "BULK",
+  "prompt_id": "PF_P4D_HN_SIT_G004_V02",
+  "returncode": 0,
+  "sequence": 37,
+  "started_at": "2026-08-27T06:27:48.377+00:00"
+}

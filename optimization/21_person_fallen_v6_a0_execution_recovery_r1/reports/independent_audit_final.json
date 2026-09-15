@@ -1,0 +1,16 @@
+{
+  "status": "PASS_BLOCKING_STATE_CONFIRMED",
+  "candidate": "V6-A0-TARGET-SUPPORT-CONFIG",
+  "freeze_hash": "dc24c828b546b050218440d31b18f0528a9620ef644ccbe0fd9fa403934acc74",
+  "model_requests": 0,
+  "claims": 0,
+  "raw": 0,
+  "completed": 0,
+  "blockers": [
+    "full280_fake_e2e_not_covered",
+    "full436_aggregation_missing",
+    "early_stop_not_implemented",
+    "fake_override_bypasses_stage_dependency"
+  ],
+  "val_holdout_read": false
+}

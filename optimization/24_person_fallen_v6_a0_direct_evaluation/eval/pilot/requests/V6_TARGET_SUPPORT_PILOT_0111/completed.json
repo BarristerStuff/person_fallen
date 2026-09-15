@@ -1,0 +1,85 @@
+{
+  "state": "completed",
+  "phase": "pilot",
+  "request_id": "V6_TARGET_SUPPORT_PILOT_0111",
+  "item_id": "V2_ORIGINAL::IMG_003782",
+  "operational_id": "PFV6_PILOT_0111",
+  "taxonomy": "pushup_plank",
+  "group_id": "pf_v2_aigc_h09-exercise-push-up-plank",
+  "evaluation_stratum": "auxiliary_attention",
+  "source_image_sha256": "44e8623e2ad766479925476c92fbab18bc3c1e7ba9e45c5654134bc13c936f2c",
+  "full_view_sha256": "c05dfa18e4d463d76e5584bf406d244cd24a569e3439a4a026de985d99f987bb",
+  "crop_view_sha256": "06903b635fd96229b8874cb6848b6391cb2568c3ac90d2d26d29588a6b138233",
+  "payload_sha256": "bec04b30b586b8b881aa51d1718f96d33e090d78acda2a31bd479a2b6eb7dfd4",
+  "claimed_timestamp": "2026-09-14T10:28:40.888449+00:00",
+  "http_status": 200,
+  "latency_seconds": 9.274120439993567,
+  "completion_unknown": false,
+  "transport_error": null,
+  "raw_response_sha256": "f506e853bb90da11ab9ad15c3f3f4137a97d20f6358241baec243a95455f106e",
+  "raw_response_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/24_person_fallen_v6_a0_direct_evaluation/eval/pilot/requests/V6_TARGET_SUPPORT_PILOT_0111/response.raw",
+  "received_timestamp": "2026-09-14T10:28:50.165190+00:00",
+  "strict_json_ok": true,
+  "source_binding_ok": true,
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 366,
+  "parsed": {
+    "scene_coverage": "complete",
+    "people": [
+      {
+        "person_id": 1,
+        "bbox_1000": [
+          248,
+          443,
+          626,
+          778
+        ],
+        "person_visible": "yes",
+        "pose": "pushup_plank",
+        "torso_orientation": "horizontal",
+        "torso_ground_contact": "partial",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "body_support_configuration": "hands_feet_supported",
+        "explicit_work_evidence": "no",
+        "visual_quality": "clear",
+        "evidence": "Person in black shirt performing push-ups on concrete floor in factory setting."
+      },
+      {
+        "person_id": 2,
+        "bbox_1000": [
+          788,
+          118,
+          888,
+          312
+        ],
+        "person_visible": "yes",
+        "pose": "chair_sitting",
+        "torso_orientation": "upright",
+        "torso_ground_contact": "none",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "chair",
+        "body_support_configuration": "chair_or_bed_supported",
+        "explicit_work_evidence": "yes",
+        "visual_quality": "clear",
+        "evidence": "Person in black shirt seated at blue workbench operating machinery."
+      }
+    ]
+  },
+  "person_decisions": [
+    {
+      "person_id": 1,
+      "decision": "ATTENTION_NEAR_GROUND",
+      "reason": "CLEAR_LIMB_SUPPORTED_NEAR_GROUND:hands_feet_supported"
+    },
+    {
+      "person_id": 2,
+      "decision": "NO_ALERT_NORMAL_POSE",
+      "reason": "NORMAL_REST_OR_CHAIR_SUPPORT"
+    }
+  ],
+  "image_decision": "ATTENTION_NEAR_GROUND",
+  "image_reason": "AUXILIARY_ONLY",
+  "completed_timestamp": "2026-09-14T10:28:50.166140+00:00"
+}

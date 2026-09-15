@@ -1,0 +1,16 @@
+{
+  "C3": false,
+  "HOLDOUT": 0,
+  "NEW_VAL": 0,
+  "formal_ingest": false,
+  "generation_runner_created": false,
+  "generation_runner_executed": false,
+  "holdout_consumed": false,
+  "labels_added": 0,
+  "media_added": 0,
+  "provider_requests": 0,
+  "quota_recovery_authorized": false,
+  "raw_response_files": 0,
+  "stage": "P4D_GR3Q1_PROVIDER_QUOTA_RECOVERY_PREPARATION",
+  "status": "BLOCKED_PROFILE_LINEAGE_CHANGE"
+}

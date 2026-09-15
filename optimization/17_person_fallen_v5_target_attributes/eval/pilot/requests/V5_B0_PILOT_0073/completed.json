@@ -1,0 +1,87 @@
+{
+  "state": "completed",
+  "phase": "pilot",
+  "request_id": "V5_B0_PILOT_0073",
+  "item_id": "V2_ORIGINAL::IMG_004014",
+  "operational_id": "PFV4DEV_0153",
+  "source_image_sha256": "a0e0ec4f94be40b43c9f805fbffbb25dc69995126cf2caaf25bdc16b8b8b5d98",
+  "full_view_sha256": "746b1e7ec136b1f0a1f06e0f9b22ab0dfd2087e97b47ddf2b7b51c24d5967311",
+  "crop_view_sha256": "eec88ec5a23d647c6271a673ecd3a58890705f0c4705732c1fcd48ed586f4e3f",
+  "view_count": 2,
+  "view_sha256": [
+    "746b1e7ec136b1f0a1f06e0f9b22ab0dfd2087e97b47ddf2b7b51c24d5967311",
+    "eec88ec5a23d647c6271a673ecd3a58890705f0c4705732c1fcd48ed586f4e3f"
+  ],
+  "prompt_sha256": "757fb445efa3f05327947a4c32115e3735823c81d14177199bbf8a6381d3300a",
+  "schema_sha256": "1ccf5a08cd1d6287b33f5d04b0f06101ae75666919c1a9f160ac0c5c335d7817",
+  "person_policy_sha256": "b2126bf86378fa6d0bcbc67861fa794b320affb1de90dc445f5838223cae68b9",
+  "scene_aggregation_sha256": "b2126bf86378fa6d0bcbc67861fa794b320affb1de90dc445f5838223cae68b9",
+  "model_binding": {
+    "endpoint": "http://192.168.20.62:11434",
+    "name": "qwen3.5:4b",
+    "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+    "ollama_version": "0.23.2",
+    "think": false,
+    "stream": false,
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 768,
+    "concurrency": 1,
+    "automatic_retry": false,
+    "resend_completion_unknown": false,
+    "timeout_seconds": 120,
+    "api": "/api/generate",
+    "format_schema": "schema/target_attributes.json",
+    "transport": "direct,no proxies,no redirects"
+  },
+  "freeze_sha256": "4ea0db2dce0d0cdea4af1bf799cd3e5d3ca1e2fd5293d1d352bf40e1978c25e4",
+  "payload_sha256": "ba7ebb7b8b385b4a895599c5ae238ac68f60616d2792ca296f1e379b44ce5448",
+  "claimed_timestamp": "2026-09-09T07:51:51.626155+00:00",
+  "http_status": 200,
+  "latency_seconds": 11.318949262000388,
+  "completion_unknown": false,
+  "transport_error": null,
+  "received_timestamp": "2026-09-09T07:52:02.947575+00:00",
+  "raw_response_sha256": "a360fdab62c0bcea162e3e54cb4678fed0bddc3d0bb3b4516cc5c39b5ae8bbd2",
+  "raw_response_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/17_person_fallen_v5_target_attributes/eval/pilot/requests/V5_B0_PILOT_0073/response.raw",
+  "strict_json_ok": true,
+  "source_binding_ok": true,
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 181,
+  "parsed": {
+    "scene_coverage": "complete",
+    "people": [
+      {
+        "person_id": 1,
+        "bbox_1000": [
+          318,
+          328,
+          768,
+          724
+        ],
+        "person_visible": "yes",
+        "pose": "prone",
+        "torso_orientation": "horizontal",
+        "torso_ground_contact": "broad",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "explicit_work_evidence": "no",
+        "visual_quality": "clear",
+        "evidence": "A person is lying flat on their back on the carpeted floor with arms extended."
+      }
+    ]
+  },
+  "person_decisions": [
+    {
+      "person_id": 1,
+      "decision": "ALERT_GROUND_LYING",
+      "reason": "HORIZONTAL_GROUND_SUPPORTED_TARGET:prone"
+    }
+  ],
+  "image_decision": "ALERT_GROUND_LYING",
+  "image_reason": "AT_LEAST_ONE_RELIABLE_GROUND_LYING_PERSON",
+  "completed_timestamp": "2026-09-09T07:52:02.948660+00:00",
+  "EVALUATION_MODE": "NEW_TARGET_ATTRIBUTES_ONLY",
+  "CACHED_PRIMARY_USED_FOR_FINAL_DECISION": false
+}

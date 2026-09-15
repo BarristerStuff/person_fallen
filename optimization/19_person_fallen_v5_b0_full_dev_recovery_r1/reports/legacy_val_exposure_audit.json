@@ -1,0 +1,47 @@
+{
+  "status": "PASS_HISTORIC_VAL_EXPOSURE_CONFIRMED_METADATA_ONLY",
+  "v3_val_manifest": {
+    "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/11_person_fallen_v3_revision/remap/person_fallen_v3_val_manifest.csv",
+    "sha256": "ffe093f90a64698f1006541400dc8bf6bda774bbe54febc47ef2c388ef184302",
+    "rows": 100
+  },
+  "p1r_recovery_val_manifest": {
+    "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/04_p1r_freeze_binding_recovery/preflight/recovery_val_manifest.csv",
+    "sha256": "f3feb12b364ffbf045857d6b4ba77ed28932ccf0d9c1d644db7a10de7dfd7762",
+    "rows": 100
+  },
+  "p1r_summary": {
+    "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/04_p1r_freeze_binding_recovery/val/summary.json",
+    "sha256": "50c97bd88814153c95af5fc8b04cb74e3e25dbe61a5d8c657aab29821f3a383e",
+    "execution_status": "COMPLETE",
+    "planned_val_requests": 100,
+    "confirmed_completed_requests": 100,
+    "p1r_val_is_pristine": false,
+    "holdout_consumed": false
+  },
+  "overlap": {
+    "media_id_overlap": 100,
+    "image_sha256_overlap": 100,
+    "group_id_overlap": 10,
+    "item_id_overlap": 0
+  },
+  "conclusion": "V5 has not run this VAL in the current candidate, but the 100-row collection is historically exposed and is not pristine independent validation.",
+  "metadata_gap": "P1R recovery manifest has no item_id column; item_id overlap is unavailable (not inferred). Media and image SHA overlap remain directly verified.",
+  "allowed_reads": [
+    "item_id",
+    "media_id",
+    "group_id",
+    "image_sha256",
+    "manifest hash",
+    "historical execution status and request counts"
+  ],
+  "forbidden_reads_performed": {
+    "val_images": 0,
+    "val_generation_prompts": 0,
+    "val_predictions": 0,
+    "val_evidence": 0,
+    "holdout": 0
+  },
+  "not_used_for_candidate_design": true,
+  "p1r_item_id_column_present": false
+}

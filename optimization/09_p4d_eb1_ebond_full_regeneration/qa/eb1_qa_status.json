@@ -1,0 +1,13 @@
+{
+  "accepted": 0,
+  "created_at": "2026-08-28T08:58:40.974+00:00",
+  "cross_split_duplicates": "N/A",
+  "exact_duplicates": "N/A",
+  "final_count": 0,
+  "full_440_mechanical_qa": "NOT_REACHED",
+  "mapping_rows": "N/A",
+  "near_duplicates": "N/A",
+  "pillow_verified": "N/A",
+  "raw_count": 0,
+  "reason": "PRIMARY returned HTTP 401 before first image; no raw/final images exist"
+}

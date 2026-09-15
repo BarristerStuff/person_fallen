@@ -1,0 +1,32 @@
+{
+  "created_at": "2026-08-27T05:11:57+00:00",
+  "failed_generation_attempts": 1,
+  "formal_dataset_mutation": false,
+  "freeze_type": "generation_required_terminal_audit",
+  "generation_attempts": 1,
+  "hashes": {
+    "capability_decision_sha256": "926faa05513cd594bf1dd598f81dd47e0bf9625461bccc77da400b085ad6de58",
+    "dataset_validator_after_sha256": "402752b949bbdc8f2325785f3393623a2b9a091dc85f74491d891c09ccac1346",
+    "dataset_validator_before_sha256": "cbcf4e0907710152f5446930d70a50e5499ea70f324525cd2919fcdc7d857676",
+    "generation_attempts_sha256": "39a343faaf5ee3dcc1941a90a940f0daf1a1144e872dc2faf53c7839bef75798",
+    "generation_state_sha256": "ea4718658b53ab8fa8e5911a99c200094e80cb19742201fb2d9c4571c2d4bb59",
+    "group_manifest_sha256": "11ab903056e0acbdb9ca5a507f33f3237f3b90f059f445f8df76c1dde174fbab",
+    "group_split_freeze_sha256": "b9d1df02541454b38ab296bd0033b0d327cca0ba720b95c7414ea6ec1bc05843",
+    "prompt_manifest_sha256": "e75c48626f2eabade9cdbc48bb77072c5d470ddce60ec9a903f580d4990aeceb",
+    "prompt_pack_freeze_sha256": "385b7b9f0b6b675c3820e97fe1931bd0e19b9b5839f50a3fcae70fd1feec136b",
+    "prompt_pack_sha256": "8b791d2007b0866f83275082a7394a0d33a5d7bd0aef4ab9f19993fba857a250"
+  },
+  "holdout_consumed": false,
+  "holdout_requests": 0,
+  "images_generated": 0,
+  "prompt_pack_ready": true,
+  "smoke_failure": {
+    "error_code": "INVALID_API_KEY",
+    "http_status": "401",
+    "prompt_id": "PF_P4D_HN_SIT_G001_V01"
+  },
+  "stage": "P4D_NEW_HARD_NEGATIVE_DEV_REVISION",
+  "status": "GENERATION_REQUIRED",
+  "successful_generation_attempts": 0,
+  "val_requests": 0
+}

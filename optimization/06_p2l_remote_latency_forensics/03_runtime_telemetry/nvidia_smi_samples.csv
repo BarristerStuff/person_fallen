@@ -1,0 +1,12 @@
+timestamp_utc,probe,phase,host,status,gpu_index,gpu_uuid,name,temperature_gpu,utilization_gpu,utilization_memory,memory_total,memory_used,memory_free,error
+2026-08-27T02:25:51.079012+00:00,P2L_A,before,tiga@192.168.20.62,unavailable,,,,,,,,,,"tiga@192.168.20.62: Permission denied (publickey,password)."
+2026-08-27T02:25:58.599382+00:00,P2L_A,after,tiga@192.168.20.62,unavailable,,,,,,,,,,"tiga@192.168.20.62: Permission denied (publickey,password)."
+2026-08-27T02:38:03.735238+00:00,P2L_A,before,tiga@192.168.20.62,unavailable,,,,,,,,,,"tiga@192.168.20.62: Permission denied (publickey,password)."
+2026-08-27T02:38:28.369368+00:00,P2L_A,midpoint,tiga@192.168.20.62,unavailable,,,,,,,,,,"tiga@192.168.20.62: Permission denied (publickey,password)."
+2026-08-27T02:38:45.498911+00:00,P2L_A,after,tiga@192.168.20.62,unavailable,,,,,,,,,,"tiga@192.168.20.62: Permission denied (publickey,password)."
+2026-08-27T02:38:51.095527+00:00,P2L_B,before,tiga@192.168.20.62,unavailable,,,,,,,,,,"tiga@192.168.20.62: Permission denied (publickey,password)."
+2026-08-27T02:39:08.486343+00:00,P2L_B,midpoint,tiga@192.168.20.62,unavailable,,,,,,,,,,"tiga@192.168.20.62: Permission denied (publickey,password)."
+2026-08-27T02:39:25.517043+00:00,P2L_B,after,tiga@192.168.20.62,unavailable,,,,,,,,,,"tiga@192.168.20.62: Permission denied (publickey,password)."
+2026-08-27T02:39:33.597619+00:00,P2L_C,before,tiga@192.168.20.62,unavailable,,,,,,,,,,"tiga@192.168.20.62: Permission denied (publickey,password)."
+2026-08-27T02:40:01.864268+00:00,P2L_C,after,tiga@192.168.20.62,unavailable,,,,,,,,,,"tiga@192.168.20.62: Permission denied (publickey,password)."
+2026-08-27T02:43:07.894463+00:00,P2L_FINAL,after,tiga@192.168.20.62,unavailable,,,,,,,,,,"tiga@192.168.20.62: Permission denied (publickey,password)."

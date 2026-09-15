@@ -1,0 +1,61 @@
+{
+  "state": "completed",
+  "phase": "pilot",
+  "request_id": "V6_TARGET_SUPPORT_PILOT_0136",
+  "item_id": "V2_ORIGINAL::IMG_003807",
+  "operational_id": "PFV6_PILOT_0136",
+  "taxonomy": "crawling_without_explicit_maintenance",
+  "group_id": "pf_v2_aigc_h11-crawling-under-equipment-inspection",
+  "evaluation_stratum": "auxiliary_attention",
+  "source_image_sha256": "4e023daecd3b5953c668f2e9da36cc495d266016b85340172fac47ecd98715b1",
+  "full_view_sha256": "75731178c6ec3a9c3f79f2b20aaf26b49d9d9ebab48b678a2c1116e82b0c9eb8",
+  "crop_view_sha256": "fdeac3c50de97c9cf58c83e230f690f6a87f8550eade883c91832986cc102bf9",
+  "payload_sha256": "0f2db22503701f2e3f91b3ed6ba40c8d4aee05b109630ff679c614520b445b24",
+  "claimed_timestamp": "2026-09-14T10:31:15.615031+00:00",
+  "http_status": 200,
+  "latency_seconds": 5.544768160005333,
+  "completion_unknown": false,
+  "transport_error": null,
+  "raw_response_sha256": "2e31a415adea48f6dd432715bfdbf76499617e38b2f2b9dca91a289caf8aed8b",
+  "raw_response_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/24_person_fallen_v6_a0_direct_evaluation/eval/pilot/requests/V6_TARGET_SUPPORT_PILOT_0136/response.raw",
+  "received_timestamp": "2026-09-14T10:31:21.162179+00:00",
+  "strict_json_ok": true,
+  "source_binding_ok": true,
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 197,
+  "parsed": {
+    "scene_coverage": "complete",
+    "people": [
+      {
+        "person_id": 1,
+        "bbox_1000": [
+          396,
+          426,
+          774,
+          833
+        ],
+        "person_visible": "yes",
+        "pose": "kneeling",
+        "torso_orientation": "inclined",
+        "torso_ground_contact": "partial",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "body_support_configuration": "hands_knees_supported",
+        "explicit_work_evidence": "no",
+        "visual_quality": "clear",
+        "evidence": "Person is on all fours in a hallway, supporting weight with hands and knees."
+      }
+    ]
+  },
+  "person_decisions": [
+    {
+      "person_id": 1,
+      "decision": "NO_ALERT_NORMAL_POSE",
+      "reason": "CONSISTENT_KNEELING_SUPPORT"
+    }
+  ],
+  "image_decision": "NO_ALERT_NORMAL_POSE",
+  "image_reason": "ALL_PEOPLE_NORMAL",
+  "completed_timestamp": "2026-09-14T10:31:21.163021+00:00"
+}

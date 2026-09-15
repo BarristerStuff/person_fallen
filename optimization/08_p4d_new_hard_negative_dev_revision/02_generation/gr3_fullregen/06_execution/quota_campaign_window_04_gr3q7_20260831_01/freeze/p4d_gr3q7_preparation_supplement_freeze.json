@@ -1,0 +1,26 @@
+{
+  "artifact_sha256": {
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_04_gr3q7_20260831_01/00_preflight/classifier_regression.json": "84ad663fcdc62ccd09e7aa348d2c32d7b1cf6c6f7b65bd8905040208c5dd7c8c",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_04_gr3q7_20260831_01/00_preflight/completion_unknown_forensics.json": "d30522c76877224a5c39f2727c1aad788a86f3a079f9cf3982981d51f8dc6d22",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_04_gr3q7_20260831_01/00_preflight/dataset_before_after.json": "8c1c224fa31b24295766dc99707778a5129269a3bff27f866dd728fae69e4688",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_04_gr3q7_20260831_01/00_preflight/q6_authority_audit.json": "113fa04aeafe6630d1663023bd0cdfa89001b5214956aeb4cd8c78fa55495801",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_04_gr3q7_20260831_01/02_plan/q7_network_stability_balanced_20_plan.csv": "4b6b44597f6d91a0b754f70a3e460cb8bba45fcf8f03f1cab288e7fec6f7149f",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_04_gr3q7_20260831_01/02_plan/q7_plan_audit.json": "65fd5391291b28e6fe1afea66488f5079eae8d44b9d0f109fb063d5183013a54",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_04_gr3q7_20260831_01/05_checkpoints/authorization_gate.json": "38426329d52b330f915b8e50d644355d4b35c6adc1b9b81c8e8eb4577f405402",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_04_gr3q7_20260831_01/freeze/p4d_gr3q7_preparation_freeze.json": "9ac34d6335c48883845e1bcb8d254596623a13f9625d93a406570d80461cc8c5",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_04_gr3q7_20260831_01/freeze/p4d_gr3q7_preparation_freeze.json.sha256": "601c8e9c9d3c56bb56e81b77c1cf46e463410e18a9878f51d29acc349c8dedb0",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_04_gr3q7_20260831_01/provider_failure_classifier_v2.py": "fbd773b5d5d131f06abd334e041377fc5e0c7b9c0e5e6179164979c2abb624c0",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/PERSON_FALLEN_V2.md": "c40146153350fa8c22ac5a1ad7dd1e014b0545f94a4ad972db30217149ceb920",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/reports/102_p4d_gr3q6_failure_classifier_erratum.md": "d8acc81fb316bb6381103eae39e20356d276c8a13df55b0a49c164839ac677ed",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/reports/103_p4d_gr3q7_completion_unknown_forensics.md": "894ba645b44514728a8ac2856369803bf74cd829352fd18d9ad7eb8467ebce68",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/reports/104_p4d_gr3q7_failure_classifier_v2.md": "0ba9f113b3b61e451bd84c9b1f614f02f0192b911f2022a1754e17c8cd06e508",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/reports/105_p4d_gr3q7_balanced_20_plan.md": "18f23e470790767f7979817775155e312accff90a0c65240e77d9848496cdcf0",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/reports/108_p4d_gr3q7_final.md": "1ff1698c08e9ad7a62e7221fce116db04c5617c403bab6c915e307166f4f4604",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/tools/p4d_gr3q7_seal_preparation_supplement.py": "ba8a716f31126089080c3c340b919393ba3f97d40329493ce94677ebf6e046ee"
+  },
+  "initial_freeze_sha256": "9ac34d6335c48883845e1bcb8d254596623a13f9625d93a406570d80461cc8c5",
+  "provider_requests": 0,
+  "reports_106_107_absent_reason": "no_authorized_execution_or_partial_qa",
+  "stage": "P4D_GR3Q7_NETWORK_STABILITY_RECOVERY",
+  "status": "AWAITING_Q7_GENERATION_AUTHORIZATION"
+}

@@ -1,0 +1,98 @@
+{
+  "state": "completed",
+  "phase": "full_dev_extension",
+  "request_id": "V5_B0_FULLDEV_EXTENSION_0140",
+  "item_id": "P4D_PLAN::PF_P4D_HN_KNEEL_G004_V05",
+  "operational_id": "PFV4DEV_0365",
+  "evaluation_stratum": "normal_negative",
+  "source_image_sha256": "352272dd4b3fef4caccc8b08037f5c433e07ffe26906fd7f9d39e05aa39b2cae",
+  "full_view_sha256": "6206ebed229ddc35f384afb3df4f4407432676d63a1fbab84ea904045de89e4e",
+  "crop_view_sha256": "a272bade82c848e6c2d6d91f76d9cdaf02339690922373b840699cd4ccc3a0fe",
+  "view_count": 2,
+  "view_order": [
+    "full_scene",
+    "person_crop"
+  ],
+  "prompt_sha256": "757fb445efa3f05327947a4c32115e3735823c81d14177199bbf8a6381d3300a",
+  "schema_sha256": "1ccf5a08cd1d6287b33f5d04b0f06101ae75666919c1a9f160ac0c5c335d7817",
+  "policy_sha256": "b2126bf86378fa6d0bcbc67861fa794b320affb1de90dc445f5838223cae68b9",
+  "contracts_sha256": "e88cb1cb2c297200245531d5c5802aa9224dcd1a43e181402adeac23bf949edd",
+  "model": {
+    "endpoint": "http://192.168.20.62:11434",
+    "name": "qwen3.5:4b",
+    "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+    "ollama_version": "0.23.2",
+    "think": false,
+    "stream": false,
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 768,
+    "concurrency": 1,
+    "timeout_seconds": 120,
+    "automatic_retry": false,
+    "resend_completion_unknown": false,
+    "api": "/api/generate"
+  },
+  "freeze_sha256": "900dfdc9fcf0aad9e95ba2c5abfbc23cfdc8dcdec4b9680f36b03fecff750eee",
+  "payload_sha256": "68ea0f6e89511cb2ec7aba026acdc3cd9241af3cd71ed71d8dbc937adea6c945",
+  "claimed_timestamp": "2026-09-09T11:06:04.938239+00:00",
+  "inference_source": "NEW_INFERENCE",
+  "result_source": "NEW_INFERENCE",
+  "taxonomy": "kneeling_half_kneeling",
+  "group_id": "PF_P4D_HN_KNEEL_G004",
+  "source_split": "NEW_DESIGN",
+  "v3_split": "V3_DEV",
+  "ground_truth": "negative",
+  "expected_v4_outcome": "NO_ALERT_NORMAL_POSE",
+  "image_sha256": "352272dd4b3fef4caccc8b08037f5c433e07ffe26906fd7f9d39e05aa39b2cae",
+  "person_detected": "true",
+  "source_binding_ok": true,
+  "strict_json_ok": true,
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 184,
+  "parsed": {
+    "scene_coverage": "complete",
+    "people": [
+      {
+        "person_id": 1,
+        "bbox_1000": [
+          380,
+          390,
+          560,
+          700
+        ],
+        "person_visible": "yes",
+        "pose": "kneeling",
+        "torso_orientation": "upright",
+        "torso_ground_contact": "none",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "explicit_work_evidence": "yes",
+        "visual_quality": "clear",
+        "evidence": "A person is kneeling on the pavement with a small cylindrical object on the ground near their feet."
+      }
+    ]
+  },
+  "person_decisions": [
+    {
+      "person_id": 1,
+      "decision": "NO_ALERT_NORMAL_POSE",
+      "reason": "TARGET_EXPLICIT_WORK_CONTEXT"
+    }
+  ],
+  "image_decision": "NO_ALERT_NORMAL_POSE",
+  "image_reason": "ALL_ENUMERATED_PEOPLE_CLEAR_NORMAL",
+  "http_status": 200,
+  "completion_unknown": false,
+  "transport_error": null,
+  "raw_response_sha256": "1f1354fd9f425471f42b85b25c9c24a743601bcd211460ec9f731ddea6fcd447",
+  "raw_response_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/19_person_fallen_v5_b0_full_dev_recovery_r1/eval/full_dev/requests/V5_B0_FULLDEV_EXTENSION_0140/response.raw",
+  "latency_seconds": 18.523057394995703,
+  "latency_source": "NEW_INFERENCE",
+  "received_timestamp": "2026-09-09T11:06:23.463469+00:00",
+  "completed_timestamp": "2026-09-09T11:06:23.464375+00:00",
+  "EVALUATION_MODE": "SAME_V5_B0_EXACT_RESULT_REUSE_PLUS_NEW_INFERENCE",
+  "LEGACY_V4_CACHE_USED_FOR_DECISION": false,
+  "CACHED_PRIMARY_USED_FOR_FINAL_DECISION": false
+}

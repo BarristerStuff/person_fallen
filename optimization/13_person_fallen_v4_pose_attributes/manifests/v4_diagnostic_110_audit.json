@@ -1,0 +1,26 @@
+{
+  "diagnostic_class_counts": {
+    "floor_sitting": 55,
+    "lying": 55
+  },
+  "diagnostic_only": true,
+  "gt_type": "PROMPT_DERIVED_SYNTHETIC_GT",
+  "holdout_rows_read": 0,
+  "human_pixel_semantic_gt_available": false,
+  "output_manifest": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/manifests/v4_diagnostic_110.csv",
+  "output_manifest_sha256": "0a04a09e81dc2f2ea74fea5037207b012b4a790d076213d81d6d24ab765c9e2d",
+  "parent_manifest": "/home/yanbo/net_vlm_person_fallen_v2_optimization/11_person_fallen_v3_revision/remap/person_fallen_v3_dev_manifest.csv",
+  "parent_manifest_sha256": "fc41fcc39b87d8da7decfd50a4d832e8c5f38470c7c6cf08aaaaa160aa751f2b",
+  "screen_rows_read": 0,
+  "selected_count": 110,
+  "selection_uses_model_predictions": false,
+  "status": "PASS",
+  "taxonomy_counts": {
+    "floor_sitting": 55,
+    "prone_ground_lying": 18,
+    "side_lying": 18,
+    "supine_ground_lying": 19
+  },
+  "unique_image_sha256": 110,
+  "val_rows_read": 0
+}

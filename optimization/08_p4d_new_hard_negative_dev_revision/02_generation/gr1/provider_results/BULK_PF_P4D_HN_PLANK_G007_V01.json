@@ -1,0 +1,95 @@
+{
+  "command": [
+    "<node>",
+    "<gpt-image-2-skill>",
+    "--json",
+    "--json-events",
+    "--provider",
+    "codex",
+    "images",
+    "generate",
+    "--model",
+    "gpt-5.4",
+    "--prompt_sha256",
+    "718d139f6c635e6d2d8319d391d8723300154c45495315d44c9f2a5381f6eed9",
+    "--out",
+    "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/generated_raw/PF_P4D_HN_PLANK_G007_V01.png",
+    "--format",
+    "png",
+    "--size",
+    "1536x1024",
+    "--quality",
+    "medium"
+  ],
+  "elapsed_seconds": 40.93145616599941,
+  "finished_at": "2026-08-27T07:21:57.301+00:00",
+  "payload": {
+    "auth": {
+      "account_id": "f0bc3591-e6fc-442d-a52e-e99efbf5c1eb",
+      "auth_file": "/home/yanbo/.codex/auth.json",
+      "refreshed": false,
+      "source": "auth.json"
+    },
+    "command": "images generate",
+    "events": {
+      "count": 22
+    },
+    "history": {
+      "job_id": "job-1787815317291096987-23211"
+    },
+    "ok": true,
+    "output": {
+      "bytes": 2449854,
+      "files": [
+        {
+          "bytes": 2449854,
+          "index": 0,
+          "path": "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/generated_raw/PF_P4D_HN_PLANK_G007_V01.png"
+        }
+      ],
+      "path": "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/generated_raw/PF_P4D_HN_PLANK_G007_V01.png"
+    },
+    "provider": "codex",
+    "provider_selection": {
+      "edit_region_mode": "reference-hint",
+      "kind": "codex",
+      "reason": "explicit",
+      "requested": "codex",
+      "resolved": "codex",
+      "supports_n": false
+    },
+    "request": {
+      "background": "auto",
+      "delegated_image_model": "gpt-image-2",
+      "format": "png",
+      "model": "gpt-5.4",
+      "operation": "generate",
+      "provider": "codex",
+      "quality": "medium",
+      "ref_image_count": 0,
+      "size": "1536x1024"
+    },
+    "response": {
+      "image_count": 1,
+      "item_ids": [
+        "ig_022f328027dc88e9016a8fe56cdda887d0b5d2b308c96d05c1"
+      ],
+      "model": "gpt-5.4",
+      "response_id": "resp_022f328027dc88e9016a8fe56be80887d0a85b98d52d3d30b3",
+      "revised_prompts": [
+        "Photorealistic 1920x1080 landscape frame from a fixed safety-inspection camera mounted about 1.5 meters above the floor, showing a long industrial aisle between storage racks and workstations. Dull stone flooring, neutral indoor illumination, near-medium oblique view at near-medium distance, natural perspective, realistic scale, enough surrounding context to judge body support. Visible subject: an older adult woman with a small build wearing a beige coat and comfortable shoes, with dark red and denim clothing visible, holding a high plank with straight arms, palms under shoulders, toes on the floor, abdomen lifted between active supports. Plausible unedited inspection-camera capture, subject clearly visible, subtle floor reflections, realistic perspective lines, ordinary photographic detail, restrained contrast, non-cinematic, non-advertising look. No text, caption, watermark, logo, warning label, overlay, bounding box, arrow, circle, or annotation."
+      ],
+      "service_tier": "default",
+      "status": "completed"
+    },
+    "retry": {
+      "count": 0,
+      "max_retries": 3
+    }
+  },
+  "phase": "BULK",
+  "prompt_id": "PF_P4D_HN_PLANK_G007_V01",
+  "returncode": 0,
+  "sequence": 153,
+  "started_at": "2026-08-27T07:21:16.369+00:00"
+}

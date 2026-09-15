@@ -1,0 +1,201 @@
+{
+  "status": "PARTIAL_OBSERVED_ONLY",
+  "full_dev_expected_rows": 436,
+  "V5_B0_REUSED_RESULTS": 115,
+  "new_results_observed": 274,
+  "new_requests_claimed": 274,
+  "new_requests_completed": 274,
+  "new_requests_unknown": 0,
+  "new_requests_not_started": 47,
+  "completed_full_dev": false,
+  "observed_rows": 389,
+  "pending_rows": 47,
+  "observed_by_stratum": {
+    "ground_lying": 145,
+    "normal_negative": 230,
+    "auxiliary_attention": 14,
+    "visual_uncertain": 0
+  },
+  "pending_by_stratum": {
+    "ground_lying": 0,
+    "normal_negative": 0,
+    "auxiliary_attention": 27,
+    "visual_uncertain": 20
+  },
+  "max_possible_final_ground_alert": 145,
+  "ground_lying": {
+    "observed": 145,
+    "pending": 0,
+    "ALERT": 145,
+    "RECHECK": 0,
+    "NO_ALERT": 0,
+    "ATTENTION": 0,
+    "ALERT_recall_observed": 1.0,
+    "ALERT_RECHECK_coverage_observed": 1.0
+  },
+  "normal_negative": {
+    "observed": 230,
+    "pending": 0,
+    "ALERT": 0,
+    "RECHECK": 8,
+    "NO_ALERT": 221,
+    "ATTENTION": 1,
+    "ALERT_FPR_observed": 0.0,
+    "total_RECHECK_rate_observed": 0.034782608695652174
+  },
+  "floor_sitting": {
+    "count": 55,
+    "observed": 55,
+    "pending": 0,
+    "ALERT": 0,
+    "RECHECK": 5,
+    "NO_ALERT": 50,
+    "ATTENTION": 0
+  },
+  "auxiliary_attention": {
+    "observed": 14,
+    "pending": 27,
+    "ALERT": 1,
+    "RECHECK": 0,
+    "NO_ALERT": 0,
+    "ATTENTION": 13
+  },
+  "visual_uncertain_distribution": {
+    "observed": 0,
+    "pending": 20,
+    "ALERT": 0,
+    "RECHECK": 0,
+    "NO_ALERT": 0,
+    "ATTENTION": 0
+  },
+  "by_taxonomy_observed": {
+    "bending_pickup": {
+      "NO_ALERT_NORMAL_POSE": 19,
+      "RECHECK_VISUAL_UNCERTAIN": 1
+    },
+    "chair_seated_normal_work": {
+      "NO_ALERT_NORMAL_POSE": 15
+    },
+    "chair_sitting": {
+      "NO_ALERT_NORMAL_POSE": 19,
+      "RECHECK_VISUAL_UNCERTAIN": 1
+    },
+    "curled_or_sprawled_lying": {
+      "ALERT_GROUND_LYING": 10
+    },
+    "floor_sitting": {
+      "NO_ALERT_NORMAL_POSE": 50,
+      "RECHECK_VISUAL_UNCERTAIN": 5
+    },
+    "ground_maintenance": {
+      "NO_ALERT_NORMAL_POSE": 4,
+      "ATTENTION_NEAR_GROUND": 1
+    },
+    "intentional_ground_lying": {
+      "ALERT_GROUND_LYING": 5
+    },
+    "irregular_sprawled_lying": {
+      "ALERT_GROUND_LYING": 10
+    },
+    "kneeling_half_kneeling": {
+      "NO_ALERT_NORMAL_POSE": 54,
+      "RECHECK_VISUAL_UNCERTAIN": 1
+    },
+    "multi_person_one_lying": {
+      "ALERT_GROUND_LYING": 5
+    },
+    "ordinary_work": {
+      "NO_ALERT_NORMAL_POSE": 20
+    },
+    "partially_occluded_lying": {
+      "ALERT_GROUND_LYING": 20
+    },
+    "prone_ground_lying": {
+      "ALERT_GROUND_LYING": 25
+    },
+    "pushup_plank": {
+      "ATTENTION_NEAR_GROUND": 13,
+      "ALERT_GROUND_LYING": 1
+    },
+    "side_lying": {
+      "ALERT_GROUND_LYING": 25
+    },
+    "small_target_ground_lying": {
+      "ALERT_GROUND_LYING": 20
+    },
+    "squat_crouch_deep_bend": {
+      "NO_ALERT_NORMAL_POSE": 20
+    },
+    "standing": {
+      "NO_ALERT_NORMAL_POSE": 10
+    },
+    "supine_ground_lying": {
+      "ALERT_GROUND_LYING": 25
+    },
+    "walking": {
+      "NO_ALERT_NORMAL_POSE": 10
+    }
+  },
+  "people_count_distribution": {
+    "1": 321,
+    "2": 42,
+    "3": 26
+  },
+  "scene_coverage_distribution": {
+    "complete": 389
+  },
+  "bbox_null_count": 0,
+  "person_attribute_distributions": {
+    "pose": {
+      "bending": 20,
+      "chair_sitting": 70,
+      "crawling": 1,
+      "curled_lying": 3,
+      "floor_sitting": 56,
+      "kneeling": 57,
+      "prone": 60,
+      "pushup_plank": 13,
+      "side_lying": 21,
+      "squat_crouch": 23,
+      "standing": 43,
+      "supine": 62,
+      "walking": 54
+    },
+    "support_surface": {
+      "bed_sofa": 5,
+      "chair": 67,
+      "floor": 410,
+      "unknown": 1
+    },
+    "torso_ground_contact": {
+      "broad": 146,
+      "none": 248,
+      "partial": 89
+    },
+    "torso_orientation": {
+      "horizontal": 159,
+      "inclined": 43,
+      "upright": 281
+    }
+  },
+  "person_conflict_reason_distribution": {
+    "NORMAL_GROUND_ATTRIBUTES_UNRESOLVED_OR_CONFLICTING": 1,
+    "TARGET_EVIDENCE_UNRELIABLE": 8
+  },
+  "new_request_latency_p50": 3.017438205497456,
+  "new_request_latency_p95": 18.60924119549745,
+  "new_request_latency_p99": 19.583932752895485,
+  "new_request_output_token_statistics": {
+    "count": 274,
+    "min": 156,
+    "max": 525,
+    "mean": 222.75182481751824
+  },
+  "protocol_failures": [],
+  "validation_errors": [],
+  "early_stop_trigger": "E_AUXILIARY_HIGH_PRIORITY_ALERT",
+  "FULL_DEV_GATE": "NOT_EVALUATED_PARTIAL",
+  "LEGACY_V4_CACHE_USED_FOR_DECISION": false,
+  "OBJECT_LOCALIZATION_ACCURACY": "UNVERIFIED",
+  "known_regression": "PREVIOUS_PASS_NOT_RERUN"
+}

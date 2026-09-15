@@ -1,0 +1,69 @@
+{
+  "c3_design_fn_count": 0,
+  "c3_design_fp_count": 2,
+  "c3_design_metrics": {
+    "FN": 0,
+    "FP": 2,
+    "TN": 108,
+    "TP": 70,
+    "accuracy": 0.9888888888888889,
+    "determinate_count": 180,
+    "f1": 0.9859154929577465,
+    "gt_uncertain_prediction_distribution": {
+      "negative": 6,
+      "positive": 4
+    },
+    "hard_negative_fpr": 0.02857142857142857,
+    "model_uncertain_count": 0,
+    "model_uncertain_rate": 0.0,
+    "ordinary_negative_fpr": 0.0,
+    "precision": 0.9722222222222222,
+    "recall": 1.0
+  },
+  "c3_predictions_sha256": "731d4d35b1c55dd519a5ac89350aeaf93cd4f30437ebc350fd39981fa3f6bd13",
+  "c3_summary_sha256": "1607e63a8c0237ef4368dcf5ea8eb8baf207ff4a9259335a776eca99fa159e74",
+  "design_manifest_sha256": "f221e760bd1e6a86c648a60750db7d6f06119c7b872da894cf121e17ed6a79d1",
+  "design_rows": 190,
+  "evidence_to_label_inconsistency_count": 0,
+  "explicit_support_clue_count": 2,
+  "gt_integrity_concern": false,
+  "holdout_used": 0,
+  "residual_taxonomy_counts": {
+    "deep_bending_or_picking": {
+      "C3_FP": 0,
+      "C3_TN": 20,
+      "category_FPR": 0.0,
+      "total_samples": 20
+    },
+    "exercise_pushup_or_plank": {
+      "C3_FP": 1,
+      "C3_TN": 9,
+      "category_FPR": 0.1,
+      "total_samples": 10
+    },
+    "kneeling_or_half_kneeling": {
+      "C3_FP": 1,
+      "C3_TN": 19,
+      "category_FPR": 0.05,
+      "total_samples": 20
+    },
+    "sitting_on_floor": {
+      "C3_FP": 0,
+      "C3_TN": 10,
+      "category_FPR": 0.0,
+      "total_samples": 10
+    },
+    "squatting_or_crouching": {
+      "C3_FP": 0,
+      "C3_TN": 10,
+      "category_FPR": 0.0,
+      "total_samples": 10
+    }
+  },
+  "screen_individual_errors_used": 0,
+  "source": "P2_DESIGN_ONLY",
+  "stage": "P3_STRUCTURED_HARD_NEGATIVE_REFINEMENT",
+  "support_clue_not_double_counted_as_type_a": true,
+  "val_individual_errors_used": 0,
+  "visual_attribute_extraction_error_count": 2
+}

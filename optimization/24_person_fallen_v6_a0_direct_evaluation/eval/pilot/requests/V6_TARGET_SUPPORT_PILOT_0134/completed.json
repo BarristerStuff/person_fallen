@@ -1,0 +1,61 @@
+{
+  "state": "completed",
+  "phase": "pilot",
+  "request_id": "V6_TARGET_SUPPORT_PILOT_0134",
+  "item_id": "V2_ORIGINAL::IMG_003805",
+  "operational_id": "PFV6_PILOT_0134",
+  "taxonomy": "crawling_without_explicit_maintenance",
+  "group_id": "pf_v2_aigc_h11-crawling-under-equipment-inspection",
+  "evaluation_stratum": "auxiliary_attention",
+  "source_image_sha256": "4abbcee850e7c6b0ed6e043cae4a10892e5502f0705fd8bf2bce014ee8ad9c27",
+  "full_view_sha256": "e6a274d6bdb49f3e979b73fe30c6d5b0046b0658d8c2e32da3e5c64f0aa6dcc3",
+  "crop_view_sha256": "361ec93e6352ada39411f4f2333032bef1c0e65da922250ec54a2c857a35f072",
+  "payload_sha256": "ce4a6db25ad5f2ca3e67825d686fd79f9660d73a9f35dfb2897e35674a4b1ab7",
+  "claimed_timestamp": "2026-09-14T10:31:04.075949+00:00",
+  "http_status": 200,
+  "latency_seconds": 5.909678468000493,
+  "completion_unknown": false,
+  "transport_error": null,
+  "raw_response_sha256": "3c0949136f1deb8044010baed4c607d0e2a41d4a3c64f06338ccd40485409173",
+  "raw_response_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/24_person_fallen_v6_a0_direct_evaluation/eval/pilot/requests/V6_TARGET_SUPPORT_PILOT_0134/response.raw",
+  "received_timestamp": "2026-09-14T10:31:09.989199+00:00",
+  "strict_json_ok": true,
+  "source_binding_ok": true,
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 208,
+  "parsed": {
+    "scene_coverage": "complete",
+    "people": [
+      {
+        "person_id": 1,
+        "bbox_1000": [
+          388,
+          433,
+          745,
+          745
+        ],
+        "person_visible": "yes",
+        "pose": "kneeling",
+        "torso_orientation": "upright",
+        "torso_ground_contact": "partial",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "body_support_configuration": "hands_knees_supported",
+        "explicit_work_evidence": "yes",
+        "visual_quality": "clear",
+        "evidence": "Person is kneeling on the floor in a hospital corridor, wearing grey scrubs and a mask, with hands and knees supporting the body."
+      }
+    ]
+  },
+  "person_decisions": [
+    {
+      "person_id": 1,
+      "decision": "NO_ALERT_NORMAL_POSE",
+      "reason": "CONSISTENT_KNEELING_SUPPORT"
+    }
+  ],
+  "image_decision": "NO_ALERT_NORMAL_POSE",
+  "image_reason": "ALL_PEOPLE_NORMAL",
+  "completed_timestamp": "2026-09-14T10:31:09.989966+00:00"
+}

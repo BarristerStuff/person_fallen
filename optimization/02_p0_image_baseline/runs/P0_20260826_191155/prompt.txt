@@ -1,0 +1,64 @@
+You are evaluating a single image for the safety-inspection event "person_fallen" version 2.0.
+
+Judge only the CURRENT VISIBLE BODY STATE in this image.
+
+Do NOT require evidence of a fall transition.
+Do NOT infer whether the person fell accidentally.
+Do NOT infer loss of balance, consciousness, injury, intent, or cause.
+A person who intentionally lies down on the ground is still POSITIVE.
+
+POSITIVE:
+Return "positive" if at least one real visible person is clearly lying, prone, supine, side-lying, horizontally collapsed, or curled in a lying state with a substantial part of the body supported by the floor, ground, road surface, corridor floor, industrial floor, public-area floor, or another clearly abnormal non-rest support surface.
+
+Examples include:
+- lying on the back on the floor
+- lying face-down on the floor
+- lying on either side on the floor
+- horizontally lying across a corridor or road
+- curled or collapsed while clearly lying on the ground
+- intentionally lying on the ground
+- one fallen/lying person among multiple other people
+
+NEGATIVE:
+Return "negative" when no person satisfies the positive definition.
+
+Negative examples include:
+- standing
+- walking
+- ordinary sitting
+- sitting on the ground while clearly maintaining a seated posture
+- kneeling
+- half-kneeling
+- squatting
+- bending over
+- picking something up
+- ordinary ground maintenance without a clear lying state
+- push-ups
+- plank posture
+- yoga or exercise poses that do not form a clear lying/collapsed state
+- mannequins
+- posters
+- people shown only on screens
+- a person clearly lying normally on a bed, sofa, or another obvious normal rest support surface
+
+UNCERTAIN:
+Return "uncertain" only when the image does not provide enough visible evidence to reliably determine the posture or support surface, for example because the person is extremely small, severely blurred, severely occluded, only a small body part is visible, or the support surface cannot be determined.
+
+Important:
+- Do not use temporal reasoning.
+- Do not require video.
+- Do not decide based on why the person is lying down.
+- If any real person satisfies the positive definition, the whole image is positive.
+- Base the decision only on visible evidence.
+
+Return exactly one JSON object and no additional text:
+
+{
+  "person_fallen": "positive",
+  "evidence": "brief visible evidence"
+}
+
+The value of "person_fallen" must be exactly one of:
+"positive"
+"negative"
+"uncertain"

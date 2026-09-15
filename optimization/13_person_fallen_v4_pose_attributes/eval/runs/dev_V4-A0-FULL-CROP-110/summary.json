@@ -1,0 +1,57 @@
+{
+  "candidate": "V4-A0-FULL-CROP-110",
+  "config_sha256": "088fe0079ffbd9240810f80beb233527844fa972b8b2d65557fa57264d73aca5",
+  "crop_manifest_sha256": "f361f2c6e05da411f6e91dcb88daa735500afa6f09911e16e9a2a632b0aa58d3",
+  "diagnostic_only": true,
+  "gate_checks": {
+    "detector_coverage": true,
+    "floor_sitting_false_alarm": true,
+    "floor_sitting_no_alert": true,
+    "lying_alert_recall": true,
+    "recheck_rate": true,
+    "strict_json": true
+  },
+  "gate_pass": true,
+  "gt_type": "PROMPT_DERIVED_SYNTHETIC_GT",
+  "holdout_requests": 0,
+  "metrics": {
+    "decision_distribution": {
+      "ALERT_GROUND_LYING": 55,
+      "NO_ALERT_NORMAL_POSE": 54,
+      "RECHECK_VISUAL_UNCERTAIN": 1
+    },
+    "detector_coverage": 1.0,
+    "floor_sitting_count": 55,
+    "floor_sitting_false_alarm_count": 0,
+    "floor_sitting_false_alarm_rate": 0.0,
+    "floor_sitting_no_alert_count": 54,
+    "floor_sitting_no_alert_rate": 0.9818181818181818,
+    "latency_seconds": {
+      "max": 7.8277819480026665,
+      "mean": 2.592000986609128,
+      "p50": 2.5585826954993536,
+      "p95": 2.8849537730999146
+    },
+    "lying_alert_count": 55,
+    "lying_alert_recall": 1.0,
+    "lying_count": 55,
+    "pose_distribution": {
+      "floor_sitting": 55,
+      "prone": 19,
+      "side_lying": 13,
+      "supine": 23
+    },
+    "pose_family_accuracy": 1.0,
+    "recheck_count": 1,
+    "recheck_rate": 0.00909090909090909,
+    "sample_count": 110,
+    "strict_json_success": 1.0
+  },
+  "model_prediction_used_as_gt": false,
+  "next_action": "BUILD_FULL_DEV_MANIFEST_ONLY",
+  "prompt_sha256": "a81367203bfff7fe8aaae491bf04a8d9eb92057c701412bbd316b8d43f98fad7",
+  "revision_id": "PERSON_FALLEN_V4_POSE_ATTRIBUTES_20260908_01",
+  "screen_requests": 0,
+  "status": "COMPLETE",
+  "val_requests": 0
+}

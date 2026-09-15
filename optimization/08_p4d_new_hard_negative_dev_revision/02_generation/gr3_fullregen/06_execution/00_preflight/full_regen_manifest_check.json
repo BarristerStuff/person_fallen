@@ -1,0 +1,24 @@
+{
+  "missing_prompt_files": 0,
+  "missing_prompt_ids": [],
+  "pass": true,
+  "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/03_fullregen_plan/full_regen_prompt_manifest.csv",
+  "prompt_byte_mismatch": 0,
+  "prompt_mismatch_ids": [],
+  "role_counts": {
+    "hard_negative": 300,
+    "ordinary_negative": 40,
+    "positive": 100
+  },
+  "rows": 440,
+  "sha256_actual": "5f7afbc010a0028497ec0210e75dc28cc79212fbc114cbf4741ee0bc4ce361c4",
+  "sha256_expected": "5f7afbc010a0028497ec0210e75dc28cc79212fbc114cbf4741ee0bc4ce361c4",
+  "sha_match": true,
+  "split_counts": {
+    "NEW_DESIGN": 265,
+    "NEW_SCREEN": 175
+  },
+  "unique_group_ids": 88,
+  "unique_prompt_ids": 440,
+  "verified_at": "2026-08-27T10:00:44.772+00:00"
+}

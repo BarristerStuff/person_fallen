@@ -1,0 +1,471 @@
+{
+  "stage": "P2L_REMOTE_LATENCY_FORENSICS",
+  "high_load_threshold_seconds": 5.0,
+  "historical_primary_latency_component": "load_duration",
+  "screen": {
+    "count": 120,
+    "component_stats": {
+      "client_latency_seconds": {
+        "count": 120,
+        "mean": 1.5936374922593435,
+        "median": 1.580912470817566,
+        "p50": 1.580912470817566,
+        "p90": 1.74936044216156,
+        "p95": 1.8146114349365234,
+        "max": 1.992321491241455
+      },
+      "total_duration_seconds": {
+        "count": 120,
+        "mean": 1.5854916398583334,
+        "median": 1.5728406769999999,
+        "p50": 1.5728406769999999,
+        "p90": 1.7414782861,
+        "p95": 1.80616850635,
+        "max": 1.983871098
+      },
+      "load_duration_seconds": {
+        "count": 120,
+        "mean": 0.45593665124166666,
+        "median": 0.4595179035,
+        "p50": 0.4595179035,
+        "p90": 0.488110863,
+        "p95": 0.50548487375,
+        "max": 0.520834357
+      },
+      "prompt_eval_duration_seconds": {
+        "count": 120,
+        "mean": 0.122913798675,
+        "median": 0.120626254,
+        "p50": 0.120626254,
+        "p90": 0.1348102542,
+        "p95": 0.1423305558,
+        "max": 0.160799673
+      },
+      "eval_duration_seconds": {
+        "count": 120,
+        "mean": 0.4853633468333333,
+        "median": 0.465114041,
+        "p50": 0.465114041,
+        "p90": 0.5939261178,
+        "p95": 0.6406299388999999,
+        "max": 0.813112733
+      },
+      "load_ratio": {
+        "count": 120,
+        "mean": 0.2887208180572846,
+        "median": 0.2888219730400049,
+        "p50": 0.2888219730400049,
+        "p90": 0.3178993577472893,
+        "p95": 0.32285431119341595,
+        "max": 0.3493021467441146
+      },
+      "prompt_eval_ratio": {
+        "count": 120,
+        "mean": 0.07788078462870883,
+        "median": 0.07697114938358611,
+        "p50": 0.07697114938358611,
+        "p90": 0.08737654603405683,
+        "p95": 0.08973598131835117,
+        "max": 0.1043455337993905
+      },
+      "eval_ratio": {
+        "count": 120,
+        "mean": 0.3041010234784366,
+        "median": 0.2957500245350819,
+        "p50": 0.2957500245350819,
+        "p90": 0.3476431480081638,
+        "p95": 0.3740457343671612,
+        "max": 0.4165447195272113
+      },
+      "client_overhead_seconds": {
+        "count": 120,
+        "mean": 0.008145852401010128,
+        "median": 0.007994000849487315,
+        "p50": 0.007994000849487315,
+        "p90": 0.008712948550671373,
+        "p95": 0.009256401923205548,
+        "max": 0.01863017368103037
+      }
+    },
+    "high_load_threshold_seconds": 5.0,
+    "high_load_count": 0,
+    "low_load_count": 120,
+    "prompt_eval_count_values": {
+      "598": 120
+    },
+    "prompt_eval_count_stable": true,
+    "eval_count_stats": {
+      "count": 120,
+      "mean": 58.958333333333336,
+      "median": 56.0,
+      "p50": 56.0,
+      "p90": 71.10000000000001,
+      "p95": 78.0,
+      "max": 95
+    },
+    "high_load_eval_count_stats": {
+      "count": 0,
+      "mean": null,
+      "median": null,
+      "p50": null,
+      "p90": null,
+      "p95": null,
+      "max": null
+    },
+    "low_load_eval_count_stats": {
+      "count": 120,
+      "mean": 58.958333333333336,
+      "median": 56.0,
+      "p50": 56.0,
+      "p90": 71.10000000000001,
+      "p95": 78.0,
+      "max": 95
+    },
+    "eval_count_load_spearman": -0.038338765339134856,
+    "image_bytes_stats": {
+      "count": 120,
+      "mean": 15571.591666666667,
+      "median": 15437.0,
+      "p50": 15437.0,
+      "p90": 18860.4,
+      "p95": 20898.899999999998,
+      "max": 26692
+    },
+    "image_bytes_load_spearman": 0.036988679769428434,
+    "high_load_image_bytes_stats": {
+      "count": 0,
+      "mean": null,
+      "median": null,
+      "p50": null,
+      "p90": null,
+      "p95": null,
+      "max": null
+    },
+    "low_load_image_bytes_stats": {
+      "count": 120,
+      "mean": 15571.591666666667,
+      "median": 15437.0,
+      "p50": 15437.0,
+      "p90": 18860.4,
+      "p95": 20898.899999999998,
+      "max": 26692
+    },
+    "runs": [
+      {
+        "start_index": 1,
+        "end_index": 120,
+        "state": "LOW",
+        "count": 120
+      }
+    ],
+    "change_points": [
+      {
+        "dataset": "SCREEN",
+        "request_index": 1,
+        "change_type": "START_LOW",
+        "from_state": "START",
+        "to_state": "LOW",
+        "request_id": "P2_SCREEN_C3_20260826_231841_001",
+        "media_id": "IMG_003702",
+        "timestamp_start_utc": "2026-08-26T15:18:41.598818+00:00",
+        "load_duration_seconds": 0.477151135
+      }
+    ],
+    "config_prompt_sha_values": [
+      "685bb9724b1faa96298c1e6cf8139774d82afbc9d2f30cdd154fbe5cb776951e"
+    ],
+    "config_fingerprints": [
+      "872e7210a216c9d496b7930f0b9cf4cef059012ab7c9c4aea23138f3dc8086fe"
+    ],
+    "model_values": [
+      "qwen3.5:4b"
+    ],
+    "format_values": [
+      "json"
+    ],
+    "think_values": [
+      "False"
+    ],
+    "stream_values": [
+      "False"
+    ]
+  },
+  "val": {
+    "count": 100,
+    "component_stats": {
+      "client_latency_seconds": {
+        "count": 100,
+        "mean": 10.385933508872986,
+        "median": 14.682363271713257,
+        "p50": 14.682363271713257,
+        "p90": 15.81425304412842,
+        "p95": 18.144259083271027,
+        "max": 21.15741229057312
+      },
+      "total_duration_seconds": {
+        "count": 100,
+        "mean": 10.37751463788,
+        "median": 14.6737211235,
+        "p50": 14.6737211235,
+        "p90": 15.806042764600004,
+        "p95": 18.1364866477,
+        "max": 21.146446276
+      },
+      "load_duration_seconds": {
+        "count": 100,
+        "mean": 9.03009100831,
+        "median": 13.3247002285,
+        "p50": 13.3247002285,
+        "p90": 14.2992463753,
+        "p95": 16.756086834199998,
+        "max": 19.819996634
+      },
+      "prompt_eval_duration_seconds": {
+        "count": 100,
+        "mean": 0.14228249416,
+        "median": 0.140699022,
+        "p50": 0.140699022,
+        "p90": 0.16013801960000001,
+        "p95": 0.16767448705000002,
+        "max": 0.187441342
+      },
+      "eval_duration_seconds": {
+        "count": 100,
+        "mean": 0.52579053625,
+        "median": 0.493393449,
+        "p50": 0.493393449,
+        "p90": 0.6733007731,
+        "p95": 0.7448425519999999,
+        "max": 0.864074922
+      },
+      "load_ratio": {
+        "count": 100,
+        "mean": 0.675362743131486,
+        "median": 0.8953876078435035,
+        "p50": 0.8953876078435035,
+        "p90": 0.9157381410365765,
+        "p95": 0.9233838165772146,
+        "max": 0.9383569690314819
+      },
+      "prompt_eval_ratio": {
+        "count": 100,
+        "mean": 0.03548448347511953,
+        "median": 0.01047983627074637,
+        "p50": 0.01047983627074637,
+        "p90": 0.08343266903480506,
+        "p95": 0.08698666908743417,
+        "max": 0.09476947248387341
+      },
+      "eval_ratio": {
+        "count": 100,
+        "mean": 0.13631099354554155,
+        "median": 0.043350306616454726,
+        "p50": 0.043350306616454726,
+        "p90": 0.3272062104833061,
+        "p95": 0.33892324133118973,
+        "max": 0.4351352434072896
+      },
+      "client_overhead_seconds": {
+        "count": 100,
+        "mean": 0.00841887099298586,
+        "median": 0.008321858170410201,
+        "p50": 0.008321858170410201,
+        "p90": 0.009683388879345634,
+        "p95": 0.009963560501764423,
+        "max": 0.02144025375036618
+      }
+    },
+    "high_load_threshold_seconds": 5.0,
+    "high_load_count": 63,
+    "low_load_count": 37,
+    "prompt_eval_count_values": {
+      "598": 100
+    },
+    "prompt_eval_count_stable": true,
+    "eval_count_stats": {
+      "count": 100,
+      "mean": 61.55,
+      "median": 57.5,
+      "p50": 57.5,
+      "p90": 80.30000000000003,
+      "p95": 87.29999999999998,
+      "max": 102
+    },
+    "high_load_eval_count_stats": {
+      "count": 63,
+      "mean": 61.92063492063492,
+      "median": 57,
+      "p50": 57,
+      "p90": 83.0,
+      "p95": 92.39999999999999,
+      "max": 97
+    },
+    "low_load_eval_count_stats": {
+      "count": 37,
+      "mean": 60.91891891891892,
+      "median": 58,
+      "p50": 58,
+      "p90": 74.39999999999999,
+      "p95": 80.59999999999997,
+      "max": 102
+    },
+    "eval_count_load_spearman": -0.17435523203238062,
+    "image_bytes_stats": {
+      "count": 100,
+      "mean": 15873.86,
+      "median": 15900.0,
+      "p50": 15900.0,
+      "p90": 19336.7,
+      "p95": 20700.75,
+      "max": 24884
+    },
+    "image_bytes_load_spearman": 0.12454845484548455,
+    "high_load_image_bytes_stats": {
+      "count": 63,
+      "mean": 16088.126984126984,
+      "median": 16166,
+      "p50": 16166,
+      "p90": 19638.200000000004,
+      "p95": 21116.3,
+      "max": 24884
+    },
+    "low_load_image_bytes_stats": {
+      "count": 37,
+      "mean": 15509.027027027027,
+      "median": 15327,
+      "p50": 15327,
+      "p90": 19323.8,
+      "p95": 19585.799999999996,
+      "max": 20962
+    },
+    "runs": [
+      {
+        "start_index": 1,
+        "end_index": 20,
+        "state": "HIGH",
+        "count": 20
+      },
+      {
+        "start_index": 21,
+        "end_index": 21,
+        "state": "LOW",
+        "count": 1
+      },
+      {
+        "start_index": 22,
+        "end_index": 64,
+        "state": "HIGH",
+        "count": 43
+      },
+      {
+        "start_index": 65,
+        "end_index": 100,
+        "state": "LOW",
+        "count": 36
+      }
+    ],
+    "change_points": [
+      {
+        "dataset": "VAL",
+        "request_index": 1,
+        "change_type": "START_HIGH",
+        "from_state": "START",
+        "to_state": "HIGH",
+        "request_id": "P2_VAL_C3_20260827_091522_001",
+        "media_id": "IMG_003812",
+        "timestamp_start_utc": "2026-08-27T01:15:22.825851+00:00",
+        "load_duration_seconds": 9.524877227
+      },
+      {
+        "dataset": "VAL",
+        "request_index": 21,
+        "change_type": "HIGH_TO_LOW",
+        "from_state": "HIGH",
+        "to_state": "LOW",
+        "request_id": "P2_VAL_C3_20260827_091522_021",
+        "media_id": "IMG_003832",
+        "timestamp_start_utc": "2026-08-27T01:20:40.551622+00:00",
+        "load_duration_seconds": 0.519532427
+      },
+      {
+        "dataset": "VAL",
+        "request_index": 22,
+        "change_type": "LOW_TO_HIGH",
+        "from_state": "LOW",
+        "to_state": "HIGH",
+        "request_id": "P2_VAL_C3_20260827_091522_022",
+        "media_id": "IMG_003833",
+        "timestamp_start_utc": "2026-08-27T01:20:42.467730+00:00",
+        "load_duration_seconds": 13.304314062
+      },
+      {
+        "dataset": "VAL",
+        "request_index": 65,
+        "change_type": "HIGH_TO_LOW",
+        "from_state": "HIGH",
+        "to_state": "LOW",
+        "request_id": "P2_VAL_C3_20260827_091522_065",
+        "media_id": "IMG_004106",
+        "timestamp_start_utc": "2026-08-27T01:31:45.333835+00:00",
+        "load_duration_seconds": 0.50097417
+      }
+    ],
+    "config_prompt_sha_values": [
+      "685bb9724b1faa96298c1e6cf8139774d82afbc9d2f30cdd154fbe5cb776951e"
+    ],
+    "config_fingerprints": [
+      "872e7210a216c9d496b7930f0b9cf4cef059012ab7c9c4aea23138f3dc8086fe"
+    ],
+    "model_values": [
+      "qwen3.5:4b"
+    ],
+    "format_values": [
+      "json"
+    ],
+    "think_values": [
+      "False"
+    ],
+    "stream_values": [
+      "False"
+    ]
+  },
+  "config_match": {
+    "screen_config_fingerprints": [
+      "872e7210a216c9d496b7930f0b9cf4cef059012ab7c9c4aea23138f3dc8086fe"
+    ],
+    "val_config_fingerprints": [
+      "872e7210a216c9d496b7930f0b9cf4cef059012ab7c9c4aea23138f3dc8086fe"
+    ],
+    "screen_val_config_equal": true,
+    "prompt_sha_values": [
+      "685bb9724b1faa96298c1e6cf8139774d82afbc9d2f30cdd154fbe5cb776951e"
+    ],
+    "prompt_matches_expected_c3": true,
+    "model_values": [
+      "qwen3.5:4b"
+    ],
+    "format_values": [
+      "json"
+    ],
+    "think_values": [
+      "False"
+    ],
+    "stream_values": [
+      "False"
+    ],
+    "generation_options_values": [
+      "{\"num_ctx\":8192,\"num_predict\":256,\"temperature\":0}"
+    ],
+    "reduced_scalar_config_equal": true
+  },
+  "source_hashes": {
+    "screen_raw": "f6e56030612e35c4065fe707054793701e875e9172c195d7783ba113a53bb5db",
+    "screen_request_log": "4fa22a1a7cfd72145ad5db8e1bf879aeb7e3a2748560352e0414d420b2af33e0",
+    "screen_manifest": "ccb8c9df51371dbfd2a8e34201ccd42b0a825eea4444ba45a3aaa6945094aab5",
+    "val_raw": "cd04ddd89328d7464856dafc8dd99c95eae1761fc7df19b6996ee3de2ad32b4a",
+    "val_request_log": "9b462e6b6b20a57d076b32b98c9b27700fc1fc14f229c63a66baff97ba4d084e",
+    "val_manifest": "f3feb12b364ffbf045857d6b4ba77ed28932ccf0d9c1d644db7a10de7dfd7762"
+  },
+  "p2l_new_val_requests": 0,
+  "p2l_holdout_requests": 0
+}

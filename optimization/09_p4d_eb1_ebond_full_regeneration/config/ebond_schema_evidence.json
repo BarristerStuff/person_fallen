@@ -1,0 +1,49 @@
+{
+  "historical_evidence": {
+    "automatic_retries": 0,
+    "endpoint": "https://api.ebondai.com/v1/images/generations",
+    "generation_api_calls": 1,
+    "historical_actual_size": null,
+    "historical_requested_size": "1920x1080",
+    "http_status": 200,
+    "image_source": "b64_json",
+    "response_image_field": "data[0].b64_json",
+    "tested_at": "2026-07-31T12:55:30.3713519+08:00"
+  },
+  "no_guessing": true,
+  "request_schema": {
+    "extra_generation_fields": [],
+    "headers": [
+      "Authorization: Bearer <redacted>",
+      "Content-Type: application/json",
+      "Accept: application/json"
+    ],
+    "json_fields": {
+      "model": "gpt-image-2",
+      "prompt": "frozen prompt text",
+      "quality": "medium",
+      "size": "1536x1024"
+    },
+    "method": "POST",
+    "url": "https://api.ebondai.com/v1/images/generations"
+  },
+  "response_schema": {
+    "required": [
+      "data[0].b64_json"
+    ],
+    "url_fallback": false
+  },
+  "schema_verified": true,
+  "source_files": [
+    {
+      "kind": "historical successful direct capability result",
+      "path": "/home/yanbo/.local/share/Trash/files/image.2/archive/api-capability-tests-20260731/ebondai-direct-1920x1080-result.json",
+      "sha256": "166bcb793437f41a873ff9d2d3f00ef4eba07cfda93855ee7cbb779e63d9a68d"
+    },
+    {
+      "kind": "local skill provider reference",
+      "path": "/home/yanbo/.codex/skills/gpt-image-2-skill/references/providers.md",
+      "sha256": "649f1ae1eaa9ceb943710d71511dfc9715b2c2fba4033d61519e30a850f7bf78"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "C3": false,
+  "HOLDOUT": 0,
+  "NEW_VAL": 0,
+  "bound_artifact_count": 40,
+  "captured_at": "2026-08-28T06:13:08.192+00:00",
+  "formal_ingest": false,
+  "initial_freeze_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/lineage_policy_amendment_20260828_01/freeze/p4d_gr3q2_preparation_freeze.json",
+  "initial_freeze_preserved_copy": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/lineage_policy_amendment_20260828_01/freeze/p4d_gr3q2_preparation_freeze_initial_binding_error.json",
+  "initial_freeze_preserved_copy_sha256": "e638b52484b60ae072ad791d06a3dfd980ec39294a0780729f65f12de39f1925",
+  "initial_freeze_sha256": "e638b52484b60ae072ad791d06a3dfd980ec39294a0780729f65f12de39f1925",
+  "initial_sidecar_match": true,
+  "initial_sidecar_preserved_copy": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/lineage_policy_amendment_20260828_01/freeze/p4d_gr3q2_preparation_freeze_initial_binding_error.original_sidecar.txt",
+  "initial_sidecar_value": "e638b52484b60ae072ad791d06a3dfd980ec39294a0780729f65f12de39f1925",
+  "mismatch_count": 13,
+  "mismatches": [
+    {
+      "actual": "4122ce98509abba35351c736b1f79ed4f6ef9c80f07b32825593dc8afaacad1c",
+      "expected": "2a7d64843850fbdc3e6ef408337e93d8d2bbbaa83af199445e14301d03f63d9f",
+      "match": false,
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/lineage_policy_amendment_20260828_01/00_preflight/auth_inspect.json"
+    },
+    {
+      "actual": "fe008acff25db66568d8728bab985e06fdb456ec6facab409d84cb5165272e64",
+      "expected": "8da39630529ff5e3ebac0bf62b3aee51c0fe8d21674dafce929899259a5ce9e7",
+      "match": false,
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/lineage_policy_amendment_20260828_01/00_preflight/config_inspect.json"
+    },
+    {
+      "actual": "d2dbd0cb6f635dd57fa3ba9809540a37dc8029ec077ff4897365b3d91c9882e1",
+      "expected": "8ed0f78c771a1fc485511a9e2f855d6cb33008f1e5373e55df755acf26ff8b1a",
+      "match": false,
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/lineage_policy_amendment_20260828_01/00_preflight/dataset_boundary_before.json"
+    },
+    {
+      "actual": "4f1add8acd37fad76385e395924b1ebafc5da3501417efeb3d2d835cd39e3765",
+      "expected": "0a5b9a876c65c67b4b38a2c68afef5bbb9a2ee8b8deb3d3753c996ee00344e59",
+      "match": false,
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/lineage_policy_amendment_20260828_01/00_preflight/doctor.json"
+    },
+    {
+      "actual": "212b34143682e6393bf8dcc068cacb4659dd5f623b977862755c95cdf0d3bff2",
+      "expected": "e2e341efb519edb361302faa4d3c15c5539d9bc2e3cdf735f8f70d9f6b0acf17",
+      "match": false,
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/lineage_policy_amendment_20260828_01/00_preflight/frozen_asset_audit.json"
+    },
+    {
+      "actual": "5cce65c7cd02f17d2f6349e2fefe1660a06aadf3bd929289d0e57f839f29e5ab",
+      "expected": "6cfdef1508a9e9d61b4a26014bf99834043afeb9005912c8dd9b3912cf8110ba",
+      "match": false,
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/lineage_policy_amendment_20260828_01/00_preflight/full_manifest_audit.json"
+    },
+    {
+      "actual": "847678bdcd1843cacae503f73b1d322eb65b58e1f59563ca18a8dd849fac61d7",
+      "expected": "398d7fc9e0529ef4ffc5b3cd66d4bc8281be7ffb18c82b11d6512d40ef74421f",
+      "match": false,
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/lineage_policy_amendment_20260828_01/00_preflight/generation_config_comparison.json"
+    },
+    {
+      "actual": "67bb76bcfde2dcf01a9f8a80c74534aa3da9c1cee6dd2447323b110b7d461de3",
+      "expected": "7b3cc9d94f7c65ee0444e4055522a4801df1ea129148bfb9e63f70d3f0c13919",
+      "match": false,
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/lineage_policy_amendment_20260828_01/00_preflight/images_generate_help.json"
+    },
+    {
+      "actual": "da32ace3be3bcb22540b8fbd066f79afc6cd9629081df567b4da1d482e5e0def",
+      "expected": "fe265794edc178e8ba92810e515090d8fb56dd5f9e7cb03335cd401a7bad74c7",
+      "match": false,
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/lineage_policy_amendment_20260828_01/00_preflight/parent_freeze_audit.json"
+    },
+    {
+      "actual": "e76ee5aaf688e3ebb8dfdb33a6e78cff33f1b9b8377a16d7422e397a2a7590e2",
+      "expected": "7178a86b0fd78703073902f3deabc05b3d8dbd4b3d470e89df6d5cb824364244",
+      "match": false,
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/lineage_policy_amendment_20260828_01/00_preflight/provider_profile_comparison.json"
+    },
+    {
+      "actual": "46cc221b1d6eb87f245c82215b032eb59cbe303feef2c1b5b22cd94a559ed322",
+      "expected": "bf0adb67dd128593e30728dbd0f25d494efe2eab8fd0ee028e1f525eea2ca72a",
+      "match": false,
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/lineage_policy_amendment_20260828_01/00_preflight/provider_runtime_audit.json"
+    },
+    {
+      "actual": "1d8461e07f46d8ae28bba0d19df3aa329ff4770d88e49251a880f3b0901a87f6",
+      "expected": "d9d76698cf301304e9f9e5def6c4f167d171da768b38adf3a16f06d9e51cf0f5",
+      "match": false,
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/lineage_policy_amendment_20260828_01/01_governance/lineage_policy_amendment_v1.json"
+    },
+    {
+      "actual": "ddd5c04efcfff4732ae02783f99327770b6dc2e75ce3cca83d1192764a057668",
+      "expected": "b440e507ef151198bb063162cae53442711a6ebb15227475653d6be0d6cfc7fa",
+      "match": false,
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/lineage_policy_amendment_20260828_01/02_inventory/inventory_summary.json"
+    }
+  ],
+  "provider_requests": 0,
+  "reason": "duplicate zero-request preparation rewrote local artifacts after initial freeze creation"
+}

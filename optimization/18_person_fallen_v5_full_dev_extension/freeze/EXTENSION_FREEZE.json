@@ -1,0 +1,58 @@
+{
+  "candidate": "V5-B0-TARGET-ATTRIBUTES",
+  "extension": "FULL_DEV_EXTENSION",
+  "status": "IMMUTABLE_EXECUTION_FREEZE",
+  "model": {
+    "endpoint": "http://192.168.20.62:11434",
+    "name": "qwen3.5:4b",
+    "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+    "ollama_version": "0.23.2",
+    "think": false,
+    "stream": false,
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 768,
+    "concurrency": 1,
+    "automatic_retry": false,
+    "resend_completion_unknown": false
+  },
+  "budget": {
+    "reused": 115,
+    "new_max": 321,
+    "total_full_dev": 436
+  },
+  "order": [
+    "normal_negative",
+    "ground_lying",
+    "auxiliary_attention",
+    "visual_uncertain"
+  ],
+  "bindings": {
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/17_person_fallen_v5_target_attributes/freeze/EXECUTION_FREEZE.json": "4ea0db2dce0d0cdea4af1bf799cd3e5d3ca1e2fd5293d1d352bf40e1978c25e4",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/17_person_fallen_v5_target_attributes/freeze/EXECUTION_FREEZE.sha256": "7f8b6b2680a0c175aab827811bc61d6ff2b5fb6e3030c88b281a22a0b822fb3d",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/17_person_fallen_v5_target_attributes/prompt/target_attributes.txt": "757fb445efa3f05327947a4c32115e3735823c81d14177199bbf8a6381d3300a",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/17_person_fallen_v5_target_attributes/schema/target_attributes.json": "1ccf5a08cd1d6287b33f5d04b0f06101ae75666919c1a9f160ac0c5c335d7817",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/17_person_fallen_v5_target_attributes/policy/target_policy.py": "b2126bf86378fa6d0bcbc67861fa794b320affb1de90dc445f5838223cae68b9",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/17_person_fallen_v5_target_attributes/tools/contracts.py": "e88cb1cb2c297200245531d5c5802aa9224dcd1a43e181402adeac23bf949edd",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/17_person_fallen_v5_target_attributes/eval/pilot/output.jsonl": "466ff2c8aa9de44e009dca9f400de7d2e9d6c47319b7afa382b40507aedd6eac",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/17_person_fallen_v5_target_attributes/eval/pilot/predictions.csv": "128b86b9f028ec64ca143280467ba5fdebf5aea77caa3489f24b65462794fb4e",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/17_person_fallen_v5_target_attributes/eval/pilot/COMPLETION_LOCK.json": "089b4cf171e6665d3abd0fbfdabe5a909f619d5e23e382866efd51e8656bde77",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/18_person_fallen_v5_full_dev_extension/manifests/remaining321.csv": "486cb3892a2bd48fb51ec2740d159ec9cca20b1e8fabe99c90ed35e020d79d63",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/18_person_fallen_v5_full_dev_extension/manifests/full_dev436.csv": "88f732adc5b7482cf08146ab294a18726dc853e63eca2f243e1c281b01742ca6",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/18_person_fallen_v5_full_dev_extension/reports/source_audit.json": "66b798a6996712c7b96e267fc3a339812bf0c1abaf0ddcf7576edbf3a9c3266c",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/18_person_fallen_v5_full_dev_extension/tools/full_dev_metrics.py": "f8f24aea3e59a2a9bb20d9a8fa2fa2d4e8bc89386dcd7e6553aaf4b68685d3b4",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/18_person_fallen_v5_full_dev_extension/tools/runner.py": "ebfdb27471c7dd9b12046cc31b53390a419db9377c64dc35fab2e9a0483b1222"
+  },
+  "gates": {
+    "ground_ALERT_min": 138,
+    "ground_coverage": 145,
+    "normal_ALERT": 0,
+    "normal_RECHECK_max": 23,
+    "floor_ALERT": 0,
+    "floor_RECHECK_max": 5,
+    "floor_NO_ALERT_min": 50
+  },
+  "VAL_requests": 0,
+  "HOLDOUT_requests": 0,
+  "early_stop": "V5_B0_FULL_DEV_EARLY_GATE_FAIL"
+}

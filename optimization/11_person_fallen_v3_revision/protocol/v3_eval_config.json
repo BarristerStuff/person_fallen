@@ -1,0 +1,40 @@
+{
+  "stage": "PERSON_FALLEN_V3_ANOMALOUS_NEAR_GROUND",
+  "event_name": "person_fallen",
+  "event_definition_version": "v3.0",
+  "prompt_id": "V3-C0",
+  "prompt_path": "prompt/V3-C0_prompt.txt",
+  "model": "qwen3.5:4b",
+  "model_digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+  "ollama_version": "0.23.2",
+  "endpoint": "http://192.168.20.62:11434",
+  "stream": false,
+  "format": "json",
+  "think": false,
+  "options": {
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 256
+  },
+  "concurrency": 1,
+  "timeout_seconds": 120,
+  "max_transport_retries": 0,
+  "automatic_retry": false,
+  "resend_completion_unknown": false,
+  "preprocess": "letterbox",
+  "jpeg_quality": 70,
+  "jpeg_optimize": true,
+  "letterbox_rgb": [128, 128, 128],
+  "candidate_resolutions": {
+    "V3-C0-448": [448, 336],
+    "V3-C0-896": [896, 672]
+  },
+  "parser_source": "response_only",
+  "thinking_fallback": false,
+  "strict_json_keys": ["person_fallen", "evidence"],
+  "strict_json_statuses": ["positive", "negative", "uncertain"],
+  "gt_type": "PROMPT_DERIVED_SYNTHETIC_GT",
+  "gt_source": "FROZEN_GENERATION_PROMPT_AND_PLANNED_ROLE",
+  "human_semantic_review_required": false,
+  "final_holdout_requests": 0
+}

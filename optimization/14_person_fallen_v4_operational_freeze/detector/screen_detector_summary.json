@@ -1,0 +1,29 @@
+{
+  "by_operational_class": {
+    "ground_lying": {
+      "coverage": 1.0,
+      "detected": 25,
+      "total": 25
+    },
+    "normal_negative": {
+      "coverage": 0.9607843137254902,
+      "detected": 49,
+      "total": 51
+    }
+  },
+  "crop_manifest": "/home/yanbo/net_vlm_person_fallen_v2_optimization/14_person_fallen_v4_operational_freeze/manifests/person_fallen_v4_operational_screen_crop.csv",
+  "crop_manifest_sha256": "1c43be68c8fadf15043c2087d310534c76791ca1ac640693a10d867ad47fe82f",
+  "detector_name": "Ultralytics_YOLO11n_COCO",
+  "holdout_rows_read": 0,
+  "person_detected_count": 74,
+  "person_detection_coverage": 0.9736842105263158,
+  "phase": "screen",
+  "runtime_python": "/home/yanbo/net_vlm_person_smoking_optimization/.venv_person_detector/bin/python",
+  "sample_count": 76,
+  "screen_rows_read": 0,
+  "status": "PASS",
+  "ultralytics_version": "8.4.104",
+  "val_rows_read": 0,
+  "vlm_request_count": 0,
+  "weight_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1"
+}

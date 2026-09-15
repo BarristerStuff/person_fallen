@@ -1,0 +1,13 @@
+{
+  "all_bound_artifacts_match": true,
+  "all_pass": true,
+  "bound_artifact_count": 42,
+  "captured_at": "2026-08-30T10:56:12.864+00:00",
+  "freeze_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_execution_20260830_01/freeze/p4d_gr3q4e_window01_terminal_freeze.json",
+  "freeze_sha256": "aa0860ce21b743ae722b879da9bb1c54f8fb556f1e5fd674e92ce5992aaeef64",
+  "provider_requests_added": 0,
+  "raw_response_lines": 0,
+  "request_log_lines": 0,
+  "sidecar_match": true,
+  "sidecar_sha256": "aa0860ce21b743ae722b879da9bb1c54f8fb556f1e5fd674e92ce5992aaeef64"
+}

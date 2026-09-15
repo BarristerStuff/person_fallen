@@ -1,0 +1,25 @@
+{
+  "c3_prompt_expected_sha256": "685bb9724b1faa96298c1e6cf8139774d82afbc9d2f30cdd154fbe5cb776951e",
+  "c3_prompt_match": true,
+  "c3_prompt_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/05_p2_hard_negative_semantic_optimization/03_candidates/C3/C3_prompt.txt",
+  "c3_prompt_sha256": "685bb9724b1faa96298c1e6cf8139774d82afbc9d2f30cdd154fbe5cb776951e",
+  "created_at": "2026-08-27T04:53:31+00:00",
+  "dataset_validator_sha256": "cbcf4e0907710152f5446930d70a50e5499ea70f324525cd2919fcdc7d857676",
+  "historical_frozen_manifest_sha256": "771380b70099e2e2e641330a7d4f04860e2284725722bde3cd2da8988abfb2c6",
+  "holdout_requests_allowed": 0,
+  "new_batch": {
+    "exists": true,
+    "path": "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m"
+  },
+  "old_batch": {
+    "exists": true,
+    "final_image_count": 500,
+    "path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m",
+    "prompt_count": 500
+  },
+  "p2_final_report_sha256": "8840866296cd70aa6039d14d4688c87098487b61ec5ad2e8e2f62f17218e3dfe",
+  "p3_final_report_sha256": "d3ca289595ff451662bd3ac40c5cd3b70cf9d770626c209c2ae10a8252ba2b5e",
+  "p3_screen_is_pristine": false,
+  "p3_status_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/reports/24_p3_final_report.md",
+  "val_individual_errors_used_for_p3_design": false
+}

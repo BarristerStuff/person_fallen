@@ -1,0 +1,29 @@
+{
+  "actual_stack": {
+    "adapter_version": "CODEX_SAFE_STAGED_CV_V1",
+    "concurrency": 1,
+    "final_size": "1920x1080",
+    "model": "gpt-5.4",
+    "native_max_retries": 3,
+    "native_size": "1536x1024",
+    "outer_retry": false,
+    "provider": "codex",
+    "runtime": "0.7.3"
+  },
+  "all_flags_true": true,
+  "captured_at": "2026-09-01T03:20:40.055+00:00",
+  "flags": {
+    "AUTHORIZATION_MATCH": true,
+    "LEDGER_MATCH": true,
+    "LIMITS_MATCH": true,
+    "PARENT_FREEZE_MATCH": true,
+    "PLAN_MATCH": true,
+    "RUNNER_IDENTITY_MATCH": true,
+    "RUN_CONFIG_MATCH": true
+  },
+  "fresh_provider_runtime_sha256": "e4243dea0a6525583ec58d67eca7101b0e5ffa9f9e81d72af01e1f90557d3b70",
+  "preflight_binding_sha256": "166eb2e3d46b60cd291a8b985e6adc8576f2b5a1cf65022f8f20ed5acbf51805",
+  "provider_requests_sent_before_audit": 0,
+  "revision_id": "P4D_GR3Q10_BALANCED_COMPLETE_GROUP_WINDOW_20260901_01",
+  "status": "EXECUTION_START_BINDING_PASS"
+}

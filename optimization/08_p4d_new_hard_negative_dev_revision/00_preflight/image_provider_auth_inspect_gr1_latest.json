@@ -1,0 +1,59 @@
+{
+  "payload": {
+    "command": "auth inspect",
+    "ok": true,
+    "providers": {
+      "codex": {
+        "access_token_present": true,
+        "account_id": "f0bc3591-e6fc-442d-a52e-e99efbf5c1eb",
+        "auth_file": "/home/yanbo/.codex/auth.json",
+        "auth_mode": "chatgpt",
+        "auth_source": "config",
+        "chatgpt_user_id": "user-Q7UnDR3fErKmGPtYmbCR3HQm",
+        "email": "nolderseagrave986594@gmail.com",
+        "exists": true,
+        "expired": false,
+        "expires_at": 1788606534,
+        "id_token_present": true,
+        "last_refresh": "2026-08-26T11:08:54.997016370Z",
+        "parse_ok": true,
+        "plan_type": "plus",
+        "provider": "codex",
+        "ready": true,
+        "refresh_token_present": true,
+        "seconds_until_expiry": 795891
+      },
+      "configured": {
+        "ebond-gpt-image-2": {
+          "api_base": "https://api.ebondai.com/v1",
+          "credentials": {
+            "api_key": {
+              "present": true,
+              "source": "file",
+              "value": {
+                "_omitted": "secret"
+              }
+            }
+          },
+          "endpoint": null,
+          "model": "gpt-image-2",
+          "proxy": null,
+          "supports_n": null,
+          "type": "openai-compatible"
+        }
+      },
+      "openai": {
+        "api_key_present": false,
+        "auth_source": "missing",
+        "default_model": "gpt-image-2",
+        "env_var": "OPENAI_API_KEY",
+        "provider": "openai",
+        "ready": false
+      }
+    },
+    "requested_provider": "auto"
+  },
+  "returncode": 0,
+  "stderr": "",
+  "stdout": "{\n  \"command\": \"auth inspect\",\n  \"ok\": true,\n  \"providers\": {\n    \"codex\": {\n      \"access_token_present\": true,\n      \"account_id\": \"f0bc3591-e6fc-442d-a52e-e99efbf5c1eb\",\n      \"auth_file\": \"/home/yanbo/.codex/auth.json\",\n      \"auth_mode\": \"chatgpt\",\n      \"auth_source\": \"config\",\n      \"chatgpt_user_id\": \"user-Q7UnDR3fErKmGPtYmbCR3HQm\",\n      \"email\": \"nolderseagrave986594@gmail.com\",\n      \"exists\": true,\n      \"expired\": false,\n      \"expires_at\": 1788606534,\n      \"id_token_present\": true,\n      \"last_refresh\": \"2026-08-26T11:08:54.997016370Z\",\n      \"parse_ok\": true,\n      \"plan_type\": \"plus\",\n      \"provider\": \"codex\",\n      \"ready\": true,\n      \"refresh_token_present\": true,\n      \"seconds_until_expiry\": 795891\n    },\n    \"configured\": {\n      \"ebond-gpt-image-2\": {\n        \"api_base\": \"https://api.ebondai.com/v1\",\n        \"credentials\": {\n          \"api_key\": {\n            \"present\": true,\n            \"source\": \"file\",\n            \"value\": {\n              \"_omitted\": \"secret\"\n            }\n          }\n        },\n        \"endpoint\": null,\n        \"model\": \"gpt-image-2\",\n        \"proxy\": null,\n        \"supports_n\": null,\n        \"type\": \"openai-compatible\"\n      }\n    },\n    \"openai\": {\n      \"api_key_present\": false,\n      \"auth_source\": \"missing\",\n      \"default_model\": \"gpt-image-2\",\n      \"env_var\": \"OPENAI_API_KEY\",\n      \"provider\": \"openai\",\n      \"ready\": false\n    }\n  },\n  \"requested_provider\": \"auto\"\n}\n"
+}

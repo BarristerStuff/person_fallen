@@ -1,0 +1,12 @@
+{
+  "GR1_images_excluded": false,
+  "authorization_present": false,
+  "authorization_scope": null,
+  "authorization_text_sha256": null,
+  "interpretation": "Embedded example/specification text is not a standalone user attestation; fail closed.",
+  "quota_risk_accepted": false,
+  "required_authorization_text": "我明确授权 P4D_GR3 使用当前 Codex profile，对冻结的 440 个 prompt slots 全量重新生成，接受旧 GR1 192 张不进入新 revision；我同时明确接受当前 GPT Image 2 runtime max_retries=3、单个逻辑 slot 最多约 4 次 provider attempt、精确费用未知以及由此产生的 quota/成本风险。",
+  "retry_risk_accepted": false,
+  "unknown_cost_risk_accepted": false,
+  "verified_at": "2026-08-27T10:00:44.774+00:00"
+}

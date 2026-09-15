@@ -1,0 +1,66 @@
+{
+  "adapter_version": "CODEX_SAFE_STAGED_CV_V1",
+  "command_config": {
+    "format": "png",
+    "generation_backend": "image_generation",
+    "model": "gpt-5.4",
+    "native_max_retries": 3,
+    "native_size_contract_enforced": false,
+    "outer_retry": false,
+    "provider": "codex",
+    "quality": "medium",
+    "size": "1536x1024"
+  },
+  "failure_classification": {
+    "evidence": {
+      "error_code": "http_error",
+      "explicit_refusal_decision": false,
+      "image_count_zero": false,
+      "image_generation_call_failed": false,
+      "metadata_fields_ignored": [
+        "safety_identifier",
+        "safety_id",
+        "metadata.safety_identifier"
+      ],
+      "response_completed": false
+    },
+    "reason": "HTTP429_USAGE_LIMIT_REACHED",
+    "state": "FAILED_CONFIRMED"
+  },
+  "failure_reason": "HTTP429_USAGE_LIMIT_REACHED",
+  "final_dimensions": null,
+  "final_path": null,
+  "final_sha256": null,
+  "formal_ingest": false,
+  "ground_truth_assignment": false,
+  "http_status": null,
+  "human_review": false,
+  "latency_seconds": 12.69563156500044,
+  "no_resend": false,
+  "outer_json": {
+    "error": {
+      "code": "http_error",
+      "detail": "{\"error\":{\"type\":\"usage_limit_reached\",\"message\":\"The usage limit has been reached\",\"plan_type\":\"plus\",\"resets_at\":1788243543,\"eligible_promo\":null,\"resets_in_seconds\":10384}}",
+      "message": "HTTP 429"
+    },
+    "ok": false
+  },
+  "output_status": "NOT_ACCEPTED",
+  "physical_attempt_lower_bound": 4,
+  "prompt_id": "PF_P4D_HN_PLANK_G002_V02",
+  "provider_events": {
+    "physical_attempt_lower_bound": 4,
+    "request_started_events": 4,
+    "unique_native_retry_events": 3
+  },
+  "raw_dimensions": null,
+  "raw_path": null,
+  "raw_sha256": null,
+  "render_prompt_sha256": "3179bba5193c7270bd475ed7f537cdc2a517df47a47aa6f158f96c2c1e25523d",
+  "request_index": 7,
+  "returncode": 1,
+  "revision_id": "P4D_GR3Q10_BALANCED_COMPLETE_GROUP_WINDOW_20260901_01",
+  "state": "FAILED_CONFIRMED",
+  "stderr_redacted": "{\"data\":{\"endpoint\":\"https://chatgpt.com/backend-api/codex/responses\",\"provider\":\"codex\"},\"kind\":\"local\",\"seq\":1,\"type\":\"request.started\"}\n{\"data\":{\"endpoint\":\"https://chatgpt.com/backend-api/codex/responses\",\"message\":\"Codex image request sent.\",\"percent\":0,\"phase\":\"request_started\",\"provider\":\"codex\",\"status\":\"running\"},\"kind\":\"progress\",\"seq\":2,\"type\":\"request_started\"}\n{\"data\":{\"delay_seconds\":1,\"max_retries\":3,\"message\":\"Retry scheduled after transient failure.\",\"phase\":\"retry_scheduled\",\"provider\":\"codex\",\"reason\":\"HTTP 429\",\"retry_number\":1,\"status\":\"running\",\"status_code\":429},\"kind\":\"progress\",\"seq\":3,\"type\":\"retry_scheduled\"}\n{\"data\":{\"endpoint\":\"https://chatgpt.com/backend-api/codex/responses\",\"provider\":\"codex\"},\"kind\":\"local\",\"seq\":4,\"type\":\"request.started\"}\n{\"data\":{\"endpoint\":\"https://chatgpt.com/backend-api/codex/responses\",\"message\":\"Codex image request sent.\",\"percent\":0,\"phase\":\"request_started\",\"provider\":\"codex\",\"status\":\"running\"},\"kind\":\"progress\",\"seq\":5,\"type\":\"request_started\"}\n{\"data\":{\"delay_seconds\":2,\"max_retries\":3,\"message\":\"Retry scheduled after transient failure.\",\"phase\":\"retry_scheduled\",\"provider\":\"codex\",\"reason\":\"HTTP 429\",\"retry_number\":2,\"status\":\"running\",\"status_code\":429},\"kind\":\"progress\",\"seq\":6,\"type\":\"retry_scheduled\"}\n{\"data\":{\"endpoint\":\"https://chatgpt.com/backend-api/codex/responses\",\"provider\":\"codex\"},\"kind\":\"local\",\"seq\":7,\"type\":\"request.started\"}\n{\"data\":{\"endpoint\":\"https://chatgpt.com/backend-api/codex/responses\",\"message\":\"Codex image request sent.\",\"percent\":0,\"phase\":\"request_started\",\"provider\":\"codex\",\"status\":\"running\"},\"kind\":\"progress\",\"seq\":8,\"type\":\"request_started\"}\n{\"data\":{\"delay_seconds\":4,\"max_retries\":3,\"message\":\"Retry scheduled after transient failure.\",\"phase\":\"retry_scheduled\",\"provider\":\"codex\",\"reason\":\"HTTP 429\",\"retry_number\":3,\"status\":\"running\",\"status_code\":429},\"kind\":\"progress\",\"seq\":9,\"type\":\"retry_scheduled\"}\n{\"data\":{\"endpoint\":\"https://chatgpt.com/backend-api/codex/responses\",\"provider\":\"codex\"},\"kind\":\"local\",\"seq\":10,\"type\":\"request.started\"}\n{\"data\":{\"endpoint\":\"https://chatgpt.com/backend-api/codex/responses\",\"message\":\"Codex image request sent.\",\"percent\":0,\"phase\":\"request_started\",\"provider\":\"codex\",\"status\":\"running\"},\"kind\":\"progress\",\"seq\":11,\"type\":\"request_started\"}\n",
+  "stdout_redacted": "{\n  \"error\": {\n    \"code\": \"http_error\",\n    \"detail\": \"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1788243543,\\\"eligible_promo\\\":null,\\\"resets_in_seconds\\\":10384}}\",\n    \"message\": \"HTTP 429\"\n  },\n  \"ok\": false\n}\n"
+}

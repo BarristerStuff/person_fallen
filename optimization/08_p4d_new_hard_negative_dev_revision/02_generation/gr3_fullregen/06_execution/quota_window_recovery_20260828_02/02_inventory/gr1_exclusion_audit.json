@@ -1,0 +1,16 @@
+{
+  "GR1_IMAGES_REUSED": 0,
+  "GR1_SAMEFILE_HITS": 0,
+  "GR1_SHA_HITS": 0,
+  "GR1_SYMLINK_HITS": 0,
+  "all_excluded": true,
+  "captured_at": "2026-08-28T07:15:38.650+00:00",
+  "gr1_qa_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/03_intake_audit/gr1_independent_mechanical_qa.csv",
+  "gr1_row_count": 440,
+  "manifest_gr1_reuse_values": [
+    "0"
+  ],
+  "samefile_hits": [],
+  "sha_hits": [],
+  "symlink_hits": []
+}

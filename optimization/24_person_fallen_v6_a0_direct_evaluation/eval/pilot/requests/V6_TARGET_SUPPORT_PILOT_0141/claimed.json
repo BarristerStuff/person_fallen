@@ -1,0 +1,15 @@
+{
+  "state": "claimed",
+  "phase": "pilot",
+  "request_id": "V6_TARGET_SUPPORT_PILOT_0141",
+  "item_id": "P4D_PLAN::PF_P4D_HN_PLANK_G001_V01",
+  "operational_id": "PFV6_PILOT_0141",
+  "taxonomy": "pushup_plank",
+  "group_id": "PF_P4D_HN_PLANK_G001",
+  "evaluation_stratum": "auxiliary_attention",
+  "source_image_sha256": "c49e3007348dd7326beea6397cdfa5509126897f098bb342f41d5c3d76c3fc54",
+  "full_view_sha256": "5dcad4c331cc949d6e263d337c71315d722b08d1c00366ff53e027f12e79a70c",
+  "crop_view_sha256": "c7e391950f8a84b4a401447fab73ad66cd9b6ab34a7b8abb3e9400f73996c7fa",
+  "payload_sha256": "ffa0dd0af04ba1d4be028f8dd6341c00108cdda4e6f315220cc0b33ea835ab97",
+  "claimed_timestamp": "2026-09-14T10:31:43.829412+00:00"
+}

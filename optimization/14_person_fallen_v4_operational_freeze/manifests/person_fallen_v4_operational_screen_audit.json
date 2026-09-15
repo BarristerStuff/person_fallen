@@ -1,0 +1,31 @@
+{
+  "floor_sitting_count": 25,
+  "holdout_rows_read": 0,
+  "operational_class_counts": {
+    "ground_lying": 25,
+    "normal_negative": 51
+  },
+  "output_manifest": "/home/yanbo/net_vlm_person_fallen_v2_optimization/14_person_fallen_v4_operational_freeze/manifests/person_fallen_v4_operational_screen.csv",
+  "output_manifest_sha256": "0a07eab171e6af3bd1f56009bdab495048106a68c3afef687d768da20f6fe403",
+  "rows": 76,
+  "screen_rows_read": 0,
+  "source_manifest": "/home/yanbo/net_vlm_person_fallen_v2_optimization/11_person_fallen_v3_revision/remap/person_fallen_v3_screen_manifest.csv",
+  "source_manifest_sha256": "8e9b4048c0bc97807e8afe647eee11c0903d50108844f2117ae41b85c6e8923c",
+  "status": "PASS",
+  "taxonomy_counts": {
+    "curled_or_partially_occluded_lying": 5,
+    "floor_sitting": 25,
+    "ground_maintenance": 1,
+    "horizontal_corridor_ground_lying": 5,
+    "kneeling_half_kneeling": 10,
+    "mixed_hard_negative": 5,
+    "prone_ground_lying": 5,
+    "side_lying": 5,
+    "squat_crouch_deep_bend": 5,
+    "standing_walking": 5,
+    "supine_ground_lying": 5
+  },
+  "unique_group_count": 16,
+  "unique_image_sha256": 76,
+  "val_rows_read": 0
+}

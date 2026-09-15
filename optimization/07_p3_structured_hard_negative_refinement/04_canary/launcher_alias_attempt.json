@@ -1,0 +1,12 @@
+{
+  "attempted_at_utc": "2026-08-27T03:36:00Z",
+  "command": "python3 /home/yanbo/net_vlm_person_fallen_v2_optimization/tools/p3_s1_shared_runner.py canary S1_DIRECT",
+  "result": "FAILED_BEFORE_REQUEST",
+  "exit_code": 2,
+  "error": "p3_inference_runner.py argparse initially accepted only the physical S1_STRUCTURED stream name; frozen registry view S1_DIRECT was not an accepted CLI alias.",
+  "requests_started": 0,
+  "requests_completed": 0,
+  "candidate_freeze_modified": false,
+  "recovery": "A compatibility launcher was patched before any request and then executed the unchanged durable runner with physical candidate S1_STRUCTURED, binding verification to frozen S1_DIRECT assets.",
+  "note": "This is local orchestration evidence only; it is not an Ollama protocol failure and is excluded from P3 request counts."
+}

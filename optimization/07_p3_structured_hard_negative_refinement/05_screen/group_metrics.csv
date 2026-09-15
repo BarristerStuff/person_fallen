@@ -1,0 +1,5 @@
+group_id,taxonomy,hard_negative_count,C3_FP,S1_DIRECT_FP,S1_RULE_FP,C3_has_FP,S1_DIRECT_has_FP,S1_RULE_has_FP
+pf_v2_aigc_h01-sitting-on-floor,sitting_on_floor,10,0,5,5,False,True,True
+pf_v2_aigc_h06-squatting,squatting_or_crouching,10,0,0,0,False,False,False
+pf_v2_aigc_h10-exercise-push-up-plank,exercise_pushup_or_plank,10,3,9,9,True,True,True
+pf_v2_aigc_h11-crawling-under-equipment-inspection,crawling_or_kneeling_support,10,2,6,6,True,True,True

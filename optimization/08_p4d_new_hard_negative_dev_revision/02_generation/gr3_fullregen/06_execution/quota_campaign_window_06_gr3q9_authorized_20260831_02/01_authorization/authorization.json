@@ -1,0 +1,15 @@
+{
+  "authorized": true,
+  "c3": false,
+  "concurrency": 1,
+  "formal_ingest": false,
+  "holdout_requests": 0,
+  "max_confirmed_policy_refusals": 3,
+  "max_logical_invocations": 25,
+  "max_physical_attempt_lower_bound": 30,
+  "max_unique_native_retry_events": 4,
+  "native_max_retries": 3,
+  "outer_retry": false,
+  "stage": "P4D_GR3Q9_BALANCED_STABLE_WINDOW",
+  "val": 0
+}

@@ -1,0 +1,6 @@
+{
+  "global_stop": true,
+  "simultaneous_guard_reached": null,
+  "stop_reason": "WINDOW_CAP_REACHED_SUCCESS",
+  "stopped_at": "2026-08-31T13:29:16.587+00:00"
+}

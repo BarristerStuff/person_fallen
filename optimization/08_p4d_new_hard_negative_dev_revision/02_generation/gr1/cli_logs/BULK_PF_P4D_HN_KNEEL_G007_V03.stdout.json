@@ -1,0 +1,64 @@
+{
+  "auth": {
+    "account_id": "f0bc3591-e6fc-442d-a52e-e99efbf5c1eb",
+    "auth_file": "/home/yanbo/.codex/auth.json",
+    "refreshed": false,
+    "source": "auth.json"
+  },
+  "command": "images generate",
+  "events": {
+    "count": 22
+  },
+  "history": {
+    "job_id": "job-1787813871508199661-20890"
+  },
+  "ok": true,
+  "output": {
+    "bytes": 2041814,
+    "files": [
+      {
+        "bytes": 2041814,
+        "index": 0,
+        "path": "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/generated_raw/PF_P4D_HN_KNEEL_G007_V03.png"
+      }
+    ],
+    "path": "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/generated_raw/PF_P4D_HN_KNEEL_G007_V03.png"
+  },
+  "provider": "codex",
+  "provider_selection": {
+    "edit_region_mode": "reference-hint",
+    "kind": "codex",
+    "reason": "explicit",
+    "requested": "codex",
+    "resolved": "codex",
+    "supports_n": false
+  },
+  "request": {
+    "background": "auto",
+    "delegated_image_model": "gpt-image-2",
+    "format": "png",
+    "model": "gpt-5.4",
+    "operation": "generate",
+    "provider": "codex",
+    "quality": "medium",
+    "ref_image_count": 0,
+    "size": "1536x1024"
+  },
+  "response": {
+    "image_count": 1,
+    "item_ids": [
+      "ig_018c09913e709500016a8fdfc1358087d0b6fc14026b9607ce"
+    ],
+    "model": "gpt-5.4",
+    "response_id": "resp_018c09913e709500016a8fdfc0460087d08c9e0f9d5112b624",
+    "revised_prompts": [
+      "Create one photorealistic 1920x1080 landscape frame from a fixed safety-inspection camera mounted about 1.5 meters above the floor. The camera observes an office corridor with glass partitions, doors, practical overhead lights, rubberized safety flooring, and moderate backlight balanced by usable foreground fill. Use an off-axis corridor view at moderate camera distance, with natural perspective, realistic scale, and enough surrounding context to judge body support. Show a young adult man with a slim build wearing a navy polo shirt and khaki trousers, kneeling beside a low object and reaching forward, with knee and shin support clearly visible and the torso not lying down. Keep the pose clearly upright-supported rather than collapsed. Make the scene look like a plausible unedited inspection-camera capture, with the subject clearly visible and a few tools and boxes placed naturally in the background. Use ordinary photographic detail and restrained contrast rather than a cinematic or advertising look. No text, caption, watermark, logo, warning label, overlay, bounding box, arrow, circle, or artificial annotation."
+    ],
+    "service_tier": "default",
+    "status": "completed"
+  },
+  "retry": {
+    "count": 0,
+    "max_retries": 3
+  }
+}

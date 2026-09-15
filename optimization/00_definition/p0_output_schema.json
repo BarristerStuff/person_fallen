@@ -1,0 +1,9 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["person_fallen", "evidence"],
+  "properties": {
+    "person_fallen": {"type": "string", "enum": ["positive", "negative", "uncertain"]},
+    "evidence": {"type": "string", "minLength": 1}
+  }
+}

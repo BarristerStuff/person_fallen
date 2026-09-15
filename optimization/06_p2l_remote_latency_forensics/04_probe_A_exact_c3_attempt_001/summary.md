@@ -1,0 +1,84 @@
+# P2L_A summary
+
+```json
+{
+  "stage": "P2L_REMOTE_LATENCY_FORENSICS",
+  "probe": "P2L_A",
+  "run_id": "P2L_A_20260827_102551",
+  "manifest_sha256": "102bb4aeb9db7c8861789499d96c71f52b1af57d37bfa4eb48748ce37978acc1",
+  "prompt_sha256": "685bb9724b1faa96298c1e6cf8139774d82afbc9d2f30cdd154fbe5cb776951e",
+  "config_sha256": "8f3e64f30beeadb0a31e2ac909fd0c57562a1a06291d0a93360ce788a4b1f10d",
+  "model": "qwen3.5:4b",
+  "model_digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+  "endpoint": "http://192.168.20.62:11434",
+  "keep_alive": null,
+  "planned_requests": 1,
+  "ledger_states": {
+    "COMPLETED": 1
+  },
+  "holdout_requests": 0,
+  "new_val_requests": 0,
+  "protocol": {
+    "request_count": 1,
+    "http_success_rate": 1.0,
+    "response_nonempty_rate": 1.0,
+    "json_parse_success_rate": 1.0,
+    "schema_success_rate": 1.0,
+    "canonical_prediction_success_rate": 1.0
+  },
+  "latency_seconds": {
+    "client": {
+      "count": 1,
+      "mean": 7.073627,
+      "median": 7.073627,
+      "p50": 7.073627,
+      "p90": 7.073627,
+      "p95": 7.073627,
+      "max": 7.073627
+    },
+    "total": {
+      "count": 1,
+      "mean": 7.066978794,
+      "median": 7.066978794,
+      "p50": 7.066978794,
+      "p90": 7.066978794,
+      "p95": 7.066978794,
+      "max": 7.066978794
+    },
+    "load": {
+      "count": 1,
+      "mean": 5.839109138,
+      "median": 5.839109138,
+      "p50": 5.839109138,
+      "p90": 5.839109138,
+      "p95": 5.839109138,
+      "max": 5.839109138
+    },
+    "prompt_eval": {
+      "count": 1,
+      "mean": 0.125953676,
+      "median": 0.125953676,
+      "p50": 0.125953676,
+      "p90": 0.125953676,
+      "p95": 0.125953676,
+      "max": 0.125953676
+    },
+    "eval": {
+      "count": 1,
+      "mean": 0.430625713,
+      "median": 0.430625713,
+      "p50": 0.430625713,
+      "p90": 0.430625713,
+      "p95": 0.430625713,
+      "max": 0.430625713
+    }
+  },
+  "high_load_threshold_seconds": 5.0,
+  "high_load_count": 1,
+  "execution_status": "COMPLETE",
+  "raw_responses_sha256": "80a256356a6657bffb3aa5c66f31a92610b70258d5c890c4f3fc5f715e8211a2",
+  "request_log_sha256": "6732f76e184e1ef852d3004867918b04bfe5e4fc0486b573c40cd5d725924392",
+  "predictions_sha256": "147df2f253a0725177a41668bca2900ecc8fc703f7f6d93133696240d7398993",
+  "protocol_failures_sha256": "95b51ae9589dac2343bef743ec46f8ca50097d2b3c7ab190113b2b509edf0f1f"
+}
+```

@@ -1,0 +1,95 @@
+{
+  "command": [
+    "<node>",
+    "<gpt-image-2-skill>",
+    "--json",
+    "--json-events",
+    "--provider",
+    "codex",
+    "images",
+    "generate",
+    "--model",
+    "gpt-5.4",
+    "--prompt_sha256",
+    "5339a3a468b17360cc2b24b3172fb29e0289eee6d2c22d9900132f879b56f934",
+    "--out",
+    "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/generated_raw/PF_P4D_HN_KNEEL_G008_V02.png",
+    "--format",
+    "png",
+    "--size",
+    "1536x1024",
+    "--quality",
+    "medium"
+  ],
+  "elapsed_seconds": 26.985399844999847,
+  "finished_at": "2026-08-27T06:59:17.388+00:00",
+  "payload": {
+    "auth": {
+      "account_id": "f0bc3591-e6fc-442d-a52e-e99efbf5c1eb",
+      "auth_file": "/home/yanbo/.codex/auth.json",
+      "refreshed": false,
+      "source": "auth.json"
+    },
+    "command": "images generate",
+    "events": {
+      "count": 21
+    },
+    "history": {
+      "job_id": "job-1787813957382516428-21077"
+    },
+    "ok": true,
+    "output": {
+      "bytes": 2133788,
+      "files": [
+        {
+          "bytes": 2133788,
+          "index": 0,
+          "path": "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/generated_raw/PF_P4D_HN_KNEEL_G008_V02.png"
+        }
+      ],
+      "path": "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/generated_raw/PF_P4D_HN_KNEEL_G008_V02.png"
+    },
+    "provider": "codex",
+    "provider_selection": {
+      "edit_region_mode": "reference-hint",
+      "kind": "codex",
+      "reason": "explicit",
+      "requested": "codex",
+      "resolved": "codex",
+      "supports_n": false
+    },
+    "request": {
+      "background": "auto",
+      "delegated_image_model": "gpt-image-2",
+      "format": "png",
+      "model": "gpt-5.4",
+      "operation": "generate",
+      "provider": "codex",
+      "quality": "medium",
+      "ref_image_count": 0,
+      "size": "1536x1024"
+    },
+    "response": {
+      "image_count": 1,
+      "item_ids": [
+        "ig_00710b636cd30376016a8fe02a99a087d08d652ec13a863c23"
+      ],
+      "model": "gpt-5.4",
+      "response_id": "resp_00710b636cd30376016a8fe029ec6c87d0835587d447e2dc2c",
+      "revised_prompts": [
+        "Photorealistic 1920x1080 landscape frame from a fixed safety-inspection camera mounted about 1.5 meters above the floor, observing a building entrance with vestibule doors, entry matting, visible architectural depth, rubberized safety flooring, and slightly dim but readable ambient light. Near-medium oblique view at moderate camera distance, natural perspective, realistic scale, enough surrounding context to judge body support. Visible subject is an adult with a curvy build wearing a burgundy coat and straight-leg trousers, with dark red and denim clothing, in a half-kneeling stance with one knee down, the other foot planted, chest lifted above the floor. Plausible unedited inspection-camera capture, subject clearly visible, subtle floor reflections, realistic perspective lines, ordinary photographic detail, restrained contrast, non-cinematic, non-advertising. No text, caption, watermark, logo, warning label, overlay, bounding box, arrow, circle, or artificial annotation."
+      ],
+      "service_tier": "default",
+      "status": "completed"
+    },
+    "retry": {
+      "count": 0,
+      "max_retries": 3
+    }
+  },
+  "phase": "BULK",
+  "prompt_id": "PF_P4D_HN_KNEEL_G008_V02",
+  "returncode": 0,
+  "sequence": 106,
+  "started_at": "2026-08-27T06:58:50.403+00:00"
+}

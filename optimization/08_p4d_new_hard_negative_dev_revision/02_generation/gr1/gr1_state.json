@@ -1,0 +1,18 @@
+{
+  "P4D_GR1_STATUS": "BLOCKED_PROVIDER_AUTH_RECURRENCE",
+  "bulk_completed_attempts": 200,
+  "bulk_failures": 34,
+  "bulk_planned_slots": 414,
+  "bulk_successes": 166,
+  "concurrency": 2,
+  "ramp1_failures": 0,
+  "ramp1_requests": 5,
+  "ramp1_successes": 5,
+  "ramp2_failures": 0,
+  "ramp2_requests": 20,
+  "ramp2_successes": 20,
+  "smoke_failures": 0,
+  "smoke_requests": 1,
+  "smoke_successes": 1,
+  "updated_at": "2026-08-27T07:44:31.684+00:00"
+}

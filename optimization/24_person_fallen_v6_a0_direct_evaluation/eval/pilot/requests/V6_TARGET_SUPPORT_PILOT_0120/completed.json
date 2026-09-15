@@ -1,0 +1,85 @@
+{
+  "state": "completed",
+  "phase": "pilot",
+  "request_id": "V6_TARGET_SUPPORT_PILOT_0120",
+  "item_id": "V2_ORIGINAL::IMG_003791",
+  "operational_id": "PFV6_PILOT_0120",
+  "taxonomy": "pushup_plank",
+  "group_id": "pf_v2_aigc_h09-exercise-push-up-plank",
+  "evaluation_stratum": "auxiliary_attention",
+  "source_image_sha256": "38734fed0f3668e0742c0ab92ea498ec156e09d8300ecf9c3c49cc36154805b7",
+  "full_view_sha256": "675b3d0bfb62a580b2e633d27eb9ca2ddd4871767970f59180e4ba40e023ff22",
+  "crop_view_sha256": "cf86cab4c9a1362dfad312cf9f984d120824fdefbedab8276973576b93dc67b6",
+  "payload_sha256": "4a88382c37673685cfc0afac34673d2fa7098deb99d2de97e5a9caf5864d7a8a",
+  "claimed_timestamp": "2026-09-14T10:29:35.169084+00:00",
+  "http_status": 200,
+  "latency_seconds": 8.728561931988224,
+  "completion_unknown": false,
+  "transport_error": null,
+  "raw_response_sha256": "563fb5f2a3ed0e4b551bf5f049b2d3067215bd25f9d1a5ab08492e045daec35e",
+  "raw_response_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/24_person_fallen_v6_a0_direct_evaluation/eval/pilot/requests/V6_TARGET_SUPPORT_PILOT_0120/response.raw",
+  "received_timestamp": "2026-09-14T10:29:43.900793+00:00",
+  "strict_json_ok": true,
+  "source_binding_ok": true,
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 367,
+  "parsed": {
+    "scene_coverage": "complete",
+    "people": [
+      {
+        "person_id": 1,
+        "bbox_1000": [
+          320,
+          450,
+          640,
+          720
+        ],
+        "person_visible": "yes",
+        "pose": "pushup_plank",
+        "torso_orientation": "horizontal",
+        "torso_ground_contact": "partial",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "body_support_configuration": "hands_feet_supported",
+        "explicit_work_evidence": "no",
+        "visual_quality": "clear",
+        "evidence": "Person in black shirt and pants performing push-ups on the floor."
+      },
+      {
+        "person_id": 2,
+        "bbox_1000": [
+          820,
+          180,
+          980,
+          380
+        ],
+        "person_visible": "yes",
+        "pose": "chair_sitting",
+        "torso_orientation": "upright",
+        "torso_ground_contact": "none",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "chair",
+        "body_support_configuration": "chair_or_bed_supported",
+        "explicit_work_evidence": "no",
+        "visual_quality": "clear",
+        "evidence": "Person in white shirt sitting on a sofa, looking at a phone."
+      }
+    ]
+  },
+  "person_decisions": [
+    {
+      "person_id": 1,
+      "decision": "ATTENTION_NEAR_GROUND",
+      "reason": "CLEAR_LIMB_SUPPORTED_NEAR_GROUND:hands_feet_supported"
+    },
+    {
+      "person_id": 2,
+      "decision": "NO_ALERT_NORMAL_POSE",
+      "reason": "NORMAL_REST_OR_CHAIR_SUPPORT"
+    }
+  ],
+  "image_decision": "ATTENTION_NEAR_GROUND",
+  "image_reason": "AUXILIARY_ONLY",
+  "completed_timestamp": "2026-09-14T10:29:43.901493+00:00"
+}

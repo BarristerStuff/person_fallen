@@ -1,0 +1,15 @@
+{
+  "C3": false,
+  "HOLDOUT_CONSUMED": false,
+  "HOLDOUT_REQUESTS": 0,
+  "NEW_VAL": 0,
+  "P4D_GR3Q2_STATUS": "READY_AWAITING_PROFILE_STRATIFIED_RECOVERY_AUTHORIZATION",
+  "formal_ingest": false,
+  "labels_added": 0,
+  "media_added": 0,
+  "ollama_service_modified": false,
+  "production_code_modified": false,
+  "provider_requests": 0,
+  "raw_generation_response_files": 0,
+  "stage": "P4D_GR3Q2_LINEAGE_POLICY_AMENDMENT_AND_RECOVERY_PREP"
+}

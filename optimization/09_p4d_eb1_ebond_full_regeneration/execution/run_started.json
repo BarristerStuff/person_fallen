@@ -1,0 +1,13 @@
+{
+  "concurrency": 1,
+  "created_at": "2026-08-28T08:51:27.767+00:00",
+  "credential_fingerprint_sha256": "43d31d860533665709eb74ab30e6643ae2addd79d71156940e517c75db44873f",
+  "credential_slot_safe": "PRIMARY",
+  "holdout_requests": 0,
+  "http_client_retry_total": 0,
+  "http_library": "urllib.request",
+  "logical_retry": false,
+  "model": "gpt-image-2",
+  "provider": "ebond",
+  "secret_persisted": false
+}

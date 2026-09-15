@@ -1,0 +1,16 @@
+{
+  "authorized": true,
+  "c3": false,
+  "concurrency": 1,
+  "formal_ingest": false,
+  "holdout_requests": 0,
+  "max_confirmed_policy_refusals": 3,
+  "max_logical_invocations": 20,
+  "max_physical_attempt_lower_bound": 24,
+  "max_unique_native_retry_events": 3,
+  "native_max_retries": 3,
+  "new_val": 0,
+  "outer_retry": false,
+  "stage": "P4D_GR3Q7_NETWORK_STABILITY_RECOVERY",
+  "val": 0
+}

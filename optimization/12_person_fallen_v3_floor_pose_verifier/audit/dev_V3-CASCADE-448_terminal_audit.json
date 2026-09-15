@@ -1,0 +1,43 @@
+{
+  "revision_id": "PERSON_FALLEN_V3_FLOOR_POSE_VERIFIER_20260902_01",
+  "event": "person_fallen",
+  "event_definition_version_preserved": "v3.0",
+  "candidate": "V3-CASCADE-448",
+  "phase": "DEV",
+  "status": "MODEL_SIDE_LIMIT_REACHED_AFTER_TARGETED_VERIFIER",
+  "source_result": "eval/runs/dev_V3-CASCADE-448/summary.json",
+  "source_result_sha256": "858de2e8d0b1dd7d0c6745708432e9e6d8354c2aa9334097a05b4d58c3810831",
+  "independent_recompute": {
+    "cascade_rows": 436,
+    "stage2_call_count": 233,
+    "baseline": {"TP": 185, "FP": 37, "TN": 193, "FN": 1},
+    "cascade": {"TP": 184, "FP": 33, "TN": 197, "FN": 2},
+    "precision": 0.847926267281106,
+    "recall": 0.989247311827957,
+    "f1": 0.913151364764268,
+    "hard_negative_fpr": 0.2129032258064516,
+    "ordinary_negative_fpr": 0.0,
+    "strict_json_success": 1.0,
+    "false_positive_taxonomy": {
+      "floor_sitting": 29,
+      "ground_maintenance": 2,
+      "kneeling_half_kneeling": 2
+    },
+    "floor_sitting": {"baseline_fp": 33, "suppressed": 4, "remaining_fp": 29},
+    "true_positive_incorrectly_suppressed": 1,
+    "preexisting_stage1_false_negative": 1
+  },
+  "dev_gate": "FAIL",
+  "fallback_896_permitted": false,
+  "fallback_896_reason": "Residual false positives include ground_maintenance and kneeling_half_kneeling, and Stage 2 incorrectly suppressed one true positive; failure is not solely residual floor_sitting verifier error.",
+  "screen": "NOT_RUN",
+  "val": "NOT_RUN",
+  "final_candidate": "NONE",
+  "ready_for_final_holdout": false,
+  "holdout_consumed": false,
+  "holdout_requests": 0,
+  "stop_further_p4d_generation": true,
+  "human_semantic_review_required": false,
+  "model_prediction_used_as_gt": false,
+  "next_action": "STOP_EVENT_WITHOUT_FINAL_HOLDOUT"
+}

@@ -1,0 +1,21 @@
+{
+  "api_base": "https://api.ebondai.com/v1",
+  "api_host": "api.ebondai.com",
+  "config_path": "/home/yanbo/.codex/gpt-image-2-skill/config.json",
+  "config_sha256": "605c41983f6d00c194901c078b7e12524b3e5eaa30811ec95f116bf0908f1956",
+  "generation_endpoint": "https://api.ebondai.com/v1/images/generations",
+  "model": "gpt-image-2",
+  "primary": {
+    "available": true,
+    "length": 67,
+    "safe_fingerprint_sha256": "43d31d860533665709eb74ab30e6643ae2addd79d71156940e517c75db44873f",
+    "source": "file"
+  },
+  "provider_id": "ebond-gpt-image-2",
+  "provider_type": "openai-compatible",
+  "secondary": {
+    "available": false,
+    "reason": "no second credential discoverable in current configured provider store; unrelated event keys excluded"
+  },
+  "secret_persisted": false
+}

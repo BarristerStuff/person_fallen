@@ -1,0 +1,22 @@
+{
+  "trigger": "E_AUXILIARY_HIGH_PRIORITY_ALERT",
+  "count": 1,
+  "samples": [
+    {
+      "request_id": "V5_B0_FULLDEV_EXTENSION_0274",
+      "item_id": "V2_ORIGINAL::IMG_003795",
+      "operational_id": "PFV4DEV_0213",
+      "evaluation_stratum": "auxiliary_attention",
+      "taxonomy": "pushup_plank",
+      "result_source": "NEW_INFERENCE",
+      "image_decision": "ALERT_GROUND_LYING",
+      "image_reason": "AT_LEAST_ONE_RELIABLE_GROUND_LYING_PERSON",
+      "people_count": 1,
+      "scene_coverage": "complete",
+      "person_decisions_json": "[{\"person_id\": 1, \"decision\": \"ALERT_GROUND_LYING\", \"reason\": \"HORIZONTAL_GROUND_SUPPORTED_TARGET:prone\"}]",
+      "person_attributes_json": "[{\"person_id\": 1, \"bbox_1000\": [248, 408, 768, 583], \"person_visible\": \"yes\", \"pose\": \"prone\", \"torso_orientation\": \"horizontal\", \"torso_ground_contact\": \"broad\", \"head_shoulders_above_hips\": \"no\", \"support_surface\": \"floor\", \"explicit_work_evidence\": \"no\", \"visual_quality\": \"clear\", \"evidence\": \"A person is lying face down on a mat on the floor, supported by their forearms and feet.\"}]",
+      "raw_response_sha256": "0e758f0e87922ae93c8e45fa8792c9dbfe9ad6f00d1dc709d004656e6eb07143"
+    }
+  ],
+  "interpretation": "Structured attributes classified this pushup_plank development row as prone/horizontal/broad/floor, so frozen policy produced ALERT. Evidence text is not parsed by policy and was not used to change the result."
+}

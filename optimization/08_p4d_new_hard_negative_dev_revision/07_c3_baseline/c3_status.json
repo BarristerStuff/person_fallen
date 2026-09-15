@@ -1,0 +1,13 @@
+{
+  "C3_EXECUTED": false,
+  "c3_prompt_sha256": "685bb9724b1faa96298c1e6cf8139774d82afbc9d2f30cdd154fbe5cb776951e",
+  "holdout_consumed": false,
+  "holdout_requests": 0,
+  "metrics": "N/A",
+  "new_design_requests": 0,
+  "new_screen_requests": 0,
+  "new_val_requests": 0,
+  "protocol_gate": "N/A",
+  "reason": "C3 requires accepted, mechanically audited, human-reviewed P4D images; generation stopped at provider capability gate.",
+  "status": "NOT_RUN_GENERATION_REQUIRED"
+}

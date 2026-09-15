@@ -1,0 +1,20 @@
+{
+  "P4D_STATUS": "GENERATION_REQUIRED",
+  "batch_id": "batch-person-fallen-v2-p4d-hardneg-fullregen-r2-camera1p5m",
+  "c3": false,
+  "created_at": "2026-08-27T09:20:22.303+00:00",
+  "final_count": 0,
+  "formal_ingest": false,
+  "full_regen_authorized": false,
+  "full_regen_required": true,
+  "generated_raw_count": 0,
+  "gr1_images_reused": 0,
+  "holdout_consumed": false,
+  "holdout_requests": 0,
+  "new_val_requests": 0,
+  "planned_new_images": 440,
+  "provider_requests": 0,
+  "revision_id": "P4D_FULLREGEN_CODEX_PROFILE2_20260827_01",
+  "stage": "P4D_GR3_FULL_REGEN_PREPARATION",
+  "status": "BLOCKED_RETRY_POLICY"
+}

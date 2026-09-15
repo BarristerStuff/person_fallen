@@ -1,0 +1,23 @@
+test_alert_never_sends (test_execution.Contracts) ... ok
+test_binding_all_preparation_and_inputs (test_execution.Contracts) ... ok
+test_duplicate_and_missing_predictions_block (test_execution.Contracts) ... ok
+test_existing_start_completion_lock_blocks (test_execution.Contracts) ... ok
+test_floor_fpr_not_na (test_execution.Contracts) ... ok
+test_forbidden_phases (test_execution.Contracts) ... ok
+test_metrics_correct_denominators (test_execution.Contracts) ... ok
+test_missing_secondary_or_protocol_failure_not_success (test_execution.Contracts) ... ok
+test_payload_no_lineage (test_execution.Contracts) ... ok
+test_regression_baseline_target_fails_before_secondary (test_execution.Contracts) ... ok
+test_request_identity_and_quota (test_execution.Contracts) ... ok
+test_routing_exhaustive (test_execution.Contracts) ... ok
+test_sha_mismatch (test_execution.Contracts) ... ok
+test_strata (test_execution.Contracts) ... ok
+test_strict_rejections (test_execution.Contracts) ... ok
+test_strict_valid (test_execution.Contracts) ... ok
+test_total_recheck_budget_23_24 (test_execution.Contracts) ... ok
+test_transport_failure_stops_without_retry (test_execution.Contracts) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.506s
+
+OK

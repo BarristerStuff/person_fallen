@@ -1,0 +1,14 @@
+{
+  "cross_design_screen": true,
+  "current_execution": false,
+  "exact_sha": true,
+  "perceptual_hashes": [
+    "dHash",
+    "pHash"
+  ],
+  "replacement_auto_execution": false,
+  "replacement_required_on_any_missing_corrupt_or_duplicate": true,
+  "scope": "all 440 current images after future generation",
+  "within_new_design": true,
+  "within_new_screen": true
+}

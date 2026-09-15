@@ -1,0 +1,25 @@
+{
+  "original_freeze_declared_dev_manifest_sha256": "f829285121249ceac924632c485f67ee3d83e9a9cf08a0d3716908bb21878c58",
+  "actual_dev_manifest_sha256": "7f8ff256a8da3cc6451e1ec3f6a842dc9b3eb6f4080e4fb5a1a49dda9bc7d7d8",
+  "original_freeze_binding_match": false,
+  "original_freeze_binding_mismatch": true,
+  "p1a_val_prior_confirmed_exposure": 10,
+  "p1a_val_prior_possible_additional_exposure": 1,
+  "p1a_val_prior_exposure_lower_bound": 10,
+  "p1a_val_prior_exposure_upper_bound": 11,
+  "dev_entity_audit": {
+    "manifest_rows": 310,
+    "manifest_unique_media": 310,
+    "predictions_rows": 310,
+    "predictions_unique_media": 310,
+    "request_log_rows": 310,
+    "request_log_unique_media": 310,
+    "entity_sets_equal": true,
+    "holdout_rows": 0,
+    "http_ok": 310,
+    "json_ok": 310,
+    "schema_ok": 310,
+    "canonical_ok": 310,
+    "thinking_present": 0
+  }
+}

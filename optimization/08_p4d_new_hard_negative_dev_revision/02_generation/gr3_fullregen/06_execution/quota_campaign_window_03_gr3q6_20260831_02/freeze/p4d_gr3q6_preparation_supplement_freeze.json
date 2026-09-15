@@ -1,0 +1,39 @@
+{
+  "artifact_sha256": {
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_03_gr3q6_20260831_02/00_preflight/provider_runtime.json": "32817677c461a077bb1d2356838bb62386d26e60e7c65ca23e33802817ec34fa",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_03_gr3q6_20260831_02/00_preflight/q5_retry_telemetry_erratum.json": "25cd83c3a3896521f6aa8d454894b8c2c9e22155816db76de8b7c4899131e531",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_03_gr3q6_20260831_02/01_inventory/current_verified_success_142.csv": "bc9eea9a71b91f0b201a3df5e03038a32b28214256e0e792ca95c65b5d2266f9",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_03_gr3q6_20260831_02/01_inventory/outstanding_298.csv": "cd4a56eb54ce2294f8069f98006aba949eb5910a11b1ab0ad73112ff028c0f8d",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_03_gr3q6_20260831_02/02_plan/q6_balanced_window_33_plan.csv": "11821c0b090706467cac98e84cddcecd76f9d2ac7d7a2b3ae0368e86c3a1f2f8",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_03_gr3q6_20260831_02/02_plan/q6_plan_audit.json": "dabd45233ccf95db748484480760ce9a2a0c25ce3e72176866a5cf946276f332",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_03_gr3q6_20260831_02/03_ledger/gr3q6.sqlite3": "bab86e3a46486ea7d9c2f93e68d0c8f9cfdb5db3c2f3e581c3eb49c23c67fe34",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_03_gr3q6_20260831_02/05_checkpoints/authorization_gate.json": "393a4b13dc03464d86f4293bb0b000829fb95e70cf3e56a360cfc0f83734e799",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_03_gr3q6_20260831_02/freeze/p4d_gr3q6_preparation_freeze.json": "0895c36bb13ce7fbd7c8eebb24deeea6ba650ef6247c294cc9656722b19dd900",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_03_gr3q6_20260831_02/freeze/p4d_gr3q6_preparation_freeze.json.sha256": "da46862ee1a1a7731602ec0c22aab0a70a2ad4addbbc4d718aeea2349fb488a0",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_03_gr3q6_20260831_02/p4d_gr3q6_runner.py": "b70de6798bb2709529951e6e3681567cfddb5cbe8f793804aaa989a66c5190c9",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_03_gr3q6_20260831_02/retry_event_parser_v2.py": "a1b936678f7e4b237e3c938c762dfcf8a0723fd318c8dcc9af2b8db83628961d",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/PERSON_FALLEN_V2.md": "9cfe684d3c68f4996828feb548e9f7fd41ab9bdb162bd5f0b64cd7c480e5f38f",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/reports/100_p4d_gr3q6_final.md": "0f5a3d7e8a81350b525a462c88b77806502b176794405e82960973e5716d261a",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/reports/95_p4d_gr3q5_retry_telemetry_erratum.md": "65537c4b172b3d2918f3e173ee2c1410b651ac74672570512a73bb16c661ca19",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/reports/96_p4d_gr3q6_preflight_and_reset.md": "7e3498898c7f40f6dc308c662055f6fea2e0471113459c2b869999f56ac5fb18",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/reports/97_p4d_gr3q6_balanced_33_plan.md": "3e0a9d1183f1ec6fa27b512dbcbec67440fcec63d0427ce013d985351d6fcd2d",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/tools/p4d_gr3q6_seal_preparation_supplement.py": "ec5e71c8247e882acbf1e4b6de4ee7be37b1042d9117f2b20090fe62330d9e40"
+  },
+  "initial_preparation_freeze_sha256": "0895c36bb13ce7fbd7c8eebb24deeea6ba650ef6247c294cc9656722b19dd900",
+  "initial_preparation_freeze_verified": true,
+  "kind": "PREPARATION_SUPPLEMENT_FREEZE",
+  "ledger_state_counts": {
+    "NOT_STARTED": 33
+  },
+  "ledger_wal_checkpoint": [
+    0,
+    0,
+    0
+  ],
+  "logical_invocations": 0,
+  "parent_q5_freeze_sha256": "3c219c9d75803cd5427862c0255ab557e92969085a864b116435aea85f8817f2",
+  "provider_requests": 0,
+  "reports_98_99_absent_reason": "execution_and_partial_qa_not_run_without_authorization",
+  "stage": "P4D_GR3Q6_BALANCED_QUOTA_RESET_RECOVERY",
+  "status": "AWAITING_Q6_GENERATION_AUTHORIZATION"
+}

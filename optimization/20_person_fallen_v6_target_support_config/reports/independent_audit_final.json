@@ -1,0 +1,28 @@
+{
+  "status": "PASS_BLOCKING_STATE_CONFIRMED",
+  "claimed": 0,
+  "raw": 0,
+  "completed": 0,
+  "completion_locks": 0,
+  "active_runner": [],
+  "freeze_hash_matches": true,
+  "freeze_budget": {
+    "pilot": 156,
+    "regression": 1,
+    "total": 157,
+    "full_dev": 0,
+    "val": 0,
+    "holdout": 0
+  },
+  "plan_budget": {
+    "pilot": 156,
+    "regression": 1,
+    "total": 157,
+    "full_dev": 0,
+    "val": 0,
+    "holdout": 0
+  },
+  "mismatch_with_runner_exact_check": true,
+  "model_requests": 0,
+  "VAL_HOLDOUT_read": 0
+}

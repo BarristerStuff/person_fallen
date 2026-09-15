@@ -1,0 +1,15 @@
+{
+  "state": "claimed",
+  "phase": "pilot",
+  "request_id": "V6_TARGET_SUPPORT_PILOT_0113",
+  "item_id": "V2_ORIGINAL::IMG_003784",
+  "operational_id": "PFV6_PILOT_0113",
+  "taxonomy": "pushup_plank",
+  "group_id": "pf_v2_aigc_h09-exercise-push-up-plank",
+  "evaluation_stratum": "auxiliary_attention",
+  "source_image_sha256": "fe68b7260d64c41240854528bd9b8288ee9273426440d9565c628b7b96b5d279",
+  "full_view_sha256": "500508cac8e42828270839b796f93c0bd1af5592c36d971032cda0daf7e4d54b",
+  "crop_view_sha256": "48c1c169fa62827bc5248394f751a57eebbef1825f4dfbef4ea9f57d5a08ac79",
+  "payload_sha256": "7726a61823419eac28ca64456ee6cfe811a6ff9b9f349b05bc32bc8796cedf83",
+  "claimed_timestamp": "2026-09-14T10:28:56.099505+00:00"
+}

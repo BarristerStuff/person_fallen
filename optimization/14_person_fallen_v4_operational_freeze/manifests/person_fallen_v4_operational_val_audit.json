@@ -1,0 +1,27 @@
+{
+  "floor_sitting_count": 0,
+  "holdout_rows_read": 0,
+  "operational_class_counts": {
+    "ground_lying": 40,
+    "normal_negative": 60
+  },
+  "output_manifest": "/home/yanbo/net_vlm_person_fallen_v2_optimization/14_person_fallen_v4_operational_freeze/manifests/person_fallen_v4_operational_val.csv",
+  "output_manifest_sha256": "ff55888f3af52d79647cce3a9f0d469f74983be651de5f392b9920c00e3cc1cb",
+  "rows": 100,
+  "screen_rows_read": 0,
+  "source_manifest": "/home/yanbo/net_vlm_person_fallen_v2_optimization/11_person_fallen_v3_revision/remap/person_fallen_v3_val_manifest.csv",
+  "source_manifest_sha256": "ffe093f90a64698f1006541400dc8bf6bda774bbe54febc47ef2c388ef184302",
+  "status": "PASS",
+  "taxonomy_counts": {
+    "bed_normal_rest": 20,
+    "bending": 10,
+    "crawling_explicit_maintenance": 10,
+    "low_light_ground_lying": 20,
+    "multi_person_one_lying": 20,
+    "ordinary_multi_activity": 10,
+    "sofa_normal_rest": 10
+  },
+  "unique_group_count": 10,
+  "unique_image_sha256": 100,
+  "val_rows_read": 0
+}

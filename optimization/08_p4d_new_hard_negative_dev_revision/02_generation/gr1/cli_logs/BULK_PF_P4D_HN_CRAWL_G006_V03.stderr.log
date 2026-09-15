@@ -1,0 +1,11 @@
+{"data":{"endpoint":"https://chatgpt.com/backend-api/codex/responses","provider":"codex"},"kind":"local","seq":1,"type":"request.started"}
+{"data":{"endpoint":"https://chatgpt.com/backend-api/codex/responses","message":"Codex image request sent.","percent":0,"phase":"request_started","provider":"codex","status":"running"},"kind":"progress","seq":2,"type":"request_started"}
+{"data":{"delay_seconds":1,"max_retries":3,"message":"Retry scheduled after transient failure.","phase":"retry_scheduled","provider":"codex","reason":"HTTP 429","retry_number":1,"status":"running","status_code":429},"kind":"progress","seq":3,"type":"retry_scheduled"}
+{"data":{"endpoint":"https://chatgpt.com/backend-api/codex/responses","provider":"codex"},"kind":"local","seq":4,"type":"request.started"}
+{"data":{"endpoint":"https://chatgpt.com/backend-api/codex/responses","message":"Codex image request sent.","percent":0,"phase":"request_started","provider":"codex","status":"running"},"kind":"progress","seq":5,"type":"request_started"}
+{"data":{"delay_seconds":2,"max_retries":3,"message":"Retry scheduled after transient failure.","phase":"retry_scheduled","provider":"codex","reason":"HTTP 429","retry_number":2,"status":"running","status_code":429},"kind":"progress","seq":6,"type":"retry_scheduled"}
+{"data":{"endpoint":"https://chatgpt.com/backend-api/codex/responses","provider":"codex"},"kind":"local","seq":7,"type":"request.started"}
+{"data":{"endpoint":"https://chatgpt.com/backend-api/codex/responses","message":"Codex image request sent.","percent":0,"phase":"request_started","provider":"codex","status":"running"},"kind":"progress","seq":8,"type":"request_started"}
+{"data":{"delay_seconds":4,"max_retries":3,"message":"Retry scheduled after transient failure.","phase":"retry_scheduled","provider":"codex","reason":"HTTP 429","retry_number":3,"status":"running","status_code":429},"kind":"progress","seq":9,"type":"retry_scheduled"}
+{"data":{"endpoint":"https://chatgpt.com/backend-api/codex/responses","provider":"codex"},"kind":"local","seq":10,"type":"request.started"}
+{"data":{"endpoint":"https://chatgpt.com/backend-api/codex/responses","message":"Codex image request sent.","percent":0,"phase":"request_started","provider":"codex","status":"running"},"kind":"progress","seq":11,"type":"request_started"}

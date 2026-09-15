@@ -1,0 +1,98 @@
+{
+  "state": "completed",
+  "phase": "full_dev_extension",
+  "request_id": "V5_B0_FULLDEV_EXTENSION_0127",
+  "item_id": "P4D_PLAN::PF_P4D_HN_KNEEL_G002_V02",
+  "operational_id": "PFV4DEV_0352",
+  "evaluation_stratum": "normal_negative",
+  "source_image_sha256": "ef8955ef0328d3adfc4bea1135e9f3dbe606427db8b1e81eb6b4913f7a5f0594",
+  "full_view_sha256": "9c209234e32833e311bfbde985003430036983b6641add4400cf8e3e68b1a7b9",
+  "crop_view_sha256": "ad8d81808b71e34799e13b6b1e121f535d72df856505c82f9f3b1ff58992d308",
+  "view_count": 2,
+  "view_order": [
+    "full_scene",
+    "person_crop"
+  ],
+  "prompt_sha256": "757fb445efa3f05327947a4c32115e3735823c81d14177199bbf8a6381d3300a",
+  "schema_sha256": "1ccf5a08cd1d6287b33f5d04b0f06101ae75666919c1a9f160ac0c5c335d7817",
+  "policy_sha256": "b2126bf86378fa6d0bcbc67861fa794b320affb1de90dc445f5838223cae68b9",
+  "contracts_sha256": "e88cb1cb2c297200245531d5c5802aa9224dcd1a43e181402adeac23bf949edd",
+  "model": {
+    "endpoint": "http://192.168.20.62:11434",
+    "name": "qwen3.5:4b",
+    "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+    "ollama_version": "0.23.2",
+    "think": false,
+    "stream": false,
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 768,
+    "concurrency": 1,
+    "timeout_seconds": 120,
+    "automatic_retry": false,
+    "resend_completion_unknown": false,
+    "api": "/api/generate"
+  },
+  "freeze_sha256": "900dfdc9fcf0aad9e95ba2c5abfbc23cfdc8dcdec4b9680f36b03fecff750eee",
+  "payload_sha256": "01d2b22279e6e1fca2b778f471f5681fcd02d14140ff846cb258dfd505e830bc",
+  "claimed_timestamp": "2026-09-09T11:02:17.925302+00:00",
+  "inference_source": "NEW_INFERENCE",
+  "result_source": "NEW_INFERENCE",
+  "taxonomy": "kneeling_half_kneeling",
+  "group_id": "PF_P4D_HN_KNEEL_G002",
+  "source_split": "NEW_DESIGN",
+  "v3_split": "V3_DEV",
+  "ground_truth": "negative",
+  "expected_v4_outcome": "NO_ALERT_NORMAL_POSE",
+  "image_sha256": "ef8955ef0328d3adfc4bea1135e9f3dbe606427db8b1e81eb6b4913f7a5f0594",
+  "person_detected": "true",
+  "source_binding_ok": true,
+  "strict_json_ok": true,
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 179,
+  "parsed": {
+    "scene_coverage": "complete",
+    "people": [
+      {
+        "person_id": 1,
+        "bbox_1000": [
+          396,
+          348,
+          594,
+          732
+        ],
+        "person_visible": "yes",
+        "pose": "kneeling",
+        "torso_orientation": "upright",
+        "torso_ground_contact": "partial",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "explicit_work_evidence": "no",
+        "visual_quality": "clear",
+        "evidence": "A person is kneeling on one knee on the floor in a hallway."
+      }
+    ]
+  },
+  "person_decisions": [
+    {
+      "person_id": 1,
+      "decision": "NO_ALERT_NORMAL_POSE",
+      "reason": "CONSISTENT_NORMAL_GROUND_POSE:kneeling"
+    }
+  ],
+  "image_decision": "NO_ALERT_NORMAL_POSE",
+  "image_reason": "ALL_ENUMERATED_PEOPLE_CLEAR_NORMAL",
+  "http_status": 200,
+  "completion_unknown": false,
+  "transport_error": null,
+  "raw_response_sha256": "9a23855cddcbc577fb120409ff0203d02d8fb34edc8ede081766489c9caf7d3b",
+  "raw_response_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/19_person_fallen_v5_b0_full_dev_recovery_r1/eval/full_dev/requests/V5_B0_FULLDEV_EXTENSION_0127/response.raw",
+  "latency_seconds": 17.25876465899637,
+  "latency_source": "NEW_INFERENCE",
+  "received_timestamp": "2026-09-09T11:02:35.186186+00:00",
+  "completed_timestamp": "2026-09-09T11:02:35.186885+00:00",
+  "EVALUATION_MODE": "SAME_V5_B0_EXACT_RESULT_REUSE_PLUS_NEW_INFERENCE",
+  "LEGACY_V4_CACHE_USED_FOR_DECISION": false,
+  "CACHED_PRIMARY_USED_FOR_FINAL_DECISION": false
+}

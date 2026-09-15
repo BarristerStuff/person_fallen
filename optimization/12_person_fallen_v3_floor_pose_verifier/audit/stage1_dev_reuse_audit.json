@@ -1,0 +1,51 @@
+{
+  "boundaries": {
+    "holdout_consumed": false,
+    "holdout_rows": 0,
+    "new_p4d_generation": false,
+    "production_or_shared_dataset_modified": false
+  },
+  "counts": {
+    "dev_full": 436,
+    "screen_full": 76,
+    "stage1_dev_positive_calls_to_stage2": 233,
+    "stage1_dev_predictions": {
+      "negative": 203,
+      "positive": 233
+    },
+    "val_full": 100
+  },
+  "created_at_utc": "2026-09-02T02:22:44.509645+00:00",
+  "revision_id": "PERSON_FALLEN_V3_FLOOR_POSE_VERIFIER_20260902_01",
+  "source_hashes": {
+    "stage1_dev_predictions": "964bcf7925ab723c88698cb07cd96e318b0289576d1c398282ddf623b29633d1",
+    "stage1_dev_summary": "bfa8e840db53b113799f2af4ee8506839911abd3b2139637d8a8fab46b83d286",
+    "v3_config": "8a1edccf97f0117f5d733d851570c86b45ba1d32b995b7d84158f47ddb3d15a0",
+    "v3_definition": "16fbe644285756d4568b4470d8d7168a048bb6719e186cce82f56ef0a59d9bce",
+    "v3_dev_manifest": "fc41fcc39b87d8da7decfd50a4d832e8c5f38470c7c6cf08aaaaa160aa751f2b",
+    "v3_prompt": "805a7276e0e6291059ab990f3426b609797342838805c417eb0a15db804c182f",
+    "v3_screen_manifest": "8e9b4048c0bc97807e8afe647eee11c0903d50108844f2117ae41b85c6e8923c",
+    "v3_val_manifest": "ffe093f90a64698f1006541400dc8bf6bda774bbe54febc47ef2c388ef184302"
+  },
+  "source_root": "/home/yanbo/net_vlm_person_fallen_v2_optimization/11_person_fallen_v3_revision",
+  "stage1_dev_baseline": {
+    "FN": 1,
+    "FP": 37,
+    "TN": 193,
+    "TP": 185,
+    "accuracy": 0.9086538461538461,
+    "f1": 0.9068627450980392,
+    "hard_negative_count": 155,
+    "hard_negative_fpr": 0.23870967741935484,
+    "ordinary_negative_count": 75,
+    "ordinary_negative_fpr": 0.0,
+    "precision": 0.8333333333333334,
+    "recall": 0.9946236559139785
+  },
+  "stage1_dev_false_positive_taxonomy": {
+    "floor_sitting": 33,
+    "ground_maintenance": 2,
+    "kneeling_half_kneeling": 2
+  },
+  "status": "PASS"
+}

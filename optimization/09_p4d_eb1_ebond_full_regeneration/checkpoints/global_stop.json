@@ -1,0 +1,10 @@
+{
+  "created_at": "2026-08-28T08:51:31.696+00:00",
+  "holdout_requests": 0,
+  "http_status": 401,
+  "logical_request_id": "P4D_EB1_0001",
+  "no_retry": true,
+  "order_index": 1,
+  "safe_error": "provider HTTP 401",
+  "status": "BLOCKED_PRIMARY_AUTH_NO_SECONDARY"
+}

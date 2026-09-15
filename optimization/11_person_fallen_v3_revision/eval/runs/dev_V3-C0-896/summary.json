@@ -1,0 +1,91 @@
+{
+  "candidate": "V3-C0-896",
+  "config_sha256": "8a1edccf97f0117f5d733d851570c86b45ba1d32b995b7d84158f47ddb3d15a0",
+  "counts": {
+    "ground_truth_negative": 230,
+    "ground_truth_positive": 186,
+    "ground_truth_uncertain": 20,
+    "groups": 57,
+    "planned_requests": 436
+  },
+  "endpoint": "http://192.168.20.62:11434",
+  "event_definition_version": "v3.0",
+  "event_name": "person_fallen",
+  "gate": {
+    "hard_negative_fpr_max": 0.05,
+    "hard_negative_fpr_pass": false,
+    "ordinary_negative_fpr_pass": true,
+    "ordinary_negative_fpr_required": 0.0,
+    "pass": false,
+    "precision_min": 0.93,
+    "precision_pass": false,
+    "recall_min": 0.95,
+    "recall_pass": true,
+    "strict_json_success_min": 1.0,
+    "strict_json_success_pass": true
+  },
+  "gt_policy": {
+    "GT_SOURCE": "FROZEN_GENERATION_PROMPT_AND_PLANNED_ROLE",
+    "GT_TYPE": "PROMPT_DERIVED_SYNTHETIC_GT",
+    "HUMAN_SEMANTIC_REVIEW_REQUIRED": false,
+    "model_prediction_used_as_gt": false
+  },
+  "holdout_consumed": false,
+  "holdout_requests": 0,
+  "manifest_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/11_person_fallen_v3_revision/remap/person_fallen_v3_dev_manifest.csv",
+  "manifest_sha256": "fc41fcc39b87d8da7decfd50a4d832e8c5f38470c7c6cf08aaaaa160aa751f2b",
+  "metrics": {
+    "FN": 1,
+    "FP": 35,
+    "TN": 195,
+    "TP": 185,
+    "accuracy": 0.9134615384615384,
+    "determinate_count": 416,
+    "f1": 0.9113300492610837,
+    "fpr": 0.15217391304347827,
+    "gt_uncertain_prediction_distribution": {
+      "negative": 5,
+      "positive": 15
+    },
+    "hard_negative_count": 155,
+    "hard_negative_fpr": 0.22580645161290322,
+    "model_uncertain_count": 0,
+    "model_uncertain_rate": 0.0,
+    "ordinary_negative_count": 75,
+    "ordinary_negative_fpr": 0.0,
+    "positive_recall": 0.9946236559139785,
+    "precision": 0.8409090909090909,
+    "recall": 0.9946236559139785,
+    "specificity": 0.8478260869565217
+  },
+  "model": "qwen3.5:4b",
+  "model_digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+  "phase": "dev",
+  "prompt_sha256": "805a7276e0e6291059ab990f3426b609797342838805c417eb0a15db804c182f",
+  "protocol": {
+    "completed_count": 436,
+    "failed_confirmed_count": 0,
+    "http_success_rate": 1.0,
+    "latency_seconds": {
+      "max": 49.000225,
+      "mean": 12.254244706422018,
+      "p50": 9.445309,
+      "p95": 28.62508175
+    },
+    "prediction_distribution": {
+      "negative": 201,
+      "positive": 235
+    },
+    "request_count": 436,
+    "schema_success_rate": 1.0,
+    "strict_json_success_rate": 1.0,
+    "transport_unknown_count": 0
+  },
+  "q9_binding_blocked_in_main_metrics": false,
+  "resolution": "896x672",
+  "revision_id": "PERSON_FALLEN_V3_ANOMALOUS_NEAR_GROUND_20260901_01",
+  "run_dir": "/home/yanbo/net_vlm_person_fallen_v2_optimization/11_person_fallen_v3_revision/eval/runs/dev_V3-C0-896",
+  "runner_sha256": "d87a1cfb0f9ed11e99e9630e21f62786c23504eb25a2d207d631156d53c51850",
+  "status": "COMPLETE",
+  "taxonomy_error_file": "/home/yanbo/net_vlm_person_fallen_v2_optimization/11_person_fallen_v3_revision/eval/runs/dev_V3-C0-896/taxonomy_metrics.csv"
+}

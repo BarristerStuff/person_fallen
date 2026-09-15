@@ -1,0 +1,94 @@
+{
+  "revision_id": "PERSON_FALLEN_V4_POSE_ATTRIBUTES_20260908_01",
+  "candidate": "V4-A0-FULL-CROP-FULLDEV-436",
+  "event_name": "person_fallen",
+  "event_definition_version": "v4.0-development-only",
+  "diagnostic_only": false,
+  "dev_only": true,
+  "parent_dev_manifest": "/home/yanbo/net_vlm_person_fallen_v2_optimization/11_person_fallen_v3_revision/remap/person_fallen_v3_dev_manifest.csv",
+  "parent_dev_manifest_sha256": "fc41fcc39b87d8da7decfd50a4d832e8c5f38470c7c6cf08aaaaa160aa751f2b",
+  "expected_dev_counts": {
+    "total": 436,
+    "positive": 186,
+    "negative": 230,
+    "uncertain": 20,
+    "hard_negative": 155,
+    "ordinary_negative": 75
+  },
+  "selection_uses_model_predictions": false,
+  "gt_type": "PROMPT_DERIVED_SYNTHETIC_GT",
+  "human_semantic_review_required": false,
+  "frozen_components": {
+    "prompt": "prompt/V4-A0_pose_attributes_prompt.txt",
+    "prompt_sha256": "a81367203bfff7fe8aaae491bf04a8d9eb92057c701412bbd316b8d43f98fad7",
+    "policy": "policy/deterministic_policy.py",
+    "policy_sha256": "3a3e16f177c1806b74f4018bc269068e7715bba43eb20a5b3797b02c4ca9ccaf",
+    "temporal_policy": "policy/temporal_recheck.py",
+    "temporal_policy_sha256": "04ae5afd8d1a51015504befb614b7391b1bd56b909bd3620286b51745de98591"
+  },
+  "prerequisite_diagnostic": {
+    "run_dir": "eval/runs/dev_V4-A0-FULL-CROP-110",
+    "summary_sha256": "b2f7e4ffd02db9e2c1c8c9c80b565e486940b54a3d2e76b0d50afa646772d08b",
+    "completion_lock_sha256": "9d7ea59387a6991fe856430802191083223d120e94ae0546587ec197bd3e087f",
+    "predictions_sha256": "33ced5ec20d5dba579f0a88afcffde6b24cf3d31e2f07b42f6e842909f5a9628",
+    "crop_manifest_sha256": "f361f2c6e05da411f6e91dcb88daa735500afa6f09911e16e9a2a632b0aa58d3",
+    "required_gate_pass": true,
+    "eligible_cache_rows": 110
+  },
+  "detector": {
+    "name": "Ultralytics_YOLO11n_COCO",
+    "weight_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+    "runtime_python": "/home/yanbo/net_vlm_person_smoking_optimization/.venv_person_detector/bin/python",
+    "ultralytics_version": "8.4.104",
+    "person_class_id": 0,
+    "confidence_threshold": 0.15,
+    "nms_iou_threshold": 0.7,
+    "minimum_box_area_ratio": 0.002,
+    "imgsz": 640,
+    "max_persons": 3,
+    "crop_expand_x": 0.2,
+    "crop_expand_y": 0.15
+  },
+  "model": {
+    "endpoint": "http://192.168.20.62:11434",
+    "name": "qwen3.5:4b",
+    "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+    "ollama_version": "0.23.2",
+    "think": false,
+    "stream": false,
+    "format": "json",
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 384,
+    "timeout_seconds": 120,
+    "concurrency": 1,
+    "automatic_retry": false,
+    "resend_transport_unknown": false
+  },
+  "preprocess": {
+    "mode": "letterbox",
+    "width": 448,
+    "height": 336,
+    "jpeg_quality": 70,
+    "letterbox_rgb": [128, 128, 128],
+    "views": ["full_scene", "largest_person_full_body_crop"]
+  },
+  "evaluation": {
+    "positive_decisions": ["ALERT_GROUND_LYING", "ATTENTION_NEAR_GROUND"],
+    "negative_decision": "NO_ALERT_NORMAL_POSE",
+    "uncertain_decision": "RECHECK_VISUAL_UNCERTAIN",
+    "conservative_uncertain_as_error": true,
+    "source_uncertain_excluded_from_binary_metrics": true
+  },
+  "gate": {
+    "precision_min": 0.93,
+    "recall_min": 0.95,
+    "hard_negative_fpr_max": 0.05,
+    "ordinary_negative_fpr_max": 0.0,
+    "strict_json_success_min": 1.0,
+    "detector_coverage_min": 0.95
+  },
+  "screen_requests": 0,
+  "val_requests": 0,
+  "holdout_requests": 0
+}

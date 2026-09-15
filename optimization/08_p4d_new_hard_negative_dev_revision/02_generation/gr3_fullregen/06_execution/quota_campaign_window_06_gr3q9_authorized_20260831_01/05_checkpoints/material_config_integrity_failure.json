@@ -1,0 +1,10 @@
+{
+  "status": "ZERO_REQUEST_PRE_EXECUTION_INVALIDATED",
+  "reason": "The frozen run configuration copied the Q8 runner filename and SHA256 instead of the Q9 runner identity. This is a material configuration-binding mismatch.",
+  "provider_requests_sent": 0,
+  "ledger_state": {
+    "NOT_STARTED": 30
+  },
+  "history_action": "preserved_without_rewrite",
+  "recovery_action": "A separate Q9 execution revision must reproduce the same deterministic plan and pass runner/config self-binding before any provider request."
+}

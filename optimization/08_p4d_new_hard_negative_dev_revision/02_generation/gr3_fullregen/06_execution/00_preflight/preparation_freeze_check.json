@@ -1,0 +1,14 @@
+{
+  "artifact_hash_mismatches": [],
+  "artifact_integrity_pass": true,
+  "full_regen_authorized": false,
+  "preparation_freeze_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/freeze/p4d_gr3_preparation_freeze.json",
+  "preparation_freeze_sha256_actual": "a637a289b1a657a33fe777b97f5f769815b307c5404a47d48f9f2644123c415f",
+  "preparation_freeze_sha256_expected": "a637a289b1a657a33fe777b97f5f769815b307c5404a47d48f9f2644123c415f",
+  "report_hash_mismatches": [],
+  "sha_match": true,
+  "sidecar_match": true,
+  "sidecar_value": "a637a289b1a657a33fe777b97f5f769815b307c5404a47d48f9f2644123c415f",
+  "status": "BLOCKED_RETRY_POLICY",
+  "verified_at": "2026-08-27T10:00:44.682+00:00"
+}

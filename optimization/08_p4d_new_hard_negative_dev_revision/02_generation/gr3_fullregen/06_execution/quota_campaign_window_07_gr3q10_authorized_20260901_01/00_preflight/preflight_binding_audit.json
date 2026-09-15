@@ -1,0 +1,55 @@
+{
+  "all_flags_true": true,
+  "captured_at": "2026-09-01T03:19:58.334+00:00",
+  "flags": {
+    "AUTHORIZATION_MATCH": true,
+    "LEDGER_MATCH": true,
+    "LIMITS_MATCH": true,
+    "PARENT_FREEZE_MATCH": true,
+    "PLAN_MATCH": true,
+    "RUNNER_IDENTITY_MATCH": true,
+    "RUN_CONFIG_MATCH": true
+  },
+  "hashes": {
+    "authorization_sha256": "56a6642448db4143bda77fc66d708097078dd730fa15720c7827608d3cc07bf5",
+    "ledger_sha256_at_audit": "8f4b2ff5de2d84b5da145cc0e3e3a71244cad09cf7b7751f02ead1e4eb86c312",
+    "plan_sha256": "66d79a5d0453b8c7b223f9cd8997b284ff936791421477629316bfc15ae55590",
+    "q8_clean_formal_parent_freeze_sha256": "2235fff83e62b2daf05f736446ccc5819e599fd2c7112fdb788871ecc20d8477",
+    "q9_parent_freeze_sha256": "f62af81a6ebbdecd807e3db6ab14ed1abc1ac4ceef73d4ffea64cc081e8a3bf6",
+    "q9_postrun_audit_sha256": "7936122ae90b993340ede501ea3398b4adccca92fe710719373cfe235fc5746a",
+    "run_config_sha256": "fac1469c132476ca04d900e5b1991b721f98ad0e0a166f0103483b11eb916b64",
+    "runner_sha256": "a20d561a227ba6666bdb1c8a1907b9080b358577b2c3735f6feef68d2f59ad11"
+  },
+  "limits": {
+    "authorization": {
+      "concurrency": 1,
+      "max_confirmed_policy_refusals": 3,
+      "max_logical_invocations": 30,
+      "max_physical_attempt_lower_bound": 36,
+      "max_unique_native_retry_events": 4,
+      "native_max_retries": 3,
+      "outer_retry": false
+    },
+    "ledger": {
+      "concurrency": "1",
+      "max_confirmed_policy_refusals": "3",
+      "max_logical_invocations": "30",
+      "max_physical_attempt_lower_bound": "36",
+      "max_unique_native_retry_events": "4",
+      "native_max_retries": "3",
+      "outer_retry": "false"
+    },
+    "run_config": {
+      "concurrency": 1,
+      "max_confirmed_policy_refusals": 3,
+      "max_logical_invocations": 30,
+      "max_physical_attempt_lower_bound": 36,
+      "max_unique_native_retry_events": 4,
+      "native_max_retries": 3,
+      "outer_retry": false
+    }
+  },
+  "provider_requests_sent_before_audit": 0,
+  "revision_id": "P4D_GR3Q10_BALANCED_COMPLETE_GROUP_WINDOW_20260901_01",
+  "status": "PREFLIGHT_BINDING_PASS"
+}

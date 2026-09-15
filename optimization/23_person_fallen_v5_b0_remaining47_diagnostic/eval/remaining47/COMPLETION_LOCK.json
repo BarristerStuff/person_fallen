@@ -1,0 +1,9 @@
+{
+  "status": "COMPLETE_DIAGNOSTIC",
+  "output_sha256": "35a6c8934f5190fdd2d73c8f9cd589d3f767754d39a34bec0c0247eefefb3bda",
+  "events_sha256": "0715f3ab69d722a9bed5ad8008b6de2d0b329d83d77938a2b7f96d91344c8d25",
+  "summary_sha256": "bb7c774a964861f80262a6483d9f5aa24f236733804221389ed7b1e5f0e56130",
+  "evidence_inventory_sha256": "69c093f39b32703711b511197f391ce6c251122092e1418caefb8eb6ccb1e342",
+  "completed": 47,
+  "created": "2026-09-14T08:22:56.947253+00:00"
+}

@@ -1,0 +1,3 @@
+{"data":{"endpoint":"https://chatgpt.com/backend-api/codex/responses","provider":"codex"},"kind":"local","seq":1,"type":"request.started"}
+{"data":{"endpoint":"https://chatgpt.com/backend-api/codex/responses","message":"Codex image request sent.","percent":0,"phase":"request_started","provider":"codex","status":"running"},"kind":"progress","seq":2,"type":"request_started"}
+{"data":{"endpoint":"https://auth.openai.com/oauth/token","message":"Refreshing Codex access token.","percent":2,"phase":"auth_refresh_started","provider":"codex","status":"running"},"kind":"progress","seq":3,"type":"auth_refresh_started"}

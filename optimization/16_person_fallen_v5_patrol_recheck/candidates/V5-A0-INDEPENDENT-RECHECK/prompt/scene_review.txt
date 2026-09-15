@@ -1,0 +1,15 @@
+Inspect the complete image for visible people who may be lying on the ground or abnormally collapsed and need further confirmation during a patrol. This is a scene review, not an alarm decision. Consider every visible person; a normal person must not hide another possible ground-lying person.
+
+Return scene_review as exactly one of:
+- candidate_present: a visible person has ground-lying or abnormal-collapse posture/support evidence requiring further confirmation. Examples are supine, side-lying, prone, curled or sprawled on a floor, road, or other non-rest ground, with a broadly ground-supported torso or a clearly collapsed body.
+- candidate_absent: the visible scene has no such candidate. Normal floor/chair sitting, standing, walking, kneeling, squatting, bending, clear work activity, crawling, push-up/plank, and normal rest on a bed/sofa/recliner do not by themselves create a ground-lying candidate.
+- uncertain: a visible possible human has ambiguous posture or support, but small size, occlusion, blur or partial visibility prevents a reliable judgment. Do not use uncertainty just because the cause of an otherwise clear posture is unknown.
+
+Apply these boundaries carefully:
+A floor-seated person's pelvis is the primary support and head/shoulders are visibly above the hips. Leaning backward, hands on the floor, extended legs or leaning against a wall do not by themselves mean lying or collapse. Ground lying requires human posture and ground-support evidence, not bounding-box proportions. Crawling and push-up/plank are supported on hands/knees/feet with the torso off the ground and are not high-priority ground lying.
+Work evidence must be visible tools/materials, repair/cleaning action, a dismantled/operated object or a clear person-to-work-object relationship. Proximity to equipment alone is insufficient. Work evidence applies only to that worker; it cannot negate a different person's lying/collapse signs. Lying on a bed or sofa is not ground lying.
+Do not infer a fall transition, cause, injury, consciousness, intent or danger.
+
+Return only one JSON object with exactly two keys:
+{"scene_review":"candidate_present|candidate_absent|uncertain","evidence":"brief visible facts"}
+Use one allowed value, not the pipe-separated list. No markdown, extra keys, explanation outside JSON, or alarm category.

@@ -1,0 +1,2 @@
+request_id,prompt_id,stage,failure_type,http_status,error_code,error_message
+P4D_GEN_20260827T045955761942Z_PF_P4D_HN_SIT_G001_V01,PF_P4D_HN_SIT_G001_V01,IMAGE_GENERATION_SMOKE,provider_authentication,401,INVALID_API_KEY,Invalid API key

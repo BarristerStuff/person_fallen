@@ -1,0 +1,41 @@
+{
+  "q6_erratum_overview_append_only_exception": true,
+  "q6_erratum_seal": {
+    "actual_sha256": "4719e6fa842ada2346596bb3316661926082e5a741c7217740d6143c3a13010b",
+    "all_bound_artifacts_match": false,
+    "bound_artifact_count": 10,
+    "expected_sha256": "4719e6fa842ada2346596bb3316661926082e5a741c7217740d6143c3a13010b",
+    "mismatched_artifacts": [
+      "/home/yanbo/net_vlm_person_fallen_v2_optimization/PERSON_FALLEN_V2.md"
+    ],
+    "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_03_gr3q6_authorized_20260831_01/freeze/p4d_gr3q6_execution_post_freeze_erratum.json",
+    "sidecar_match": true
+  },
+  "q6_original": {
+    "actual_sha256": "95df937db097e23f2e3939fbd132f3e9a24a20bff3d0d91eb174285a082d8d52",
+    "all_bound_artifacts_match": true,
+    "bound_artifact_count": 44,
+    "expected_sha256": "95df937db097e23f2e3939fbd132f3e9a24a20bff3d0d91eb174285a082d8d52",
+    "mismatched_artifacts": [],
+    "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_03_gr3q6_authorized_20260831_01/freeze/p4d_gr3q6_execution_terminal_freeze.json",
+    "sidecar_match": true
+  },
+  "q7_preparation": {
+    "actual_sha256": "9ac34d6335c48883845e1bcb8d254596623a13f9625d93a406570d80461cc8c5",
+    "all_bound_artifacts_match": true,
+    "bound_artifact_count": 12,
+    "expected_sha256": "9ac34d6335c48883845e1bcb8d254596623a13f9625d93a406570d80461cc8c5",
+    "mismatched_artifacts": [],
+    "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_04_gr3q7_20260831_01/freeze/p4d_gr3q7_preparation_freeze.json",
+    "sidecar_match": true
+  },
+  "q7_supplement": {
+    "actual_sha256": "5df11b38536a05afb0fec14b89cb6f61a31bafb5dc6f8fef1cc686b371f6d859",
+    "all_bound_artifacts_match": true,
+    "bound_artifact_count": 17,
+    "expected_sha256": "5df11b38536a05afb0fec14b89cb6f61a31bafb5dc6f8fef1cc686b371f6d859",
+    "mismatched_artifacts": [],
+    "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_04_gr3q7_20260831_01/freeze/p4d_gr3q7_preparation_supplement_freeze.json",
+    "sidecar_match": true
+  }
+}

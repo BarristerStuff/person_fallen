@@ -1,0 +1,37 @@
+{
+  "captured_at": "2026-08-30T10:55:51.998+00:00",
+  "completion_unknown": 0,
+  "exact_expected_state": true,
+  "expected_outstanding": 338,
+  "failed_confirmed_http_429": 1,
+  "first_prompt_id": "PF_P4D_HN_KNEEL_G009_V03",
+  "never_started": 337,
+  "outstanding_csv_sha256": "22334fa342e5cfdf51e6e1dc92b26adbc690f1fff7a6521d1642cd5aed4f6e83",
+  "role_counts": {
+    "hard_negative": 198,
+    "ordinary_negative": 40,
+    "positive": 100
+  },
+  "split_counts": {
+    "NEW_DESIGN": 195,
+    "NEW_SCREEN": 143
+  },
+  "taxonomy_counts": {
+    "chair_seated_normal_work": 20,
+    "crawling_quadruped_support": 40,
+    "curled_or_partially_occluded_lying": 15,
+    "ground_maintenance": 40,
+    "horizontal_corridor_ground_lying": 5,
+    "intentional_ground_lying": 10,
+    "kneeling_half_kneeling": 18,
+    "mixed_hard_negative": 20,
+    "multi_person_one_lying": 10,
+    "prone_ground_lying": 20,
+    "pushup_plank": 50,
+    "side_lying": 20,
+    "squat_crouch_deep_bend": 30,
+    "standing_walking": 20,
+    "supine_ground_lying": 20
+  },
+  "total_outstanding": 338
+}

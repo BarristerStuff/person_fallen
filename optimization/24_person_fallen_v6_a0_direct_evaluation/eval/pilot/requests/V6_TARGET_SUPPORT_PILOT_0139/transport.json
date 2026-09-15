@@ -1,0 +1,22 @@
+{
+  "state": "claimed",
+  "phase": "pilot",
+  "request_id": "V6_TARGET_SUPPORT_PILOT_0139",
+  "item_id": "V2_ORIGINAL::IMG_003810",
+  "operational_id": "PFV6_PILOT_0139",
+  "taxonomy": "crawling_without_explicit_maintenance",
+  "group_id": "pf_v2_aigc_h11-crawling-under-equipment-inspection",
+  "evaluation_stratum": "auxiliary_attention",
+  "source_image_sha256": "9bdccc82d49745c8bbacebf0606e6b4383e9e62829d105a7d8a6a4128f79ebaf",
+  "full_view_sha256": "d1f9013e8aae61a5c8d802a1e231c1957c101197f216bef07d1bf2052dfa9694",
+  "crop_view_sha256": "2dec6ed2fa6100bb68c64d747f1d6ec77e38e4f1a2d4fe161e4b8a1b4a58f96e",
+  "payload_sha256": "f835521e4ccc0094778554f3a7077e6ac50a5f356c725dcdf527f7d3af9679f5",
+  "claimed_timestamp": "2026-09-14T10:31:32.561494+00:00",
+  "http_status": 200,
+  "latency_seconds": 5.546487924992107,
+  "completion_unknown": false,
+  "transport_error": null,
+  "raw_response_sha256": "57a12537cb330059d7d7fda05a3bd4640eb24e1323083d4028da3734f99d3c2a",
+  "raw_response_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/24_person_fallen_v6_a0_direct_evaluation/eval/pilot/requests/V6_TARGET_SUPPORT_PILOT_0139/response.raw",
+  "received_timestamp": "2026-09-14T10:31:38.111944+00:00"
+}

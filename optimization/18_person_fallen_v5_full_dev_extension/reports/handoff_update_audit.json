@@ -1,0 +1,6 @@
+{
+  "before_sha256": "d534984f12ddfc9a24777a8884f94bdb45e9b8e09259f057fde1fb473d15a524",
+  "after_sha256": "dbc8324a4a618ed30d26f43884ff59af9d51fde965a3c10b6e4e51dc7a1f0590",
+  "only_event_handoff_updated": true,
+  "historical_candidate_files_modified": false
+}

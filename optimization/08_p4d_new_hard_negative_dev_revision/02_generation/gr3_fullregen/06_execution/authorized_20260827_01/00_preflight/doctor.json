@@ -1,0 +1,117 @@
+{
+  "captured_at": "2026-08-27T10:30:43.869+00:00",
+  "command": [
+    "node",
+    "/home/yanbo/.codex/skills/gpt-image-2-skill/scripts/gpt_image_2_skill.cjs",
+    "--json",
+    "--provider",
+    "codex",
+    "doctor"
+  ],
+  "label": "doctor",
+  "payload": {
+    "command": "doctor",
+    "defaults": {
+      "codex_endpoint": "https://chatgpt.com/backend-api/codex/responses",
+      "codex_model": "gpt-5.4",
+      "config_file": "/home/yanbo/.codex/gpt-image-2-skill/config.json",
+      "default_provider": "ebond-gpt-image-2",
+      "openai_api_base": "https://api.openai.com/v1",
+      "openai_model": "gpt-image-2",
+      "provider": "auto"
+    },
+    "ok": true,
+    "provider_selection": {
+      "edit_region_mode": "reference-hint",
+      "error": null,
+      "kind": "codex",
+      "reason": "explicit",
+      "requested": "codex",
+      "resolved": "codex",
+      "supports_n": false
+    },
+    "providers": {
+      "codex": {
+        "auth": {
+          "access_token_present": true,
+          "account_id": "9a30f0ca-6b90-406b-a64f-41d384a5b880",
+          "auth_file": "/home/yanbo/.codex/auth.json",
+          "auth_mode": "chatgpt",
+          "auth_source": "config",
+          "chatgpt_user_id": "user-DSsdJhtq3XV9WYMyHQNDLFZw",
+          "email": "blakealford835099+67173@googlemail.com",
+          "exists": true,
+          "expired": false,
+          "expires_at": 1788680685,
+          "id_token_present": true,
+          "last_refresh": "2026-08-27T07:44:48.442840593Z",
+          "parse_ok": true,
+          "plan_type": "plus",
+          "provider": "codex",
+          "ready": true,
+          "refresh_token_present": true,
+          "seconds_until_expiry": 854054
+        },
+        "endpoint": {
+          "endpoint": "https://chatgpt.com/backend-api/codex/responses",
+          "error": null,
+          "host": "chatgpt.com",
+          "port": 443,
+          "proxy": "system",
+          "reachable": true,
+          "scheme": "https",
+          "status": 405,
+          "tls_ok": true
+        }
+      },
+      "configured": {
+        "ebond-gpt-image-2": {
+          "api_base": "https://api.ebondai.com/v1",
+          "credentials": {
+            "api_key": {
+              "present": true,
+              "source": "file",
+              "value": {
+                "_omitted": "secret"
+              }
+            }
+          },
+          "endpoint": null,
+          "model": "gpt-image-2",
+          "proxy": null,
+          "supports_n": null,
+          "type": "openai-compatible"
+        }
+      },
+      "openai": {
+        "auth": {
+          "api_key_present": false,
+          "auth_source": "missing",
+          "default_model": "gpt-image-2",
+          "env_var": "OPENAI_API_KEY",
+          "provider": "openai",
+          "ready": false
+        },
+        "endpoint": {
+          "endpoint": "https://api.openai.com/v1",
+          "error": null,
+          "host": "api.openai.com",
+          "port": 443,
+          "proxy": "system",
+          "reachable": true,
+          "scheme": "https",
+          "status": 404,
+          "tls_ok": true
+        }
+      }
+    },
+    "retry_policy": {
+      "base_delay_seconds": 1,
+      "max_retries": 3
+    },
+    "version": "0.7.3"
+  },
+  "returncode": 0,
+  "stderr": "",
+  "stdout": "{\n  \"command\": \"doctor\",\n  \"defaults\": {\n    \"codex_endpoint\": \"https://chatgpt.com/backend-api/codex/responses\",\n    \"codex_model\": \"gpt-5.4\",\n    \"config_file\": \"/home/yanbo/.codex/gpt-image-2-skill/config.json\",\n    \"default_provider\": \"ebond-gpt-image-2\",\n    \"openai_api_base\": \"https://api.openai.com/v1\",\n    \"openai_model\": \"gpt-image-2\",\n    \"provider\": \"auto\"\n  },\n  \"ok\": true,\n  \"provider_selection\": {\n    \"edit_region_mode\": \"reference-hint\",\n    \"error\": null,\n    \"kind\": \"codex\",\n    \"reason\": \"explicit\",\n    \"requested\": \"codex\",\n    \"resolved\": \"codex\",\n    \"supports_n\": false\n  },\n  \"providers\": {\n    \"codex\": {\n      \"auth\": {\n        \"access_token_present\": true,\n        \"account_id\": \"9a30f0ca-6b90-406b-a64f-41d384a5b880\",\n        \"auth_file\": \"/home/yanbo/.codex/auth.json\",\n        \"auth_mode\": \"chatgpt\",\n        \"auth_source\": \"config\",\n        \"chatgpt_user_id\": \"user-DSsdJhtq3XV9WYMyHQNDLFZw\",\n        \"email\": \"blakealford835099+67173@googlemail.com\",\n        \"exists\": true,\n        \"expired\": false,\n        \"expires_at\": 1788680685,\n        \"id_token_present\": true,\n        \"last_refresh\": \"2026-08-27T07:44:48.442840593Z\",\n        \"parse_ok\": true,\n        \"plan_type\": \"plus\",\n        \"provider\": \"codex\",\n        \"ready\": true,\n        \"refresh_token_present\": true,\n        \"seconds_until_expiry\": 854054\n      },\n      \"endpoint\": {\n        \"endpoint\": \"https://chatgpt.com/backend-api/codex/responses\",\n        \"error\": null,\n        \"host\": \"chatgpt.com\",\n        \"port\": 443,\n        \"proxy\": \"system\",\n        \"reachable\": true,\n        \"scheme\": \"https\",\n        \"status\": 405,\n        \"tls_ok\": true\n      }\n    },\n    \"configured\": {\n      \"ebond-gpt-image-2\": {\n        \"api_base\": \"https://api.ebondai.com/v1\",\n        \"credentials\": {\n          \"api_key\": {\n            \"present\": true,\n            \"source\": \"file\",\n            \"value\": {\n              \"_omitted\": \"secret\"\n            }\n          }\n        },\n        \"endpoint\": null,\n        \"model\": \"gpt-image-2\",\n        \"proxy\": null,\n        \"supports_n\": null,\n        \"type\": \"openai-compatible\"\n      }\n    },\n    \"openai\": {\n      \"auth\": {\n        \"api_key_present\": false,\n        \"auth_source\": \"missing\",\n        \"default_model\": \"gpt-image-2\",\n        \"env_var\": \"OPENAI_API_KEY\",\n        \"provider\": \"openai\",\n        \"ready\": false\n      },\n      \"endpoint\": {\n        \"endpoint\": \"https://api.openai.com/v1\",\n        \"error\": null,\n        \"host\": \"api.openai.com\",\n        \"port\": 443,\n        \"proxy\": \"system\",\n        \"reachable\": true,\n        \"scheme\": \"https\",\n        \"status\": 404,\n        \"tls_ok\": true\n      }\n    }\n  },\n  \"retry_policy\": {\n    \"base_delay_seconds\": 1,\n    \"max_retries\": 3\n  },\n  \"version\": \"0.7.3\"\n}\n"
+}

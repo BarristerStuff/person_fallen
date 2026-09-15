@@ -1,0 +1,322 @@
+{
+  "p2l_status": "COMPLETE",
+  "p2l_anomaly_reproduced": false,
+  "historical_screen": {
+    "count": 120,
+    "high_load_count": 0
+  },
+  "historical_val": {
+    "count": 100,
+    "high_load_count": 63,
+    "low_load_count": 37
+  },
+  "probes": {
+    "P2L_A": {
+      "count": 24,
+      "high_load_count": 1,
+      "protocol_count": 24,
+      "prompt_eval_count_values": {
+        "598": 24
+      },
+      "prompt_eval_count_stable": true,
+      "components": {
+        "client": {
+          "count": 24,
+          "mean": 1.7012608333333334,
+          "median": 1.418261,
+          "p50": 1.418261,
+          "p90": 1.4714084,
+          "p95": 1.5182995,
+          "max": 8.285873
+        },
+        "total": {
+          "count": 24,
+          "mean": 1.6935315640833333,
+          "median": 1.4114151965000001,
+          "p50": 1.4114151965000001,
+          "p90": 1.4622147961,
+          "p95": 1.5111172043999999,
+          "max": 8.280188171
+        },
+        "load": {
+          "count": 24,
+          "mean": 0.7393042869583334,
+          "median": 0.4731325535,
+          "p50": 0.4731325535,
+          "p90": 0.4992110295,
+          "p95": 0.50324730195,
+          "max": 6.985410339
+        },
+        "prompt_eval": {
+          "count": 24,
+          "mean": 0.043897200708333334,
+          "median": 0.036959622,
+          "p50": 0.036959622,
+          "p90": 0.0550335145,
+          "p95": 0.056823246699999996,
+          "max": 0.135522362
+        },
+        "eval": {
+          "count": 24,
+          "mean": 0.43950530433333335,
+          "median": 0.4406488645,
+          "p50": 0.4406488645,
+          "p90": 0.4437470185,
+          "p95": 0.45021365425,
+          "max": 0.454358963
+        }
+      },
+      "first_request": {
+        "request_index": 1,
+        "media_id": "IMG_003745",
+        "client_latency_seconds": 8.285873,
+        "load_duration_seconds": 6.985410339,
+        "high_load": true
+      }
+    },
+    "P2L_B": {
+      "count": 24,
+      "high_load_count": 0,
+      "protocol_count": 24,
+      "prompt_eval_count_values": {
+        "598": 24
+      },
+      "prompt_eval_count_stable": true,
+      "components": {
+        "client": {
+          "count": 24,
+          "mean": 1.3972517083333333,
+          "median": 1.3966615,
+          "p50": 1.3966615,
+          "p90": 1.4379847000000001,
+          "p95": 1.4403333999999999,
+          "max": 1.447384
+        },
+        "total": {
+          "count": 24,
+          "mean": 1.3900298891666667,
+          "median": 1.390040952,
+          "p50": 1.390040952,
+          "p90": 1.4309372129,
+          "p95": 1.43313132105,
+          "max": 1.439994188
+        },
+        "load": {
+          "count": 24,
+          "mean": 0.46303780083333335,
+          "median": 0.466865331,
+          "p50": 0.466865331,
+          "p90": 0.4902717107,
+          "p95": 0.49878309569999996,
+          "max": 0.508403137
+        },
+        "prompt_eval": {
+          "count": 24,
+          "mean": 0.04079471004166667,
+          "median": 0.0368947575,
+          "p50": 0.0368947575,
+          "p90": 0.0528459806,
+          "p95": 0.053363136049999996,
+          "max": 0.055482554
+        },
+        "eval": {
+          "count": 24,
+          "mean": 0.43871884341666667,
+          "median": 0.437947574,
+          "p50": 0.437947574,
+          "p90": 0.4469435547,
+          "p95": 0.44771869485,
+          "max": 0.4502001
+        }
+      },
+      "first_request": {
+        "request_index": 1,
+        "media_id": "IMG_003745",
+        "client_latency_seconds": 1.43755,
+        "load_duration_seconds": 0.508403137,
+        "high_load": false
+      }
+    },
+    "P2L_C": {
+      "count": 16,
+      "high_load_count": 0,
+      "protocol_count": 16,
+      "prompt_eval_count_values": {
+        "598": 16
+      },
+      "prompt_eval_count_stable": true,
+      "components": {
+        "client": {
+          "count": 16,
+          "mean": 1.67264575,
+          "median": 1.7178955,
+          "p50": 1.7178955,
+          "p90": 1.797357,
+          "p95": 1.82652225,
+          "max": 1.910301
+        },
+        "total": {
+          "count": 16,
+          "mean": 1.665158895875,
+          "median": 1.7102881805,
+          "p50": 1.7102881805,
+          "p90": 1.789690629,
+          "p95": 1.8189605690000001,
+          "max": 1.902706781
+        },
+        "load": {
+          "count": 16,
+          "mean": 0.4683775918125,
+          "median": 0.453338545,
+          "p50": 0.453338545,
+          "p90": 0.5138527235,
+          "p95": 0.53035083675,
+          "max": 0.554933283
+        },
+        "prompt_eval": {
+          "count": 16,
+          "mean": 0.132637711625,
+          "median": 0.131056877,
+          "p50": 0.131056877,
+          "p90": 0.14098039699999998,
+          "p95": 0.14484289025,
+          "max": 0.154302851
+        },
+        "eval": {
+          "count": 16,
+          "mean": 0.5248584215625,
+          "median": 0.5296359319999999,
+          "p50": 0.5296359319999999,
+          "p90": 0.6382806005,
+          "p95": 0.6599357645,
+          "max": 0.719612717
+        }
+      },
+      "first_request": {
+        "request_index": 1,
+        "media_id": "IMG_004002",
+        "client_latency_seconds": 1.796118,
+        "load_duration_seconds": 0.440024236,
+        "high_load": false
+      }
+    }
+  },
+  "preserved_initial_attempt": {
+    "count": 1,
+    "high_load_count": 1,
+    "protocol_count": 1,
+    "prompt_eval_count_values": {
+      "598": 1
+    },
+    "prompt_eval_count_stable": true,
+    "components": {
+      "client": {
+        "count": 1,
+        "mean": 7.073627,
+        "median": 7.073627,
+        "p50": 7.073627,
+        "p90": 7.073627,
+        "p95": 7.073627,
+        "max": 7.073627
+      },
+      "total": {
+        "count": 1,
+        "mean": 7.066978794,
+        "median": 7.066978794,
+        "p50": 7.066978794,
+        "p90": 7.066978794,
+        "p95": 7.066978794,
+        "max": 7.066978794
+      },
+      "load": {
+        "count": 1,
+        "mean": 5.839109138,
+        "median": 5.839109138,
+        "p50": 5.839109138,
+        "p90": 5.839109138,
+        "p95": 5.839109138,
+        "max": 5.839109138
+      },
+      "prompt_eval": {
+        "count": 1,
+        "mean": 0.125953676,
+        "median": 0.125953676,
+        "p50": 0.125953676,
+        "p90": 0.125953676,
+        "p95": 0.125953676,
+        "max": 0.125953676
+      },
+      "eval": {
+        "count": 1,
+        "mean": 0.430625713,
+        "median": 0.430625713,
+        "p50": 0.430625713,
+        "p90": 0.430625713,
+        "p95": 0.430625713,
+        "max": 0.430625713
+      }
+    },
+    "first_request": {
+      "request_index": 1,
+      "media_id": "IMG_003745",
+      "client_latency_seconds": 7.073627,
+      "load_duration_seconds": 5.839109138,
+      "high_load": true
+    }
+  },
+  "current_c3_warm_a_low_plus_c": {
+    "count": 39,
+    "client": {
+      "count": 39,
+      "mean": 1.5206851025641026,
+      "median": 1.450764,
+      "p50": 1.450764,
+      "p90": 1.7641564,
+      "p95": 1.7963658,
+      "max": 1.910301
+    },
+    "gate_seconds": 1.852084,
+    "gate_pass": true
+  },
+  "current_c3_warm_runtime_healthy": true,
+  "historical_anomaly_currently_not_reproduced": true,
+  "historical_anomaly_sustained": true,
+  "current_high_load_requests": 1,
+  "current_sustained_high_load": false,
+  "historical_primary_latency_component": "load_duration",
+  "prompt_eval_count_historical_values": [
+    598
+  ],
+  "prompt_eval_count_probe_values": [
+    598
+  ],
+  "probe_correlations": {
+    "P2L_A": {
+      "eval_count_load_spearman": null,
+      "image_bytes_load_spearman": null
+    },
+    "P2L_B": {
+      "eval_count_load_spearman": null,
+      "image_bytes_load_spearman": null
+    },
+    "P2L_C": {
+      "eval_count_load_spearman": 0.07511053801134687,
+      "image_bytes_load_spearman": 0.2323529411764706
+    }
+  },
+  "probe_config_fingerprints_without_keep_alive": {
+    "P2L_A": [
+      "872e7210a216c9d496b7930f0b9cf4cef059012ab7c9c4aea23138f3dc8086fe"
+    ],
+    "P2L_B": [
+      "872e7210a216c9d496b7930f0b9cf4cef059012ab7c9c4aea23138f3dc8086fe"
+    ],
+    "P2L_C": [
+      "872e7210a216c9d496b7930f0b9cf4cef059012ab7c9c4aea23138f3dc8086fe"
+    ]
+  },
+  "probe_exact_c3_config_equal_ignoring_keep_alive": true,
+  "eval_count_interpretation": "variable generation token count, but eval_duration is sub-second and does not explain the multi-second load-dominated tail",
+  "new_val_requests": 0,
+  "holdout_requests": 0
+}

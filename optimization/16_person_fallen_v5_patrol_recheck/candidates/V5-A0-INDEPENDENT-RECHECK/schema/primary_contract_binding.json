@@ -1,0 +1,105 @@
+{
+  "source_policy_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/14_person_fallen_v4_operational_freeze/policy/deterministic_policy.py",
+  "source_policy_sha256": "3a3e16f177c1806b74f4018bc269068e7715bba43eb20a5b3797b02c4ca9ccaf",
+  "contract": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "evidence",
+      "explicit_work_evidence",
+      "head_shoulders_above_hips",
+      "person_visible",
+      "pose",
+      "support_surface",
+      "torso_ground_contact",
+      "torso_orientation",
+      "visual_quality"
+    ],
+    "properties": {
+      "person_visible": {
+        "type": "string",
+        "enum": [
+          "no",
+          "uncertain",
+          "yes"
+        ]
+      },
+      "pose": {
+        "type": "string",
+        "enum": [
+          "bending",
+          "chair_sitting",
+          "crawling",
+          "curled_lying",
+          "floor_sitting",
+          "kneeling",
+          "other_near_ground",
+          "prone",
+          "pushup_plank",
+          "side_lying",
+          "squat_crouch",
+          "standing",
+          "supine",
+          "unknown",
+          "walking"
+        ]
+      },
+      "torso_orientation": {
+        "type": "string",
+        "enum": [
+          "horizontal",
+          "inclined",
+          "unknown",
+          "upright"
+        ]
+      },
+      "torso_ground_contact": {
+        "type": "string",
+        "enum": [
+          "broad",
+          "none",
+          "partial",
+          "unknown"
+        ]
+      },
+      "head_shoulders_above_hips": {
+        "type": "string",
+        "enum": [
+          "no",
+          "unknown",
+          "yes"
+        ]
+      },
+      "support_surface": {
+        "type": "string",
+        "enum": [
+          "bed_sofa",
+          "chair",
+          "floor",
+          "unknown"
+        ]
+      },
+      "explicit_work_evidence": {
+        "type": "string",
+        "enum": [
+          "no",
+          "unknown",
+          "yes"
+        ]
+      },
+      "visual_quality": {
+        "type": "string",
+        "enum": [
+          "clear",
+          "insufficient"
+        ]
+      },
+      "evidence": {
+        "type": "string",
+        "minLength": 1,
+        "non_whitespace_required": true
+      }
+    }
+  },
+  "note": "Derived exact 9-key contract for binding only, primary API remains historical format=json; no new primary request."
+}

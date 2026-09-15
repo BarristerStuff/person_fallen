@@ -1,0 +1,15 @@
+{
+  "attempt": 1,
+  "status": "PREFLIGHT_BLOCKED",
+  "provider_requests_sent": 0,
+  "reason": "Initial runner probe incorrectly required the 440-row full manifest ID set to equal the actual 308-row adapter subset.",
+  "observed_fact": {
+    "full_manifest_rows": 440,
+    "adapter_rows": 308,
+    "adapter_ids_foreign_to_full": 0,
+    "adapter_ids_in_full": 308,
+    "full_ids_missing_from_adapter": 132
+  },
+  "containment": "No provider request, dataset write, ingest, C3, VAL, Holdout, or production change occurred.",
+  "history_policy": "Preserve this failed preflight evidence; retry artifacts use a separate attempt suffix."
+}

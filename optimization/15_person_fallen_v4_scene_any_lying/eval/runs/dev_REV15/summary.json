@@ -1,0 +1,65 @@
+{
+  "candidate": "REV15_SCENE_ANY_LYING",
+  "crop_manifest_sha256": "f30d656bc0fe0fd772cb7932ab760a9150cc8e77838bb51d960ff62bb54f6236",
+  "definition_sha256": "e0a3b10456ee11b28a7a6bd678a6e76bd6d94fa98b8035b21a8ca57693706d7e",
+  "freeze_sha256": null,
+  "gate_checks": {
+    "determinate_negative_alert_fpr": false,
+    "floor_sitting_alert_fpr": true,
+    "ground_lying_alert_recall": true,
+    "ground_lying_alert_recheck_coverage": true,
+    "strict_json_success": true
+  },
+  "gate_pass": false,
+  "gt_type": "PROMPT_DERIVED_SYNTHETIC_GT",
+  "holdout_rows_read": 0,
+  "metrics": {
+    "attention_count": 0,
+    "decision_distribution": {
+      "ALERT_GROUND_LYING": 3
+    },
+    "detector_coverage": 1.0,
+    "determinate_negative_alert": 0,
+    "determinate_negative_alert_fpr": null,
+    "determinate_negative_count": 0,
+    "floor_sitting_alert": 0,
+    "floor_sitting_alert_fpr": null,
+    "floor_sitting_count": 0,
+    "floor_sitting_gate_status": "NOT_APPLICABLE",
+    "ground_lying_alert": 3,
+    "ground_lying_alert_recall": 1.0,
+    "ground_lying_alert_recheck_coverage": 1.0,
+    "ground_lying_count": 3,
+    "ground_lying_no_alert": 0,
+    "ground_lying_recheck": 0,
+    "latency_seconds": {
+      "max": 2.4702018599928124,
+      "mean": 2.395205893330664,
+      "p50": 2.3841216419968987,
+      "p95": 2.461593838193221
+    },
+    "phase": "dev",
+    "recheck_count": 0,
+    "recheck_rate": 0.0,
+    "sample_count": 3,
+    "strict_json_success": 1.0,
+    "taxonomy": {
+      "supine_ground_lying": {
+        "count": 3,
+        "decisions": {
+          "ALERT_GROUND_LYING": 3
+        }
+      }
+    }
+  },
+  "model_prediction_used_as_gt": false,
+  "operational_definition_frozen": true,
+  "phase": "dev",
+  "plan_sha256": "4ddeec91f495560c35635a979b0b680426ec494115469c2e9e06a4deddf31f5e",
+  "policy_sha256": "9a4c677ecf295b1cfde3bf354af63a3ebccf39fc5cc8690867b8233a0f2385cd",
+  "prompt_sha256": "415868d5828521d84073c548769b11b1ce4d524d1e8090736e1920d667e7db9c",
+  "revision_id": "PERSON_FALLEN_V4_SCENE_ANY_LYING_20260909_01",
+  "screen_rows_read": 0,
+  "status": "COMPLETE",
+  "val_rows_read": 0
+}

@@ -1,0 +1,104 @@
+{
+  "candidate": "V3-CASCADE-448",
+  "cascade": {
+    "call_count_including_reused_stage1": 669,
+    "false_negative_taxonomy": {
+      "crawling_without_explicit_maintenance": 2
+    },
+    "false_positive_taxonomy": {
+      "floor_sitting": 29,
+      "ground_maintenance": 2,
+      "kneeling_half_kneeling": 2
+    },
+    "floor_sitting": {
+      "baseline_fp": 33,
+      "remaining_fp": 29,
+      "suppressed": 4
+    },
+    "metrics": {
+      "FN": 2,
+      "FP": 33,
+      "TN": 197,
+      "TP": 184,
+      "accuracy": 0.9158653846153846,
+      "determinate_count": 416,
+      "f1": 0.913151364764268,
+      "hard_negative_count": 155,
+      "hard_negative_fpr": 0.2129032258064516,
+      "ordinary_negative_count": 75,
+      "ordinary_negative_fpr": 0.0,
+      "precision": 0.847926267281106,
+      "recall": 0.989247311827957,
+      "uncertain_count": 0,
+      "uncertain_rate": 0.0
+    },
+    "strict_json_required_invocation_count": 669,
+    "strict_json_success_rate": 1.0,
+    "true_positive_incorrectly_suppressed": 1
+  },
+  "config_sha256": "72fc938d798199ccb583202d304fce78aa718ebb51f92dacd0d23cbdd90cbdb1",
+  "event_definition_version": "v3.0",
+  "event_name": "person_fallen",
+  "fallback_eligible_stage2_896": false,
+  "formal_dataset_ingest": false,
+  "gate": {
+    "hard_negative_fpr_max": 0.05,
+    "hard_negative_fpr_pass": false,
+    "ordinary_negative_fpr_pass": true,
+    "ordinary_negative_fpr_required": 0.0,
+    "pass": false,
+    "precision_min": 0.93,
+    "precision_pass": false,
+    "recall_min": 0.95,
+    "recall_pass": true,
+    "strict_json_success_min": 1.0,
+    "strict_json_success_pass": true
+  },
+  "holdout_consumed": false,
+  "holdout_requests": 0,
+  "human_semantic_review_required": false,
+  "manifest_sha256": "fc41fcc39b87d8da7decfd50a4d832e8c5f38470c7c6cf08aaaaa160aa751f2b",
+  "model_prediction_used_as_gt": false,
+  "phase": "dev",
+  "revision_id": "PERSON_FALLEN_V3_FLOOR_POSE_VERIFIER_20260902_01",
+  "runner_sha256": "9417da70da7012d2eb1b1bb94fe323696f1f08a3e44a5a766180f15cd79cd243",
+  "stage1": {
+    "baseline_metrics": {
+      "FN": 1,
+      "FP": 37,
+      "TN": 193,
+      "TP": 185,
+      "accuracy": 0.9086538461538461,
+      "determinate_count": 416,
+      "f1": 0.9068627450980392,
+      "hard_negative_count": 155,
+      "hard_negative_fpr": 0.23870967741935484,
+      "ordinary_negative_count": 75,
+      "ordinary_negative_fpr": 0.0,
+      "precision": 0.8333333333333334,
+      "recall": 0.9946236559139785,
+      "uncertain_count": 0,
+      "uncertain_rate": 0.0
+    },
+    "candidate": "V3-C0-448",
+    "input_count": 436,
+    "model_call_count": 0,
+    "resolution": "448x336",
+    "reused_frozen_dev_predictions": true
+  },
+  "stage2": {
+    "call_count": 233,
+    "latency_seconds": {
+      "max": 17.111030783999922,
+      "mean": 8.039168980553658,
+      "p50": 7.931764191999719,
+      "p95": 9.625198748599905
+    },
+    "prompt_id": "V3-CASCADE-S2-C0",
+    "resolution": "448x336",
+    "strict_json_success_rate": 1.0
+  },
+  "stage2_prompt_sha256": "6966b1debfae1012cc37aba28bd88553548e47e1f3e91e17d1bd54004f8def17",
+  "status": "COMPLETE",
+  "stop_further_p4d_generation": true
+}

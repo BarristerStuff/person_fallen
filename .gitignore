@@ -1,0 +1,7 @@
+# Generated/runtime files intentionally excluded from the archival publish.
+__pycache__/
+*.py[cod]
+*.sqlite3-wal
+*.sqlite3-shm
+*.sqlite-journal
+.DS_Store

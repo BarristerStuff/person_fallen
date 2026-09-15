@@ -1,0 +1,7 @@
+{
+  "native_retry_events": 6,
+  "prompt_id": "PF_P4D_NEG_CHAIR_G003_V03",
+  "provider_requests": 11,
+  "reason": "STOPPED_PROVIDER_429",
+  "status": "GLOBAL_STOP"
+}

@@ -1,0 +1,97 @@
+{
+  "P0_NAME": "P0_IMAGE_BASELINE_V2",
+  "run_dir": "/home/yanbo/net_vlm_person_fallen_v2_optimization/02_p0_image_baseline/runs/P0_20260826_191155",
+  "model": "qwen3.5:4b",
+  "endpoint": "http://192.168.20.62:11434",
+  "prompt_sha256": "b457a2442b8c4cca66866ecd7fcaaa765524740f1019e7811a05ec8e2c8335f4",
+  "frozen_manifest_sha256": "771380b70099e2e2e641330a7d4f04860e2284725722bde3cd2da8988abfb2c6",
+  "frozen_splits_sha256": "16b95d59c25313a6a8e35e4d0056b5626a04d44edc0e017549e628b92f15f33a",
+  "planned_dev_requests": 310,
+  "planned_val_requests": 100,
+  "planned_holdout_requests": 0,
+  "metrics": {
+    "DEV": {
+      "evaluated_determinate_count": 0,
+      "TP": 0,
+      "FP": 0,
+      "TN": 0,
+      "FN": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null,
+      "accuracy": null,
+      "fpr": null,
+      "specificity": null,
+      "positive_recall": null,
+      "hard_negative_count": 0,
+      "hard_negative_fpr": null,
+      "ordinary_negative_fpr": null,
+      "model_uncertain_rate": null,
+      "protocol_failure_count": 310
+    },
+    "VAL": {
+      "evaluated_determinate_count": 0,
+      "TP": 0,
+      "FP": 0,
+      "TN": 0,
+      "FN": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null,
+      "accuracy": null,
+      "fpr": null,
+      "specificity": null,
+      "positive_recall": null,
+      "hard_negative_count": 0,
+      "hard_negative_fpr": null,
+      "ordinary_negative_fpr": null,
+      "model_uncertain_rate": null,
+      "protocol_failure_count": 100
+    },
+    "DEV+VAL": {
+      "evaluated_determinate_count": 0,
+      "TP": 0,
+      "FP": 0,
+      "TN": 0,
+      "FN": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null,
+      "accuracy": null,
+      "fpr": null,
+      "specificity": null,
+      "positive_recall": null,
+      "hard_negative_count": 0,
+      "hard_negative_fpr": null,
+      "ordinary_negative_fpr": null,
+      "model_uncertain_rate": null,
+      "protocol_failure_count": 410
+    }
+  },
+  "protocol": {
+    "request_count": 410,
+    "holdout_requests": 0,
+    "holdout_consumed": false,
+    "http_success_rate": 1.0,
+    "json_parse_success_rate": 0.0,
+    "schema_success_rate": 0.0,
+    "canonical_prediction_success_rate": 0.0,
+    "first_attempt_success_rate": 1.0,
+    "prediction_distribution": {
+      "protocol_failure": 410
+    },
+    "latency_seconds": {
+      "cold_start": null,
+      "warm_mean": null,
+      "p50": null,
+      "p95": null,
+      "max": null
+    }
+  },
+  "source_type": "ai_generated",
+  "preprocess": {
+    "mode": "letterbox",
+    "target_size": "448x336",
+    "jpeg_quality": 70
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "advancement_gate": {
+    "hard_negative_fpr_max": 0.075,
+    "ordinary_negative_fpr": 0,
+    "positive_recall_min": 0.95,
+    "protocol": "100%"
+  },
+  "candidate_rows": [
+    {
+      "FN": 0,
+      "FP": 5,
+      "TN": 55,
+      "TP": 50,
+      "accuracy": 0.9545454545454546,
+      "advancement_gate": false,
+      "candidate": "C3_BASELINE",
+      "decision": "historical_baseline",
+      "determinate_count": 110,
+      "f1": 0.9523809523809523,
+      "fpr": 0.08333333333333333,
+      "gt_uncertain_prediction_distribution": {
+        "negative": 2,
+        "positive": 8
+      },
+      "hard_negative_fpr": 0.125,
+      "model_uncertain_count": 0,
+      "model_uncertain_rate": 0.0,
+      "ordinary_negative_fpr": 0.0,
+      "p50": 1.580759,
+      "p95": 1.8150098,
+      "positive_recall": 1.0,
+      "precision": 0.9090909090909091,
+      "protocol_gate": true,
+      "recall": 1.0,
+      "reference_quality_pass": false,
+      "specificity": 0.9166666666666666,
+      "structured_conflict_rate": 0.0
+    },
+    {
+      "FN": 0,
+      "FP": 20,
+      "TN": 40,
+      "TP": 50,
+      "accuracy": 0.8181818181818182,
+      "advancement_gate": false,
+      "candidate": "S1_DIRECT",
+      "decision": "not_eligible",
+      "determinate_count": 110,
+      "f1": 0.8333333333333334,
+      "fpr": 0.3333333333333333,
+      "gt_uncertain_prediction_distribution": {
+        "negative": 1,
+        "positive": 9
+      },
+      "hard_negative_fpr": 0.5,
+      "model_uncertain_count": 0,
+      "model_uncertain_rate": 0.0,
+      "ordinary_negative_fpr": 0.0,
+      "p50": 2.1348805,
+      "p95": 9.601209649999978,
+      "positive_recall": 1.0,
+      "precision": 0.7142857142857143,
+      "protocol_gate": true,
+      "recall": 1.0,
+      "reference_quality_pass": false,
+      "specificity": 0.6666666666666666,
+      "structured_conflict_rate": 0.0
+    },
+    {
+      "FN": 0,
+      "FP": 20,
+      "TN": 40,
+      "TP": 50,
+      "accuracy": 0.8181818181818182,
+      "advancement_gate": false,
+      "candidate": "S1_RULE",
+      "decision": "not_eligible",
+      "determinate_count": 110,
+      "f1": 0.8333333333333334,
+      "fpr": 0.3333333333333333,
+      "gt_uncertain_prediction_distribution": {
+        "negative": 1,
+        "positive": 9
+      },
+      "hard_negative_fpr": 0.5,
+      "model_uncertain_count": 0,
+      "model_uncertain_rate": 0.0,
+      "ordinary_negative_fpr": 0.0,
+      "p50": 2.1348805,
+      "p95": 9.601209649999978,
+      "positive_recall": 1.0,
+      "precision": 0.7142857142857143,
+      "protocol_gate": true,
+      "recall": 1.0,
+      "reference_quality_pass": false,
+      "specificity": 0.6666666666666666,
+      "structured_conflict_rate": 0.0
+    }
+  ],
+  "candidates": [
+    "C3_BASELINE",
+    "S1_DIRECT",
+    "S1_RULE",
+    "OPTIONAL_S2"
+  ],
+  "direct_correct_rule_wrong": 0,
+  "direct_wrong_rule_correct": 0,
+  "eligible_candidates": [],
+  "group_summary": {
+    "C3_group_level_hard_negative_error_rate": 0.5,
+    "C3_groups_with_FP": 2,
+    "S1_DIRECT_group_level_hard_negative_error_rate": 0.75,
+    "S1_DIRECT_groups_with_FP": 3,
+    "S1_RULE_group_level_hard_negative_error_rate": 0.75,
+    "S1_RULE_groups_with_FP": 3,
+    "hard_negative_group_count": 4
+  },
+  "holdout_consumed": false,
+  "holdout_requests": 0,
+  "new_dev_requests": 322,
+  "new_val_requests": 0,
+  "optional_s2_created": false,
+  "p2_screen_individual_errors_used_for_p3_design": false,
+  "p3_holdout_ready": false,
+  "p3_holdout_ready_quality": false,
+  "p3_holdout_ready_runtime": false,
+  "p3_reference_quality_pass": false,
+  "p3_runtime_anomaly_detected": true,
+  "p3_runtime_gate": "FAIL",
+  "paired_summary": {
+    "S1_DIRECT": {
+      "C3_TN_to_candidate_FP": 15
+    },
+    "S1_RULE": {
+      "C3_TN_to_candidate_FP": 15
+    }
+  },
+  "reference_quality_gate": {
+    "hard_negative_fpr_max": 0.05,
+    "ordinary_negative_fpr": 0,
+    "positive_recall_min": 0.95,
+    "precision_min": 0.93
+  },
+  "screen_is_pristine": false,
+  "selection_rule": [
+    "minimum hard_negative_fpr",
+    "maximum positive_recall",
+    "maximum precision",
+    "maximum f1",
+    "minimum model_uncertain_rate",
+    "minimum p95"
+  ],
+  "stage": "P3_STRUCTURED_HARD_NEGATIVE_REFINEMENT",
+  "val_individual_errors_used_for_p3_design": false,
+  "winner": "NONE"
+}

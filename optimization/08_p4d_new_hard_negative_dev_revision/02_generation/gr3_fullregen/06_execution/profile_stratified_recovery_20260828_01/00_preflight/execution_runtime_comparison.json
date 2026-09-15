@@ -1,0 +1,22 @@
+{
+  "MATERIAL_GENERATION_CONFIG_CHANGE": false,
+  "all_execution_runtime_gates_pass": true,
+  "captured_at": "2026-08-28T06:30:46.632+00:00",
+  "checks": {
+    "auth_ready": true,
+    "backend_same": true,
+    "binary_same": true,
+    "endpoint_reachable": true,
+    "model_same": true,
+    "native_retry_max_3": true,
+    "outer_retry_false": true,
+    "profile_b_same": true,
+    "provider_same": true,
+    "runtime_same": true,
+    "session_ready": true,
+    "wrapper_same": true
+  },
+  "profile_b_confirmed": true,
+  "profile_changed_from_A": true,
+  "scope": "observable_generation_material_variables_and_frozen_Profile_B"
+}

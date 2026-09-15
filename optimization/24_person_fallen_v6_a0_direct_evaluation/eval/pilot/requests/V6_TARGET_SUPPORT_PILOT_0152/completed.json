@@ -1,0 +1,85 @@
+{
+  "state": "completed",
+  "phase": "pilot",
+  "request_id": "V6_TARGET_SUPPORT_PILOT_0152",
+  "item_id": "P4D_PLAN::PF_P4D_POS_MULTI_G001_V01",
+  "operational_id": "PFV6_PILOT_0152",
+  "taxonomy": "multi_person_one_lying",
+  "group_id": "PF_P4D_POS_MULTI_G001",
+  "evaluation_stratum": "ground_lying",
+  "source_image_sha256": "766f41cdd735818a390ad3355e6ddfce65820ee32ddb96beafa9ae7d59c00c6b",
+  "full_view_sha256": "8658b8672c2cf235dd2f0085f18fca295af8e3945ef7c3b16e8cbdbb3c4f2d23",
+  "crop_view_sha256": "148170cdc2c9c2a8a9b1a3c24276a1ea1767c35c9ec0e747207571c3ab86b763",
+  "payload_sha256": "1070544e28f7d6a2da02c47759e537c98d05cb76616f54ab6f4730bc62950a6a",
+  "claimed_timestamp": "2026-09-14T10:32:42.223818+00:00",
+  "http_status": 200,
+  "latency_seconds": 8.43191710699466,
+  "completion_unknown": false,
+  "transport_error": null,
+  "raw_response_sha256": "f6208173b0346f64a6fe661d56b80cb8e3e02f7b0c95cd67d671e45b076dc1de",
+  "raw_response_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/24_person_fallen_v6_a0_direct_evaluation/eval/pilot/requests/V6_TARGET_SUPPORT_PILOT_0152/response.raw",
+  "received_timestamp": "2026-09-14T10:32:50.658453+00:00",
+  "strict_json_ok": true,
+  "source_binding_ok": true,
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 350,
+  "parsed": {
+    "scene_coverage": "complete",
+    "people": [
+      {
+        "person_id": 1,
+        "bbox_1000": [
+          258,
+          536,
+          544,
+          656
+        ],
+        "person_visible": "yes",
+        "pose": "supine",
+        "torso_orientation": "horizontal",
+        "torso_ground_contact": "broad",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "body_support_configuration": "torso_ground_supported",
+        "explicit_work_evidence": "no",
+        "visual_quality": "clear",
+        "evidence": "Person lying on back on concrete floor, arms extended forward, legs extended backward."
+      },
+      {
+        "person_id": 2,
+        "bbox_1000": [
+          592,
+          226,
+          708,
+          683
+        ],
+        "person_visible": "yes",
+        "pose": "standing",
+        "torso_orientation": "upright",
+        "torso_ground_contact": "none",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "body_support_configuration": "torso_ground_supported",
+        "explicit_work_evidence": "no",
+        "visual_quality": "clear",
+        "evidence": "Person standing upright, facing the person on the floor, wearing a blue jacket and dark pants."
+      }
+    ]
+  },
+  "person_decisions": [
+    {
+      "person_id": 1,
+      "decision": "ALERT_GROUND_LYING",
+      "reason": "CLEAR_TORSO_GROUND_SUPPORTED_LYING"
+    },
+    {
+      "person_id": 2,
+      "decision": "RECHECK_VISUAL_UNCERTAIN",
+      "reason": "NORMAL_POSE_SUPPORT_CONFLICT"
+    }
+  ],
+  "image_decision": "ALERT_GROUND_LYING",
+  "image_reason": "AT_LEAST_ONE_TORSO_GROUND_SUPPORTED_PERSON",
+  "completed_timestamp": "2026-09-14T10:32:50.659199+00:00"
+}

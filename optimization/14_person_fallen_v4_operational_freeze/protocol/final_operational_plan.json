@@ -1,0 +1,130 @@
+{
+  "revision_id": "PERSON_FALLEN_V4_OPERATIONAL_FREEZE_20260909_01",
+  "event_name": "person_fallen",
+  "event_definition_version": "v4.0-operational-high-priority",
+  "candidate": "V4-A0-FULL-CROP",
+  "candidate_status": "FROZEN_PENDING_SCREEN",
+  "historical_inputs_immutable": true,
+  "model_prediction_used_as_gt": false,
+  "human_semantic_review_required": false,
+  "definition": {
+    "path": "definition/person_fallen_v4_operational_definition.md",
+    "sha256": "e0a3b10456ee11b28a7a6bd678a6e76bd6d94fa98b8035b21a8ca57693706d7e"
+  },
+  "prompt": {
+    "path": "prompt/V4-A0_pose_attributes_prompt.txt",
+    "sha256": "a81367203bfff7fe8aaae491bf04a8d9eb92057c701412bbd316b8d43f98fad7"
+  },
+  "policy": {
+    "path": "policy/deterministic_policy.py",
+    "sha256": "3a3e16f177c1806b74f4018bc269068e7715bba43eb20a5b3797b02c4ca9ccaf"
+  },
+  "temporal_policy": {
+    "path": "policy/temporal_recheck.py",
+    "sha256": "04ae5afd8d1a51015504befb614b7391b1bd56b909bd3620286b51745de98591"
+  },
+  "execution_tools": {
+    "manifest_builder": {
+      "path": "tools/build_operational_manifests.py",
+      "sha256": "ea761bc161c5ca89e57328208e188c6b8405878d6d497a5341dfef7e43ec2bc1"
+    },
+    "detector_runner": {
+      "path": "tools/run_operational_detector.py",
+      "sha256": "d03f990caeb72b71ac8178f9de261383abe54c03e69a342f7aef37d12b668801"
+    },
+    "evaluation_runner": {
+      "path": "tools/run_operational_eval.py",
+      "sha256": "78858e39b7b4012f723423e83aaeeaa56010d0c580ea997d13d0979d9de60f94"
+    }
+  },
+  "detector": {
+    "name": "Ultralytics_YOLO11n_COCO",
+    "weight_path": "assets/person_detector/yolo11n.pt",
+    "weight_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+    "runtime_python": "/home/yanbo/net_vlm_person_smoking_optimization/.venv_person_detector/bin/python",
+    "ultralytics_version": "8.4.104",
+    "person_class_id": 0,
+    "confidence_threshold": 0.15,
+    "nms_iou_threshold": 0.7,
+    "minimum_box_area_ratio": 0.002,
+    "imgsz": 640,
+    "max_persons": 3,
+    "crop_expand_x": 0.2,
+    "crop_expand_y": 0.15
+  },
+  "model": {
+    "endpoint": "http://192.168.20.62:11434",
+    "name": "qwen3.5:4b",
+    "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+    "ollama_version": "0.23.2",
+    "think": false,
+    "stream": false,
+    "format": "json",
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 384,
+    "timeout_seconds": 120,
+    "concurrency": 1,
+    "automatic_retry": false,
+    "resend_transport_unknown": false
+  },
+  "preprocess": {
+    "mode": "letterbox",
+    "width": 448,
+    "height": 336,
+    "jpeg_quality": 70,
+    "jpeg_optimize": true,
+    "letterbox_rgb": [128, 128, 128],
+    "views": ["full_scene", "largest_person_full_body_crop"]
+  },
+  "dev_zero_inference": {
+    "source_revision": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes",
+    "source_run": "eval/runs/dev_V4-A0-FULL-CROP-436",
+    "predictions_sha256": "4a46072c5a4e2c94c9844e16387e059870b43bfbfc0d421282a0f90cd43ce589",
+    "summary_sha256": "ef4e40a45bcb2953a03df01d1ab7d1f0fc35a87f74720c8c678292fb7bdebb01",
+    "rows": 436,
+    "ground_lying_count": 145,
+    "ground_lying_alert": 141,
+    "ground_lying_recheck": 4,
+    "ground_lying_alert_recall": 0.9724137931034482,
+    "ground_lying_alert_recheck_coverage": 1.0,
+    "floor_sitting_count": 55,
+    "floor_sitting_alert_fpr": 0.0,
+    "determinate_negative_count": 230,
+    "determinate_negative_alert_fpr": 0.0,
+    "recheck_count": 19,
+    "strict_json_success": 1.0,
+    "gate_pass": true
+  },
+  "source_manifests": {
+    "screen": {
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/11_person_fallen_v3_revision/remap/person_fallen_v3_screen_manifest.csv",
+      "sha256": "8e9b4048c0bc97807e8afe647eee11c0903d50108844f2117ae41b85c6e8923c",
+      "rows": 76,
+      "split": "V3_SCREEN"
+    },
+    "val": {
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/11_person_fallen_v3_revision/remap/person_fallen_v3_val_manifest.csv",
+      "sha256": "ffe093f90a64698f1006541400dc8bf6bda774bbe54febc47ef2c388ef184302",
+      "rows": 100,
+      "split": "V3_VAL"
+    }
+  },
+  "operational_gate": {
+    "ground_lying_alert_recall_min": 0.95,
+    "ground_lying_alert_recheck_coverage_required": 1.0,
+    "floor_sitting_alert_fpr_max": 0.0,
+    "determinate_negative_alert_fpr_max": 0.0,
+    "strict_json_success_min": 1.0,
+    "attention_decision": "reported_auxiliary_only_not_in_binary_gate"
+  },
+  "downstream": {
+    "screen": "PENDING",
+    "val": "PENDING",
+    "final_holdout_preflight": "NOT_CREATED",
+    "holdout_consumed": false,
+    "screen_rows_read": 0,
+    "val_rows_read": 0,
+    "holdout_rows_read": 0
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "accounting": {
+    "adapter_manifest_sha256": "b2b69c7eebbb4175294b0094e6dc50a804a25244ff7aecd2e359f47c417e1c0b",
+    "binding_blocked_success": 30,
+    "clean_success": 196,
+    "completion_unknown": 1,
+    "full_manifest_sha256": "5f7afbc010a0028497ec0210e75dc28cc79212fbc114cbf4741ee0bc4ce361c4",
+    "q9_plan_sha256": "0344c97847ea7447fee7246a7dc9b173429efd058aa0f4153eb9d2f6d5bb950c",
+    "role_counts_safe": {
+      "hard_negative": 148,
+      "ordinary_negative": 20,
+      "positive": 45
+    },
+    "safe_executable_outstanding": 213,
+    "safe_sha256": "65b7840c403ca7c56ac2a2ec1d4a89dd97f87a4d549723cd5b9115e4e80eb1e6",
+    "split_counts_safe": {
+      "NEW_DESIGN": 130,
+      "NEW_SCREEN": 83
+    },
+    "sum": 440,
+    "target_total": 440,
+    "unknown_ids": [
+      "PF_P4D_HN_MAINT_G006_V02"
+    ],
+    "unknown_sha256": "86648fd40c67089fd236d40e73e80165880af78b296d223f044d3989930f3614",
+    "verified_sha256": "3d2245f5ae2de347d207f9a2921f78252d7359688c2971026278f9d8e2f19c4a"
+  },
+  "captured_at": "2026-09-01T03:14:41.835+00:00",
+  "full_manifest_rows": 440,
+  "q9_plan_ids": [
+    "PF_P4D_HN_CRAWL_G006_V01",
+    "PF_P4D_HN_CRAWL_G006_V02",
+    "PF_P4D_HN_CRAWL_G006_V03",
+    "PF_P4D_HN_CRAWL_G006_V04",
+    "PF_P4D_HN_CRAWL_G006_V05",
+    "PF_P4D_HN_MAINT_G001_V01",
+    "PF_P4D_HN_MAINT_G001_V02",
+    "PF_P4D_HN_MAINT_G001_V03",
+    "PF_P4D_HN_MAINT_G001_V04",
+    "PF_P4D_HN_MAINT_G001_V05",
+    "PF_P4D_HN_MIX_G004_V01",
+    "PF_P4D_HN_MIX_G004_V02",
+    "PF_P4D_HN_MIX_G004_V03",
+    "PF_P4D_HN_MIX_G004_V04",
+    "PF_P4D_HN_MIX_G004_V05",
+    "PF_P4D_HN_PLANK_G007_V01",
+    "PF_P4D_HN_PLANK_G007_V02",
+    "PF_P4D_HN_PLANK_G007_V03",
+    "PF_P4D_HN_PLANK_G007_V04",
+    "PF_P4D_HN_PLANK_G007_V05",
+    "PF_P4D_HN_SQUAT_G001_V01",
+    "PF_P4D_HN_SQUAT_G001_V02",
+    "PF_P4D_HN_SQUAT_G001_V03",
+    "PF_P4D_HN_SQUAT_G001_V04",
+    "PF_P4D_HN_SQUAT_G001_V05",
+    "PF_P4D_POS_CURLED_G001_V01",
+    "PF_P4D_POS_CURLED_G001_V02",
+    "PF_P4D_POS_CURLED_G001_V03",
+    "PF_P4D_POS_CURLED_G001_V04",
+    "PF_P4D_POS_CURLED_G001_V05"
+  ],
+  "q9_plan_rows": 30,
+  "safe_rows": 213,
+  "unknown_rows": 1,
+  "verified_rows": 226
+}

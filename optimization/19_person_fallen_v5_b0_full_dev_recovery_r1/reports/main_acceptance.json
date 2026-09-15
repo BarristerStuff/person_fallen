@@ -1,0 +1,12 @@
+{
+  "status": "PASS_MAIN_ACCEPTANCE_OF_EARLY_STOP_EVIDENCE",
+  "independent_audit_sha256": "4b14cdbad5ef6e37b8e41ea799be6cc2662bb04fa36acf9c088bb60269731c2a",
+  "recovery_freeze_sha256": "900dfdc9fcf0aad9e95ba2c5abfbc23cfdc8dcdec4b9680f36b03fecff750eee",
+  "counts_recomputed_by_main": true,
+  "no_voting": true,
+  "discrepancies": [],
+  "candidate_semantic_files_modified_after_freeze": false,
+  "model_requests_after_early_stop": 0,
+  "final_status": "V5_B0_FULL_DEV_EARLY_GATE_FAIL",
+  "timestamp": "2026-09-09T11:56:07.222103+00:00"
+}

@@ -1,0 +1,9 @@
+phase,subset,source,rows,ALERT,RECHECK,NO_ALERT,ATTENTION
+pilot,ground_lying,V4_HISTORICAL,60,60,0,0,0
+pilot,ground_lying,V5_B0_NEW,60,60,0,0,0
+pilot,floor_sitting,V4_HISTORICAL,55,0,1,54,0
+pilot,floor_sitting,V5_B0_NEW,55,0,5,50,0
+pilot,multi_person_one_lying,V4_HISTORICAL,5,5,0,0,0
+pilot,multi_person_one_lying,V5_B0_NEW,5,5,0,0,0
+regression,ground_lying,V4_HISTORICAL,1,0,0,1,0
+regression,ground_lying,V5_B0_NEW,1,1,0,0,0

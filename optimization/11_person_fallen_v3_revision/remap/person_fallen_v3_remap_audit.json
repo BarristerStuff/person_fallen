@@ -1,0 +1,144 @@
+{
+  "counts": {
+    "all_new_label": {
+      "negative": 490,
+      "positive": 420,
+      "uncertain": 30
+    },
+    "all_remap_rows": 940,
+    "excluded_by_status": {
+      "COMPLETION_UNKNOWN_QUARANTINED": 1,
+      "FAILED_CONFIRMED": 1,
+      "FINAL_HOLDOUT_RESERVED": 90,
+      "NOT_STARTED": 23,
+      "Q9_BINDING_BLOCKED": 30,
+      "UNEXECUTED_OR_NOT_REUSABLE": 183
+    },
+    "formal_by_image_sha_basis": {
+      "FAST_CLOSE_CURRENT_REHASH_EXPECTED_FIELD_EMPTY": 10,
+      "FAST_CLOSE_EXPECTED_AND_ACTUAL": 192,
+      "FROZEN_V2_MANIFEST_EXPECTED_AND_ACTUAL": 410
+    },
+    "formal_by_metric_stratum": {
+      "hard_negative": 241,
+      "ordinary_negative": 100,
+      "positive": 251,
+      "uncertain": 20
+    },
+    "formal_by_source_family": {
+      "P4D_FROZEN_PLAN_440": 202,
+      "V2_ORIGINAL_SYNTHETIC_500": 410
+    },
+    "formal_by_split": {
+      "V3_DEV": 436,
+      "V3_SCREEN": 76,
+      "V3_VAL": 100
+    },
+    "formal_by_taxonomy": {
+      "bed_normal_rest": 20,
+      "bending": 10,
+      "bending_pickup": 20,
+      "chair_seated_normal_work": 15,
+      "chair_sitting": 20,
+      "crawling_explicit_maintenance": 10,
+      "crawling_quadruped_support": 5,
+      "crawling_without_explicit_maintenance": 10,
+      "curled_or_partially_occluded_lying": 5,
+      "curled_or_sprawled_lying": 10,
+      "floor_sitting": 80,
+      "ground_maintenance": 6,
+      "horizontal_corridor_ground_lying": 5,
+      "intentional_ground_lying": 5,
+      "irregular_sprawled_lying": 10,
+      "kneeling_half_kneeling": 65,
+      "low_light_ground_lying": 20,
+      "mixed_hard_negative": 5,
+      "multi_person_one_lying": 25,
+      "ordinary_multi_activity": 10,
+      "ordinary_work": 20,
+      "partially_occluded_lying": 20,
+      "person_unconfirmable": 20,
+      "prone_ground_lying": 30,
+      "pushup_plank": 26,
+      "side_lying": 30,
+      "small_target_ground_lying": 20,
+      "sofa_normal_rest": 10,
+      "squat_crouch_deep_bend": 25,
+      "standing": 10,
+      "standing_walking": 5,
+      "supine_ground_lying": 30,
+      "walking": 10
+    },
+    "formal_new_label": {
+      "negative": 341,
+      "positive": 251,
+      "uncertain": 20
+    },
+    "formal_v3_rows": 612,
+    "p4d_plan_rows": 440,
+    "v2_original_rows": 500
+  },
+  "event_definition_version": "v3.0",
+  "event_name": "person_fallen",
+  "generated_at_utc": "2026-09-01T09:10:03.006034+00:00",
+  "group_integrity": {
+    "cross_split_group_count": 0,
+    "cross_split_groups": {},
+    "formal_unique_group_count": 83
+  },
+  "gt_policy": {
+    "GT_SOURCE": "FROZEN_GENERATION_PROMPT_AND_PLANNED_ROLE",
+    "GT_TYPE": "PROMPT_DERIVED_SYNTHETIC_GT",
+    "HUMAN_SEMANTIC_REVIEW_REQUIRED": false,
+    "formal_scope": "AI-generated development/screening/synthetic validation only",
+    "model_prediction_used_as_gt": false
+  },
+  "holdout_boundary": {
+    "final_holdout_executed": false,
+    "holdout_consumed": false,
+    "v2_holdout_in_formal_v3": false,
+    "v2_holdout_rows": 90
+  },
+  "input_hashes": {
+    "p4d_fast_close_manifest_sha256": "a277e7a683a8f3205e5584b4f93c2a245e3ff3e80d2986c3df6e8c41c0c71b6a",
+    "p4d_frozen_prompt_plan_sha256": "e75c48626f2eabade9cdbc48bb77072c5d470ddce60ec9a903f580d4990aeceb",
+    "p4d_q10_ledger_sha256": "8fa211fe1ed3f03425947f5b70fbc9297cb41d4507558c153de7579cac44ad22",
+    "p4d_q10_plan_sha256": "66d79a5d0453b8c7b223f9cd8997b284ff936791421477629316bfc15ae55590",
+    "p4d_q9_plan_sha256": "0344c97847ea7447fee7246a7dc9b173429efd058aa0f4153eb9d2f6d5bb950c",
+    "p4d_safe_outstanding_sha256": "a940f652fb70966dac56d524b92d44d6662f435f6372ea6a63e562261a8c9b7c",
+    "v2_frozen_manifest_sha256": "771380b70099e2e2e641330a7d4f04860e2284725722bde3cd2da8988abfb2c6",
+    "v3_prompt_sha256": "805a7276e0e6291059ab990f3426b609797342838805c417eb0a15db804c182f"
+  },
+  "old_p4d_generation": {
+    "OLD_P4D_440_REQUIREMENT": "SUPERSEDED_FOR_PERSON_FALLEN_V3",
+    "STOP_FURTHER_P4D_GENERATION": true,
+    "q10_q11_or_unknown_resend": false,
+    "target_slots": 440
+  },
+  "p4d_accounting": {
+    "P4D_COMPLETION_UNKNOWN": 1,
+    "P4D_FROZEN_PLAN_TOTAL": 440,
+    "P4D_OTHER_SAFE_OUTSTANDING": 183,
+    "P4D_Q10_FAILED_CONFIRMED": 1,
+    "P4D_Q10_NOT_STARTED": 23,
+    "P4D_Q9_BINDING_BLOCKED": 30,
+    "P4D_REUSABLE_CLEAN": 202,
+    "P4D_SAFE_OUTSTANDING_TOTAL": 207
+  },
+  "protocol_ambiguity": {
+    "count": 0,
+    "items": []
+  },
+  "q9_boundary": {
+    "formal_main_metrics": false,
+    "q9_rows": 30,
+    "use": "AUXILIARY_DIAGNOSTIC_ONLY"
+  },
+  "revision_id": "PERSON_FALLEN_V3_ANOMALOUS_NEAR_GROUND_20260901_01",
+  "source_read_only_boundary": {
+    "formal_dataset_csv_modified": false,
+    "production_directory_modified": false,
+    "v2_files_modified": false
+  },
+  "status": "PASS"
+}

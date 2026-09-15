@@ -1,0 +1,13 @@
+{
+  "elapsed_seconds": 0.9783605530010391,
+  "payload": {
+    "error": {
+      "code": "http_error",
+      "detail": "{\"code\":\"INVALID_API_KEY\",\"message\":\"Invalid API key\"}",
+      "message": "HTTP 401"
+    },
+    "ok": false
+  },
+  "prompt_id": "PF_P4D_HN_SIT_G001_V01",
+  "returncode": 1
+}

@@ -1,0 +1,34 @@
+{
+  "completion_unknown": 1,
+  "q7_plan_groups": [
+    "PF_P4D_POS_INTENTIONAL_G001",
+    "PF_P4D_POS_MULTI_G001",
+    "PF_P4D_POS_CORRIDOR_G001",
+    "PF_P4D_HN_SQUAT_G006"
+  ],
+  "q7_plan_taxonomies": [
+    "intentional_ground_lying",
+    "multi_person_one_lying",
+    "horizontal_corridor_ground_lying",
+    "squat_crouch_deep_bend"
+  ],
+  "q7_role": {
+    "hard_negative": 5,
+    "positive": 15
+  },
+  "q7_split": {
+    "NEW_DESIGN": 10,
+    "NEW_SCREEN": 10
+  },
+  "safe_executable_outstanding": 288,
+  "success_role": {
+    "hard_negative": 111,
+    "ordinary_negative": 20,
+    "positive": 20
+  },
+  "success_split": {
+    "NEW_DESIGN": 95,
+    "NEW_SCREEN": 56
+  },
+  "verified_success": 151
+}

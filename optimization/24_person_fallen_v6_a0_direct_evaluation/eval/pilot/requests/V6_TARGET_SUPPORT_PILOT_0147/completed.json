@@ -1,0 +1,61 @@
+{
+  "state": "completed",
+  "phase": "pilot",
+  "request_id": "V6_TARGET_SUPPORT_PILOT_0147",
+  "item_id": "P4D_PLAN::PF_P4D_HN_CRAWL_G001_V01",
+  "operational_id": "PFV6_PILOT_0147",
+  "taxonomy": "crawling_quadruped_support",
+  "group_id": "PF_P4D_HN_CRAWL_G001",
+  "evaluation_stratum": "auxiliary_attention",
+  "source_image_sha256": "80e28147640d5f74a7e7153f4499eecfb9cfd7b2eb8ec84020bf2d7a0a4378cf",
+  "full_view_sha256": "602d47fb1982a19698da6097f3a042bfbb6b2112f8d13fda500b71ecbb798057",
+  "crop_view_sha256": "b11b55f6d4d9ab62dcc1d4f3686a9099daffb4aac009c055febbf89648ba674e",
+  "payload_sha256": "14f9a0362d29b478785d683f715f39dcab78034a1989fe18a6ff9ca6d97ad10d",
+  "claimed_timestamp": "2026-09-14T10:32:17.132742+00:00",
+  "http_status": 200,
+  "latency_seconds": 5.2635715439973865,
+  "completion_unknown": false,
+  "transport_error": null,
+  "raw_response_sha256": "4c3f974145342db5b6b4afea85cd092c236c5fa5b9465c140c40c692b12c0a0e",
+  "raw_response_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/24_person_fallen_v6_a0_direct_evaluation/eval/pilot/requests/V6_TARGET_SUPPORT_PILOT_0147/response.raw",
+  "received_timestamp": "2026-09-14T10:32:22.398537+00:00",
+  "strict_json_ok": true,
+  "source_binding_ok": true,
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 194,
+  "parsed": {
+    "scene_coverage": "complete",
+    "people": [
+      {
+        "person_id": 1,
+        "bbox_1000": [
+          218,
+          393,
+          624,
+          683
+        ],
+        "person_visible": "yes",
+        "pose": "crawling",
+        "torso_orientation": "horizontal",
+        "torso_ground_contact": "partial",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "body_support_configuration": "hands_knees_supported",
+        "explicit_work_evidence": "no",
+        "visual_quality": "clear",
+        "evidence": "Person on all fours on concrete floor, hands and knees supporting torso."
+      }
+    ]
+  },
+  "person_decisions": [
+    {
+      "person_id": 1,
+      "decision": "ATTENTION_NEAR_GROUND",
+      "reason": "CLEAR_LIMB_SUPPORTED_NEAR_GROUND:hands_knees_supported"
+    }
+  ],
+  "image_decision": "ATTENTION_NEAR_GROUND",
+  "image_reason": "AUXILIARY_ONLY",
+  "completed_timestamp": "2026-09-14T10:32:22.400427+00:00"
+}

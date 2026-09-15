@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "counts": {
+    "pilot": 156,
+    "regression": 1,
+    "remaining": 280,
+    "full": 436,
+    "remaining_by_stratum": {
+      "normal_negative": 175,
+      "ground_lying": 85,
+      "visual_uncertain": 20
+    }
+  },
+  "pilot_manifest_sha256": "355e2fce2d752b91a2908220f08b5e859b61cf57aba21d6a87ac13511e2adcfc",
+  "full_source_manifest_sha256": "85f00afef907de927b1e463eea0382170a453da138a841ed8b68c268649d1ddd",
+  "full_crop_manifest_sha256": "36b92f06c3be9a9d6450f0239d06a270ef2a57a2062bc674d21c08ebe4afb88f",
+  "source_fields_unchanged": true,
+  "VAL_READ": 0,
+  "HOLDOUT_READ": 0,
+  "localization": "UNVERIFIED"
+}

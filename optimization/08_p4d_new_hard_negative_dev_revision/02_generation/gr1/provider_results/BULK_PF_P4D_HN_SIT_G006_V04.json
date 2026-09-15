@@ -1,0 +1,95 @@
+{
+  "command": [
+    "<node>",
+    "<gpt-image-2-skill>",
+    "--json",
+    "--json-events",
+    "--provider",
+    "codex",
+    "images",
+    "generate",
+    "--model",
+    "gpt-5.4",
+    "--prompt_sha256",
+    "14c9dd996051a689c430b5d0d0948a3b56caa364f354189279aa1d6a959b2369",
+    "--out",
+    "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/generated_raw/PF_P4D_HN_SIT_G006_V04.png",
+    "--format",
+    "png",
+    "--size",
+    "1536x1024",
+    "--quality",
+    "medium"
+  ],
+  "elapsed_seconds": 49.01494320599886,
+  "finished_at": "2026-08-27T06:33:12.677+00:00",
+  "payload": {
+    "auth": {
+      "account_id": "f0bc3591-e6fc-442d-a52e-e99efbf5c1eb",
+      "auth_file": "/home/yanbo/.codex/auth.json",
+      "refreshed": false,
+      "source": "auth.json"
+    },
+    "command": "images generate",
+    "events": {
+      "count": 22
+    },
+    "history": {
+      "job_id": "job-1787812392668907795-18130"
+    },
+    "ok": true,
+    "output": {
+      "bytes": 2062901,
+      "files": [
+        {
+          "bytes": 2062901,
+          "index": 0,
+          "path": "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/generated_raw/PF_P4D_HN_SIT_G006_V04.png"
+        }
+      ],
+      "path": "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/generated_raw/PF_P4D_HN_SIT_G006_V04.png"
+    },
+    "provider": "codex",
+    "provider_selection": {
+      "edit_region_mode": "reference-hint",
+      "kind": "codex",
+      "reason": "explicit",
+      "requested": "codex",
+      "resolved": "codex",
+      "supports_n": false
+    },
+    "request": {
+      "background": "auto",
+      "delegated_image_model": "gpt-image-2",
+      "format": "png",
+      "model": "gpt-5.4",
+      "operation": "generate",
+      "provider": "codex",
+      "quality": "medium",
+      "ref_image_count": 0,
+      "size": "1536x1024"
+    },
+    "response": {
+      "image_count": 1,
+      "item_ids": [
+        "ig_05dac9f9cf65db53016a8fd9f8960087d0bd6d5a83f6f0f30b"
+      ],
+      "model": "gpt-5.4",
+      "response_id": "resp_05dac9f9cf65db53016a8fd9f7b7f087d0bfe1f66f904cbc80",
+      "revised_prompts": [
+        "Photorealistic 1920x1080 landscape frame from a fixed safety-inspection camera mounted about 1.5 meters above the floor, observing a building entrance with vestibule doors, entrance matting, visible architectural depth, rubberized safety flooring, and warm practical interior light. Left-oblique view at moderate camera distance, natural perspective, realistic scale, enough surrounding context to judge body support. Visible subject: a shorter adult with a compact build wearing a blue hoodie and gray trousers, blue and charcoal clothing, sitting on one bent leg with the other leg extended, hips low but torso clearly non-horizontal. Scene should look like a plausible unedited inspection-camera capture, subject clearly visible, clean floor markings that do not form symbols or labels. Ordinary photographic detail, restrained contrast, not cinematic or advertising. No text, caption, watermark, logo, warning label, overlay, bounding box, arrow, circle, or annotation."
+      ],
+      "service_tier": "default",
+      "status": "completed"
+    },
+    "retry": {
+      "count": 0,
+      "max_retries": 3
+    }
+  },
+  "phase": "BULK",
+  "prompt_id": "PF_P4D_HN_SIT_G006_V04",
+  "returncode": 0,
+  "sequence": 47,
+  "started_at": "2026-08-27T06:32:23.662+00:00"
+}

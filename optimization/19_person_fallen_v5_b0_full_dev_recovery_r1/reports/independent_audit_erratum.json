@@ -1,0 +1,9 @@
+{
+  "status": "CORRECTED_ZERO_INFERENCE_AUDIT_FALSE_POSITIVE",
+  "initial_report_sha256": "201c650f8a7b9655c5a894cbef26da603b8554884172396f6007228ae3e9c053",
+  "corrected_report_sha256": "4b14cdbad5ef6e37b8e41ea799be6cc2662bb04fa36acf9c088bb60269731c2a",
+  "root_cause": "naive substring check treated path component eval as VAL",
+  "actual_val_holdout_request_count": 0,
+  "model_requests_for_correction": 0,
+  "candidate_or_freeze_files_modified": false
+}

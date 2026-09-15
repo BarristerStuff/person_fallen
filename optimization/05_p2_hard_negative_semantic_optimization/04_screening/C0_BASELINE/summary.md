@@ -1,0 +1,55 @@
+# P2 SCREEN C0 offline baseline
+
+```json
+{
+  "candidate": "C0",
+  "holdout_consumed": false,
+  "holdout_requests": 0,
+  "manifest_sha256": "ccb8c9df51371dbfd2a8e34201ccd42b0a825eea4444ba45a3aaa6945094aab5",
+  "metrics": {
+    "FN": 0,
+    "FP": 22,
+    "TN": 38,
+    "TP": 50,
+    "accuracy": 0.8,
+    "determinate_count": 110,
+    "f1": 0.819672131147541,
+    "gt_uncertain_prediction_distribution": {
+      "negative": 1,
+      "positive": 9
+    },
+    "hard_negative_fpr": 0.55,
+    "model_uncertain_count": 0,
+    "model_uncertain_rate": 0.0,
+    "ordinary_negative_fpr": 0.0,
+    "positive_recall": 1.0,
+    "precision": 0.6944444444444444,
+    "recall": 1.0
+  },
+  "new_model_requests": 0,
+  "phase": "screen",
+  "predictions_sha256": "2e5d70bdea8fd9c4b293e58d29295f22bf7d6c224706e484b927b9bbe4495b53",
+  "prompt_sha256": "b457a2442b8c4cca66866ecd7fcaaa765524740f1019e7811a05ec8e2c8335f4",
+  "protocol": {
+    "canonical_prediction_success_rate": 1.0,
+    "http_success_rate": 1.0,
+    "json_parse_success_rate": 1.0,
+    "latency_seconds": {
+      "subset_max": 6.653924,
+      "subset_mean": 1.5037669333333332,
+      "subset_p50": 1.456534,
+      "subset_p95": 1.59437605
+    },
+    "new_model_requests": 0,
+    "request_count": 120,
+    "response_nonempty_rate": 1.0,
+    "schema_success_rate": 1.0,
+    "source": "P1A_DEV_OFFLINE_SUBSET",
+    "thinking_present_rate": 0.0
+  },
+  "protocol_gate_pass": true,
+  "source": "P1A_DEV_PREDICTIONS_OFFLINE_RECOMPUTE",
+  "source_predictions_sha256": "5d67e80d753ed71ae33cf9c222a8793b829c60a0bc1ff5ee09085518bf9d359b",
+  "stage": "P2_HARD_NEGATIVE_SEMANTIC_OPTIMIZATION"
+}
+```

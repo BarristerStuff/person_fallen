@@ -1,0 +1,15 @@
+{
+  "state": "claimed",
+  "phase": "pilot",
+  "request_id": "V6_TARGET_SUPPORT_PILOT_0106",
+  "item_id": "V2_ORIGINAL::IMG_003991",
+  "operational_id": "PFV6_PILOT_0106",
+  "taxonomy": "supine_ground_lying",
+  "group_id": "pf_v2_aigc_p01-supine-on-floor",
+  "evaluation_stratum": "ground_lying",
+  "source_image_sha256": "38ce6cfd624925a391aacf8d6c267d8413b097d6ec4ded21c7df9f4bff2cfeff",
+  "full_view_sha256": "f7eee89d90404fcd6794b22d18bffa0c2b8d290ffc54575aaea2cad2fcceea07",
+  "crop_view_sha256": "f0040f1240ef9b8d587699e8bd8f44aa282c5f52bedaacb57e65086f0f0e2d9a",
+  "payload_sha256": "7dc527407b99279de0b90b37c10fceb6c15e854a33f5d4d1c83472b1792b63a4",
+  "claimed_timestamp": "2026-09-14T10:28:09.029004+00:00"
+}

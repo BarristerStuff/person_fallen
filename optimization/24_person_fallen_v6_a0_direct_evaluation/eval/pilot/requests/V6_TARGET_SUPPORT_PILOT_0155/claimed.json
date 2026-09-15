@@ -1,0 +1,15 @@
+{
+  "state": "claimed",
+  "phase": "pilot",
+  "request_id": "V6_TARGET_SUPPORT_PILOT_0155",
+  "item_id": "P4D_PLAN::PF_P4D_POS_MULTI_G001_V04",
+  "operational_id": "PFV6_PILOT_0155",
+  "taxonomy": "multi_person_one_lying",
+  "group_id": "PF_P4D_POS_MULTI_G001",
+  "evaluation_stratum": "ground_lying",
+  "source_image_sha256": "8711cb681690b1e5df446b55e4f239e7b3ef53a24da029706a1d14213e7a144a",
+  "full_view_sha256": "a2a37b32fa5aca8fa2a2fa64ab5be14928f8a8d7ab99cf1ab58cd463f77f4a4c",
+  "crop_view_sha256": "b4e91003e66a4b5bc55380d6aef608b8c0461dbd4daee30e9322d4cf970e7ca7",
+  "payload_sha256": "930e74232dcf8c8541a1326e56c00076c3e30adc4816399b94152f83ad303245",
+  "claimed_timestamp": "2026-09-14T10:33:14.553937+00:00"
+}

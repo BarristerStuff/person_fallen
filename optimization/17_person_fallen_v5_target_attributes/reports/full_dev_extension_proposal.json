@@ -1,0 +1,61 @@
+{
+  "status": "PROPOSAL_ONLY_REQUIRES_NEW_EXPLICIT_AUTHORIZATION",
+  "candidate": "V5-B0-TARGET-ATTRIBUTES",
+  "current_authorized_execution_finished": true,
+  "current_new_request_count": 116,
+  "proposed_scope": "existing full DEV436 only; no VAL/Holdout or unconsumed independent set",
+  "candidate_changes_allowed": false,
+  "preserve": [
+    "Prompt",
+    "schema",
+    "person policy",
+    "scene aggregation",
+    "model/digest/version/options num_predict=768",
+    "existing source images/full/crop bytes"
+  ],
+  "potential_exact_cache_reuse": {
+    "rows": 115,
+    "source": "THIS_CANDIDATE_NEW_TARGET_ATTRIBUTE_RESPONSES_ONLY",
+    "requires": "exact item, source image, full/crop, prompt/schema/policy/model/options/runner bindings; no V4 cache substitution"
+  },
+  "potential_additional_requests_max": 321,
+  "remaining_counts_arithmetic": {
+    "ground_lying": 85,
+    "normal_negative": 175,
+    "auxiliary_attention": 41,
+    "visual_uncertain": 20,
+    "total": 321
+  },
+  "full_manifest_prepared": false,
+  "new_images_read_for_extension": 0,
+  "new_model_requests_for_extension": 0,
+  "gates_to_freeze_in_separate_authorized_execution_protocol": {
+    "ground_lying_immediate_ALERT_recall_min": 0.95,
+    "ground_lying_ALERT_RECHECK_coverage": 1.0,
+    "normal_negative_immediate_ALERT_FPR": 0,
+    "floor_sitting_immediate_ALERT_FPR": 0,
+    "normal_negative_total_RECHECK_rate_max": 0.1,
+    "floor_sitting_RECHECK_max": 5,
+    "floor_sitting_NO_ALERT_min": 50,
+    "strict_JSON_success": 1.0,
+    "source_binding_success": 1.0
+  },
+  "required_reports": [
+    "full145/230/41/20 strata",
+    "floor55 negative subset",
+    "auxiliary and visual_uncertain ALERT counts without hiding",
+    "per-group and multi-person exposure accounting",
+    "schema/truncation and instance enumeration risks",
+    "single request per new identity; partial protocol never complete PASS"
+  ],
+  "stop_rules": [
+    "Any new inference needs new explicit authorization first",
+    "Do not regenerate images or relabel GT",
+    "Do not tune candidate from five floor RECHECK cases",
+    "Failure closes current execution without retries/candidate search",
+    "No automatic VAL/Holdout or robot/production control"
+  ],
+  "independent_validation": false,
+  "OBJECT_LOCALIZATION_ACCURACY": "UNVERIFIED",
+  "CURRENT_WINNER": "NONE"
+}

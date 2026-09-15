@@ -1,0 +1,7 @@
+error_pattern,count,media_ids,definition
+evidence_to_label_inconsistency,0,,Strict Type A: evidence explicitly names knees/hands as the active non-lying posture but final label remains positive.
+visual_attribute_extraction_error,2,IMG_003739;IMG_003786,Type B: evidence asserts lying/collapsed posture although source scenario/image is a stable non-lying posture.
+support_surface_error,0,,Type C: support surface is materially misidentified.
+multi_person_confusion,0,,Type D: another person is used as the target posture.
+other,0,,Type E: residual not covered above.
+explicit_support_clue_present_but_not_adjudicated,2,IMG_003739;IMG_003786,Audit dimension; not counted as strict Type A unless an explicit non-lying posture is named as the model conclusion.

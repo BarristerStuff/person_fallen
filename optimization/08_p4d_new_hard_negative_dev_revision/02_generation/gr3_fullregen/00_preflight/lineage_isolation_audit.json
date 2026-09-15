@@ -1,0 +1,21 @@
+{
+  "captured_at": "2026-08-27T09:20:11.814+00:00",
+  "gr1_images_reused": 0,
+  "historical_gr1_batch": "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m",
+  "historical_gr1_final_files": 192,
+  "historical_gr1_image_files": 384,
+  "historical_gr1_image_sha256_count": 384,
+  "historical_gr1_logical_images": 192,
+  "historical_gr1_raw_files": 192,
+  "interpretation": "The new preparation tree contains no old image bytes or symlinks; prompt and plan text are lineage bindings only.",
+  "new_batch": "/home/yanbo/下载/batches/batch-person-fallen-v2-p4d-hardneg-fullregen-r2-camera1p5m",
+  "new_batch_image_file_count": 0,
+  "new_batch_image_files": [],
+  "new_batch_regular_file_count": 3,
+  "new_batch_symlinks": [],
+  "new_generation_lineage": true,
+  "old_image_hash_hits_in_new_batch": [],
+  "pass": true,
+  "samefile_hits": [],
+  "stage": "P4D_GR3_LINEAGE_ISOLATION_AUDIT"
+}

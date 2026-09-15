@@ -1,0 +1,9 @@
+{
+  "contact_sheets": 0,
+  "created_at": "2026-08-28T08:58:40.975+00:00",
+  "human_review_rows": 0,
+  "p4d_images_accepted": 0,
+  "reason": "generation stopped at PRIMARY HTTP 401 before any image",
+  "semantic_accepted": 0,
+  "status": "NOT_CREATED_NO_IMAGES"
+}

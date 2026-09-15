@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "tests": 15,
+  "fake_e2e": "PASS",
+  "model_requests": 0
+}

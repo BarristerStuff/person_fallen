@@ -1,0 +1,20 @@
+{
+  "MATERIAL_GENERATION_CONFIG_CHANGE": false,
+  "PROFILE_CLASSIFICATION": "OPERATIONAL_PROVENANCE_ONLY",
+  "PROFILE_FINGERPRINT_CHANGED": true,
+  "PROFILE_STRATIFICATION_REQUIRED": true,
+  "account_or_user_raw_values_persisted": false,
+  "backend_same": true,
+  "binary_same": true,
+  "captured_at": "2026-08-28T06:08:49.437+00:00",
+  "image_generation_provider_requests": 0,
+  "model_same": true,
+  "policy_change_retroactive_to_gr3q1_decision": false,
+  "profile_a_safe_fingerprint": "ab7f2704e5b70b62ccfd48b241b649716e6ddd6cb9a1bfe14d992df646dcaffe",
+  "profile_b_safe_fingerprint": "d80e86e6d2324b14d5b7a37821b1f42684b62f80c69e03350c9b0c3ae0f7c190",
+  "prompt_and_config_same": true,
+  "provider_same": true,
+  "runtime_same": true,
+  "stage": "P4D_GR3Q2_PROVIDER_PROFILE_COMPARISON",
+  "wrapper_same": true
+}

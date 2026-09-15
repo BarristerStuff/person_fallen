@@ -1,0 +1,20 @@
+{
+  "captured_at": "2026-08-28T07:15:38.653+00:00",
+  "completion_unknown": 0,
+  "exact_expected_state": true,
+  "expected_outstanding": 338,
+  "failed_confirmed_http_429": 1,
+  "first_recovery_slot": "PF_P4D_HN_KNEEL_G009_V03",
+  "never_started": 337,
+  "outstanding_csv_sha256": "0b98dce9ca21054548806af97074317f6648bfe89e70549c2799e27cecf4602f",
+  "role_counts": {
+    "hard_negative": 198,
+    "ordinary_negative": 40,
+    "positive": 100
+  },
+  "split_counts": {
+    "NEW_DESIGN": 195,
+    "NEW_SCREEN": 143
+  },
+  "total_outstanding": 338
+}

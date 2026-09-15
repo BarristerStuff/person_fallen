@@ -1,0 +1,23 @@
+{
+  "current_verified_success": 132,
+  "outstanding": 308,
+  "role_distribution": {
+    "hard_negative": 105,
+    "ordinary_negative": 10,
+    "positive": 17
+  },
+  "split_distribution": {
+    "NEW_DESIGN": 80,
+    "NEW_SCREEN": 52
+  },
+  "taxonomy_distribution": {
+    "chair_seated_normal_work": 5,
+    "curled_or_partially_occluded_lying": 2,
+    "floor_sitting": 60,
+    "kneeling_half_kneeling": 45,
+    "prone_ground_lying": 5,
+    "side_lying": 5,
+    "standing_walking": 5,
+    "supine_ground_lying": 5
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "state": "claimed",
+  "phase": "remaining47_diagnostic",
+  "request_id": "V5_B0_REMAINING47_DIAGNOSTIC_0020",
+  "item_id": "V2_ORIGINAL::IMG_004185",
+  "payload_sha256": "426198c882fb2ae36a4e92614b493eb70b0bef1bb2075e486871aa031669890d",
+  "full_view_sha256": "821cd2ff81b1912a2fa736c0091873cf90619bd815828d38f92ac4344a4de8c4",
+  "crop_view_sha256": "821cd2ff81b1912a2fa736c0091873cf90619bd815828d38f92ac4344a4de8c4",
+  "prompt_sha256": "757fb445efa3f05327947a4c32115e3735823c81d14177199bbf8a6381d3300a",
+  "schema_sha256": "1ccf5a08cd1d6287b33f5d04b0f06101ae75666919c1a9f160ac0c5c335d7817",
+  "policy_sha256": "b2126bf86378fa6d0bcbc67861fa794b320affb1de90dc445f5838223cae68b9",
+  "claimed_timestamp": "2026-09-14T08:14:32.823479+00:00"
+}

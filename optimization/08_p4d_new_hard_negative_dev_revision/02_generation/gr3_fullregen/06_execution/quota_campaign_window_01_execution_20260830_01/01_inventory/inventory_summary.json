@@ -1,0 +1,24 @@
+{
+  "all_verified": true,
+  "captured_at": "2026-08-30T10:55:51.542+00:00",
+  "expected_total": 102,
+  "inventory_csv_sha256": "537416bdc8b6aa355d4dfccf910db4d892631be3e506bac87ad5b1f1f7fd23cb",
+  "inventory_issues": [],
+  "profile_strata": {
+    "GR3E_PROFILE_A": 99,
+    "GR3Q2_PROFILE_B": 3
+  },
+  "role_counts": {
+    "hard_negative": 102
+  },
+  "split_counts": {
+    "NEW_DESIGN": 70,
+    "NEW_SCREEN": 32
+  },
+  "taxonomy_counts": {
+    "floor_sitting": 60,
+    "kneeling_half_kneeling": 42
+  },
+  "total_verified_success": 102,
+  "unique_prompt_ids": 102
+}

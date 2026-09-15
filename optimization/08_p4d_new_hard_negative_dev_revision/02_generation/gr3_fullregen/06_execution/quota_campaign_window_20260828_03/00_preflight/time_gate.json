@@ -1,0 +1,10 @@
+{
+  "captured_at": "2026-08-28T08:00:31.393+00:00",
+  "current_local": "2026-08-28T16:00:31.393314+08:00",
+  "current_utc": "2026-08-28T08:00:31.393314+00:00",
+  "not_before_local": "2026-08-28T19:00:00+08:00",
+  "not_before_utc": "2026-08-28T11:00:00+00:00",
+  "provider_requests": 0,
+  "status_if_not_pass": "WAITING_FOR_PROVIDER_QUOTA_RESET",
+  "time_gate_pass": false
+}

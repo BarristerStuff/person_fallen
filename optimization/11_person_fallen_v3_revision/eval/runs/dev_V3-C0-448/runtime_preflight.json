@@ -1,0 +1,97 @@
+{
+  "api_tags": {
+    "models": [
+      {
+        "details": {
+          "families": [
+            "qwen35"
+          ],
+          "family": "qwen35",
+          "format": "gguf",
+          "parameter_size": "9.7B",
+          "parent_model": "",
+          "quantization_level": "Q4_K_M"
+        },
+        "digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+        "model": "qwen3.5:9b",
+        "modified_at": "2026-08-25T18:05:17.86738108+08:00",
+        "name": "qwen3.5:9b",
+        "size": 6594474711
+      },
+      {
+        "details": {
+          "families": [
+            "llama"
+          ],
+          "family": "llama",
+          "format": "gguf",
+          "parameter_size": "7B",
+          "parent_model": "",
+          "quantization_level": "Q4_0"
+        },
+        "digest": "ce298d984115b93bb1b191b47fee6b39e4e9fbd5f18e651c02f9fa74e0edcd13",
+        "model": "deepseek-coder:6.7b",
+        "modified_at": "2026-05-25T10:39:37.081054775+08:00",
+        "name": "deepseek-coder:6.7b",
+        "size": 3827834503
+      },
+      {
+        "details": {
+          "families": [
+            "qwen35"
+          ],
+          "family": "qwen35",
+          "format": "gguf",
+          "parameter_size": "2.3B",
+          "parent_model": "",
+          "quantization_level": "Q8_0"
+        },
+        "digest": "324d162be6ca5629ae4517c8710434d0bd2d665bc94dbad46e9af8fbf8a2f0df",
+        "model": "qwen3.5:2b",
+        "modified_at": "2026-05-09T13:00:32.318006584+08:00",
+        "name": "qwen3.5:2b",
+        "size": 2741192820
+      },
+      {
+        "details": {
+          "families": [
+            "qwen35"
+          ],
+          "family": "qwen35",
+          "format": "gguf",
+          "parameter_size": "4.7B",
+          "parent_model": "",
+          "quantization_level": "Q4_K_M"
+        },
+        "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+        "model": "qwen3.5:4b",
+        "modified_at": "2026-05-09T11:55:23.851873734+08:00",
+        "name": "qwen3.5:4b",
+        "size": 3389983735
+      }
+    ]
+  },
+  "api_version": {
+    "version": "0.23.2"
+  },
+  "captured_at_utc": "2026-09-01T09:16:42.403940+00:00",
+  "endpoint": "http://192.168.20.62:11434",
+  "selected_model": {
+    "details": {
+      "families": [
+        "qwen35"
+      ],
+      "family": "qwen35",
+      "format": "gguf",
+      "parameter_size": "4.7B",
+      "parent_model": "",
+      "quantization_level": "Q4_K_M"
+    },
+    "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+    "model": "qwen3.5:4b",
+    "modified_at": "2026-05-09T11:55:23.851873734+08:00",
+    "name": "qwen3.5:4b",
+    "size": 3389983735
+  },
+  "status": "PASS"
+}

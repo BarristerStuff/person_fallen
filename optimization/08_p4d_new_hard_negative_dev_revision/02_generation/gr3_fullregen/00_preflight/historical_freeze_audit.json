@@ -1,0 +1,30 @@
+{
+  "captured_at": "2026-08-27T09:19:51.400+00:00",
+  "gr1_freeze": {
+    "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/freeze/p4d_gr1_blocked_freeze.json",
+    "sha256_actual": "7bb9bf547ab07ad9f0f64193aae2ee69d15f17d0eb8cfd05722ae3d79afe2fd9",
+    "sha256_expected": "7bb9bf547ab07ad9f0f64193aae2ee69d15f17d0eb8cfd05722ae3d79afe2fd9",
+    "sidecar_value": "7bb9bf547ab07ad9f0f64193aae2ee69d15f17d0eb8cfd05722ae3d79afe2fd9",
+    "status": "PASS",
+    "verified": true
+  },
+  "gr2_freeze": {
+    "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr2/freeze/p4d_gr2_terminal_freeze.json",
+    "sha256_actual": "eed0d5355f046dc156545eab1e9bd1fb53a2ff3055c56f3fdf28664c1f9594dc",
+    "sha256_expected": "eed0d5355f046dc156545eab1e9bd1fb53a2ff3055c56f3fdf28664c1f9594dc",
+    "sidecar_value": "eed0d5355f046dc156545eab1e9bd1fb53a2ff3055c56f3fdf28664c1f9594dc",
+    "status": "FULL_REGEN_AUTHORIZATION_REQUIRED",
+    "verified": true
+  },
+  "ledgers": {
+    "gr1_expected_sha256": "20e00361c532f8386d3f160363cc76d12f104618b6c9fd270d2ec5c78a1a2fd4",
+    "gr1_match": true,
+    "gr1_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr1/generation_attempts.csv",
+    "gr1_read_only": true,
+    "gr1_sha256": "20e00361c532f8386d3f160363cc76d12f104618b6c9fd270d2ec5c78a1a2fd4",
+    "gr2_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr2/04_state/generation_attempts.csv",
+    "gr2_read_only": true,
+    "gr2_requests_zero": true,
+    "gr2_sha256": "80171df6cd1bc3654cc61d32088f7cc862a7d3e9027350ff00483e123124c04f"
+  }
+}

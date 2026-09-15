@@ -1,0 +1,223 @@
+{
+  "assertions": {
+    "bulk_auth_failure": true,
+    "credential_clean": true,
+    "frozen_hashes_match": true,
+    "holdout_clean": true,
+    "no_recovery_attempts": true,
+    "reports_complete": true,
+    "terminal_state_matches": true
+  },
+  "captured_at": "2026-08-27T08:08:00.168+00:00",
+  "credential_audit": {
+    "credential_like_hits": [],
+    "pass": true
+  },
+  "dataset_boundary": {
+    "active_annotation_sha256": {
+      "/home/yanbo/net_vlm_xunjian_dataset/01_annotations/batches.csv": "e166de60b418f42dceb0ccc77ba01e549cb1930f2ab08f4a62d5792329200a45",
+      "/home/yanbo/net_vlm_xunjian_dataset/01_annotations/labels.csv": "a12c08e587196350557749e1d24c138f089d8d96db27bcd458ff4c693de5ca54",
+      "/home/yanbo/net_vlm_xunjian_dataset/01_annotations/media.csv": "6fd2e03b38012df827a756dd299e1e99444f71bc1afd5181ac0f241096fdc518",
+      "/home/yanbo/net_vlm_xunjian_dataset/01_annotations/splits.csv": "967018452f8fe5334b438a6be554d3333533cd947fd52c0ccf66f594c8439c18"
+    },
+    "after_counts": {
+      "batch_count": 43,
+      "label_count": 4521,
+      "media_count": 4521,
+      "split_count": 2058
+    },
+    "before_counts": {
+      "batch_count": 41,
+      "label_count": 4201,
+      "media_count": 4201,
+      "split_count": 2058
+    },
+    "before_validator_artifact": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/00_preflight/dataset_validator_gr1_before.json",
+    "captured_at": "2026-08-27T08:02:25.214+00:00",
+    "count_delta": {
+      "batch_count": 2,
+      "label_count": 320,
+      "media_count": 320,
+      "split_count": 0
+    },
+    "interpretation": "The shared dataset changed outside P4D_GR1 while generation was running; no P4D token/reference was found in active annotation CSVs, so the observed delta is not attributed to P4D formal ingest.",
+    "p4d_formal_ingest_detected": false,
+    "p4d_reference_hits_by_active_csv": {
+      "/home/yanbo/net_vlm_xunjian_dataset/01_annotations/batches.csv": 0,
+      "/home/yanbo/net_vlm_xunjian_dataset/01_annotations/labels.csv": 0,
+      "/home/yanbo/net_vlm_xunjian_dataset/01_annotations/media.csv": 0,
+      "/home/yanbo/net_vlm_xunjian_dataset/01_annotations/splits.csv": 0
+    },
+    "p4d_reference_hits_total": 0,
+    "post_baseline_label_rows": 320,
+    "post_baseline_media_capture_batches": {
+      "P5_DEV_20260827": 200,
+      "P5_VALIDATION_20260827": 120
+    },
+    "post_baseline_media_rows": 320
+  },
+  "frozen_artifacts": {
+    "actual": {
+      "C3_prompt.txt": "685bb9724b1faa96298c1e6cf8139774d82afbc9d2f30cdd154fbe5cb776951e",
+      "group_manifest.csv": "11ab903056e0acbdb9ca5a507f33f3237f3b90f059f445f8df76c1dde174fbab",
+      "group_split_freeze.json": "b9d1df02541454b38ab296bd0033b0d327cca0ba720b95c7414ea6ec1bc05843",
+      "prompt_manifest.csv": "e75c48626f2eabade9cdbc48bb77072c5d470ddce60ec9a903f580d4990aeceb",
+      "prompt_pack.md": "8b791d2007b0866f83275082a7394a0d33a5d7bd0aef4ab9f19993fba857a250",
+      "prompt_pack_freeze.json": "385b7b9f0b6b675c3820e97fe1931bd0e19b9b5839f50a3fcae70fd1feec136b"
+    },
+    "all_match": true,
+    "checks": {
+      "C3_prompt.txt": true,
+      "group_manifest.csv": true,
+      "group_split_freeze.json": true,
+      "prompt_manifest.csv": true,
+      "prompt_pack.md": true,
+      "prompt_pack_freeze.json": true
+    },
+    "expected": {
+      "C3_prompt.txt": "685bb9724b1faa96298c1e6cf8139774d82afbc9d2f30cdd154fbe5cb776951e",
+      "group_manifest.csv": "11ab903056e0acbdb9ca5a507f33f3237f3b90f059f445f8df76c1dde174fbab",
+      "group_split_freeze.json": "b9d1df02541454b38ab296bd0033b0d327cca0ba720b95c7414ea6ec1bc05843",
+      "prompt_manifest.csv": "e75c48626f2eabade9cdbc48bb77072c5d470ddce60ec9a903f580d4990aeceb",
+      "prompt_pack.md": "8b791d2007b0866f83275082a7394a0d33a5d7bd0aef4ab9f19993fba857a250",
+      "prompt_pack_freeze.json": "385b7b9f0b6b675c3820e97fe1931bd0e19b9b5839f50a3fcae70fd1feec136b"
+    }
+  },
+  "holdout_audit": {
+    "HOLDOUT_CONSUMED": false,
+    "HOLDOUT_REQUESTS": 0,
+    "pass": true,
+    "request_log_holdout_tokens": []
+  },
+  "images": {
+    "cross_split_near_duplicate_count": 0,
+    "exact_duplicate_final_count": 0,
+    "exact_duplicate_raw_count": 0,
+    "final_dimensions": {
+      "1920x1080": 192
+    },
+    "final_successful_files": 192,
+    "latency_seconds_successful": {
+      "count": 192,
+      "max": 113.52491,
+      "mean": 47.47718898958335,
+      "p50": 44.2377945,
+      "p95": 71.171872
+    },
+    "mechanical_failures": [],
+    "native_dimensions": {
+      "1672x941": 192
+    },
+    "near_duplicate_pair_count": 0,
+    "raw_successful_files": 192
+  },
+  "ledger": {
+    "attempt_rows": 226,
+    "bulk_status": {
+      "auth_failure": true,
+      "automatic_retry": false,
+      "completed_attempts": 200,
+      "failures": 34,
+      "requests": 200,
+      "scheduled_slots": 414,
+      "status": "FAIL_AUTH",
+      "successes": 166
+    },
+    "failed_rows": 34,
+    "failure_http_status": {
+      "401": 2,
+      "429": 32
+    },
+    "phase_status": {
+      "BULK:FAILED": 34,
+      "BULK:SUCCESS": 166,
+      "RAMP1:SUCCESS": 5,
+      "RAMP2:SUCCESS": 20,
+      "SMOKE:SUCCESS": 1
+    },
+    "runner_state": {
+      "P4D_GR1_STATUS": "BLOCKED_PROVIDER_AUTH_RECURRENCE",
+      "bulk_completed_attempts": 200,
+      "bulk_failures": 34,
+      "bulk_planned_slots": 414,
+      "bulk_successes": 166,
+      "concurrency": 2,
+      "ramp1_failures": 0,
+      "ramp1_requests": 5,
+      "ramp1_successes": 5,
+      "ramp2_failures": 0,
+      "ramp2_requests": 20,
+      "ramp2_successes": 20,
+      "smoke_failures": 0,
+      "smoke_requests": 1,
+      "smoke_successes": 1,
+      "updated_at": "2026-08-27T07:44:31.684+00:00"
+    },
+    "successful_rows": 192,
+    "unique_attempted_prompt_ids": 226,
+    "unique_success_prompt_ids": 192
+  },
+  "production_tree_read_only_probe": {
+    "returncode": 0,
+    "status_short": [
+      " M .gitignore",
+      " M script/server.py",
+      " M script/server_usage.md",
+      " M test_server_gateway.py",
+      " M w_v/realtime_processing.py",
+      " M w_v/realtime_vlm.py",
+      " M w_v/yoloe_gate.py",
+      " D yolo/yoloe",
+      "?? agora_token/",
+      "?? analysis_handler.py",
+      "?? analysis_server.py",
+      "?? analysis_thread.py",
+      "?? config.py",
+      "?? mqtt_handler.py",
+      "?? mqtt_send_img.py",
+      "?? rtc_receiver.py",
+      "?? rtm_sender.py",
+      "?? script/java_backend_api.md",
+      "?? test_display_webrtc.py",
+      "?? test_py.py",
+      "?? test_rtmp.py",
+      "?? test_webrtc.py",
+      "?? test_webrtc_send.py",
+      "?? ultralytics/",
+      "?? video_frame.py",
+      "?? webrtc_receiver.py"
+    ],
+    "stderr": ""
+  },
+  "reports": {
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/reports/30_p4d_generation_resume.md": true,
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/reports/31_p4d_generation_qa.md": true,
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/reports/32_p4d_semantic_review_and_ingest.md": true,
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/reports/33_p4d_c3_new_lineage_execution.md": true,
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/reports/34_p4d_generation_resume_final.md": true
+  },
+  "status": "PASS",
+  "terminal_status": {
+    "C3_EXECUTED": false,
+    "FORMAL_INGEST_EXECUTED": false,
+    "HOLDOUT_CONSUMED": false,
+    "HOLDOUT_REQUESTS": 0,
+    "NEW_VAL_REQUESTS": 0,
+    "P4D_GR1_STATUS": "BLOCKED_PROVIDER_AUTH_RECURRENCE",
+    "P4D_IMAGES_ACCEPTED": 0,
+    "P4D_IMAGES_GENERATED": 192,
+    "P4D_OUTSTANDING_SLOTS": 248,
+    "P4D_PROMPT_PACK_READY": true,
+    "P4D_STATUS": "GENERATION_REQUIRED"
+  },
+  "validator_after": {
+    "batch_count": 43,
+    "error_count": 0,
+    "full_hash_check": true,
+    "label_count": 4521,
+    "media_count": 4521,
+    "split_count": 2058,
+    "status": "valid",
+    "warning_count": 387
+  }
+}

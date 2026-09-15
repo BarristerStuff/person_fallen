@@ -1,0 +1,22 @@
+{
+  "C3_authorized": false,
+  "HOLDOUT_authorized": false,
+  "VAL_authorized": false,
+  "authorization_present": false,
+  "authorized": false,
+  "captured_at": "2026-08-30T10:55:26.603+00:00",
+  "concurrency": 1,
+  "cost_unknown_accepted": false,
+  "formal_ingest_authorized": false,
+  "later_window_default_cap": 70,
+  "native_max_retries": 3,
+  "outer_retry": false,
+  "prompt_attachment_is_not_authorization": true,
+  "provider_requests": 0,
+  "quota_risk_accepted": false,
+  "source": "none_in_current_top_level_user_message",
+  "stage": "P4D_GR3Q4E_CAMPAIGN_AUTHORIZATION_GATE",
+  "starting_outstanding": 338,
+  "starting_success": 102,
+  "window_01_logical_cap": 68
+}

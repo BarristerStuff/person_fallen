@@ -1,0 +1,143 @@
+{
+  "command_redacted": [
+    "node",
+    "<gpt-image-2-skill>",
+    "--json",
+    "--json-events",
+    "--provider",
+    "codex",
+    "images",
+    "generate",
+    "--model",
+    "gpt-5.4",
+    "--prompt_sha256",
+    "a75917ee0b99d79614495110c80eda9f42c0b1f2781039beadb627a259d372ea",
+    "--out",
+    "/home/yanbo/下载/batches/batch-person-fallen-v2-p4d-hardneg-fullregen-r2-camera1p5m/generated_raw/PF_P4D_HN_SIT_G004_V03.png",
+    "--format",
+    "png",
+    "--size",
+    "1536x1024",
+    "--quality",
+    "medium"
+  ],
+  "done": null,
+  "done_reason": null,
+  "error_code": "",
+  "error_message_safe": "",
+  "eval_count": null,
+  "final_path": "/home/yanbo/下载/batches/batch-person-fallen-v2-p4d-hardneg-fullregen-r2-camera1p5m/final/PF_P4D_HN_SIT_G004_V03.png",
+  "final_sha256": "352eb78ed02788e59e264fdb495cb474d8ec9d29b877f5edc586785a602ea523",
+  "group_id": "PF_P4D_HN_SIT_G004",
+  "http_status": "200",
+  "latency_seconds": 32.87162923300275,
+  "mechanical_qa": {
+    "crop_box": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "final_height": 1080,
+    "final_width": 1920,
+    "native_aspect_ratio": 1.7768331562167907,
+    "native_height": 941,
+    "native_width": 1672,
+    "resize_method": "Pillow_LANCZOS"
+  },
+  "model": "gpt-5.4",
+  "native_retry_count": "UNKNOWN_IF_NOT_EXPOSED",
+  "ordinal": 17,
+  "outer_json": {
+    "auth": {
+      "account_id": "9a30f0ca-6b90-406b-a64f-41d384a5b880",
+      "auth_file": "/home/yanbo/.codex/auth.json",
+      "refreshed": false,
+      "source": "auth.json"
+    },
+    "command": "images generate",
+    "events": {
+      "count": 21
+    },
+    "history": {
+      "job_id": "job-1787827928239502987-49802"
+    },
+    "ok": true,
+    "output": {
+      "bytes": 1904837,
+      "files": [
+        {
+          "bytes": 1904837,
+          "index": 0,
+          "path": "/home/yanbo/下载/batches/batch-person-fallen-v2-p4d-hardneg-fullregen-r2-camera1p5m/generated_raw/.PF_P4D_HN_SIT_G004_V03.P4D_GR3E_BULK_0018_PF_P4D_HN_SIT_G004_V03.tmp.png"
+        }
+      ],
+      "path": "/home/yanbo/下载/batches/batch-person-fallen-v2-p4d-hardneg-fullregen-r2-camera1p5m/generated_raw/.PF_P4D_HN_SIT_G004_V03.P4D_GR3E_BULK_0018_PF_P4D_HN_SIT_G004_V03.tmp.png"
+    },
+    "provider": "codex",
+    "provider_selection": {
+      "edit_region_mode": "reference-hint",
+      "kind": "codex",
+      "reason": "explicit",
+      "requested": "codex",
+      "resolved": "codex",
+      "supports_n": false
+    },
+    "request": {
+      "background": "auto",
+      "delegated_image_model": "gpt-image-2",
+      "format": "png",
+      "model": "gpt-5.4",
+      "operation": "generate",
+      "provider": "codex",
+      "quality": "medium",
+      "ref_image_count": 0,
+      "size": "1536x1024"
+    },
+    "response": {
+      "image_count": 1,
+      "item_ids": [
+        "ig_0ba025711eb7a22f016a9016b7d9e087d0a959f5ffbd55757f"
+      ],
+      "model": "gpt-5.4",
+      "response_id": "resp_0ba025711eb7a22f016a9016b754cc87d082752ac15faf8222",
+      "revised_prompts": [
+        "Photorealistic 1920x1080 landscape frame, fixed safety-inspection camera mounted about 1.5 meters above the floor, looking down a narrow service hallway with utility doors, exposed pipes, conduit, and a matte concrete floor. Rear-oblique view at medium distance with natural perspective and realistic scale, enough surrounding context to judge body support. Moderate backlight balanced with usable foreground fill, ordinary photographic detail, restrained contrast, unedited inspection-camera capture. Visible subject: a middle-aged woman with a sturdy build wearing dark work trousers, a muted green jacket, and light neutral clothing, seated on the floor with legs extended forward, pelvis on the floor, back supported lightly by posture rather than lying flat. The subject is clearly visible, with a doorway and structural lines creating depth without blocking her. No text, no watermark, no labels, no overlays, no annotations, no cinematic or advertising styling."
+      ],
+      "service_tier": "default",
+      "status": "completed"
+    },
+    "retry": {
+      "count": 0,
+      "max_retries": 3
+    }
+  },
+  "phase": "BULK",
+  "planned_split": "NEW_DESIGN",
+  "prompt_id": "PF_P4D_HN_SIT_G004_V03",
+  "prompt_sha256": "a75917ee0b99d79614495110c80eda9f42c0b1f2781039beadb627a259d372ea",
+  "provider": "codex",
+  "provider_request_id": "unknown",
+  "raw_path": "/home/yanbo/下载/batches/batch-person-fallen-v2-p4d-hardneg-fullregen-r2-camera1p5m/generated_raw/PF_P4D_HN_SIT_G004_V03.png",
+  "raw_sha256": "0069ac64c7411d1b47569bcb31a03b09e97c65984505354d753e4ec2bd590b3a",
+  "request_finished_at": "2026-08-27T10:52:08.247+00:00",
+  "request_id": "P4D_GR3E_BULK_0018_PF_P4D_HN_SIT_G004_V03",
+  "request_payload_config": {
+    "format": "png",
+    "generation_backend": "image_generation",
+    "model": "gpt-5.4",
+    "native_size": "1536x1024",
+    "outer_retry": false,
+    "provider": "codex",
+    "quality": "medium",
+    "reference_images": []
+  },
+  "request_started_at": "2026-08-27T10:51:35.375+00:00",
+  "response": null,
+  "returncode": 0,
+  "seed": "unknown",
+  "status": "SUCCESS",
+  "stderr": "{\"data\":{\"endpoint\":\"https://chatgpt.com/backend-api/codex/responses\",\"provider\":\"codex\"},\"kind\":\"local\",\"seq\":1,\"type\":\"request.started\"}\n{\"data\":{\"endpoint\":\"https://chatgpt.com/backend-api/codex/responses\",\"message\":\"Codex image request sent.\",\"percent\":0,\"phase\":\"request_started\",\"provider\":\"codex\",\"status\":\"running\"},\"kind\":\"progress\",\"seq\":2,\"type\":\"request_started\"}\n{\"data\":{\"response\":{\"background\":false,\"completed_at\":null,\"created_at\":1787827895,\"error\":null,\"frequency_penalty\":0.0,\"id\":\"resp_0ba025711eb7a22f016a9016b754cc87d082752ac15faf8222\",\"incomplete_details\":null,\"instructions\":\"You are a concise assistant.\",\"max_output_tokens\":null,\"max_tool_calls\":null,\"metadata\":{},\"model\":\"gpt-5.4\",\"moderation\":null,\"object\":\"response\",\"output\":[],\"parallel_tool_calls\":true,\"presence_penalty\":0.0,\"previous_response_id\":null,\"prompt_cache_key\":\"f1f43de7-985e-4fe8-b113-9a69b19f0edc\",\"prompt_cache_retention\":\"24h\",\"reasoning\":{\"context\":\"current_turn\",\"effort\":\"none\",\"mode\":\"standard\",\"summary\":null},\"safety_identifier\":\"user-DSsdJhtq3XV9WYMyHQNDLFZw\",\"service_tier\":\"auto\",\"status\":\"in_progress\",\"store\":false,\"temperature\":1.0,\"text\":{\"format\":{\"type\":\"text\"},\"verbosity\":\"medium\"},\"tool_choice\":\"auto\",\"tool_usage\":{\"image_gen\":{\"input_tokens\":0,\"input_tokens_details\":{\"image_tokens\":0,\"text_tokens\":0},\"output_tokens\":0,\"output_tokens_details\":{\"image_tokens\":0,\"text_tokens\":0},\"total_tokens\":0},\"web_search\":{\"num_requests\":0}},\"tools\":[{\"background\":\"auto\",\"model\":\"gpt-image-2-codex\",\"moderation\":\"auto\",\"n\":1,\"output_compression\":100,\"output_format\":\"png\",\"quality\":\"auto\",\"size\":\"auto\",\"type\":\"image_generation\"}],\"top_logprobs\":0,\"top_p\":0.98,\"truncation\":\"disabled\",\"usage\":null,\"user\":null},\"sequence_number\":0,\"type\":\"response.created\"},\"kind\":\"sse\",\"seq\":3,\"type\":\"response.created\"}\n{\"data\":{\"message\":\"Codex accepted the image request.\",\"model\":\"gpt-5.4\",\"percent\":15,\"phase\":\"response_created\",\"provider\":\"codex\",\"response_id\":\"resp_0ba025711eb7a22f016a9016b754cc87d082752ac15faf8222\",\"status\":\"running\"},\"kind\":\"progress\",\"seq\":4,\"type\":\"response_created\"}\n{\"data\":{\"response\":{\"background\":false,\"completed_at\":null,\"created_at\":1787827895,\"error\":null,\"frequency_penalty\":0.0,\"id\":\"resp_0ba025711eb7a22f016a9016b754cc87d082752ac15faf8222\",\"incomplete_details\":null,\"instructions\":\"You are a concise assistant.\",\"max_output_tokens\":null,\"max_tool_calls\":null,\"metadata\":{},\"model\":\"gpt-5.4\",\"moderation\":null,\"object\":\"response\",\"output\":[],\"parallel_tool_calls\":true,\"presence_penalty\":0.0,\"previous_response_id\":null,\"prompt_cache_key\":\"f1f43de7-985e-4fe8-b113-9a69b19f0edc\",\"prompt_cache_retention\":\"24h\",\"reasoning\":{\"context\":\"current_turn\",\"effort\":\"none\",\"mode\":\"standard\",\"summary\":null},\"safety_identifier\":\"user-DSsdJhtq3XV9WYMyHQNDLFZw\",\"service_tier\":\"auto\",\"status\":\"in_progress\",\"store\":false,\"temperature\":1.0,\"text\":{\"format\":{\"type\":\"text\"},\"verbosity\":\"medium\"},\"tool_choice\":\"auto\",\"tool_usage\":{\"image_gen\":{\"input_tokens\":0,\"input_tokens_details\":{\"image_tokens\":0,\"text_tokens\":0},\"output_tokens\":0,\"output_tokens_details\":{\"image_tokens\":0,\"text_tokens\":0},\"total_tokens\":0},\"web_search\":{\"num_requests\":0}},\"tools\":[{\"background\":\"auto\",\"model\":\"gpt-image-2-codex\",\"moderation\":\"auto\",\"n\":1,\"output_compression\":100,\"output_format\":\"png\",\"quality\":\"auto\",\"size\":\"auto\",\"type\":\"image_generation\"}],\"top_logprobs\":0,\"top_p\":0.98,\"truncation\":\"disabled\",\"usage\":null,\"user\":null},\"sequence_number\":1,\"type\":\"response.in_progress\"},\"kind\":\"sse\",\"seq\":5,\"type\":\"response.in_progress\"}\n{\"data\":{\"item\":{\"id\":\"ig_0ba025711eb7a22f016a9016b7d9e087d0a959f5ffbd55757f\",\"status\":\"in_progress\",\"type\":\"image_generation_call\"},\"output_index\":0,\"sequence_number\":2,\"type\":\"response.output_item.added\"},\"kind\":\"sse\",\"seq\":6,\"type\":\"response.output_item.added\"}\n{\"data\":{\"item_id\":\"ig_0ba025711eb7a22f016a9016b7d9e087d0a959f5ffbd55757f\",\"output_index\":0,\"sequence_number\":3,\"type\":\"response.image_generation_call.in_progress\"},\"kind\":\"sse\",\"seq\":7,\"type\":\"response.image_generation_call.in_progress\"}\n{\"data\":{\"item_id\":\"ig_0ba025711eb7a22f016a9016b7d9e087d0a959f5ffbd55757f\",\"output_index\":0,\"sequence_number\":4,\"type\":\"response.image_generation_call.generating\"},\"kind\":\"sse\",\"seq\":8,\"type\":\"response.image_generation_call.generating\"}\n{\"data\":{\"item_id\":\"ig_0ba025711eb7a22f016a9016b7d9e087d0a959f5ffbd55757f\",\"output_index\":0,\"sequence_number\":5,\"type\":\"response.image_generation_call.completed\"},\"kind\":\"sse\",\"seq\":9,\"type\":\"response.image_generation_call.completed\"}\n{\"data\":{\"item\":{\"action\":\"generate\",\"background\":\"opaque\",\"id\":\"ig_0ba025711eb7a22f016a9016b7d9e087d0a959f5ffbd55757f\",\"output_format\":\"png\",\"quality\":\"low\",\"result\":{\"_omitted\":\"base64\",\"base64_chars\":2539784},\"revised_prompt\":\"Photorealistic 1920x1080 landscape frame, fixed safety-inspection camera mounted about 1.5 meters above the floor, looking down a narrow service hallway with utility doors, exposed pipes, conduit, and a matte concrete floor. Rear-oblique view at medium distance with natural perspective and realistic scale, enough surrounding context to judge body support. Moderate backlight balanced with usable foreground fill, ordinary photographic detail, restrained contrast, unedited inspection-camera capture. Visible subject: a middle-aged woman with a sturdy build wearing dark work trousers, a muted green jacket, and light neutral clothing, seated on the floor with legs extended forward, pelvis on the floor, back supported lightly by posture rather than lying flat. The subject is clearly visible, with a doorway and structural lines creating depth without blocking her. No text, no watermark, no labels, no overlays, no annotations, no cinematic or advertising styling.\",\"size\":\"1672x941\",\"status\":\"completed\",\"type\":\"image_generation_call\"},\"output_index\":0,\"sequence_number\":6,\"type\":\"response.output_item.done\"},\"kind\":\"sse\",\"seq\":10,\"type\":\"response.output_item.done\"}\n{\"data\":{\"image_count\":1,\"item_id\":\"ig_0ba025711eb7a22f016a9016b7d9e087d0a959f5ffbd55757f\",\"item_status\":\"completed\",\"item_type\":\"image_generation_call\",\"message\":\"Codex finished one output item.\",\"percent\":85,\"phase\":\"output_item_done\",\"provider\":\"codex\",\"status\":\"running\"},\"kind\":\"progress\",\"seq\":11,\"type\":\"output_item_done\"}\n{\"data\":{\"item\":{\"content\":[],\"id\":\"msg_0ba025711eb7a22f016a9016d3e8a487d09edd9b1074b46d99\",\"phase\":\"final_answer\",\"role\":\"assistant\",\"status\":\"in_progress\",\"type\":\"message\"},\"output_index\":1,\"sequence_number\":7,\"type\":\"response.output_item.added\"},\"kind\":\"sse\",\"seq\":12,\"type\":\"response.output_item.added\"}\n{\"data\":{\"content_index\":0,\"item_id\":\"msg_0ba025711eb7a22f016a9016d3e8a487d09edd9b1074b46d99\",\"output_index\":1,\"part\":{\"annotations\":[],\"logprobs\":[],\"text\":\"\",\"type\":\"output_text\"},\"sequence_number\":8,\"type\":\"response.content_part.added\"},\"kind\":\"sse\",\"seq\":13,\"type\":\"response.content_part.added\"}\n{\"data\":{\"content_index\":0,\"item_id\":\"msg_0ba025711eb7a22f016a9016d3e8a487d09edd9b1074b46d99\",\"logprobs\":[],\"output_index\":1,\"sequence_number\":9,\"text\":\"\",\"type\":\"response.output_text.done\"},\"kind\":\"sse\",\"seq\":14,\"type\":\"response.output_text.done\"}\n{\"data\":{\"content_index\":0,\"item_id\":\"msg_0ba025711eb7a22f016a9016d3e8a487d09edd9b1074b46d99\",\"output_index\":1,\"part\":{\"annotations\":[],\"logprobs\":[],\"text\":\"\",\"type\":\"output_text\"},\"sequence_number\":10,\"type\":\"response.content_part.done\"},\"kind\":\"sse\",\"seq\":15,\"type\":\"response.content_part.done\"}\n{\"data\":{\"item\":{\"content\":[{\"annotations\":[],\"logprobs\":[],\"text\":\"\",\"type\":\"output_text\"}],\"id\":\"msg_0ba025711eb7a22f016a9016d3e8a487d09edd9b1074b46d99\",\"phase\":\"final_answer\",\"role\":\"assistant\",\"status\":\"completed\",\"type\":\"message\"},\"output_index\":1,\"sequence_number\":11,\"type\":\"response.output_item.done\"},\"kind\":\"sse\",\"seq\":16,\"type\":\"response.output_item.done\"}\n{\"data\":{\"image_count\":1,\"item_id\":\"msg_0ba025711eb7a22f016a9016d3e8a487d09edd9b1074b46d99\",\"item_status\":\"completed\",\"item_type\":\"message\",\"message\":\"Codex finished one output item.\",\"percent\":85,\"phase\":\"output_item_done\",\"provider\":\"codex\",\"status\":\"running\"},\"kind\":\"progress\",\"seq\":17,\"type\":\"output_item_done\"}\n{\"data\":{\"response\":{\"background\":false,\"completed_at\":1787827923,\"created_at\":1787827895,\"error\":null,\"frequency_penalty\":0.0,\"id\":\"resp_0ba025711eb7a22f016a9016b754cc87d082752ac15faf8222\",\"incomplete_details\":null,\"instructions\":\"You are a concise assistant.\",\"max_output_tokens\":null,\"max_tool_calls\":null,\"metadata\":{},\"model\":\"gpt-5.4\",\"moderation\":null,\"object\":\"response\",\"output\":[],\"parallel_tool_calls\":true,\"presence_penalty\":0.0,\"previous_response_id\":null,\"prompt_cache_key\":\"f1f43de7-985e-4fe8-b113-9a69b19f0edc\",\"prompt_cache_retention\":\"24h\",\"reasoning\":{\"context\":\"current_turn\",\"effort\":\"none\",\"mode\":\"standard\",\"summary\":null},\"safety_identifier\":\"user-DSsdJhtq3XV9WYMyHQNDLFZw\",\"service_tier\":\"default\",\"status\":\"completed\",\"store\":false,\"temperature\":1.0,\"text\":{\"format\":{\"type\":\"text\"},\"verbosity\":\"medium\"},\"tool_choice\":\"auto\",\"tool_usage\":{\"image_gen\":{\"input_tokens\":189,\"input_tokens_details\":{\"image_tokens\":0,\"text_tokens\":189},\"output_tokens\":129,\"output_tokens_details\":{\"image_tokens\":129,\"text_tokens\":0},\"total_tokens\":318},\"web_search\":{\"num_requests\":0}},\"tools\":[{\"background\":\"auto\",\"model\":\"gpt-image-2-codex\",\"moderation\":\"auto\",\"n\":1,\"output_compression\":100,\"output_format\":\"png\",\"quality\":\"auto\",\"size\":\"auto\",\"type\":\"image_generation\"}],\"top_logprobs\":0,\"top_p\":0.98,\"truncation\":\"disabled\",\"usage\":{\"input_tokens\":2649,\"input_tokens_details\":{\"cache_write_tokens\":0,\"cached_tokens\":0},\"output_tokens\":202,\"output_tokens_details\":{\"reasoning_tokens\":0},\"total_tokens\":2851},\"user\":null},\"sequence_number\":12,\"type\":\"response.completed\"},\"kind\":\"sse\",\"seq\":18,\"type\":\"response.completed\"}\n{\"data\":{\"image_count\":1,\"message\":\"Codex completed the server-side image response.\",\"percent\":95,\"phase\":\"response_completed\",\"provider\":\"codex\",\"response_id\":\"resp_0ba025711eb7a22f016a9016b754cc87d082752ac15faf8222\",\"status\":\"running\"},\"kind\":\"progress\",\"seq\":19,\"type\":\"response_completed\"}\n{\"data\":{\"image_count\":1,\"message\":\"Codex response payload received.\",\"percent\":97,\"phase\":\"request_completed\",\"provider\":\"codex\",\"response_id\":\"resp_0ba025711eb7a22f016a9016b754cc87d082752ac15faf8222\",\"status\":\"running\"},\"kind\":\"progress\",\"seq\":20,\"type\":\"request_completed\"}\n{\"data\":{\"file_count\":1,\"message\":\"Generated image files saved.\",\"output\":{\"bytes\":1904837,\"files\":[{\"bytes\":1904837,\"index\":0,\"path\":\"/home/yanbo/下载/batches/batch-person-fallen-v2-p4d-hardneg-fullregen-r2-camera1p5m/generated_raw/.PF_P4D_HN_SIT_G004_V03.P4D_GR3E_BULK_0018_PF_P4D_HN_SIT_G004_V03.tmp.png\"}],\"path\":\"/home/yanbo/下载/batches/batch-person-fallen-v2-p4d-hardneg-fullregen-r2-camera1p5m/generated_raw/.PF_P4D_HN_SIT_G004_V03.P4D_GR3E_BULK_0018_PF_P4D_HN_SIT_G004_V03.tmp.png\"},\"percent\":100,\"phase\":\"output_saved\",\"provider\":\"codex\",\"status\":\"completed\"},\"kind\":\"progress\",\"seq\":21,\"type\":\"output_saved\"}\n",
+  "stdout": "{\n  \"auth\": {\n    \"account_id\": \"9a30f0ca-6b90-406b-a64f-41d384a5b880\",\n    \"auth_file\": \"/home/yanbo/.codex/auth.json\",\n    \"refreshed\": false,\n    \"source\": \"auth.json\"\n  },\n  \"command\": \"images generate\",\n  \"events\": {\n    \"count\": 21\n  },\n  \"history\": {\n    \"job_id\": \"job-1787827928239502987-49802\"\n  },\n  \"ok\": true,\n  \"output\": {\n    \"bytes\": 1904837,\n    \"files\": [\n      {\n        \"bytes\": 1904837,\n        \"index\": 0,\n        \"path\": \"/home/yanbo/下载/batches/batch-person-fallen-v2-p4d-hardneg-fullregen-r2-camera1p5m/generated_raw/.PF_P4D_HN_SIT_G004_V03.P4D_GR3E_BULK_0018_PF_P4D_HN_SIT_G004_V03.tmp.png\"\n      }\n    ],\n    \"path\": \"/home/yanbo/下载/batches/batch-person-fallen-v2-p4d-hardneg-fullregen-r2-camera1p5m/generated_raw/.PF_P4D_HN_SIT_G004_V03.P4D_GR3E_BULK_0018_PF_P4D_HN_SIT_G004_V03.tmp.png\"\n  },\n  \"provider\": \"codex\",\n  \"provider_selection\": {\n    \"edit_region_mode\": \"reference-hint\",\n    \"kind\": \"codex\",\n    \"reason\": \"explicit\",\n    \"requested\": \"codex\",\n    \"resolved\": \"codex\",\n    \"supports_n\": false\n  },\n  \"request\": {\n    \"background\": \"auto\",\n    \"delegated_image_model\": \"gpt-image-2\",\n    \"format\": \"png\",\n    \"model\": \"gpt-5.4\",\n    \"operation\": \"generate\",\n    \"provider\": \"codex\",\n    \"quality\": \"medium\",\n    \"ref_image_count\": 0,\n    \"size\": \"1536x1024\"\n  },\n  \"response\": {\n    \"image_count\": 1,\n    \"item_ids\": [\n      \"ig_0ba025711eb7a22f016a9016b7d9e087d0a959f5ffbd55757f\"\n    ],\n    \"model\": \"gpt-5.4\",\n    \"response_id\": \"resp_0ba025711eb7a22f016a9016b754cc87d082752ac15faf8222\",\n    \"revised_prompts\": [\n      \"Photorealistic 1920x1080 landscape frame, fixed safety-inspection camera mounted about 1.5 meters above the floor, looking down a narrow service hallway with utility doors, exposed pipes, conduit, and a matte concrete floor. Rear-oblique view at medium distance with natural perspective and realistic scale, enough surrounding context to judge body support. Moderate backlight balanced with usable foreground fill, ordinary photographic detail, restrained contrast, unedited inspection-camera capture. Visible subject: a middle-aged woman with a sturdy build wearing dark work trousers, a muted green jacket, and light neutral clothing, seated on the floor with legs extended forward, pelvis on the floor, back supported lightly by posture rather than lying flat. The subject is clearly visible, with a doorway and structural lines creating depth without blocking her. No text, no watermark, no labels, no overlays, no annotations, no cinematic or advertising styling.\"\n    ],\n    \"service_tier\": \"default\",\n    \"status\": \"completed\"\n  },\n  \"retry\": {\n    \"count\": 0,\n    \"max_retries\": 3\n  }\n}\n",
+  "thinking": null
+}

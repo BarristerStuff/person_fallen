@@ -1,0 +1,19 @@
+{
+  "adapter_version": "CODEX_SAFE_STAGED_CV_V1",
+  "failure_class": "FAILED_CONFIRMED_NO_IMAGE_UNCLASSIFIED",
+  "latency_seconds": 11.294292688369751,
+  "native_retry_count": 6,
+  "outer_json": {
+    "error": {
+      "code": "http_error",
+      "detail": "{\"error\":{\"type\":\"usage_limit_reached\",\"message\":\"The usage limit has been reached\",\"plan_type\":\"plus\",\"resets_at\":1788106493,\"eligible_promo\":null,\"resets_in_seconds\":12292}}",
+      "message": "HTTP 429"
+    },
+    "ok": false
+  },
+  "prompt_id": "PF_P4D_NEG_CHAIR_G003_V03",
+  "render_prompt_sha256": "abd506d75aaa88f6b969e9bed22c9d9f2b9e5da025df61b83f665e124a380a99",
+  "returncode": 1,
+  "state": "FAILED_CONFIRMED",
+  "stderr_redacted": "{\"data\":{\"endpoint\":\"https://chatgpt.com/backend-api/codex/responses\",\"provider\":\"codex\"},\"kind\":\"local\",\"seq\":1,\"type\":\"request.started\"}\n{\"data\":{\"endpoint\":\"https://chatgpt.com/backend-api/codex/responses\",\"message\":\"Codex image request sent.\",\"percent\":0,\"phase\":\"request_started\",\"provider\":\"codex\",\"status\":\"running\"},\"kind\":\"progress\",\"seq\":2,\"type\":\"request_started\"}\n{\"data\":{\"delay_seconds\":1,\"max_retries\":3,\"message\":\"Retry scheduled after transient failure.\",\"phase\":\"retry_scheduled\",\"provider\":\"codex\",\"reason\":\"HTTP 429\",\"retry_number\":1,\"status\":\"running\",\"status_code\":429},\"kind\":\"progress\",\"seq\":3,\"type\":\"retry_scheduled\"}\n{\"data\":{\"endpoint\":\"https://chatgpt.com/backend-api/codex/responses\",\"provider\":\"codex\"},\"kind\":\"local\",\"seq\":4,\"type\":\"request.started\"}\n{\"data\":{\"endpoint\":\"https://chatgpt.com/backend-api/codex/responses\",\"message\":\"Codex image request sent.\",\"percent\":0,\"phase\":\"request_started\",\"provider\":\"codex\",\"status\":\"running\"},\"kind\":\"progress\",\"seq\":5,\"type\":\"request_started\"}\n{\"data\":{\"delay_seconds\":2,\"max_retries\":3,\"message\":\"Retry scheduled after transient failure.\",\"phase\":\"retry_scheduled\",\"provider\":\"codex\",\"reason\":\"HTTP 429\",\"retry_number\":2,\"status\":\"running\",\"status_code\":429},\"kind\":\"progress\",\"seq\":6,\"type\":\"retry_scheduled\"}\n{\"data\":{\"endpoint\":\"https://chatgpt.com/backend-api/codex/responses\",\"provider\":\"codex\"},\"kind\":\"local\",\"seq\":7,\"type\":\"request.started\"}\n{\"data\":{\"endpoint\":\"https://chatgpt.com/backend-api/codex/responses\",\"message\":\"Codex image request sent.\",\"percent\":0,\"phase\":\"request_started\",\"provider\":\"codex\",\"status\":\"running\"},\"kind\":\"progress\",\"seq\":8,\"type\":\"request_started\"}\n{\"data\":{\"delay_seconds\":4,\"max_retries\":3,\"message\":\"Retry scheduled after transient failure.\",\"phase\":\"retry_scheduled\",\"provider\":\"codex\",\"reason\":\"HTTP 429\",\"retry_number\":3,\"status\":\"running\",\"status_code\":429},\"kind\":\"progress\",\"seq\":9,\"type\":\"retry_scheduled\"}\n{\"data\":{\"endpoint\":\"https://chatgpt.com/backend-api/codex/responses\",\"provider\":\"codex\"},\"kind\":\"local\",\"seq\":10,\"type\":\"request.started\"}\n{\"data\":{\"endpoint\":\"https://chatgpt.com/backend-api/codex/responses\",\"message\":\"Codex image request sent.\",\"percent\":0,\"phase\":\"request_started\",\"provider\":\"codex\",\"status\":\"running\"},\"kind\":\"progress\",\"seq\":11,\"type\":\"request_started\"}\n"
+}

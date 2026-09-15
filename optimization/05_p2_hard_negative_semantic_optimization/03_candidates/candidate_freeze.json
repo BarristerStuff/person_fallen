@@ -1,0 +1,88 @@
+{
+  "canary_summaries": {
+    "C1": {
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/05_p2_hard_negative_semantic_optimization/03_candidates/C1/canary/summary.json",
+      "protocol_gate_pass": true,
+      "request_count": 9,
+      "sha256": "82811ace0eb1259548dceb8664d103c17b0e5df2efd26b64bfa9c10f0d156567"
+    },
+    "C2": {
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/05_p2_hard_negative_semantic_optimization/03_candidates/C2/canary/summary.json",
+      "protocol_gate_pass": true,
+      "request_count": 9,
+      "sha256": "fddf4914f6867b9f805859756569149813a0a857cdc49b08f73da96a607ea3c5"
+    },
+    "C3": {
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/05_p2_hard_negative_semantic_optimization/03_candidates/C3/canary/summary.json",
+      "protocol_gate_pass": true,
+      "request_count": 9,
+      "sha256": "d5fc6302d91175776a41e158b3454a95c1220b30819273d909d971bb511f5042"
+    }
+  },
+  "candidate_ids": [
+    "C0",
+    "C1",
+    "C2",
+    "C3"
+  ],
+  "candidate_registry_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/05_p2_hard_negative_semantic_optimization/03_candidates/candidate_registry.csv",
+  "candidate_registry_sha256": "54e1973b396281a9cf3ee6111a7ffa84299476300ba817aced5d15b7cb3cc77b",
+  "candidates": {
+    "C0": {
+      "canary_status": "BASELINE_REUSE",
+      "candidate_eligible_for_screen": "false",
+      "design_forensic_categories_targeted": "baseline",
+      "design_rationale": "unchanged P1A/P1R prompt; no new model request on SCREEN",
+      "prompt_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/05_p2_hard_negative_semantic_optimization/03_candidates/C0_BASELINE/C0_prompt.txt",
+      "prompt_sha256": "b457a2442b8c4cca66866ecd7fcaaa765524740f1019e7811a05ec8e2c8335f4"
+    },
+    "C1": {
+      "canary_status": "PASS",
+      "candidate_eligible_for_screen": "true",
+      "design_forensic_categories_targeted": "sitting_on_floor;kneeling_or_half_kneeling;squatting_or_crouching;exercise_pushup_or_plank",
+      "design_rationale": "explicit torso/pelvis lying boundary versus stable low supported posture",
+      "prompt_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/05_p2_hard_negative_semantic_optimization/03_candidates/C1/C1_prompt.txt",
+      "prompt_sha256": "f3291b1f231316f3d424a2d4d4a1ac43fe0010205bef4528d62ca1771cb2d396"
+    },
+    "C2": {
+      "canary_status": "PASS",
+      "candidate_eligible_for_screen": "true",
+      "design_forensic_categories_targeted": "sitting_on_floor;kneeling_or_half_kneeling;squatting_or_crouching;exercise_pushup_or_plank",
+      "design_rationale": "ordered visible negative-posture check followed by genuine lying-state test",
+      "prompt_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/05_p2_hard_negative_semantic_optimization/03_candidates/C2/C2_prompt.txt",
+      "prompt_sha256": "c3827dcbf4eae4e39729f4b42c3f7398da8b835f4e047e79bf0d82edbec8c42d"
+    },
+    "C3": {
+      "canary_status": "PASS",
+      "candidate_eligible_for_screen": "true",
+      "design_forensic_categories_targeted": "sitting_on_floor;kneeling_or_half_kneeling;squatting_or_crouching;exercise_pushup_or_plank",
+      "design_rationale": "support-surface, torso/pelvis, and active-limb evidence slots without schema change",
+      "prompt_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/05_p2_hard_negative_semantic_optimization/03_candidates/C3/C3_prompt.txt",
+      "prompt_sha256": "685bb9724b1faa96298c1e6cf8139774d82afbc9d2f30cdd154fbe5cb776951e"
+    }
+  },
+  "created_at_utc": "2026-08-26T15:11:15.161239+00:00",
+  "design_forensic_source": "DESIGN_ONLY",
+  "design_manifest_sha256": "f221e760bd1e6a86c648a60750db7d6f06119c7b872da894cf121e17ed6a79d1",
+  "holdout_requests_before_freeze": 0,
+  "materializer_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/tools/p2_materialize_results.py",
+  "materializer_sha256": "d2485bc89345df7b03bfae42e7cbea206cc1136271381a6cbf3da9d29092482b",
+  "model": "qwen3.5:4b",
+  "model_digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+  "ollama_version": "0.23.2",
+  "p2_internal_split_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/05_p2_hard_negative_semantic_optimization/01_internal_split/p2_internal_split.json",
+  "p2_internal_split_sha256": "a9edfb22fc0170ce774dfe5e6229bf776c8c272868b55c303e74ae629b153892",
+  "parser": "response_only",
+  "preprocess": "letterbox_448x336_jpeg_q70",
+  "protocol_canary_manifest_sha256": "1efed8e5d46945ae39e6615586c7c1daa853fdcb35bdbe63684b5c1b5fa8adf8",
+  "request_config_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/05_p2_hard_negative_semantic_optimization/03_candidates/p2_request_config.json",
+  "request_config_sha256": "8f3e64f30beeadb0a31e2ac909fd0c57562a1a06291d0a93360ce788a4b1f10d",
+  "runner_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/tools/p2_inference_runner.py",
+  "runner_sha256": "72a3ffdd044cbea46025e0fe90f9c7e62350af194e0ccaa89f267d1cf0f0a568",
+  "screen_artifact_files_before_freeze": 0,
+  "screen_blind_before_candidate_freeze": true,
+  "screen_manifest_sha256": "ccb8c9df51371dbfd2a8e34201ccd42b0a825eea4444ba45a3aaa6945094aab5",
+  "stage": "P2_HARD_NEGATIVE_SEMANTIC_OPTIMIZATION",
+  "thinking_fallback": false,
+  "val_error_cases_used_for_prompt_design": false
+}

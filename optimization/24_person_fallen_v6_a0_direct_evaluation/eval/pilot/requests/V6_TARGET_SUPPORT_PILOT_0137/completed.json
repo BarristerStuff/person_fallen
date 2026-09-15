@@ -1,0 +1,61 @@
+{
+  "state": "completed",
+  "phase": "pilot",
+  "request_id": "V6_TARGET_SUPPORT_PILOT_0137",
+  "item_id": "V2_ORIGINAL::IMG_003808",
+  "operational_id": "PFV6_PILOT_0137",
+  "taxonomy": "crawling_without_explicit_maintenance",
+  "group_id": "pf_v2_aigc_h11-crawling-under-equipment-inspection",
+  "evaluation_stratum": "auxiliary_attention",
+  "source_image_sha256": "209808e39feff002661292876bd8f31539dcefb64653374cb63e4ede8437cf9e",
+  "full_view_sha256": "afb08e86a744918f532d8b35e6e315c77c8ed6c57aa9c4970ba4d38edc5710dd",
+  "crop_view_sha256": "000ba6d5afec1a5e02f78a54c31ec385e646428933d9317ac422fa3724d6d79d",
+  "payload_sha256": "253682d7366884834815f3a42bb5b5b67c30b64c71030b87c98e5ca8fdfccc46",
+  "claimed_timestamp": "2026-09-14T10:31:21.180161+00:00",
+  "http_status": 200,
+  "latency_seconds": 5.716680696001276,
+  "completion_unknown": false,
+  "transport_error": null,
+  "raw_response_sha256": "59dd5dd337331840975b8e4efb1788a6d418def132a604f9e65769faca235986",
+  "raw_response_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/24_person_fallen_v6_a0_direct_evaluation/eval/pilot/requests/V6_TARGET_SUPPORT_PILOT_0137/response.raw",
+  "received_timestamp": "2026-09-14T10:31:26.899470+00:00",
+  "strict_json_ok": true,
+  "source_binding_ok": true,
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 202,
+  "parsed": {
+    "scene_coverage": "complete",
+    "people": [
+      {
+        "person_id": 1,
+        "bbox_1000": [
+          380,
+          470,
+          680,
+          820
+        ],
+        "person_visible": "yes",
+        "pose": "kneeling",
+        "torso_orientation": "horizontal",
+        "torso_ground_contact": "partial",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "body_support_configuration": "hands_knees_supported",
+        "explicit_work_evidence": "no",
+        "visual_quality": "clear",
+        "evidence": "Person in white lab coat is on hands and knees on the floor, leaning forward with head near the wall."
+      }
+    ]
+  },
+  "person_decisions": [
+    {
+      "person_id": 1,
+      "decision": "NO_ALERT_NORMAL_POSE",
+      "reason": "CONSISTENT_KNEELING_SUPPORT"
+    }
+  ],
+  "image_decision": "NO_ALERT_NORMAL_POSE",
+  "image_reason": "ALL_PEOPLE_NORMAL",
+  "completed_timestamp": "2026-09-14T10:31:26.900206+00:00"
+}

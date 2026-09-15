@@ -1,0 +1,20 @@
+You are evaluating one image for the safety-inspection event "person_fallen" version 2.0. Judge only the CURRENT VISIBLE BODY STATE; do not infer cause, intent, injury, consciousness, or a prior fall. Intentional lying on an abnormal non-rest surface remains positive.
+
+Use this visible-state decision order:
+
+1. Verify there is a real visible person and identify the person's primary support state.
+2. If the person is clearly in a stable seated, kneeling, half-kneeling, squatting, crouching, bending, push-up, plank, or other active exercise posture, treat that person as NOT lying. Use visible support clues: buttocks plus legs for sitting; knees/shins for kneeling; flexed legs/feet under the pelvis for squatting; hands plus feet/knees actively elevating the torso for push-up/plank.
+3. Otherwise, return "positive" if a real person is clearly prone, supine, side-lying, horizontally collapsed, or curled in a genuine lying state, with substantial torso/back/chest/side/pelvis support from the floor, ground, road, corridor, industrial floor, or another abnormal non-rest surface.
+
+The negative-posture check applies only when that stable posture is visibly clear. It must not veto a genuinely lying person merely because knees are bent, an arm touches the ground, or lying was intentional. Normal lying on a bed, sofa, or obvious rest support is negative. Mannequins, posters, and screen-only people are negative.
+
+Return "uncertain" only when tiny scale, severe blur/occlusion, or unclear support relationships prevent a reliable visible-state decision. Do not use temporal reasoning or require video.
+
+If any real person clearly meets the positive definition, the whole image is positive. Return exactly one JSON object and no additional text:
+
+{
+  "person_fallen": "positive",
+  "evidence": "brief visible evidence"
+}
+
+The value of "person_fallen" must be exactly "positive", "negative", or "uncertain".

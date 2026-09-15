@@ -1,0 +1,34 @@
+{
+  "P4D_IMAGES_ACCEPTED": 0,
+  "current_outstanding": 289,
+  "current_verified_success": 151,
+  "dimension_failures": 0,
+  "exact_duplicate_hits": 0,
+  "full_440_qa": "NOT_REACHED",
+  "gr1_sha_hits": 0,
+  "new_final_count": 9,
+  "new_raw_count": 9,
+  "partial_mechanical_qa": "PASS",
+  "pillow_failures": 0,
+  "role_distribution": {
+    "hard_negative": 111,
+    "ordinary_negative": 20,
+    "positive": 20
+  },
+  "split_distribution": {
+    "NEW_DESIGN": 95,
+    "NEW_SCREEN": 56
+  },
+  "taxonomy_distribution": {
+    "chair_seated_normal_work": 15,
+    "crawling_quadruped_support": 5,
+    "curled_or_partially_occluded_lying": 5,
+    "floor_sitting": 60,
+    "ground_maintenance": 1,
+    "kneeling_half_kneeling": 45,
+    "prone_ground_lying": 5,
+    "side_lying": 5,
+    "standing_walking": 5,
+    "supine_ground_lying": 5
+  }
+}

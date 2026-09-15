@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "purpose": "isolated read-only reuse for person crop generation",
+  "source_event_workspace_modified": false,
+  "source_path": "/home/yanbo/net_vlm_person_smoking_optimization/00_assets/person_detector/yolo11n.pt",
+  "source_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+  "copied_revision_path": "assets/person_detector/yolo11n.pt",
+  "copied_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+  "file_size_bytes": 5613764,
+  "runtime_python": "/home/yanbo/net_vlm_person_smoking_optimization/.venv_person_detector/bin/python",
+  "ultralytics_version": "8.4.104",
+  "torch_version": "2.13.0+cu130",
+  "device": "cpu"
+}

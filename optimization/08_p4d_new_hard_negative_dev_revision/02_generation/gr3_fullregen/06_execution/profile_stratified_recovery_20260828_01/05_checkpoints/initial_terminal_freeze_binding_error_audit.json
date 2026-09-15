@@ -1,0 +1,22 @@
+{
+  "captured_at": "2026-08-28T06:42:23.045+00:00",
+  "dataset_mutation_by_reseal": false,
+  "images_generated_by_reseal": 0,
+  "initial_bytes_preserved_at": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/profile_stratified_recovery_20260828_01/freeze/p4d_gr3q2e_terminal_freeze_initial_binding_error.json",
+  "initial_sidecar_preserved_at": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/profile_stratified_recovery_20260828_01/freeze/p4d_gr3q2e_terminal_freeze_initial_binding_error.original_sidecar.txt",
+  "kind": "INITIAL_TERMINAL_FREEZE_BINDING_ERROR",
+  "mismatch_count": 1,
+  "mismatches_before_reseal": [
+    {
+      "actual": "f41f0a0c70afc48957df60e60759d65c075f266a9b082cf639be53e965819ce7",
+      "expected": "565914925fa556b53096c7267188eeb9ae0cc1b8667f54716c5def08980c2612",
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/profile_stratified_recovery_20260828_01/03_ledger/p4d_gr3q2e_execution.sqlite3"
+    }
+  ],
+  "original_sidecar_value": "f68257b67d0c4685f394fc1a77a5dff74a3c100b6c2f442a91075f8e850355e5",
+  "original_terminal_freeze_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/profile_stratified_recovery_20260828_01/freeze/p4d_gr3q2e_terminal_freeze.json",
+  "original_terminal_freeze_sha256": "f68257b67d0c4685f394fc1a77a5dff74a3c100b6c2f442a91075f8e850355e5",
+  "provider_requests_added_by_reseal": 0,
+  "reason": "terminal freeze hashed the SQLite main file while the runner connection was still open; normal SQLite close/checkpoint changed stable database bytes afterward",
+  "stage": "P4D_GR3Q2E_PROFILE_STRATIFIED_RECOVERY"
+}

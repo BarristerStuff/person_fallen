@@ -1,0 +1,19 @@
+{
+  "state": "received",
+  "phase": "remaining47_diagnostic",
+  "request_id": "V5_B0_REMAINING47_DIAGNOSTIC_0012",
+  "item_id": "V2_ORIGINAL::IMG_003807",
+  "payload_sha256": "46e07826a6d43a184e8e3fc9d42ac9c07d7bc23f977755de44e7951f1982f2c2",
+  "full_view_sha256": "75731178c6ec3a9c3f79f2b20aaf26b49d9d9ebab48b678a2c1116e82b0c9eb8",
+  "crop_view_sha256": "fdeac3c50de97c9cf58c83e230f690f6a87f8550eade883c91832986cc102bf9",
+  "prompt_sha256": "757fb445efa3f05327947a4c32115e3735823c81d14177199bbf8a6381d3300a",
+  "schema_sha256": "1ccf5a08cd1d6287b33f5d04b0f06101ae75666919c1a9f160ac0c5c335d7817",
+  "policy_sha256": "b2126bf86378fa6d0bcbc67861fa794b320affb1de90dc445f5838223cae68b9",
+  "claimed_timestamp": "2026-09-14T08:12:10.782137+00:00",
+  "http_status": 200,
+  "completion_unknown": false,
+  "transport_error": null,
+  "latency_seconds": 18.1790293189988,
+  "raw_response_sha256": "429f3dad0d3c5c9d1057360a7e589cf59dc412bb02dae037949b111a022f29ae",
+  "received_timestamp": "2026-09-14T08:12:28.963735+00:00"
+}

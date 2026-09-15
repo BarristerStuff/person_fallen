@@ -1,0 +1,61 @@
+{
+  "state": "completed",
+  "phase": "pilot",
+  "request_id": "V6_TARGET_SUPPORT_PILOT_0138",
+  "item_id": "V2_ORIGINAL::IMG_003809",
+  "operational_id": "PFV6_PILOT_0138",
+  "taxonomy": "crawling_without_explicit_maintenance",
+  "group_id": "pf_v2_aigc_h11-crawling-under-equipment-inspection",
+  "evaluation_stratum": "auxiliary_attention",
+  "source_image_sha256": "06415ce063427d056e000e1530439daae92a6f45181f587e1672d2585c20ad55",
+  "full_view_sha256": "de5a116b3cff3e22285dc26aa30b1d212e8528f82edcbee8423ce725f71259ac",
+  "crop_view_sha256": "2316b26ceba4a281e7235207eabab9b17e487956cdc636999f0d1048a00334ae",
+  "payload_sha256": "1ba556031b74353d9f259e2e72cf2167c5d4a2b183a91316b20494983b2c9830",
+  "claimed_timestamp": "2026-09-14T10:31:26.915098+00:00",
+  "http_status": 200,
+  "latency_seconds": 5.6233716839924455,
+  "completion_unknown": false,
+  "transport_error": null,
+  "raw_response_sha256": "995cc5cc780452389c44e35d5ee41b450a121777d76cf43c5987bb02b393da17",
+  "raw_response_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/24_person_fallen_v6_a0_direct_evaluation/eval/pilot/requests/V6_TARGET_SUPPORT_PILOT_0138/response.raw",
+  "received_timestamp": "2026-09-14T10:31:32.541548+00:00",
+  "strict_json_ok": true,
+  "source_binding_ok": true,
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 196,
+  "parsed": {
+    "scene_coverage": "complete",
+    "people": [
+      {
+        "person_id": 1,
+        "bbox_1000": [
+          438,
+          308,
+          658,
+          492
+        ],
+        "person_visible": "yes",
+        "pose": "kneeling",
+        "torso_orientation": "horizontal",
+        "torso_ground_contact": "partial",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "body_support_configuration": "hands_knees_supported",
+        "explicit_work_evidence": "no",
+        "visual_quality": "clear",
+        "evidence": "Person is on hands and knees on the floor, head near the car tire."
+      }
+    ]
+  },
+  "person_decisions": [
+    {
+      "person_id": 1,
+      "decision": "NO_ALERT_NORMAL_POSE",
+      "reason": "CONSISTENT_KNEELING_SUPPORT"
+    }
+  ],
+  "image_decision": "NO_ALERT_NORMAL_POSE",
+  "image_reason": "ALL_PEOPLE_NORMAL",
+  "completed_timestamp": "2026-09-14T10:31:32.542319+00:00"
+}

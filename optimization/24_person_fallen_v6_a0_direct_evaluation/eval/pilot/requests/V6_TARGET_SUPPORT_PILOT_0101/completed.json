@@ -1,0 +1,61 @@
+{
+  "state": "completed",
+  "phase": "pilot",
+  "request_id": "V6_TARGET_SUPPORT_PILOT_0101",
+  "item_id": "V2_ORIGINAL::IMG_003986",
+  "operational_id": "PFV6_PILOT_0101",
+  "taxonomy": "supine_ground_lying",
+  "group_id": "pf_v2_aigc_p01-supine-on-floor",
+  "evaluation_stratum": "ground_lying",
+  "source_image_sha256": "5c47f738bf7bbfe499cb85f5b8ab7601c3229c4405845c536d6e814c64dc6c79",
+  "full_view_sha256": "7a7b24df1d8c32145ff581a086280bfc995b5cdab2fb5092cfb646c06d277271",
+  "crop_view_sha256": "a66b73b120aa76e5c2f7f29149e4f4f4858c13d9cb5133ef76402cce7a97d0cc",
+  "payload_sha256": "522fb2fc926f6ce053e1ad2a43ed0ffbdc137aa9bece10b110f90e09c6aa9c35",
+  "claimed_timestamp": "2026-09-14T10:27:42.683472+00:00",
+  "http_status": 200,
+  "latency_seconds": 4.305177361005917,
+  "completion_unknown": false,
+  "transport_error": null,
+  "raw_response_sha256": "b0e46293b5313a3ed91ca27646ed4f109f608f1342fdddc60b2d278718e887aa",
+  "raw_response_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/24_person_fallen_v6_a0_direct_evaluation/eval/pilot/requests/V6_TARGET_SUPPORT_PILOT_0101/response.raw",
+  "received_timestamp": "2026-09-14T10:27:46.992158+00:00",
+  "strict_json_ok": true,
+  "source_binding_ok": true,
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 196,
+  "parsed": {
+    "scene_coverage": "complete",
+    "people": [
+      {
+        "person_id": 1,
+        "bbox_1000": [
+          358,
+          546,
+          751,
+          875
+        ],
+        "person_visible": "yes",
+        "pose": "supine",
+        "torso_orientation": "horizontal",
+        "torso_ground_contact": "broad",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "body_support_configuration": "torso_ground_supported",
+        "explicit_work_evidence": "no",
+        "visual_quality": "clear",
+        "evidence": "Person lying flat on back on floor with arms extended to sides and legs straight."
+      }
+    ]
+  },
+  "person_decisions": [
+    {
+      "person_id": 1,
+      "decision": "ALERT_GROUND_LYING",
+      "reason": "CLEAR_TORSO_GROUND_SUPPORTED_LYING"
+    }
+  ],
+  "image_decision": "ALERT_GROUND_LYING",
+  "image_reason": "AT_LEAST_ONE_TORSO_GROUND_SUPPORTED_PERSON",
+  "completed_timestamp": "2026-09-14T10:27:46.993019+00:00"
+}

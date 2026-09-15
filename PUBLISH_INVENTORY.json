@@ -1,0 +1,65 @@
+{
+  "archive_type": "person_fallen_event_archive",
+  "generated_at": "2026-09-15",
+  "destination": "BarristerStuff/person_fallen",
+  "destination_visibility_verified": "public",
+  "source_roots": [
+    {
+      "label": "optimization_workspace",
+      "relative_path": "optimization",
+      "source_basename": "net_vlm_person_fallen_v2_optimization",
+      "files": 13971,
+      "bytes": 1369279985
+    },
+    {
+      "label": "event_handoff",
+      "relative_path": "docs/person_fallen",
+      "source_basename": "person_fallen",
+      "files": 1,
+      "bytes": 9577
+    }
+  ],
+  "staged_files_excluding_inventory": 13975,
+  "staged_bytes_excluding_inventory": 1369292408,
+  "staged_files_including_inventory": 13976,
+  "staged_bytes_including_inventory": 1371855694,
+  "source_file_byte_hash_matches": 13972,
+  "excluded_runtime_artifacts": [
+    "all __pycache__ directories",
+    "*.pyc",
+    "*.pyo",
+    "*.pyd",
+    "*.sqlite3-wal",
+    "*.sqlite3-shm",
+    "*.sqlite-journal"
+  ],
+  "not_copied": [
+    "production Git worktree /home/yanbo/net_vlm_yanboversion/vlm",
+    "unrelated events",
+    "GitHub credential supplied in chat"
+  ],
+  "security_scan": {
+    "github_pat": {
+      "matches": 0,
+      "files": 0
+    },
+    "classic_github_token": {
+      "matches": 0,
+      "files": 0
+    },
+    "private_key": {
+      "matches": 0,
+      "files": 0
+    },
+    "aws_access_key": {
+      "matches": 0,
+      "files": 0
+    },
+    "unredacted_bearer": {
+      "matches": 0,
+      "files": 0
+    }
+  },
+  "manifest_path": "PUBLISH_MANIFEST.sha256",
+  "manifest_excludes_itself_and_inventory": true
+}

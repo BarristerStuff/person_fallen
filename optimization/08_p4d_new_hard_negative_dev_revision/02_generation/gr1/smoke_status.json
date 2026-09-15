@@ -1,0 +1,53 @@
+{
+  "GENERATION_SMOKE_GATE": "PASS",
+  "automatic_retry": false,
+  "failures": 0,
+  "model": "gpt-5.4",
+  "native_final_check": true,
+  "provider": "codex",
+  "provider_revision_id": "P4D_GR1_PR_CODEX_20260827_01",
+  "requests": 1,
+  "results": [
+    {
+      "prompt_id": "PF_P4D_HN_SIT_G001_V01",
+      "row": {
+        "attempt": "2",
+        "attempt_id": "P4D_GR1_SMOKE_0001_PF_P4D_HN_SIT_G001_V01",
+        "crop_box": "[0,0,1672,940]",
+        "error_code": "",
+        "error_message_safe": "",
+        "final_height": "1080",
+        "final_output_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/final/PF_P4D_HN_SIT_G001_V01.png",
+        "final_sha256": "1bc6740f59bfe71b07f30b424adfd6852e3c4fbb0851f45e0a757a22246fcbab",
+        "final_width": "1920",
+        "group_id": "PF_P4D_HN_SIT_G001",
+        "http_status": "200",
+        "latency_seconds": "43.996102",
+        "model": "gpt-5.4",
+        "model_version": "gpt-5.4",
+        "native_height": "941",
+        "native_size": "1536x1024",
+        "native_width": "1672",
+        "phase": "SMOKE",
+        "planned_split": "NEW_DESIGN",
+        "prompt_id": "PF_P4D_HN_SIT_G001_V01",
+        "provider": "codex",
+        "provider_attempt": "1",
+        "provider_request_id": "unknown",
+        "provider_revision_id": "P4D_GR1_PR_CODEX_20260827_01",
+        "quality": "medium",
+        "raw_output_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/generated_raw/PF_P4D_HN_SIT_G001_V01.png",
+        "raw_sha256": "372881377e7889c9675edab65395f0f5e890eafe426900f8bf6fde76ddc9bf14",
+        "request_finished_at": "2026-08-27T06:04:53.456+00:00",
+        "request_started_at": "2026-08-27T06:04:09.460+00:00",
+        "seed": "unknown",
+        "status": "SUCCESS"
+      },
+      "status": "ALREADY_SUCCESS"
+    }
+  ],
+  "stage": "SMOKE",
+  "status": "PASS",
+  "successes": 1,
+  "updated_at": "2026-08-27T06:04:59.249+00:00"
+}

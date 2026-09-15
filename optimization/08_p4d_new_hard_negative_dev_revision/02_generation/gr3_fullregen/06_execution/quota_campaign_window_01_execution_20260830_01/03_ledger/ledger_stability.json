@@ -1,0 +1,15 @@
+{
+  "captured_at": "2026-08-30T10:55:11.608+00:00",
+  "csv_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_execution_20260830_01/03_ledger/window_01_ledger.csv",
+  "csv_sha256": "404bcad2dd6a7ec359ec9847a6dde531ffdc5d4f9cad33d4d307ab0474ac5b2d",
+  "event_count": 1,
+  "rows": 68,
+  "shm_exists_after_close": false,
+  "sqlite_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_01_execution_20260830_01/03_ledger/window_01_execution.sqlite3",
+  "sqlite_sha256": "8d720f285f0a634146795635ab04e6951881cb3d2a8677d5abd5de5d923b8b25",
+  "stable_close": true,
+  "state_counts": {
+    "NOT_STARTED": 68
+  },
+  "wal_exists_after_close": false
+}

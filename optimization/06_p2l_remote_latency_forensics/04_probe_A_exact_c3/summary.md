@@ -1,0 +1,84 @@
+# P2L_A summary
+
+```json
+{
+  "stage": "P2L_REMOTE_LATENCY_FORENSICS",
+  "probe": "P2L_A",
+  "run_id": "P2L_A_20260827_103803",
+  "manifest_sha256": "102bb4aeb9db7c8861789499d96c71f52b1af57d37bfa4eb48748ce37978acc1",
+  "prompt_sha256": "685bb9724b1faa96298c1e6cf8139774d82afbc9d2f30cdd154fbe5cb776951e",
+  "config_sha256": "8f3e64f30beeadb0a31e2ac909fd0c57562a1a06291d0a93360ce788a4b1f10d",
+  "model": "qwen3.5:4b",
+  "model_digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+  "endpoint": "http://192.168.20.62:11434",
+  "keep_alive": null,
+  "planned_requests": 24,
+  "ledger_states": {
+    "COMPLETED": 24
+  },
+  "holdout_requests": 0,
+  "new_val_requests": 0,
+  "protocol": {
+    "request_count": 24,
+    "http_success_rate": 1.0,
+    "response_nonempty_rate": 1.0,
+    "json_parse_success_rate": 1.0,
+    "schema_success_rate": 1.0,
+    "canonical_prediction_success_rate": 1.0
+  },
+  "latency_seconds": {
+    "client": {
+      "count": 24,
+      "mean": 1.7012608333333334,
+      "median": 1.418261,
+      "p50": 1.418261,
+      "p90": 1.4714084,
+      "p95": 1.5182995,
+      "max": 8.285873
+    },
+    "total": {
+      "count": 24,
+      "mean": 1.6935315640833333,
+      "median": 1.4114151965000001,
+      "p50": 1.4114151965000001,
+      "p90": 1.4622147961,
+      "p95": 1.5111172043999999,
+      "max": 8.280188171
+    },
+    "load": {
+      "count": 24,
+      "mean": 0.7393042869583334,
+      "median": 0.4731325535,
+      "p50": 0.4731325535,
+      "p90": 0.4992110295,
+      "p95": 0.50324730195,
+      "max": 6.985410339
+    },
+    "prompt_eval": {
+      "count": 24,
+      "mean": 0.043897200708333334,
+      "median": 0.036959622,
+      "p50": 0.036959622,
+      "p90": 0.0550335145,
+      "p95": 0.056823246699999996,
+      "max": 0.135522362
+    },
+    "eval": {
+      "count": 24,
+      "mean": 0.43950530433333335,
+      "median": 0.4406488645,
+      "p50": 0.4406488645,
+      "p90": 0.4437470185,
+      "p95": 0.45021365425,
+      "max": 0.454358963
+    }
+  },
+  "high_load_threshold_seconds": 5.0,
+  "high_load_count": 1,
+  "execution_status": "COMPLETE",
+  "raw_responses_sha256": "654c84b75ade5801e8eeb7d3980f799f23d5f1a2b34cb41ce5bdcf26f107d788",
+  "request_log_sha256": "df48820d2bd53341a1ebbcb1ba3c4e758840f1a9349f8a919b7f5636f925be51",
+  "predictions_sha256": "33eb9e10fae21eae0142c51b1f129ffee6f07dc28d646601380c265f2fec53ce",
+  "protocol_failures_sha256": "95b51ae9589dac2343bef743ec46f8ca50097d2b3c7ab190113b2b509edf0f1f"
+}
+```

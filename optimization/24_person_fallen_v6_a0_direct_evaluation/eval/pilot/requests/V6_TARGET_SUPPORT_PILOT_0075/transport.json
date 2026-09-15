@@ -1,0 +1,22 @@
+{
+  "state": "claimed",
+  "phase": "pilot",
+  "request_id": "V6_TARGET_SUPPORT_PILOT_0075",
+  "item_id": "P4D_PLAN::PF_P4D_POS_SIDE_G001_V02",
+  "operational_id": "PFV6_PILOT_0075",
+  "taxonomy": "side_lying",
+  "group_id": "PF_P4D_POS_SIDE_G001",
+  "evaluation_stratum": "ground_lying",
+  "source_image_sha256": "d2b75a57f860260b487d5f15a945592ab80636aac0e15a7ab049acfe14fbefbc",
+  "full_view_sha256": "bdafd4e5b730e7a22b93f905e5da9e37808b201741224d06f84d968e29b81f82",
+  "crop_view_sha256": "71326fd7101242569097fcf7610b229881c0e919c3d2423dfd2c55d6ef4505f5",
+  "payload_sha256": "8de11e1b17cad5101d9c63dba503dda1e23a21954a842f699d5a89a3d50a7541",
+  "claimed_timestamp": "2026-09-14T10:25:15.282093+00:00",
+  "http_status": 200,
+  "latency_seconds": 5.497732962990995,
+  "completion_unknown": false,
+  "transport_error": null,
+  "raw_response_sha256": "18493d0f6ce5c8ad2f6fe88da6ab3f71e1b2764ce4f637b8c6f34a3fe46bdab1",
+  "raw_response_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/24_person_fallen_v6_a0_direct_evaluation/eval/pilot/requests/V6_TARGET_SUPPORT_PILOT_0075/response.raw",
+  "received_timestamp": "2026-09-14T10:25:20.781935+00:00"
+}

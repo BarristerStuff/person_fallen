@@ -1,0 +1,10 @@
+{
+  "design_manifest_sha256": "f221e760bd1e6a86c648a60750db7d6f06119c7b872da894cf121e17ed6a79d1",
+  "design_screen_group_overlap": [],
+  "holdout_rows": 0,
+  "internal_split_sha256": "a9edfb22fc0170ce774dfe5e6229bf776c8c272868b55c303e74ae629b153892",
+  "screen_blind_before_candidate_freeze": true,
+  "screen_manifest_sha256": "ccb8c9df51371dbfd2a8e34201ccd42b0a825eea4444ba45a3aaa6945094aab5",
+  "verification_result": "PASS",
+  "verified_at_utc": "2026-08-26T15:01:35.446083+00:00"
+}

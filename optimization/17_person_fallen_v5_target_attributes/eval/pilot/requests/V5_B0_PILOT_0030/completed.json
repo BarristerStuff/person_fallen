@@ -1,0 +1,87 @@
+{
+  "state": "completed",
+  "phase": "pilot",
+  "request_id": "V5_B0_PILOT_0030",
+  "item_id": "P4D_PLAN::PF_P4D_HN_SIT_G006_V05",
+  "operational_id": "PFV4DEV_0340",
+  "source_image_sha256": "50dfb42a496a45f1dfff553f026d808cda5ed194b08ba509be4e9f4bbf23de0a",
+  "full_view_sha256": "ef01741244cffb23872138bde6495a3c1d73aca1ad624bc4f9101dca48dfe0cb",
+  "crop_view_sha256": "f7c338a307dc7b8332bbc2f00d0ce9e25f5c3fd03c3c5a0bf388ab0e5270f777",
+  "view_count": 2,
+  "view_sha256": [
+    "ef01741244cffb23872138bde6495a3c1d73aca1ad624bc4f9101dca48dfe0cb",
+    "f7c338a307dc7b8332bbc2f00d0ce9e25f5c3fd03c3c5a0bf388ab0e5270f777"
+  ],
+  "prompt_sha256": "757fb445efa3f05327947a4c32115e3735823c81d14177199bbf8a6381d3300a",
+  "schema_sha256": "1ccf5a08cd1d6287b33f5d04b0f06101ae75666919c1a9f160ac0c5c335d7817",
+  "person_policy_sha256": "b2126bf86378fa6d0bcbc67861fa794b320affb1de90dc445f5838223cae68b9",
+  "scene_aggregation_sha256": "b2126bf86378fa6d0bcbc67861fa794b320affb1de90dc445f5838223cae68b9",
+  "model_binding": {
+    "endpoint": "http://192.168.20.62:11434",
+    "name": "qwen3.5:4b",
+    "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+    "ollama_version": "0.23.2",
+    "think": false,
+    "stream": false,
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 768,
+    "concurrency": 1,
+    "automatic_retry": false,
+    "resend_completion_unknown": false,
+    "timeout_seconds": 120,
+    "api": "/api/generate",
+    "format_schema": "schema/target_attributes.json",
+    "transport": "direct,no proxies,no redirects"
+  },
+  "freeze_sha256": "4ea0db2dce0d0cdea4af1bf799cd3e5d3ca1e2fd5293d1d352bf40e1978c25e4",
+  "payload_sha256": "e15898dd9d6f35b369ad830aaf049b83b0ace959238ab227980f53365dbc8bc8",
+  "claimed_timestamp": "2026-09-09T07:45:46.181485+00:00",
+  "http_status": 200,
+  "latency_seconds": 6.667811022998649,
+  "completion_unknown": false,
+  "transport_error": null,
+  "received_timestamp": "2026-09-09T07:45:52.851699+00:00",
+  "raw_response_sha256": "18449355b71ac9234a65889a8dc44c099b127e403cf9f454f447ebdb851dd1f5",
+  "raw_response_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/17_person_fallen_v5_target_attributes/eval/pilot/requests/V5_B0_PILOT_0030/response.raw",
+  "strict_json_ok": true,
+  "source_binding_ok": true,
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 182,
+  "parsed": {
+    "scene_coverage": "complete",
+    "people": [
+      {
+        "person_id": 1,
+        "bbox_1000": [
+          378,
+          308,
+          608,
+          646
+        ],
+        "person_visible": "yes",
+        "pose": "floor_sitting",
+        "torso_orientation": "upright",
+        "torso_ground_contact": "none",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "explicit_work_evidence": "yes",
+        "visual_quality": "clear",
+        "evidence": "A person is sitting on the floor with a toolbox and tools in front of them."
+      }
+    ]
+  },
+  "person_decisions": [
+    {
+      "person_id": 1,
+      "decision": "NO_ALERT_NORMAL_POSE",
+      "reason": "TARGET_EXPLICIT_WORK_CONTEXT"
+    }
+  ],
+  "image_decision": "NO_ALERT_NORMAL_POSE",
+  "image_reason": "ALL_ENUMERATED_PEOPLE_CLEAR_NORMAL",
+  "completed_timestamp": "2026-09-09T07:45:52.852632+00:00",
+  "EVALUATION_MODE": "NEW_TARGET_ATTRIBUTES_ONLY",
+  "CACHED_PRIMARY_USED_FOR_FINAL_DECISION": false
+}

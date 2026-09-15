@@ -1,0 +1,9 @@
+{
+  "all_bound_artifacts_match": true,
+  "artifact_failures": [],
+  "bound_artifact_count": 59,
+  "captured_at": "2026-09-01T06:27:04.817+00:00",
+  "freeze_sha256": "2c05bb62e8b4041fb5b62e9b0cc49265068fdb6a3c1975ad5b922da5656b80e8",
+  "revision_id": "P4D_GR3Q10_BALANCED_COMPLETE_GROUP_WINDOW_20260901_01",
+  "sidecar_match": true
+}

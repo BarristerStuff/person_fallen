@@ -1,0 +1,16 @@
+{
+  "authorization_present": false,
+  "captured_at": "2026-08-28T07:15:49.819+00:00",
+  "concurrency": 1,
+  "execution_eligible": false,
+  "explicit_window_authorization": false,
+  "max_logical_invocations_this_window": 90,
+  "native_max_retries": 3,
+  "outer_retry": false,
+  "physical_attempts_before_execution": 0,
+  "provider_requests_before_execution": 0,
+  "required_next_action": "standalone_top_level_GR3Q3_window_authorization_after_not_before",
+  "source": "none_in_current_top_level_user_message",
+  "stage": "P4D_GR3Q3_QUOTA_WINDOW_RECOVERY",
+  "template_is_authorization": false
+}

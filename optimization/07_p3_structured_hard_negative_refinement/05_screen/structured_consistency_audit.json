@@ -1,0 +1,9 @@
+{
+  "candidate": "S1_STRUCTURED",
+  "direct_correct_rule_wrong": 0,
+  "direct_rule_disagreement_count": 0,
+  "direct_wrong_rule_correct": 0,
+  "row_count": 120,
+  "structured_conflict_count": 0,
+  "structured_conflict_rate": 0.0
+}

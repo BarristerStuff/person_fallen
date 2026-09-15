@@ -1,0 +1,18 @@
+{
+  "counts": {
+    "completion_unknown": 0,
+    "failed_confirmed": 1,
+    "pending": 439,
+    "started": 0,
+    "success": 0,
+    "total_slots": 440
+  },
+  "created_at": "2026-08-28T08:51:31.709+00:00",
+  "credential_fingerprint_sha256": "43d31d860533665709eb74ab30e6643ae2addd79d71156940e517c75db44873f",
+  "credential_slot_safe": "PRIMARY",
+  "holdout_consumed": false,
+  "holdout_requests": 0,
+  "status": "BLOCKED_PRIMARY_AUTH_NO_SECONDARY",
+  "terminal_freeze": "/home/yanbo/net_vlm_person_fallen_v2_optimization/09_p4d_eb1_ebond_full_regeneration/freeze/p4d_eb1_terminal_freeze.json",
+  "terminal_freeze_sha256": "ecb7bc9498f5c2184dab0fc1f1ed112dff13f7dfac9b316322af53e3dd233bb0"
+}

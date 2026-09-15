@@ -1,0 +1,19 @@
+{
+  "after_counts": {
+    "batch_count": 45,
+    "label_count": 4521,
+    "media_count": 4934,
+    "split_count": 2058
+  },
+  "before_counts": {
+    "batch_count": 45,
+    "label_count": 4521,
+    "media_count": 4934,
+    "split_count": 2058
+  },
+  "p4d_reference_hits": 0,
+  "provider_requests": 0,
+  "reason": "AWAITING_EXPLICIT_USER_AUTHORIZATION",
+  "status": "STOPPED_BEFORE_PROVIDER_PREFLIGHT",
+  "verified_at": "2026-08-27T10:00:52.012+00:00"
+}

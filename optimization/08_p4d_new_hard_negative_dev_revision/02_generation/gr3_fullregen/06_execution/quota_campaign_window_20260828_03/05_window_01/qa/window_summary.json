@@ -1,0 +1,12 @@
+{
+  "captured_at": "2026-08-28T08:00:35.769+00:00",
+  "logical_failures": 0,
+  "logical_invocations": 0,
+  "logical_successes": 0,
+  "native_retry_scheduled_events": 0,
+  "physical_attempt_lower_bound": 0,
+  "provider_requests": 0,
+  "status": "NOT_EXECUTED",
+  "stop_reason": "WAITING_FOR_PROVIDER_QUOTA_RESET",
+  "window_cap": 68
+}

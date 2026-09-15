@@ -1,0 +1,29 @@
+{
+  "GR1_images_excluded": true,
+  "authorization_present": true,
+  "authorization_scope": "440_full_regeneration",
+  "authorization_text": "我明确授权 P4D_GR3 使用当前 Codex profile，对冻结的 440 个 prompt slots 全量重新生成，接受旧 GR1 192 张不进入新 revision；我同时明确接受当前 GPT Image 2 runtime max_retries=3、单个逻辑 slot 最多约 4 次 provider attempt、精确费用未知以及由此产生的 quota/成本风险。",
+  "authorization_text_sha256": "93078d3d56cd7aadebe57a9ea1f83745e80ecfa0dac0e567f86ddd303e5f55ee",
+  "authorization_timestamp": "2026-08-27T10:26:27.586+00:00",
+  "continuation_revision": "authorized_20260827_01",
+  "current_codex_profile_explicit": true,
+  "historical_no_auth_terminal_freeze": {
+    "preparation_freeze_sha256": "a637a289b1a657a33fe777b97f5f769815b307c5404a47d48f9f2644123c415f",
+    "preparation_sidecar_match": true,
+    "previous_provider_requests": 0,
+    "previous_terminal_freeze_sha256": "8ff93df4e33d670ab626fc0584d0cf27f0e5bbddd0d216dbdd821adbfd11ade1",
+    "previous_terminal_sidecar_match": true,
+    "previous_terminal_status": "AWAITING_EXPLICIT_USER_AUTHORIZATION",
+    "verified_at": "2026-08-27T10:26:27.583+00:00"
+  },
+  "outer_retry": false,
+  "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/authorized_20260827_01/01_authorization/full_regen_authorization_attestation.json",
+  "quota_risk_accepted": true,
+  "retry_risk_accepted": true,
+  "sha256": "c5605ea785f04ba93b7017e9ccb0d586826a6c1094d0545538f2b5da67a5f7e9",
+  "slots_440_explicit": true,
+  "source": "standalone_current_user_message",
+  "stage": "P4D_GR3E_FULL_REGEN_EXECUTION",
+  "unknown_cost_risk_accepted": true,
+  "verified_at": "2026-08-27T10:26:27.586+00:00"
+}

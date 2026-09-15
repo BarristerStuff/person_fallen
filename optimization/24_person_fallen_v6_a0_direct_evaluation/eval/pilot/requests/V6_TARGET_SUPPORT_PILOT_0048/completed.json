@@ -1,0 +1,61 @@
+{
+  "state": "completed",
+  "phase": "pilot",
+  "request_id": "V6_TARGET_SUPPORT_PILOT_0048",
+  "item_id": "V2_ORIGINAL::IMG_003714",
+  "operational_id": "PFV6_PILOT_0048",
+  "taxonomy": "floor_sitting",
+  "group_id": "pf_v2_aigc_h02-sitting-on-floor",
+  "evaluation_stratum": "normal_negative",
+  "source_image_sha256": "26e8e9b1f421aeada92548231e0b832e6d0554ffe2dab403516c7c7a2df75a5c",
+  "full_view_sha256": "7751588c30330c7a770e779684e0a33eb1394e83bcebb4d5e091ea2f55dd340a",
+  "crop_view_sha256": "0edc8569c0024aa940502fb3334923a1415b731e97e00bf8950ff69e166cf002",
+  "payload_sha256": "3f418b59786d28e202418ea686fdad839b33d8c72eff639476ab54eecbe752ef",
+  "claimed_timestamp": "2026-09-14T10:22:46.180946+00:00",
+  "http_status": 200,
+  "latency_seconds": 5.501075360007235,
+  "completion_unknown": false,
+  "transport_error": null,
+  "raw_response_sha256": "2ef0efa2cc842496a068c87af905eddcedb7ae1c2930eef0d63c661aef38b8e4",
+  "raw_response_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/24_person_fallen_v6_a0_direct_evaluation/eval/pilot/requests/V6_TARGET_SUPPORT_PILOT_0048/response.raw",
+  "received_timestamp": "2026-09-14T10:22:51.684369+00:00",
+  "strict_json_ok": true,
+  "source_binding_ok": true,
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 191,
+  "parsed": {
+    "scene_coverage": "complete",
+    "people": [
+      {
+        "person_id": 1,
+        "bbox_1000": [
+          396,
+          363,
+          585,
+          675
+        ],
+        "person_visible": "yes",
+        "pose": "floor_sitting",
+        "torso_orientation": "upright",
+        "torso_ground_contact": "none",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "body_support_configuration": "pelvis_supported",
+        "explicit_work_evidence": "no",
+        "visual_quality": "clear",
+        "evidence": "Person sitting on floor in office hallway, holding phone"
+      }
+    ]
+  },
+  "person_decisions": [
+    {
+      "person_id": 1,
+      "decision": "NO_ALERT_NORMAL_POSE",
+      "reason": "CONSISTENT_FLOOR_SITTING"
+    }
+  ],
+  "image_decision": "NO_ALERT_NORMAL_POSE",
+  "image_reason": "ALL_PEOPLE_NORMAL",
+  "completed_timestamp": "2026-09-14T10:22:51.685082+00:00"
+}

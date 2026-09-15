@@ -1,0 +1,20 @@
+{
+ "candidate":"V5-A0-INDEPENDENT-RECHECK",
+ "authorization":"User explicitly authorized V5 independent scene-review development in current task, 2026-09-09; supersedes preparation-only zero-inference budget for this execution stage without modifying preparation plan.",
+ "preparation_plan":"/home/yanbo/net_vlm_person_fallen_v2_optimization/16_person_fallen_v5_patrol_recheck/protocol/v5_preparation_plan.json",
+ "PRIMARY_INFERENCE_SOURCE":"FROZEN_V4_CACHE",
+ "EVALUATION_MODE":"CACHED_PRIMARY_PLUS_NEW_SECONDARY",
+ "secondary_model":{"endpoint":"http://192.168.20.62:11434","name":"qwen3.5:4b","digest":"2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd","ollama_version":"0.23.2","think":false,"stream":false,"temperature":0,"num_ctx":8192,"num_predict":384,"concurrency":1,"automatic_retry":false,"resend_completion_unknown":false,"timeout_seconds":120,"format":"schema/secondary.json","transport":"direct /api/generate; no proxies; no redirects"},
+ "inputs":"Only exact existing full_scene JPEG bytes, 448x336 JPEG70. No new detector/resize/crop. No identifiers/GT/taxonomy/generation prompts/evidence in payload.",
+ "stage_order":["dev","regression_only_after_dev_all_gates_pass"],
+ "regression_role":"CONSUMED_SCREEN_DEVELOPMENT_REGRESSION",
+ "canary_count":0,
+ "request_budget":{"total":340,"dev":288,"regression":52,"primary":0,"val":0,"holdout":0,"detector":0},
+ "gates":{"ground_lying_immediate_ALERT_recall_min":0.95,"ground_lying_ALERT_RECHECK_coverage":1.0,"floor_sitting_immediate_ALERT_FPR":0,"determinate_negative_immediate_ALERT_FPR":0,"determinate_negative_total_RECHECK_rate_max":0.10,"secondary_strict_JSON_success":1.0,"primary_cache_binding_success":1.0,"final_ALERT_set_equals_primary_ALERT_set":true,"regression_target_final":"RECHECK_VISUAL_UNCERTAIN"},
+ "stop_rules":["Existing execution refuses overwrite/retry/resume","Any SHA/cache/split/model/version mismatch blocks","Claim persisted before send; failed/unknown/completed identities never resent","Any HTTP, strict JSON or completion-unknown failure immediately stops; no complete gate metrics","DEV gate fail stops before regression","Regression gate fail closes candidate","No candidate edits after first model request","No A1/A2/V6 or threshold/budget relaxation","No VAL/Holdout/robot/production execution"],
+ "GT_TYPE":"PROMPT_DERIVED_SYNTHETIC_GT",
+ "HUMAN_SEMANTIC_REVIEW_REQUIRED_FOR_SYNTHETIC_DEVELOPMENT":false,
+ "MODEL_PREDICTION_USED_AS_GT":false,
+ "RECHECK_is_confirmed_fallen":false,
+ "ROBOT_REOBSERVATION_VALIDATED":false
+}

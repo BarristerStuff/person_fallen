@@ -1,0 +1,279 @@
+[
+  {
+    "item_id": "P4D_PLAN::PF_P4D_HN_SIT_G001_V05",
+    "group_id": "PF_P4D_HN_SIT_G001",
+    "request_id": "V5_B0_PILOT_0005",
+    "historical_v4_decision": "NO_ALERT_NORMAL_POSE",
+    "scene_coverage": "complete",
+    "people_count": 2,
+    "person_attributes": [
+      {
+        "person_id": 1,
+        "bbox_1000": [
+          418,
+          338,
+          758,
+          618
+        ],
+        "person_visible": "yes",
+        "pose": "floor_sitting",
+        "torso_orientation": "upright",
+        "torso_ground_contact": "none",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "explicit_work_evidence": "yes",
+        "visual_quality": "clear",
+        "evidence": "A person is sitting on the floor with legs extended, leaning forward over a small object and tools."
+      },
+      {
+        "person_id": 2,
+        "bbox_1000": [
+          508,
+          138,
+          532,
+          248
+        ],
+        "person_visible": "yes",
+        "pose": "walking",
+        "torso_orientation": "upright",
+        "torso_ground_contact": "none",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "explicit_work_evidence": "no",
+        "visual_quality": "insufficient",
+        "evidence": "A distant figure is walking away in the background."
+      }
+    ],
+    "person_decisions": [
+      {
+        "person_id": 1,
+        "decision": "NO_ALERT_NORMAL_POSE",
+        "reason": "TARGET_EXPLICIT_WORK_CONTEXT"
+      },
+      {
+        "person_id": 2,
+        "decision": "RECHECK_VISUAL_UNCERTAIN",
+        "reason": "TARGET_EVIDENCE_UNRELIABLE"
+      }
+    ],
+    "image_reason": "EMPTY_UNRESOLVED_TARGET_OR_INCOMPLETE_COVERAGE",
+    "object_identity_semantics": "UNVERIFIED_NO_INSTANCE_GT"
+  },
+  {
+    "item_id": "P4D_PLAN::PF_P4D_HN_SIT_G005_V02",
+    "group_id": "PF_P4D_HN_SIT_G005",
+    "request_id": "V5_B0_PILOT_0022",
+    "historical_v4_decision": "NO_ALERT_NORMAL_POSE",
+    "scene_coverage": "complete",
+    "people_count": 2,
+    "person_attributes": [
+      {
+        "person_id": 1,
+        "bbox_1000": [
+          440,
+          300,
+          640,
+          660
+        ],
+        "person_visible": "yes",
+        "pose": "floor_sitting",
+        "torso_orientation": "upright",
+        "torso_ground_contact": "none",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "explicit_work_evidence": "no",
+        "visual_quality": "clear",
+        "evidence": "A man is sitting cross-legged on the warehouse floor with his hands resting on his knees."
+      },
+      {
+        "person_id": 2,
+        "bbox_1000": [
+          330,
+          110,
+          360,
+          210
+        ],
+        "person_visible": "yes",
+        "pose": "walking",
+        "torso_orientation": "upright",
+        "torso_ground_contact": "none",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "explicit_work_evidence": "no",
+        "visual_quality": "insufficient",
+        "evidence": "A person is visible in the background walking away down the aisle."
+      }
+    ],
+    "person_decisions": [
+      {
+        "person_id": 1,
+        "decision": "NO_ALERT_NORMAL_POSE",
+        "reason": "CONSISTENT_FLOOR_SITTING"
+      },
+      {
+        "person_id": 2,
+        "decision": "RECHECK_VISUAL_UNCERTAIN",
+        "reason": "TARGET_EVIDENCE_UNRELIABLE"
+      }
+    ],
+    "image_reason": "EMPTY_UNRESOLVED_TARGET_OR_INCOMPLETE_COVERAGE",
+    "object_identity_semantics": "UNVERIFIED_NO_INSTANCE_GT"
+  },
+  {
+    "item_id": "P4D_PLAN::PF_P4D_HN_SIT_G007_V04",
+    "group_id": "PF_P4D_HN_SIT_G007",
+    "request_id": "V5_B0_PILOT_0034",
+    "historical_v4_decision": "NO_ALERT_NORMAL_POSE",
+    "scene_coverage": "complete",
+    "people_count": 2,
+    "person_attributes": [
+      {
+        "person_id": 1,
+        "bbox_1000": [
+          420,
+          420,
+          710,
+          650
+        ],
+        "person_visible": "yes",
+        "pose": "floor_sitting",
+        "torso_orientation": "inclined",
+        "torso_ground_contact": "partial",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "explicit_work_evidence": "no",
+        "visual_quality": "clear",
+        "evidence": "A person with grey hair is sitting on the floor with hands placed on the ground for support."
+      },
+      {
+        "person_id": 2,
+        "bbox_1000": [
+          940,
+          150,
+          990,
+          270
+        ],
+        "person_visible": "yes",
+        "pose": "standing",
+        "torso_orientation": "upright",
+        "torso_ground_contact": "none",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "unknown",
+        "explicit_work_evidence": "no",
+        "visual_quality": "insufficient",
+        "evidence": "A person is standing in the background near a staircase, appearing as a silhouette."
+      }
+    ],
+    "person_decisions": [
+      {
+        "person_id": 1,
+        "decision": "NO_ALERT_NORMAL_POSE",
+        "reason": "CONSISTENT_FLOOR_SITTING"
+      },
+      {
+        "person_id": 2,
+        "decision": "RECHECK_VISUAL_UNCERTAIN",
+        "reason": "TARGET_EVIDENCE_UNRELIABLE"
+      }
+    ],
+    "image_reason": "EMPTY_UNRESOLVED_TARGET_OR_INCOMPLETE_COVERAGE",
+    "object_identity_semantics": "UNVERIFIED_NO_INSTANCE_GT"
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_003702",
+    "group_id": "pf_v2_aigc_h01-sitting-on-floor",
+    "request_id": "V5_B0_PILOT_0036",
+    "historical_v4_decision": "NO_ALERT_NORMAL_POSE",
+    "scene_coverage": "complete",
+    "people_count": 2,
+    "person_attributes": [
+      {
+        "person_id": 1,
+        "bbox_1000": [
+          400,
+          320,
+          730,
+          660
+        ],
+        "person_visible": "yes",
+        "pose": "floor_sitting",
+        "torso_orientation": "upright",
+        "torso_ground_contact": "none",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "explicit_work_evidence": "no",
+        "visual_quality": "clear",
+        "evidence": "A person is sitting on the floor with legs extended, holding a phone."
+      },
+      {
+        "person_id": 2,
+        "bbox_1000": [
+          700,
+          180,
+          760,
+          350
+        ],
+        "person_visible": "yes",
+        "pose": "standing",
+        "torso_orientation": "upright",
+        "torso_ground_contact": "none",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "explicit_work_evidence": "no",
+        "visual_quality": "insufficient",
+        "evidence": "A person is standing in the background, facing away from the camera."
+      }
+    ],
+    "person_decisions": [
+      {
+        "person_id": 1,
+        "decision": "NO_ALERT_NORMAL_POSE",
+        "reason": "CONSISTENT_FLOOR_SITTING"
+      },
+      {
+        "person_id": 2,
+        "decision": "RECHECK_VISUAL_UNCERTAIN",
+        "reason": "TARGET_EVIDENCE_UNRELIABLE"
+      }
+    ],
+    "image_reason": "EMPTY_UNRESOLVED_TARGET_OR_INCOMPLETE_COVERAGE",
+    "object_identity_semantics": "UNVERIFIED_NO_INSTANCE_GT"
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_003720",
+    "group_id": "pf_v2_aigc_h02-sitting-on-floor",
+    "request_id": "V5_B0_PILOT_0054",
+    "historical_v4_decision": "RECHECK_VISUAL_UNCERTAIN",
+    "scene_coverage": "complete",
+    "people_count": 1,
+    "person_attributes": [
+      {
+        "person_id": 1,
+        "bbox_1000": [
+          380,
+          290,
+          590,
+          710
+        ],
+        "person_visible": "yes",
+        "pose": "floor_sitting",
+        "torso_orientation": "upright",
+        "torso_ground_contact": "none",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "explicit_work_evidence": "no",
+        "visual_quality": "insufficient",
+        "evidence": "A person is sitting on the ground with legs crossed, hands resting on knees, and head turned to the side."
+      }
+    ],
+    "person_decisions": [
+      {
+        "person_id": 1,
+        "decision": "RECHECK_VISUAL_UNCERTAIN",
+        "reason": "TARGET_EVIDENCE_UNRELIABLE"
+      }
+    ],
+    "image_reason": "EMPTY_UNRESOLVED_TARGET_OR_INCOMPLETE_COVERAGE",
+    "object_identity_semantics": "UNVERIFIED_NO_INSTANCE_GT"
+  }
+]

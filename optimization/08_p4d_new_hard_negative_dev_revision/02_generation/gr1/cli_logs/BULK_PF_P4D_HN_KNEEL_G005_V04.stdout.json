@@ -1,0 +1,64 @@
+{
+  "auth": {
+    "account_id": "f0bc3591-e6fc-442d-a52e-e99efbf5c1eb",
+    "auth_file": "/home/yanbo/.codex/auth.json",
+    "refreshed": false,
+    "source": "auth.json"
+  },
+  "command": "images generate",
+  "events": {
+    "count": 31
+  },
+  "history": {
+    "job_id": "job-1787813686810909541-20559"
+  },
+  "ok": true,
+  "output": {
+    "bytes": 1862914,
+    "files": [
+      {
+        "bytes": 1862914,
+        "index": 0,
+        "path": "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/generated_raw/PF_P4D_HN_KNEEL_G005_V04.png"
+      }
+    ],
+    "path": "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/generated_raw/PF_P4D_HN_KNEEL_G005_V04.png"
+  },
+  "provider": "codex",
+  "provider_selection": {
+    "edit_region_mode": "reference-hint",
+    "kind": "codex",
+    "reason": "explicit",
+    "requested": "codex",
+    "resolved": "codex",
+    "supports_n": false
+  },
+  "request": {
+    "background": "auto",
+    "delegated_image_model": "gpt-image-2",
+    "format": "png",
+    "model": "gpt-5.4",
+    "operation": "generate",
+    "provider": "codex",
+    "quality": "medium",
+    "ref_image_count": 0,
+    "size": "1536x1024"
+  },
+  "response": {
+    "image_count": 1,
+    "item_ids": [
+      "ig_0c1e5d4091b41823016a8fdf11838487d091f9c809b47898e7"
+    ],
+    "model": "gpt-5.4",
+    "response_id": "resp_0c1e5d4091b41823016a8fdf10a51887d0b5bd414556270f6a",
+    "revised_prompts": [
+      "Photorealistic 1920x1080 landscape frame from a fixed safety-inspection camera mounted about 1.5 meters above the floor, observing a warehouse passage. Rear-oblique view, slightly distant framing, natural perspective, realistic scale, enough surrounding context to judge body support. Scene includes pallets, shelving, clear floor markings, painted loading-bay concrete, doorway and structural lines creating depth, warm practical interior light. Visible subject is a young adult medium build wearing a light work shirt and dark cargo trousers, in a one-knee kneeling repair posture with hips and legs supporting the body and shoulders held above the ground. Subject clearly visible, plausible unedited inspection-camera capture, ordinary photographic detail, restrained contrast, non-cinematic, non-advertising look. No text, caption, watermark, logo, warning label, overlay, bounding box, arrow, circle, or annotation."
+    ],
+    "service_tier": "default",
+    "status": "completed"
+  },
+  "retry": {
+    "count": 1,
+    "max_retries": 3
+  }
+}

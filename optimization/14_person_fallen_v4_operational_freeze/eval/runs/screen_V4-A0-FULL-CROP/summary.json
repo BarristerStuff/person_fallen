@@ -1,0 +1,130 @@
+{
+  "candidate": "V4-A0-FULL-CROP",
+  "crop_manifest_sha256": "1c43be68c8fadf15043c2087d310534c76791ca1ac640693a10d867ad47fe82f",
+  "definition_sha256": "e0a3b10456ee11b28a7a6bd678a6e76bd6d94fa98b8035b21a8ca57693706d7e",
+  "freeze_sha256": "8c84b445c7b37a5e4673f4ee1544edc9f2b762857711b9e876aa02b9b0a98140",
+  "gate_checks": {
+    "determinate_negative_alert_fpr": true,
+    "floor_sitting_alert_fpr": true,
+    "ground_lying_alert_recall": true,
+    "ground_lying_alert_recheck_coverage": false,
+    "strict_json_success": true
+  },
+  "gate_pass": false,
+  "gt_type": "PROMPT_DERIVED_SYNTHETIC_GT",
+  "holdout_rows_read": 0,
+  "metrics": {
+    "attention_count": 0,
+    "decision_distribution": {
+      "ALERT_GROUND_LYING": 24,
+      "NO_ALERT_NORMAL_POSE": 50,
+      "RECHECK_VISUAL_UNCERTAIN": 2
+    },
+    "detector_coverage": 0.9736842105263158,
+    "determinate_negative_alert": 0,
+    "determinate_negative_alert_fpr": 0.0,
+    "determinate_negative_count": 51,
+    "floor_sitting_alert": 0,
+    "floor_sitting_alert_fpr": 0.0,
+    "floor_sitting_count": 25,
+    "floor_sitting_gate_status": "PASS",
+    "ground_lying_alert": 24,
+    "ground_lying_alert_recall": 0.96,
+    "ground_lying_alert_recheck_coverage": 0.96,
+    "ground_lying_count": 25,
+    "ground_lying_no_alert": 1,
+    "ground_lying_recheck": 0,
+    "latency_seconds": {
+      "max": 8.457677867001621,
+      "mean": 2.518452590156238,
+      "p50": 2.437323097496119,
+      "p95": 2.7155437137407716
+    },
+    "phase": "screen",
+    "recheck_count": 2,
+    "recheck_rate": 0.02631578947368421,
+    "sample_count": 76,
+    "strict_json_success": 1.0,
+    "taxonomy": {
+      "curled_or_partially_occluded_lying": {
+        "count": 5,
+        "decisions": {
+          "ALERT_GROUND_LYING": 4,
+          "NO_ALERT_NORMAL_POSE": 1
+        }
+      },
+      "floor_sitting": {
+        "count": 25,
+        "decisions": {
+          "NO_ALERT_NORMAL_POSE": 25
+        }
+      },
+      "ground_maintenance": {
+        "count": 1,
+        "decisions": {
+          "NO_ALERT_NORMAL_POSE": 1
+        }
+      },
+      "horizontal_corridor_ground_lying": {
+        "count": 5,
+        "decisions": {
+          "ALERT_GROUND_LYING": 5
+        }
+      },
+      "kneeling_half_kneeling": {
+        "count": 10,
+        "decisions": {
+          "NO_ALERT_NORMAL_POSE": 10
+        }
+      },
+      "mixed_hard_negative": {
+        "count": 5,
+        "decisions": {
+          "NO_ALERT_NORMAL_POSE": 4,
+          "RECHECK_VISUAL_UNCERTAIN": 1
+        }
+      },
+      "prone_ground_lying": {
+        "count": 5,
+        "decisions": {
+          "ALERT_GROUND_LYING": 5
+        }
+      },
+      "side_lying": {
+        "count": 5,
+        "decisions": {
+          "ALERT_GROUND_LYING": 5
+        }
+      },
+      "squat_crouch_deep_bend": {
+        "count": 5,
+        "decisions": {
+          "NO_ALERT_NORMAL_POSE": 4,
+          "RECHECK_VISUAL_UNCERTAIN": 1
+        }
+      },
+      "standing_walking": {
+        "count": 5,
+        "decisions": {
+          "NO_ALERT_NORMAL_POSE": 5
+        }
+      },
+      "supine_ground_lying": {
+        "count": 5,
+        "decisions": {
+          "ALERT_GROUND_LYING": 5
+        }
+      }
+    }
+  },
+  "model_prediction_used_as_gt": false,
+  "operational_definition_frozen": true,
+  "phase": "screen",
+  "plan_sha256": "88ffaf7cbba8a72eb2d2e71e50715aeace9bac09767d3f48de2271cec84f9d37",
+  "policy_sha256": "3a3e16f177c1806b74f4018bc269068e7715bba43eb20a5b3797b02c4ca9ccaf",
+  "prompt_sha256": "a81367203bfff7fe8aaae491bf04a8d9eb92057c701412bbd316b8d43f98fad7",
+  "revision_id": "PERSON_FALLEN_V4_OPERATIONAL_FREEZE_20260909_01",
+  "screen_rows_read": 76,
+  "status": "COMPLETE",
+  "val_rows_read": 0
+}

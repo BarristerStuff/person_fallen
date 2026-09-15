@@ -1,0 +1,85 @@
+{
+  "state": "completed",
+  "phase": "pilot",
+  "request_id": "V6_TARGET_SUPPORT_PILOT_0005",
+  "item_id": "P4D_PLAN::PF_P4D_HN_SIT_G001_V05",
+  "operational_id": "PFV6_PILOT_0005",
+  "taxonomy": "floor_sitting",
+  "group_id": "PF_P4D_HN_SIT_G001",
+  "evaluation_stratum": "normal_negative",
+  "source_image_sha256": "8a601a296c493209ea6d0e4d3c42904a94ece62d0d799b801df68eeb49a3ec96",
+  "full_view_sha256": "6db4e0f7736abbd876b08bb9199a29df8a704564d362eefdddf26ee1cc861ba7",
+  "crop_view_sha256": "103261737812ab0e53996d4906a529b114044c7e05e74fa9cfdae786064ca49a",
+  "payload_sha256": "1d10545dea765334410fe187a7a4be1b1f2c55748c25fd0aec1b68d8d6971440",
+  "claimed_timestamp": "2026-09-14T10:18:30.620742+00:00",
+  "http_status": 200,
+  "latency_seconds": 9.491073712008074,
+  "completion_unknown": false,
+  "transport_error": null,
+  "raw_response_sha256": "cfb85384ab6f7618eddcd199eaa9922eccb5c7fe018572867ef3dedbd67aa03a",
+  "raw_response_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/24_person_fallen_v6_a0_direct_evaluation/eval/pilot/requests/V6_TARGET_SUPPORT_PILOT_0005/response.raw",
+  "received_timestamp": "2026-09-14T10:18:40.113895+00:00",
+  "strict_json_ok": true,
+  "source_binding_ok": true,
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 368,
+  "parsed": {
+    "scene_coverage": "complete",
+    "people": [
+      {
+        "person_id": 1,
+        "bbox_1000": [
+          418,
+          342,
+          758,
+          618
+        ],
+        "person_visible": "yes",
+        "pose": "floor_sitting",
+        "torso_orientation": "upright",
+        "torso_ground_contact": "none",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "body_support_configuration": "pelvis_supported",
+        "explicit_work_evidence": "yes",
+        "visual_quality": "clear",
+        "evidence": "Person is sitting on the floor with legs extended, leaning forward over a workbench setup."
+      },
+      {
+        "person_id": 2,
+        "bbox_1000": [
+          508,
+          138,
+          530,
+          238
+        ],
+        "person_visible": "yes",
+        "pose": "walking",
+        "torso_orientation": "upright",
+        "torso_ground_contact": "none",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "body_support_configuration": "unknown",
+        "explicit_work_evidence": "no",
+        "visual_quality": "insufficient",
+        "evidence": "Distant figure walking in the background, too small to determine specific attributes."
+      }
+    ]
+  },
+  "person_decisions": [
+    {
+      "person_id": 1,
+      "decision": "NO_ALERT_NORMAL_POSE",
+      "reason": "CONSISTENT_FLOOR_SITTING"
+    },
+    {
+      "person_id": 2,
+      "decision": "RECHECK_VISUAL_UNCERTAIN",
+      "reason": "TARGET_EVIDENCE_UNRELIABLE"
+    }
+  ],
+  "image_decision": "RECHECK_VISUAL_UNCERTAIN",
+  "image_reason": "EMPTY_UNRESOLVED_OR_INCOMPLETE_COVERAGE",
+  "completed_timestamp": "2026-09-14T10:18:40.114693+00:00"
+}

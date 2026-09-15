@@ -1,0 +1,14 @@
+{
+  "all_pass": true,
+  "captured_at": "2026-08-28T06:30:59.413+00:00",
+  "checks": {
+    "authorization": true,
+    "batch_and_inventory": true,
+    "dataset_no_p4d_refs": true,
+    "dataset_valid": true,
+    "manifest": true,
+    "parent_freezes": true,
+    "runtime": true
+  },
+  "provider_requests": 0
+}

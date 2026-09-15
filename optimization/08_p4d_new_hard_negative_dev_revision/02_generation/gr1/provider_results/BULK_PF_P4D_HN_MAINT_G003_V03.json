@@ -1,0 +1,42 @@
+{
+  "command": [
+    "<node>",
+    "<gpt-image-2-skill>",
+    "--json",
+    "--json-events",
+    "--provider",
+    "codex",
+    "images",
+    "generate",
+    "--model",
+    "gpt-5.4",
+    "--prompt_sha256",
+    "626870e7b640d3f03ca3fec38faa7531f807e6acba76033588e3e5ba53b76c5b",
+    "--out",
+    "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/generated_raw/PF_P4D_HN_MAINT_G003_V03.png",
+    "--format",
+    "png",
+    "--size",
+    "1536x1024",
+    "--quality",
+    "medium"
+  ],
+  "elapsed_seconds": 2.256632165001065,
+  "finished_at": "2026-08-27T07:44:31.633+00:00",
+  "payload": {
+    "error": {
+      "code": "http_error",
+      "detail": {
+        "detail": "{\n  \"error\": {\n    \"message\": \"Your session has ended. Please log in again.\",\n    \"type\": \"invalid_request_error\",\n    \"param\": null,\n    \"code\": \"refresh_token_invalidated\"\n  }\n}",
+        "message": "Refresh request failed."
+      },
+      "message": "HTTP 401"
+    },
+    "ok": false
+  },
+  "phase": "BULK",
+  "prompt_id": "PF_P4D_HN_MAINT_G003_V03",
+  "returncode": 1,
+  "sequence": 225,
+  "started_at": "2026-08-27T07:44:29.377+00:00"
+}

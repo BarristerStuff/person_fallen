@@ -1,0 +1,4 @@
+candidate,baseline_FP_to_candidate_TN,baseline_TN_to_candidate_FP,baseline_TP_to_candidate_FN,baseline_FN_to_candidate_TP,baseline_correct_candidate_wrong,baseline_wrong_candidate_correct,mcnemar_exact_p
+C1,2,2,0,0,2,2,1.0
+C2,0,7,0,0,7,0,0.015625
+C3,17,0,0,0,0,17,1.52587890625e-05

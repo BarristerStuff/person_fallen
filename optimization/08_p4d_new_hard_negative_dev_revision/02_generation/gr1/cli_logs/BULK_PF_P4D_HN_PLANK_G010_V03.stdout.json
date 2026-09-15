@@ -1,0 +1,64 @@
+{
+  "auth": {
+    "account_id": "f0bc3591-e6fc-442d-a52e-e99efbf5c1eb",
+    "auth_file": "/home/yanbo/.codex/auth.json",
+    "refreshed": false,
+    "source": "auth.json"
+  },
+  "command": "images generate",
+  "events": {
+    "count": 22
+  },
+  "history": {
+    "job_id": "job-1787815876750497170-24967"
+  },
+  "ok": true,
+  "output": {
+    "bytes": 2226891,
+    "files": [
+      {
+        "bytes": 2226891,
+        "index": 0,
+        "path": "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/generated_raw/PF_P4D_HN_PLANK_G010_V03.png"
+      }
+    ],
+    "path": "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/generated_raw/PF_P4D_HN_PLANK_G010_V03.png"
+  },
+  "provider": "codex",
+  "provider_selection": {
+    "edit_region_mode": "reference-hint",
+    "kind": "codex",
+    "reason": "explicit",
+    "requested": "codex",
+    "resolved": "codex",
+    "supports_n": false
+  },
+  "request": {
+    "background": "auto",
+    "delegated_image_model": "gpt-image-2",
+    "format": "png",
+    "model": "gpt-5.4",
+    "operation": "generate",
+    "provider": "codex",
+    "quality": "medium",
+    "ref_image_count": 0,
+    "size": "1536x1024"
+  },
+  "response": {
+    "image_count": 1,
+    "item_ids": [
+      "ig_07d9b56deabe73e5016a8fe79b0de887d0aaddf38d37d968de"
+    ],
+    "model": "gpt-5.4",
+    "response_id": "resp_07d9b56deabe73e5016a8fe79989ac87d0b187f2d9b0aba89c",
+    "revised_prompts": [
+      "Photorealistic 1920x1080 landscape frame from a fixed safety-inspection camera mounted about 1.5 meters above the floor, showing a broad factory corridor with safety rails, distant machinery, and a clean matte concrete industrial floor. Moderate backlight balanced by usable foreground fill. Front-oblique view at medium distance, natural perspective, realistic scale, ample surrounding context to judge body support. Visible subject: older adult man, stocky build, wearing a charcoal cardigan, practical shoes, subdued gray and olive clothing, holding a correct forearm plank with both forearms and toes supporting the body, torso suspended above the ground and not resting on the floor. Plausible unedited inspection-camera capture, subject clearly visible, a cart near one edge, ample negative space around the subject. Ordinary photographic detail, restrained contrast, non-cinematic, non-advertising look. No text, caption, watermark, logo, warning label, overlay, bounding box, arrow, circle, or annotation."
+    ],
+    "service_tier": "default",
+    "status": "completed"
+  },
+  "retry": {
+    "count": 0,
+    "max_retries": 3
+  }
+}

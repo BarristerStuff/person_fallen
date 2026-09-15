@@ -1,0 +1,17 @@
+{
+  "automatic_retry": false,
+  "fail_fast_on_401": true,
+  "fail_fast_on_403": true,
+  "fail_fast_on_429": true,
+  "failures": 0,
+  "generation_backend": "image_generation (server-side gpt-image-2 capability)",
+  "generation_started": false,
+  "model": "gpt-5.4",
+  "provider": "codex",
+  "requests": 0,
+  "stage": "P4D_GR2_GENERATION_CONTINUATION",
+  "status": "NOT_STARTED_LINEAGE_GATE",
+  "stop_reason": "provider/account lineage gate failed before smoke",
+  "successes": 0,
+  "updated_at": "2026-08-27T08:36:39.144+00:00"
+}

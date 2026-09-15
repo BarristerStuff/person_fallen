@@ -1,0 +1,22 @@
+{
+  "name": "P0_IMAGE_BASELINE_V2",
+  "event_name": "person_fallen",
+  "event_definition_version": "v2.0",
+  "model": "qwen3.5:4b",
+  "endpoint": "http://192.168.20.62:11434",
+  "stream": false,
+  "format": "json",
+  "temperature": 0,
+  "num_ctx": 8192,
+  "num_predict": 256,
+  "concurrency": 1,
+  "timeout_seconds": 120,
+  "max_transport_retries": 2,
+  "preprocess_mode": "letterbox",
+  "target_size": "448x336",
+  "jpeg_quality": 70,
+  "input_protocol": "single complete image; no crop, rotation, stereo, video, temporal reasoning, flow, pose, tracking, detector gate, or ensemble",
+  "allowed_splits": ["DEV", "VAL"],
+  "holdout_policy": "never request HOLDOUT in P0",
+  "gt_basis": "user_confirmed_prompt_image_alignment"
+}

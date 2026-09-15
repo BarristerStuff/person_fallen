@@ -1,0 +1,47 @@
+{
+  "all_pass": true,
+  "authorization_attestation_sha256": "c5605ea785f04ba93b7017e9ccb0d586826a6c1094d0545538f2b5da67a5f7e9",
+  "binary_sha256": "1ac830fed5349f1c1a1c2fd1a4280b487a2d75962d22d9fbd4e4b2451ab208ba",
+  "captured_at": "2026-08-27T12:04:34.698+00:00",
+  "checks": {
+    "authorization_attestation": true,
+    "binary": true,
+    "manifest": true,
+    "preflight_identity": true,
+    "preflight_provider_ready": true,
+    "preflight_runtime": true,
+    "preparation_freeze": true,
+    "preparation_still_unauthorized": true,
+    "previous_no_auth_terminal_freeze": true,
+    "wrapper": true
+  },
+  "manifest_sha256": "5f7afbc010a0028497ec0210e75dc28cc79212fbc114cbf4741ee0bc4ce361c4",
+  "preflight_sha256": "774b53b6bf1963e5ba0421fb4500080e976407768a67c84fff9b9261c9a3b5c5",
+  "preflight_summary": {
+    "auth_ready": true,
+    "endpoint_reachable": true,
+    "generation_backend": "image_generation",
+    "native_retry_policy_preparation": {
+      "base_delay_seconds": 1,
+      "max_retries": 3
+    },
+    "no_retry_guarantee": false,
+    "profile_continuity_match": true,
+    "provider": "codex",
+    "request_model": "gpt-5.4",
+    "runtime_version": {
+      "binary_probe": {
+        "returncode": 2,
+        "stderr": "",
+        "stdout": "{\n  \"error\": {\n    \"code\": \"invalid_command\",\n    \"message\": \"gpt-image-2-skill 0.7.3\\n\"\n  },\n  \"ok\": false\n}\n"
+      },
+      "doctor_version": "0.7.3"
+    },
+    "safe_profile_fingerprint_current": "ab7f2704e5b70b62ccfd48b241b649716e6ddd6cb9a1bfe14d992df646dcaffe",
+    "safe_profile_fingerprint_preparation": "ab7f2704e5b70b62ccfd48b241b649716e6ddd6cb9a1bfe14d992df646dcaffe",
+    "session_ready": true
+  },
+  "preparation_freeze_sha256": "a637a289b1a657a33fe777b97f5f769815b307c5404a47d48f9f2644123c415f",
+  "previous_no_auth_terminal_freeze_sha256": "8ff93df4e33d670ab626fc0584d0cf27f0e5bbddd0d216dbdd821adbfd11ade1",
+  "wrapper_sha256": "f01c85e448a078c508d015e2c0ac5208b12a9f126ce83e47da11fce542b440fe"
+}

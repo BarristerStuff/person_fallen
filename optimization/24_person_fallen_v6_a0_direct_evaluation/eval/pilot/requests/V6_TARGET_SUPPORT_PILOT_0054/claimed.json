@@ -1,0 +1,15 @@
+{
+  "state": "claimed",
+  "phase": "pilot",
+  "request_id": "V6_TARGET_SUPPORT_PILOT_0054",
+  "item_id": "V2_ORIGINAL::IMG_003720",
+  "operational_id": "PFV6_PILOT_0054",
+  "taxonomy": "floor_sitting",
+  "group_id": "pf_v2_aigc_h02-sitting-on-floor",
+  "evaluation_stratum": "normal_negative",
+  "source_image_sha256": "535a93d41730af7911e98c7078fc4d470a277fdd4048c6e80cb57ed8e7db3439",
+  "full_view_sha256": "623a37d71fb82cf5f35737da12d44dcc4bb0134acf25beb6cb22e93170ff81bb",
+  "crop_view_sha256": "351088d10c6a18cc4e0c8fd24849777297d068c5cfc23b5c8cac4d696180bb41",
+  "payload_sha256": "97a630520fe101a960263a5c7585ada0df030df1e0f1bd82b887e966add36395",
+  "claimed_timestamp": "2026-09-14T10:23:15.415442+00:00"
+}

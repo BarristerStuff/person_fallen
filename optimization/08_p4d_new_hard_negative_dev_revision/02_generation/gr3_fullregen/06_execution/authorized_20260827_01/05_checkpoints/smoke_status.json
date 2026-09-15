@@ -1,0 +1,42 @@
+{
+  "captured_at": "2026-08-27T10:36:34.850+00:00",
+  "completion_unknown_total": 0,
+  "current_image_count": 1,
+  "last_http_status": "200",
+  "logical_failures_total": 0,
+  "logical_requests_total": 1,
+  "logical_successes_total": 1,
+  "native_retry_count": "UNKNOWN_IF_NOT_EXPOSED",
+  "outer_retry": false,
+  "remaining_slots": 439,
+  "results": [
+    {
+      "error_code": "",
+      "final_sha256": "e2a581d85bad33fe876ee72c81c6ed053fc8ab9c62975f9daa63beb4393052fa",
+      "http_status": "200",
+      "latency_seconds": 33.2778699570008,
+      "mechanical_qa": {
+        "crop_box": [
+          0,
+          0,
+          1672,
+          940
+        ],
+        "final_height": 1080,
+        "final_width": 1920,
+        "native_aspect_ratio": 1.7768331562167907,
+        "native_height": 941,
+        "native_width": 1672,
+        "resize_method": "Pillow_LANCZOS"
+      },
+      "phase": "SMOKE",
+      "prompt_id": "PF_P4D_HN_SIT_G001_V01",
+      "provider_request_id": "unknown",
+      "raw_sha256": "8bbeb68b0d4c93d0fd6dc0bc6760010b6710d39370fad4ec6b1c79362d92cba7",
+      "request_id": "P4D_GR3E_SMOKE_0001_PF_P4D_HN_SIT_G001_V01",
+      "state": "SUCCESS"
+    }
+  ],
+  "stage": "SMOKE",
+  "status": "PASS"
+}

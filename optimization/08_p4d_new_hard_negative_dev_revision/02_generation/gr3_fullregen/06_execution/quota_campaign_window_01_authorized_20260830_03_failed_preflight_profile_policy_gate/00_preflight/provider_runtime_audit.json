@@ -1,0 +1,31 @@
+{
+  "active_profile_stratum": "UNRECOGNIZED",
+  "all_pass": false,
+  "auth_ready": true,
+  "binary_sha256": "1ac830fed5349f1c1a1c2fd1a4280b487a2d75962d22d9fbd4e4b2451ab208ba",
+  "captured_at": "2026-08-30T11:26:34.020613+00:00",
+  "checks": {
+    "binary": true,
+    "model": true,
+    "outer_retry": true,
+    "profile_a": false,
+    "provider": true,
+    "retries": true,
+    "runtime": true,
+    "session": true,
+    "wrapper": true
+  },
+  "default_provider_note": "ebond-gpt-image-2",
+  "endpoint_reachable": true,
+  "generation_backend": "image_generation",
+  "native_max_retries": 3,
+  "outer_retry": false,
+  "profile_fingerprint_safe_hash": "35e12e1b0e3f4ffecfd2f3917db27ffcc231b9be30df682fc39ac8d849bd5a84",
+  "provider": "codex",
+  "raw_profile_values_persisted": false,
+  "request_model": "gpt-5.4",
+  "runtime_version": "0.7.3",
+  "session_ready": true,
+  "tls_ok": true,
+  "wrapper_sha256": "f01c85e448a078c508d015e2c0ac5208b12a9f126ce83e47da11fce542b440fe"
+}

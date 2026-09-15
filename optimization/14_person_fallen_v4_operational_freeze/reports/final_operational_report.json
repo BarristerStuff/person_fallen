@@ -1,0 +1,53 @@
+{
+  "operational_definition_frozen": true,
+  "revision_id": "PERSON_FALLEN_V4_OPERATIONAL_FREEZE_20260909_01",
+  "candidate": "V4-A0-FULL-CROP",
+  "dev": {
+    "ground_lying_alert_recall": 0.9724137931034482,
+    "ground_lying_alert_recheck_coverage": 1.0,
+    "floor_sitting_alert_fpr": 0.0,
+    "determinate_negative_alert_fpr": 0.0,
+    "recheck_count": 19,
+    "recheck_rate": 0.04357798165137615,
+    "strict_json_success": 1.0,
+    "ground_lying_count": 145,
+    "ground_lying_alert": 141,
+    "ground_lying_recheck": 4,
+    "gate": "PASS_ZERO_INFERENCE_OPERATIONAL_GATE"
+  },
+  "screen": {
+    "run": "eval/runs/screen_V4-A0-FULL-CROP",
+    "sample_count": 76,
+    "ground_lying_count": 25,
+    "ground_lying_alert": 24,
+    "ground_lying_recheck": 0,
+    "ground_lying_no_alert": 1,
+    "ground_lying_alert_recall": 0.96,
+    "ground_lying_alert_recheck_coverage": 0.96,
+    "floor_sitting_count": 25,
+    "floor_sitting_alert_fpr": 0.0,
+    "determinate_negative_count": 51,
+    "determinate_negative_alert_fpr": 0.0,
+    "recheck_count": 2,
+    "recheck_rate": 0.02631578947368421,
+    "strict_json_success": 1.0,
+    "gate": "FAIL",
+    "failed_gate": "ground_lying_alert_recheck_coverage",
+    "failed_sample": {
+      "operational_id": "PFV4_SCREEN_0066",
+      "taxonomy": "curled_or_partially_occluded_lying",
+      "prediction": "NO_ALERT_NORMAL_POSE",
+      "reason_code": "CLEAR_NORMAL_POSE:kneeling"
+    },
+    "summary_sha256": "df59dc3eeacfb1326385644e0b4e69fe2b6f8db458f5e88d80ffd30c34c72840",
+    "holdout_rows_read": 0
+  },
+  "val": {
+    "status": "NOT_RUN",
+    "holdout_rows_read": 0
+  },
+  "final_candidate": "V4-A0-FULL-CROP",
+  "ready_for_final_holdout": false,
+  "holdout_consumed": false,
+  "next_action": "STOP_AFTER_SCREEN_FAIL; no VAL, no Holdout preflight, and no further model-side experiment"
+}

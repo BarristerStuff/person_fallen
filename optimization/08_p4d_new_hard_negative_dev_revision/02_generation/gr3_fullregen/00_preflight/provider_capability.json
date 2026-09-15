@@ -1,0 +1,45 @@
+{
+  "auth": {
+    "access_token_present": true,
+    "account_id_present": true,
+    "auth_mode": "chatgpt",
+    "auth_source": "config",
+    "chatgpt_user_id_present": true,
+    "endpoint_host": "chatgpt.com",
+    "endpoint_reachable": false,
+    "endpoint_status": null,
+    "endpoint_tls_ok": false,
+    "exists": true,
+    "expired": false,
+    "id_token_present": true,
+    "last_refresh_present": true,
+    "parse_ok": true,
+    "plan_type": "plus",
+    "profile_fingerprint_sha256": "ab7f2704e5b70b62ccfd48b241b649716e6ddd6cb9a1bfe14d992df646dcaffe",
+    "provider": "codex",
+    "ready": true,
+    "refresh_token_present": true
+  },
+  "auth_inspect_ok": true,
+  "captured_at": "2026-08-27T09:20:10.234+00:00",
+  "commands_returncode": {
+    "auth_inspect": 0,
+    "config": 0,
+    "doctor": 0,
+    "generate_help": 2
+  },
+  "config_safe": {
+    "config_version": 1,
+    "default_provider": "ebond-gpt-image-2",
+    "ok": true
+  },
+  "doctor_ok": true,
+  "endpoint_host": "chatgpt.com",
+  "endpoint_reachable": false,
+  "generation_backend": "image_generation (server-side gpt-image-2 capability)",
+  "provider": "codex",
+  "request_model": "gpt-5.4",
+  "runtime_version": "0.7.3",
+  "session_ready": false,
+  "stage": "P4D_GR3_PROVIDER_CAPABILITY_PREFLIGHT"
+}

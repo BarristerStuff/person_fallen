@@ -1,0 +1,61 @@
+{
+  "state": "completed",
+  "phase": "pilot",
+  "request_id": "V6_TARGET_SUPPORT_PILOT_0019",
+  "item_id": "P4D_PLAN::PF_P4D_HN_SIT_G004_V04",
+  "operational_id": "PFV6_PILOT_0019",
+  "taxonomy": "floor_sitting",
+  "group_id": "PF_P4D_HN_SIT_G004",
+  "evaluation_stratum": "normal_negative",
+  "source_image_sha256": "c9270dd2a72642e56e83a834c5160de30f152ae41e126198782de08a499435f5",
+  "full_view_sha256": "28a2da7e8706100dfe73bf53d5af63b28a1571c2113acc839af85c40e63ff4c9",
+  "crop_view_sha256": "7675d01685ee8938860fb2758473b99de2a17fa100e7405018decbb7322d8af3",
+  "payload_sha256": "f46e9d70bdeb0db3e33236577ec4402f49003145780fa813abe81ae11decc011",
+  "claimed_timestamp": "2026-09-14T10:19:53.590284+00:00",
+  "http_status": 200,
+  "latency_seconds": 5.8742447620024905,
+  "completion_unknown": false,
+  "transport_error": null,
+  "raw_response_sha256": "375f427c985936830e3492a7e078627442b77c22da5feba33eafb49ae9f47655",
+  "raw_response_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/24_person_fallen_v6_a0_direct_evaluation/eval/pilot/requests/V6_TARGET_SUPPORT_PILOT_0019/response.raw",
+  "received_timestamp": "2026-09-14T10:19:59.466845+00:00",
+  "strict_json_ok": true,
+  "source_binding_ok": true,
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 200,
+  "parsed": {
+    "scene_coverage": "complete",
+    "people": [
+      {
+        "person_id": 1,
+        "bbox_1000": [
+          432,
+          412,
+          666,
+          698
+        ],
+        "person_visible": "yes",
+        "pose": "floor_sitting",
+        "torso_orientation": "upright",
+        "torso_ground_contact": "partial",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "body_support_configuration": "pelvis_supported",
+        "explicit_work_evidence": "no",
+        "visual_quality": "clear",
+        "evidence": "Person is sitting on the floor with legs extended, torso upright, and hands resting on the thighs."
+      }
+    ]
+  },
+  "person_decisions": [
+    {
+      "person_id": 1,
+      "decision": "NO_ALERT_NORMAL_POSE",
+      "reason": "CONSISTENT_FLOOR_SITTING"
+    }
+  ],
+  "image_decision": "NO_ALERT_NORMAL_POSE",
+  "image_reason": "ALL_PEOPLE_NORMAL",
+  "completed_timestamp": "2026-09-14T10:19:59.467490+00:00"
+}

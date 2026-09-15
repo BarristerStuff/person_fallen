@@ -1,0 +1,15 @@
+{
+  "p4d_active_references": 0,
+  "provider_requests": 0,
+  "returncode": 0,
+  "validator": {
+    "batch_count": 45,
+    "error_count": 0,
+    "full_hash_check": true,
+    "label_count": 4881,
+    "media_count": 5081,
+    "split_count": 2618,
+    "status": "valid",
+    "warning_count": 387
+  }
+}

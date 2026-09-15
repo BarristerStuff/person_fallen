@@ -1,0 +1,16 @@
+{
+  "python_executable": "/home/yanbo/net_vlm_person_smoking_optimization/.venv_person_detector/bin/python",
+  "python_version": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "pip_version": "pip 22.0.2 from /home/yanbo/net_vlm_person_smoking_optimization/.venv_person_detector/lib/python3.10/site-packages/pip (python 3.10)",
+  "ultralytics_version": "8.4.104",
+  "torch_version": "2.13.0+cu130",
+  "torchvision_version": "0.28.0+cu130",
+  "opencv_version": "5.0.0",
+  "numpy_version": "2.2.6",
+  "Pillow_version": "12.3.0",
+  "cuda_available": false,
+  "cuda_version": "13.0",
+  "device": "cpu",
+  "created_at": "2026-08-07T05:43:36.391715+00:00",
+  "YOLO_CONFIG_DIR": "/home/yanbo/net_vlm_person_smoking_optimization/00_assets/ultralytics_config"
+}

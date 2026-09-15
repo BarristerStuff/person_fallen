@@ -1,0 +1,209 @@
+{
+  "candidate": "REV15_SCENE_ANY_LYING",
+  "crop_manifest_sha256": "de16b1d442da9b0f6b0d06334cf3757e0dbaf20027765df8c8cb45906d65488c",
+  "definition_sha256": "e0a3b10456ee11b28a7a6bd678a6e76bd6d94fa98b8035b21a8ca57693706d7e",
+  "freeze_sha256": null,
+  "gate_checks": {
+    "determinate_negative_alert_fpr": false,
+    "floor_sitting_alert_fpr": true,
+    "ground_lying_alert_recall": false,
+    "ground_lying_alert_recheck_coverage": false,
+    "strict_json_success": true
+  },
+  "gate_pass": false,
+  "gt_type": "PROMPT_DERIVED_SYNTHETIC_GT",
+  "holdout_rows_read": 0,
+  "metrics": {
+    "attention_count": 25,
+    "decision_distribution": {
+      "ALERT_GROUND_LYING": 180,
+      "ATTENTION_NEAR_GROUND": 25,
+      "NO_ALERT_NORMAL_POSE": 224,
+      "RECHECK_VISUAL_UNCERTAIN": 7
+    },
+    "detector_coverage": 0.9587155963302753,
+    "determinate_negative_alert": 14,
+    "determinate_negative_alert_fpr": 0.07179487179487179,
+    "determinate_negative_count": 195,
+    "floor_sitting_alert": 0,
+    "floor_sitting_alert_fpr": null,
+    "floor_sitting_count": 0,
+    "floor_sitting_gate_status": "NOT_APPLICABLE",
+    "ground_lying_alert": 151,
+    "ground_lying_alert_recall": 0.8118279569892473,
+    "ground_lying_alert_recheck_coverage": 0.8118279569892473,
+    "ground_lying_count": 186,
+    "ground_lying_no_alert": 35,
+    "ground_lying_recheck": 0,
+    "latency_seconds": {
+      "max": 3.1657605079963105,
+      "mean": 2.428074541050358,
+      "p50": 2.4213680184984696,
+      "p95": 2.6552223969920306
+    },
+    "phase": "dev",
+    "recheck_count": 7,
+    "recheck_rate": 0.016055045871559634,
+    "sample_count": 436,
+    "strict_json_success": 1.0,
+    "taxonomy": {
+      "bending_pickup": {
+        "count": 20,
+        "decisions": {
+          "NO_ALERT_NORMAL_POSE": 19,
+          "RECHECK_VISUAL_UNCERTAIN": 1
+        }
+      },
+      "chair_seated_normal_work": {
+        "count": 15,
+        "decisions": {
+          "NO_ALERT_NORMAL_POSE": 15
+        }
+      },
+      "chair_sitting": {
+        "count": 20,
+        "decisions": {
+          "NO_ALERT_NORMAL_POSE": 20
+        }
+      },
+      "crawling_quadruped_support": {
+        "count": 5,
+        "decisions": {
+          "ATTENTION_NEAR_GROUND": 3,
+          "NO_ALERT_NORMAL_POSE": 2
+        }
+      },
+      "crawling_without_explicit_maintenance": {
+        "count": 10,
+        "decisions": {
+          "ALERT_GROUND_LYING": 1,
+          "NO_ALERT_NORMAL_POSE": 9
+        }
+      },
+      "curled_or_sprawled_lying": {
+        "count": 10,
+        "decisions": {
+          "ALERT_GROUND_LYING": 10
+        }
+      },
+      "floor_sitting": {
+        "count": 55,
+        "decisions": {
+          "ALERT_GROUND_LYING": 15,
+          "NO_ALERT_NORMAL_POSE": 39,
+          "RECHECK_VISUAL_UNCERTAIN": 1
+        }
+      },
+      "ground_maintenance": {
+        "count": 5,
+        "decisions": {
+          "ATTENTION_NEAR_GROUND": 1,
+          "NO_ALERT_NORMAL_POSE": 4
+        }
+      },
+      "intentional_ground_lying": {
+        "count": 5,
+        "decisions": {
+          "ALERT_GROUND_LYING": 5
+        }
+      },
+      "irregular_sprawled_lying": {
+        "count": 10,
+        "decisions": {
+          "ALERT_GROUND_LYING": 10
+        }
+      },
+      "kneeling_half_kneeling": {
+        "count": 55,
+        "decisions": {
+          "NO_ALERT_NORMAL_POSE": 55
+        }
+      },
+      "multi_person_one_lying": {
+        "count": 5,
+        "decisions": {
+          "ALERT_GROUND_LYING": 5
+        }
+      },
+      "ordinary_work": {
+        "count": 20,
+        "decisions": {
+          "NO_ALERT_NORMAL_POSE": 20
+        }
+      },
+      "partially_occluded_lying": {
+        "count": 20,
+        "decisions": {
+          "ALERT_GROUND_LYING": 20
+        }
+      },
+      "person_unconfirmable": {
+        "count": 20,
+        "decisions": {
+          "ALERT_GROUND_LYING": 14,
+          "NO_ALERT_NORMAL_POSE": 1,
+          "RECHECK_VISUAL_UNCERTAIN": 5
+        }
+      },
+      "prone_ground_lying": {
+        "count": 25,
+        "decisions": {
+          "ALERT_GROUND_LYING": 25
+        }
+      },
+      "pushup_plank": {
+        "count": 26,
+        "decisions": {
+          "ALERT_GROUND_LYING": 5,
+          "ATTENTION_NEAR_GROUND": 21
+        }
+      },
+      "side_lying": {
+        "count": 25,
+        "decisions": {
+          "ALERT_GROUND_LYING": 25
+        }
+      },
+      "small_target_ground_lying": {
+        "count": 20,
+        "decisions": {
+          "ALERT_GROUND_LYING": 20
+        }
+      },
+      "squat_crouch_deep_bend": {
+        "count": 20,
+        "decisions": {
+          "NO_ALERT_NORMAL_POSE": 20
+        }
+      },
+      "standing": {
+        "count": 10,
+        "decisions": {
+          "NO_ALERT_NORMAL_POSE": 10
+        }
+      },
+      "supine_ground_lying": {
+        "count": 25,
+        "decisions": {
+          "ALERT_GROUND_LYING": 25
+        }
+      },
+      "walking": {
+        "count": 10,
+        "decisions": {
+          "NO_ALERT_NORMAL_POSE": 10
+        }
+      }
+    }
+  },
+  "model_prediction_used_as_gt": false,
+  "operational_definition_frozen": true,
+  "phase": "dev",
+  "plan_sha256": "4ddeec91f495560c35635a979b0b680426ec494115469c2e9e06a4deddf31f5e",
+  "policy_sha256": "9a4c677ecf295b1cfde3bf354af63a3ebccf39fc5cc8690867b8233a0f2385cd",
+  "prompt_sha256": "415868d5828521d84073c548769b11b1ce4d524d1e8090736e1920d667e7db9c",
+  "revision_id": "PERSON_FALLEN_V4_SCENE_ANY_LYING_20260909_01",
+  "screen_rows_read": 0,
+  "status": "COMPLETE",
+  "val_rows_read": 0
+}

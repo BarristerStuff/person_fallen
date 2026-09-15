@@ -1,0 +1,30 @@
+{
+  "after_counts": {
+    "batch_count": 45,
+    "label_count": 4881,
+    "media_count": 5081,
+    "split_count": 2618
+  },
+  "after_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/lineage_policy_amendment_20260828_01/00_preflight/dataset_boundary_after.json",
+  "annotation_hashes_same": true,
+  "before_counts": {
+    "batch_count": 45,
+    "label_count": 4881,
+    "media_count": 5081,
+    "split_count": 2618
+  },
+  "before_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/lineage_policy_amendment_20260828_01/00_preflight/dataset_boundary_before.json",
+  "delta": {
+    "batch_count": 0,
+    "label_count": 0,
+    "media_count": 0,
+    "split_count": 0
+  },
+  "formal_ingest": false,
+  "labels_added": 0,
+  "media_added": 0,
+  "p4d_active_batch_hits": 0,
+  "p4d_active_label_hits": 0,
+  "p4d_active_media_hits": 0,
+  "p4d_active_split_hits": 0
+}

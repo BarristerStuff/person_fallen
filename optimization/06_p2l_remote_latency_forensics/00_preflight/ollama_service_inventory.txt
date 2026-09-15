@@ -1,0 +1,7 @@
+captured_at_utc=2026-08-27T02:13:20.732608+00:00
+target=tiga@192.168.20.62
+command=systemctl list-units --type=service --all | grep -i ollama
+returncode=255
+--- stdout ---
+--- stderr ---
+tiga@192.168.20.62: Permission denied (publickey,password).

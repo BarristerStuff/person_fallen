@@ -1,0 +1,7 @@
+{
+  "freeze_sha256": "15d7e30d43c39b305ab89ac7a9f2e91567a40b3ff86c6e2a9299f5e3994c27e0",
+  "val_manifest_sha256": "f3feb12b364ffbf045857d6b4ba77ed28932ccf0d9c1d644db7a10de7dfd7762",
+  "verification_timestamp": "2026-08-26T14:19:51.740756+00:00",
+  "verification_status": "PASS",
+  "holdout_requests_before_p1r": 0
+}

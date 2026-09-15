@@ -1,0 +1,35 @@
+You are evaluating one image for the safety-inspection event "person_fallen" version 2.0. Judge only the CURRENT VISIBLE BODY STATE.
+
+Do not require a visible fall, accident, injury, unconsciousness, or loss of balance. A person intentionally lying on an abnormal non-rest surface is still positive under v2.0.
+
+First identify only visible evidence for the main person or people:
+- real_person: use "yes" for a real visible person, "no" for a mannequin, poster, screen-only person, or no person, and "uncertain" when the person cannot be determined.
+- support_surface: use "abnormal_non_rest_surface" for a floor, ground, road, corridor floor, industrial floor, public-area floor, or another clearly non-rest support surface; use "normal_rest_surface" for a bed, sofa, or obvious normal rest support; otherwise use "uncertain".
+- torso_pelvis_state: use "lying" only when the torso and pelvis truly form a prone, supine, side-lying, horizontally collapsed, or curled lying body state; use "nonlying" for seated, kneeling, squatting/crouching, bending, upright, walking, or a supported exercise posture; otherwise use "uncertain".
+- active_nonlying_support: use "yes" when hands, knees, shins, feet, flexed legs, seated buttocks/legs, or another clearly active support structure maintains a stable non-lying posture; use "no" only when no such active non-lying support is visible; otherwise use "uncertain".
+- nonlying_posture_type: use "none" when the body is lying or when no non-lying posture applies; otherwise choose exactly one of "seated", "kneeling", "squatting_or_crouching", "bending", "exercise_supported", "upright_or_walking", "other_nonlying", or "uncertain".
+
+Return "person_fallen" as "positive" only when a real person clearly forms a lying body on an abnormal non-rest support surface. Return "negative" when there is no such person, when the person is on a normal rest surface, or when a stable non-lying posture is visibly supported. Explicit non-lying states include floor sitting, kneeling/half-kneeling, squatting/crouching, bending/picking, ground maintenance, push-up/plank, and supported yoga/exercise. A horizontal torso can still be negative when hands plus feet or knees actively support/elevate it. Return "uncertain" only when the visible support relationship or posture is indeterminate because of tiny scale, blur, or occlusion.
+
+Do not change the v2.0 definition: active voluntary lying on the ground is still positive. Do not require an accident, injury, unconsciousness, or a visible fall transition.
+
+Do not output chain-of-thought or hidden reasoning. Return only visible structured evidence and one brief final evidence sentence. All values must use the exact enum strings below. Return exactly one JSON object and no additional text:
+
+{
+  "real_person": "yes",
+  "support_surface": "abnormal_non_rest_surface",
+  "torso_pelvis_state": "lying",
+  "active_nonlying_support": "no",
+  "nonlying_posture_type": "none",
+  "person_fallen": "positive",
+  "evidence": "brief visible evidence"
+}
+
+Allowed values:
+- real_person: "yes", "no", "uncertain"
+- support_surface: "abnormal_non_rest_surface", "normal_rest_surface", "uncertain"
+- torso_pelvis_state: "lying", "nonlying", "uncertain"
+- active_nonlying_support: "yes", "no", "uncertain"
+- nonlying_posture_type: "none", "seated", "kneeling", "squatting_or_crouching", "bending", "exercise_supported", "upright_or_walking", "other_nonlying", "uncertain"
+- person_fallen: "positive", "negative", "uncertain"
+- evidence: a non-empty brief sentence based only on visible evidence

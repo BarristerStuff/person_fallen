@@ -1,0 +1,1 @@
+media_id,image_sha256,split,scenario_id,group_id,ground_truth,sample_role,predicted_status,predicted_binary_alert,evidence,http_ok,json_ok,schema_ok,canonical_prediction_success,attempt_count,latency_seconds,is_correct,error_type

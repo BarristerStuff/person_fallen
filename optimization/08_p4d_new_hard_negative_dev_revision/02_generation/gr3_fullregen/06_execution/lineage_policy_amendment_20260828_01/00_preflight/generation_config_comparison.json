@@ -1,0 +1,91 @@
+{
+  "MATERIAL_GENERATION_CONFIG_CHANGE": false,
+  "MATERIAL_GENERATION_CONFIG_CHANGE_SCOPE": "observable_generation_material_variables_only",
+  "captured_at": "2026-08-28T06:08:49.437+00:00",
+  "checks": {
+    "binary_same": true,
+    "generation_backend_same": true,
+    "generation_command_options_same": true,
+    "native_retry_policy_same": true,
+    "output_conversion_same": true,
+    "parent_run_config_same": true,
+    "parent_runner_same": true,
+    "prompt_source_same": true,
+    "provider_same": true,
+    "request_model_same": true,
+    "requested_quality_same": true,
+    "requested_size_same": true,
+    "runtime_version_same": true,
+    "wrapper_same": true
+  },
+  "image_generation_provider_requests": 0,
+  "material_generation_model_version_note": "The provider exposes gpt-5.4 but no more granular server-side image model version; wrapper/binary/runtime identity is recorded as the available client-side evidence.",
+  "material_generation_model_version_observable": false,
+  "parent_generation_config": {
+    "concurrency": 1,
+    "format": "png",
+    "generation_backend": "image_generation",
+    "generation_mode": "images generate",
+    "json_events": true,
+    "manifest_sha256": "5f7afbc010a0028497ec0210e75dc28cc79212fbc114cbf4741ee0bc4ce361c4",
+    "native_retry_policy": {
+      "base_delay_seconds": 1,
+      "max_retries": 3
+    },
+    "native_size_requested": "1536x1024",
+    "outer_retry": false,
+    "output_conversion": {
+      "crop": "center_crop_to_16_by_9",
+      "final_format": "PNG",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "raw_format": "PNG",
+      "resize_method": "Pillow_LANCZOS",
+      "rgb_conversion": true
+    },
+    "prompt_source": "full_regen_prompt_manifest.csv and original prompt file bytes",
+    "provider": "codex",
+    "quality": "medium",
+    "reference_images": [],
+    "request_model": "gpt-5.4",
+    "run_config_sha256": "bcee14579c29275b483c554d8c5ecec9e953bb91dc1cca486b610b41e5f746f4",
+    "runner_sha256": "eae256f386a7a77fc2671a94bc071b1883d3aeaaf55e5fc8becd469cf7810d6a"
+  },
+  "parent_generation_config_fingerprint": "dfe766a37a3a28d8fe45198eb6504f194ee9176dd311faa0755a5dc57703951c",
+  "proposed_generation_config_fingerprint": "dfe766a37a3a28d8fe45198eb6504f194ee9176dd311faa0755a5dc57703951c",
+  "proposed_recovery_generation_config": {
+    "concurrency": 1,
+    "format": "png",
+    "generation_backend": "image_generation",
+    "generation_mode": "images generate",
+    "json_events": true,
+    "manifest_sha256": "5f7afbc010a0028497ec0210e75dc28cc79212fbc114cbf4741ee0bc4ce361c4",
+    "native_retry_policy": {
+      "base_delay_seconds": 1,
+      "max_retries": 3
+    },
+    "native_size_requested": "1536x1024",
+    "outer_retry": false,
+    "output_conversion": {
+      "crop": "center_crop_to_16_by_9",
+      "final_format": "PNG",
+      "final_size": [
+        1920,
+        1080
+      ],
+      "raw_format": "PNG",
+      "resize_method": "Pillow_LANCZOS",
+      "rgb_conversion": true
+    },
+    "prompt_source": "full_regen_prompt_manifest.csv and original prompt file bytes",
+    "provider": "codex",
+    "quality": "medium",
+    "reference_images": [],
+    "request_model": "gpt-5.4",
+    "run_config_sha256": "bcee14579c29275b483c554d8c5ecec9e953bb91dc1cca486b610b41e5f746f4",
+    "runner_sha256": "eae256f386a7a77fc2671a94bc071b1883d3aeaaf55e5fc8becd469cf7810d6a"
+  },
+  "stage": "P4D_GR3Q2_GENERATION_CONFIG_COMPARISON"
+}

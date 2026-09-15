@@ -1,0 +1,19 @@
+{
+  "captured_at": "2026-08-28T07:14:26.232+00:00",
+  "error_code": "http_error",
+  "evidence_matches_expected": true,
+  "http_status": "429",
+  "not_before_local": "2026-08-28T19:00:00+08:00",
+  "not_before_utc": "2026-08-28T11:00:00+00:00",
+  "parent_raw_expected_sha256": "a21d6034962800409ef117e7f01435b11d1dd328671ccfba2282be5b66963e99",
+  "parent_raw_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/profile_stratified_recovery_20260828_01/04_raw_responses/P4D_GR3Q2E_RECOVERY_0004_PF_P4D_HN_KNEEL_G009_V03.json",
+  "parent_raw_sha256": "a21d6034962800409ef117e7f01435b11d1dd328671ccfba2282be5b66963e99",
+  "plan_type": "plus",
+  "provider_error_message": "The usage limit has been reached",
+  "provider_error_type": "usage_limit_reached",
+  "resets_at_epoch": 1787914147,
+  "resets_at_local": "2026-08-28T18:49:07+08:00",
+  "resets_at_utc": "2026-08-28T10:49:07+00:00",
+  "resets_in_seconds": 15278,
+  "safety_margin_seconds": 653
+}

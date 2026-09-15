@@ -1,0 +1,467 @@
+{
+  "audit_type": "INDEPENDENT_ZERO_INFERENCE_RECOVERY_POST_RUN_AUDIT",
+  "status": "BLOCKED",
+  "candidate": "V5-B0-TARGET-ATTRIBUTES",
+  "execution": "FULL_DEV_RECOVERY_R1",
+  "scope": {
+    "network_requests": 0,
+    "model_requests": 0,
+    "VAL_images_read": 0,
+    "VAL_predictions_read": 0,
+    "VAL_evidence_read": 0,
+    "HOLDOUT_read": 0,
+    "frozen_source_writes": 0,
+    "object_localization_accuracy": "UNVERIFIED",
+    "full_pixel_semantic_review": false
+  },
+  "freeze": {
+    "recovery_freeze_sha256": "900dfdc9fcf0aad9e95ba2c5abfbc23cfdc8dcdec4b9680f36b03fecff750eee",
+    "recovery_binding_count": 1833,
+    "original_v5_freeze_sha256": "4ea0db2dce0d0cdea4af1bf799cd3e5d3ca1e2fd5293d1d352bf40e1978c25e4",
+    "original_v5_binding_count": 505
+  },
+  "manifest_replay": {
+    "full": 436,
+    "reuse": 115,
+    "new": 321,
+    "evaluation_strata": {
+      "ground_lying": {
+        "ALERT_GROUND_LYING": 145
+      },
+      "normal_negative": {
+        "NO_ALERT_NORMAL_POSE": 221,
+        "RECHECK_VISUAL_UNCERTAIN": 8,
+        "ATTENTION_NEAR_GROUND": 1
+      },
+      "auxiliary_attention": {
+        "ATTENTION_NEAR_GROUND": 13,
+        "ALERT_GROUND_LYING": 1
+      },
+      "visual_uncertain": {}
+    },
+    "floor_sitting": {
+      "NO_ALERT_NORMAL_POSE": 50,
+      "RECHECK_VISUAL_UNCERTAIN": 5
+    },
+    "known_regression_in_full_dev": false
+  },
+  "request_audit": {
+    "claimed": 274,
+    "completed": 274,
+    "unknown": 0,
+    "not_started": 47,
+    "unique_ids": 274,
+    "failure_files": 0,
+    "completion_lock_present": false,
+    "jsonl_lines": 549,
+    "event_states": {
+      "claimed": 274,
+      "completed": 274,
+      "early_stop": 1
+    },
+    "serial_no_overlap": true,
+    "request_order": "normal_negative 175 -> ground_lying 85 -> auxiliary_attention observed14 -> visual_uncertain observed0"
+  },
+  "raw_replay": {
+    "raw_hash_parser_policy_ok": true,
+    "output_match": true,
+    "payload_hash_ok": true,
+    "source_hash_ok": true,
+    "truncations": 0,
+    "eval_count_statistics": {
+      "count": 274,
+      "min": 156,
+      "max": 525,
+      "mean": 222.75182481751824,
+      "p50": 184.0
+    }
+  },
+  "independent_counts": {
+    "observed_rows": 389,
+    "pending_rows": 47,
+    "ground_lying": {
+      "observed": 145,
+      "pending": 0,
+      "ALERT": 145,
+      "RECHECK": 0,
+      "NO_ALERT": 0,
+      "ATTENTION": 0,
+      "ALERT_recall": 1.0,
+      "ALERT_RECHECK_coverage": 1.0
+    },
+    "normal_negative": {
+      "observed": 230,
+      "pending": 0,
+      "ALERT": 0,
+      "RECHECK": 8,
+      "NO_ALERT": 221,
+      "ATTENTION": 1,
+      "ALERT_FPR": 0.0,
+      "total_RECHECK_rate": 0.034782608695652174
+    },
+    "floor_sitting": {
+      "count": 55,
+      "ALERT": 0,
+      "RECHECK": 5,
+      "NO_ALERT": 50
+    },
+    "auxiliary_attention": {
+      "observed": 14,
+      "pending": 27,
+      "ALERT": 1,
+      "RECHECK": 0,
+      "NO_ALERT": 0,
+      "ATTENTION": 13
+    },
+    "visual_uncertain": {
+      "observed": 0,
+      "pending": 20
+    }
+  },
+  "early_stop_recheck": {
+    "trigger": "E_AUXILIARY_HIGH_PRIORITY_ALERT",
+    "first_trigger": [
+      274,
+      "E_AUXILIARY_HIGH_PRIORITY_ALERT"
+    ],
+    "new_requests_claimed": 274,
+    "new_requests_completed": 274,
+    "new_requests_unknown": 0,
+    "new_requests_not_started": 47,
+    "max_possible_final_ground_alert": 145,
+    "pending_not_counted_as_nonalert": true
+  },
+  "latency": {
+    "count": 274,
+    "p50": 3.017438205497456,
+    "p95": 18.60924119549745,
+    "p99": 19.583932752895485,
+    "min": 2.6344548229972133,
+    "max": 20.86481025800458
+  },
+  "legacy_val_exposure": {
+    "status": "PASS_HISTORIC_VAL_EXPOSURE_CONFIRMED_METADATA_ONLY",
+    "v3_val_manifest": {
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/11_person_fallen_v3_revision/remap/person_fallen_v3_val_manifest.csv",
+      "sha256": "ffe093f90a64698f1006541400dc8bf6bda774bbe54febc47ef2c388ef184302",
+      "rows": 100
+    },
+    "p1r_recovery_val_manifest": {
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/04_p1r_freeze_binding_recovery/preflight/recovery_val_manifest.csv",
+      "sha256": "f3feb12b364ffbf045857d6b4ba77ed28932ccf0d9c1d644db7a10de7dfd7762",
+      "rows": 100
+    },
+    "p1r_summary": {
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/04_p1r_freeze_binding_recovery/val/summary.json",
+      "sha256": "50c97bd88814153c95af5fc8b04cb74e3e25dbe61a5d8c657aab29821f3a383e",
+      "execution_status": "COMPLETE",
+      "planned_val_requests": 100,
+      "confirmed_completed_requests": 100,
+      "p1r_val_is_pristine": false,
+      "holdout_consumed": false
+    },
+    "overlap": {
+      "media_id_overlap": 100,
+      "image_sha256_overlap": 100,
+      "group_id_overlap": 10,
+      "item_id_overlap": 0
+    },
+    "conclusion": "V5 has not run this VAL in the current candidate, but the 100-row collection is historically exposed and is not pristine independent validation.",
+    "metadata_gap": "P1R recovery manifest has no item_id column; item_id overlap is unavailable (not inferred). Media and image SHA overlap remain directly verified.",
+    "allowed_reads": [
+      "item_id",
+      "media_id",
+      "group_id",
+      "image_sha256",
+      "manifest hash",
+      "historical execution status and request counts"
+    ],
+    "forbidden_reads_performed": {
+      "val_images": 0,
+      "val_generation_prompts": 0,
+      "val_predictions": 0,
+      "val_evidence": 0,
+      "holdout": 0
+    },
+    "not_used_for_candidate_design": true,
+    "p1r_item_id_column_present": false
+  },
+  "discrepancies": [
+    {
+      "name": "no_val_holdout_requests",
+      "detail": null
+    }
+  ],
+  "checks": [
+    {
+      "name": "recovery_freeze_hash",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "recovery_freeze_identity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "recovery_freeze_status",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "recovery_freeze_binding_count",
+      "pass": true,
+      "detail": 1833
+    },
+    {
+      "name": "all_recovery_freeze_bindings",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "all_original_v5_505_bindings",
+      "pass": true,
+      "detail": [
+        505,
+        []
+      ]
+    },
+    {
+      "name": "manifest_counts",
+      "pass": true,
+      "detail": [
+        436,
+        321,
+        115
+      ]
+    },
+    {
+      "name": "manifest_unique_ids",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_only_evaluation_stratum",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_strata",
+      "pass": true,
+      "detail": {
+        "ground_lying": 145,
+        "normal_negative": 230,
+        "auxiliary_attention": 41,
+        "visual_uncertain": 20
+      }
+    },
+    {
+      "name": "manifest_result_source",
+      "pass": true,
+      "detail": {
+        "REUSE_V5_B0_PILOT": 115,
+        "NEW_INFERENCE": 321
+      }
+    },
+    {
+      "name": "floor_subset",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "known_regression_excluded",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "new_order",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reuse_direct_adapter_replay",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reuse_source_not_v4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reuse_raw_parser_policy_115",
+      "pass": true,
+      "detail": 115
+    },
+    {
+      "name": "reuse_ledger_115",
+      "pass": true,
+      "detail": 115
+    },
+    {
+      "name": "partial_output_lines",
+      "pass": true,
+      "detail": 389
+    },
+    {
+      "name": "new_request_counts",
+      "pass": true,
+      "detail": [
+        274,
+        274,
+        274
+      ]
+    },
+    {
+      "name": "no_protocol_failure",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no_completion_lock_after_early_stop",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "new_raw_hash_parser_274",
+      "pass": true,
+      "detail": 274
+    },
+    {
+      "name": "new_policy_replay_274",
+      "pass": true,
+      "detail": 274
+    },
+    {
+      "name": "new_payload_hash_274",
+      "pass": true,
+      "detail": 274
+    },
+    {
+      "name": "new_source_hash_274",
+      "pass": true,
+      "detail": 274
+    },
+    {
+      "name": "new_output_match_274",
+      "pass": true,
+      "detail": 274
+    },
+    {
+      "name": "jsonl_objects",
+      "pass": true,
+      "detail": 549
+    },
+    {
+      "name": "event_states",
+      "pass": true,
+      "detail": {
+        "claimed": 274,
+        "completed": 274,
+        "early_stop": 1
+      }
+    },
+    {
+      "name": "unique_new_request_ids",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "request_order",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "timestamps_ordered",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "serial_no_overlap",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "independent_ground_counts",
+      "pass": true,
+      "detail": {
+        "ALERT_GROUND_LYING": 145
+      }
+    },
+    {
+      "name": "independent_normal_counts",
+      "pass": true,
+      "detail": {
+        "NO_ALERT_NORMAL_POSE": 221,
+        "RECHECK_VISUAL_UNCERTAIN": 8,
+        "ATTENTION_NEAR_GROUND": 1
+      }
+    },
+    {
+      "name": "independent_aux_counts",
+      "pass": true,
+      "detail": {
+        "ATTENTION_NEAR_GROUND": 13,
+        "ALERT_GROUND_LYING": 1
+      }
+    },
+    {
+      "name": "independent_visual_pending",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "independent_floor_counts",
+      "pass": true,
+      "detail": {
+        "NO_ALERT_NORMAL_POSE": 50,
+        "RECHECK_VISUAL_UNCERTAIN": 5
+      }
+    },
+    {
+      "name": "early_stop_first_trigger",
+      "pass": true,
+      "detail": [
+        274,
+        "E_AUXILIARY_HIGH_PRIORITY_ALERT"
+      ]
+    },
+    {
+      "name": "early_stop_saved_counts",
+      "pass": true,
+      "detail": {
+        "trigger": "E_AUXILIARY_HIGH_PRIORITY_ALERT",
+        "new_requests_claimed": 274,
+        "new_requests_not_started": 47
+      }
+    },
+    {
+      "name": "old_extension_still_zero",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no_val_holdout_requests",
+      "pass": false,
+      "detail": null
+    },
+    {
+      "name": "legacy_val_audit",
+      "pass": true,
+      "detail": {
+        "media_id_overlap": 100,
+        "image_sha256_overlap": 100,
+        "group_id_overlap": 10,
+        "item_id_overlap": 0
+      }
+    }
+  ],
+  "checks_passed": 42,
+  "checks_failed": 1,
+  "completed_at_utc": "2026-09-09T19:50:24.085523+08:00",
+  "GT_TYPE": "PROMPT_DERIVED_SYNTHETIC_GT",
+  "MODEL_PREDICTION_USED_AS_GT": false,
+  "HUMAN_SEMANTIC_REVIEW_REQUIRED_FOR_SYNTHETIC_DEVELOPMENT": false,
+  "known_regression": "PREVIOUS_PASS_NOT_RERUN",
+  "legacy_v4_cache_used_for_decision": false
+}

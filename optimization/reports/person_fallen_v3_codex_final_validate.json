@@ -1,0 +1,43 @@
+{
+  "errors": [],
+  "ingest": {
+    "clean_manifest_rows": 202,
+    "clean_manifest_unique_sha256": 202,
+    "q9_binding_blocked_not_ingested": 30,
+    "q9_physical_final_files_available": 30
+  },
+  "integrity": {
+    "broken_links_global": 0,
+    "broken_person_fallen_links": 0,
+    "duplicate_media": 0,
+    "label_conflicts": 0,
+    "review_person_fallen_link_count": 702,
+    "review_person_fallen_role_counts": {
+      "hard_negative": 301,
+      "negative": 120,
+      "positive": 261,
+      "uncertain": 20
+    }
+  },
+  "person_fallen": {
+    "labels_total": 702,
+    "v2_rows": 500,
+    "v3_provenance_errors": [],
+    "v3_role_counts": {
+      "hard_negative": 121,
+      "negative": 20,
+      "positive": 61
+    },
+    "v3_rows": 202,
+    "v3_unique_media_ids": 202
+  },
+  "status": "PASS",
+  "validation": {
+    "error_count": 0,
+    "full_hash_check": true,
+    "label_count": 5383,
+    "media_count": 5583,
+    "status": "valid",
+    "warning_count": 687
+  }
+}

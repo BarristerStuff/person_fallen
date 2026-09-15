@@ -1,0 +1,77 @@
+{
+  "candidate": "V5-B0-TARGET-ATTRIBUTES",
+  "execution": "FULL_DEV_RECOVERY_R1",
+  "execution_id": "PERSON_FALLEN_V5_B0_FULL_DEV_RECOVERY_R1_20260909",
+  "purpose": "Engineering recovery of the same V5-B0 full-DEV extension; not a new semantic candidate",
+  "source_candidate_root": "/home/yanbo/net_vlm_person_fallen_v2_optimization/17_person_fallen_v5_target_attributes",
+  "evaluation_mode": "SAME_V5_B0_EXACT_RESULT_REUSE_PLUS_NEW_INFERENCE",
+  "legacy_v4_cache_used_for_decision": false,
+  "cached_primary_used_for_final_decision": false,
+  "model": {
+    "endpoint": "http://192.168.20.62:11434",
+    "name": "qwen3.5:4b",
+    "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+    "ollama_version": "0.23.2",
+    "think": false,
+    "stream": false,
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 768,
+    "concurrency": 1,
+    "timeout_seconds": 120,
+    "automatic_retry": false,
+    "resend_completion_unknown": false,
+    "api": "/api/generate"
+  },
+  "input_contract": {
+    "full_view_then_existing_crop": true,
+    "crop_attached_only_when_original_person_detected_true": true,
+    "new_detector_requests": 0,
+    "new_resize_or_crop": false,
+    "image_bytes_unchanged": true
+  },
+  "full_dev": {
+    "expected_rows": 436,
+    "reused_v5_b0_rows": 115,
+    "new_rows": 321,
+    "new_request_prefix": "V5_B0_FULLDEV_EXTENSION_",
+    "order": ["normal_negative", "ground_lying", "auxiliary_attention", "visual_uncertain"],
+    "strata": {"ground_lying": 145, "normal_negative": 230, "auxiliary_attention": 41, "visual_uncertain": 20},
+    "floor_sitting_count": 55
+  },
+  "gates": {
+    "ground_lying_alert_min": 138,
+    "ground_lying_alert_recheck_coverage": 145,
+    "ground_lying_no_alert": 0,
+    "ground_lying_attention": 0,
+    "normal_negative_alert": 0,
+    "normal_negative_recheck_max": 23,
+    "floor_sitting_alert": 0,
+    "floor_sitting_recheck_max": 5,
+    "floor_sitting_no_alert_min": 50,
+    "auxiliary_attention_alert": 0,
+    "strict_json": "436/436",
+    "source_cache_binding": "100%"
+  },
+  "early_stop": {
+    "status": "V5_B0_FULL_DEV_EARLY_GATE_FAIL",
+    "normal_negative_alert_at_least": 1,
+    "normal_negative_total_recheck_at_least": 24,
+    "ground_no_alert_or_attention_at_least": 1,
+    "ground_non_alert_at_least": 8,
+    "auxiliary_alert_at_least": 1,
+    "pending_ground_not_counted_as_observed_non_alert": true
+  },
+  "budgets": {"historical_v5_b0_requests": 116, "new_requests_max": 321, "candidate_cumulative_max": 437, "val": 0, "holdout": 0},
+  "known_regression": "PREVIOUS_PASS_NOT_RERUN",
+  "holdout_consumed": false,
+  "object_localization_accuracy": "UNVERIFIED",
+  "stop_rules": [
+    "Any old-extension unexpected execution state blocks before requests",
+    "Any freeze/input/model/version/hash mismatch blocks",
+    "Any HTTP failure, timeout, completion-unknown, truncation or schema failure stops without retry",
+    "Any registered metric early-stop condition stops without retry",
+    "No code/rule/freeze edits after first new request",
+    "No VAL/Holdout/robot/production execution"
+  ]
+}

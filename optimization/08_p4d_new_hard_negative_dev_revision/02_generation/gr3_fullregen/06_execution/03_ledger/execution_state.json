@@ -1,0 +1,41 @@
+{
+  "authorized": false,
+  "bulk": {
+    "failure": 0,
+    "planned": 424,
+    "started": false,
+    "success": 0
+  },
+  "generated_final": 0,
+  "generated_raw": 0,
+  "logical_failures": 0,
+  "logical_slot_invocations": 0,
+  "logical_successes": 0,
+  "native_retry_policy": {
+    "base_delay_seconds": 1,
+    "max_retries": 3
+  },
+  "outer_retry": false,
+  "outstanding": 440,
+  "provider_requests": 0,
+  "ramp1": {
+    "failure": 0,
+    "planned": 5,
+    "started": false,
+    "success": 0
+  },
+  "ramp2": {
+    "failure": 0,
+    "planned": 10,
+    "started": false,
+    "success": 0
+  },
+  "smoke": {
+    "failure": 0,
+    "planned": 1,
+    "started": false,
+    "success": 0
+  },
+  "stage": "P4D_GR3E_FULL_REGEN_EXECUTION",
+  "status": "AWAITING_EXPLICIT_USER_AUTHORIZATION"
+}

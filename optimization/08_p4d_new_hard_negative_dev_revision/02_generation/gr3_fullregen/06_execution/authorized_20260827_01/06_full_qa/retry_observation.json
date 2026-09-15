@@ -1,0 +1,818 @@
+{
+  "failed_slot_observation": [
+    {
+      "observed_attempt_lower_bound": 4,
+      "prompt_id": "PF_P4D_HN_KNEEL_G008_V05",
+      "request_id": "P4D_GR3E_BULK_0100_PF_P4D_HN_KNEEL_G008_V05",
+      "request_started_events": 4,
+      "retry_scheduled_events": 3,
+      "status": "FAILED_CONFIRMED"
+    }
+  ],
+  "interpretation": "The wrapper exposes retry progress in stderr for this run; successful requests without retry events are counted as one observed attempt, while absence of an event is not a billing assertion.",
+  "logical_invocations_with_raw_records": 100,
+  "observed_attempt_lower_bound_sum": 107,
+  "observed_native_retry_scheduled_events": 7,
+  "per_request": [
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G004_V02",
+      "request_id": "P4D_GR3E_BULK_0017_PF_P4D_HN_SIT_G004_V02",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G004_V03",
+      "request_id": "P4D_GR3E_BULK_0018_PF_P4D_HN_SIT_G004_V03",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G004_V04",
+      "request_id": "P4D_GR3E_BULK_0019_PF_P4D_HN_SIT_G004_V04",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G004_V05",
+      "request_id": "P4D_GR3E_BULK_0020_PF_P4D_HN_SIT_G004_V05",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G005_V01",
+      "request_id": "P4D_GR3E_BULK_0021_PF_P4D_HN_SIT_G005_V01",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G005_V02",
+      "request_id": "P4D_GR3E_BULK_0022_PF_P4D_HN_SIT_G005_V02",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G005_V03",
+      "request_id": "P4D_GR3E_BULK_0023_PF_P4D_HN_SIT_G005_V03",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G005_V04",
+      "request_id": "P4D_GR3E_BULK_0024_PF_P4D_HN_SIT_G005_V04",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G005_V05",
+      "request_id": "P4D_GR3E_BULK_0025_PF_P4D_HN_SIT_G005_V05",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G006_V01",
+      "request_id": "P4D_GR3E_BULK_0026_PF_P4D_HN_SIT_G006_V01",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 2,
+      "prompt_id": "PF_P4D_HN_SIT_G006_V02",
+      "request_id": "P4D_GR3E_BULK_0027_PF_P4D_HN_SIT_G006_V02",
+      "request_started_events": 2,
+      "retry_scheduled_events": 1,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G006_V03",
+      "request_id": "P4D_GR3E_BULK_0028_PF_P4D_HN_SIT_G006_V03",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G006_V04",
+      "request_id": "P4D_GR3E_BULK_0029_PF_P4D_HN_SIT_G006_V04",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G006_V05",
+      "request_id": "P4D_GR3E_BULK_0030_PF_P4D_HN_SIT_G006_V05",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G007_V01",
+      "request_id": "P4D_GR3E_BULK_0031_PF_P4D_HN_SIT_G007_V01",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G007_V02",
+      "request_id": "P4D_GR3E_BULK_0032_PF_P4D_HN_SIT_G007_V02",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G007_V03",
+      "request_id": "P4D_GR3E_BULK_0033_PF_P4D_HN_SIT_G007_V03",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G007_V04",
+      "request_id": "P4D_GR3E_BULK_0034_PF_P4D_HN_SIT_G007_V04",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G007_V05",
+      "request_id": "P4D_GR3E_BULK_0035_PF_P4D_HN_SIT_G007_V05",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G008_V01",
+      "request_id": "P4D_GR3E_BULK_0036_PF_P4D_HN_SIT_G008_V01",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G008_V02",
+      "request_id": "P4D_GR3E_BULK_0037_PF_P4D_HN_SIT_G008_V02",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G008_V03",
+      "request_id": "P4D_GR3E_BULK_0038_PF_P4D_HN_SIT_G008_V03",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G008_V04",
+      "request_id": "P4D_GR3E_BULK_0039_PF_P4D_HN_SIT_G008_V04",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G008_V05",
+      "request_id": "P4D_GR3E_BULK_0040_PF_P4D_HN_SIT_G008_V05",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G009_V01",
+      "request_id": "P4D_GR3E_BULK_0041_PF_P4D_HN_SIT_G009_V01",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G009_V02",
+      "request_id": "P4D_GR3E_BULK_0042_PF_P4D_HN_SIT_G009_V02",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G009_V03",
+      "request_id": "P4D_GR3E_BULK_0043_PF_P4D_HN_SIT_G009_V03",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G009_V04",
+      "request_id": "P4D_GR3E_BULK_0044_PF_P4D_HN_SIT_G009_V04",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G009_V05",
+      "request_id": "P4D_GR3E_BULK_0045_PF_P4D_HN_SIT_G009_V05",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G010_V01",
+      "request_id": "P4D_GR3E_BULK_0046_PF_P4D_HN_SIT_G010_V01",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G010_V02",
+      "request_id": "P4D_GR3E_BULK_0047_PF_P4D_HN_SIT_G010_V02",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G010_V03",
+      "request_id": "P4D_GR3E_BULK_0048_PF_P4D_HN_SIT_G010_V03",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G010_V04",
+      "request_id": "P4D_GR3E_BULK_0049_PF_P4D_HN_SIT_G010_V04",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G010_V05",
+      "request_id": "P4D_GR3E_BULK_0050_PF_P4D_HN_SIT_G010_V05",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G011_V01",
+      "request_id": "P4D_GR3E_BULK_0051_PF_P4D_HN_SIT_G011_V01",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G011_V02",
+      "request_id": "P4D_GR3E_BULK_0052_PF_P4D_HN_SIT_G011_V02",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G011_V03",
+      "request_id": "P4D_GR3E_BULK_0053_PF_P4D_HN_SIT_G011_V03",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G011_V04",
+      "request_id": "P4D_GR3E_BULK_0054_PF_P4D_HN_SIT_G011_V04",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G011_V05",
+      "request_id": "P4D_GR3E_BULK_0055_PF_P4D_HN_SIT_G011_V05",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G012_V01",
+      "request_id": "P4D_GR3E_BULK_0056_PF_P4D_HN_SIT_G012_V01",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G012_V02",
+      "request_id": "P4D_GR3E_BULK_0057_PF_P4D_HN_SIT_G012_V02",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G012_V03",
+      "request_id": "P4D_GR3E_BULK_0058_PF_P4D_HN_SIT_G012_V03",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G012_V04",
+      "request_id": "P4D_GR3E_BULK_0059_PF_P4D_HN_SIT_G012_V04",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G012_V05",
+      "request_id": "P4D_GR3E_BULK_0060_PF_P4D_HN_SIT_G012_V05",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_KNEEL_G001_V01",
+      "request_id": "P4D_GR3E_BULK_0061_PF_P4D_HN_KNEEL_G001_V01",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_KNEEL_G001_V02",
+      "request_id": "P4D_GR3E_BULK_0062_PF_P4D_HN_KNEEL_G001_V02",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_KNEEL_G001_V03",
+      "request_id": "P4D_GR3E_BULK_0063_PF_P4D_HN_KNEEL_G001_V03",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_KNEEL_G001_V04",
+      "request_id": "P4D_GR3E_BULK_0064_PF_P4D_HN_KNEEL_G001_V04",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_KNEEL_G001_V05",
+      "request_id": "P4D_GR3E_BULK_0065_PF_P4D_HN_KNEEL_G001_V05",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_KNEEL_G002_V01",
+      "request_id": "P4D_GR3E_BULK_0066_PF_P4D_HN_KNEEL_G002_V01",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_KNEEL_G002_V02",
+      "request_id": "P4D_GR3E_BULK_0067_PF_P4D_HN_KNEEL_G002_V02",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_KNEEL_G002_V03",
+      "request_id": "P4D_GR3E_BULK_0068_PF_P4D_HN_KNEEL_G002_V03",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_KNEEL_G002_V04",
+      "request_id": "P4D_GR3E_BULK_0069_PF_P4D_HN_KNEEL_G002_V04",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_KNEEL_G002_V05",
+      "request_id": "P4D_GR3E_BULK_0070_PF_P4D_HN_KNEEL_G002_V05",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_KNEEL_G003_V01",
+      "request_id": "P4D_GR3E_BULK_0071_PF_P4D_HN_KNEEL_G003_V01",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_KNEEL_G003_V02",
+      "request_id": "P4D_GR3E_BULK_0072_PF_P4D_HN_KNEEL_G003_V02",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_KNEEL_G003_V03",
+      "request_id": "P4D_GR3E_BULK_0073_PF_P4D_HN_KNEEL_G003_V03",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_KNEEL_G003_V04",
+      "request_id": "P4D_GR3E_BULK_0074_PF_P4D_HN_KNEEL_G003_V04",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_KNEEL_G003_V05",
+      "request_id": "P4D_GR3E_BULK_0075_PF_P4D_HN_KNEEL_G003_V05",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_KNEEL_G004_V01",
+      "request_id": "P4D_GR3E_BULK_0076_PF_P4D_HN_KNEEL_G004_V01",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_KNEEL_G004_V02",
+      "request_id": "P4D_GR3E_BULK_0077_PF_P4D_HN_KNEEL_G004_V02",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_KNEEL_G004_V03",
+      "request_id": "P4D_GR3E_BULK_0078_PF_P4D_HN_KNEEL_G004_V03",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_KNEEL_G004_V04",
+      "request_id": "P4D_GR3E_BULK_0079_PF_P4D_HN_KNEEL_G004_V04",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_KNEEL_G004_V05",
+      "request_id": "P4D_GR3E_BULK_0080_PF_P4D_HN_KNEEL_G004_V05",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_KNEEL_G005_V01",
+      "request_id": "P4D_GR3E_BULK_0081_PF_P4D_HN_KNEEL_G005_V01",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_KNEEL_G005_V02",
+      "request_id": "P4D_GR3E_BULK_0082_PF_P4D_HN_KNEEL_G005_V02",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_KNEEL_G005_V03",
+      "request_id": "P4D_GR3E_BULK_0083_PF_P4D_HN_KNEEL_G005_V03",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 2,
+      "prompt_id": "PF_P4D_HN_KNEEL_G005_V04",
+      "request_id": "P4D_GR3E_BULK_0084_PF_P4D_HN_KNEEL_G005_V04",
+      "request_started_events": 2,
+      "retry_scheduled_events": 1,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_KNEEL_G005_V05",
+      "request_id": "P4D_GR3E_BULK_0085_PF_P4D_HN_KNEEL_G005_V05",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_KNEEL_G006_V01",
+      "request_id": "P4D_GR3E_BULK_0086_PF_P4D_HN_KNEEL_G006_V01",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_KNEEL_G006_V02",
+      "request_id": "P4D_GR3E_BULK_0087_PF_P4D_HN_KNEEL_G006_V02",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_KNEEL_G006_V03",
+      "request_id": "P4D_GR3E_BULK_0088_PF_P4D_HN_KNEEL_G006_V03",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_KNEEL_G006_V04",
+      "request_id": "P4D_GR3E_BULK_0089_PF_P4D_HN_KNEEL_G006_V04",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_KNEEL_G006_V05",
+      "request_id": "P4D_GR3E_BULK_0090_PF_P4D_HN_KNEEL_G006_V05",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_KNEEL_G007_V01",
+      "request_id": "P4D_GR3E_BULK_0091_PF_P4D_HN_KNEEL_G007_V01",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_KNEEL_G007_V02",
+      "request_id": "P4D_GR3E_BULK_0092_PF_P4D_HN_KNEEL_G007_V02",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_KNEEL_G007_V03",
+      "request_id": "P4D_GR3E_BULK_0093_PF_P4D_HN_KNEEL_G007_V03",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_KNEEL_G007_V04",
+      "request_id": "P4D_GR3E_BULK_0094_PF_P4D_HN_KNEEL_G007_V04",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_KNEEL_G007_V05",
+      "request_id": "P4D_GR3E_BULK_0095_PF_P4D_HN_KNEEL_G007_V05",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_KNEEL_G008_V01",
+      "request_id": "P4D_GR3E_BULK_0096_PF_P4D_HN_KNEEL_G008_V01",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_KNEEL_G008_V02",
+      "request_id": "P4D_GR3E_BULK_0097_PF_P4D_HN_KNEEL_G008_V02",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_KNEEL_G008_V03",
+      "request_id": "P4D_GR3E_BULK_0098_PF_P4D_HN_KNEEL_G008_V03",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_KNEEL_G008_V04",
+      "request_id": "P4D_GR3E_BULK_0099_PF_P4D_HN_KNEEL_G008_V04",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 4,
+      "prompt_id": "PF_P4D_HN_KNEEL_G008_V05",
+      "request_id": "P4D_GR3E_BULK_0100_PF_P4D_HN_KNEEL_G008_V05",
+      "request_started_events": 4,
+      "retry_scheduled_events": 3,
+      "status": "FAILED_CONFIRMED"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G001_V02",
+      "request_id": "P4D_GR3E_RAMP1_0002_PF_P4D_HN_SIT_G001_V02",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G001_V03",
+      "request_id": "P4D_GR3E_RAMP1_0003_PF_P4D_HN_SIT_G001_V03",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G001_V04",
+      "request_id": "P4D_GR3E_RAMP1_0004_PF_P4D_HN_SIT_G001_V04",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G001_V05",
+      "request_id": "P4D_GR3E_RAMP1_0005_PF_P4D_HN_SIT_G001_V05",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G002_V01",
+      "request_id": "P4D_GR3E_RAMP1_0006_PF_P4D_HN_SIT_G002_V01",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G002_V02",
+      "request_id": "P4D_GR3E_RAMP2_0007_PF_P4D_HN_SIT_G002_V02",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G002_V03",
+      "request_id": "P4D_GR3E_RAMP2_0008_PF_P4D_HN_SIT_G002_V03",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G002_V04",
+      "request_id": "P4D_GR3E_RAMP2_0009_PF_P4D_HN_SIT_G002_V04",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G002_V05",
+      "request_id": "P4D_GR3E_RAMP2_0010_PF_P4D_HN_SIT_G002_V05",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G003_V01",
+      "request_id": "P4D_GR3E_RAMP2_0011_PF_P4D_HN_SIT_G003_V01",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G003_V02",
+      "request_id": "P4D_GR3E_RAMP2_0012_PF_P4D_HN_SIT_G003_V02",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 3,
+      "prompt_id": "PF_P4D_HN_SIT_G003_V03",
+      "request_id": "P4D_GR3E_RAMP2_0013_PF_P4D_HN_SIT_G003_V03",
+      "request_started_events": 3,
+      "retry_scheduled_events": 2,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G003_V04",
+      "request_id": "P4D_GR3E_RAMP2_0014_PF_P4D_HN_SIT_G003_V04",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G003_V05",
+      "request_id": "P4D_GR3E_RAMP2_0015_PF_P4D_HN_SIT_G003_V05",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G004_V01",
+      "request_id": "P4D_GR3E_RAMP2_0016_PF_P4D_HN_SIT_G004_V01",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "observed_attempt_lower_bound": 1,
+      "prompt_id": "PF_P4D_HN_SIT_G001_V01",
+      "request_id": "P4D_GR3E_SMOKE_0001_PF_P4D_HN_SIT_G001_V01",
+      "request_started_events": 1,
+      "retry_scheduled_events": 0,
+      "status": "SUCCESS"
+    }
+  ]
+}

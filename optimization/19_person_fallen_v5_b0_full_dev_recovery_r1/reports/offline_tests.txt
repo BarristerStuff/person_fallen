@@ -1,0 +1,26 @@
+test_ground_noalert_attention_and_aux_alert_stop (test_recovery_engine.RecoveryMetricsTests) ... ok
+test_ground_nonalert_threshold_uses_observed_values (test_recovery_engine.RecoveryMetricsTests) ... ok
+test_normal_alert_stops (test_recovery_engine.RecoveryMetricsTests) ... ok
+test_normal_recheck_23_no_stop_24_stop_including_reuse_five (test_recovery_engine.RecoveryMetricsTests) ... ok
+test_partial_invalid_and_complete_gate_not_pass (test_recovery_engine.RecoveryMetricsTests) ... ok
+test_pending_ground_not_counted_as_non_alert (test_recovery_engine.RecoveryMetricsTests) ... ok
+test_reuse_is_v5_b0_not_v4 (test_recovery_engine.RecoveryMetricsTests) ... ok
+test_unified_manifest_and_counts (test_recovery_engine.RecoveryMetricsTests) ... ok
+test_duplicate_request_id_manifest_is_rejected (test_recovery_engine.RecoveryRunnerTests) ... ok
+test_fake_transport_complete_e2e_nested_parent_and_jsonl (test_recovery_engine.RecoveryRunnerTests) ... ok
+test_forbidden_stages_rejected_without_network (test_recovery_engine.RecoveryRunnerTests) ... {"status": "UNAUTHORIZED_STAGE", "allowed": ["full_dev"], "requested": "val"}
+{"status": "UNAUTHORIZED_STAGE", "allowed": ["full_dev"], "requested": "holdout"}
+{"status": "UNAUTHORIZED_STAGE", "allowed": ["full_dev"], "requested": "screen"}
+{"status": "UNAUTHORIZED_STAGE", "allowed": ["full_dev"], "requested": "full_dev_extension"}
+{"status": "UNAUTHORIZED_STAGE", "allowed": ["full_dev"], "requested": "full_dev436"}
+ok
+test_protocol_failure_no_retry_no_completion_lock (test_recovery_engine.RecoveryRunnerTests) ... ok
+test_ps_snapshot_not_used_as_hard_gate (test_recovery_engine.RecoveryRunnerTests) ... ok
+test_reuse_and_new_request_identity_are_disjoint (test_recovery_engine.RecoveryRunnerTests) ... ok
+test_runner_irreversible_recheck_early_stop_persists_partial_only (test_recovery_engine.RecoveryRunnerTests) ... ok
+test_source_split_and_gt_fields_are_not_rewritten (test_recovery_engine.RecoveryRunnerTests) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 5.057s
+
+OK

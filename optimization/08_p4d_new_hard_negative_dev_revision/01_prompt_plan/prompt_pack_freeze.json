@@ -1,0 +1,30 @@
+{
+  "created_at": "2026-08-27T04:58:02+00:00",
+  "exact_old_prompt_matches": 0,
+  "formal_dataset_mutation": false,
+  "freeze_type": "prompt_pack_freeze_after_pre_generation_group_split",
+  "generation_batch": "batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m",
+  "group_count": 88,
+  "group_manifest_sha256": "11ab903056e0acbdb9ca5a507f33f3237f3b90f059f445f8df76c1dde174fbab",
+  "group_split_freeze_sha256": "b9d1df02541454b38ab296bd0033b0d327cca0ba720b95c7414ea6ec1bc05843",
+  "holdout_requests": 0,
+  "images_generated": 0,
+  "model_or_c3_used_before_prompt_freeze": false,
+  "new_text_to_image_lineage": true,
+  "old_images_as_references": false,
+  "old_prompt_count_audited": 500,
+  "prompt_count": 440,
+  "prompt_manifest_sha256": "e75c48626f2eabade9cdbc48bb77072c5d470ddce60ec9a903f580d4990aeceb",
+  "prompt_pack_sha256": "8b791d2007b0866f83275082a7394a0d33a5d7bd0aef4ab9f19993fba857a250",
+  "role_counts": {
+    "hard_negative": 300,
+    "ordinary_negative": 40,
+    "positive": 100
+  },
+  "split_counts": {
+    "NEW_DESIGN": 265,
+    "NEW_SCREEN": 175
+  },
+  "stage": "P4D_NEW_HARD_NEGATIVE_DEV_REVISION",
+  "val_requests": 0
+}

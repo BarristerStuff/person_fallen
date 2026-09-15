@@ -1,0 +1,24 @@
+{
+  "adapter_version": "CODEX_SAFE_STAGED_CV_V1",
+  "provider_render_prompt_changed": true,
+  "role": {
+    "hard_negative": 10,
+    "ordinary_negative": 3,
+    "positive": 20
+  },
+  "rows": 33,
+  "semantic_frozen_prompt_changed": false,
+  "split": {
+    "NEW_DESIGN": 18,
+    "NEW_SCREEN": 15
+  },
+  "taxonomy_groups": [
+    "crawling_quadruped_support",
+    "ground_maintenance",
+    "intentional_ground_lying",
+    "multi_person_one_lying",
+    "horizontal_corridor_ground_lying",
+    "side_lying"
+  ],
+  "unique": 33
+}

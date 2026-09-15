@@ -1,0 +1,192 @@
+{
+  "P4D_STATUS": "GENERATION_REQUIRED",
+  "artifact_sha256": {
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/00_preflight/authorization_gate_checkpoint.json": null,
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/00_preflight/dataset_boundary_after.json": "a12d0d8a582c41a6cc9afa7308633a3b0d3182d1288c515e4dc4f1661c72d6e6",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/00_preflight/dataset_boundary_before.json": "b29bf6264c6cc70bb2e3144827f0970dedc7266d9ecf84c7aaf508bb41d03537",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/00_preflight/frozen_asset_check.json": "a8ca1564bc4f1e66aa0ece550e47a7615d8db7a4cf0c3e75af56704ff8a2c14e",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/00_preflight/full_regen_manifest_check.json": "a9ec5588955e1b38cb8c69c6953d749d913e1248dcd119e6d1d0ef59bc0c6460",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/00_preflight/new_batch_zero_check.json": "ea6eee5145e7fd2b23a4b8f9f4a5bdc6e71df343335a5e86538f36392cc3cf00",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/00_preflight/preparation_freeze_check.json": "ff1cb9ccee5a0580e8e2f5f13221fa4a0ca4c2ab7e0985501f5210eec063fb1e",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/01_authorization/authorization_check.json": "5715d6b6f67661dbb18a7dd4cfde86ef5920e16b4b5c0f616ff964224d284abb",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/02_runner/runner_not_created.md": "0cfba54f44a0d40880500d53e618485c51245e95bb792fae3be8665646b8c7b7",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/03_ledger/execution_ledger.csv": "73b50b22bbbd709c4f64e8ca949233ba7784e310882867ca90f5d18f236e2999",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/03_ledger/execution_state.json": "98cf966602b9a09ef6d8d727381d46476b2c17f9225c03a058b2c2fe19716ebc",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/final_status.json": "369fcd5e913b11d1d349917dd39132567c63eeab97de847bf9cce8664a668a6a"
+  },
+  "authorization": {
+    "attestation_sha256": null,
+    "authorization_present": false,
+    "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/01_authorization/authorization_check.json",
+    "sha256": "5715d6b6f67661dbb18a7dd4cfde86ef5920e16b4b5c0f616ff964224d284abb"
+  },
+  "batch_zero_check": {
+    "batch": "/home/yanbo/下载/batches/batch-person-fallen-v2-p4d-hardneg-fullregen-r2-camera1p5m",
+    "image_count": 0,
+    "image_files": [],
+    "pass": true,
+    "symlink_count": 0,
+    "symlinks": [],
+    "verified_at": "2026-08-27T10:00:44.773+00:00"
+  },
+  "captured_at": "2026-08-27T10:01:50.274+00:00",
+  "dataset_boundary": {
+    "after_counts": {
+      "batch_count": 45,
+      "label_count": 4521,
+      "media_count": 4935,
+      "split_count": 2058
+    },
+    "after_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/00_preflight/dataset_boundary_after.json",
+    "before_counts": {
+      "batch_count": 45,
+      "label_count": 4521,
+      "media_count": 4934,
+      "split_count": 2058
+    },
+    "before_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/00_preflight/dataset_boundary_before.json",
+    "delta": {
+      "batch_count": 0,
+      "label_count": 0,
+      "media_count": 1,
+      "split_count": 0
+    },
+    "formal_dataset_mutation_by_gr3e": false,
+    "p4d_reference_hits_total": 0
+  },
+  "frozen_assets": {
+    "actual": {
+      "C3_prompt.txt": "685bb9724b1faa96298c1e6cf8139774d82afbc9d2f30cdd154fbe5cb776951e",
+      "group_manifest.csv": "11ab903056e0acbdb9ca5a507f33f3237f3b90f059f445f8df76c1dde174fbab",
+      "group_split_freeze.json": "b9d1df02541454b38ab296bd0033b0d327cca0ba720b95c7414ea6ec1bc05843",
+      "prompt_manifest.csv": "e75c48626f2eabade9cdbc48bb77072c5d470ddce60ec9a903f580d4990aeceb",
+      "prompt_pack.md": "8b791d2007b0866f83275082a7394a0d33a5d7bd0aef4ab9f19993fba857a250",
+      "prompt_pack_freeze.json": "385b7b9f0b6b675c3820e97fe1931bd0e19b9b5839f50a3fcae70fd1feec136b"
+    },
+    "all_match": true,
+    "checks": {
+      "C3_prompt.txt": true,
+      "group_manifest.csv": true,
+      "group_split_freeze.json": true,
+      "prompt_manifest.csv": true,
+      "prompt_pack.md": true,
+      "prompt_pack_freeze.json": true
+    },
+    "expected": {
+      "C3_prompt.txt": "685bb9724b1faa96298c1e6cf8139774d82afbc9d2f30cdd154fbe5cb776951e",
+      "group_manifest.csv": "11ab903056e0acbdb9ca5a507f33f3237f3b90f059f445f8df76c1dde174fbab",
+      "group_split_freeze.json": "b9d1df02541454b38ab296bd0033b0d327cca0ba720b95c7414ea6ec1bc05843",
+      "prompt_manifest.csv": "e75c48626f2eabade9cdbc48bb77072c5d470ddce60ec9a903f580d4990aeceb",
+      "prompt_pack.md": "8b791d2007b0866f83275082a7394a0d33a5d7bd0aef4ab9f19993fba857a250",
+      "prompt_pack_freeze.json": "385b7b9f0b6b675c3820e97fe1931bd0e19b9b5839f50a3fcae70fd1feec136b"
+    },
+    "verified_at": "2026-08-27T10:00:44.686+00:00"
+  },
+  "ledger": {
+    "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/03_ledger/execution_ledger.csv",
+    "rows": 0,
+    "sha256": "73b50b22bbbd709c4f64e8ca949233ba7784e310882867ca90f5d18f236e2999"
+  },
+  "manifest": {
+    "missing_prompt_files": 0,
+    "missing_prompt_ids": [],
+    "pass": true,
+    "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/03_fullregen_plan/full_regen_prompt_manifest.csv",
+    "prompt_byte_mismatch": 0,
+    "prompt_mismatch_ids": [],
+    "role_counts": {
+      "hard_negative": 300,
+      "ordinary_negative": 40,
+      "positive": 100
+    },
+    "rows": 440,
+    "sha256_actual": "5f7afbc010a0028497ec0210e75dc28cc79212fbc114cbf4741ee0bc4ce361c4",
+    "sha256_expected": "5f7afbc010a0028497ec0210e75dc28cc79212fbc114cbf4741ee0bc4ce361c4",
+    "sha_match": true,
+    "split_counts": {
+      "NEW_DESIGN": 265,
+      "NEW_SCREEN": 175
+    },
+    "unique_group_ids": 88,
+    "unique_prompt_ids": 440,
+    "verified_at": "2026-08-27T10:00:44.772+00:00"
+  },
+  "ollama_service_modified": false,
+  "preparation_freeze": {
+    "current_overview_sha256": "6fbd65bcbe2cf2ee4ad2a0e26e5798d2c9ebd63f31bad8f2f718ad76d8f98758",
+    "expected_sha256": "a637a289b1a657a33fe777b97f5f769815b307c5404a47d48f9f2644123c415f",
+    "overview_append_only_after_preparation": true,
+    "overview_sha256_at_preparation": "aad1b5ef6f5a6a0e12ac9ae0c3980c3f6fedabe3b4f0e3c90377c9b054729673",
+    "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/freeze/p4d_gr3_preparation_freeze.json",
+    "sha256": "a637a289b1a657a33fe777b97f5f769815b307c5404a47d48f9f2644123c415f",
+    "sidecar_match": true
+  },
+  "production_code_modified": false,
+  "provider_identity_last_known": {
+    "auth_ready_last_known": true,
+    "endpoint_reachable_last_known": false,
+    "generation_backend": "image_generation (server-side gpt-image-2 capability)",
+    "provider": "codex",
+    "request_model": "gpt-5.4",
+    "runtime_repreflight": "NOT_RUN_AUTH_GATE",
+    "runtime_version": "0.7.3",
+    "safe_profile_fingerprint": "ab7f2704e5b70b62ccfd48b241b649716e6ddd6cb9a1bfe14d992df646dcaffe",
+    "session_ready_last_known": false
+  },
+  "reports_sha256": {
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/reports/45_p4d_gr3e_authorization_and_runtime.md": "c4bfb89934213a69d62d29c1fa44dad8c9478005215b3b618108c9dfe7edc7e4",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/reports/46_p4d_gr3e_generation.md": "6250797b8ae2ac5e0004f543701680e7648b321204a728cc96edd4ae652bcbda",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/reports/47_p4d_gr3e_full_440_qa.md": "10d57529cc11a3b4d5bce521a7ed56cbb9e64f7592c981737e8eb0226b4bbfc0",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/reports/48_p4d_gr3e_human_review_package.md": "4f54d7836ba19fd16f75b7195db6a7023a1dca2639bf331610a04b5822949c41",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/reports/49_p4d_gr3e_final.md": "366899c74f86d303922c7d3f7ca346c6f4e4917789fbdc7e916e6464b93c34e2"
+  },
+  "retry_capability": {
+    "native_retry_policy": {
+      "base_delay_seconds": 1,
+      "max_retries": 3
+    },
+    "no_retry_guarantee": false,
+    "observed_native_retry_count": "UNKNOWN_NOT_EXECUTED",
+    "outer_retry": false,
+    "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/00_preflight/retry_capability_audit.json",
+    "possible_attempts_upper_bound_per_slot": 4,
+    "sha256": "ba0de95b8f5939b5479d293128081d6e00d1bc5b82bb7a2f00d62045e1894619",
+    "wrapper_max_retries": 3
+  },
+  "runner_sha256": null,
+  "stage": "P4D_GR3E_FULL_REGEN_EXECUTION",
+  "status": "AWAITING_EXPLICIT_USER_AUTHORIZATION",
+  "terminal": {
+    "AUTHORIZATION_ATTESTATION_PRESENT": false,
+    "BATCH_FILE_COUNTS": {
+      "final": 0,
+      "generated_raw": 0,
+      "metadata": 0,
+      "prompts": 0,
+      "rejected": 0
+    },
+    "BULK_REQUESTS": 0,
+    "C3": false,
+    "EXPLICIT_AUTHORIZATION_VERIFIED": false,
+    "FORMAL_INGEST": false,
+    "GENERATED_FINAL": 0,
+    "GENERATED_RAW": 0,
+    "HOLDOUT": 0,
+    "HOLDOUT_CONSUMED": false,
+    "HTTP_401": 0,
+    "HTTP_403": 0,
+    "HTTP_429": 0,
+    "HUMAN_REVIEW_PACKAGE": false,
+    "LOGICAL_FAILURES": 0,
+    "LOGICAL_SLOT_INVOCATIONS": 0,
+    "LOGICAL_SUCCESSES": 0,
+    "NEW_VAL": 0,
+    "OUTSTANDING": 440,
+    "P4D_IMAGES_ACCEPTED": 0,
+    "PROVIDER_REQUESTS": 0,
+    "RAMP1_REQUESTS": 0,
+    "RAMP2_REQUESTS": 0,
+    "SMOKE_REQUESTS": 0,
+    "TIMEOUT_OR_5XX": 0
+  }
+}

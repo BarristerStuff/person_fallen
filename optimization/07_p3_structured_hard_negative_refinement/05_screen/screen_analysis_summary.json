@@ -1,0 +1,489 @@
+{
+  "C3_BASELINE": {
+    "candidate": "C3_BASELINE",
+    "holdout_requests": 0,
+    "manifest_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/05_p2_hard_negative_semantic_optimization/01_internal_split/p2_screen_manifest.csv",
+    "manifest_sha256": "ccb8c9df51371dbfd2a8e34201ccd42b0a825eea4444ba45a3aaa6945094aab5",
+    "metrics_direct": {
+      "FN": 0,
+      "FP": 5,
+      "TN": 55,
+      "TP": 50,
+      "accuracy": 0.9545454545454546,
+      "determinate_count": 110,
+      "f1": 0.9523809523809523,
+      "fpr": 0.08333333333333333,
+      "gt_uncertain_prediction_distribution": {
+        "negative": 2,
+        "positive": 8
+      },
+      "hard_negative_fpr": 0.125,
+      "model_uncertain_count": 0,
+      "model_uncertain_rate": 0.0,
+      "ordinary_negative_fpr": 0.0,
+      "positive_recall": 1.0,
+      "precision": 0.9090909090909091,
+      "recall": 1.0,
+      "specificity": 0.9166666666666666
+    },
+    "new_requests": 0,
+    "p2_screen_individual_errors_used_for_p3_design": false,
+    "phase": "screen_reuse",
+    "predictions_sha256": "5d21d873dc327c8e59d25c59fad79522f65d6d0e19a817c5d893f662aaa1a848",
+    "protocol": {
+      "canonical_prediction_success_rate": 1.0,
+      "http_success_rate": 1.0,
+      "json_parse_success_rate": 1.0,
+      "latency_seconds": {
+        "cold": 1.589639,
+        "max": 1.992321,
+        "p50": 1.580759,
+        "p95": 1.8150098,
+        "warm_mean": 1.5936711176470588
+      },
+      "prediction_distribution": {
+        "negative": 57,
+        "positive": 63
+      },
+      "request_count": 120,
+      "response_nonempty_rate": 1.0,
+      "schema_success_rate": 1.0,
+      "thinking_present_rate": 0.0
+    },
+    "protocol_gate_pass": true,
+    "request_count": 120,
+    "screen_is_pristine": false,
+    "source_predictions_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/05_p2_hard_negative_semantic_optimization/04_screening/C3/predictions.csv",
+    "source_predictions_sha256": "5d21d873dc327c8e59d25c59fad79522f65d6d0e19a817c5d893f662aaa1a848",
+    "source_stage": "P2_HARD_NEGATIVE_SEMANTIC_OPTIMIZATION",
+    "stage": "P3_STRUCTURED_HARD_NEGATIVE_REFINEMENT",
+    "val_requests": 0
+  },
+  "S1_DIRECT": {
+    "candidate": "S1_DIRECT",
+    "holdout_requests": 0,
+    "latency_seconds": {
+      "cold": 9.210637,
+      "max": 22.183683,
+      "observed_max": 22.183683,
+      "observed_p50": 2.1348805,
+      "observed_p95": 9.601209649999978,
+      "p50": 2.134373,
+      "p95": 4.071322199999917,
+      "warm_mean": 2.9954679915966387
+    },
+    "metrics": {
+      "FN": 0,
+      "FP": 20,
+      "TN": 40,
+      "TP": 50,
+      "accuracy": 0.8181818181818182,
+      "determinate_count": 110,
+      "f1": 0.8333333333333334,
+      "fpr": 0.3333333333333333,
+      "gt_uncertain_prediction_distribution": {
+        "negative": 1,
+        "positive": 9
+      },
+      "hard_negative_fpr": 0.5,
+      "model_uncertain_count": 0,
+      "model_uncertain_rate": 0.0,
+      "ordinary_negative_fpr": 0.0,
+      "positive_recall": 1.0,
+      "precision": 0.7142857142857143,
+      "recall": 1.0,
+      "specificity": 0.6666666666666666
+    },
+    "new_requests": 120,
+    "p2_screen_individual_errors_used_for_p3_design": false,
+    "phase": "screen",
+    "predictions_sha256": "bc437a82dcbcae1ab16d01a3ae0a087301a0ecd76eb07d179af6cf8eeb05d9ca",
+    "protocol": {
+      "canonical_prediction_success_rate": 1.0,
+      "http_success_rate": 1.0,
+      "json_parse_success_rate": 1.0,
+      "latency_seconds": {
+        "cold": 9.210637,
+        "max": 22.183683,
+        "observed_max": 22.183683,
+        "observed_p50": 2.1348805,
+        "observed_p95": 9.601209649999978,
+        "p50": 2.134373,
+        "p95": 4.071322199999917,
+        "warm_mean": 2.9954679915966387
+      },
+      "prediction_distribution_direct": {
+        "negative": 41,
+        "positive": 79
+      },
+      "prediction_distribution_rule": {
+        "negative": 41,
+        "positive": 79
+      },
+      "request_count": 120,
+      "response_nonempty_rate": 1.0,
+      "schema_success_rate": 1.0,
+      "thinking_present_rate": 0.0
+    },
+    "protocol_gate_pass": true,
+    "screen_is_pristine": false,
+    "source_stream": "S1_STRUCTURED",
+    "stage": "P3_STRUCTURED_HARD_NEGATIVE_REFINEMENT",
+    "stream_request_count": 120,
+    "structured_conflict_count": 0,
+    "structured_conflict_rate": 0.0,
+    "val_requests": 0
+  },
+  "S1_RULE": {
+    "candidate": "S1_RULE",
+    "holdout_requests": 0,
+    "latency_seconds": {
+      "cold": 9.210637,
+      "max": 22.183683,
+      "observed_max": 22.183683,
+      "observed_p50": 2.1348805,
+      "observed_p95": 9.601209649999978,
+      "p50": 2.134373,
+      "p95": 4.071322199999917,
+      "warm_mean": 2.9954679915966387
+    },
+    "metrics": {
+      "FN": 0,
+      "FP": 20,
+      "TN": 40,
+      "TP": 50,
+      "accuracy": 0.8181818181818182,
+      "determinate_count": 110,
+      "f1": 0.8333333333333334,
+      "fpr": 0.3333333333333333,
+      "gt_uncertain_prediction_distribution": {
+        "negative": 1,
+        "positive": 9
+      },
+      "hard_negative_fpr": 0.5,
+      "model_uncertain_count": 0,
+      "model_uncertain_rate": 0.0,
+      "ordinary_negative_fpr": 0.0,
+      "positive_recall": 1.0,
+      "precision": 0.7142857142857143,
+      "recall": 1.0,
+      "specificity": 0.6666666666666666
+    },
+    "new_requests": 120,
+    "p2_screen_individual_errors_used_for_p3_design": false,
+    "phase": "screen",
+    "predictions_sha256": "49cfe8bfaa924d20ee5203f16b06a5cf88141d922fd9d3b741f1421269edd7ad",
+    "protocol": {
+      "canonical_prediction_success_rate": 1.0,
+      "http_success_rate": 1.0,
+      "json_parse_success_rate": 1.0,
+      "latency_seconds": {
+        "cold": 9.210637,
+        "max": 22.183683,
+        "observed_max": 22.183683,
+        "observed_p50": 2.1348805,
+        "observed_p95": 9.601209649999978,
+        "p50": 2.134373,
+        "p95": 4.071322199999917,
+        "warm_mean": 2.9954679915966387
+      },
+      "prediction_distribution_direct": {
+        "negative": 41,
+        "positive": 79
+      },
+      "prediction_distribution_rule": {
+        "negative": 41,
+        "positive": 79
+      },
+      "request_count": 120,
+      "response_nonempty_rate": 1.0,
+      "schema_success_rate": 1.0,
+      "thinking_present_rate": 0.0
+    },
+    "protocol_gate_pass": true,
+    "screen_is_pristine": false,
+    "source_stream": "S1_STRUCTURED",
+    "stage": "P3_STRUCTURED_HARD_NEGATIVE_REFINEMENT",
+    "stream_request_count": 120,
+    "structured_conflict_count": 0,
+    "structured_conflict_rate": 0.0,
+    "val_requests": 0
+  },
+  "decision": {
+    "advancement_gate": {
+      "hard_negative_fpr_max": 0.075,
+      "ordinary_negative_fpr": 0,
+      "positive_recall_min": 0.95,
+      "protocol": "100%"
+    },
+    "candidate_rows": [
+      {
+        "FN": 0,
+        "FP": 5,
+        "TN": 55,
+        "TP": 50,
+        "accuracy": 0.9545454545454546,
+        "advancement_gate": false,
+        "candidate": "C3_BASELINE",
+        "decision": "historical_baseline",
+        "determinate_count": 110,
+        "f1": 0.9523809523809523,
+        "fpr": 0.08333333333333333,
+        "gt_uncertain_prediction_distribution": {
+          "negative": 2,
+          "positive": 8
+        },
+        "hard_negative_fpr": 0.125,
+        "model_uncertain_count": 0,
+        "model_uncertain_rate": 0.0,
+        "ordinary_negative_fpr": 0.0,
+        "p50": 1.580759,
+        "p95": 1.8150098,
+        "positive_recall": 1.0,
+        "precision": 0.9090909090909091,
+        "protocol_gate": true,
+        "recall": 1.0,
+        "reference_quality_pass": false,
+        "specificity": 0.9166666666666666,
+        "structured_conflict_rate": 0.0
+      },
+      {
+        "FN": 0,
+        "FP": 20,
+        "TN": 40,
+        "TP": 50,
+        "accuracy": 0.8181818181818182,
+        "advancement_gate": false,
+        "candidate": "S1_DIRECT",
+        "decision": "not_eligible",
+        "determinate_count": 110,
+        "f1": 0.8333333333333334,
+        "fpr": 0.3333333333333333,
+        "gt_uncertain_prediction_distribution": {
+          "negative": 1,
+          "positive": 9
+        },
+        "hard_negative_fpr": 0.5,
+        "model_uncertain_count": 0,
+        "model_uncertain_rate": 0.0,
+        "ordinary_negative_fpr": 0.0,
+        "p50": 2.1348805,
+        "p95": 9.601209649999978,
+        "positive_recall": 1.0,
+        "precision": 0.7142857142857143,
+        "protocol_gate": true,
+        "recall": 1.0,
+        "reference_quality_pass": false,
+        "specificity": 0.6666666666666666,
+        "structured_conflict_rate": 0.0
+      },
+      {
+        "FN": 0,
+        "FP": 20,
+        "TN": 40,
+        "TP": 50,
+        "accuracy": 0.8181818181818182,
+        "advancement_gate": false,
+        "candidate": "S1_RULE",
+        "decision": "not_eligible",
+        "determinate_count": 110,
+        "f1": 0.8333333333333334,
+        "fpr": 0.3333333333333333,
+        "gt_uncertain_prediction_distribution": {
+          "negative": 1,
+          "positive": 9
+        },
+        "hard_negative_fpr": 0.5,
+        "model_uncertain_count": 0,
+        "model_uncertain_rate": 0.0,
+        "ordinary_negative_fpr": 0.0,
+        "p50": 2.1348805,
+        "p95": 9.601209649999978,
+        "positive_recall": 1.0,
+        "precision": 0.7142857142857143,
+        "protocol_gate": true,
+        "recall": 1.0,
+        "reference_quality_pass": false,
+        "specificity": 0.6666666666666666,
+        "structured_conflict_rate": 0.0
+      }
+    ],
+    "candidates": [
+      "C3_BASELINE",
+      "S1_DIRECT",
+      "S1_RULE",
+      "OPTIONAL_S2"
+    ],
+    "direct_correct_rule_wrong": 0,
+    "direct_wrong_rule_correct": 0,
+    "eligible_candidates": [],
+    "group_summary": {
+      "C3_group_level_hard_negative_error_rate": 0.5,
+      "C3_groups_with_FP": 2,
+      "S1_DIRECT_group_level_hard_negative_error_rate": 0.75,
+      "S1_DIRECT_groups_with_FP": 3,
+      "S1_RULE_group_level_hard_negative_error_rate": 0.75,
+      "S1_RULE_groups_with_FP": 3,
+      "hard_negative_group_count": 4
+    },
+    "holdout_consumed": false,
+    "holdout_requests": 0,
+    "new_dev_requests": 322,
+    "new_val_requests": 0,
+    "optional_s2_created": false,
+    "p2_screen_individual_errors_used_for_p3_design": false,
+    "p3_holdout_ready": false,
+    "p3_holdout_ready_quality": false,
+    "p3_holdout_ready_runtime": false,
+    "p3_reference_quality_pass": false,
+    "p3_runtime_anomaly_detected": true,
+    "p3_runtime_gate": "FAIL",
+    "paired_summary": {
+      "S1_DIRECT": {
+        "C3_TN_to_candidate_FP": 15
+      },
+      "S1_RULE": {
+        "C3_TN_to_candidate_FP": 15
+      }
+    },
+    "reference_quality_gate": {
+      "hard_negative_fpr_max": 0.05,
+      "ordinary_negative_fpr": 0,
+      "positive_recall_min": 0.95,
+      "precision_min": 0.93
+    },
+    "screen_is_pristine": false,
+    "selection_rule": [
+      "minimum hard_negative_fpr",
+      "maximum positive_recall",
+      "maximum precision",
+      "maximum f1",
+      "minimum model_uncertain_rate",
+      "minimum p95"
+    ],
+    "stage": "P3_STRUCTURED_HARD_NEGATIVE_REFINEMENT",
+    "val_individual_errors_used_for_p3_design": false,
+    "winner": "NONE"
+  },
+  "groups": {
+    "C3_group_level_hard_negative_error_rate": 0.5,
+    "C3_groups_with_FP": 2,
+    "S1_DIRECT_group_level_hard_negative_error_rate": 0.75,
+    "S1_DIRECT_groups_with_FP": 3,
+    "S1_RULE_group_level_hard_negative_error_rate": 0.75,
+    "S1_RULE_groups_with_FP": 3,
+    "hard_negative_group_count": 4
+  },
+  "latency": {
+    "C3_BASELINE": {
+      "candidate": "C3_BASELINE",
+      "component_max": {
+        "client_latency_seconds": 1.992321491241455,
+        "eval_duration": 0.813112733,
+        "load_duration": 0.520834357,
+        "prompt_eval_duration": 0.160799673,
+        "total_duration": 1.983871098
+      },
+      "component_p50": {
+        "client_latency_seconds": 1.5810661315917969,
+        "eval_duration": 0.466142865,
+        "load_duration": 0.460095626,
+        "prompt_eval_duration": 0.120805699,
+        "total_duration": 1.573187597
+      },
+      "component_p95": {
+        "client_latency_seconds": 1.814213514328003,
+        "eval_duration": 0.638429255,
+        "load_duration": 0.505404549,
+        "prompt_eval_duration": 0.142281965,
+        "total_duration": 1.805755843
+      },
+      "load_duration_gt_5s_count": 0,
+      "longest_sustained_load_gt_5s": 0,
+      "request_count": 120,
+      "sustained_load_anomaly": false
+    },
+    "S1_STRUCTURED": {
+      "candidate": "S1_STRUCTURED",
+      "component_max": {
+        "client_latency_seconds": 22.183683182000095,
+        "eval_duration": 1.287135997,
+        "load_duration": 20.138334072,
+        "prompt_eval_duration": 0.305158177,
+        "total_duration": 22.175572839
+      },
+      "component_p50": {
+        "client_latency_seconds": 2.1353879150001376,
+        "eval_duration": 0.894835487,
+        "load_duration": 0.468808199,
+        "prompt_eval_duration": 0.209565068,
+        "total_duration": 2.126368336
+      },
+      "component_p95": {
+        "client_latency_seconds": 9.21063727300043,
+        "eval_duration": 1.004021293,
+        "load_duration": 7.049979143,
+        "prompt_eval_duration": 0.251898092,
+        "total_duration": 9.202203978
+      },
+      "load_duration_gt_5s_count": 7,
+      "longest_sustained_load_gt_5s": 3,
+      "request_count": 120,
+      "sustained_load_anomaly": true
+    }
+  },
+  "taxonomy": [
+    {
+      "C3_FPR": 0.2,
+      "C3_error_count": 2,
+      "S1_DIRECT_FPR": 0.6,
+      "S1_DIRECT_delta_vs_C3": 4,
+      "S1_DIRECT_error_count": 6,
+      "S1_RULE_FPR": 0.6,
+      "S1_RULE_delta_vs_C3": 4,
+      "S1_RULE_error_count": 6,
+      "group_count": 1,
+      "taxonomy": "crawling_or_kneeling_support",
+      "total_hard_negative": 10
+    },
+    {
+      "C3_FPR": 0.3,
+      "C3_error_count": 3,
+      "S1_DIRECT_FPR": 0.9,
+      "S1_DIRECT_delta_vs_C3": 6,
+      "S1_DIRECT_error_count": 9,
+      "S1_RULE_FPR": 0.9,
+      "S1_RULE_delta_vs_C3": 6,
+      "S1_RULE_error_count": 9,
+      "group_count": 1,
+      "taxonomy": "exercise_pushup_or_plank",
+      "total_hard_negative": 10
+    },
+    {
+      "C3_FPR": 0.0,
+      "C3_error_count": 0,
+      "S1_DIRECT_FPR": 0.5,
+      "S1_DIRECT_delta_vs_C3": 5,
+      "S1_DIRECT_error_count": 5,
+      "S1_RULE_FPR": 0.5,
+      "S1_RULE_delta_vs_C3": 5,
+      "S1_RULE_error_count": 5,
+      "group_count": 1,
+      "taxonomy": "sitting_on_floor",
+      "total_hard_negative": 10
+    },
+    {
+      "C3_FPR": 0.0,
+      "C3_error_count": 0,
+      "S1_DIRECT_FPR": 0.0,
+      "S1_DIRECT_delta_vs_C3": 0,
+      "S1_DIRECT_error_count": 0,
+      "S1_RULE_FPR": 0.0,
+      "S1_RULE_delta_vs_C3": 0,
+      "S1_RULE_error_count": 0,
+      "group_count": 1,
+      "taxonomy": "squatting_or_crouching",
+      "total_hard_negative": 10
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "auth": {
+    "account_id": "f0bc3591-e6fc-442d-a52e-e99efbf5c1eb",
+    "auth_file": "/home/yanbo/.codex/auth.json",
+    "refreshed": false,
+    "source": "auth.json"
+  },
+  "command": "images generate",
+  "events": {
+    "count": 22
+  },
+  "history": {
+    "job_id": "job-1787814914460392174-22513"
+  },
+  "ok": true,
+  "output": {
+    "bytes": 2262061,
+    "files": [
+      {
+        "bytes": 2262061,
+        "index": 0,
+        "path": "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/generated_raw/PF_P4D_HN_PLANK_G003_V05.png"
+      }
+    ],
+    "path": "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/generated_raw/PF_P4D_HN_PLANK_G003_V05.png"
+  },
+  "provider": "codex",
+  "provider_selection": {
+    "edit_region_mode": "reference-hint",
+    "kind": "codex",
+    "reason": "explicit",
+    "requested": "codex",
+    "resolved": "codex",
+    "supports_n": false
+  },
+  "request": {
+    "background": "auto",
+    "delegated_image_model": "gpt-image-2",
+    "format": "png",
+    "model": "gpt-5.4",
+    "operation": "generate",
+    "provider": "codex",
+    "quality": "medium",
+    "ref_image_count": 0,
+    "size": "1536x1024"
+  },
+  "response": {
+    "image_count": 1,
+    "item_ids": [
+      "ig_0818693c43151632016a8fe3cee6e087d08bd2337c3ea0a0ca"
+    ],
+    "model": "gpt-5.4",
+    "response_id": "resp_0818693c43151632016a8fe3ce1f8c87d09f395af838b87373",
+    "revised_prompts": [
+      "Photorealistic 1920x1080 landscape frame from a fixed safety-inspection camera mounted about 1.5 meters above the floor, observing a long industrial aisle between storage racks and workstations. Dull stone flooring, partial shadow from nearby structure, clear subject detail. Near-medium oblique view at near-medium distance, natural perspective, realistic scale, enough surrounding context to judge body support. Visible subject: a shorter adult with a compact build wearing a blue hoodie and gray trousers, also incorporating dark red and denim clothing tones, performing a controlled plank beside a marked work area, with hands and feet providing active support and no passive ground rest. Plausible unedited inspection-camera capture, subject clearly visible, subtle floor reflections, realistic perspective lines. Ordinary photographic detail, restrained contrast, not cinematic or advertising. No text, caption, watermark, logo, warning label, overlay, bounding box, arrow, circle, or artificial annotation."
+    ],
+    "service_tier": "default",
+    "status": "completed"
+  },
+  "retry": {
+    "count": 0,
+    "max_retries": 3
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "after_annotation_sha256": {
+    "batches.csv": "e166de60b418f42dceb0ccc77ba01e549cb1930f2ab08f4a62d5792329200a45",
+    "labels.csv": "a12c08e587196350557749e1d24c138f089d8d96db27bcd458ff4c693de5ca54",
+    "media.csv": "6fd2e03b38012df827a756dd299e1e99444f71bc1afd5181ac0f241096fdc518",
+    "splits.csv": "967018452f8fe5334b438a6be554d3333533cd947fd52c0ccf66f594c8439c18"
+  },
+  "after_counts": {
+    "batch_count": 43,
+    "label_count": 4521,
+    "media_count": 4521,
+    "split_count": 2058
+  },
+  "after_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr2/00_preflight/dataset_boundary_after.json",
+  "before_annotation_sha256": {
+    "batches.csv": "e166de60b418f42dceb0ccc77ba01e549cb1930f2ab08f4a62d5792329200a45",
+    "labels.csv": "a12c08e587196350557749e1d24c138f089d8d96db27bcd458ff4c693de5ca54",
+    "media.csv": "6fd2e03b38012df827a756dd299e1e99444f71bc1afd5181ac0f241096fdc518",
+    "splits.csv": "967018452f8fe5334b438a6be554d3333533cd947fd52c0ccf66f594c8439c18"
+  },
+  "before_counts": {
+    "batch_count": 43,
+    "label_count": 4521,
+    "media_count": 4521,
+    "split_count": 2058
+  },
+  "before_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr2/00_preflight/dataset_boundary_before.json",
+  "captured_at": "2026-08-27T08:37:01.625+00:00",
+  "count_delta": {
+    "batch_count": 0,
+    "label_count": 0,
+    "media_count": 0,
+    "split_count": 0
+  },
+  "formal_dataset_mutation": false,
+  "interpretation": "Any count/hash delta is external unless P4D-specific references appear in active CSVs; this GR2 audit never writes dataset files.",
+  "p4d_formal_ingest_detected": false,
+  "p4d_reference_hits_after": 0,
+  "p4d_reference_hits_before": 0,
+  "p4d_reference_hits_total": 0
+}

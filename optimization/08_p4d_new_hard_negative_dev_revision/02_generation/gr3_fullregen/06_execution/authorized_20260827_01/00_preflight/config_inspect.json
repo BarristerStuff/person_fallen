@@ -1,0 +1,107 @@
+{
+  "captured_at": "2026-08-27T10:30:31.466+00:00",
+  "command": [
+    "node",
+    "/home/yanbo/.codex/skills/gpt-image-2-skill/scripts/gpt_image_2_skill.cjs",
+    "--json",
+    "--provider",
+    "codex",
+    "config",
+    "inspect"
+  ],
+  "label": "config_inspect",
+  "payload": {
+    "command": "config inspect",
+    "config": {
+      "default_provider": "ebond-gpt-image-2",
+      "logging": {
+        "debug": false
+      },
+      "notifications": {
+        "email": {
+          "enabled": false,
+          "from": "",
+          "password": null,
+          "smtp_host": "",
+          "smtp_port": 587,
+          "timeout_seconds": 10,
+          "tls": "start-tls",
+          "to": [],
+          "username": null
+        },
+        "enabled": true,
+        "on_cancelled": true,
+        "on_completed": true,
+        "on_failed": true,
+        "system": {
+          "enabled": false,
+          "mode": "auto"
+        },
+        "toast": {
+          "enabled": true
+        },
+        "webhooks": []
+      },
+      "paths": {
+        "app_data_dir": {
+          "mode": "default"
+        },
+        "default_export_dir": {
+          "mode": "result_library"
+        },
+        "legacy_shared_codex_dir": {
+          "enabled_for_read": true,
+          "path": "/home/yanbo/.codex/gpt-image-2-skill"
+        },
+        "result_library_dir": {
+          "mode": "default"
+        }
+      },
+      "providers": {
+        "ebond-gpt-image-2": {
+          "api_base": "https://api.ebondai.com/v1",
+          "credentials": {
+            "api_key": {
+              "present": true,
+              "source": "file",
+              "value": {
+                "_omitted": "secret"
+              }
+            }
+          },
+          "endpoint": null,
+          "model": "gpt-image-2",
+          "proxy": null,
+          "supports_n": null,
+          "type": "openai-compatible"
+        }
+      },
+      "proxy": {
+        "mode": "system",
+        "no_proxy": [],
+        "url": null
+      },
+      "storage": {
+        "default_targets": [],
+        "fallback_policy": "on_failure",
+        "fallback_targets": [],
+        "policy": {
+          "allow_user_overrides": false,
+          "allowed_modes": [],
+          "locked_archives": [],
+          "managed": false
+        },
+        "target_concurrency": 2,
+        "targets": {},
+        "upload_concurrency": 4
+      },
+      "version": 1
+    },
+    "config_file": "/home/yanbo/.codex/gpt-image-2-skill/config.json",
+    "exists": true,
+    "ok": true
+  },
+  "returncode": 0,
+  "stderr": "",
+  "stdout": "{\n  \"command\": \"config inspect\",\n  \"config\": {\n    \"default_provider\": \"ebond-gpt-image-2\",\n    \"logging\": {\n      \"debug\": false\n    },\n    \"notifications\": {\n      \"email\": {\n        \"enabled\": false,\n        \"from\": \"\",\n        \"password\": null,\n        \"smtp_host\": \"\",\n        \"smtp_port\": 587,\n        \"timeout_seconds\": 10,\n        \"tls\": \"start-tls\",\n        \"to\": [],\n        \"username\": null\n      },\n      \"enabled\": true,\n      \"on_cancelled\": true,\n      \"on_completed\": true,\n      \"on_failed\": true,\n      \"system\": {\n        \"enabled\": false,\n        \"mode\": \"auto\"\n      },\n      \"toast\": {\n        \"enabled\": true\n      },\n      \"webhooks\": []\n    },\n    \"paths\": {\n      \"app_data_dir\": {\n        \"mode\": \"default\"\n      },\n      \"default_export_dir\": {\n        \"mode\": \"result_library\"\n      },\n      \"legacy_shared_codex_dir\": {\n        \"enabled_for_read\": true,\n        \"path\": \"/home/yanbo/.codex/gpt-image-2-skill\"\n      },\n      \"result_library_dir\": {\n        \"mode\": \"default\"\n      }\n    },\n    \"providers\": {\n      \"ebond-gpt-image-2\": {\n        \"api_base\": \"https://api.ebondai.com/v1\",\n        \"credentials\": {\n          \"api_key\": {\n            \"present\": true,\n            \"source\": \"file\",\n            \"value\": {\n              \"_omitted\": \"secret\"\n            }\n          }\n        },\n        \"endpoint\": null,\n        \"model\": \"gpt-image-2\",\n        \"proxy\": null,\n        \"supports_n\": null,\n        \"type\": \"openai-compatible\"\n      }\n    },\n    \"proxy\": {\n      \"mode\": \"system\",\n      \"no_proxy\": [],\n      \"url\": null\n    },\n    \"storage\": {\n      \"default_targets\": [],\n      \"fallback_policy\": \"on_failure\",\n      \"fallback_targets\": [],\n      \"policy\": {\n        \"allow_user_overrides\": false,\n        \"allowed_modes\": [],\n        \"locked_archives\": [],\n        \"managed\": false\n      },\n      \"target_concurrency\": 2,\n      \"targets\": {},\n      \"upload_concurrency\": 4\n    },\n    \"version\": 1\n  },\n  \"config_file\": \"/home/yanbo/.codex/gpt-image-2-skill/config.json\",\n  \"exists\": true,\n  \"ok\": true\n}\n"
+}

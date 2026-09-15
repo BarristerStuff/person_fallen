@@ -1,0 +1,7 @@
+{
+  "accepted_images_available": 0,
+  "model_predictions_used_as_ground_truth": false,
+  "reason": "Generation produced no image bytes; reliable human semantic review cannot start.",
+  "review_rows": 0,
+  "status": "HUMAN_SEMANTIC_REVIEW_REQUIRED"
+}

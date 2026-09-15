@@ -1,0 +1,8 @@
+group_id,taxonomy,total,fp,tn,fpr
+pf_v2_aigc_h02-sitting-on-floor,sitting_on_floor,10,2,8,0.2
+pf_v2_aigc_h03-kneeling,kneeling_or_half_kneeling,10,1,9,0.1
+pf_v2_aigc_h04-kneeling,kneeling_or_half_kneeling,10,1,9,0.1
+pf_v2_aigc_h05-squatting,squatting_or_crouching,10,1,9,0.1
+pf_v2_aigc_h07-deep-bending-picking-up-items,deep_bending_or_picking,10,0,10,0.0
+pf_v2_aigc_h08-deep-bending-picking-up-items,deep_bending_or_picking,10,0,10,0.0
+pf_v2_aigc_h09-exercise-push-up-plank,exercise_pushup_or_plank,10,2,8,0.2

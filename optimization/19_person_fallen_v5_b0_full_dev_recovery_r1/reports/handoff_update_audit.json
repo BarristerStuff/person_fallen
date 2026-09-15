@@ -1,0 +1,14 @@
+{
+  "path": "/home/yanbo/net_vlm_yanboversion/docs/person_fallen/codex-handoff.md",
+  "current_sha256": "af7cf3d9443e0e985573711a44c1b7ee1b6baaab1728701238514336a6c92a6c",
+  "latest_section_marker": "## 最新终态：V5-B0 FULL DEV RECOVERY R1（2026-09-09）",
+  "historical_b0_section_preserved": true,
+  "historical_v4_body_present": true,
+  "old_recovery18_section_preserved": true,
+  "inserted_after_title": true,
+  "snapshot_reference": "/home/yanbo/net_vlm_person_fallen_v2_optimization/17_person_fallen_v5_target_attributes/reports/handoff_at_preflight.md",
+  "snapshot_sha256": "648934631e1c4e8c757df4eeb302018a198d41b9dfaeb8a178d14e33ad97035d",
+  "only_person_fallen_handoff_updated": true,
+  "candidate_and_freeze_files_modified": false,
+  "updated_after_terminal": true
+}

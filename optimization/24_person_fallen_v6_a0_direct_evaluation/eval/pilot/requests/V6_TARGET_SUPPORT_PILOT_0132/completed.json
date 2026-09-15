@@ -1,0 +1,61 @@
+{
+  "state": "completed",
+  "phase": "pilot",
+  "request_id": "V6_TARGET_SUPPORT_PILOT_0132",
+  "item_id": "V2_ORIGINAL::IMG_003803",
+  "operational_id": "PFV6_PILOT_0132",
+  "taxonomy": "crawling_without_explicit_maintenance",
+  "group_id": "pf_v2_aigc_h11-crawling-under-equipment-inspection",
+  "evaluation_stratum": "auxiliary_attention",
+  "source_image_sha256": "ef729088133e5ad62aad99296acd23ad386b3cdcfb2531a05fd42e3761149ea0",
+  "full_view_sha256": "c76b31ad214a1abf043bba759a0538b825f31c5290e50651022078adc1e3cd07",
+  "crop_view_sha256": "7a1280b893910a96ba46af6315babf4ecc686ca1749a0e82c3c351dfa5c7ad7c",
+  "payload_sha256": "c50099430834d165201bd8275e63f0949341eb810fdbe6328c98f8818f38d9ab",
+  "claimed_timestamp": "2026-09-14T10:30:52.263489+00:00",
+  "http_status": 200,
+  "latency_seconds": 5.874390575991129,
+  "completion_unknown": false,
+  "transport_error": null,
+  "raw_response_sha256": "05cce571775cae2e8e4c9076887c6dc242bc5252d1bad22367efae3a2e1a6ee8",
+  "raw_response_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/24_person_fallen_v6_a0_direct_evaluation/eval/pilot/requests/V6_TARGET_SUPPORT_PILOT_0132/response.raw",
+  "received_timestamp": "2026-09-14T10:30:58.140157+00:00",
+  "strict_json_ok": true,
+  "source_binding_ok": true,
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 201,
+  "parsed": {
+    "scene_coverage": "complete",
+    "people": [
+      {
+        "person_id": 1,
+        "bbox_1000": [
+          258,
+          393,
+          706,
+          743
+        ],
+        "person_visible": "yes",
+        "pose": "kneeling",
+        "torso_orientation": "horizontal",
+        "torso_ground_contact": "partial",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "body_support_configuration": "hands_knees_supported",
+        "explicit_work_evidence": "yes",
+        "visual_quality": "clear",
+        "evidence": "Person is on hands and knees, leaning forward with hands reaching toward the floor near the shelving unit."
+      }
+    ]
+  },
+  "person_decisions": [
+    {
+      "person_id": 1,
+      "decision": "NO_ALERT_NORMAL_POSE",
+      "reason": "CONSISTENT_KNEELING_SUPPORT"
+    }
+  ],
+  "image_decision": "NO_ALERT_NORMAL_POSE",
+  "image_reason": "ALL_PEOPLE_NORMAL",
+  "completed_timestamp": "2026-09-14T10:30:58.140810+00:00"
+}

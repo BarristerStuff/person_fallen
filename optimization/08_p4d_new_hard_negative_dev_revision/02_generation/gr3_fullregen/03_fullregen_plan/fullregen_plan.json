@@ -1,0 +1,38 @@
+{
+  "batch_id": "batch-person-fallen-v2-p4d-hardneg-fullregen-r2-camera1p5m",
+  "batch_path": "/home/yanbo/下载/batches/batch-person-fallen-v2-p4d-hardneg-fullregen-r2-camera1p5m",
+  "c3": false,
+  "cross_split_groups": 0,
+  "final_count": 0,
+  "formal_ingest": false,
+  "full_regen_prompt_manifest": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/03_fullregen_plan/full_regen_prompt_manifest.csv",
+  "full_regen_prompt_manifest_sha256": "5f7afbc010a0028497ec0210e75dc28cc79212fbc114cbf4741ee0bc4ce361c4",
+  "generated_raw_count": 0,
+  "generation_requests": 0,
+  "gr1_images_reused": 0,
+  "group_count": 88,
+  "group_plan_changed": false,
+  "group_split_freeze_sha256": "b9d1df02541454b38ab296bd0033b0d327cca0ba720b95c7414ea6ec1bc05843",
+  "holdout": 0,
+  "new_design_groups": 53,
+  "new_images_required": 440,
+  "new_screen_groups": 35,
+  "prompt_byte_mismatch_count": 0,
+  "prompt_bytes_all_match": true,
+  "prompt_changed": false,
+  "revision_id": "P4D_FULLREGEN_CODEX_PROFILE2_20260827_01",
+  "role_counts": {
+    "hard_negative": 300,
+    "ordinary_negative": 40,
+    "positive": 100
+  },
+  "split_changed": false,
+  "split_counts": {
+    "NEW_DESIGN": 265,
+    "NEW_SCREEN": 175
+  },
+  "stage": "P4D_GR3_FULL_REGEN_PREPARATION",
+  "taxonomy_changed": false,
+  "total_slots": 440,
+  "val": 0
+}

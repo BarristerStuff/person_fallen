@@ -1,0 +1,108 @@
+{
+  "revision_id": "PERSON_FALLEN_V3_ANOMALOUS_NEAR_GROUND_20260901_01",
+  "event_name": "person_fallen",
+  "event_definition_version": "v3.0",
+  "display_name": "人员异常近地姿态",
+  "compatibility_display_name": "人员倒地",
+  "modality": "image-first",
+  "business_task": "判断是否存在需要机器人关注的异常近地人体姿态",
+  "definition_file": "definition/person_fallen_v3_definition.md",
+  "prompt_id": "V3-C0",
+  "prompt_file": "prompt/V3-C0_prompt.txt",
+  "gt_policy": {
+    "GT_TYPE": "PROMPT_DERIVED_SYNTHETIC_GT",
+    "GT_SOURCE": "FROZEN_GENERATION_PROMPT_AND_PLANNED_ROLE",
+    "HUMAN_SEMANTIC_REVIEW_REQUIRED": false,
+    "allowed_source_types": ["ai_generated"],
+    "allowed_uses": ["development", "screening", "synthetic_validation"],
+    "not_human_reviewed_gt": true,
+    "not_robot_direct_production_gt": true,
+    "model_predictions_can_create_gt": false
+  },
+  "source_and_history_boundary": {
+    "v2_definition_unchanged": true,
+    "v2_history_rewritten": false,
+    "v2_final_holdout_used_for_v3": false,
+    "production_directory": "/home/yanbo/net_vlm_yanboversion/vlm",
+    "production_directory_write_allowed": false,
+    "q9_binding_blocked_formal_main_metrics": false,
+    "q9_use": "AUXILIARY_DIAGNOSTIC_ONLY",
+    "unknown_failed_not_started_in_formal_eval": false
+  },
+  "semantic_priority": [
+    "CANNOT_CONFIRM_REAL_PERSON_UNCERTAIN",
+    "NORMAL_BED_OR_SOFA_SUPPORT_NEGATIVE",
+    "EXPLICIT_MAINTENANCE_CONSTRUCTION_INSTALLATION_NEGATIVE",
+    "LYING_PRONE_CRAWLING_PUSHUP_PLANK_GROUND_SUPPORTED_OR_CURLED_POSITIVE",
+    "SITTING_KNEELING_SQUAT_CROUCH_OR_BENDING_NEGATIVE",
+    "STANDING_OR_WALKING_NEGATIVE"
+  ],
+  "deterministic_remap": {
+    "source": "frozen_prompt_and_planned_role_only",
+    "image_auto_relabel": false,
+    "prompt_conflict_action": "EXCLUDE_PROTOCOL_AMBIGUOUS",
+    "rules": {
+      "old_positive_or_lying": "positive",
+      "crawling_without_explicit_maintenance_context": "positive",
+      "pushup_or_plank": "positive",
+      "floor_sitting": "negative",
+      "kneeling_or_half_kneeling": "negative",
+      "squat_or_crouch": "negative",
+      "bending_or_pickup": "negative",
+      "explicit_ground_maintenance_repair_or_installation": "negative",
+      "bed_or_sofa": "negative",
+      "unclear_person_or_partial_body_or_severe_occlusion": "uncertain",
+      "clear_non_person_depiction": "negative"
+    }
+  },
+  "old_p4d_440_requirement": {
+    "status": "SUPERSEDED_FOR_PERSON_FALLEN_V3",
+    "reason": "v3 makes crawling, push-up, and plank positive; the old hard-negative completion objective no longer matches the business definition",
+    "STOP_FURTHER_P4D_GENERATION": true,
+    "no_q10_q11_resend": true,
+    "no_unknown_resend": true,
+    "no_failed_resend": true,
+    "no_not_started_resend": true,
+    "old_freezes_rewritten": false
+  },
+  "model_protocol": {
+    "model": "qwen3.5:4b",
+    "think": false,
+    "temperature": 0,
+    "stream": false,
+    "format": "json",
+    "concurrency": 1,
+    "automatic_retry": false,
+    "resend_completion_unknown": false,
+    "single_full_image": true,
+    "preprocess": "letterbox",
+    "target_width": 448,
+    "target_height": 336,
+    "jpeg_quality": 70,
+    "jpeg_optimize": true,
+    "letterbox_rgb": [128, 128, 128],
+    "candidate_fallback": "only V3-C0-896x672 if V3-C0-448 fails DEV gates"
+  },
+  "gates": {
+    "precision_min": 0.93,
+    "recall_min": 0.95,
+    "hard_negative_fpr_max": 0.05,
+    "ordinary_negative_fpr_max": 0.0,
+    "strict_json_success_min": 1.0,
+    "winner_selection_phase": "DEV",
+    "screen_and_validation_after_winner_freeze": true,
+    "no_tuning_after_screen_or_validation_errors": true
+  },
+  "phase_policy": {
+    "dev": "V3_DEV",
+    "screen": "V3_SCREEN",
+    "validation": "V3_VAL",
+    "final_holdout_plan_after_validation_only": true,
+    "FINAL_HOLDOUT_EXECUTED": false,
+    "HOLDOUT_CONSUMED": false,
+    "if_validation_passes": "READY_FOR_FINAL_HOLDOUT",
+    "if_both_dev_candidates_fail": "MODEL_SIDE_LIMIT_REACHED",
+    "no_p5_p6_p7_after_both_fail": true
+  },
+  "status": "V3_PROTOCOL_CREATED_REMAP_PENDING"
+}

@@ -1,0 +1,61 @@
+{
+  "state": "completed",
+  "phase": "pilot",
+  "request_id": "V6_TARGET_SUPPORT_PILOT_0119",
+  "item_id": "V2_ORIGINAL::IMG_003790",
+  "operational_id": "PFV6_PILOT_0119",
+  "taxonomy": "pushup_plank",
+  "group_id": "pf_v2_aigc_h09-exercise-push-up-plank",
+  "evaluation_stratum": "auxiliary_attention",
+  "source_image_sha256": "f1247d624540a5c7d88d0ec34acd267160c564003bea77c3aae1df5cfcafe50b",
+  "full_view_sha256": "8e0b37b28eefd7ea2e7c315f45cbfb9a7a8b5bb758d084f351bbbe9d3b73b367",
+  "crop_view_sha256": "828e9918eddda377960f286c1c27fb92d852008a0c305d656346668c09c29bb5",
+  "payload_sha256": "52d0a96a3bdf9e70bde8d097c2c5f3086f216b1c05cabe27eed222a2aed244f6",
+  "claimed_timestamp": "2026-09-14T10:29:29.944399+00:00",
+  "http_status": 200,
+  "latency_seconds": 5.20293219499581,
+  "completion_unknown": false,
+  "transport_error": null,
+  "raw_response_sha256": "6f1f50d505bc10750aaa9d2a0a87d202fe85687b84427210efb6850d1a758c78",
+  "raw_response_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/24_person_fallen_v6_a0_direct_evaluation/eval/pilot/requests/V6_TARGET_SUPPORT_PILOT_0119/response.raw",
+  "received_timestamp": "2026-09-14T10:29:35.149954+00:00",
+  "strict_json_ok": true,
+  "source_binding_ok": true,
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 195,
+  "parsed": {
+    "scene_coverage": "complete",
+    "people": [
+      {
+        "person_id": 1,
+        "bbox_1000": [
+          442,
+          478,
+          688,
+          718
+        ],
+        "person_visible": "yes",
+        "pose": "pushup_plank",
+        "torso_orientation": "horizontal",
+        "torso_ground_contact": "partial",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "body_support_configuration": "hands_feet_supported",
+        "explicit_work_evidence": "no",
+        "visual_quality": "clear",
+        "evidence": "Person performing push-ups on pavement, hands and feet supporting body weight."
+      }
+    ]
+  },
+  "person_decisions": [
+    {
+      "person_id": 1,
+      "decision": "ATTENTION_NEAR_GROUND",
+      "reason": "CLEAR_LIMB_SUPPORTED_NEAR_GROUND:hands_feet_supported"
+    }
+  ],
+  "image_decision": "ATTENTION_NEAR_GROUND",
+  "image_reason": "AUXILIARY_ONLY",
+  "completed_timestamp": "2026-09-14T10:29:35.150662+00:00"
+}

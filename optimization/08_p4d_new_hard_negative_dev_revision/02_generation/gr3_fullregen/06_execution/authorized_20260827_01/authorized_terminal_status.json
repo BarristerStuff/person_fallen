@@ -1,0 +1,8 @@
+{
+  "P4D_STATUS": "GENERATION_REQUIRED",
+  "captured_at": "2026-08-27T12:06:21.715+00:00",
+  "sidecar_sha256": "81ae5adbee8bfae285819f4de21a4b3d9e3e05092c5e2db00d09ecebd6b9f091",
+  "status": "BLOCKED_PROVIDER_USAGE_LIMIT",
+  "terminal_freeze": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/authorized_20260827_01/freeze/p4d_gr3e_terminal_freeze.json",
+  "terminal_freeze_sha256": "6afb294c4696eb89bea5d6dfb333efc38477fa05546b4e8cd4cc8ffa52d89f40"
+}

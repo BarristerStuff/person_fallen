@@ -1,0 +1,13 @@
+{
+  "current_utc": "2026-08-31T06:12:39.636217+00:00",
+  "failed_logical_request_started_events": 4,
+  "q5_frozen_physical_lower_bound": 17,
+  "q5_frozen_retry_counter": 6,
+  "quota_reset_time_gate_pass": true,
+  "raw_evidence_physical_attempt_lower_bound": 14,
+  "reset_at_local": "2026-08-31T00:14:53+08:00",
+  "reset_at_utc": "2026-08-30T16:14:53+00:00",
+  "status_change": false,
+  "stop_reason_change": false,
+  "unique_native_retry_events": 3
+}

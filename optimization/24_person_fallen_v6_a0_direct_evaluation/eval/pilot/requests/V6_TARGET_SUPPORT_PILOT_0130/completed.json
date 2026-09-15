@@ -1,0 +1,109 @@
+{
+  "state": "completed",
+  "phase": "pilot",
+  "request_id": "V6_TARGET_SUPPORT_PILOT_0130",
+  "item_id": "V2_ORIGINAL::IMG_003801",
+  "operational_id": "PFV6_PILOT_0130",
+  "taxonomy": "pushup_plank",
+  "group_id": "pf_v2_aigc_h10-exercise-push-up-plank",
+  "evaluation_stratum": "auxiliary_attention",
+  "source_image_sha256": "4d7aa71171de2ca38a44896049251c1dbf4395c8907cb6e4cd169e9356424456",
+  "full_view_sha256": "7503d3fac604f19b60cc3e271e1ecf04a0c4524459c8dad20a8174482cbbc595",
+  "crop_view_sha256": "39f026a64f8f32bce5d88347ce0a6ebd9a832b16308ae0046e8d24441a5cf214",
+  "payload_sha256": "2424180a0a37653de5e5c643de1648a685ca41734796656ec2dfc64b5afdf3b3",
+  "claimed_timestamp": "2026-09-14T10:30:34.325087+00:00",
+  "http_status": 200,
+  "latency_seconds": 12.542736246003187,
+  "completion_unknown": false,
+  "transport_error": null,
+  "raw_response_sha256": "7f17717c3c27ff314faa00df6d624784cdd0b80c91f2d41e33dfcc060aeabdaa",
+  "raw_response_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/24_person_fallen_v6_a0_direct_evaluation/eval/pilot/requests/V6_TARGET_SUPPORT_PILOT_0130/response.raw",
+  "received_timestamp": "2026-09-14T10:30:46.870270+00:00",
+  "strict_json_ok": true,
+  "source_binding_ok": true,
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 514,
+  "parsed": {
+    "scene_coverage": "complete",
+    "people": [
+      {
+        "person_id": 1,
+        "bbox_1000": [
+          338,
+          462,
+          818,
+          758
+        ],
+        "person_visible": "yes",
+        "pose": "pushup_plank",
+        "torso_orientation": "horizontal",
+        "torso_ground_contact": "partial",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "body_support_configuration": "forearms_feet_supported",
+        "explicit_work_evidence": "no",
+        "visual_quality": "clear",
+        "evidence": "Person in grey shirt and black shorts performing a plank exercise on a blue mat, supported by forearms and feet."
+      },
+      {
+        "person_id": 2,
+        "bbox_1000": [
+          608,
+          118,
+          758,
+          456
+        ],
+        "person_visible": "yes",
+        "pose": "chair_sitting",
+        "torso_orientation": "upright",
+        "torso_ground_contact": "none",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "chair",
+        "body_support_configuration": "chair_or_bed_supported",
+        "explicit_work_evidence": "no",
+        "visual_quality": "clear",
+        "evidence": "Person in grey shirt sitting at a table in the background."
+      },
+      {
+        "person_id": 3,
+        "bbox_1000": [
+          742,
+          118,
+          858,
+          456
+        ],
+        "person_visible": "yes",
+        "pose": "chair_sitting",
+        "torso_orientation": "upright",
+        "torso_ground_contact": "none",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "chair",
+        "body_support_configuration": "chair_or_bed_supported",
+        "explicit_work_evidence": "no",
+        "visual_quality": "clear",
+        "evidence": "Person in black shirt sitting at a table in the background."
+      }
+    ]
+  },
+  "person_decisions": [
+    {
+      "person_id": 1,
+      "decision": "ATTENTION_NEAR_GROUND",
+      "reason": "CLEAR_LIMB_SUPPORTED_NEAR_GROUND:forearms_feet_supported"
+    },
+    {
+      "person_id": 2,
+      "decision": "NO_ALERT_NORMAL_POSE",
+      "reason": "NORMAL_REST_OR_CHAIR_SUPPORT"
+    },
+    {
+      "person_id": 3,
+      "decision": "NO_ALERT_NORMAL_POSE",
+      "reason": "NORMAL_REST_OR_CHAIR_SUPPORT"
+    }
+  ],
+  "image_decision": "ATTENTION_NEAR_GROUND",
+  "image_reason": "AUXILIARY_ONLY",
+  "completed_timestamp": "2026-09-14T10:30:46.871669+00:00"
+}

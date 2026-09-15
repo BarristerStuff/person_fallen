@@ -1,0 +1,43 @@
+{
+  "active_annotation_sha256": {
+    "/home/yanbo/net_vlm_xunjian_dataset/01_annotations/batches.csv": "e166de60b418f42dceb0ccc77ba01e549cb1930f2ab08f4a62d5792329200a45",
+    "/home/yanbo/net_vlm_xunjian_dataset/01_annotations/labels.csv": "a12c08e587196350557749e1d24c138f089d8d96db27bcd458ff4c693de5ca54",
+    "/home/yanbo/net_vlm_xunjian_dataset/01_annotations/media.csv": "6fd2e03b38012df827a756dd299e1e99444f71bc1afd5181ac0f241096fdc518",
+    "/home/yanbo/net_vlm_xunjian_dataset/01_annotations/splits.csv": "967018452f8fe5334b438a6be554d3333533cd947fd52c0ccf66f594c8439c18"
+  },
+  "after_counts": {
+    "batch_count": 43,
+    "label_count": 4521,
+    "media_count": 4521,
+    "split_count": 2058
+  },
+  "before_counts": {
+    "batch_count": 41,
+    "label_count": 4201,
+    "media_count": 4201,
+    "split_count": 2058
+  },
+  "before_validator_artifact": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/00_preflight/dataset_validator_gr1_before.json",
+  "captured_at": "2026-08-27T08:02:25.214+00:00",
+  "count_delta": {
+    "batch_count": 2,
+    "label_count": 320,
+    "media_count": 320,
+    "split_count": 0
+  },
+  "interpretation": "The shared dataset changed outside P4D_GR1 while generation was running; no P4D token/reference was found in active annotation CSVs, so the observed delta is not attributed to P4D formal ingest.",
+  "p4d_formal_ingest_detected": false,
+  "p4d_reference_hits_by_active_csv": {
+    "/home/yanbo/net_vlm_xunjian_dataset/01_annotations/batches.csv": 0,
+    "/home/yanbo/net_vlm_xunjian_dataset/01_annotations/labels.csv": 0,
+    "/home/yanbo/net_vlm_xunjian_dataset/01_annotations/media.csv": 0,
+    "/home/yanbo/net_vlm_xunjian_dataset/01_annotations/splits.csv": 0
+  },
+  "p4d_reference_hits_total": 0,
+  "post_baseline_label_rows": 320,
+  "post_baseline_media_capture_batches": {
+    "P5_DEV_20260827": 200,
+    "P5_VALIDATION_20260827": 120
+  },
+  "post_baseline_media_rows": 320
+}

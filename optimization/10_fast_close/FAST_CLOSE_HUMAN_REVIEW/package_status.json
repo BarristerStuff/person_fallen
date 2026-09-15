@@ -1,0 +1,14 @@
+{
+  "all_rows_unreviewed_at_creation": true,
+  "event": "person_fallen",
+  "formal_p4d_440_review_replaced": false,
+  "ground_truth_created": false,
+  "image_bytes_copied": false,
+  "model_or_prompt_used_as_ground_truth": false,
+  "review_manifest": "/home/yanbo/net_vlm_person_fallen_v2_optimization/10_fast_close/FAST_CLOSE_HUMAN_REVIEW/review_manifest.csv",
+  "review_page": "/home/yanbo/net_vlm_person_fallen_v2_optimization/10_fast_close/FAST_CLOSE_HUMAN_REVIEW/index.html",
+  "review_rows": 202,
+  "source_manifest": "/home/yanbo/net_vlm_person_fallen_v2_optimization/10_fast_close/fast_close_clean_manifest.csv",
+  "status": "FAST_CLOSE_HUMAN_REVIEW_REQUIRED",
+  "version": "v2.0"
+}

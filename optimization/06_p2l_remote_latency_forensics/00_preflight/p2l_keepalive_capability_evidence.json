@@ -1,0 +1,53 @@
+{
+  "captured_at_utc": "2026-08-27T02:25:35.466980+00:00",
+  "observed_ollama_version": "0.23.2",
+  "endpoint": "http://192.168.20.62:11434",
+  "method": "read-only local/project source inspection; no compatibility request or server mutation",
+  "top_level_keep_alive_evidence": [
+    {
+      "path": "/home/yanbo/net_vlm_yanboversion/vlm/script/ollama_vlm.py",
+      "sha256": "cee49dbbd55bef352a15e8c40657f3b72eb0c7b9b9ce2d54e4c7d98ac284811e",
+      "matching_lines": [
+        [
+          36,
+          "        keep_alive: str,"
+        ],
+        [
+          49,
+          "        self.keep_alive = keep_alive"
+        ],
+        [
+          75,
+          "            \"keep_alive\": self.keep_alive,"
+        ]
+      ]
+    },
+    {
+      "path": "/home/yanbo/net_vlm_yanboversion/vlm/test_server_gateway.py",
+      "sha256": "b6d31a6aa1614032167127dab21c33ccedb8f71eafeb856db23f02d1f89b941c",
+      "matching_lines": [
+        [
+          84,
+          "            \"keep_alive\": \"30m\","
+        ]
+      ]
+    },
+    {
+      "path": "/home/yanbo/net_vlm_yanboversion/person_smoking_p1s_work_20260803/test_p1s_output_stability.py",
+      "sha256": "01d6ce444f6e6b52fd67a18b28f95de575a2511f8f8f80bc43dca58a1bd5298f",
+      "matching_lines": [
+        [
+          57,
+          "            \"keep_alive\": \"30m\", \"timeout_seconds\": 90, \"concurrency\": 1, \"uncertain_alert_policy\": \"no_alert\","
+        ],
+        [
+          105,
+          "        self.assertEqual((payload[\"format\"], payload[\"stream\"], payload[\"think\"], payload[\"keep_alive\"]), (\"json\", False, False, \"30m\"))"
+        ]
+      ]
+    }
+  ],
+  "accepted_probe_value": "30m",
+  "keep_alive_zero_used": false,
+  "conclusion": "existing project code and tests construct keep_alive as a top-level /api/generate field; Probe B may use top-level keep_alive=30m, while this artifact does not claim causal or production validation"
+}

@@ -1,0 +1,145 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "scene_coverage",
+    "people"
+  ],
+  "properties": {
+    "scene_coverage": {
+      "type": "string",
+      "enum": [
+        "complete",
+        "incomplete",
+        "unknown"
+      ]
+    },
+    "people": {
+      "type": "array",
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "person_id",
+          "bbox_1000",
+          "person_visible",
+          "pose",
+          "torso_orientation",
+          "torso_ground_contact",
+          "head_shoulders_above_hips",
+          "support_surface",
+          "explicit_work_evidence",
+          "visual_quality",
+          "evidence"
+        ],
+        "properties": {
+          "person_id": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 3
+          },
+          "bbox_1000": {
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "array",
+                "minItems": 4,
+                "maxItems": 4,
+                "items": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 1000
+                }
+              }
+            ]
+          },
+          "person_visible": {
+            "type": "string",
+            "enum": [
+              "yes",
+              "no",
+              "uncertain"
+            ]
+          },
+          "pose": {
+            "type": "string",
+            "enum": [
+              "standing",
+              "walking",
+              "chair_sitting",
+              "floor_sitting",
+              "kneeling",
+              "squat_crouch",
+              "bending",
+              "crawling",
+              "pushup_plank",
+              "supine",
+              "side_lying",
+              "prone",
+              "curled_lying",
+              "other_near_ground",
+              "unknown"
+            ]
+          },
+          "torso_orientation": {
+            "type": "string",
+            "enum": [
+              "upright",
+              "inclined",
+              "horizontal",
+              "unknown"
+            ]
+          },
+          "torso_ground_contact": {
+            "type": "string",
+            "enum": [
+              "none",
+              "partial",
+              "broad",
+              "unknown"
+            ]
+          },
+          "head_shoulders_above_hips": {
+            "type": "string",
+            "enum": [
+              "yes",
+              "no",
+              "unknown"
+            ]
+          },
+          "support_surface": {
+            "type": "string",
+            "enum": [
+              "floor",
+              "chair",
+              "bed_sofa",
+              "unknown"
+            ]
+          },
+          "explicit_work_evidence": {
+            "type": "string",
+            "enum": [
+              "yes",
+              "no",
+              "unknown"
+            ]
+          },
+          "visual_quality": {
+            "type": "string",
+            "enum": [
+              "clear",
+              "insufficient"
+            ]
+          },
+          "evidence": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "audit_status": "FAIL",
+  "audit_reason": "The original p1a_dev_freeze.json declared a dev_manifest_sha256 that does not match the actual DEV manifest.",
+  "original_freeze_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/03_p1a_think_false_protocol/freeze/p1a_dev_freeze.json",
+  "original_freeze_file_sha256": "01bd4e5f4098dee5685f72851c4905fe6bd869303a291b6e69ff8b6424e110f5",
+  "declared_dev_manifest_sha256": "f829285121249ceac924632c485f67ee3d83e9a9cf08a0d3716908bb21878c58",
+  "actual_dev_manifest_sha256": "7f8ff256a8da3cc6451e1ec3f6a842dc9b3eb6f4080e4fb5a1a49dda9bc7d7d8",
+  "prompt_sha256_verified": "b457a2442b8c4cca66866ecd7fcaaa765524740f1019e7811a05ec8e2c8335f4",
+  "config_sha256_verified": "db933a7420a4ca0f50785c487c1f0703830af9804e4cac1f0a962f18d4500557",
+  "runner_sha256_verified": "6ebc633b3a89ab9aaa4ea5653fd8fec126f283e8c5d70ce657c46b5e8e926f93",
+  "preservation_rule": "The original freeze artifact is preserved and was not overwritten. This audit is not a retroactive replacement freeze.",
+  "consequence": "P1A VAL was stopped and may not be resumed or rerun under P1A. P1A cannot claim a complete DEV+VAL valid classification baseline."
+}

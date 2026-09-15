@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "real_person",
+    "support_surface",
+    "torso_pelvis_state",
+    "active_nonlying_support",
+    "nonlying_posture_type",
+    "person_fallen",
+    "evidence"
+  ],
+  "properties": {
+    "real_person": {"type": "string", "enum": ["yes", "no", "uncertain"]},
+    "support_surface": {"type": "string", "enum": ["abnormal_non_rest_surface", "normal_rest_surface", "uncertain"]},
+    "torso_pelvis_state": {"type": "string", "enum": ["lying", "nonlying", "uncertain"]},
+    "active_nonlying_support": {"type": "string", "enum": ["yes", "no", "uncertain"]},
+    "nonlying_posture_type": {"type": "string", "enum": ["none", "seated", "kneeling", "squatting_or_crouching", "bending", "exercise_supported", "upright_or_walking", "other_nonlying", "uncertain"]},
+    "person_fallen": {"type": "string", "enum": ["positive", "negative", "uncertain"]},
+    "evidence": {"type": "string", "minLength": 1}
+  }
+}

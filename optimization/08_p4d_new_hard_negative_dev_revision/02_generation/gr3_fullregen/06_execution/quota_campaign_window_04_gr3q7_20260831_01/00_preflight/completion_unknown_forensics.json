@@ -1,0 +1,16 @@
+{
+  "authoritative_state": "COMPLETION_UNKNOWN_QUARANTINED",
+  "late_arriving_output_files_found": 0,
+  "no_resend": true,
+  "recovery_result": "NO_EXISTING_IMAGE_COMPLETION_EVIDENCE",
+  "request_correlated_image_artifacts_found": 0,
+  "searched_roots": [
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_03_gr3q6_authorized_20260831_01/04_raw_responses",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_03_gr3q6_authorized_20260831_01/07_generated_raw",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_03_gr3q6_authorized_20260831_01/08_final",
+    "/tmp/gpt-image-2*",
+    "/tmp/gpt_image*",
+    "/home/yanbo/.cache"
+  ],
+  "unknown_prompt_id": "PF_P4D_HN_MAINT_G006_V02"
+}

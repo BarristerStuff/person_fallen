@@ -1,0 +1,5 @@
+{
+  "global_stop": true,
+  "stop_reason": "NATIVE_RETRY_GUARD",
+  "stopped_at": "2026-08-31T07:07:32.286+00:00"
+}

@@ -1,0 +1,63 @@
+{
+  "status": "PASS_RECOVERY_PREFLIGHT_NO_INFERENCE",
+  "candidate": "V5-B0-TARGET-ATTRIBUTES",
+  "execution_id": "PERSON_FALLEN_V5_B0_FULL_DEV_RECOVERY_R1_20260909",
+  "old_extension_state": {
+    "status": "PASS",
+    "old_extension": "18_person_fallen_v5_full_dev_extension",
+    "old_extension_sha256": "6e709558b815d935faacf9f647094bc0570cf4bca844ed08d31ea147d165b50d",
+    "old_patterns": {
+      "**/claimed.json": [],
+      "**/completed.json": [],
+      "**/response.raw": [],
+      "**/failure.json": [],
+      "**/*ACTIVE*": [],
+      "**/*.jsonl": []
+    },
+    "old_execution_process_lines": [],
+    "old_claimed_count": 0,
+    "old_completed_count": 0,
+    "old_raw_count": 0,
+    "old_active_count": 0,
+    "old_jsonl_count": 0,
+    "new_recovery_created": true,
+    "new_recovery_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/19_person_fallen_v5_b0_full_dev_recovery_r1",
+    "requests_sent_by_this_recovery": 0,
+    "VAL_images_read": 0,
+    "VAL_predictions_read": 0,
+    "HOLDOUT_read": 0
+  },
+  "old_extension_immutable_evidence": {
+    "freeze_sha256": "6e709558b815d935faacf9f647094bc0570cf4bca844ed08d31ea147d165b50d",
+    "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/18_person_fallen_v5_full_dev_extension"
+  },
+  "v5_b0_freeze_sha256": "4ea0db2dce0d0cdea4af1bf799cd3e5d3ca1e2fd5293d1d352bf40e1978c25e4",
+  "v5_b0_freeze_binding_count": 505,
+  "reuse_count": 115,
+  "full_dev_count": 436,
+  "new_count": 321,
+  "new_request_order": [
+    "normal_negative",
+    "ground_lying",
+    "auxiliary_attention",
+    "visual_uncertain"
+  ],
+  "new_request_count_by_stratum": {
+    "normal_negative": 175,
+    "ground_lying": 85,
+    "auxiliary_attention": 41,
+    "visual_uncertain": 20
+  },
+  "runtime_process_relevant_lines": [
+    " 163957  122097 Ss         00:01 python3 19_person_fallen_v5_b0_full_dev_recovery_r1/tools/preflight_recovery.py"
+  ],
+  "VAL_images_read": 0,
+  "VAL_predictions_read": 0,
+  "VAL_evidence_read": 0,
+  "HOLDOUT_read": 0,
+  "model_requests_this_recovery": 0,
+  "model_preflight_done": false,
+  "source_fields_changed": false,
+  "GT_relabelled": false,
+  "OBJECT_LOCALIZATION_ACCURACY": "UNVERIFIED"
+}

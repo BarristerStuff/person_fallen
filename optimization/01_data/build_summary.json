@@ -1,0 +1,40 @@
+{
+  "image_count": 500,
+  "prompt_count": 500,
+  "mapping_status": "PASS",
+  "exact_duplicate_files": 0,
+  "exact_duplicate_sha_groups": 0,
+  "near_duplicate_dhash_groups": 0,
+  "role_counts": {
+    "positive": 200,
+    "negative": 100,
+    "hard_negative": 180,
+    "uncertain": 20
+  },
+  "label_counts": {
+    "1": 200,
+    "0": 280,
+    "uncertain": 20
+  },
+  "group_count": 50,
+  "split_counts": {
+    "DEV": 310,
+    "VAL": 100,
+    "HOLDOUT": 90
+  },
+  "split_role_counts": {
+    "DEV:positive": 120,
+    "VAL:positive": 40,
+    "HOLDOUT:positive": 40,
+    "DEV:negative": 60,
+    "VAL:negative": 20,
+    "HOLDOUT:negative": 20,
+    "DEV:hard_negative": 110,
+    "VAL:hard_negative": 40,
+    "HOLDOUT:hard_negative": 30,
+    "DEV:uncertain": 20
+  },
+  "aigc_metadata_completeness": true,
+  "unknown_seed_count": 500,
+  "source_manifest": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/manifest.json"
+}

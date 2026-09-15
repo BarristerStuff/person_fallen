@@ -1,0 +1,42 @@
+{
+  "status": "PASS_BLOCKING_STATE",
+  "freeze_hash": "76b8f9edfd240b8134821810c9733cd8277a97ed265c249ac674e99a1b53fdc8",
+  "claims": 0,
+  "raw": 0,
+  "completed": 0,
+  "critical_findings": [
+    {
+      "id": "C-01",
+      "title": "Real executor consumes unpinned V20 pilot/regression manifests",
+      "facts": [
+        "tools/engine.py load_manifest maps pilot and regression to ../20_person_fallen_v6_target_support_config/manifests/pilot156.json and regression1.json.",
+        "verify_real_freeze verifies RECOVERY_FREEZE.json bindings.",
+        "The verified R2 freeze binds the local 22/.../manifests/pilot156.json and regression1.json, but does not bind the two V20 manifest paths consumed by load_manifest."
+      ],
+      "reasoning": "A manifest edit at the live V20 paths after freeze verification changes the actual real-run input without changing the verified R2 freeze hash or its bindings. The local copied manifests therefore do not protect the real execution path.",
+      "risk": "This can alter request identity, budget composition, reuse membership, and source split. It also makes the claimed VAL/Holdout exclusion unenforceable end-to-end for pilot/regression.",
+      "affected_confirmations": [
+        "Pilot reuse does not resend during full_remaining",
+        "VAL / Holdout rejection",
+        "frozen manifest provenance"
+      ]
+    },
+    {
+      "id": "C-02",
+      "title": "Completion locks do not bind stage output or request evidence consumed by aggregation",
+      "facts": [
+        "tools/engine.py lock_ok validates only COMPLETION_LOCK.json status, the hash of summary.json, and summary gate PASS.",
+        "aggregate_full reads output.jsonl from pilot and full_remaining after lock_ok succeeds.",
+        "claimed.json, response.raw, transport.json, completed.json, request_events.jsonl, and output.jsonl are not hashed into COMPLETION_LOCK.json."
+      ],
+      "reasoning": "A changed output.jsonl can retain a valid summary.json and completion lock. aggregate_full will then consume the altered rows; it only checks row count, item uniqueness, and decision gates, not the raw/claimed/completed evidence chain.",
+      "risk": "Stage locking is not an immutable execution-integrity barrier. Full-436 aggregation and gate results can be forged or accidentally drift after a stage appears complete.",
+      "affected_confirmations": [
+        "stage lock cannot be bypassed by an executor override",
+        "full 436 aggregation",
+        "JSONL / claimed / raw / completed evidence"
+      ]
+    }
+  ],
+  "model_requests": 0
+}

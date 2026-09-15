@@ -1,0 +1,237 @@
+{
+  "review_id": "R2_OFFLINE_PRE_EXECUTION_CODE_REVIEW_2026-09-10",
+  "scope": {
+    "reviewed": [
+      "tools/engine.py",
+      "tools/runner.py",
+      "tools/fake_e2e.py",
+      "protocol/budget.py",
+      "manifests/*.json",
+      "manifests/*.csv",
+      "tools/build_manifests.py",
+      "tests/test_engine.py"
+    ],
+    "prohibited_not_used": [
+      "network",
+      "Ollama",
+      "model inference",
+      "VAL",
+      "Holdout"
+    ],
+    "write_scope": [
+      "reports/pre_execution_review.json"
+    ]
+  },
+  "methods_and_evidence": {
+    "static_review": "Completed against the scoped executor, protocol, manifests, builder, and tests.",
+    "fake_e2e_actual": {
+      "command_class": "local fake transport only",
+      "result": "PASS_FAKE_E2E_437",
+      "pilot_gate": "PASS",
+      "regression_gate": "PASS",
+      "full_remaining_gate": "PASS",
+      "full_dev_gate": "PASS",
+      "transport_calls": 437,
+      "unique_transport_calls": 437,
+      "network": 0
+    },
+    "unit_tests_actual": {
+      "runner": "python3 tests/test_engine.py -v with PYTHONDONTWRITEBYTECODE=1",
+      "result": "PASS",
+      "passed": 4,
+      "failed": 0
+    },
+    "manifest_current_state": {
+      "pilot_rows": 156,
+      "regression_rows": 1,
+      "full_remaining_rows": 280,
+      "full_combined_rows": 436,
+      "pilot_remaining_item_ids_disjoint": true,
+      "pilot_remaining_request_ids_disjoint": true,
+      "full_remaining_json_csv_rows_equal": true,
+      "full_combined_identity_order_equals_pilot_plus_remaining": true,
+      "full_combined_new_inference_rows": 280,
+      "full_combined_reuse_v6_pilot_rows": 156
+    }
+  },
+  "independent_judgment": {
+    "fact": "The normal executor command path has a strict phase allow-list and no override option, and the fake end-to-end path currently completes exactly 437 unique fake transports without network access.",
+    "reasoning": "Those passing functional checks do not establish immutable stage provenance. The real executor reads two live V20 manifests that are not bound by the R2 freeze, and its completion locks hash only summaries rather than the consumed output/evidence chain.",
+    "risk": "The current implementation can pass the ordinary fake and unit tests while a real run consumes changed pilot/regression inputs or aggregates altered completed output. This defeats the requested pre-execution guarantee for stage locking, frozen manifests, and VAL/Holdout exclusion."
+  },
+  "required_confirmations": [
+    {
+      "check": "phase allow-list",
+      "status": "PASS",
+      "evidence": [
+        "protocol/budget.py ALLOWED_PHASES is exactly pilot, regression, full_remaining.",
+        "tools/engine.py run_stage rejects any phase outside ALLOWED_PHASES.",
+        "tools/runner.py argparse choices are the same three phases.",
+        "tests/test_engine.py rejects val, holdout, screen, full, and production phase arguments."
+      ]
+    },
+    {
+      "check": "stage lock cannot be bypassed by an executor override",
+      "status": "FAIL",
+      "evidence": [
+        "No override token or CLI override path was found; run_stage rejects an existing stage directory and requires PASS dependency locks.",
+        "However lock_ok verifies only summary.json hash and summary gate; it does not bind output.jsonl, claimed.json, response.raw, transport.json, or completed.json.",
+        "aggregate_full subsequently trusts pilot/output.jsonl and full_remaining/output.jsonl directly."
+      ],
+      "finding_ids": [
+        "C-02"
+      ]
+    },
+    {
+      "check": "budget is a unique and exact normative source",
+      "status": "FAIL",
+      "evidence": [
+        "protocol/budget.py currently contains the exact intended map: pilot=156, regression=1, full_dev_remaining=280, total=437, val=0, holdout=0, detector=0.",
+        "Current functional totals are exact, but engine.py repeats phase/aggregate budget literals 156, 1, 280, and 436, and protocol/execution_plan.json duplicates the budget map."
+      ],
+      "finding_ids": [
+        "H-01"
+      ]
+    },
+    {
+      "check": "fake actual 437",
+      "status": "PASS",
+      "evidence": [
+        "tools/fake_e2e.py was executed locally and printed PASS_FAKE_E2E_437 with transport_calls=437, unique calls=437, and network=0."
+      ]
+    },
+    {
+      "check": "Pilot reuse does not resend during full_remaining",
+      "status": "CONDITIONALLY_PASS",
+      "evidence": [
+        "full_combined436 has 156 REUSE_V6_PILOT rows and 280 NEW_INFERENCE rows.",
+        "full_remaining loads only the 280-row remaining manifest; aggregate_full combines persisted pilot output with remaining output.",
+        "The fake run made 437 total calls (156 pilot + 1 regression + 280 remaining), not 593.",
+        "The real pilot/regression source manifests are not freeze-bound; see C-01."
+      ],
+      "finding_ids": [
+        "C-01"
+      ]
+    },
+    {
+      "check": "full 436 aggregation",
+      "status": "CONDITIONALLY_PASS",
+      "evidence": [
+        "aggregate_full requires PASS locks for pilot, regression, and full_remaining; fake execution produced a PASS full_dev summary and FULL_DEV_COMPLETION_LOCK.json.",
+        "Manifest identity/order currently corresponds to 156 pilot plus 280 remaining rows.",
+        "The aggregation does not cryptographically validate its input output/evidence chain; see C-02."
+      ],
+      "finding_ids": [
+        "C-02"
+      ]
+    },
+    {
+      "check": "early stop is executable",
+      "status": "PASS",
+      "evidence": [
+        "After each full_remaining completion, run_stage computes early-stop criteria, writes partial_metrics.json, writes EARLY_STOP.json on trigger, and raises EarlyStop before the next request.",
+        "The unit test exercises the B_NORMAL_RECHECK_24 trigger and passed."
+      ]
+    },
+    {
+      "check": "preflight is phase-independent",
+      "status": "PASS",
+      "evidence": [
+        "runner.runtime runs before every selected phase and runner writes a phase-specific ollama_preflight_{phase}.json.",
+        "run_stage records a separate runtime_preflight.json inside each phase directory."
+      ]
+    },
+    {
+      "check": "JSONL / claimed / raw / completed evidence",
+      "status": "CONDITIONALLY_PASS",
+      "evidence": [
+        "For each successful request, engine.py exclusively creates requests/<request_id>/claimed.json, response.raw, transport.json, and completed.json; it also appends request_events.jsonl and output.jsonl.",
+        "The creation flow exists, but none of those execution artifacts is included in the stage completion lock hash; see C-02."
+      ],
+      "finding_ids": [
+        "C-02"
+      ]
+    },
+    {
+      "check": "protocol has no retry or resend",
+      "status": "PASS",
+      "evidence": [
+        "MODEL sets automatic_retry=false and resend_completion_unknown=false.",
+        "call_real performs one request; every non-200, unknown completion, or parse failure creates failure.json and raises V6_A0_PROTOCOL_INCOMPLETE_NO_RETRY.",
+        "Existing stage directories are rejected, preventing ordinary rerun/resend through run_stage."
+      ]
+    },
+    {
+      "check": "VAL / Holdout rejection",
+      "status": "FAIL",
+      "evidence": [
+        "The phase allow-list rejects val and holdout, and the currently reviewed local manifests contain no VAL/Holdout strings.",
+        "Real load_manifest reads V20 pilot156.json and regression1.json, while the R2 freeze binds the local copies under 22/.../manifests rather than those consumed V20 paths.",
+        "Therefore the current local evidence is not an end-to-end frozen guarantee that a future real pilot/regression execution cannot consume changed or disallowed source rows."
+      ],
+      "finding_ids": [
+        "C-01"
+      ]
+    }
+  ],
+  "findings": {
+    "Critical": [
+      {
+        "id": "C-01",
+        "title": "Real executor consumes unpinned V20 pilot/regression manifests",
+        "facts": [
+          "tools/engine.py load_manifest maps pilot and regression to ../20_person_fallen_v6_target_support_config/manifests/pilot156.json and regression1.json.",
+          "verify_real_freeze verifies RECOVERY_FREEZE.json bindings.",
+          "The verified R2 freeze binds the local 22/.../manifests/pilot156.json and regression1.json, but does not bind the two V20 manifest paths consumed by load_manifest."
+        ],
+        "reasoning": "A manifest edit at the live V20 paths after freeze verification changes the actual real-run input without changing the verified R2 freeze hash or its bindings. The local copied manifests therefore do not protect the real execution path.",
+        "risk": "This can alter request identity, budget composition, reuse membership, and source split. It also makes the claimed VAL/Holdout exclusion unenforceable end-to-end for pilot/regression.",
+        "affected_confirmations": [
+          "Pilot reuse does not resend during full_remaining",
+          "VAL / Holdout rejection",
+          "frozen manifest provenance"
+        ]
+      },
+      {
+        "id": "C-02",
+        "title": "Completion locks do not bind stage output or request evidence consumed by aggregation",
+        "facts": [
+          "tools/engine.py lock_ok validates only COMPLETION_LOCK.json status, the hash of summary.json, and summary gate PASS.",
+          "aggregate_full reads output.jsonl from pilot and full_remaining after lock_ok succeeds.",
+          "claimed.json, response.raw, transport.json, completed.json, request_events.jsonl, and output.jsonl are not hashed into COMPLETION_LOCK.json."
+        ],
+        "reasoning": "A changed output.jsonl can retain a valid summary.json and completion lock. aggregate_full will then consume the altered rows; it only checks row count, item uniqueness, and decision gates, not the raw/claimed/completed evidence chain.",
+        "risk": "Stage locking is not an immutable execution-integrity barrier. Full-436 aggregation and gate results can be forged or accidentally drift after a stage appears complete.",
+        "affected_confirmations": [
+          "stage lock cannot be bypassed by an executor override",
+          "full 436 aggregation",
+          "JSONL / claimed / raw / completed evidence"
+        ]
+      }
+    ],
+    "High": [
+      {
+        "id": "H-01",
+        "title": "Budget truth is exact today but not unique in implementation",
+        "facts": [
+          "protocol/budget.py defines EXPECTED_BUDGET.",
+          "tools/engine.py independently embeds 156, 1, 280, and 436 in stage, aggregate, and pending-count checks.",
+          "protocol/execution_plan.json independently repeats the budget object."
+        ],
+        "reasoning": "Changing the normative budget requires coordinated edits in multiple files. A partial update can leave freeze validation, stage gates, and aggregate behavior inconsistent.",
+        "risk": "Future recovery/rebudget work can silently create a false PASS or false FAIL even if EXPECTED_BUDGET itself is updated correctly."
+      }
+    ]
+  },
+  "verdict": {
+    "status": "BLOCKED",
+    "release_decision": "DO_NOT_EXECUTE_REAL_R2_UNTIL_C-01_AND_C-02_ARE_FIXED_AND_REVIEWED",
+    "pass_condition": "Not PASS because 2 Critical and 1 High finding remain.",
+    "recommended_next_steps": [
+      "Make engine.load_manifest consume only the freeze-bound local R2 manifests, or add the exact consumed V20 manifest paths and hashes to RECOVERY_FREEZE bindings and verify them before every stage.",
+      "Bind a deterministic digest of the complete stage evidence set (claimed/raw/transport/completed/output/request-events) into COMPLETION_LOCK.json; aggregate only after verifying that digest and request-to-output identity coverage.",
+      "Derive all phase/aggregate counts from protocol/budget.py (and a single explicit full-dev composition object) rather than duplicated literals and plan values.",
+      "Add tests for unbound-manifest rejection, post-lock output tamper rejection, and evidence-chain coverage."
+    ]
+  }
+}

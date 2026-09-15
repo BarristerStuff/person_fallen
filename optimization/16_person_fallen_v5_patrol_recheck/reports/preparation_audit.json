@@ -1,0 +1,165 @@
+{
+  "status": "PREPARATION_COMPLETE_NO_INFERENCE",
+  "revision_id": "PERSON_FALLEN_V5_PATROL_RECHECK_20260909_01",
+  "event_name": "person_fallen",
+  "business_target": "Find visible ground-lying/collapsed people during patrol, not recognize the fall transition",
+  "gt_type": "PROMPT_DERIVED_SYNTHETIC_GT",
+  "human_semantic_review_required_for_synthetic_development": false,
+  "pixel_prompt_alignment": "USER_ATTESTED_NOT_EXHAUSTIVELY_VERIFIED",
+  "model_prediction_used_as_gt": false,
+  "source_counts": {
+    "ground_lying": 145,
+    "normal_negative": 230,
+    "auxiliary_attention": 41,
+    "visual_uncertain": 20
+  },
+  "floor_sitting_subset_count": 55,
+  "source_split_counts_preserved": {
+    "DEV": 310,
+    "NEW_DESIGN": 126
+  },
+  "hash_verification": {
+    "source_images_verified": 436,
+    "generation_prompts_verified": 436,
+    "full_views_verified": 436,
+    "crop_views_verified": 436
+  },
+  "historical_metrics_only_not_new_v5_predictions": true,
+  "historical_v4_operational_dev": {
+    "ground_lying": {
+      "count": 145,
+      "decisions": {
+        "ALERT_GROUND_LYING": 141,
+        "RECHECK_VISUAL_UNCERTAIN": 4
+      },
+      "alert_count": 141,
+      "recheck_count": 4,
+      "alert_rate": 0.9724137931034482,
+      "alert_recheck_coverage": 1.0
+    },
+    "normal_negative": {
+      "count": 230,
+      "decisions": {
+        "NO_ALERT_NORMAL_POSE": 228,
+        "RECHECK_VISUAL_UNCERTAIN": 2
+      },
+      "alert_count": 0,
+      "recheck_count": 2,
+      "alert_rate": 0.0,
+      "alert_recheck_coverage": 0.008695652173913044
+    },
+    "auxiliary_attention": {
+      "count": 41,
+      "decisions": {
+        "ATTENTION_NEAR_GROUND": 26,
+        "ALERT_GROUND_LYING": 2,
+        "NO_ALERT_NORMAL_POSE": 13
+      },
+      "alert_count": 2,
+      "recheck_count": 0,
+      "alert_rate": 0.04878048780487805,
+      "alert_recheck_coverage": 0.04878048780487805
+    },
+    "visual_uncertain": {
+      "count": 20,
+      "decisions": {
+        "RECHECK_VISUAL_UNCERTAIN": 13,
+        "NO_ALERT_NORMAL_POSE": 2,
+        "ALERT_GROUND_LYING": 5
+      },
+      "alert_count": 5,
+      "recheck_count": 13,
+      "alert_rate": 0.25,
+      "alert_recheck_coverage": 0.9
+    },
+    "floor_sitting": {
+      "count": 55,
+      "decisions": {
+        "NO_ALERT_NORMAL_POSE": 54,
+        "RECHECK_VISUAL_UNCERTAIN": 1
+      },
+      "alert_count": 0,
+      "recheck_count": 1,
+      "alert_rate": 0.0,
+      "alert_recheck_coverage": 0.01818181818181818
+    }
+  },
+  "historical_rev15_corrected_operational_dev": {
+    "ground_lying": {
+      "count": 145,
+      "decisions": {
+        "ALERT_GROUND_LYING": 145
+      },
+      "alert_count": 145,
+      "recheck_count": 0,
+      "alert_rate": 1.0,
+      "alert_recheck_coverage": 1.0
+    },
+    "normal_negative": {
+      "count": 230,
+      "decisions": {
+        "NO_ALERT_NORMAL_POSE": 212,
+        "ALERT_GROUND_LYING": 15,
+        "RECHECK_VISUAL_UNCERTAIN": 2,
+        "ATTENTION_NEAR_GROUND": 1
+      },
+      "alert_count": 15,
+      "recheck_count": 2,
+      "alert_rate": 0.06521739130434782,
+      "alert_recheck_coverage": 0.07391304347826087
+    },
+    "auxiliary_attention": {
+      "count": 41,
+      "decisions": {
+        "ATTENTION_NEAR_GROUND": 24,
+        "ALERT_GROUND_LYING": 6,
+        "NO_ALERT_NORMAL_POSE": 11
+      },
+      "alert_count": 6,
+      "recheck_count": 0,
+      "alert_rate": 0.14634146341463414,
+      "alert_recheck_coverage": 0.14634146341463414
+    },
+    "visual_uncertain": {
+      "count": 20,
+      "decisions": {
+        "RECHECK_VISUAL_UNCERTAIN": 5,
+        "ALERT_GROUND_LYING": 14,
+        "NO_ALERT_NORMAL_POSE": 1
+      },
+      "alert_count": 14,
+      "recheck_count": 5,
+      "alert_rate": 0.7,
+      "alert_recheck_coverage": 0.95
+    },
+    "floor_sitting": {
+      "count": 55,
+      "decisions": {
+        "NO_ALERT_NORMAL_POSE": 39,
+        "ALERT_GROUND_LYING": 15,
+        "RECHECK_VISUAL_UNCERTAIN": 1
+      },
+      "alert_count": 15,
+      "recheck_count": 1,
+      "alert_rate": 0.2727272727272727,
+      "alert_recheck_coverage": 0.2909090909090909
+    }
+  },
+  "proposed_auxiliary_dev_calls_using_exact_cached_v4_primary": 288,
+  "model_requests_this_preparation": 0,
+  "detector_requests_this_preparation": 0,
+  "val_images_read": 0,
+  "val_predictions_read": 0,
+  "holdout_rows_read": 0,
+  "holdout_images_read": 0,
+  "candidate_freeze_created": false,
+  "current_winner": null,
+  "production_integration_ready": false,
+  "bindings": {
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/manifests/v4_full_dev_crop_manifest.csv": "36b92f06c3be9a9d6450f0239d06a270ef2a57a2062bc674d21c08ebe4afb88f",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/eval/runs/dev_V4-A0-FULL-CROP-436/predictions.csv": "4a46072c5a4e2c94c9844e16387e059870b43bfbfc0d421282a0f90cd43ce589",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/15_person_fallen_v4_scene_any_lying/eval/runs/dev_full_REV15/predictions.csv": "ad98d36a000e7b35b0d29b6b124b543b4ed39c0aa2758359fd0633698902c614",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/16_person_fallen_v5_patrol_recheck/manifests/v5_dev_manifest.csv": "ac389edcada302f0881eb8893aecdf8f6a57bdc3a8484cccf8ecaeb82e043224"
+  },
+  "next_action": "Implement and freeze a single independent scene-review branch; no VAL/Holdout until lawful gates and exposure audit pass"
+}

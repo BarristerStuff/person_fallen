@@ -1,0 +1,24 @@
+{
+  "captured_at": "2026-08-30T11:47:49.334355+00:00",
+  "counts": {
+    "COMPLETION_UNKNOWN": 0,
+    "FAILED": 1,
+    "NOT_STARTED": 37,
+    "PHYSICAL_LOWER_BOUND": 31,
+    "PROVIDER_REQUESTS": 31,
+    "RETRY_EVENTS": 0,
+    "SUCCESS": 30,
+    "TOTAL": 68
+  },
+  "prompt_id": "PF_P4D_POS_CURLED_G003_V03",
+  "reason": "missing_image_result",
+  "result": {
+    "error_code": "missing_image_result",
+    "http_status": "UNKNOWN",
+    "latency_seconds": 36.23569076199965,
+    "native_retry_count": 0,
+    "prompt_id": "PF_P4D_POS_CURLED_G003_V03",
+    "state": "FAILED"
+  },
+  "status": "GLOBAL_STOP"
+}

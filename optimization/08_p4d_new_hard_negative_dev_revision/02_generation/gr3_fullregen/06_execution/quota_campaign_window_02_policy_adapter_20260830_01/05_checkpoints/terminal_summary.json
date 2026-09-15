@@ -1,0 +1,25 @@
+{
+  "c3": false,
+  "current_outstanding": 298,
+  "current_verified_success": 142,
+  "dataset_validator": {
+    "error_count": 0,
+    "full_hash_check": true,
+    "status": "valid",
+    "warning_count": 387
+  },
+  "formal_ingest": false,
+  "holdout_consumed": false,
+  "holdout_requests": 0,
+  "new_val": 0,
+  "q5_completion_unknown": 0,
+  "q5_logical_invocations": 11,
+  "q5_native_retry_events": 6,
+  "q5_other_failure": 0,
+  "q5_physical_attempt_lower_bound": 17,
+  "q5_policy_refusals": 0,
+  "q5_success": 10,
+  "stage": "P4D_GR3Q5_POLICY_AWARE_RENDER_ADAPTER_RECOVERY",
+  "status": "STOPPED_PROVIDER_429",
+  "stop_reason": "HTTP429_USAGE_LIMIT_REACHED"
+}

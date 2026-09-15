@@ -1,0 +1,31 @@
+{
+  "active_profile_stratum": "PROFILE_A_RESTORED",
+  "blocking_reasons": [
+    "WAITING_FOR_PROVIDER_QUOTA_RESET"
+  ],
+  "captured_at": "2026-08-28T08:00:47.125+00:00",
+  "checks": {
+    "active_p4d_refs_zero": true,
+    "adaptive_order_exact_outstanding": true,
+    "current_102_inventory_exact": true,
+    "dataset_after_valid": true,
+    "dataset_before_valid": true,
+    "dataset_unchanged": true,
+    "frozen_manifest_match": true,
+    "gr1_exclusion_clean": true,
+    "gr3q3_parent_freeze_match": true,
+    "material_config_match": true,
+    "outstanding_exact_338": true,
+    "provider_ready": true,
+    "provider_requests_zero": true,
+    "q2e_parent_freeze_match": true,
+    "quota_evidence_match": true
+  },
+  "execution_eligible": false,
+  "explicit_campaign_authorization": false,
+  "preparation_checks_pass": true,
+  "profile_gate_requires_decision": false,
+  "provider_requests": 0,
+  "stage": "P4D_GR3Q4_ADAPTIVE_QUOTA_WINDOW_CAMPAIGN",
+  "time_gate_pass": false
+}

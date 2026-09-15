@@ -1,0 +1,14 @@
+{
+  "pilot": {
+    "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/eval/runs/dev_V4-A0-FULL-CROP-436/predictions.csv",
+    "sha256": "4a46072c5a4e2c94c9844e16387e059870b43bfbfc0d421282a0f90cd43ce589",
+    "selected_rows": 115,
+    "purpose": "POST_EXECUTION_COMPARISON_ONLY_NOT_USED_FOR_NEW_DECISIONS"
+  },
+  "regression": {
+    "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/14_person_fallen_v4_operational_freeze/eval/runs/screen_V4-A0-FULL-CROP/predictions.csv",
+    "sha256": "dd9ac32bc4dc1e5e495797dd42b9a7a718345bb02b8e45771b809398699c2f4f",
+    "selected_rows": 1,
+    "purpose": "POST_EXECUTION_COMPARISON_ONLY_NOT_USED_FOR_NEW_DECISIONS"
+  }
+}

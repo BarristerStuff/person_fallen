@@ -1,0 +1,85 @@
+{
+  "state": "completed",
+  "phase": "pilot",
+  "request_id": "V6_TARGET_SUPPORT_PILOT_0041",
+  "item_id": "V2_ORIGINAL::IMG_003707",
+  "operational_id": "PFV6_PILOT_0041",
+  "taxonomy": "floor_sitting",
+  "group_id": "pf_v2_aigc_h01-sitting-on-floor",
+  "evaluation_stratum": "normal_negative",
+  "source_image_sha256": "73bc09ee9ef0fd6bbb582bbe0db98cd4469f12a8834626f5fa2cc0b71ba6acbd",
+  "full_view_sha256": "33c3e764d1c2a3796083bdbff96b76ec0010c3340a2e53407ccd918e92ae5785",
+  "crop_view_sha256": "73e5935d98f89d7f6ff26828082c9635734f15d3c2b8f7ce52edb69f9aa21132",
+  "payload_sha256": "8d17eb82feff545452fe46b4d0049547f1c17580079bf07323f0e9019fb663ac",
+  "claimed_timestamp": "2026-09-14T10:22:04.501347+00:00",
+  "http_status": 200,
+  "latency_seconds": 7.750195875996724,
+  "completion_unknown": false,
+  "transport_error": null,
+  "raw_response_sha256": "9f5d44b7bfb33cf97c5c520504e671e343df2672bf0f3b9ab483107d3e50a1b0",
+  "raw_response_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/24_person_fallen_v6_a0_direct_evaluation/eval/pilot/requests/V6_TARGET_SUPPORT_PILOT_0041/response.raw",
+  "received_timestamp": "2026-09-14T10:22:12.253691+00:00",
+  "strict_json_ok": true,
+  "source_binding_ok": true,
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 350,
+  "parsed": {
+    "scene_coverage": "complete",
+    "people": [
+      {
+        "person_id": 1,
+        "bbox_1000": [
+          388,
+          368,
+          525,
+          558
+        ],
+        "person_visible": "yes",
+        "pose": "floor_sitting",
+        "torso_orientation": "upright",
+        "torso_ground_contact": "partial",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "body_support_configuration": "pelvis_supported",
+        "explicit_work_evidence": "no",
+        "visual_quality": "clear",
+        "evidence": "Person sitting on floor against wall, holding phone."
+      },
+      {
+        "person_id": 2,
+        "bbox_1000": [
+          648,
+          238,
+          718,
+          448
+        ],
+        "person_visible": "yes",
+        "pose": "walking",
+        "torso_orientation": "upright",
+        "torso_ground_contact": "none",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "body_support_configuration": "unknown",
+        "explicit_work_evidence": "no",
+        "visual_quality": "clear",
+        "evidence": "Person walking away in hallway."
+      }
+    ]
+  },
+  "person_decisions": [
+    {
+      "person_id": 1,
+      "decision": "NO_ALERT_NORMAL_POSE",
+      "reason": "CONSISTENT_FLOOR_SITTING"
+    },
+    {
+      "person_id": 2,
+      "decision": "RECHECK_VISUAL_UNCERTAIN",
+      "reason": "SUPPORT_CONFIGURATION_UNRESOLVED"
+    }
+  ],
+  "image_decision": "RECHECK_VISUAL_UNCERTAIN",
+  "image_reason": "EMPTY_UNRESOLVED_OR_INCOMPLETE_COVERAGE",
+  "completed_timestamp": "2026-09-14T10:22:12.254481+00:00"
+}

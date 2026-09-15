@@ -1,0 +1,97 @@
+{
+  "CANDIDATE": "V6-A0-TARGET-SUPPORT-CONFIG",
+  "EXECUTION": "V6_A0_EXECUTION_RECOVERY_R1",
+  "FINAL_STATUS": "V6_FREEZE_BLOCKED_BEFORE_REQUEST",
+  "reason": "Pre-request code review found full-stage aggregation and early-stop blockers after the recovery freeze was created. Freeze is immutable; no source modification or reseal is authorized.",
+  "freeze_sha256": "dc24c828b546b050218440d31b18f0528a9620ef644ccbe0fd9fa403934acc74",
+  "freeze_binding_count": 1771,
+  "pilot156_status": "NOT_RUN",
+  "regression1_status": "NOT_RUN",
+  "full_dev_remaining280_status": "NOT_RUN",
+  "new_model_requests": 0,
+  "claimed_requests": 0,
+  "raw_responses": 0,
+  "completed_requests": 0,
+  "completion_locks": 0,
+  "active_runners": [
+    "  23298       00:00 /bin/bash -c cd /home/yanbo/net_vlm_person_fallen_v2_optimization && python3 - <<'PY' from pathlib import Path import json,hashlib,subprocess R=Path('21_person_fallen_v6_a0_execution_recovery_r1');freeze=R/'freeze/RECOVERY_FREEZE.json'; # confirm no request state claims=list((R/'eval').rglob('claimed.json'));raw=list((R/'eval').rglob('response.raw'));comp=list((R/'eval').rglob('completed.json'));locks=list((R/'eval').rglob('COMPLETION_LOCK.json')) ps=subprocess.run(['ps','-eo','pid,etime,args'],capture_output=True,text=True,check=True).stdout;active=[x for x in ps.splitlines() if 'run_v6_eval.py' in x or 'recovery_runner.py' in x or '/api/generate' in x] review=json.loads((R/'reports/pre_execution_review.json').read_text()) if (R/'reports/pre_execution_review.json').exists() else {} report={'CANDIDATE':'V6-A0-TARGET-SUPPORT-CONFIG','EXECUTION':'V6_A0_EXECUTION_RECOVERY_R1','FINAL_STATUS':'V6_FREEZE_BLOCKED_BEFORE_REQUEST','reason':'Pre-request code review found full-stage aggregation and early-stop blockers after the recovery freeze was created. Freeze is immutable; no source modification or reseal is authorized.','freeze_sha256':hashlib.sha256(freeze.read_bytes()).hexdigest(),'freeze_binding_count':json.loads(freeze.read_text()).get('binding_count'),'pilot156_status':'NOT_RUN','regression1_status':'NOT_RUN','full_dev_remaining280_status':'NOT_RUN','new_model_requests':0,'claimed_requests':len(claims),'raw_responses':len(raw),'completed_requests':len(comp),'completion_locks':len(locks),'active_runners':active,'offline_tests':'PASS before freeze','fake_e2e':'pilot+regression fake PASS only; full280 not covered','review_findings':review.get('findings',review.get('conclusions',review)),'VAL_REQUESTS':0,'VAL_IMAGES_READ':0,'HOLDOUT_REQUESTS':0,'HOLDOUT_CONSUMED':False,'ROBOT_CONTROL_REQUESTS':0,'OBJECT_LOCALIZATION_ACCURACY':'UNVERIFIED','CURRENT_WINNER':'NONE','PRODUCTION_INTEGRATION_READY':False,'CODE_COMMITTED':False,'NEXT_ACTION':'WAIT_FOR_EXPLICIT_FREEZE_RECOVERY_AUTHORIZATION','timestamp':'2026-09-10'} (R/'reports/final_report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\\n') (R/'reports/final_report.md').write_text('# V6-A0 recovery freeze 前请求阻塞\\n\\n`FINAL_STATUS=V6_FREEZE_BLOCKED_BEFORE_REQUEST`\\n\\n冻结后离线审查发现 full DEV 280 未与 Pilot156 合并、early-stop 未在runner执行、fake E2E未覆盖full阶段，且fake override可绕过regression依赖检查。由于freeze已不可变，按规则停止；模型请求=0，不运行Pilot/Regression/Full DEV，不进入生产集成和Git提交。\\n\\nNEXT_ACTION=WAIT_FOR_EXPLICIT_FREEZE_RECOVERY_AUTHORIZATION\\n',encoding='utf-8') (R/'reports/independent_audit_final.json').write_text(json.dumps({'status':'PASS_BLOCKING_STATE_CONFIRMED','candidate':'V6-A0-TARGET-SUPPORT-CONFIG','freeze_hash':report['freeze_sha256'],'model_requests':0,'claims':len(claims),'raw':len(raw),'completed':len(comp),'blockers':['full280_fake_e2e_not_covered','full436_aggregation_missing','early_stop_not_implemented','fake_override_bypasses_stage_dependency'],'val_holdout_read':False},ensure_ascii=False,indent=2)+'\\n') print(json.dumps({'status':report['FINAL_STATUS'],'model_requests':0,'claimed':len(claims),'raw':len(raw),'completed':len(comp),'active':active},ensure_ascii=False)) PY"
+  ],
+  "offline_tests": "PASS before freeze",
+  "fake_e2e": "pilot+regression fake PASS only; full280 not covered",
+  "review_findings": [
+    {
+      "id": "F-01",
+      "severity": "BLOCKER",
+      "area": "full_execution_coverage",
+      "fact": "The declared fake E2E executes pilot and regression only: 156 + 1 = 157 requests. It never calls run_phase('full') and therefore does not validate the remaining 280, total 437, full gates, or full early-stop behavior.",
+      "evidence": "tools/run_fake_e2e.py:21-29; protocol/execution_plan.json budget/stages; 12 offline tests passed",
+      "impact": "PASS_FAKE_E2E is valid only for the pilot/regression harness scope, not for full DEV readiness.",
+      "recommendation": "Add a separate offline full-remaining harness/aggregation test covering exactly 280 new rows and a zero-resend assertion for 156 reused pilot rows before authorizing full execution."
+    },
+    {
+      "id": "F-02",
+      "severity": "HIGH",
+      "area": "stage_dependency",
+      "fact": "The fake E2E supplies freeze_override to both phases, and runner line 49 skips the pilot PASS dependency whenever freeze_override is not None. Thus the fake PASS does not prove regression is blocked when pilot fails.",
+      "evidence": "tools/recovery_runner.py:49; tools/run_fake_e2e.py:23-29",
+      "impact": "A test-only override can mask the production stage lock contract.",
+      "recommendation": "Keep production runner unchanged for this review, but add an offline negative test using the real dependency path or an explicit test-only dependency assertion that a failed pilot cannot enter regression."
+    },
+    {
+      "id": "F-03",
+      "severity": "BLOCKER",
+      "area": "full_summary_and_gates",
+      "fact": "The full branch reads only full_dev_remaining.json (280) and writes gate NOT_EVALUATED_PARTIAL; it does not aggregate full_dev_combined.json (156 reused + 280 new) or apply the declared full gates.",
+      "evidence": "tools/recovery_runner.py:41-43,50,62; manifests/full_dev_combined.json; protocol/execution_plan.json full gates",
+      "impact": "A full completion lock cannot establish a valid 436-row combined result or PASS/FAIL full gate.",
+      "recommendation": "Before execution, implement or provide a separate read-only full aggregator that consumes pilot results without resending them and validates all full gates."
+    },
+    {
+      "id": "F-04",
+      "severity": "HIGH",
+      "area": "early_stop",
+      "fact": "early_stop thresholds are declared in the execution plan, but runner code has no threshold evaluation or durable stop state; the only reference is a comment.",
+      "evidence": "protocol/execution_plan.json early_stop; tools/recovery_runner.py:61",
+      "impact": "The 437 budget is not protected by the declared early-stop policy during execution.",
+      "recommendation": "Add offline tests for each threshold and assert no later transport call after a stop condition; do not proceed to live execution until this contract is executable."
+    },
+    {
+      "id": "F-05",
+      "severity": "HIGH",
+      "area": "offline_transport_boundary",
+      "fact": "The injectable fake transport is programmatic only. The CLI invokes preflight(), which runs curl against the Ollama endpoint; this review did not invoke the CLI.",
+      "evidence": "tools/recovery_runner.py:24-30,46,64-68; tools/run_fake_e2e.py:4-20",
+      "impact": "The fake E2E is offline-safe, but the production CLI is not an offline review entry point.",
+      "recommendation": "Keep offline verification on the fake harness and never call the production CLI under the no-network constraint."
+    },
+    {
+      "id": "F-06",
+      "severity": "PASS_WITH_LIMIT",
+      "area": "budget_contract",
+      "fact": "Budget arithmetic and manifest accounting are internally consistent: 156 pilot + 1 regression + 280 new remaining = 437; remaining is 280 and combined is 436 with 156 REUSE_V6_PILOT and 280 NEW_INFERENCE rows. VAL/Holdout/detector budgets are zero and val_holdout_allowed is false.",
+      "evidence": "protocol/execution_plan.json; manifests/full_dev_remaining.json; manifests/full_dev_combined.json; tests/test_pre_execution_review.py",
+      "impact": "Static accounting passes, but runtime request-ledger enforcement and full aggregation are not proven.",
+      "recommendation": "Require a durable new-transport counter <=437 and assert reused pilot rows cause zero transport sends."
+    },
+    {
+      "id": "F-07",
+      "severity": "PASS_WITH_LIMIT",
+      "area": "jsonl_protocol",
+      "fact": "The parser and JSONL writer are fail-closed/basic line-delimited compliant, and offline tests cover envelope completion/model checks and event emission.",
+      "evidence": "adapters/contracts.py; tools/recovery_runner.py:55-62; tests/test_pre_execution_review.py",
+      "impact": "This does not establish restart recovery, duplicate-event protection, or full-stage accounting.",
+      "recommendation": "Add negative tests for restart, duplicate request IDs, truncated JSONL, and partial full aggregation."
+    }
+  ],
+  "VAL_REQUESTS": 0,
+  "VAL_IMAGES_READ": 0,
+  "HOLDOUT_REQUESTS": 0,
+  "HOLDOUT_CONSUMED": false,
+  "ROBOT_CONTROL_REQUESTS": 0,
+  "OBJECT_LOCALIZATION_ACCURACY": "UNVERIFIED",
+  "CURRENT_WINNER": "NONE",
+  "PRODUCTION_INTEGRATION_READY": false,
+  "CODE_COMMITTED": false,
+  "NEXT_ACTION": "WAIT_FOR_EXPLICIT_FREEZE_RECOVERY_AUTHORIZATION",
+  "timestamp": "2026-09-10"
+}

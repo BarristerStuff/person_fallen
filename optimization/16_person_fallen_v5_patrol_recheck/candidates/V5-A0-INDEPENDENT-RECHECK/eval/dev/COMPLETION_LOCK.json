@@ -1,0 +1,8 @@
+{
+  "status": "COMPLETE",
+  "gate": "FAIL",
+  "summary_sha256": "ae6d93ed393e1f5107d5cdeab3fec07b64b429a5b888766cf9200eddc9668391",
+  "predictions_sha256": "e1f6bf07b227bd04985c03377178ab5be611e17ef69cbbca937d80ce39b413e0",
+  "completed_timestamp": "2026-09-09T06:48:14.000571+00:00",
+  "secondary_requests": 288
+}

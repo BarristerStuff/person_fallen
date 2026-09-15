@@ -1,0 +1,70 @@
+{
+  "captured_at": "2026-08-27T10:30:43.913+00:00",
+  "command": [
+    "node",
+    "/home/yanbo/.codex/skills/gpt-image-2-skill/scripts/gpt_image_2_skill.cjs",
+    "--json",
+    "--provider",
+    "codex",
+    "auth",
+    "inspect"
+  ],
+  "label": "auth_inspect",
+  "payload": {
+    "command": "auth inspect",
+    "ok": true,
+    "providers": {
+      "codex": {
+        "access_token_present": true,
+        "account_id": "9a30f0ca-6b90-406b-a64f-41d384a5b880",
+        "auth_file": "/home/yanbo/.codex/auth.json",
+        "auth_mode": "chatgpt",
+        "auth_source": "config",
+        "chatgpt_user_id": "user-DSsdJhtq3XV9WYMyHQNDLFZw",
+        "email": "blakealford835099+67173@googlemail.com",
+        "exists": true,
+        "expired": false,
+        "expires_at": 1788680685,
+        "id_token_present": true,
+        "last_refresh": "2026-08-27T07:44:48.442840593Z",
+        "parse_ok": true,
+        "plan_type": "plus",
+        "provider": "codex",
+        "ready": true,
+        "refresh_token_present": true,
+        "seconds_until_expiry": 854042
+      },
+      "configured": {
+        "ebond-gpt-image-2": {
+          "api_base": "https://api.ebondai.com/v1",
+          "credentials": {
+            "api_key": {
+              "present": true,
+              "source": "file",
+              "value": {
+                "_omitted": "secret"
+              }
+            }
+          },
+          "endpoint": null,
+          "model": "gpt-image-2",
+          "proxy": null,
+          "supports_n": null,
+          "type": "openai-compatible"
+        }
+      },
+      "openai": {
+        "api_key_present": false,
+        "auth_source": "missing",
+        "default_model": "gpt-image-2",
+        "env_var": "OPENAI_API_KEY",
+        "provider": "openai",
+        "ready": false
+      }
+    },
+    "requested_provider": "codex"
+  },
+  "returncode": 0,
+  "stderr": "",
+  "stdout": "{\n  \"command\": \"auth inspect\",\n  \"ok\": true,\n  \"providers\": {\n    \"codex\": {\n      \"access_token_present\": true,\n      \"account_id\": \"9a30f0ca-6b90-406b-a64f-41d384a5b880\",\n      \"auth_file\": \"/home/yanbo/.codex/auth.json\",\n      \"auth_mode\": \"chatgpt\",\n      \"auth_source\": \"config\",\n      \"chatgpt_user_id\": \"user-DSsdJhtq3XV9WYMyHQNDLFZw\",\n      \"email\": \"blakealford835099+67173@googlemail.com\",\n      \"exists\": true,\n      \"expired\": false,\n      \"expires_at\": 1788680685,\n      \"id_token_present\": true,\n      \"last_refresh\": \"2026-08-27T07:44:48.442840593Z\",\n      \"parse_ok\": true,\n      \"plan_type\": \"plus\",\n      \"provider\": \"codex\",\n      \"ready\": true,\n      \"refresh_token_present\": true,\n      \"seconds_until_expiry\": 854042\n    },\n    \"configured\": {\n      \"ebond-gpt-image-2\": {\n        \"api_base\": \"https://api.ebondai.com/v1\",\n        \"credentials\": {\n          \"api_key\": {\n            \"present\": true,\n            \"source\": \"file\",\n            \"value\": {\n              \"_omitted\": \"secret\"\n            }\n          }\n        },\n        \"endpoint\": null,\n        \"model\": \"gpt-image-2\",\n        \"proxy\": null,\n        \"supports_n\": null,\n        \"type\": \"openai-compatible\"\n      }\n    },\n    \"openai\": {\n      \"api_key_present\": false,\n      \"auth_source\": \"missing\",\n      \"default_model\": \"gpt-image-2\",\n      \"env_var\": \"OPENAI_API_KEY\",\n      \"provider\": \"openai\",\n      \"ready\": false\n    }\n  },\n  \"requested_provider\": \"codex\"\n}\n"
+}

@@ -1,0 +1,7 @@
+captured_at_utc=2026-08-27T02:13:20.361465+00:00
+target=tiga@192.168.20.62
+command=nvidia-smi -L; nvidia-smi --query-gpu=index,uuid,name,temperature.gpu,utilization.gpu,utilization.memory,memory.total,memory.used,memory.free --format=csv
+returncode=255
+--- stdout ---
+--- stderr ---
+tiga@192.168.20.62: Permission denied (publickey,password).

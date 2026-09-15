@@ -1,0 +1,12 @@
+{
+  "future_recovery_revision_required": true,
+  "history_must_not_be_overwritten": true,
+  "image_bytes": "none",
+  "parent_metadata_path": "/home/yanbo/下载/batches/batch-person-fallen-v2-p4d-hardneg-fullregen-r2-camera1p5m/metadata/PF_P4D_HN_KNEEL_G008_V05.json",
+  "parent_metadata_sha256": "c8a8103b8359d331366b5a1d3a72df688f716cf430ee178166c69a4b8c054290",
+  "parent_raw_response_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/authorized_20260827_01/04_raw_responses/P4D_GR3E_BULK_0100_PF_P4D_HN_KNEEL_G008_V05.json",
+  "parent_raw_response_sha256": "efc64caf69f054b419cc83083fd53f62249e1d715d6d2400f12afd60ec61682a",
+  "parent_request_id": "P4D_GR3E_BULK_0100_PF_P4D_HN_KNEEL_G008_V05",
+  "parent_status": "FAILED_CONFIRMED_HTTP_429",
+  "prompt_id": "PF_P4D_HN_KNEEL_G008_V05"
+}

@@ -1,0 +1,11 @@
+{
+  "captured_at": "2026-08-30T10:55:26.607+00:00",
+  "completed_group_count": 0,
+  "current_total_success": 102,
+  "last_successful_prompt": null,
+  "outstanding": 338,
+  "status": "NOT_EXECUTED",
+  "window_logical_count": 0,
+  "window_native_retry_events": 0,
+  "window_physical_attempt_lower_bound": 0
+}

@@ -1,0 +1,44 @@
+{
+  "after_annotation_sha256": {
+    "batches.csv": "50f3fc10dcb2a4cad030113342448e2d164000a84c86e95db30090636cee3a14",
+    "context_rules.csv": "31dd8736bd386024e9c80a4b5d2bd44ebcc67474e89973ccfa999e7de2a74afa",
+    "labels.csv": "6d40babf13010d1a66aea7c3b6a249b762ddd23a8cd0293cd9e7302428071d13",
+    "media.csv": "2b9f3c0597fa41e16a03298c4ec480a1db2b01f4e05784380ae60d937b94b601",
+    "splits.csv": "640d43cc3fa4643cf6163485c29065e750c58f8380529d6727bf54772b2a0137"
+  },
+  "after_counts": {
+    "batches.csv": 45,
+    "context_rules.csv": 0,
+    "labels.csv": 4881,
+    "media.csv": 5081,
+    "splits.csv": 2618
+  },
+  "after_validator_error_count": 0,
+  "after_validator_status": "valid",
+  "after_validator_warning_count": 387,
+  "annotation_hashes_same": true,
+  "before_annotation_sha256": {
+    "batches.csv": "50f3fc10dcb2a4cad030113342448e2d164000a84c86e95db30090636cee3a14",
+    "context_rules.csv": "31dd8736bd386024e9c80a4b5d2bd44ebcc67474e89973ccfa999e7de2a74afa",
+    "labels.csv": "6d40babf13010d1a66aea7c3b6a249b762ddd23a8cd0293cd9e7302428071d13",
+    "media.csv": "2b9f3c0597fa41e16a03298c4ec480a1db2b01f4e05784380ae60d937b94b601",
+    "splits.csv": "640d43cc3fa4643cf6163485c29065e750c58f8380529d6727bf54772b2a0137"
+  },
+  "before_counts": {
+    "batches.csv": 45,
+    "context_rules.csv": 0,
+    "labels.csv": 4881,
+    "media.csv": 5081,
+    "splits.csv": 2618
+  },
+  "before_validator_error_count": 0,
+  "before_validator_status": "valid",
+  "before_validator_warning_count": 387,
+  "captured_at": "2026-08-30T10:55:26.602+00:00",
+  "counts_unchanged": true,
+  "formal_ingest": false,
+  "labels_added": 0,
+  "media_added": 0,
+  "p4d_reference_hits": [],
+  "p4d_reference_hits_total": 0
+}

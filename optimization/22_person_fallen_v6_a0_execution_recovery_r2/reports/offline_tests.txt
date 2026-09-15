@@ -1,0 +1,9 @@
+test_budget_exact_and_phase_whitelist (test_engine.EngineTests) ... ok
+test_early_stop (test_engine.EngineTests) ... ok
+test_fake_437 (test_engine.EngineTests) ... ok
+test_pilot_failed_blocks_regression (test_engine.EngineTests) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 5.414s
+
+OK

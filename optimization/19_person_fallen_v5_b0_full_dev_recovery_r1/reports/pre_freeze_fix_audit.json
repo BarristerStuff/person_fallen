@@ -1,0 +1,20 @@
+{
+  "status": "PASS_PRE_FREEZE_ROOT_CAUSE_FIXES",
+  "issues": [
+    {
+      "root_cause": "full_dev_metrics request map keyed by item_id but compared map key to output request_id",
+      "fix": "compare request.get(request_id) to output request IDs",
+      "regression_test": "test_partial_invalid_and_complete_gate_not_pass plus fake E2E"
+    },
+    {
+      "root_cause": "runner assumed output_run_dir parent existed",
+      "fix": "create output_run_dir.parent before stage and requests directories",
+      "regression_test": "test_fake_transport_complete_e2e_nested_parent_and_jsonl"
+    }
+  ],
+  "fake_e2e_report_sha256": "4db552cf209a6544966223d6b25c535e519461a5e16b82991ea03bbe83e1d772",
+  "offline_test_count": 13,
+  "network_requests": 0,
+  "runner_model_binding_option_added_before_freeze": true,
+  "current_runner_sha256": "a3a1e4afde37b0cf857b2aec3d42f063d3b7afd16254cb6e71e7c0786bf81f3d"
+}

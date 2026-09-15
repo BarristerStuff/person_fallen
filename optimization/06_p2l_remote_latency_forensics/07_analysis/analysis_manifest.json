@@ -1,0 +1,30 @@
+{
+  "historical_inputs": [
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/06_p2l_remote_latency_forensics/01_historical_forensics/p2_screen_duration_breakdown.csv",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/06_p2l_remote_latency_forensics/01_historical_forensics/p2_val_duration_breakdown.csv",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/06_p2l_remote_latency_forensics/01_historical_forensics/p2_val_change_points.csv"
+  ],
+  "historical_forensics_script": "/home/yanbo/net_vlm_person_fallen_v2_optimization/tools/p2l_historical_forensics.py",
+  "probe_inputs": [
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/06_p2l_remote_latency_forensics/04_probe_A_exact_c3/raw_responses.jsonl",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/06_p2l_remote_latency_forensics/05_probe_B_keepalive/raw_responses.jsonl",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/06_p2l_remote_latency_forensics/06_probe_C_diverse_images/raw_responses.jsonl",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/06_p2l_remote_latency_forensics/04_probe_A_exact_c3_attempt_001/raw_responses.jsonl"
+  ],
+  "probe_request_logs": [
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/06_p2l_remote_latency_forensics/04_probe_A_exact_c3/request_log.jsonl",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/06_p2l_remote_latency_forensics/05_probe_B_keepalive/request_log.jsonl",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/06_p2l_remote_latency_forensics/06_probe_C_diverse_images/request_log.jsonl",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization/06_p2l_remote_latency_forensics/04_probe_A_exact_c3_attempt_001/request_log.jsonl"
+  ],
+  "output_sha256": {
+    "all_requests.csv": "8c9784fd4341713a4ea2fa9b13285c5155f645133242b56c0a392c4c5936a68d",
+    "latency_components.csv": "6c905f95281b3fc499629f24dd1473a75984e6bb77397d4e468034f7502969bb",
+    "hypothesis_matrix.csv": "1a2a4d900d4cbc56abd40600cc0847032b38c5d19b3e1d709eb0a3eb06e4bd61",
+    "anomaly_requests.csv": "5de1388ff0a42a17a49b3483ccfc4f9b5088fc40788ca48b92cf1d247f538137",
+    "change_point_analysis.csv": "4c65c607a9aaa519017d8a8efa9bcc06ec18631faeea4c52940f67250fd72c94",
+    "api_ps_timeline.csv": "66ca73ead6d9c379a056d24c33105f16c380ea656dbe95ba1f2ac5887d1d5e2e",
+    "forensic_summary.json": "69891612289d00f66a363972d88976b1cd4e36a393b3ebd985d6837c18f52c9e",
+    "final_forensic_summary.json": "69891612289d00f66a363972d88976b1cd4e36a393b3ebd985d6837c18f52c9e"
+  }
+}

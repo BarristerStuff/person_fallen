@@ -1,0 +1,39 @@
+{
+  "GR3Q1_historical_status_preserved": "BLOCKED_PROFILE_LINEAGE_CHANGE",
+  "POLICY_CHANGE": true,
+  "POLICY_CHANGE_RETROACTIVE_TO_GR3Q1_DECISION": false,
+  "captured_at": "2026-08-28T06:08:57.307+00:00",
+  "current_material_generation_config_change": false,
+  "current_profile_fingerprint_changed": true,
+  "decision_rule": "Preserve prior successful assets only when all observable hard variables are unchanged, image integrity passes, and completion ambiguity is zero; record profile strata and audit their imbalance after completion.",
+  "hard_generation_lineage_variables": [
+    "provider family",
+    "generation backend",
+    "generation model or model capability",
+    "material observable generation model version",
+    "prompt bytes",
+    "generation configuration",
+    "requested quality",
+    "image generation mode",
+    "semantic taxonomy",
+    "group allocation",
+    "DESIGN/SCREEN allocation"
+  ],
+  "image_generation_provider_requests": 0,
+  "limitations": [
+    "Account-specific server-side routing or A/B behavior is not directly observable through local metadata.",
+    "No policy claim proves identical provider-side generation distribution; the amendment requires provenance stratification and later diagnostic audit."
+  ],
+  "new_rule": "account/profile fingerprint is operational provenance and is not alone a semantic generation-lineage break",
+  "old_rule": "different account/profile implies lineage break",
+  "provenance_only_variables": [
+    "account/profile fingerprint",
+    "authentication session",
+    "refresh token/session revision",
+    "execution revision",
+    "quota window",
+    "request timestamp"
+  ],
+  "stage": "P4D_GR3Q2_LINEAGE_POLICY_AMENDMENT",
+  "version": "v1"
+}

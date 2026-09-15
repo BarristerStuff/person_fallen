@@ -1,0 +1,20 @@
+{
+  "status": "PREPARATION_ARTIFACT_INVENTORY_NOT_CANDIDATE_FREEZE",
+  "files": {
+    "README.md": "cb12d49cfe20b588de7d123438d4a33e19a1ea3539e531725e8bfdd5c7f83028",
+    "manifests/v5_dev_manifest.csv": "ac389edcada302f0881eb8893aecdf8f6a57bdc3a8484cccf8ecaeb82e043224",
+    "policy/routing_contract.py": "8b41906a0e578078bf755b3ecedfffd26d17a90da57b93428ec4b4a4005cb8c1",
+    "protocol/v5_preparation_plan.json": "6dc7c4b4daa36150279d08b78f651524e81578a39bd07146737d4ff775ae144a",
+    "reports/preparation_audit.json": "e1bc5d7618d6bb62cbeac8154dbefd3f24f19f48088d1597e2485d5714421fa9",
+    "tests/test_v5_contract.py": "d0dedf58a1ab4abf19b5a6af9893e14d68dc97af48be1ee018fd41b81f1e2c4f",
+    "tools/prepare_v5_dev.py": "1935276a9b7370a55d5e055b9644f5b6e6456c59ae814479c2203d099cfed255"
+  },
+  "model_requests": 0,
+  "candidate_freeze_created": false,
+  "tests": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s /home/yanbo/net_vlm_person_fallen_v2_optimization/16_person_fallen_v5_patrol_recheck/tests -v",
+    "passed": 13,
+    "failed": 0,
+    "scope": "offline deterministic unit tests only"
+  }
+}

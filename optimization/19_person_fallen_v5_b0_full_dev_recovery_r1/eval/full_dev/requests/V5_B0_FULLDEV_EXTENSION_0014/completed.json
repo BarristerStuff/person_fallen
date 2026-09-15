@@ -1,0 +1,121 @@
+{
+  "state": "completed",
+  "phase": "full_dev_extension",
+  "request_id": "V5_B0_FULLDEV_EXTENSION_0014",
+  "item_id": "V2_ORIGINAL::IMG_003895",
+  "operational_id": "PFV4DEV_0055",
+  "evaluation_stratum": "normal_negative",
+  "source_image_sha256": "fc149aaea8829ea06f3ed12651debf67d1b41ee5405a8479d2855176ad1207f8",
+  "full_view_sha256": "7b44600b1c11c9bb9085db14a94b27172b989521ab0694a759a13c41aa533da3",
+  "crop_view_sha256": "b7457efc51fbb938885e7d0f2ab2e87c8ff3cad794ad27f419a235150fea9172",
+  "view_count": 2,
+  "view_order": [
+    "full_scene",
+    "person_crop"
+  ],
+  "prompt_sha256": "757fb445efa3f05327947a4c32115e3735823c81d14177199bbf8a6381d3300a",
+  "schema_sha256": "1ccf5a08cd1d6287b33f5d04b0f06101ae75666919c1a9f160ac0c5c335d7817",
+  "policy_sha256": "b2126bf86378fa6d0bcbc67861fa794b320affb1de90dc445f5838223cae68b9",
+  "contracts_sha256": "e88cb1cb2c297200245531d5c5802aa9224dcd1a43e181402adeac23bf949edd",
+  "model": {
+    "endpoint": "http://192.168.20.62:11434",
+    "name": "qwen3.5:4b",
+    "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+    "ollama_version": "0.23.2",
+    "think": false,
+    "stream": false,
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 768,
+    "concurrency": 1,
+    "timeout_seconds": 120,
+    "automatic_retry": false,
+    "resend_completion_unknown": false,
+    "api": "/api/generate"
+  },
+  "freeze_sha256": "900dfdc9fcf0aad9e95ba2c5abfbc23cfdc8dcdec4b9680f36b03fecff750eee",
+  "payload_sha256": "e38df4e536b700cd0e9e67a98d93470dc5e4adc580dfa53981a5bcc6403f602a",
+  "claimed_timestamp": "2026-09-09T10:49:45.604644+00:00",
+  "inference_source": "NEW_INFERENCE",
+  "result_source": "NEW_INFERENCE",
+  "taxonomy": "walking",
+  "group_id": "pf_v2_aigc_n02-normal-walking",
+  "source_split": "DEV",
+  "v3_split": "V3_DEV",
+  "ground_truth": "negative",
+  "expected_v4_outcome": "NO_ALERT_NORMAL_POSE",
+  "image_sha256": "fc149aaea8829ea06f3ed12651debf67d1b41ee5405a8479d2855176ad1207f8",
+  "person_detected": "true",
+  "source_binding_ok": true,
+  "strict_json_ok": true,
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 347,
+  "parsed": {
+    "scene_coverage": "complete",
+    "people": [
+      {
+        "person_id": 1,
+        "bbox_1000": [
+          368,
+          264,
+          488,
+          694
+        ],
+        "person_visible": "yes",
+        "pose": "walking",
+        "torso_orientation": "upright",
+        "torso_ground_contact": "none",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "explicit_work_evidence": "no",
+        "visual_quality": "clear",
+        "evidence": "A person in dark scrubs and maroon pants is walking away from the camera down a hospital corridor."
+      },
+      {
+        "person_id": 2,
+        "bbox_1000": [
+          528,
+          283,
+          578,
+          448
+        ],
+        "person_visible": "yes",
+        "pose": "walking",
+        "torso_orientation": "upright",
+        "torso_ground_contact": "none",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "explicit_work_evidence": "no",
+        "visual_quality": "clear",
+        "evidence": "A second person in dark clothing is walking further down the hallway in the distance."
+      }
+    ]
+  },
+  "person_decisions": [
+    {
+      "person_id": 1,
+      "decision": "NO_ALERT_NORMAL_POSE",
+      "reason": "CONSISTENT_NORMAL_GROUND_POSE:walking"
+    },
+    {
+      "person_id": 2,
+      "decision": "NO_ALERT_NORMAL_POSE",
+      "reason": "CONSISTENT_NORMAL_GROUND_POSE:walking"
+    }
+  ],
+  "image_decision": "NO_ALERT_NORMAL_POSE",
+  "image_reason": "ALL_ENUMERATED_PEOPLE_CLEAR_NORMAL",
+  "http_status": 200,
+  "completion_unknown": false,
+  "transport_error": null,
+  "raw_response_sha256": "9735427d4a4323f35271cd853af3986b5bd9080dea2c298e799c3110dd01e82c",
+  "raw_response_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/19_person_fallen_v5_b0_full_dev_recovery_r1/eval/full_dev/requests/V5_B0_FULLDEV_EXTENSION_0014/response.raw",
+  "latency_seconds": 4.469907702005003,
+  "latency_source": "NEW_INFERENCE",
+  "received_timestamp": "2026-09-09T10:49:50.076962+00:00",
+  "completed_timestamp": "2026-09-09T10:49:50.077751+00:00",
+  "EVALUATION_MODE": "SAME_V5_B0_EXACT_RESULT_REUSE_PLUS_NEW_INFERENCE",
+  "LEGACY_V4_CACHE_USED_FOR_DECISION": false,
+  "CACHED_PRIMARY_USED_FOR_FINAL_DECISION": false
+}

@@ -1,0 +1,58 @@
+{
+  "captured_at_utc": "2026-08-27T02:13:20.734717+00:00",
+  "endpoint": "http://192.168.20.62:11434",
+  "endpoint_port": 11434,
+  "expected_model": "qwen3.5:4b",
+  "expected_digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+  "observed_matching_models": [
+    {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "modified_at": "2026-05-09T11:55:23.851873734+08:00",
+      "size": 3389983735,
+      "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.7B",
+        "quantization_level": "Q4_K_M"
+      }
+    }
+  ],
+  "model_identity_match": true,
+  "dataset_validator_returncode": 0,
+  "ssh_read_only_inventories": [
+    {
+      "file": "gpu_inventory.txt",
+      "command": "nvidia-smi -L; nvidia-smi --query-gpu=index,uuid,name,temperature.gpu,utilization.gpu,utilization.memory,memory.total,memory.used,memory.free --format=csv",
+      "returncode": 255,
+      "stderr": "tiga@192.168.20.62: Permission denied (publickey,password)."
+    },
+    {
+      "file": "gpu_processes_initial.txt",
+      "command": "nvidia-smi --query-compute-apps=gpu_uuid,pid,process_name,used_memory --format=csv",
+      "returncode": 255,
+      "stderr": "tiga@192.168.20.62: Permission denied (publickey,password)."
+    },
+    {
+      "file": "ollama_process_inventory.txt",
+      "command": "ps -eo pid,ppid,lstart,etime,cmd | grep -i '[o]llama'",
+      "returncode": 255,
+      "stderr": "tiga@192.168.20.62: Permission denied (publickey,password)."
+    },
+    {
+      "file": "ollama_service_inventory.txt",
+      "command": "systemctl list-units --type=service --all | grep -i ollama",
+      "returncode": 255,
+      "stderr": "tiga@192.168.20.62: Permission denied (publickey,password)."
+    }
+  ],
+  "ssh_access": false,
+  "new_val_requests_allowed": false,
+  "holdout_requests_allowed": false,
+  "server_mutation_performed": false
+}

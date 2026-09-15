@@ -1,0 +1,61 @@
+{
+  "state": "completed",
+  "phase": "pilot",
+  "request_id": "V6_TARGET_SUPPORT_PILOT_0117",
+  "item_id": "V2_ORIGINAL::IMG_003788",
+  "operational_id": "PFV6_PILOT_0117",
+  "taxonomy": "pushup_plank",
+  "group_id": "pf_v2_aigc_h09-exercise-push-up-plank",
+  "evaluation_stratum": "auxiliary_attention",
+  "source_image_sha256": "4708f5506f9bc32adfa05ccf4926c76a7841034d02e658a652a832c7cb4a4adc",
+  "full_view_sha256": "62752959e801d9ab5f24e2a5adfcc298b46d39780d71e3ce47c8b324b9bb338a",
+  "crop_view_sha256": "a9f3aa30e8affaa9af28d8722f2e9ae2775b7616b21cb7b3d969709d5aa4e5a3",
+  "payload_sha256": "d9397c8045c0b78271dcdc80ef17cc71f01fe1b5554ee20a305c1afa3ecf3da6",
+  "claimed_timestamp": "2026-09-14T10:29:19.325912+00:00",
+  "http_status": 200,
+  "latency_seconds": 5.223386196987121,
+  "completion_unknown": false,
+  "transport_error": null,
+  "raw_response_sha256": "6e38f3349a4e87146f0351400c4fe8e79dad3c8e1034eef9952f7a1a80015bb7",
+  "raw_response_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/24_person_fallen_v6_a0_direct_evaluation/eval/pilot/requests/V6_TARGET_SUPPORT_PILOT_0117/response.raw",
+  "received_timestamp": "2026-09-14T10:29:24.554660+00:00",
+  "strict_json_ok": true,
+  "source_binding_ok": true,
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 204,
+  "parsed": {
+    "scene_coverage": "complete",
+    "people": [
+      {
+        "person_id": 1,
+        "bbox_1000": [
+          288,
+          464,
+          718,
+          732
+        ],
+        "person_visible": "yes",
+        "pose": "pushup_plank",
+        "torso_orientation": "horizontal",
+        "torso_ground_contact": "partial",
+        "head_shoulders_above_hips": "yes",
+        "support_surface": "floor",
+        "body_support_configuration": "forearms_feet_supported",
+        "explicit_work_evidence": "no",
+        "visual_quality": "clear",
+        "evidence": "Person in white shirt and black pants performing a plank exercise on the floor, supported by forearms and feet."
+      }
+    ]
+  },
+  "person_decisions": [
+    {
+      "person_id": 1,
+      "decision": "ATTENTION_NEAR_GROUND",
+      "reason": "CLEAR_LIMB_SUPPORTED_NEAR_GROUND:forearms_feet_supported"
+    }
+  ],
+  "image_decision": "ATTENTION_NEAR_GROUND",
+  "image_reason": "AUXILIARY_ONLY",
+  "completed_timestamp": "2026-09-14T10:29:24.555266+00:00"
+}

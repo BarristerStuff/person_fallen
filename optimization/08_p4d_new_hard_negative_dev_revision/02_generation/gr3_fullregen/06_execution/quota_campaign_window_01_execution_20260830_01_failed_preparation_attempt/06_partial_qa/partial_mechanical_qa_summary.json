@@ -1,0 +1,16 @@
+{
+  "captured_at": "2026-08-30T10:53:47.127+00:00",
+  "dimension_failures": 0,
+  "exact_duplicate_hits": 0,
+  "full_440_qa": "NOT_REACHED",
+  "gr1_samefile_hits": 0,
+  "gr1_sha_hits": 0,
+  "gr1_symlink_hits": 0,
+  "new_final_count": 0,
+  "new_raw_count": 0,
+  "pillow_failures": 0,
+  "sha_failures": 0,
+  "starting_inventory_count": 102,
+  "starting_inventory_verified": true,
+  "status": "NOT_EXECUTED_NO_NEW_IMAGES"
+}

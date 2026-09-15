@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "tests_run": 7,
+  "failures": 0,
+  "errors": 0,
+  "fake_transport_calls": 47,
+  "fake_full_dev_rows": 436,
+  "reused_raw_parser_policy_replays": 389,
+  "network_requests": 0,
+  "command": "PYTHONDONTWRITEBYTECODE=1 python3 -B -m unittest discover -s tests -v"
+}

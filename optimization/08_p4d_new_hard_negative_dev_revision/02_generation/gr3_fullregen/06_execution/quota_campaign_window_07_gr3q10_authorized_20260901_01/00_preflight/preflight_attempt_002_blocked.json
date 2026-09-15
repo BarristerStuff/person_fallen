@@ -1,0 +1,8 @@
+{
+  "attempt": 2,
+  "status": "PREFLIGHT_BLOCKED",
+  "provider_requests_sent": 0,
+  "reason": "The initial ledger binding audit implementation projected PRAGMA table_info columns incorrectly and raised KeyError before writing the binding audit.",
+  "containment": "Authorization, plan, run config, copied parser/classifier, and NOT_STARTED ledger existed; no provider request, dataset write, ingest, C3, VAL, Holdout, or production change occurred.",
+  "repair_policy": "The ledger metadata will be rebound to the final runner hash before the next binding audit; the prior initialization hash remains recorded in ledger_initialization.json."
+}

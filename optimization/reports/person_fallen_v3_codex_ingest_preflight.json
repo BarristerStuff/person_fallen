@@ -1,0 +1,22 @@
+{
+  "clean_rows": 202,
+  "created_at_utc": "2026-09-02T06:59:49.554368+00:00",
+  "group_count": 42,
+  "group_manifest": "/home/yanbo/net_vlm_person_fallen_v2_optimization/reports/person_fallen_v3_codex_media_groups.csv",
+  "manifest": "/home/yanbo/net_vlm_person_fallen_v2_optimization/reports/person_fallen_v3_codex_ingest_manifest.csv",
+  "model_prediction_used_as_gt": false,
+  "q9_included": false,
+  "role_counts": {
+    "hard_negative": 121,
+    "negative": 20,
+    "positive": 61
+  },
+  "source_audit": "/home/yanbo/net_vlm_person_fallen_v2_optimization/reports/person_fallen_codex_ingest_audit.csv",
+  "staging_root": "/home/yanbo/net_vlm_person_fallen_v2_optimization/intake_staging/person_fallen_v3_codex_clean",
+  "status": "PASS",
+  "unique_sha256": 202,
+  "v3_split_counts": {
+    "V3_DEV": 126,
+    "V3_SCREEN": 76
+  }
+}

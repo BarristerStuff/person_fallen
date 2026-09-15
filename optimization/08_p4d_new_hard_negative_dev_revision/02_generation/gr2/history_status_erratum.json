@@ -1,0 +1,154 @@
+{
+  "authoritative_history": {
+    "CURRENT_BEST_SEMANTIC_CANDIDATE": "C3",
+    "P0_STATUS": "COMPLETE_PROTOCOL_FAILURE",
+    "P1A_DEV_MEASUREMENT": "VALID",
+    "P1A_PROTOCOL_REPAIR": "SUCCESS",
+    "P1A_STATUS": "VAL_INCOMPLETE_FREEZE_BINDING_ERROR",
+    "P1R_STATUS": "COMPLETE",
+    "P1R_VALID_RECOVERY_BASELINE": true,
+    "P2L_STATUS": "COMPLETE",
+    "P2L_WINNER": "NONE",
+    "P2_STATUS": "COMPLETE",
+    "P2_WINNER": "C3",
+    "P3_STATUS": "SCREENING_COMPLETE_NO_WINNER",
+    "P3_WINNER": "NONE"
+  },
+  "captured_at": "2026-08-27T09:19:51.393+00:00",
+  "drift_detected": true,
+  "evidence_sources": {
+    "P1A": {
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/reports/09_p1a_final_report.md",
+      "sha256": "0828622d3f9d80f63a55d3642fd39a45dedb6cf5c5a8e03080f9d98c23e932f4"
+    },
+    "P1R": {
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/reports/12_p1r_final_report.md",
+      "sha256": "a4271e8d9aabbd9393a24f3e4dff5345d79ca83d6b96ab4b509fb3a1f5c2c341"
+    },
+    "P2": {
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/reports/17_p2_final_report.md",
+      "sha256": "8840866296cd70aa6039d14d4688c87098487b61ec5ad2e8e2f62f17218e3dfe"
+    },
+    "P2L": {
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/reports/20_p2l_final_report.md",
+      "sha256": "e7944a3e11be2c88813c640093c0d5dfde67b6e50e397d6b471709f44b416711"
+    },
+    "P3": {
+      "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/reports/24_p3_final_report.md",
+      "sha256": "d3ca289595ff451662bd3ac40c5cd3b70cf9d770626c209c2ae10a8252ba2b5e"
+    }
+  },
+  "extracted_checks": {
+    "CURRENT_BEST_SEMANTIC_CANDIDATE": {
+      "expected": "C3",
+      "match": true,
+      "value": "C3"
+    },
+    "P1A_DEV_MEASUREMENT": {
+      "expected": "VALID",
+      "match": true,
+      "value": "VALID"
+    },
+    "P1A_PROTOCOL_REPAIR": {
+      "expected": "SUCCESS",
+      "match": true,
+      "value": "SUCCESS"
+    },
+    "P1A_STATUS": {
+      "expected": "VAL_INCOMPLETE_FREEZE_BINDING_ERROR",
+      "match": true,
+      "value": "VAL_INCOMPLETE_FREEZE_BINDING_ERROR"
+    },
+    "P1R_STATUS": {
+      "expected": "COMPLETE",
+      "match": true,
+      "value": "COMPLETE"
+    },
+    "P1R_VALID_RECOVERY_BASELINE": {
+      "expected": "true",
+      "match": true,
+      "value": "true"
+    },
+    "P2L_STATUS": {
+      "expected": "COMPLETE",
+      "match": true,
+      "value": "COMPLETE"
+    },
+    "P2L_WINNER": {
+      "expected": "NONE",
+      "match": true,
+      "value": "NONE"
+    },
+    "P2_STATUS": {
+      "expected": "COMPLETE",
+      "match": true,
+      "value": "COMPLETE"
+    },
+    "P2_WINNER": {
+      "expected": "C3",
+      "match": true,
+      "value": "C3"
+    },
+    "P3_STATUS": {
+      "expected": "SCREENING_COMPLETE_NO_WINNER",
+      "match": true,
+      "value": "SCREENING_COMPLETE_NO_WINNER"
+    },
+    "P3_WINNER": {
+      "expected": "NONE",
+      "match": true,
+      "value": "NONE"
+    }
+  },
+  "immutable_gr2_facts": {
+    "gr2_generation_requests": 0,
+    "gr2_terminal_freeze_remains_valid": true,
+    "provider_lineage_decision_remains_valid": true
+  },
+  "incorrect_fields": [
+    {
+      "correct_value": "VAL_INCOMPLETE_FREEZE_BINDING_ERROR",
+      "evidence_source": "/home/yanbo/net_vlm_person_fallen_v2_optimization/reports/09_p1a_final_report.md",
+      "incorrect_field": "P1A_STATUS",
+      "incorrect_value_in_report39": "COMPLETE",
+      "report39_contains_drift": true,
+      "source_sha256": "0828622d3f9d80f63a55d3642fd39a45dedb6cf5c5a8e03080f9d98c23e932f4"
+    },
+    {
+      "correct_value": "true",
+      "evidence_source": "/home/yanbo/net_vlm_person_fallen_v2_optimization/reports/17_p2_final_report.md",
+      "incorrect_field": "P2_EXECUTED",
+      "incorrect_value_in_report39": "false",
+      "report39_contains_drift": true,
+      "source_sha256": "8840866296cd70aa6039d14d4688c87098487b61ec5ad2e8e2f62f17218e3dfe"
+    },
+    {
+      "correct_value": "COMPLETE",
+      "evidence_source": "/home/yanbo/net_vlm_person_fallen_v2_optimization/reports/17_p2_final_report.md",
+      "incorrect_field": "P2_STATUS",
+      "incorrect_value_in_report39": "N/A/omitted",
+      "report39_contains_drift": true,
+      "source_sha256": "8840866296cd70aa6039d14d4688c87098487b61ec5ad2e8e2f62f17218e3dfe"
+    },
+    {
+      "correct_value": "true",
+      "evidence_source": "/home/yanbo/net_vlm_person_fallen_v2_optimization/reports/24_p3_final_report.md",
+      "incorrect_field": "P3_EXECUTED",
+      "incorrect_value_in_report39": "false",
+      "report39_contains_drift": true,
+      "source_sha256": "d3ca289595ff451662bd3ac40c5cd3b70cf9d770626c209c2ae10a8252ba2b5e"
+    },
+    {
+      "correct_value": "SCREENING_COMPLETE_NO_WINNER",
+      "evidence_source": "/home/yanbo/net_vlm_person_fallen_v2_optimization/reports/24_p3_final_report.md",
+      "incorrect_field": "P3_STATUS",
+      "incorrect_value_in_report39": "N/A/omitted",
+      "report39_contains_drift": true,
+      "source_sha256": "d3ca289595ff451662bd3ac40c5cd3b70cf9d770626c209c2ae10a8252ba2b5e"
+    }
+  ],
+  "report39_modified": false,
+  "report39_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/reports/39_p4d_gr2_final.md",
+  "report39_sha256": "14ecca537afbed0191cbb389172e5e8794c6d173e248312ffdb2dacf1a1fe338",
+  "stage": "P4D_GR2_HISTORY_STATUS_ERRATUM"
+}

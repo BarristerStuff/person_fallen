@@ -1,0 +1,27 @@
+{
+  "automatic_retry": false,
+  "cli_runtime_retry_policy_observed": {
+    "base_delay_seconds": 1,
+    "max_retries": 3
+  },
+  "cli_runtime_version": "0.7.3",
+  "concurrency": 1,
+  "continuation_compatible": false,
+  "fail_fast_on_401": true,
+  "fail_fast_on_403": true,
+  "fail_fast_on_429": true,
+  "formal_dataset_mutation": false,
+  "generation_backend": "image_generation (server-side gpt-image-2 capability)",
+  "generation_started": false,
+  "holdout_planned_requests": 0,
+  "microbatch_size": 10,
+  "model": "gpt-5.4",
+  "native_size_requested": "1536x1024",
+  "new_val_planned_requests": 0,
+  "provider": "codex",
+  "provider_gate_decision": "FULL_REGEN_AUTHORIZATION_REQUIRED",
+  "quality": "medium",
+  "revision_id": "P4D_GR2_GENERATION_CONTINUATION_20260827_01",
+  "runtime_note": "No GR2 request was issued. The installed wrapper reports a native max_retries=3 policy; a future authorized continuation must provide a no-retry mechanism before spending slots.",
+  "stage": "P4D_GR2_GENERATION_CONTINUATION"
+}

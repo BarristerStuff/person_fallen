@@ -1,0 +1,27 @@
+{
+  "stage": "P2_HARD_NEGATIVE_SEMANTIC_OPTIMIZATION",
+  "model": "qwen3.5:4b",
+  "model_digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+  "ollama_version": "0.23.2",
+  "endpoint": "http://192.168.20.62:11434",
+  "stream": false,
+  "format": "json",
+  "think": false,
+  "options": {
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 256
+  },
+  "concurrency": 1,
+  "timeout_seconds": 120,
+  "attempts_per_media": 1,
+  "automatic_retry": false,
+  "preprocess": "letterbox",
+  "target_width": 448,
+  "target_height": 336,
+  "jpeg_quality": 70,
+  "jpeg_optimize": true,
+  "letterbox_rgb": [128, 128, 128],
+  "parser_source": "response_only",
+  "thinking_fallback": false
+}

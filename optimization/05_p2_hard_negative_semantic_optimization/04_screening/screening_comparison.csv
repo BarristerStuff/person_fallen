@@ -1,0 +1,5 @@
+candidate,protocol_gate_pass,TP,FP,TN,FN,precision,recall,f1,accuracy,ordinary_negative_fpr,hard_negative_fpr,model_uncertain_rate,p50,p95,hard_negative_fpr_delta_vs_C0,precision_delta_vs_C0,recall_delta_vs_C0,eligible,rejection_reasons
+C0,True,50,22,38,0,0.6944444444444444,1.0,0.819672131147541,0.8,0.0,0.55,0.0,1.456534,1.59437605,0.0,0.0,0.0,False,
+C1,True,50,22,38,0,0.6944444444444444,1.0,0.819672131147541,0.8,0.0,0.55,0.0,1.539897,1.761156,0.0,0.0,0.0,False,hard_negative_improvement_insufficient
+C2,True,50,29,31,0,0.6329113924050633,1.0,0.7751937984496124,0.7363636363636363,0.0,0.725,0.0,1.451907,1.5924791,0.17499999999999993,-0.061533052039381086,0.0,False,hard_negative_improvement_insufficient
+C3,True,50,5,55,0,0.9090909090909091,1.0,0.9523809523809523,0.9545454545454546,0.0,0.125,0.0,1.580759,1.8150098,-0.42500000000000004,0.21464646464646464,0.0,True,

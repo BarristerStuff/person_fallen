@@ -1,0 +1,22 @@
+{
+  "c3": false,
+  "captured_at": "2026-09-01T03:25:59.628+00:00",
+  "content_policy_refusals": 0,
+  "formal_ingest": false,
+  "holdout_requests": 0,
+  "limits": {
+    "max_confirmed_policy_refusals": 3,
+    "max_logical_invocations": 30,
+    "max_physical_attempt_lower_bound": 36,
+    "max_unique_native_retry_events": 4
+  },
+  "logical_invocations": 7,
+  "no_provider_request_after_stop": true,
+  "no_resume_after_unknown": true,
+  "physical_attempt_lower_bound": 11,
+  "provider_requests_sent": 7,
+  "revision_id": "P4D_GR3Q10_BALANCED_COMPLETE_GROUP_WINDOW_20260901_01",
+  "terminal_stop_reason": "STOP_AFTER_FAILED_CONFIRMED",
+  "unique_native_retry_events_upper_bound": 4,
+  "val": false
+}

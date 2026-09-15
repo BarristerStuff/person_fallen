@@ -1,0 +1,116 @@
+{
+  "c3": false,
+  "codex_images_reused": 0,
+  "counts": {
+    "completion_unknown": 0,
+    "failed_confirmed": 1,
+    "logical_slots": 440,
+    "outstanding": 440,
+    "pending": 439,
+    "started": 0,
+    "successful": 0
+  },
+  "created_at": "2026-08-28T08:58:40.973+00:00",
+  "dataset_delta": {
+    "batch_count": 0,
+    "label_count": 0,
+    "media_count": 0,
+    "split_count": 0
+  },
+  "dataset_validator_after": {
+    "batch_count": 45,
+    "error_count": 0,
+    "full_hash_check": true,
+    "label_count": 4881,
+    "media_count": 5081,
+    "split_count": 2618,
+    "status": "valid",
+    "warning_count": 387
+  },
+  "dataset_validator_before": {
+    "batch_count": 45,
+    "error_count": 0,
+    "full_hash_check": true,
+    "label_count": 4881,
+    "media_count": 5081,
+    "split_count": 2618,
+    "status": "valid",
+    "warning_count": 387
+  },
+  "final_image_count": 0,
+  "formal_ingest": false,
+  "generated_role_counts": {},
+  "generated_split_counts": {},
+  "generated_taxonomy_counts": {},
+  "gr1_images_reused": 0,
+  "holdout_consumed": false,
+  "holdout_requests": 0,
+  "http_classes": {
+    "401": 1
+  },
+  "latency_seconds": {
+    "max": 3.923487385998669,
+    "p50": 3.923487385998669,
+    "p95": 3.923487385998669
+  },
+  "ledger": {
+    "csv_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/09_p4d_eb1_ebond_full_regeneration/ledger/execution_ledger.csv",
+    "csv_sha256": "d68187a62371cd96c2ba3eeac8d2a96106938dd6384497b9de6e36fda451f929",
+    "sqlite_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/09_p4d_eb1_ebond_full_regeneration/ledger/p4d_eb1_execution.sqlite3",
+    "sqlite_sha256": "dd9e65b0633ef8cad43f5f85e0e02d864f877ad5b3b60f667b6b56e6590af939"
+  },
+  "new_val": 0,
+  "order": {
+    "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/09_p4d_eb1_ebond_full_regeneration/order/ebond_balanced_execution_order.csv",
+    "sha256": "ab59e376af28fae2239377f2b6941a065dc2fb3297c0179988b847441c9e2f76"
+  },
+  "p4d_images_accepted": 0,
+  "planned_role_counts": {
+    "hard_negative": 300,
+    "ordinary_negative": 40,
+    "positive": 100
+  },
+  "planned_split_counts": {
+    "NEW_DESIGN": 265,
+    "NEW_SCREEN": 175
+  },
+  "planned_taxonomy_counts": {
+    "chair_seated_normal_work": 20,
+    "crawling_quadruped_support": 40,
+    "curled_or_partially_occluded_lying": 15,
+    "floor_sitting": 60,
+    "ground_maintenance": 40,
+    "horizontal_corridor_ground_lying": 5,
+    "intentional_ground_lying": 10,
+    "kneeling_half_kneeling": 60,
+    "mixed_hard_negative": 20,
+    "multi_person_one_lying": 10,
+    "prone_ground_lying": 20,
+    "pushup_plank": 50,
+    "side_lying": 20,
+    "squat_crouch_deep_bend": 30,
+    "standing_walking": 20,
+    "supine_ground_lying": 20
+  },
+  "preflight_freeze": {
+    "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/09_p4d_eb1_ebond_full_regeneration/freeze/p4d_eb1_preflight_freeze.json",
+    "sha256": "b9efdb90c9cf2b326e24a7565de5b109501908e904122f41c330e01b2848b1b5"
+  },
+  "raw_image_count": 0,
+  "raw_response_count": 1,
+  "run_config": {
+    "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/09_p4d_eb1_ebond_full_regeneration/execution/run_config.json",
+    "sha256": "462421fa3d6d73bf0fa79a75e8cc07278cd743e71999a4adda105b0bc536471a"
+  },
+  "runner": {
+    "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/09_p4d_eb1_ebond_full_regeneration/tools/ebond_one_shot_runner.py",
+    "sha256": "1131bc96261751670b816faa2d5e20a03b1b33357751a2f18e2849671fa145db"
+  },
+  "status": "BLOCKED_PRIMARY_AUTH_NO_SECONDARY",
+  "terminal_freeze": {
+    "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/09_p4d_eb1_ebond_full_regeneration/freeze/p4d_eb1_terminal_freeze.json",
+    "sha256": "ecb7bc9498f5c2184dab0fc1f1ed112dff13f7dfac9b316322af53e3dd233bb0",
+    "sidecar_match": true,
+    "sidecar_sha256": "ecb7bc9498f5c2184dab0fc1f1ed112dff13f7dfac9b316322af53e3dd233bb0"
+  }
+}

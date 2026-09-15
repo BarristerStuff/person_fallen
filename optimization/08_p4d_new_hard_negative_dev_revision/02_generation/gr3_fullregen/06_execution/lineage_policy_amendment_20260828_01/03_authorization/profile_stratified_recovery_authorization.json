@@ -1,0 +1,21 @@
+{
+  "EXPLICIT_RECOVERY_AUTHORIZATION": false,
+  "authorized": false,
+  "continue_outstanding_341": true,
+  "exact_monetary_cost": "UNKNOWN",
+  "execution_eligible_after_explicit_authorization": true,
+  "material_generation_config_change": false,
+  "maximum_new_logical_slot_invocations": 341,
+  "native_max_retries": 3,
+  "outer_retry": false,
+  "preserve_gr3e_99": true,
+  "profile_a": "GR3E_PROFILE_A",
+  "profile_a_safe_fingerprint": "ab7f2704e5b70b62ccfd48b241b649716e6ddd6cb9a1bfe14d992df646dcaffe",
+  "profile_b": "GR3Q2_PROFILE_B",
+  "profile_b_safe_fingerprint": "d80e86e6d2324b14d5b7a37821b1f42684b62f80c69e03350c9b0c3ae0f7c190",
+  "profile_stratification_required": true,
+  "provider_requests": 0,
+  "required_authorization_text_sha256": "ae484cf957c0e88f6a7329c3359e2ebbc7a3e4794fd3dc35f22dbc9f606e9cbd",
+  "stage": "P4D_GR3Q2_LINEAGE_POLICY_AMENDMENT_AND_RECOVERY_PREP",
+  "theoretical_provider_attempt_upper_bound": 1364
+}

@@ -1,0 +1,8 @@
+hypothesis,status,evidence_for,evidence_against_or_missing
+H1_model_residency_or_reload_churn,PARTIALLY_SUPPORTED,VAL has 63/100 load>5s with a long high run; /api/ps changed from empty to loaded before/after A; formal A first request load>5s while later A/B/C rows are low,No remote service/GPU/runner telemetry; current probes do not reproduce a sustained high-load run; B is sequential after A so not causal
+H2_gpu_contention_or_vram_pressure,UNRESOLVED,Load-dominated historical tail is compatible with resource contention,nvidia-smi and process inventories unavailable because SSH authentication failed; no utilization/VRAM time series
+H3_runner_lifecycle_or_scheduler,UNRESOLVED,A cold transition and historical threshold runs could be scheduler/lifecycle related,Remote runner PID and service/journal evidence unavailable; local sequential runner had no retry/concurrency change
+H4_request_or_image_dependent_cost,NOT_SUPPORTED,C spans 16 diverse DEV images,C load stays 0.440-0.555s with no high-load rows; A repeats one exact image with only its first row high
+H5_prompt_or_generation_cost,NOT_SUPPORTED,None,prompt_eval_count is stable at 598; prompt_eval/eval P95 remain sub-second while VAL tail is load-dominated
+H6_client_or_network_transport,NOT_SUPPORTED,None,"Historical and probe client latency tracks Ollama total closely; client overhead is approximately milliseconds, not seconds"
+H7_other_remote_runtime_anomaly,UNRESOLVED,A real historical high-load state transition exists,Specific daemon/GPU/process cause cannot be isolated without authorized remote telemetry

@@ -1,0 +1,276 @@
+{
+  "captured_at": "2026-08-27T10:50:46.961+00:00",
+  "completion_unknown_total": 0,
+  "current_image_count": 16,
+  "last_http_status": "200",
+  "logical_failures_total": 0,
+  "logical_requests_total": 16,
+  "logical_successes_total": 16,
+  "native_retry_count": "UNKNOWN_IF_NOT_EXPOSED",
+  "outer_retry": false,
+  "remaining_slots": 424,
+  "results": [
+    {
+      "error_code": "",
+      "final_sha256": "2acb0923c09fb9a05e838a3f6a0c204ff7e591bd59e6eefe91bc5f861ebca5a0",
+      "http_status": "200",
+      "latency_seconds": 35.593058589001885,
+      "mechanical_qa": {
+        "crop_box": [
+          0,
+          0,
+          1672,
+          940
+        ],
+        "final_height": 1080,
+        "final_width": 1920,
+        "native_aspect_ratio": 1.7768331562167907,
+        "native_height": 941,
+        "native_width": 1672,
+        "resize_method": "Pillow_LANCZOS"
+      },
+      "phase": "RAMP2",
+      "prompt_id": "PF_P4D_HN_SIT_G002_V02",
+      "provider_request_id": "unknown",
+      "raw_sha256": "5b8dfafcf7caaa99c552406659d7a0607074af13d8a4e108693e89de49efcea1",
+      "request_id": "P4D_GR3E_RAMP2_0007_PF_P4D_HN_SIT_G002_V02",
+      "state": "SUCCESS"
+    },
+    {
+      "error_code": "",
+      "final_sha256": "a458075e4d53995d5a06b79b7845b3762afb2f5df3a1b4f9f88d8306f605e349",
+      "http_status": "200",
+      "latency_seconds": 39.93698253799812,
+      "mechanical_qa": {
+        "crop_box": [
+          0,
+          0,
+          1672,
+          940
+        ],
+        "final_height": 1080,
+        "final_width": 1920,
+        "native_aspect_ratio": 1.7768331562167907,
+        "native_height": 941,
+        "native_width": 1672,
+        "resize_method": "Pillow_LANCZOS"
+      },
+      "phase": "RAMP2",
+      "prompt_id": "PF_P4D_HN_SIT_G002_V03",
+      "provider_request_id": "unknown",
+      "raw_sha256": "63c89509d0257ebb3982049ac51e5766710096e017e771d957cb5e151ffe2639",
+      "request_id": "P4D_GR3E_RAMP2_0008_PF_P4D_HN_SIT_G002_V03",
+      "state": "SUCCESS"
+    },
+    {
+      "error_code": "",
+      "final_sha256": "0983512e462a6aceae3035e2f75ce3acbb144d94e6ab657a60bd91117a1f2ff2",
+      "http_status": "200",
+      "latency_seconds": 41.166751658001886,
+      "mechanical_qa": {
+        "crop_box": [
+          0,
+          0,
+          1672,
+          940
+        ],
+        "final_height": 1080,
+        "final_width": 1920,
+        "native_aspect_ratio": 1.7768331562167907,
+        "native_height": 941,
+        "native_width": 1672,
+        "resize_method": "Pillow_LANCZOS"
+      },
+      "phase": "RAMP2",
+      "prompt_id": "PF_P4D_HN_SIT_G002_V04",
+      "provider_request_id": "unknown",
+      "raw_sha256": "1f8807258687ce01068ba241dfe13663e6da18fe84a9db2174f3e1e4a314491c",
+      "request_id": "P4D_GR3E_RAMP2_0009_PF_P4D_HN_SIT_G002_V04",
+      "state": "SUCCESS"
+    },
+    {
+      "error_code": "",
+      "final_sha256": "18ee5f3c112248004e858561f6aa0273a1359b5840fc325cefe6aa803b857b37",
+      "http_status": "200",
+      "latency_seconds": 38.13065113399716,
+      "mechanical_qa": {
+        "crop_box": [
+          0,
+          0,
+          1672,
+          940
+        ],
+        "final_height": 1080,
+        "final_width": 1920,
+        "native_aspect_ratio": 1.7768331562167907,
+        "native_height": 941,
+        "native_width": 1672,
+        "resize_method": "Pillow_LANCZOS"
+      },
+      "phase": "RAMP2",
+      "prompt_id": "PF_P4D_HN_SIT_G002_V05",
+      "provider_request_id": "unknown",
+      "raw_sha256": "61194b79f0b44abd25ec6b9b742292a1d3389d16e5c8df6176fa7f766fce75d7",
+      "request_id": "P4D_GR3E_RAMP2_0010_PF_P4D_HN_SIT_G002_V05",
+      "state": "SUCCESS"
+    },
+    {
+      "error_code": "",
+      "final_sha256": "82c93c11913b624d905bbe6229fb23e3c28feced12dc8004e04a8a5e7e3f721b",
+      "http_status": "200",
+      "latency_seconds": 48.59103464399959,
+      "mechanical_qa": {
+        "crop_box": [
+          0,
+          0,
+          1672,
+          940
+        ],
+        "final_height": 1080,
+        "final_width": 1920,
+        "native_aspect_ratio": 1.7768331562167907,
+        "native_height": 941,
+        "native_width": 1672,
+        "resize_method": "Pillow_LANCZOS"
+      },
+      "phase": "RAMP2",
+      "prompt_id": "PF_P4D_HN_SIT_G003_V01",
+      "provider_request_id": "unknown",
+      "raw_sha256": "f707491a9e8ed6fb9c089fe0ca08df69a8bd0e4b0f09e2578b57559b58a925f5",
+      "request_id": "P4D_GR3E_RAMP2_0011_PF_P4D_HN_SIT_G003_V01",
+      "state": "SUCCESS"
+    },
+    {
+      "error_code": "",
+      "final_sha256": "cdf600081cce213b1f9bad1c9f9fbfed646e637c5236cf94207930eeefd4b0b4",
+      "http_status": "200",
+      "latency_seconds": 53.01109262399768,
+      "mechanical_qa": {
+        "crop_box": [
+          0,
+          0,
+          1672,
+          940
+        ],
+        "final_height": 1080,
+        "final_width": 1920,
+        "native_aspect_ratio": 1.7768331562167907,
+        "native_height": 941,
+        "native_width": 1672,
+        "resize_method": "Pillow_LANCZOS"
+      },
+      "phase": "RAMP2",
+      "prompt_id": "PF_P4D_HN_SIT_G003_V02",
+      "provider_request_id": "unknown",
+      "raw_sha256": "98e0061c8e043aff23f91102c54fa56dcc8b36e9b83126f8dddd91db0f16a5cb",
+      "request_id": "P4D_GR3E_RAMP2_0012_PF_P4D_HN_SIT_G003_V02",
+      "state": "SUCCESS"
+    },
+    {
+      "error_code": "",
+      "final_sha256": "46e0ab9a8342d2fcafe30c36d58e79d718b6e4c9599bb81dda89718beddeb572",
+      "http_status": "200",
+      "latency_seconds": 184.71478374599974,
+      "mechanical_qa": {
+        "crop_box": [
+          0,
+          0,
+          1672,
+          940
+        ],
+        "final_height": 1080,
+        "final_width": 1920,
+        "native_aspect_ratio": 1.7768331562167907,
+        "native_height": 941,
+        "native_width": 1672,
+        "resize_method": "Pillow_LANCZOS"
+      },
+      "phase": "RAMP2",
+      "prompt_id": "PF_P4D_HN_SIT_G003_V03",
+      "provider_request_id": "unknown",
+      "raw_sha256": "0f3f6c94c80eb89722d2286bfc7f9f76e07fa97679f233dc398bbe99336d76b8",
+      "request_id": "P4D_GR3E_RAMP2_0013_PF_P4D_HN_SIT_G003_V03",
+      "state": "SUCCESS"
+    },
+    {
+      "error_code": "",
+      "final_sha256": "508aafa44c932eafee7b1820477be13106729fffa88645274c533de97f008c20",
+      "http_status": "200",
+      "latency_seconds": 59.01763981000113,
+      "mechanical_qa": {
+        "crop_box": [
+          0,
+          0,
+          1672,
+          940
+        ],
+        "final_height": 1080,
+        "final_width": 1920,
+        "native_aspect_ratio": 1.7768331562167907,
+        "native_height": 941,
+        "native_width": 1672,
+        "resize_method": "Pillow_LANCZOS"
+      },
+      "phase": "RAMP2",
+      "prompt_id": "PF_P4D_HN_SIT_G003_V04",
+      "provider_request_id": "unknown",
+      "raw_sha256": "5ddfcf368a1385ea7281e92da234592d7f66caf8c6ccb518ac897013aa52c01f",
+      "request_id": "P4D_GR3E_RAMP2_0014_PF_P4D_HN_SIT_G003_V04",
+      "state": "SUCCESS"
+    },
+    {
+      "error_code": "",
+      "final_sha256": "d4b910a71663ae1b2d90e1edb5af4980842e20eb492d861eb965db1d5c14ab0d",
+      "http_status": "200",
+      "latency_seconds": 43.94848514700061,
+      "mechanical_qa": {
+        "crop_box": [
+          0,
+          0,
+          1672,
+          940
+        ],
+        "final_height": 1080,
+        "final_width": 1920,
+        "native_aspect_ratio": 1.7768331562167907,
+        "native_height": 941,
+        "native_width": 1672,
+        "resize_method": "Pillow_LANCZOS"
+      },
+      "phase": "RAMP2",
+      "prompt_id": "PF_P4D_HN_SIT_G003_V05",
+      "provider_request_id": "unknown",
+      "raw_sha256": "e20118f05a172c7414eb214078ca812d88e8e157410c0e30fc2d800d8abe00d8",
+      "request_id": "P4D_GR3E_RAMP2_0015_PF_P4D_HN_SIT_G003_V05",
+      "state": "SUCCESS"
+    },
+    {
+      "error_code": "",
+      "final_sha256": "9cc7238930c1217ea2d18dc48dbdea669e51a458fa066a7b6898b4246cbc93d9",
+      "http_status": "200",
+      "latency_seconds": 35.70151986400015,
+      "mechanical_qa": {
+        "crop_box": [
+          0,
+          0,
+          1672,
+          940
+        ],
+        "final_height": 1080,
+        "final_width": 1920,
+        "native_aspect_ratio": 1.7768331562167907,
+        "native_height": 941,
+        "native_width": 1672,
+        "resize_method": "Pillow_LANCZOS"
+      },
+      "phase": "RAMP2",
+      "prompt_id": "PF_P4D_HN_SIT_G004_V01",
+      "provider_request_id": "unknown",
+      "raw_sha256": "6dedbedb46a01237461870ecb046c0847ad01192b0c459d116e82bdbe6414da4",
+      "request_id": "P4D_GR3E_RAMP2_0016_PF_P4D_HN_SIT_G004_V01",
+      "state": "SUCCESS"
+    }
+  ],
+  "stage": "RAMP2",
+  "status": "PASS"
+}

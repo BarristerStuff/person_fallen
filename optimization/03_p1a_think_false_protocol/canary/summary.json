@@ -1,0 +1,61 @@
+{
+  "stage": "canary",
+  "P1A_NAME": "P1A_THINK_FALSE_PROTOCOL",
+  "think_false_only": true,
+  "prompt_sha256": "b457a2442b8c4cca66866ecd7fcaaa765524740f1019e7811a05ec8e2c8335f4",
+  "config_sha256": "db933a7420a4ca0f50785c487c1f0703830af9804e4cac1f0a962f18d4500557",
+  "runner_sha256": "6ebc633b3a89ab9aaa4ea5653fd8fec126f283e8c5d70ce657c46b5e8e926f93",
+  "frozen_manifest_sha256": "771380b70099e2e2e641330a7d4f04860e2284725722bde3cd2da8988abfb2c6",
+  "frozen_splits_sha256": "16b95d59c25313a6a8e35e4d0056b5626a04d44edc0e017549e628b92f15f33a",
+  "selected_count": 12,
+  "holdout_requests": 0,
+  "reused_canary_results": 0,
+  "duplicate_protocol_requests": 0,
+  "protocol": {
+    "request_count": 12,
+    "http_success_rate": 1.0,
+    "response_nonempty_rate": 1.0,
+    "thinking_present_rate": 0.0,
+    "json_parse_success_rate": 1.0,
+    "schema_success_rate": 1.0,
+    "canonical_prediction_success_rate": 1.0,
+    "first_attempt_success_rate": 1.0,
+    "latency_seconds": {
+      "cold": 6.653924,
+      "warm_mean": 1.435364090909091,
+      "p50": 1.425231,
+      "p95": 1.5400965,
+      "max": 1.563525
+    },
+    "prediction_distribution": {
+      "positive": 5,
+      "negative": 7
+    }
+  },
+  "protocol_gate_pass": true,
+  "metrics": {
+    "determinate_count": 10,
+    "TP": 4,
+    "FP": 0,
+    "TN": 6,
+    "FN": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "accuracy": 1.0,
+    "fpr": 0.0,
+    "specificity": 1.0,
+    "ordinary_negative_fpr": 0.0,
+    "hard_negative_fpr": 0.0,
+    "positive_recall": 1.0,
+    "model_uncertain_count": 0,
+    "model_uncertain_rate": 0.0,
+    "gt_uncertain_prediction_distribution": {
+      "negative": 1,
+      "positive": 1
+    }
+  },
+  "predictions_sha256": "db394e620dbc48fa0bc9e601349c4f928559dd2918bfb6e7860f20328121a0b9",
+  "raw_responses_sha256": "3f44bfdece0ae829c11d7824026decf36f8ffa03c16b146f5ac250b8fbd300c5",
+  "request_log_sha256": "097574471645ac5538b4c411f4e9bdc06fa8449efb5b1a1bd4c2f99161da9c8a"
+}

@@ -1,0 +1,96 @@
+{
+  "boundaries": {
+    "final_holdout_requests": 0,
+    "formal_dataset_ingest": false,
+    "holdout_consumed": false,
+    "production_code_or_dataset_modified": false,
+    "stop_further_p4d_generation": true
+  },
+  "candidate": "V3-CASCADE-448",
+  "created_at_utc": "2026-09-02T02:28:35.703530+00:00",
+  "event_definition_version": "v3.0",
+  "event_name": "person_fallen",
+  "gates": {
+    "hard_negative_fpr_max": 0.05,
+    "ordinary_negative_fpr_required": 0.0,
+    "precision_min": 0.93,
+    "recall_min": 0.95,
+    "strict_json_success_min": 1.0
+  },
+  "gt_policy": {
+    "GT_SOURCE": "FROZEN_GENERATION_PROMPT_AND_PLANNED_ROLE",
+    "GT_TYPE": "PROMPT_DERIVED_SYNTHETIC_GT",
+    "HUMAN_SEMANTIC_REVIEW_REQUIRED": false,
+    "model_prediction_used_as_gt": false
+  },
+  "holdout_requests": 0,
+  "manifest_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/12_person_fallen_v3_floor_pose_verifier/manifests/dev_full_manifest.csv",
+  "manifest_sha256": "fc41fcc39b87d8da7decfd50a4d832e8c5f38470c7c6cf08aaaaa160aa751f2b",
+  "phase": "dev",
+  "revision_id": "PERSON_FALLEN_V3_FLOOR_POSE_VERIFIER_20260902_01",
+  "runner_sha256": "9417da70da7012d2eb1b1bb94fe323696f1f08a3e44a5a766180f15cd79cd243",
+  "runtime": {
+    "automatic_retry": false,
+    "concurrency": 1,
+    "endpoint": "http://192.168.20.62:11434",
+    "format": "json",
+    "jpeg_optimize": true,
+    "jpeg_quality": 70,
+    "letterbox_rgb": [
+      128,
+      128,
+      128
+    ],
+    "model": "qwen3.5:4b",
+    "model_digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+    "ollama_version": "0.23.2",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 256,
+      "temperature": 0
+    },
+    "preprocess": "letterbox",
+    "resend_completion_unknown": false,
+    "stream": false,
+    "think": false,
+    "timeout_seconds": 120
+  },
+  "stage": "PERSON_FALLEN_V3_FLOOR_POSE_VERIFIER",
+  "stage1": {
+    "candidate": "V3-C0-448",
+    "dev_predictions_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/11_person_fallen_v3_revision/eval/runs/dev_V3-C0-448/predictions.csv",
+    "dev_summary_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/11_person_fallen_v3_revision/eval/runs/dev_V3-C0-448/summary.json",
+    "prompt_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/11_person_fallen_v3_revision/prompt/V3-C0_prompt.txt",
+    "resolution": [
+      448,
+      336
+    ]
+  },
+  "stage1_prompt_sha256": "805a7276e0e6291059ab990f3426b609797342838805c417eb0a15db804c182f",
+  "stage2": {
+    "candidate_resolutions": {
+      "V3-CASCADE-448": [
+        448,
+        336
+      ],
+      "V3-CASCADE-896": [
+        896,
+        672
+      ]
+    },
+    "decision_values": [
+      "KEEP_ALERT",
+      "SUPPRESS_NORMAL_POSE",
+      "UNCERTAIN"
+    ],
+    "pose_values": [
+      "floor_sitting",
+      "kneeling",
+      "maintenance",
+      "alert_posture",
+      "unknown"
+    ],
+    "prompt_id": "V3-CASCADE-S2-C0"
+  },
+  "stage2_prompt_sha256": "6966b1debfae1012cc37aba28bd88553548e47e1f3e91e17d1bd54004f8def17"
+}

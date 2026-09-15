@@ -1,0 +1,20 @@
+{
+  "adapter_changed": false,
+  "execution_order_changed": true,
+  "old_plan_preserved": true,
+  "plan_sha256": "1a116942418205426df443ca7cef9efe65a6990646e6b8ebcc9a390e6f47bd14",
+  "provider_requests_added": 0,
+  "role_distribution": {
+    "hard_negative": 30,
+    "ordinary_negative": 10,
+    "positive": 27
+  },
+  "rows": 67,
+  "semantic_plan_changed": false,
+  "smoke_success": true,
+  "split_distribution": {
+    "NEW_DESIGN": 40,
+    "NEW_SCREEN": 27
+  },
+  "status": "READY"
+}

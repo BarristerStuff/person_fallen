@@ -1,0 +1,40 @@
+{
+  "attempt_id": "P4D_GR1_RAMP1_0003_PF_P4D_HN_KNEEL_G001_V01",
+  "final_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/final/PF_P4D_HN_KNEEL_G001_V01.png",
+  "final_sha256": "a618aa024b10098af45716f69de7ed3ac40c73d88b6513f46a4a16c365601301",
+  "generation_batch": "batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m",
+  "group_id": "PF_P4D_HN_KNEEL_G001",
+  "latency_seconds": 31.563511165999444,
+  "model": "gpt-5.4",
+  "model_version": "gpt-5.4",
+  "native_size_requested": "1536x1024",
+  "planned_split": "NEW_DESIGN",
+  "prompt_id": "PF_P4D_HN_KNEEL_G001_V01",
+  "prompt_sha256": "a9b5f8ba9f821707ad323afec1f22e3395702a28dd63e03d9ec2e8cd792f3020",
+  "provider": "codex",
+  "provider_request_id": "unknown",
+  "provider_revision_id": "P4D_GR1_PR_CODEX_20260827_01",
+  "qa": {
+    "crop_box": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "final_height": 1080,
+    "final_width": 1920,
+    "native_aspect_ratio": 1.7768331562167907,
+    "native_height": 941,
+    "native_width": 1672,
+    "resize_method": "Pillow_LANCZOS"
+  },
+  "quality": "medium",
+  "raw_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-p4d-hardneg-rev1-camera1p5m/generated_raw/PF_P4D_HN_KNEEL_G001_V01.png",
+  "raw_sha256": "ce3291559d185647cf1c2a65b079961348ebcd671b9888b2fbdf29b359bf0c26",
+  "request_finished_at": "2026-08-27T06:06:41.442+00:00",
+  "request_started_at": "2026-08-27T06:06:09.879+00:00",
+  "seed": "unknown",
+  "status": "SUCCESS",
+  "target_role": "hard_negative",
+  "taxonomy": "kneeling_half_kneeling"
+}

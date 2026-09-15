@@ -1,0 +1,26 @@
+{
+  "actual_sha256": "5f7afbc010a0028497ec0210e75dc28cc79212fbc114cbf4741ee0bc4ce361c4",
+  "all_match": true,
+  "captured_at": "2026-08-28T07:14:26.230+00:00",
+  "cross_split_group_count": 0,
+  "cross_split_groups": [],
+  "expected_sha256": "5f7afbc010a0028497ec0210e75dc28cc79212fbc114cbf4741ee0bc4ce361c4",
+  "gr1_reuse_values": [
+    "0"
+  ],
+  "path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/03_fullregen_plan/full_regen_prompt_manifest.csv",
+  "prompt_byte_mismatch": 0,
+  "prompt_byte_mismatches": [],
+  "role_counts": {
+    "hard_negative": 300,
+    "ordinary_negative": 40,
+    "positive": 100
+  },
+  "rows": 440,
+  "split_counts": {
+    "NEW_DESIGN": 265,
+    "NEW_SCREEN": 175
+  },
+  "unique_groups": 88,
+  "unique_prompt_ids": 440
+}

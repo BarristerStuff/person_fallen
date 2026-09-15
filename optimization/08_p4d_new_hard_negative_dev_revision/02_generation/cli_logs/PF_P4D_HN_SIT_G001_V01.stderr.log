@@ -1,0 +1,2 @@
+{"data":{"endpoint":"https://api.ebondai.com/v1/images/generations","provider":"openai"},"kind":"local","seq":1,"type":"request.started"}
+{"data":{"endpoint":"https://api.ebondai.com/v1/images/generations","message":"OpenAI image request sent.","percent":0,"phase":"request_started","provider":"openai","status":"running"},"kind":"progress","seq":2,"type":"request_started"}

@@ -1,0 +1,31 @@
+{
+  "captured_at": "2026-08-27T14:17:30.235+00:00",
+  "completion_unknown": 0,
+  "derived_outstanding": 341,
+  "failed_confirmed_http_429": 1,
+  "failed_parent_request_id": "P4D_GR3E_BULK_0100_PF_P4D_HN_KNEEL_G008_V05",
+  "failed_prompt_id": "PF_P4D_HN_KNEEL_G008_V05",
+  "final_issues": [],
+  "gr1_hash_hit_count": 0,
+  "gr1_hash_hits": [],
+  "manifest_slots": 440,
+  "never_started": 340,
+  "parent_csv_ledger_rows": 100,
+  "parent_logical_invocations": 100,
+  "preserved_final_integrity_issues": 0,
+  "preserved_raw_integrity_issues": 0,
+  "preserved_success_expected": 99,
+  "preserved_success_ledger": 99,
+  "raw_issues": [],
+  "samefile_hit_count": 0,
+  "samefile_hits": [],
+  "sqlite_slots": 440,
+  "sqlite_state_counts": {
+    "FAILED_CONFIRMED": 1,
+    "NOT_STARTED": 340,
+    "SUCCESS": 99
+  },
+  "symlink_hit_count": 0,
+  "symlink_hits": [],
+  "verified_preserved_success": 99
+}
