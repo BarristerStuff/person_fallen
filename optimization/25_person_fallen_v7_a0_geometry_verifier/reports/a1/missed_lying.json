@@ -1,0 +1,1661 @@
+[
+  {
+    "item_id": "P4D_PLAN::PF_P4D_POS_PRONE_G001_V03",
+    "taxonomy": "prone_ground_lying",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0058",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 147.91217425529885,
+          "shoulder_hip_dy": 0.38700109845723124,
+          "y_band_ratio": 0.47617696095010037,
+          "kp_mean_conf": 0.8165594988009509,
+          "visible": 17,
+          "bbox_ar": 2.3816898113134863,
+          "shoulder_conf": [
+            0.9361260533332825,
+            0.9764249324798584
+          ],
+          "hip_conf": [
+            0.968898594379425,
+            0.9801165461540222
+          ],
+          "visible_points": 17,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "P4D_PLAN::PF_P4D_POS_PRONE_G001_V05",
+    "taxonomy": "prone_ground_lying",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0060",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 152.80625662805394,
+          "shoulder_hip_dy": 0.295560962226768,
+          "y_band_ratio": 0.7090080193216751,
+          "kp_mean_conf": 0.7757594515295589,
+          "visible": 17,
+          "bbox_ar": 2.194280292855618,
+          "shoulder_conf": [
+            0.9517306089401245,
+            0.9295696020126343
+          ],
+          "hip_conf": [
+            0.9843024015426636,
+            0.9772881865501404
+          ],
+          "visible_points": 17,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_004004",
+    "taxonomy": "prone_ground_lying",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0063",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 48.62560126344141,
+          "shoulder_hip_dy": 0.2154424044142153,
+          "y_band_ratio": 0.605872481022631,
+          "kp_mean_conf": 0.8735840121905009,
+          "visible": 15,
+          "bbox_ar": 1.2892119429264348,
+          "shoulder_conf": [
+            0.9977433681488037,
+            0.9889222383499146
+          ],
+          "hip_conf": [
+            0.9997743964195251,
+            0.9994655251502991
+          ],
+          "visible_points": 15,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_004005",
+    "taxonomy": "prone_ground_lying",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0064",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 146.43897890416108,
+          "shoulder_hip_dy": 0.19494967564857893,
+          "y_band_ratio": 0.5999290425434675,
+          "kp_mean_conf": 0.8892144198928561,
+          "visible": 14,
+          "bbox_ar": 1.7560560794437654,
+          "shoulder_conf": [
+            0.9876717329025269,
+            0.9894668459892273
+          ],
+          "hip_conf": [
+            0.9995126724243164,
+            0.9995183944702148
+          ],
+          "visible_points": 14,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_004006",
+    "taxonomy": "prone_ground_lying",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0065",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 33.5766709784845,
+          "shoulder_hip_dy": 0.3056511986856334,
+          "y_band_ratio": 0.3630181575763799,
+          "kp_mean_conf": 0.7882674020879409,
+          "visible": 17,
+          "bbox_ar": 2.621404624991577,
+          "shoulder_conf": [
+            0.978291392326355,
+            0.9258349537849426
+          ],
+          "hip_conf": [
+            0.9892206788063049,
+            0.9799792766571045
+          ],
+          "visible_points": 17,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_004009",
+    "taxonomy": "prone_ground_lying",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0068",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 147.31816723660287,
+          "shoulder_hip_dy": 0.1950195673009555,
+          "y_band_ratio": 0.6199840538222343,
+          "kp_mean_conf": 0.8630138571773257,
+          "visible": 14,
+          "bbox_ar": 2.3357051666248974,
+          "shoulder_conf": [
+            0.9410824775695801,
+            0.9894894957542419
+          ],
+          "hip_conf": [
+            0.9925560355186462,
+            0.997175931930542
+          ],
+          "visible_points": 14,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_004011",
+    "taxonomy": "prone_ground_lying",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0070",
+    "persons": [
+      {
+        "person_idx": "1",
+        "features": {
+          "torso_angle": 85.28453751382679,
+          "shoulder_hip_dy": 0.3393976357866406,
+          "y_band_ratio": 0.711875761529672,
+          "kp_mean_conf": 0.9058228301651338,
+          "visible": 17,
+          "bbox_ar": 0.6325117672401245,
+          "shoulder_conf": [
+            0.9939829707145691,
+            0.9983184337615967
+          ],
+          "hip_conf": [
+            0.9918261766433716,
+            0.9955235719680786
+          ],
+          "visible_points": 17,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      },
+      {
+        "person_idx": "2",
+        "features": {
+          "torso_angle": 74.74106304098405,
+          "shoulder_hip_dy": 0.6798653387593337,
+          "y_band_ratio": 0.7260195985340727,
+          "kp_mean_conf": 0.668797105550766,
+          "visible": 9,
+          "bbox_ar": 0.8573417032167375,
+          "shoulder_conf": [
+            0.9745674729347229,
+            0.9523507356643677
+          ],
+          "hip_conf": [
+            0.6817148327827454,
+            0.6286215782165527
+          ],
+          "visible_points": 9,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      },
+      {
+        "person_idx": "3",
+        "features": {
+          "torso_angle": 80.22005326177504,
+          "shoulder_hip_dy": 0.3864964002551718,
+          "y_band_ratio": 0.667503209632575,
+          "kp_mean_conf": 0.6970313061028719,
+          "visible": 16,
+          "bbox_ar": 0.48287367237925305,
+          "shoulder_conf": [
+            0.9665016531944275,
+            0.9022477865219116
+          ],
+          "hip_conf": [
+            0.9257267117500305,
+            0.8754768967628479
+          ],
+          "visible_points": 16,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      },
+      {
+        "person_idx": "4",
+        "features": {
+          "torso_angle": 85.28453751382679,
+          "shoulder_hip_dy": 0.7011750565492835,
+          "y_band_ratio": 1.4706924112471367,
+          "kp_mean_conf": 0.9058228301651338,
+          "visible": 17,
+          "bbox_ar": 1.1344314009794323,
+          "shoulder_conf": [
+            0.9939829707145691,
+            0.9983184337615967
+          ],
+          "hip_conf": [
+            0.9918261766433716,
+            0.9955235719680786
+          ],
+          "visible_points": 17,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_004014",
+    "taxonomy": "prone_ground_lying",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0073",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 130.63923959470776,
+          "shoulder_hip_dy": 0.23950071957249558,
+          "y_band_ratio": 0.6895406229181433,
+          "kp_mean_conf": 0.912446854369981,
+          "visible": 14,
+          "bbox_ar": 1.5652385953312413,
+          "shoulder_conf": [
+            0.9893611073493958,
+            0.9977664947509766
+          ],
+          "hip_conf": [
+            0.9997654557228088,
+            0.9998753070831299
+          ],
+          "visible_points": 14,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_003986",
+    "taxonomy": "supine_ground_lying",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0101",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 30.863056718060406,
+          "shoulder_hip_dy": 0.192390817245384,
+          "y_band_ratio": 0.6600789968104623,
+          "kp_mean_conf": 0.8635647725313902,
+          "visible": 16,
+          "bbox_ar": 1.7084475146432598,
+          "shoulder_conf": [
+            0.997660756111145,
+            0.9854418039321899
+          ],
+          "hip_conf": [
+            0.9997005462646484,
+            0.9992438554763794
+          ],
+          "visible_points": 16,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_003987",
+    "taxonomy": "supine_ground_lying",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0102",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 114.96435363165753,
+          "shoulder_hip_dy": 0.23984662490339684,
+          "y_band_ratio": 0.7023150209584056,
+          "kp_mean_conf": 0.9250807288814994,
+          "visible": 17,
+          "bbox_ar": 1.475413026455189,
+          "shoulder_conf": [
+            0.9956640601158142,
+            0.9920454025268555
+          ],
+          "hip_conf": [
+            0.999123752117157,
+            0.9986565113067627
+          ],
+          "visible_points": 17,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_003988",
+    "taxonomy": "supine_ground_lying",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0103",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 30.37412114675031,
+          "shoulder_hip_dy": 0.20591542559094128,
+          "y_band_ratio": 0.6496160573672514,
+          "kp_mean_conf": 0.875287255820106,
+          "visible": 17,
+          "bbox_ar": 1.8269306623834713,
+          "shoulder_conf": [
+            0.9990953207015991,
+            0.9959927797317505
+          ],
+          "hip_conf": [
+            0.9997356534004211,
+            0.9994943141937256
+          ],
+          "visible_points": 17,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_003991",
+    "taxonomy": "supine_ground_lying",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0106",
+    "persons": [
+      {
+        "person_idx": "1",
+        "features": {
+          "torso_angle": 89.35678935250277,
+          "shoulder_hip_dy": 0.35251366343109936,
+          "y_band_ratio": 0.7041727368957779,
+          "kp_mean_conf": 0.9067767057567835,
+          "visible": 16,
+          "bbox_ar": 0.4657209188698556,
+          "shoulder_conf": [
+            0.9593057632446289,
+            0.9881640672683716
+          ],
+          "hip_conf": [
+            0.9870651960372925,
+            0.9931147694587708
+          ],
+          "visible_points": 16,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      },
+      {
+        "person_idx": "2",
+        "features": {
+          "torso_angle": 89.35678935250277,
+          "shoulder_hip_dy": 1.205940179161952,
+          "y_band_ratio": 2.4089568280210365,
+          "kp_mean_conf": 0.9067767057567835,
+          "visible": 16,
+          "bbox_ar": 1.5204958770645483,
+          "shoulder_conf": [
+            0.9593057632446289,
+            0.9881640672683716
+          ],
+          "hip_conf": [
+            0.9870651960372925,
+            0.9931147694587708
+          ],
+          "visible_points": 16,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_003992",
+    "taxonomy": "supine_ground_lying",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0107",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 154.65730119016303,
+          "shoulder_hip_dy": 0.1898586954048725,
+          "y_band_ratio": 0.6925455112947356,
+          "kp_mean_conf": 0.8731976423193427,
+          "visible": 17,
+          "bbox_ar": 2.018343957392412,
+          "shoulder_conf": [
+            0.9953966736793518,
+            0.9693289995193481
+          ],
+          "hip_conf": [
+            0.9994789958000183,
+            0.9984740614891052
+          ],
+          "visible_points": 17,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_003994",
+    "taxonomy": "supine_ground_lying",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0109",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 130.36725073053245,
+          "shoulder_hip_dy": 0.3208296836995483,
+          "y_band_ratio": 0.5036300890639227,
+          "kp_mean_conf": 0.7978602490004372,
+          "visible": 17,
+          "bbox_ar": 1.9471654753816234,
+          "shoulder_conf": [
+            0.9486081004142761,
+            0.9686663746833801
+          ],
+          "hip_conf": [
+            0.9731146097183228,
+            0.9754870533943176
+          ],
+          "visible_points": 17,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_003995",
+    "taxonomy": "supine_ground_lying",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0110",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 68.58121826592452,
+          "shoulder_hip_dy": 0.1995513815293065,
+          "y_band_ratio": 0.6033693864945651,
+          "kp_mean_conf": 0.8826430755503037,
+          "visible": 17,
+          "bbox_ar": 1.150749258718717,
+          "shoulder_conf": [
+            0.9958314299583435,
+            0.9961208701133728
+          ],
+          "hip_conf": [
+            0.9990273714065552,
+            0.9989960789680481
+          ],
+          "visible_points": 17,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "P4D_PLAN::PF_P4D_POS_MULTI_G001_V01",
+    "taxonomy": "multi_person_one_lying",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0152",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 78.54010888062258,
+          "shoulder_hip_dy": 0.2963157505064976,
+          "y_band_ratio": 0.7719341335077881,
+          "kp_mean_conf": 0.8514584163824718,
+          "visible": 15,
+          "bbox_ar": 0.33029912729135513,
+          "shoulder_conf": [
+            0.9980504512786865,
+            0.9200043678283691
+          ],
+          "hip_conf": [
+            0.9989618062973022,
+            0.9923377633094788
+          ],
+          "visible_points": 15,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "P4D_PLAN::PF_P4D_POS_MULTI_G001_V02",
+    "taxonomy": "multi_person_one_lying",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0153",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 101.79864267531113,
+          "shoulder_hip_dy": 0.2912960441656075,
+          "y_band_ratio": 0.7480157747131806,
+          "kp_mean_conf": 0.9507500318919911,
+          "visible": 17,
+          "bbox_ar": 0.38561467893815254,
+          "shoulder_conf": [
+            0.9986051917076111,
+            0.9979033470153809
+          ],
+          "hip_conf": [
+            0.9993545413017273,
+            0.9990954399108887
+          ],
+          "visible_points": 17,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      },
+      {
+        "person_idx": "1",
+        "features": {
+          "torso_angle": 98.46066916837405,
+          "shoulder_hip_dy": 0.2805060807257772,
+          "y_band_ratio": 0.6989184983666697,
+          "kp_mean_conf": 0.8474509790539742,
+          "visible": 16,
+          "bbox_ar": 0.30264751384779986,
+          "shoulder_conf": [
+            0.9943943023681641,
+            0.8832735419273376
+          ],
+          "hip_conf": [
+            0.9954025745391846,
+            0.9747087955474854
+          ],
+          "visible_points": 16,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "P4D_PLAN::PF_P4D_POS_MULTI_G001_V03",
+    "taxonomy": "multi_person_one_lying",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0154",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 102.38599475760361,
+          "shoulder_hip_dy": 0.33212903927842397,
+          "y_band_ratio": 0.7197179723951591,
+          "kp_mean_conf": 0.9103892147541046,
+          "visible": 14,
+          "bbox_ar": 0.5368316478416789,
+          "shoulder_conf": [
+            0.997645914554596,
+            0.991513192653656
+          ],
+          "hip_conf": [
+            0.9990523457527161,
+            0.9977697134017944
+          ],
+          "visible_points": 14,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      },
+      {
+        "person_idx": "1",
+        "features": {
+          "torso_angle": 93.90335607056006,
+          "shoulder_hip_dy": 0.3382161140177679,
+          "y_band_ratio": 0.8747242689189582,
+          "kp_mean_conf": 0.8901000148974932,
+          "visible": 13,
+          "bbox_ar": 0.5025249431320429,
+          "shoulder_conf": [
+            0.9418532252311707,
+            0.9577844142913818
+          ],
+          "hip_conf": [
+            0.998696506023407,
+            0.998906135559082
+          ],
+          "visible_points": 13,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      },
+      {
+        "person_idx": "2",
+        "features": {
+          "torso_angle": 78.81985712443672,
+          "shoulder_hip_dy": 0.29073496864600085,
+          "y_band_ratio": 0.7007783785234513,
+          "kp_mean_conf": 0.9213558084824506,
+          "visible": 17,
+          "bbox_ar": 0.43429740009717194,
+          "shoulder_conf": [
+            0.9954354166984558,
+            0.9838424921035767
+          ],
+          "hip_conf": [
+            0.9963687658309937,
+            0.992563784122467
+          ],
+          "visible_points": 17,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      },
+      {
+        "person_idx": "3",
+        "features": {
+          "torso_angle": 87.75047168383081,
+          "shoulder_hip_dy": 0.3652955888549493,
+          "y_band_ratio": 0.8474634266832868,
+          "kp_mean_conf": 0.5281132029162513,
+          "visible": 9,
+          "bbox_ar": 0.42940561813910694,
+          "shoulder_conf": [
+            0.504523754119873,
+            0.1245858296751976
+          ],
+          "hip_conf": [
+            0.6890954375267029,
+            0.439776748418808
+          ],
+          "visible_points": 9,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "P4D_PLAN::PF_P4D_POS_MULTI_G001_V04",
+    "taxonomy": "multi_person_one_lying",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0155",
+    "persons": [
+      {
+        "person_idx": "1",
+        "features": {
+          "torso_angle": 92.97066753291418,
+          "shoulder_hip_dy": 0.29398425000417033,
+          "y_band_ratio": 0.7018475268597678,
+          "kp_mean_conf": 0.9122624807059765,
+          "visible": 16,
+          "bbox_ar": 0.283299356244367,
+          "shoulder_conf": [
+            0.9751421809196472,
+            0.9979000091552734
+          ],
+          "hip_conf": [
+            0.9847368597984314,
+            0.9956727027893066
+          ],
+          "visible_points": 16,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "P4D_PLAN::PF_P4D_POS_MULTI_G001_V05",
+    "taxonomy": "multi_person_one_lying",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0156",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 93.93331695503574,
+          "shoulder_hip_dy": 0.31669017027558866,
+          "y_band_ratio": 0.7992919046691576,
+          "kp_mean_conf": 0.8673728314729837,
+          "visible": 13,
+          "bbox_ar": 0.48581406700537627,
+          "shoulder_conf": [
+            0.8465120792388916,
+            0.9842085242271423
+          ],
+          "hip_conf": [
+            0.990199089050293,
+            0.9971235394477844
+          ],
+          "visible_points": 13,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      },
+      {
+        "person_idx": "1",
+        "features": {
+          "torso_angle": 84.4925723343468,
+          "shoulder_hip_dy": 0.32664703165194525,
+          "y_band_ratio": 0.8957125316816874,
+          "kp_mean_conf": 0.8187641451756159,
+          "visible": 12,
+          "bbox_ar": 0.4487611050569567,
+          "shoulder_conf": [
+            0.5773565173149109,
+            0.5208981037139893
+          ],
+          "hip_conf": [
+            0.9748874306678772,
+            0.9690065383911133
+          ],
+          "visible_points": 12,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      },
+      {
+        "person_idx": "3",
+        "features": {
+          "torso_angle": 89.7064869173235,
+          "shoulder_hip_dy": 0.35039227528160405,
+          "y_band_ratio": 0.8671629689147314,
+          "kp_mean_conf": 0.8406893473405105,
+          "visible": 13,
+          "bbox_ar": 0.4797480539440792,
+          "shoulder_conf": [
+            0.9363034963607788,
+            0.6580542325973511
+          ],
+          "hip_conf": [
+            0.9968217611312866,
+            0.9898362755775452
+          ],
+          "visible_points": 13,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_004072",
+    "taxonomy": "partially_occluded_lying",
+    "request_id": "V6_R2_FULL_0176",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 137.14088417593402,
+          "shoulder_hip_dy": 0.40922147606743187,
+          "y_band_ratio": 0.4837403161487421,
+          "kp_mean_conf": 0.8188170685487635,
+          "visible": 17,
+          "bbox_ar": 1.6598434134893585,
+          "shoulder_conf": [
+            0.9453184008598328,
+            0.9794098138809204
+          ],
+          "hip_conf": [
+            0.9721360802650452,
+            0.9839374423027039
+          ],
+          "visible_points": 17,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_004082",
+    "taxonomy": "small_target_ground_lying",
+    "request_id": "V6_R2_FULL_0177",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 132.99943548470517,
+          "shoulder_hip_dy": 0.23686374613234515,
+          "y_band_ratio": 0.5564369489125246,
+          "kp_mean_conf": 0.8538705964883169,
+          "visible": 15,
+          "bbox_ar": 1.8727539939035696,
+          "shoulder_conf": [
+            0.9738438129425049,
+            0.9906455278396606
+          ],
+          "hip_conf": [
+            0.9981399774551392,
+            0.9988428354263306
+          ],
+          "visible_points": 15,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_004083",
+    "taxonomy": "small_target_ground_lying",
+    "request_id": "V6_R2_FULL_0178",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 33.30292410214287,
+          "shoulder_hip_dy": 0.2518512794421166,
+          "y_band_ratio": 0.6446612266704939,
+          "kp_mean_conf": 0.8400975336631139,
+          "visible": 15,
+          "bbox_ar": 2.9492329711895566,
+          "shoulder_conf": [
+            0.9966539144515991,
+            0.9688977003097534
+          ],
+          "hip_conf": [
+            0.9982919096946716,
+            0.9951016306877136
+          ],
+          "visible_points": 15,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_004089",
+    "taxonomy": "small_target_ground_lying",
+    "request_id": "V6_R2_FULL_0184",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 33.336357872391844,
+          "shoulder_hip_dy": 0.21778859247917395,
+          "y_band_ratio": 0.5419318657720065,
+          "kp_mean_conf": 0.8429786914161274,
+          "visible": 14,
+          "bbox_ar": 2.4520525515637175,
+          "shoulder_conf": [
+            0.9731472134590149,
+            0.9623001217842102
+          ],
+          "hip_conf": [
+            0.9924822449684143,
+            0.9906603693962097
+          ],
+          "visible_points": 14,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_004094",
+    "taxonomy": "small_target_ground_lying",
+    "request_id": "V6_R2_FULL_0189",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 46.56422118568528,
+          "shoulder_hip_dy": 0.2719096496123299,
+          "y_band_ratio": 0.6166962929077046,
+          "kp_mean_conf": 0.9467224524571345,
+          "visible": 13,
+          "bbox_ar": 2.0538313389243847,
+          "shoulder_conf": [
+            0.9951322674751282,
+            0.9755286574363708
+          ],
+          "hip_conf": [
+            0.9992148876190186,
+            0.9979990124702454
+          ],
+          "visible_points": 13,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_004095",
+    "taxonomy": "small_target_ground_lying",
+    "request_id": "V6_R2_FULL_0190",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 132.83011774865273,
+          "shoulder_hip_dy": 0.22542681156951336,
+          "y_band_ratio": 0.7182884454371745,
+          "kp_mean_conf": 0.853168918689092,
+          "visible": 15,
+          "bbox_ar": 1.6374213444790187,
+          "shoulder_conf": [
+            0.9695493578910828,
+            0.9929890632629395
+          ],
+          "hip_conf": [
+            0.9983497858047485,
+            0.9991310238838196
+          ],
+          "visible_points": 15,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_004097",
+    "taxonomy": "small_target_ground_lying",
+    "request_id": "V6_R2_FULL_0192",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 141.69516311962863,
+          "shoulder_hip_dy": 0.23955480905863738,
+          "y_band_ratio": 0.7142501044662612,
+          "kp_mean_conf": 0.8435847659905752,
+          "visible": 15,
+          "bbox_ar": 2.4681819788674497,
+          "shoulder_conf": [
+            0.9627036452293396,
+            0.9912883043289185
+          ],
+          "hip_conf": [
+            0.9961516261100769,
+            0.9983296990394592
+          ],
+          "visible_points": 15,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_003996",
+    "taxonomy": "supine_ground_lying",
+    "request_id": "V6_R2_FULL_0197",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 54.44835999432077,
+          "shoulder_hip_dy": 0.1876614835449541,
+          "y_band_ratio": 0.6664919768149661,
+          "kp_mean_conf": 0.8820154325050467,
+          "visible": 17,
+          "bbox_ar": 1.576595201294378,
+          "shoulder_conf": [
+            0.9841613173484802,
+            0.9985514283180237
+          ],
+          "hip_conf": [
+            0.9993258714675903,
+            0.9997962117195129
+          ],
+          "visible_points": 17,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_003998",
+    "taxonomy": "supine_ground_lying",
+    "request_id": "V6_R2_FULL_0199",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 143.70909244083597,
+          "shoulder_hip_dy": 0.18780171389847453,
+          "y_band_ratio": 0.5756010641528732,
+          "kp_mean_conf": 0.845358050921384,
+          "visible": 17,
+          "bbox_ar": 1.4639853017984126,
+          "shoulder_conf": [
+            0.9855676889419556,
+            0.9939756989479065
+          ],
+          "hip_conf": [
+            0.9990572333335876,
+            0.9992052912712097
+          ],
+          "visible_points": 17,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_004015",
+    "taxonomy": "prone_ground_lying",
+    "request_id": "V6_R2_FULL_0203",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 49.48173243224979,
+          "shoulder_hip_dy": 0.19459969780564132,
+          "y_band_ratio": 0.6716775210161483,
+          "kp_mean_conf": 0.9543804342930133,
+          "visible": 13,
+          "bbox_ar": 1.3024894168775918,
+          "shoulder_conf": [
+            0.9917215704917908,
+            0.9869902729988098
+          ],
+          "hip_conf": [
+            0.9996200799942017,
+            0.999553382396698
+          ],
+          "visible_points": 13,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_004017",
+    "taxonomy": "prone_ground_lying",
+    "request_id": "V6_R2_FULL_0205",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 91.52785164893115,
+          "shoulder_hip_dy": 0.2509591045449123,
+          "y_band_ratio": 0.25673112154291433,
+          "kp_mean_conf": 0.8324726591507594,
+          "visible": 15,
+          "bbox_ar": 2.1261075655386836,
+          "shoulder_conf": [
+            0.9724683165550232,
+            0.9744778275489807
+          ],
+          "hip_conf": [
+            0.9947242140769958,
+            0.9950984120368958
+          ],
+          "visible_points": 15,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_004018",
+    "taxonomy": "prone_ground_lying",
+    "request_id": "V6_R2_FULL_0206",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 25.77221493744905,
+          "shoulder_hip_dy": 0.18307173080508368,
+          "y_band_ratio": 0.6442789210643249,
+          "kp_mean_conf": 0.8237371612340212,
+          "visible": 16,
+          "bbox_ar": 1.9015726745229007,
+          "shoulder_conf": [
+            0.9984129667282104,
+            0.9895232319831848
+          ],
+          "hip_conf": [
+            0.9991114735603333,
+            0.9975964426994324
+          ],
+          "visible_points": 16,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_004021",
+    "taxonomy": "prone_ground_lying",
+    "request_id": "V6_R2_FULL_0209",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 54.39606491818914,
+          "shoulder_hip_dy": 0.2309656250135728,
+          "y_band_ratio": 0.6510969463858889,
+          "kp_mean_conf": 0.843786871433258,
+          "visible": 15,
+          "bbox_ar": 1.3957978772587818,
+          "shoulder_conf": [
+            0.9929639101028442,
+            0.9411213397979736
+          ],
+          "hip_conf": [
+            0.9989870190620422,
+            0.9967987537384033
+          ],
+          "visible_points": 15,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_004036",
+    "taxonomy": "side_lying",
+    "request_id": "V6_R2_FULL_0211",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 29.874495358404104,
+          "shoulder_hip_dy": 0.28041687251595687,
+          "y_band_ratio": 0.4431357547868594,
+          "kp_mean_conf": 0.8078890127294204,
+          "visible": 17,
+          "bbox_ar": 2.162919936278899,
+          "shoulder_conf": [
+            0.9970935583114624,
+            0.9017215967178345
+          ],
+          "hip_conf": [
+            0.9976510405540466,
+            0.9845357537269592
+          ],
+          "visible_points": 17,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_004046",
+    "taxonomy": "irregular_sprawled_lying",
+    "request_id": "V6_R2_FULL_0221",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 141.23345984167827,
+          "shoulder_hip_dy": 0.2102542299810809,
+          "y_band_ratio": 0.5910555115585585,
+          "kp_mean_conf": 0.872963817914327,
+          "visible": 15,
+          "bbox_ar": 1.236183439322713,
+          "shoulder_conf": [
+            0.9901718497276306,
+            0.9939239621162415
+          ],
+          "hip_conf": [
+            0.9990506768226624,
+            0.9991140961647034
+          ],
+          "visible_points": 15,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_004047",
+    "taxonomy": "irregular_sprawled_lying",
+    "request_id": "V6_R2_FULL_0222",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 32.00606870321258,
+          "shoulder_hip_dy": 0.19561507627796204,
+          "y_band_ratio": 0.5666969375331529,
+          "kp_mean_conf": 0.8438506182283163,
+          "visible": 16,
+          "bbox_ar": 1.8106738310284853,
+          "shoulder_conf": [
+            0.9983617663383484,
+            0.9746010899543762
+          ],
+          "hip_conf": [
+            0.9994445443153381,
+            0.9975975155830383
+          ],
+          "visible_points": 16,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_004048",
+    "taxonomy": "irregular_sprawled_lying",
+    "request_id": "V6_R2_FULL_0223",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 55.93486921628268,
+          "shoulder_hip_dy": 0.16990943858011084,
+          "y_band_ratio": 0.68707714951131,
+          "kp_mean_conf": 0.8936480020775515,
+          "visible": 17,
+          "bbox_ar": 1.2753968976735728,
+          "shoulder_conf": [
+            0.9980379939079285,
+            0.9974127411842346
+          ],
+          "hip_conf": [
+            0.9993653893470764,
+            0.9992886781692505
+          ],
+          "visible_points": 17,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_004049",
+    "taxonomy": "irregular_sprawled_lying",
+    "request_id": "V6_R2_FULL_0224",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 26.91354682159241,
+          "shoulder_hip_dy": 0.21081348044774845,
+          "y_band_ratio": 0.6121780868569181,
+          "kp_mean_conf": 0.9504108108006991,
+          "visible": 13,
+          "bbox_ar": 2.438872827567873,
+          "shoulder_conf": [
+            0.993057131767273,
+            0.9671095013618469
+          ],
+          "hip_conf": [
+            0.9985602498054504,
+            0.9966237545013428
+          ],
+          "visible_points": 13,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_004054",
+    "taxonomy": "curled_or_sprawled_lying",
+    "request_id": "V6_R2_FULL_0229",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 31.25431708194183,
+          "shoulder_hip_dy": 0.18548619557018375,
+          "y_band_ratio": 0.6659887118081836,
+          "kp_mean_conf": 0.9102616707483927,
+          "visible": 15,
+          "bbox_ar": 1.211430153714836,
+          "shoulder_conf": [
+            0.9940645098686218,
+            0.9581897258758545
+          ],
+          "hip_conf": [
+            0.9979962706565857,
+            0.9940745234489441
+          ],
+          "visible_points": 15,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_004062",
+    "taxonomy": "partially_occluded_lying",
+    "request_id": "V6_R2_FULL_0237",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 130.04351864081772,
+          "shoulder_hip_dy": 0.18529370529581168,
+          "y_band_ratio": 0.7343659464006468,
+          "kp_mean_conf": 0.8227667398750782,
+          "visible": 16,
+          "bbox_ar": 1.3307051053949739,
+          "shoulder_conf": [
+            0.9014561772346497,
+            0.9783684015274048
+          ],
+          "hip_conf": [
+            0.9990628361701965,
+            0.9995446801185608
+          ],
+          "visible_points": 16,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_004063",
+    "taxonomy": "partially_occluded_lying",
+    "request_id": "V6_R2_FULL_0238",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 152.97014453648464,
+          "shoulder_hip_dy": 0.215883862418737,
+          "y_band_ratio": 0.6467425177492205,
+          "kp_mean_conf": 0.8301570774877772,
+          "visible": 17,
+          "bbox_ar": 1.8315084231024057,
+          "shoulder_conf": [
+            0.9675232172012329,
+            0.9953824877738953
+          ],
+          "hip_conf": [
+            0.9983425140380859,
+            0.9993143081665039
+          ],
+          "visible_points": 17,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_004065",
+    "taxonomy": "partially_occluded_lying",
+    "request_id": "V6_R2_FULL_0240",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 85.3272186804347,
+          "shoulder_hip_dy": 0.2737618938033725,
+          "y_band_ratio": 0.676292614992302,
+          "kp_mean_conf": 0.9103485208291274,
+          "visible": 13,
+          "bbox_ar": 1.135071171706073,
+          "shoulder_conf": [
+            0.9741687178611755,
+            0.8269380331039429
+          ],
+          "hip_conf": [
+            0.9977939128875732,
+            0.9926900267601013
+          ],
+          "visible_points": 13,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_004066",
+    "taxonomy": "partially_occluded_lying",
+    "request_id": "V6_R2_FULL_0241",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 133.2230021737041,
+          "shoulder_hip_dy": 0.19723780025645637,
+          "y_band_ratio": 0.5968976270463751,
+          "kp_mean_conf": 0.8994217881789575,
+          "visible": 13,
+          "bbox_ar": 1.1683177955796449,
+          "shoulder_conf": [
+            0.8363874554634094,
+            0.985420286655426
+          ],
+          "hip_conf": [
+            0.9977067708969116,
+            0.999453604221344
+          ],
+          "visible_points": 13,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_004068",
+    "taxonomy": "partially_occluded_lying",
+    "request_id": "V6_R2_FULL_0243",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 31.432540125538246,
+          "shoulder_hip_dy": 0.1301403838262681,
+          "y_band_ratio": 0.7344373073240533,
+          "kp_mean_conf": 0.8819440801938375,
+          "visible": 15,
+          "bbox_ar": 1.2604540050293025,
+          "shoulder_conf": [
+            0.9995214939117432,
+            0.988378643989563
+          ],
+          "hip_conf": [
+            0.9999055862426758,
+            0.9995781779289246
+          ],
+          "visible_points": 15,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_004071",
+    "taxonomy": "partially_occluded_lying",
+    "request_id": "V6_R2_FULL_0246",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 34.64436110162701,
+          "shoulder_hip_dy": 0.16570543244246272,
+          "y_band_ratio": 0.711358531171592,
+          "kp_mean_conf": 0.8182392856106162,
+          "visible": 16,
+          "bbox_ar": 1.1477061944825704,
+          "shoulder_conf": [
+            0.9848347902297974,
+            0.989158034324646
+          ],
+          "hip_conf": [
+            0.9966827034950256,
+            0.9978824257850647
+          ],
+          "visible_points": 16,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      },
+      {
+        "person_idx": "1",
+        "features": {
+          "torso_angle": 79.23691995826225,
+          "shoulder_hip_dy": 0.738735646660986,
+          "y_band_ratio": 0.9078998467954995,
+          "kp_mean_conf": 0.7287703210657294,
+          "visible": 11,
+          "bbox_ar": 1.1114927355855426,
+          "shoulder_conf": [
+            0.5997048616409302,
+            0.9640489220619202
+          ],
+          "hip_conf": [
+            0.4848605990409851,
+            0.8373247981071472
+          ],
+          "visible_points": 11,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_004073",
+    "taxonomy": "partially_occluded_lying",
+    "request_id": "V6_R2_FULL_0247",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 73.87374781838344,
+          "shoulder_hip_dy": 0.22585351006271817,
+          "y_band_ratio": 0.6224098654985881,
+          "kp_mean_conf": 0.8703825599872149,
+          "visible": 13,
+          "bbox_ar": 1.9150520554537869,
+          "shoulder_conf": [
+            0.9956575632095337,
+            0.9001424908638
+          ],
+          "hip_conf": [
+            0.9991740584373474,
+            0.9956670999526978
+          ],
+          "visible_points": 13,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_004075",
+    "taxonomy": "partially_occluded_lying",
+    "request_id": "V6_R2_FULL_0249",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 33.83608089683256,
+          "shoulder_hip_dy": 0.1453313193032701,
+          "y_band_ratio": 0.720068609628934,
+          "kp_mean_conf": 0.8538851793855429,
+          "visible": 16,
+          "bbox_ar": 1.2770537752222086,
+          "shoulder_conf": [
+            0.9992846846580505,
+            0.9913960099220276
+          ],
+          "hip_conf": [
+            0.9997226595878601,
+            0.9991804957389832
+          ],
+          "visible_points": 16,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_004076",
+    "taxonomy": "partially_occluded_lying",
+    "request_id": "V6_R2_FULL_0250",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 27.679354769945295,
+          "shoulder_hip_dy": 0.1483329605109106,
+          "y_band_ratio": 0.47985450768472043,
+          "kp_mean_conf": 0.8593034267425537,
+          "visible": 15,
+          "bbox_ar": 1.9826539462272332,
+          "shoulder_conf": [
+            0.9924042820930481,
+            0.9519943594932556
+          ],
+          "hip_conf": [
+            0.9956264495849609,
+            0.9890407919883728
+          ],
+          "visible_points": 15,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_004077",
+    "taxonomy": "partially_occluded_lying",
+    "request_id": "V6_R2_FULL_0251",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 139.7773032441815,
+          "shoulder_hip_dy": 0.1981210989969131,
+          "y_band_ratio": 0.6306319861628928,
+          "kp_mean_conf": 0.8829911351203918,
+          "visible": 13,
+          "bbox_ar": 1.4616142309123494,
+          "shoulder_conf": [
+            0.7758731842041016,
+            0.9849623441696167
+          ],
+          "hip_conf": [
+            0.995278000831604,
+            0.9989550113677979
+          ],
+          "visible_points": 13,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_004078",
+    "taxonomy": "partially_occluded_lying",
+    "request_id": "V6_R2_FULL_0252",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 146.57130387111775,
+          "shoulder_hip_dy": 0.1758998923692958,
+          "y_band_ratio": 0.7074550876356297,
+          "kp_mean_conf": 0.8531910558541616,
+          "visible": 15,
+          "bbox_ar": 1.319733175318603,
+          "shoulder_conf": [
+            0.9559264183044434,
+            0.9802592992782593
+          ],
+          "hip_conf": [
+            0.9995936751365662,
+            0.9996911287307739
+          ],
+          "visible_points": 15,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_004081",
+    "taxonomy": "partially_occluded_lying",
+    "request_id": "V6_R2_FULL_0255",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 123.45561602999044,
+          "shoulder_hip_dy": 0.2722038830603847,
+          "y_band_ratio": 0.6777852894449974,
+          "kp_mean_conf": 0.8244489922243006,
+          "visible": 17,
+          "bbox_ar": 1.37169101404834,
+          "shoulder_conf": [
+            0.9687239527702332,
+            0.9614135026931763
+          ],
+          "hip_conf": [
+            0.9956448078155518,
+            0.9945887327194214
+          ],
+          "visible_points": 17,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  }
+]

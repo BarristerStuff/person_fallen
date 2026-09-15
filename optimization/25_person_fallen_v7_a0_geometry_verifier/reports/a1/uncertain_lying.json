@@ -1,0 +1,46 @@
+[
+  {
+    "item_id": "V2_ORIGINAL::IMG_004003",
+    "taxonomy": "prone_ground_lying",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0062",
+    "persons": [
+      {
+        "person_idx": "1",
+        "features": {
+          "shoulder_conf": [
+            0.2889467775821686,
+            0.1781458705663681
+          ],
+          "hip_conf": [
+            0.3515833914279938,
+            0.28995659947395325
+          ],
+          "visible_points": null,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_004081",
+    "taxonomy": "partially_occluded_lying",
+    "request_id": "V6_R2_FULL_0255",
+    "persons": [
+      {
+        "person_idx": "2",
+        "features": {
+          "shoulder_conf": [
+            null,
+            null
+          ],
+          "hip_conf": [
+            null,
+            null
+          ],
+          "visible_points": null,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  }
+]

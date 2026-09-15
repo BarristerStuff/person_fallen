@@ -1,0 +1,1010 @@
+[
+  {
+    "item_id": "V2_ORIGINAL::IMG_003782",
+    "taxonomy": "pushup_plank",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0111",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 172.1579601805276,
+          "shoulder_hip_dy": 0.06890873185503106,
+          "y_band_ratio": 0.473892486547615,
+          "kp_mean_conf": 0.783073584549129,
+          "visible": 16,
+          "bbox_ar": 1.4100834428216034,
+          "shoulder_conf": [
+            0.9214168190956116,
+            0.9856783747673035
+          ],
+          "hip_conf": [
+            0.9102081060409546,
+            0.9541470408439636
+          ],
+          "visible_points": 16,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_003783",
+    "taxonomy": "pushup_plank",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0112",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 166.5451343256983,
+          "shoulder_hip_dy": 0.171870852559785,
+          "y_band_ratio": 0.361544901774665,
+          "kp_mean_conf": 0.8921203753527474,
+          "visible": 17,
+          "bbox_ar": 2.4558627261578514,
+          "shoulder_conf": [
+            0.9860759377479553,
+            0.9983723759651184
+          ],
+          "hip_conf": [
+            0.9947041869163513,
+            0.9980556964874268
+          ],
+          "visible_points": 17,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_003784",
+    "taxonomy": "pushup_plank",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0113",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 11.56618681660612,
+          "shoulder_hip_dy": 0.13155273575145207,
+          "y_band_ratio": 0.4978647689191682,
+          "kp_mean_conf": 0.8361089397221804,
+          "visible": 16,
+          "bbox_ar": 2.1389279258047047,
+          "shoulder_conf": [
+            0.9981124401092529,
+            0.987330436706543
+          ],
+          "hip_conf": [
+            0.9983206391334534,
+            0.9952844977378845
+          ],
+          "visible_points": 16,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_003785",
+    "taxonomy": "pushup_plank",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0114",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 2.215461722606422,
+          "shoulder_hip_dy": 0.01721691980237116,
+          "y_band_ratio": 0.2328302722693608,
+          "kp_mean_conf": 0.8827834243283552,
+          "visible": 17,
+          "bbox_ar": 1.666769764603745,
+          "shoulder_conf": [
+            0.9973908066749573,
+            0.9854775667190552
+          ],
+          "hip_conf": [
+            0.9988390803337097,
+            0.9972646236419678
+          ],
+          "visible_points": 17,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_003786",
+    "taxonomy": "pushup_plank",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0115",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 10.831544447984843,
+          "shoulder_hip_dy": 0.2115261860743337,
+          "y_band_ratio": 0.49717962734132437,
+          "kp_mean_conf": 0.8825397263554966,
+          "visible": 17,
+          "bbox_ar": 2.9388372626121915,
+          "shoulder_conf": [
+            0.995266318321228,
+            0.9569881558418274
+          ],
+          "hip_conf": [
+            0.9939822554588318,
+            0.9804927706718445
+          ],
+          "visible_points": 17,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_003787",
+    "taxonomy": "pushup_plank",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0116",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 9.88345810415189,
+          "shoulder_hip_dy": 0.10343422665596526,
+          "y_band_ratio": 0.5375100872503716,
+          "kp_mean_conf": 0.8693039268255234,
+          "visible": 16,
+          "bbox_ar": 2.170888945151264,
+          "shoulder_conf": [
+            0.9982617497444153,
+            0.9940136075019836
+          ],
+          "hip_conf": [
+            0.9971455931663513,
+            0.9946407079696655
+          ],
+          "visible_points": 16,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_003788",
+    "taxonomy": "pushup_plank",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0117",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 177.7051482637418,
+          "shoulder_hip_dy": 0.026368478756718498,
+          "y_band_ratio": 0.311743804749224,
+          "kp_mean_conf": 0.9192067012190819,
+          "visible": 16,
+          "bbox_ar": 2.1699506166315667,
+          "shoulder_conf": [
+            0.9679608345031738,
+            0.9977814555168152
+          ],
+          "hip_conf": [
+            0.9929594993591309,
+            0.9981081485748291
+          ],
+          "visible_points": 16,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_003789",
+    "taxonomy": "pushup_plank",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0118",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 10.715829103151396,
+          "shoulder_hip_dy": 0.147752916793532,
+          "y_band_ratio": 0.474226509669773,
+          "kp_mean_conf": 0.8423462965909172,
+          "visible": 17,
+          "bbox_ar": 2.864755728073926,
+          "shoulder_conf": [
+            0.9954179525375366,
+            0.9432583451271057
+          ],
+          "hip_conf": [
+            0.996071457862854,
+            0.9849390983581543
+          ],
+          "visible_points": 17,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_003790",
+    "taxonomy": "pushup_plank",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0119",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 171.87064086503125,
+          "shoulder_hip_dy": 0.03372052424465458,
+          "y_band_ratio": 0.4670554087539068,
+          "kp_mean_conf": 0.7513038832694292,
+          "visible": 16,
+          "bbox_ar": 1.3469727001739267,
+          "shoulder_conf": [
+            0.8788127899169922,
+            0.9147143959999084
+          ],
+          "hip_conf": [
+            0.9607542753219604,
+            0.966435968875885
+          ],
+          "visible_points": 16,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_003792",
+    "taxonomy": "pushup_plank",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0121",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 10.669085037433575,
+          "shoulder_hip_dy": 0.16350769563995973,
+          "y_band_ratio": 0.49232047760005576,
+          "kp_mean_conf": 0.840885076452704,
+          "visible": 17,
+          "bbox_ar": 2.429516709314578,
+          "shoulder_conf": [
+            0.9980047345161438,
+            0.9820932149887085
+          ],
+          "hip_conf": [
+            0.9971153736114502,
+            0.9917120933532715
+          ],
+          "visible_points": 17,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_003793",
+    "taxonomy": "pushup_plank",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0122",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 176.71461335658978,
+          "shoulder_hip_dy": 0.06455456807863717,
+          "y_band_ratio": 0.20316678120704737,
+          "kp_mean_conf": 0.86875179234673,
+          "visible": 17,
+          "bbox_ar": 3.799933618643009,
+          "shoulder_conf": [
+            0.9694132208824158,
+            0.9976143836975098
+          ],
+          "hip_conf": [
+            0.9928024411201477,
+            0.9979391694068909
+          ],
+          "visible_points": 17,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_003794",
+    "taxonomy": "pushup_plank",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0123",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 17.83459212598602,
+          "shoulder_hip_dy": 0.15132474806354362,
+          "y_band_ratio": 0.4532798827041371,
+          "kp_mean_conf": 0.7965801524765351,
+          "visible": 17,
+          "bbox_ar": 1.8328471225542247,
+          "shoulder_conf": [
+            0.9954299926757812,
+            0.9796072244644165
+          ],
+          "hip_conf": [
+            0.9954712390899658,
+            0.9896724224090576
+          ],
+          "visible_points": 17,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_003795",
+    "taxonomy": "pushup_plank",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0124",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 172.37621090099398,
+          "shoulder_hip_dy": 0.148541622447538,
+          "y_band_ratio": 0.31802821409177984,
+          "kp_mean_conf": 0.8101164453169879,
+          "visible": 17,
+          "bbox_ar": 3.645018543577575,
+          "shoulder_conf": [
+            0.988810658454895,
+            0.9923183917999268
+          ],
+          "hip_conf": [
+            0.9950594902038574,
+            0.9953868985176086
+          ],
+          "visible_points": 17,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_003796",
+    "taxonomy": "pushup_plank",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0125",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 167.252534988633,
+          "shoulder_hip_dy": 0.11927920128858444,
+          "y_band_ratio": 0.6373252608213462,
+          "kp_mean_conf": 0.8077616194883982,
+          "visible": 15,
+          "bbox_ar": 1.8474451845956033,
+          "shoulder_conf": [
+            0.9330716729164124,
+            0.99432373046875
+          ],
+          "hip_conf": [
+            0.991044282913208,
+            0.9974995255470276
+          ],
+          "visible_points": 15,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_003797",
+    "taxonomy": "pushup_plank",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0126",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 15.309372241025878,
+          "shoulder_hip_dy": 0.18978025203659452,
+          "y_band_ratio": 0.2733051258899463,
+          "kp_mean_conf": 0.8564445989973405,
+          "visible": 17,
+          "bbox_ar": 2.225984256362579,
+          "shoulder_conf": [
+            0.9949740171432495,
+            0.9675068855285645
+          ],
+          "hip_conf": [
+            0.9862469434738159,
+            0.9654459357261658
+          ],
+          "visible_points": 17,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_003798",
+    "taxonomy": "pushup_plank",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0127",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 14.046447544704053,
+          "shoulder_hip_dy": 0.1351156352377173,
+          "y_band_ratio": 0.5461264747770899,
+          "kp_mean_conf": 0.7932154946029186,
+          "visible": 16,
+          "bbox_ar": 1.8732841088153367,
+          "shoulder_conf": [
+            0.9919988512992859,
+            0.9554091691970825
+          ],
+          "hip_conf": [
+            0.997531533241272,
+            0.9938037395477295
+          ],
+          "visible_points": 16,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_003799",
+    "taxonomy": "pushup_plank",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0128",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 4.194934864828301,
+          "shoulder_hip_dy": 0.08099272590432975,
+          "y_band_ratio": 0.30976029461731536,
+          "kp_mean_conf": 0.8488802388310432,
+          "visible": 16,
+          "bbox_ar": 3.312538772647062,
+          "shoulder_conf": [
+            0.9869908690452576,
+            0.8936231136322021
+          ],
+          "hip_conf": [
+            0.9888563752174377,
+            0.9624911546707153
+          ],
+          "visible_points": 16,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_003800",
+    "taxonomy": "pushup_plank",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0129",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 176.77196921839266,
+          "shoulder_hip_dy": 0.04770865741504523,
+          "y_band_ratio": 0.29968921551798416,
+          "kp_mean_conf": 0.8797424698577208,
+          "visible": 17,
+          "bbox_ar": 2.726330518929266,
+          "shoulder_conf": [
+            0.991233766078949,
+            0.9983304142951965
+          ],
+          "hip_conf": [
+            0.9943401217460632,
+            0.997610330581665
+          ],
+          "visible_points": 17,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_003801",
+    "taxonomy": "pushup_plank",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0130",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 179.93972491519023,
+          "shoulder_hip_dy": 0.0006277209121868317,
+          "y_band_ratio": 0.41416372268425156,
+          "kp_mean_conf": 0.8197164125740528,
+          "visible": 16,
+          "bbox_ar": 2.1377653754648143,
+          "shoulder_conf": [
+            0.9899173378944397,
+            0.9963670969009399
+          ],
+          "hip_conf": [
+            0.9980220794677734,
+            0.9986729621887207
+          ],
+          "visible_points": 16,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_003802",
+    "taxonomy": "crawling_without_explicit_maintenance",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0131",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 7.099086042879277,
+          "shoulder_hip_dy": 0.08813552489419044,
+          "y_band_ratio": 0.5358270368909367,
+          "kp_mean_conf": 0.9300634900728861,
+          "visible": 15,
+          "bbox_ar": 1.999823870571358,
+          "shoulder_conf": [
+            0.9962748289108276,
+            0.9414533376693726
+          ],
+          "hip_conf": [
+            0.9990940093994141,
+            0.9963753819465637
+          ],
+          "visible_points": 15,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_003803",
+    "taxonomy": "crawling_without_explicit_maintenance",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0132",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 164.410328894715,
+          "shoulder_hip_dy": 0.14824807896994036,
+          "y_band_ratio": 0.7227021897243431,
+          "kp_mean_conf": 0.8375173721994672,
+          "visible": 14,
+          "bbox_ar": 1.7655834373120973,
+          "shoulder_conf": [
+            0.7862114906311035,
+            0.9964937567710876
+          ],
+          "hip_conf": [
+            0.997225821018219,
+            0.9996715784072876
+          ],
+          "visible_points": 14,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_003805",
+    "taxonomy": "crawling_without_explicit_maintenance",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0134",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 3.0151775453957494,
+          "shoulder_hip_dy": 0.033260762602002905,
+          "y_band_ratio": 0.49181598799147386,
+          "kp_mean_conf": 0.9020989090204239,
+          "visible": 16,
+          "bbox_ar": 1.6830956003331699,
+          "shoulder_conf": [
+            0.9915438890457153,
+            0.9689502120018005
+          ],
+          "hip_conf": [
+            0.9945886135101318,
+            0.9897103905677795
+          ],
+          "visible_points": 16,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_003806",
+    "taxonomy": "crawling_without_explicit_maintenance",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0135",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 0.7131727790544662,
+          "shoulder_hip_dy": 0.008290750413322369,
+          "y_band_ratio": 0.43963992603687035,
+          "kp_mean_conf": 0.8993367075920105,
+          "visible": 15,
+          "bbox_ar": 1.800038100357775,
+          "shoulder_conf": [
+            0.9980229139328003,
+            0.914677083492279
+          ],
+          "hip_conf": [
+            0.9987109899520874,
+            0.9909336566925049
+          ],
+          "visible_points": 15,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_003807",
+    "taxonomy": "crawling_without_explicit_maintenance",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0136",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 157.41493980195503,
+          "shoulder_hip_dy": 0.2369578830377537,
+          "y_band_ratio": 0.7792580525314579,
+          "kp_mean_conf": 0.8501351594924926,
+          "visible": 15,
+          "bbox_ar": 1.3226324144539376,
+          "shoulder_conf": [
+            0.8973997235298157,
+            0.9946972131729126
+          ],
+          "hip_conf": [
+            0.9885731935501099,
+            0.9974695444107056
+          ],
+          "visible_points": 15,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_003809",
+    "taxonomy": "crawling_without_explicit_maintenance",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0138",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 179.10765416357663,
+          "shoulder_hip_dy": 0.012085537279110771,
+          "y_band_ratio": 0.563202056576369,
+          "kp_mean_conf": 0.843131277958552,
+          "visible": 15,
+          "bbox_ar": 2.2286771635309446,
+          "shoulder_conf": [
+            0.8520985841751099,
+            0.9901436567306519
+          ],
+          "hip_conf": [
+            0.9801012277603149,
+            0.9947892427444458
+          ],
+          "visible_points": 15,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_003810",
+    "taxonomy": "crawling_without_explicit_maintenance",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0139",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 172.4046445102866,
+          "shoulder_hip_dy": 0.10455285407349936,
+          "y_band_ratio": 0.5806106642161853,
+          "kp_mean_conf": 0.9144323244690895,
+          "visible": 16,
+          "bbox_ar": 2.4740608333436733,
+          "shoulder_conf": [
+            0.9761595726013184,
+            0.9966328740119934
+          ],
+          "hip_conf": [
+            0.9940614104270935,
+            0.9978583455085754
+          ],
+          "visible_points": 16,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "V2_ORIGINAL::IMG_003811",
+    "taxonomy": "crawling_without_explicit_maintenance",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0140",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 0.04077536980957009,
+          "shoulder_hip_dy": 0.0005747496431685458,
+          "y_band_ratio": 0.5516648132124334,
+          "kp_mean_conf": 0.7557206114133199,
+          "visible": 15,
+          "bbox_ar": 2.0336044920270813,
+          "shoulder_conf": [
+            0.9824600219726562,
+            0.8240252137184143
+          ],
+          "hip_conf": [
+            0.9892009496688843,
+            0.9662662148475647
+          ],
+          "visible_points": 15,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "P4D_PLAN::PF_P4D_HN_PLANK_G001_V01",
+    "taxonomy": "pushup_plank",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0141",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 166.5162845872544,
+          "shoulder_hip_dy": 0.14942366427975912,
+          "y_band_ratio": 0.46106481593263093,
+          "kp_mean_conf": 0.8799314516432145,
+          "visible": 17,
+          "bbox_ar": 2.133788403964871,
+          "shoulder_conf": [
+            0.9958844780921936,
+            0.9990769624710083
+          ],
+          "hip_conf": [
+            0.9978443384170532,
+            0.9988732933998108
+          ],
+          "visible_points": 17,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "P4D_PLAN::PF_P4D_HN_PLANK_G001_V02",
+    "taxonomy": "pushup_plank",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0142",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 7.1891735879544845,
+          "shoulder_hip_dy": 0.07803676741189025,
+          "y_band_ratio": 0.2665663743195312,
+          "kp_mean_conf": 0.898399094119668,
+          "visible": 16,
+          "bbox_ar": 1.8808651347131555,
+          "shoulder_conf": [
+            0.9922019243240356,
+            0.9505109786987305
+          ],
+          "hip_conf": [
+            0.9956437349319458,
+            0.9882063269615173
+          ],
+          "visible_points": 16,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "P4D_PLAN::PF_P4D_HN_PLANK_G001_V03",
+    "taxonomy": "pushup_plank",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0143",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 4.7228367036860295,
+          "shoulder_hip_dy": 0.0691956766792653,
+          "y_band_ratio": 0.3272376784411795,
+          "kp_mean_conf": 0.812625523408254,
+          "visible": 15,
+          "bbox_ar": 2.4821552189604708,
+          "shoulder_conf": [
+            0.9905813932418823,
+            0.9212921261787415
+          ],
+          "hip_conf": [
+            0.9939013719558716,
+            0.9817087650299072
+          ],
+          "visible_points": 15,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "P4D_PLAN::PF_P4D_HN_PLANK_G001_V04",
+    "taxonomy": "pushup_plank",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0144",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 15.442219903534918,
+          "shoulder_hip_dy": 0.1988247948525007,
+          "y_band_ratio": 0.2739685666526918,
+          "kp_mean_conf": 0.9237130060791969,
+          "visible": 16,
+          "bbox_ar": 2.0220344959326977,
+          "shoulder_conf": [
+            0.9953557252883911,
+            0.9527894854545593
+          ],
+          "hip_conf": [
+            0.9964082837104797,
+            0.9884935021400452
+          ],
+          "visible_points": 16,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "P4D_PLAN::PF_P4D_HN_PLANK_G001_V05",
+    "taxonomy": "pushup_plank",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0145",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 179.77132353428138,
+          "shoulder_hip_dy": 0.0026629789072046364,
+          "y_band_ratio": 0.46319548459680204,
+          "kp_mean_conf": 0.8526786975562572,
+          "visible": 16,
+          "bbox_ar": 2.1565639854795746,
+          "shoulder_conf": [
+            0.9393136501312256,
+            0.996444046497345
+          ],
+          "hip_conf": [
+            0.9834268093109131,
+            0.9961877465248108
+          ],
+          "visible_points": 16,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "P4D_PLAN::PF_P4D_HN_PLANK_G002_V01",
+    "taxonomy": "pushup_plank",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0146",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 13.946082496906769,
+          "shoulder_hip_dy": 0.1300056260474788,
+          "y_band_ratio": 0.4657014800797544,
+          "kp_mean_conf": 0.8714656718075275,
+          "visible": 16,
+          "bbox_ar": 1.9907493306479962,
+          "shoulder_conf": [
+            0.9986820816993713,
+            0.9475018382072449
+          ],
+          "hip_conf": [
+            0.9986029267311096,
+            0.9900296330451965
+          ],
+          "visible_points": 16,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "P4D_PLAN::PF_P4D_HN_CRAWL_G001_V01",
+    "taxonomy": "crawling_quadruped_support",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0147",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 174.10292163610922,
+          "shoulder_hip_dy": 0.06609592419684604,
+          "y_band_ratio": 0.5912946442885905,
+          "kp_mean_conf": 0.8179067611694336,
+          "visible": 15,
+          "bbox_ar": 1.735134689051825,
+          "shoulder_conf": [
+            0.9338406324386597,
+            0.9973973035812378
+          ],
+          "hip_conf": [
+            0.9876314997673035,
+            0.9974160194396973
+          ],
+          "visible_points": 15,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "P4D_PLAN::PF_P4D_HN_CRAWL_G001_V03",
+    "taxonomy": "crawling_quadruped_support",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0149",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 4.007445710454675,
+          "shoulder_hip_dy": 0.027822199441343072,
+          "y_band_ratio": 0.5262438564918097,
+          "kp_mean_conf": 0.9434684038162231,
+          "visible": 15,
+          "bbox_ar": 1.4676877712387828,
+          "shoulder_conf": [
+            0.9956836700439453,
+            0.9752674698829651
+          ],
+          "hip_conf": [
+            0.9987584352493286,
+            0.9970506429672241
+          ],
+          "visible_points": 15,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  },
+  {
+    "item_id": "P4D_PLAN::PF_P4D_HN_CRAWL_G001_V05",
+    "taxonomy": "crawling_quadruped_support",
+    "request_id": "V6_TARGET_SUPPORT_PILOT_0151",
+    "persons": [
+      {
+        "person_idx": "0",
+        "features": {
+          "torso_angle": 174.797865182592,
+          "shoulder_hip_dy": 0.052382237816422046,
+          "y_band_ratio": 0.478192121081702,
+          "kp_mean_conf": 0.9023840059252346,
+          "visible": 17,
+          "bbox_ar": 1.9801193289861097,
+          "shoulder_conf": [
+            0.9900107979774475,
+            0.9989994168281555
+          ],
+          "hip_conf": [
+            0.9976275563240051,
+            0.9991601705551147
+          ],
+          "visible_points": 17,
+          "upright_rule": "dy>=0.12 (torso angle branch not required in A0)"
+        }
+      }
+    ]
+  }
+]

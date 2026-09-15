@@ -264,3 +264,9 @@ V6-A0 语义候选:
 生产仓库:
 /home/yanbo/net_vlm_yanboversion/vlm
 ```
+
+## V7-A1 Stage 2 重标定结果（2026-09-15）
+- FINAL_STATUS: `STAGE2_A1_GEOMETRY_FAIL`
+- A1 diagnosis found 48 missed ground-lying images, 36/41 auxiliary GEOM_LYING images, and no feasible tested threshold tuple satisfying revised G1 and G3 simultaneously.
+- VLM requests: `0`; thresholds not frozen; no Stage 3+ execution.
+- Next action: close V7-A1 candidate.
