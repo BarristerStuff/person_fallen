@@ -1,18 +1,12 @@
 {
-  "candidate": "V7-B0R1-STRICT-MATCH-FALLBACK",
-  "workspace_generation": "CLEAN_R1",
-  "final_status": "B0R1_TEST_FAIL",
-  "workspace_provenance": "PASS",
-  "geometry_binding": "PASS",
-  "association_diagnostic_inventory": {
-    "multi_candidates": 5,
-    "multi_valid": 1,
-    "screen0066_candidates": 1,
-    "screen0066_measurable": true
-  },
-  "multi_person_association_preflight": "PASS",
-  "PFV4_SCREEN_0066_offline_association": "PASS",
-  "b0_offline_replay": {
+  "FINAL_STATUS": "BLOCKED_B0R1_SOURCE_ASSET_MISSING",
+  "POLICY_CONTRACT_FIXED": true,
+  "FORMAL_REQUESTS_BEFORE_POLICY_FIX": 0,
+  "WORKSPACE_PROVENANCE": "PASS",
+  "GEOMETRY_BINDING": "PASS",
+  "MULTI_PERSON_ASSOCIATION_PREFLIGHT": "PASS",
+  "PFV4_SCREEN_0066_OFFLINE_ASSOCIATION": "PASS",
+  "B0_OFFLINE_REPLAY": {
     "rows": 48,
     "floor_NO_ALERT": 48,
     "floor_RECHECK": 0,
@@ -20,35 +14,28 @@
     "floor_ATTENTION": 0,
     "gate": "PASS"
   },
-  "strict_schema_pass": true,
-  "tests": {
-    "gate": "FAIL",
-    "failed_case": "unmatched floor_sitting => NO_EFFECT",
-    "actual": "RECHECK_VISUAL_UNCERTAIN",
-    "expected": "NO_EFFECT",
-    "policy_file_modified": false,
-    "stop_reason": "policy change forbidden by task"
+  "STRICT_SCHEMA_PASS": true,
+  "TESTS": "PASS",
+  "FAKE_E2E": "PASS",
+  "CROP_QA": "PASS",
+  "FREEZE_SHA": "b4591557c0ce7b1580fe1f5500ee636318a18d72fec88c2def9df2a4c8ebca44",
+  "PILOT": {
+    "rows": 0,
+    "P1_requests": 0,
+    "P2_requests": 0,
+    "gate": "NOT_RUN_BLOCKED_SOURCE_ASSET_MISSING"
   },
-  "fake_e2e": "PASS",
-  "crop_qa": {
-    "planned": 319,
-    "valid": 319,
-    "invalid": 0,
-    "revalidation": "PASS"
+  "REGRESSION": {
+    "PFV4_SCREEN_0066": "NOT_RUN",
+    "gate": "NOT_RUN"
   },
-  "freeze_sha": "NOT_CREATED",
-  "formal_requests": 0,
-  "pilot": "NOT_RUN",
-  "regression": "NOT_RUN",
-  "full_dev": "NOT_RUN",
-  "val_requests": 0,
-  "holdout_requests": 0,
-  "current_development_winner": "NONE",
-  "ready_for_final_holdout_protocol_review": false,
-  "ready_for_final_holdout": false,
-  "holdout_consumed": false,
-  "limitations": [
-    "Historical V6 multi-person structured output is diagnostic-only and not reused as formal B0R1 evaluation output.",
-    "Freeze and model execution were prohibited after the required policy-contract test failed."
-  ]
+  "FULL_DEV": {
+    "status": "NOT_RUN",
+    "gate": "NOT_RUN"
+  },
+  "TOTAL_B0R1_NEW_REQUESTS": 0,
+  "CURRENT_DEVELOPMENT_WINNER": "NONE",
+  "READY_FOR_FINAL_HOLDOUT_PROTOCOL_REVIEW": false,
+  "READY_FOR_FINAL_HOLDOUT": false,
+  "HOLDOUT_CONSUMED": false
 }

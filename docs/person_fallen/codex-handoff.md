@@ -232,3 +232,16 @@ HOLDOUT_CONSUMED=false
 - pre-freeze rerun: workspace provenance PASS; geometry binding PASS; multi-person association PASS; PFV4_SCREEN_0066 offline association PASS; B0 48-row replay PASS with floor ALERT=0 and ATTENTION=0; strict schema PASS; full tests PASS; fake E2E PASS; crop QA PASS
 - candidate freeze created only after all checks and while formal Ollama request count remained `0`
 - freeze SHA-256: `b4591557c0ce7b1580fe1f5500ee636318a18d72fec88c2def9df2a4c8ebca44`
+
+## 2026-09-16 V7-B0R1 formal execution blocked before first request
+
+- status: `BLOCKED_B0R1_SOURCE_ASSET_MISSING`
+- this is not a model-metric failure
+- freeze SHA-256: `b4591557c0ce7b1580fe1f5500ee636318a18d72fec88c2def9df2a4c8ebca44`
+- Ollama endpoint/model/digest preflight: `PASS`
+- Pilot completed rows: `0`
+- B0R1 formal Ollama requests: `0`
+- source binding failed before the first request because 380/437 unique manifest `image_path` assets are absent; exact-sha historical candidates were found for 70, while 310 remain unresolved
+- frozen runner, manifests, association matcher, prompts, schemas, geometry, GT and crop preprocessing were not modified
+- no symlink/copy/reconstruction, resend, retry, Regression, Full DEV, VAL, or Holdout execution occurred
+- required next action: restore all missing source assets at their frozen paths with exact manifest SHA-256, then obtain explicit resume authorization because the current clean-execution runner created the Pilot phase directory during the failed pre-request attempt

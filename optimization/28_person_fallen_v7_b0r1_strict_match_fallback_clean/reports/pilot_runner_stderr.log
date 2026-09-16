@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/yanbo/net_vlm_person_fallen_v2_optimization/28_person_fallen_v7_b0r1_strict_match_fallback_clean/tools/run_v7_b0r1.py", line 173, in <module>
+    print(json.dumps(run(phase,D/'manifests'/names[phase]),ensure_ascii=False))
+  File "/home/yanbo/net_vlm_person_fallen_v2_optimization/28_person_fallen_v7_b0r1_strict_match_fallback_clean/tools/run_v7_b0r1.py", line 127, in run
+    if hfile(row['image_path'])!=row['image_sha256']: raise RuntimeError('SOURCE_SHA_MISMATCH_'+row['item_id'])
+  File "/home/yanbo/net_vlm_person_fallen_v2_optimization/28_person_fallen_v7_b0r1_strict_match_fallback_clean/tools/run_v7_b0r1.py", line 17, in hfile
+    def hfile(p): return hbytes(Path(p).read_bytes())
+  File "/usr/lib/python3.10/pathlib.py", line 1126, in read_bytes
+    with self.open(mode='rb') as f:
+  File "/usr/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileNotFoundError: [Errno 2] No such file or directory: '/home/yanbo/下载/batches/batch-person-fallen-v2-p4d-hardneg-fullregen-r2-camera1p5m/final/PF_P4D_HN_SIT_G001_V01.png'
