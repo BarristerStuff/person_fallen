@@ -1,0 +1,45 @@
+{
+  "candidate": "V7-B0R1C-CROP-COMPLETE-RECOVERY",
+  "final_status": "V7_B0R1C_PILOT_FAIL",
+  "failure_type": "BUSINESS_GATE_FAILURE",
+  "reason": "floor ATTENTION > 0",
+  "model_metric_failure": true,
+  "freeze_sha256": "f19f1aa04cdabbca4d971e03957f9ec3d507159bdd5a575b0793936cec1bd991",
+  "pilot": {
+    "total_rows_completed": 5,
+    "inherited_rows": 4,
+    "new_completed_rows": 1,
+    "new_requests_claimed": 2,
+    "new_requests_completed": 2,
+    "route_counts": {
+      "P1_primary": 0,
+      "P1_background": 1,
+      "P2_scene": 1
+    },
+    "floor": {
+      "NO_ALERT_NORMAL_POSE": 4,
+      "ATTENTION_NEAR_GROUND": 1
+    },
+    "ground": {},
+    "pushup_plank": {},
+    "crawling": {},
+    "multi": {},
+    "strict_json": "2/2 new; inherited 4/4",
+    "source_binding": "2/2 new; inherited 4/4",
+    "crop_binding": "1/1",
+    "gate": "FAIL"
+  },
+  "regression": {
+    "status": "NOT_RUN_PILOT_GATE_FAIL"
+  },
+  "full_dev": {
+    "status": "NOT_RUN_PILOT_GATE_FAIL"
+  },
+  "total_parent_requests": 4,
+  "total_b0r1c_new_requests": 2,
+  "current_development_winner": "NONE",
+  "ready_for_final_holdout_protocol_review": false,
+  "ready_for_final_holdout": false,
+  "holdout_consumed": false,
+  "next_action": "Close current route; no B0R1D/V8 or Holdout."
+}

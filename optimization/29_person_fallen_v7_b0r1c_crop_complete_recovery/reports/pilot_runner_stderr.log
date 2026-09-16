@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/yanbo/net_vlm_person_fallen_v2_optimization/29_person_fallen_v7_b0r1c_crop_complete_recovery/tools/run_v7_b0r1c.py", line 214, in <module>
+    print(json.dumps(run(phase,D/'manifests'/names[phase]),ensure_ascii=False))
+  File "/home/yanbo/net_vlm_person_fallen_v2_optimization/29_person_fallen_v7_b0r1c_crop_complete_recovery/tools/run_v7_b0r1c.py", line 206, in run
+    summary={'phase':phase,'status':'EARLY_STOP','reason':why,'rows':len(results),'inherited_rows':inherited_count,'new_rows':len(results)-inherited_count,'route_counts':counts,'results':results};(root/'summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n');raise RuntimeError('PILOT_EARLY_STOP_'+why)
+RuntimeError: PILOT_EARLY_STOP_FLOOR_IRREVERSIBLE_FP
