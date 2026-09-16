@@ -1,0 +1,56 @@
+{
+  "candidate": "V7-B0-HARD-VETO-CROSSVIEW",
+  "created": "2026-09-16",
+  "freeze_timing": "BEFORE_FIRST_MODEL_REQUEST",
+  "semantic_contract": "V7-B0 direct/aux/prone-crossview contract",
+  "geometry_thresholds": {
+    "tau_ang": 45,
+    "tau_dy": 0.3,
+    "tau_kp": 0.5
+  },
+  "files": {
+    "geometry/thresholds.json": "650b824b6ad760ec6d9568e0b80fc52d466be6d6d8583c615e367bee19bb389f",
+    "geometry/person_geometry.csv": "34a896aae9bec05947ec0dee5764c36c0c385971753763b09b27b96691426bb5",
+    "prompt/v7_b0_p1.txt": "63879663669e47a87836b4870b3e6bb6a8f988a88bfac0ae6e8fafbd26ff1375",
+    "prompt/v7_b0_p2.txt": "dcdd2f24017d5e4ba69fefe02a27b348fbc2a735c93ce8a6598cdbd888ff592e",
+    "schema/v7_person_attributes.json": "c670391d626f619b4292a06c2fcfd9e4ea1efcd7108822a1ca12a8a95b255011",
+    "schema/v7_scene_attributes.json": "f19c415e67601c897860e5c1a5c71c5669105f8b24d07eff35f23fd4208005cd",
+    "policy/v7_b0_policy.py": "fddafebe2ef8e0842e2e7a2e6f03a74f63a4d21d541ebf97bdc46774567ee3fd",
+    "tools/geometry_binding.py": "aadba41b8053aa34701180e29a1fbdc4b3a66887ecc7414fa8868fb663f9ed85",
+    "tools/fake_e2e.py": "60efc23183505072560926dfaab64e12b92382191f6ad24512fd2cb234100cb9",
+    "manifests/pilot156.csv": "21044b03610352bae37413fa6a89a96a9f983509d17feaa8a6556e8f95abaf31",
+    "manifests/regression1.csv": "bbdf1a50c415d0ee8b5dafbc0c5b916166e77e61af1fb067405880c9da4eed56",
+    "manifests/full_combined436.csv": "4ea8fe6e220bc781f1644e33967dcca7e09e30c7810d2bda37c1c39bc8ef7576",
+    "tools/run_v7_b0.py": "eb9abb71632264b247631988934ceed5c6f310f111525d104dde3feea532ad78",
+    "reports/crop_qa.json": "f86a2543500f869612ed12fd6920d5bf3184e22af02a7e987d4c109a8072827e",
+    "manifests/full_remaining.csv": "5da420a20bb326ccb70cfe0cf15c86e577aa4923c47ec615a97eb01d7c1016fe"
+  },
+  "model": {
+    "endpoint": "http://192.168.20.62:11434",
+    "name": "qwen3.5:4b",
+    "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+    "think": false,
+    "stream": false,
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 512,
+    "concurrency": 1,
+    "automatic_retry": false
+  },
+  "crop": {
+    "expand": 0.4,
+    "size": [
+      448,
+      448
+    ],
+    "jpeg_quality": 70
+  },
+  "budget": {
+    "pilot": 156,
+    "regression": 1,
+    "full_dev": 436,
+    "val": 0,
+    "holdout": 0
+  },
+  "gates": "fixed V7-B0 execution specification"
+}
