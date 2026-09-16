@@ -270,3 +270,11 @@ V6-A0 语义候选:
 - A1 diagnosis found 48 missed ground-lying images, 36/41 auxiliary GEOM_LYING images, and no feasible tested threshold tuple satisfying revised G1 and G3 simultaneously.
 - VLM requests: `0`; thresholds not frozen; no Stage 3+ execution.
 - Next action: close V7-A1 candidate.
+
+## V7-A3-R1 recovery result (2026-09-16)
+- A3 interrupted artifacts pushed and verified on `v7-a0-geometry-verifier` at `f016d613c46291967365a2b01458c90c29f15e40`.
+- Zero-request provenance audit classified historical 110 records as `REUSE_LEVEL=C`; no recovery freeze and no formal row reuse.
+- Partial semantic replay found irreversible failures: floor_sitting ALERT `7`, pushup/plank ALERT `1`, crawling ALERT `1`.
+- `FINAL_STATUS=V7_A3_PILOT_ALREADY_IRREVERSIBLY_FAILED`; new Ollama requests `0`; Regression and Full DEV not run.
+- Reports: `optimization/25_person_fallen_v7_a0_geometry_verifier/reports/a3_recovery/`.
+- Next action: close V7-A3 candidate.

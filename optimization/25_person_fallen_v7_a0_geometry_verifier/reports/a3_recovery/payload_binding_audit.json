@@ -1,0 +1,23 @@
+{
+  "audit": {
+    "execution": "V7-A3-R1",
+    "audit_time": "2026-09-16",
+    "model_requests_this_recovery": 0,
+    "val_requests": 0,
+    "holdout_requests": 0
+  },
+  "records_expected": 111,
+  "records_observed": 110,
+  "completed_observed": 110,
+  "unknown_observed": 0,
+  "verified": 0,
+  "reuse_level": "C",
+  "reason": [
+    "request records lack claimed/received/completed timestamps",
+    "no source image/crop SHA binding",
+    "no raw response inventory/path or raw bytes in execution directory",
+    "no model digest/options/request-time semantic/policy/runner binding",
+    "unknown record not present"
+  ],
+  "decision": "historical outputs exploratory only; no recovery reuse freeze"
+}

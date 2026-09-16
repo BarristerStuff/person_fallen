@@ -1,0 +1,19 @@
+{
+  "candidate":"V7-A0-GEOMETRY-VERIFIER",
+  "execution":"V7-A3-R1",
+  "final_status":"V7_A3_PILOT_ALREADY_IRREVERSIBLY_FAILED",
+  "remote_branch":"v7-a0-geometry-verifier",
+  "interrupted_commit":"f016d613c46291967365a2b01458c90c29f15e40",
+  "push_verified":true,
+  "reuse_level":"C",
+  "payload_binding":{"verified":0,"expected":111,"status":"FAIL"},
+  "routing_audit":{"status":"INCOMPLETE_AND_RUNNER_TERMINAL_STATE_UNTRUSTED","p1_background":0,"p2_scene":0,"output_image_rows":148},
+  "partial_semantic":{"observed_output_rows":148,"floor_sitting_alert":7,"pushup_plank_alert":1,"crawling_alert":1},
+  "pilot":{"status":"STOPPED_BEFORE_RECOVERY","completed_rows":0,"new_requests":0},
+  "regression":"NOT_RUN",
+  "full_dev":"NOT_RUN",
+  "val_requests":0,
+  "holdout_requests":0,
+  "next_action":"CLOSE_V7_A3_CANDIDATE",
+  "limitations":["110 historical request records lack durable provenance required for formal reuse","partial semantic replay found irreversible frozen-policy failures","no new Ollama requests were sent in this recovery"]
+}

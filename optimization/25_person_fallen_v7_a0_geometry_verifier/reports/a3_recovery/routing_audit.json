@@ -1,0 +1,22 @@
+{
+  "audit": {
+    "execution": "V7-A3-R1",
+    "audit_time": "2026-09-16",
+    "model_requests_this_recovery": 0,
+    "val_requests": 0,
+    "holdout_requests": 0
+  },
+  "pilot_rows": 156,
+  "expected_p1_primary": 109,
+  "expected_p1_background": 15,
+  "background_non_upright_persons": 15,
+  "conditional_p2_candidates": "156 images after P1, subject to no P1 ALERT",
+  "observed_requests": 110,
+  "observed_route_counts": {
+    "P1_background": 14,
+    "P1_primary": 96
+  },
+  "observed_output_image_rows": 148,
+  "conclusion": "INCOMPLETE_AND_RUNNER_TERMINAL_STATE_UNTRUSTED",
+  "explanation": "P1_background=0 is supported by observed geometry if expected count is zero; 148 output rows are intermediate per-image records, not proof of terminal completion; P2=0 is not a completed routing audit and cannot be resumed from this provenance"
+}
