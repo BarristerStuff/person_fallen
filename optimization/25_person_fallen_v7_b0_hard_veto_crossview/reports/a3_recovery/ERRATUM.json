@@ -1,0 +1,10 @@
+{
+  "date":"2026-09-16",
+  "A3_EXECUTION_STATUS":"INVALID_FOR_FORMAL_METRICS",
+  "A3_OUTPUT_SOURCE_CONTAMINATION":true,
+  "A3_MODEL_FAILURE_CONCLUSION_WITHDRAWN":true,
+  "A3_HISTORICAL_ARTIFACTS_PRESERVED":true,
+  "reason":"The prior partial_semantic_audit used eval/a3_pilot/output.jsonl, whose V6_TARGET_SUPPORT_PILOT request IDs are historical V6 image outputs; it did not use the A3 request ledger records with A3_pilot route IDs.",
+  "correct_source":"25_person_fallen_v7_a0_geometry_verifier/eval/a3_pilot/requests.jsonl",
+  "formal_recovery_consequence":"A3 is invalid for formal metrics; no V7-B0 result is inferred from the withdrawn conclusion. Historical artifacts remain unchanged."
+}

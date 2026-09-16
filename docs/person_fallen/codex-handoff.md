@@ -278,3 +278,8 @@ V6-A0 语义候选:
 - `FINAL_STATUS=V7_A3_PILOT_ALREADY_IRREVERSIBLY_FAILED`; new Ollama requests `0`; Regression and Full DEV not run.
 - Reports: `optimization/25_person_fallen_v7_a0_geometry_verifier/reports/a3_recovery/`.
 - Next action: close V7-A3 candidate.
+
+## V7-A3 erratum / V7-B0 start (2026-09-16)
+- A3 `partial_semantic_audit` was invalid for formal metrics because it consumed historical V6 image output (`V6_TARGET_SUPPORT_PILOT_*`) rather than A3 request-ledger records (`A3_pilot_*`).
+- `A3_EXECUTION_STATUS=INVALID_FOR_FORMAL_METRICS`; `A3_OUTPUT_SOURCE_CONTAMINATION=true`; `A3_MODEL_FAILURE_CONCLUSION_WITHDRAWN=true`; historical artifacts preserved.
+- V7-B0 `HARD-VETO-CROSSVIEW` opened from A3 remote head for a clean, pre-request implementation and freeze.
