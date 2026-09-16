@@ -1,0 +1,16 @@
+{
+  "candidate":"V7-B0R1-STRICT-MATCH-FALLBACK",
+  "workspace_generation":"CLEAN_R1",
+  "final_status":"B0R1_ASSOCIATION_PREFLIGHT_FAIL",
+  "formal_requests":0,
+  "formal_freeze":"NOT_CREATED",
+  "geometry_binding":"PASS",
+  "association_preflight":"FAIL",
+  "b0_offline_replay":{"rows":48,"floor_NO_ALERT":48,"floor_RECHECK":0,"floor_ALERT":0,"floor_ATTENTION":0,"gate":"PASS"},
+  "strict_schema_pass":true,
+  "tests":"PARTIAL_PASS_BEFORE_REQUIRED_PREFLIGHT_STOP",
+  "fake_e2e":"NOT_RUN",
+  "crop_qa":{"planned":319,"valid":319,"invalid":0},
+  "pilot":"NOT_RUN","regression":"NOT_RUN","full_dev":"NOT_RUN",
+  "holdout_consumed":false
+}

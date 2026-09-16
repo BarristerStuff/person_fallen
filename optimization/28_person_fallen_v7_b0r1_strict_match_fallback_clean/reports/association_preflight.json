@@ -1,0 +1,11 @@
+{
+  "candidate":"V7-B0R1-STRICT-MATCH-FALLBACK",
+  "status":"FAIL",
+  "model_requests":0,
+  "historical_b0_parsed_rows":48,
+  "historical_b0_taxonomy_observed":{"floor_sitting":48},
+  "floor_sitting":{"rows":48,"new_match_unmatched":0,"known_geom_upright_preserved":true},
+  "multi_person_one_lying":{"required":true,"available_in_b0_48_rows":false,"verified":false},
+  "PFV4_SCREEN_0066":{"required":true,"available_in_b0_48_rows":false,"verified":false},
+  "failure_reason":"The available B0 parsed 48-row diagnostic contains only floor_sitting rows. It proves floor bbox-drift matching but cannot prove the required multi-person missed-lying and PFV4_SCREEN_0066 association behavior without fabricating evidence or issuing requests."
+}

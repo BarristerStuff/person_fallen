@@ -2,7 +2,7 @@
 
 > 单事件文档。当前事件：园区巡逻人员倒地检测。本文只记录 `person_fallen`，不代表真实摄像头、机器人或生产准确率。
 >
-> 最后更新：2026-09-15（Asia/Shanghai）
+> 最后更新：2026-09-16（Asia/Shanghai）
 
 ## 1. 当前终态速查
 
@@ -10,8 +10,10 @@
 CURRENT_EVENT=person_fallen
 CURRENT_WINNER=NONE
 CURRENT_WINNER_STAGE=N/A
-CURRENT_STAGE=V6-A0_PILOT_FAIL
-FINAL_STATUS=V6_A0_PILOT_FAIL
+NEXT_CANDIDATE=V7-B0R1-STRICT-MATCH-FALLBACK
+NEXT_CANDIDATE_STATUS=PLANNED_NOT_RUN
+CURRENT_STAGE=V7-B0_CLOSED_PROTOCOL_AND_FUSION_DEFECT
+FINAL_STATUS=V7_B0_STATUS_CLOSED_PROTOCOL_AND_FUSION_DEFECT
 PRODUCTION_INTEGRATION_READY=false
 CODE_COMMITTED=false
 HOLDOUT_CONSUMED=false
@@ -20,23 +22,23 @@ VIDEO_VALIDATED=false
 ROBOT_REOBSERVATION_VALIDATED=false
 ```
 
-V6-A0 已经真实执行了 Pilot 156 条请求，但 Pilot 门禁失败。按协议没有运行已知错误回归、Full DEV、VAL、Holdout、生产集成或 Git 提交。当前不能把 V5-B0 或 V6-A0 称为 Winner，也不能据此提交为生产可用检测器。
+V7-B0 原冻结候选已关闭。58 requests、57 parsed completed 以及 `V7_B0_pilot_0049_P2_scene` 的严格 JSON 失败均属于原 `V7-B0-HARD-VETO-CROSSVIEW`，不是 V7-B0R1。原 B0 partial output 已出现 `floor_sitting` 的 `ATTENTION_NEAR_GROUND > 0`，因此即使修复 JSON，也不能继续作为原冻结候选验收。`V7-B0R1-STRICT-MATCH-FALLBACK` 仅为下一 successor 方案，尚未执行；其 Pilot、Known Regression、Full DEV、VAL、Holdout 和生产集成均未运行。
 
 ## 2. 业务定义
 
-这是园区巡逻事件，不是“观察站立到摔倒过程”的动作识别。目标是在巡逻单帧或短时复观察中识别已经明显由道路、地面、车间地坪等非休息地面承托的人。
+这是园区巡逻事件，不是观察“站立到摔倒过程”的动作识别。目标是在巡逻单帧或短时复观察中发现已经明显由道路、地面、车间地坪等非休息地面承托的人。
 
-高优先级倒地：
+高优先级倒地应以人物属性和支撑关系共同确定：
 
 ```text
-supine / side_lying / prone / curled_lying / other_near_ground
+supine / side_lying / prone / curled_lying
 + support_surface=floor
 + torso_orientation=horizontal
 + torso_ground_contact=broad
 + body_support_configuration=torso_ground_supported
 ```
 
-正常或非高优先级：
+正常或非高优先级包括：
 
 ```text
 floor_sitting、kneeling、squat、bending、standing、walking
@@ -44,242 +46,143 @@ bed/sofa/chair resting
 明确由手、前臂、膝、脚主动支撑的 push-up、plank、crawling
 ```
 
-`push-up/plank/crawling` 不应为了通过评测而改成倒地正样本；它们可以是 `ATTENTION_NEAR_GROUND`，但不能直接成为 `ALERT_GROUND_LYING`。蜷缩只有在躯干确实由地面大面积承托时才是倒地。
+不得为了通过评测而把 crawling、push-up/plank 或其他主动支撑姿态改成倒地正类。蜷缩只有在躯干确实由地面大面积承托时才是倒地。
 
-## 3. 当前最新 V6-A0 结果
+## 3. V7-B0 历史终态
 
-候选：
+基线仓库与提交：
 
 ```text
-CANDIDATE=V6-A0-TARGET-SUPPORT-CONFIG
-EXECUTION_DIR=/home/yanbo/net_vlm_person_fallen_v2_optimization/24_person_fallen_v6_a0_direct_evaluation
-FREEZE_SHA256=aef2926c3b0b9232ab91bb1d9b2375a594fec991e7dd8216649cc14435ecac89
+repository=https://github.com/BarristerStuff/person_fallen.git
+baseline_branch=v7-b0-hard-veto-crossview
+baseline_commit=c0f39998474dd17586481bdacb289d1823af1940
+V7_B0_STATUS=CLOSED_PROTOCOL_AND_FUSION_DEFECT
+STRICT_JSON_FAILURE=true
+PARTIAL_SEMANTIC_GATE_ALREADY_FAILED=true
 ```
 
-语义变化是增加人物级 `body_support_configuration`，用于区分躯干贴地和手、前臂、膝、脚支撑。V6 语义文件来自并保持不变：
+关闭原因：一是 B0 Pilot 的 `V7_B0_pilot_0049_P2_scene` 返回 `done_reason=length`、`eval_count=512`，产生未闭合 JSON；二是已完成 floor-sitting 行出现 `ATTENTION_NEAR_GROUND`，违反 floor gate 的 `ATTENTION=0`。B0 的所有 artifact 只读保留，不得恢复或覆盖。
+
+## 4. V7-B0R1 successor 状态
 
 ```text
-/home/yanbo/net_vlm_person_fallen_v2_optimization/20_person_fallen_v6_target_support_config/prompt/target_support_attributes.txt
-/home/yanbo/net_vlm_person_fallen_v2_optimization/20_person_fallen_v6_target_support_config/schema/target_attributes.json
-/home/yanbo/net_vlm_person_fallen_v2_optimization/20_person_fallen_v6_target_support_config/policy/target_policy.py
-/home/yanbo/net_vlm_person_fallen_v2_optimization/20_person_fallen_v6_target_support_config/definition/person_fallen_v4_operational_definition.md
+V7_B0R1_STATUS=PLANNED_NOT_RUN
+B0R1_FREEZE=NOT_CREATED
+B0R1_OLLAMA_REQUESTS=0
+B0R1_PILOT=NOT_RUN
+B0R1_REGRESSION=NOT_RUN
+B0R1_FULL_DEV=NOT_RUN
 ```
 
-执行前：4 项离线测试、fake 437 请求控制流、freeze 只读校验和 Ollama preflight 均通过。Ollama 使用固定直连：
+原 handoff 曾将 B0 的 58 requests、57 parsed completed 和严格 JSON 失败错误归入 V7-B0R1；现已纠正为原 `V7-B0-HARD-VETO-CROSSVIEW`。不得将 B0 的 request、raw response、ledger、partial output 或报告改名、迁移或包装为 B0R1。B0R1 的后续计划仅为：
+
+1. strict schema 删除 evidence；
+2. P1/P2 使用严格 enum；
+3. 修正 P2↔detector association；
+4. P2 不允许产生 ATTENTION；
+5. 使用历史 B0 前 48 行做 zero-request replay；
+6. `floor-sitting ALERT=0 AND ATTENTION=0` 才允许创建 freeze；
+7. 然后才能执行 Clean Pilot 156。
+
+以上计划在本阶段未执行。
+
+## 5. B0 历史实现与缺陷记录
+
+V7-B0 曾实现并冻结以下方向，但未通过正式验收：
+
+- P1/P2 schema 删除 `evidence`，并设置 `additionalProperties=false` 与严格 enum；
+- P2 bbox 转换到 0–1000 坐标并进行一对一关联；
+- `GEOM_UPRIGHT` hard veto，P2 不得覆盖为 ALERT/RECHECK/ATTENTION；
+- P2 作为漏检人员 fallback，不再产生 `ATTENTION_NEAR_GROUND`；
+- prone 需要跨视图确认。
+
+这些是 V7-B0 的历史代码/设计事实，不是 B0R1 的执行结果，也不等同于模型效果验收。原 B0 Pilot 在 `V7_B0_pilot_0049_P2_scene` 发生 `done_reason=length`、`eval_count=512`、`num_predict=512` 的严格 JSON 失败；同时已完成的 floor-sitting partial output 出现 `ATTENTION_NEAR_GROUND > 0`，故 B0 状态为 `CLOSED_PROTOCOL_AND_FUSION_DEFECT`。
+
+## 6. 既往候选关键结论
+
+### V6-A0
 
 ```text
-OLLAMA_BASE_URL=http://192.168.20.62:11434
-MODEL=qwen3.5:4b
-MODEL_DIGEST=2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd
-OLLAMA_VERSION=0.23.2
-concurrency=1
-think=false
-stream=false
-temperature=0
-num_ctx=8192
-num_predict=768
-automatic_retry=false
-```
-
-实际 Pilot：
-
-```text
-rows=156
-requests_claimed=156
-requests_completed=156
-requests_unknown=0
-failure=0
+Pilot=156
 strict_json=156/156
 source_binding=156/156
+ground_lying ALERT=59/60，ALERT+RECHECK=60/60
+floor_sitting ALERT=5/55
+crawling ALERT=1/15
+multi_person_one_lying ALERT=4/5
+FINAL_STATUS=V6_A0_PILOT_FAIL
 ```
 
-业务结果：
+V6 的 `body_support_configuration` 没有形成可验收候选。V6 后续恢复阶段均不得被写成成功。
 
-```text
-ground_lying:       ALERT=59/60，ALERT+RECHECK=60/60
-floor_sitting:      ALERT=5/55，RECHECK=5/55，NO_ALERT=45/55
-pushup_plank:       ALERT=0/26
-crawling:           ALERT=1/15
-multi_person_one_lying: ALERT=4/5
-```
+### V5-B0
 
-门禁失败项：
-
-```text
-floor_sitting ALERT=5，要求=0
-crawling ALERT=1，要求=0
-multi_person_one_lying ALERT=4/5，要求=5/5
-```
-
-这是模型/语义表现失败，不是网络、JSON、请求账本或执行器失败。报告：
-
-```text
-/home/yanbo/net_vlm_person_fallen_v2_optimization/24_person_fallen_v6_a0_direct_evaluation/reports/final_report.json
-/home/yanbo/net_vlm_person_fallen_v2_optimization/24_person_fallen_v6_a0_direct_evaluation/reports/independent_audit.json
-```
-
-## 4. 历史候选与关键结论
-
-### V5-B0-TARGET-ATTRIBUTES
-
-完整 DEV 436 已形成，结果：
+完整 DEV 436 结果为：
 
 ```text
 ground_lying ALERT=145/145
 normal_negative ALERT=0/230，RECHECK=8/230
 floor_sitting ALERT=0/55，RECHECK=5/55
-auxiliary_attention ALERT=3/41
-  pushup/plank ALERT=2
-  crawling ALERT=1
-visual_uncertain ALERT=5/20（单独报告）
+auxiliary ALERT=3/41
 ```
 
-因此 V5-B0 因 auxiliary ALERT=3/41 被拒绝。报告：
-
-```text
-/home/yanbo/net_vlm_person_fallen_v2_optimization/23_person_fallen_v5_b0_remaining47_diagnostic/reports/final_report.json
-/home/yanbo/net_vlm_person_fallen_v2_optimization/23_person_fallen_v5_b0_remaining47_diagnostic/reports/independent_audit.json
-```
-
-### V5-A0 与 REV15
-
-V5-A0 的 scene-review 旁路造成正常负例过多 RECHECK，不能作为当前方案。REV15 虽然试图增加场景级 `any_person_ground_lying_on_nonrest_surface`，但完整 DEV 出现明显 ground recall 下降和负例误报，已关闭。不要复用旧报告中错误的分层或召回结论。
+因 auxiliary ALERT（其中 push-up/plank 和 crawling 有误报）被拒绝。
 
 ### V4-A0
 
-V4 的唯一 SCREEN 失败是 `PFV4_SCREEN_0066`：场景中有跪着的人和另一名躺地的人，旧结构化输出只保留跪着人物，最终 NO_ALERT。V4 的问题说明多人物枚举/聚合是重要风险，但它不是当前 Winner。
+唯一 SCREEN 失败 `PFV4_SCREEN_0066` 为多人物场景：一人跪着，另一人躺在地面；旧结构化输出只保留主要跪着人物，最终为 `NO_ALERT_NORMAL_POSE`。这证明多人物枚举、检测关联和场景聚合是系统风险，但不代表当前候选已修复。
 
-Regression item：
-
-```text
-operational_id=PFV4_SCREEN_0066
-item_id=P4D_PLAN::PF_P4D_POS_CURLED_G003_V05
-```
-
-V6-A0 Pilot 失败后，本次没有运行这个回归。
-
-### V6 执行恢复历史
-
-`20_*` 首次 freeze 因预算接口不一致而在请求前阻塞；`21_*` R1 因 fake 覆盖不足、Pilot 与 Full Remaining 聚合缺失、early-stop 未执行、阶段依赖可绕过等问题阻塞；`22_*` R2 又发现 freeze 没有直接绑定真实消费的 manifest，且 completion lock 未覆盖完整证据链。上述阶段真实模型请求均为 0，不得当作 V6 模型失败；真正的模型失败是 `24_*` 的 Pilot。
-
-## 5. 数据、验证和安全边界
+## 7. 数据、验证和安全边界
 
 ```text
 GT_TYPE=PROMPT_DERIVED_SYNTHETIC_GT
-HUMAN_SEMANTIC_REVIEW_REQUIRED_FOR_SYNTHETIC_DEVELOPMENT=false
 MODEL_PREDICTION_USED_AS_GT=false
 OBJECT_LOCALIZATION_ACCURACY=UNVERIFIED
-```
-
-历史 VAL=100 已被 P1R recovery 消费，存在 media/image SHA 重合，不能称为 pristine independent validation。当前不得运行旧 VAL 或读取其图像、预测、evidence。Holdout 状态仍为：
-
-```text
 HOLDOUT_CONSUMED=false
-HOLDOUT_REQUESTS=0
 ```
 
-不得访问 Holdout，不得修改 GT、taxonomy、生成提示词、历史 freeze、历史 raw response 或共享数据集。
+历史 VAL=100 已被 P1R recovery 消费，不能称为 pristine independent validation。不得运行旧 VAL 或读取其图像、预测、evidence；不得访问 Holdout；不得修改 GT、taxonomy、生成提示词、历史 freeze、历史 raw response 或共享数据集。
 
-所有模型请求必须直接访问 `http://192.168.20.62:11434`，禁止 SSH tunnel、`127.0.0.1:11444`、备用模型、CUDA 固定 GPU 或服务器配置修改。
-
-## 6. 当前判断与后续路线
-
-已确认 V6 的 `body_support_configuration` 对 push-up/plank 有局部收益（0/26 ALERT），但没有形成可验收候选：坐地新增 5 个误报，爬行仍有误报，多人物倒地仍漏 1/5。继续仅靠扩充单帧 Prompt/schema 字段的收益存疑。
-
-最合理的下一方向不是把辅助动作改成倒地正样本，而是架构路线：
+所有模型请求必须直接访问：
 
 ```text
-YOLO person localization
-→ pose/keypoint 或人体几何/支撑特征
-→ VLM 只复核遮挡、多人物、属性冲突样本
-→ 巡逻短时复观察确认
+http://192.168.20.62:11434
+MODEL=qwen3.5:4b
 ```
 
-建议生产决策逻辑：
+正式请求前需 GET `/api/tags` 确认模型存在并记录 `/api/version`、`/api/ps`。禁止 SSH tunnel、`127.0.0.1:11444`、备用模型、代理、固定 GPU、`CUDA_VISIBLE_DEVICES` 或修改服务器。
 
-```text
-明确躯干贴地且非主动支撑 → ALERT
-明确坐地/跪地/俯卧撑/爬行 → NO_ALERT 或 ATTENTION
-遮挡、多人物或属性冲突 → RECHECK
-短时连续观察仍满足倒地 → 升级 ALERT
-```
+## 8. 当前判断与下一步
 
-如果只是为了尽快提交代码，可以提交默认关闭的事件框架，但不能宣称检测通过：
+已确认事实：V7-B0 已消费 58 requests，其中 57 parsed completed；`V7_B0_pilot_0049_P2_scene` 发生严格 JSON 协议失败，且 partial floor-sitting output 已出现 `ATTENTION_NEAR_GROUND > 0`，因此 B0 关闭。V7-B0R1 当前仅为 successor 计划，未执行、未创建 freeze、请求数为 0。
 
-```text
-PERSON_FALLEN_ENABLED=false
-CURRENT_WINNER=NONE
-PRODUCTION_INTEGRATION_READY=false
-```
+合理推理：不能在同一已消费候选上修 runner 后续跑。若继续，必须先由新窗口完成只读取证，确认 `27_*` 中真实请求、freeze、ledger、raw 的归属，再建立新的、明确标记为 protocol-recovery 的候选；不得把它称为 V7-B0R1 已通过。任何 successor 都应先解决：严格 envelope 校验（`done=true` 且 `done_reason != length`）、真实全局一对一匹配、完整 zero-request association replay、完整 fake E2E、阶段白名单、不可绕过的 Pilot→Regression→Full 依赖和精确 request ledger。
 
-如果要继续研发，只允许在明确授权后建立新的、架构有实质变化的 V7 方案；不得自动创建 V6-A1、V7 Prompt 微调候选、放宽门禁、把 crawling/push-up/plank 改成倒地正类，或继续运行 V6 Full DEV。
-
-## 7. 生产 Git 边界
-
-生产仓库：
-
-```text
-/home/yanbo/net_vlm_yanboversion/vlm
-```
-
-当前 worktree 有用户/其他任务的未提交修改。禁止直接在该 worktree 提交，禁止 `git add .`、`git add -A`、`git commit -a`、reset、clean、restore 或覆盖既有修改。只有在获得明确授权且候选通过相应开发门禁后，才可从实际 HEAD 创建隔离 worktree，例如：
-
-```text
-/home/yanbo/net_vlm_person_fallen_v6_integration
-feature/person-fallen-v6
-```
-
-提交不等于真实验收；提交后仍需保持 `REAL_CAMERA_VALIDATED=false`、`ROBOT_REOBSERVATION_VALIDATED=false`，直到有独立现场证据。
-
-## 8. 当前禁止重复的工作
-
-```text
-不重跑 V6-A0 Pilot
-不运行 V6 Known Regression、Full Remaining、Full DEV、VAL、Holdout
-不修改 V6-A0 语义文件
-不把 V5/V6 失败改写为成功
-不把 synthetic DEV 当真实相机准确率
-不创建 V6-A1 或纯 Prompt 搜索候选
-不修改其他事件 handoff
-```
+风险：继续在 synthetic DEV 上优化可能不能代表真实园区摄像头；VLM 单帧路线对远距离、遮挡、多人和主动支撑姿态仍有结构性误报/漏检风险。提交代码不等于验收通过。若没有新的明确授权，保持 `CURRENT_WINNER=NONE`，不运行 V7 后续阶段，不访问 VAL/Holdout，不做生产集成。
 
 ## 9. 关键路径索引
 
 ```text
-事件 handoff:
-/home/yanbo/net_vlm_yanboversion/docs/person_fallen/codex-handoff.md
-
-优化根目录:
-/home/yanbo/net_vlm_person_fallen_v2_optimization
-
-V5-B0 完整诊断:
-/home/yanbo/net_vlm_person_fallen_v2_optimization/23_person_fallen_v5_b0_remaining47_diagnostic
-
-V6-A0 Pilot:
-/home/yanbo/net_vlm_person_fallen_v2_optimization/24_person_fallen_v6_a0_direct_evaluation
-
-V6-A0 语义候选:
-/home/yanbo/net_vlm_person_fallen_v2_optimization/20_person_fallen_v6_target_support_config
-
-生产仓库:
-/home/yanbo/net_vlm_yanboversion/vlm
+事件 handoff=/home/yanbo/net_vlm_yanboversion/docs/person_fallen/codex-handoff.md
+优化根=/home/yanbo/net_vlm_person_fallen_v2_optimization
+V7-B0=/home/yanbo/net_vlm_person_fallen_v2_optimization/26_person_fallen_v7_b0_hard_veto_crossview
+V7-B0R1=/home/yanbo/net_vlm_person_fallen_v2_optimization/27_person_fallen_v7_b0r1_strict_match_fallback
+V6-A0=/home/yanbo/net_vlm_person_fallen_v2_optimization/24_person_fallen_v6_a0_direct_evaluation
+生产仓库=/home/yanbo/net_vlm_yanboversion/vlm
 ```
 
-## V7-A1 Stage 2 重标定结果（2026-09-15）
-- FINAL_STATUS: `STAGE2_A1_GEOMETRY_FAIL`
-- A1 diagnosis found 48 missed ground-lying images, 36/41 auxiliary GEOM_LYING images, and no feasible tested threshold tuple satisfying revised G1 and G3 simultaneously.
-- VLM requests: `0`; thresholds not frozen; no Stage 3+ execution.
-- Next action: close V7-A1 candidate.
+生产仓库当前可能有其他未提交修改；不得直接在 dirty main 上提交，不得使用 `git add .`、`git add -A`、`git commit -a`、reset、clean、restore 或覆盖既有修改。只有候选通过相应开发门禁并获得明确授权后，才可创建隔离 worktree 做生产集成。当前代码未提交，生产集成未开始。
 
-## V7-A3-R1 recovery result (2026-09-16)
-- A3 interrupted artifacts pushed and verified on `v7-a0-geometry-verifier` at `f016d613c46291967365a2b01458c90c29f15e40`.
-- Zero-request provenance audit classified historical 110 records as `REUSE_LEVEL=C`; no recovery freeze and no formal row reuse.
-- Partial semantic replay found irreversible failures: floor_sitting ALERT `7`, pushup/plank ALERT `1`, crawling ALERT `1`.
-- `FINAL_STATUS=V7_A3_PILOT_ALREADY_IRREVERSIBLY_FAILED`; new Ollama requests `0`; Regression and Full DEV not run.
-- Reports: `optimization/25_person_fallen_v7_a0_geometry_verifier/reports/a3_recovery/`.
-- Next action: close V7-A3 candidate.
+## 10. V7-B0R1 CLEAN_R1 workspace correction（2026-09-16）
 
-## V7-A3 erratum / V7-B0 start (2026-09-16)
-- A3 `partial_semantic_audit` was invalid for formal metrics because it consumed historical V6 image output (`V6_TARGET_SUPPORT_PILOT_*`) rather than A3 request-ledger records (`A3_pilot_*`).
-- `A3_EXECUTION_STATUS=INVALID_FOR_FORMAL_METRICS`; `A3_OUTPUT_SOURCE_CONTAMINATION=true`; `A3_MODEL_FAILURE_CONCLUSION_WITHDRAWN=true`; historical artifacts preserved.
-- V7-B0 `HARD-VETO-CROSSVIEW` opened from A3 remote head for a clean, pre-request implementation and freeze.
+```text
+V7_B0R1_CONTAMINATED_WORKSPACE=ABANDONED
+V7_B0R1_CONTAMINATED_FORMAL_REQUESTS=0
+V7_B0R1_FORMAL_WORKSPACE=/home/yanbo/net_vlm_person_fallen_v2_optimization/28_person_fallen_v7_b0r1_strict_match_fallback_clean
+WORKSPACE_GENERATION=CLEAN_R1
+V7_B0R1_STATUS=ASSOCIATION_PREFLIGHT_FAIL
+B0R1_FREEZE=NOT_CREATED
+B0R1_OLLAMA_REQUESTS=0
+```
+
+污染的 `27_*` 工作区已原样保留并标记 `CONTAMINATED_DO_NOT_USE.md`，未作为正式 lineage 复用。Clean workspace 的 geometry binding 通过；B0 历史 48 行 floor-sitting zero-request replay 为 NO_ALERT=48、RECHECK=0、ALERT=0、ATTENTION=0。association preflight 因这 48 行仅含 floor-sitting，缺少 multi-person-one-lying 与 PFV4_SCREEN_0066 可验证 diagnostic，无法同时证明要求的匹配/漏检行为，故在 freeze 和首个模型请求前停止。

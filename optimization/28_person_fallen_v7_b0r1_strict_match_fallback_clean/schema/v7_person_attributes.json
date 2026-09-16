@@ -1,0 +1,13 @@
+{
+  "type":"object","additionalProperties":false,
+  "required":["pose","torso_orientation","torso_ground_contact","support_surface","body_support_configuration","explicit_work_evidence","visual_quality"],
+  "properties":{
+    "pose":{"type":"string","enum":["supine","side_lying","prone","curled_lying","other_near_ground","crawling","pushup_plank","floor_sitting","standing","walking","kneeling","squat","bending","unknown"]},
+    "torso_orientation":{"type":"string","enum":["horizontal","upright","unknown"]},
+    "torso_ground_contact":{"type":"string","enum":["broad","partial","none","unknown"]},
+    "support_surface":{"type":"string","enum":["floor","chair","bed","sofa","unknown"]},
+    "body_support_configuration":{"type":"string","enum":["torso_ground_supported","forearms_feet_supported","hands_feet_supported","hands_knees_supported","pelvis_supported","chair_or_bed_supported","mixed_or_occluded","unknown"]},
+    "explicit_work_evidence":{"type":"string","enum":["yes","no","unknown"]},
+    "visual_quality":{"type":"string","enum":["clear","insufficient"]}
+  }
+}
