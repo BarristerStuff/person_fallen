@@ -1,9 +1,10 @@
 {
   "candidate": "V7-B0-HARD-VETO-CROSSVIEW",
-  "freeze_sha256": "908819192ba6a534171650955693597db65b57a5b221d79f7ae0066e927c88c4",
+  "freeze_sha256": "72bb5f116e82ab7e5accab3ffa11ea4da9ee25a8f38887f88ce05bbc81be0f71",
   "tests": "PASS",
   "geometry_binding": "PASS",
   "crop_qa": "PASS",
   "fake_e2e": "PASS",
+  "supersedes": "01ecda84a9c10a886354aa94f74e71d14a62880a280374d828c477c387c2cece",
   "first_model_request_pending": true
 }

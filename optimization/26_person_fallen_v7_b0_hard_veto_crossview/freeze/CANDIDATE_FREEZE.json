@@ -14,7 +14,7 @@
     "prompt/v7_b0_p1.txt": "63879663669e47a87836b4870b3e6bb6a8f988a88bfac0ae6e8fafbd26ff1375",
     "prompt/v7_b0_p2.txt": "dcdd2f24017d5e4ba69fefe02a27b348fbc2a735c93ce8a6598cdbd888ff592e",
     "schema/v7_person_attributes.json": "c670391d626f619b4292a06c2fcfd9e4ea1efcd7108822a1ca12a8a95b255011",
-    "schema/v7_scene_attributes.json": "f19c415e67601c897860e5c1a5c71c5669105f8b24d07eff35f23fd4208005cd",
+    "schema/v7_scene_attributes.json": "23a8f8ba9e831b5e1d4f2999eb33ff91dabcac161b0218b9cebebb58bce4da99",
     "policy/v7_b0_policy.py": "fddafebe2ef8e0842e2e7a2e6f03a74f63a4d21d541ebf97bdc46774567ee3fd",
     "tools/geometry_binding.py": "aadba41b8053aa34701180e29a1fbdc4b3a66887ecc7414fa8868fb663f9ed85",
     "tools/fake_e2e.py": "60efc23183505072560926dfaab64e12b92382191f6ad24512fd2cb234100cb9",
@@ -52,5 +52,7 @@
     "val": 0,
     "holdout": 0
   },
-  "gates": "fixed V7-B0 execution specification"
+  "gates": "fixed V7-B0 execution specification",
+  "freeze_supersedes": "01ecda84a9c10a886354aa94f74e71d14a62880a280374d828c477c387c2cece",
+  "superseded_reason": "pre-request schema JSON syntax defect discovered by runner import; no model request, claim, raw, or unknown existed"
 }
