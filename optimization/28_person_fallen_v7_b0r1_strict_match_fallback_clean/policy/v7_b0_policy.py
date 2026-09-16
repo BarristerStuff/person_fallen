@@ -3,6 +3,10 @@ DIRECT_LYING={"supine","side_lying","curled_lying"}
 AMBIGUOUS_PRONE="prone"
 AUX_POSES={"crawling","pushup_plank"}
 AUX_SUPPORT={"forearms_feet_supported","hands_feet_supported","hands_knees_supported"}
+P2_NO_EFFECT_POSES={
+ "floor_sitting","crawling","pushup_plank","kneeling","squat",
+ "bending","standing","walking","other_near_ground",
+}
 def _five(x):
  return (x.get("support_surface")=="floor" and x.get("torso_orientation")=="horizontal" and x.get("torso_ground_contact")=="broad" and x.get("body_support_configuration")=="torso_ground_supported" and x.get("visual_quality")=="clear")
 def person_p1(vlm,geom_state):
@@ -14,13 +18,22 @@ def person_p1(vlm,geom_state):
  if vlm.get("pose") in DIRECT_LYING|{AMBIGUOUS_PRONE,"other_near_ground"}: return "RECHECK_VISUAL_UNCERTAIN"
  return "NO_ALERT_NORMAL_POSE"
 def p2_match(vlm,geom_state,p1_state=None):
+ # Independent person-level geometry hard veto.
  if geom_state=="GEOM_UPRIGHT": return "NO_EFFECT"
+ pose=vlm.get("pose")
+ support=vlm.get("body_support_configuration")
+ # Explicit non-lying/auxiliary pose beats contradictory attributes and quality.
+ if pose in P2_NO_EFFECT_POSES: return "NO_EFFECT"
+ # Explicit limb support blocks any P2 lying upgrade.
+ if support in AUX_SUPPORT: return "NO_EFFECT"
  if vlm.get("visual_quality")=="insufficient": return "RECHECK_VISUAL_UNCERTAIN"
- if vlm.get("pose") in AUX_POSES or vlm.get("body_support_configuration") in AUX_SUPPORT: return "NO_EFFECT"
- if not _five(vlm): return "RECHECK_VISUAL_UNCERTAIN" if vlm.get("pose") in DIRECT_LYING|{AMBIGUOUS_PRONE} else "NO_EFFECT"
- if vlm.get("pose") in DIRECT_LYING: return "ALERT_GROUND_LYING"
- if vlm.get("pose")==AMBIGUOUS_PRONE and p1_state=="PROVISIONAL_PRONE": return "ALERT_GROUND_LYING"
- return "RECHECK_VISUAL_UNCERTAIN"
+ if pose in DIRECT_LYING:
+  return "ALERT_GROUND_LYING" if _five(vlm) else "RECHECK_VISUAL_UNCERTAIN"
+ if pose==AMBIGUOUS_PRONE:
+  if _five(vlm) and p1_state=="PROVISIONAL_PRONE": return "ALERT_GROUND_LYING"
+  return "RECHECK_VISUAL_UNCERTAIN"
+ # P2 is a missed-person lying fallback, never a generic attention classifier.
+ return "NO_EFFECT"
 def aggregate(decisions,detected=True):
  if not detected:return "RECHECK_VISUAL_UNCERTAIN"
  if "ALERT_GROUND_LYING" in decisions:return "ALERT_GROUND_LYING"

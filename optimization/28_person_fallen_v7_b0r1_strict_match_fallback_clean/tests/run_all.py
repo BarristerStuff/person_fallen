@@ -20,6 +20,16 @@ assert person_p1(obj('prone'),'GEOM_NOT_UPRIGHT')=='PROVISIONAL_PRONE'
 assert p2_match(obj('prone'),'GEOM_NOT_UPRIGHT','PROVISIONAL_PRONE')=='ALERT_GROUND_LYING'
 assert p2_match(obj('pushup_plank'),'GEOM_NOT_UPRIGHT','PROVISIONAL_PRONE')=='NO_EFFECT'
 assert 'ATTENTION_NEAR_GROUND' not in {p2_match(obj(p),'GEOM_NOT_UPRIGHT') for p in runner.S1['properties']['pose']['enum']}
+# P2 contract correction: explicit pose/support protection precedes quality/five-tuple.
+for p in ('floor_sitting','kneeling','squat','pushup_plank','crawling'):
+ assert p2_match(obj(p),'GEOM_NOT_UPRIGHT')=='NO_EFFECT',p
+assert p2_match(obj('floor_sitting',visual_quality='insufficient'),'GEOM_NOT_UPRIGHT')=='NO_EFFECT'
+for support in ('forearms_feet_supported','hands_feet_supported','hands_knees_supported'):
+ assert p2_match(obj('prone',body_support_configuration=support),'GEOM_NOT_UPRIGHT')=='NO_EFFECT',support
+assert p2_match(obj('prone'),'GEOM_NOT_UPRIGHT','PROVISIONAL_PRONE')=='ALERT_GROUND_LYING'
+assert p2_match(obj('supine'),'GEOM_NOT_UPRIGHT')=='ALERT_GROUND_LYING'
+assert p2_match(obj('supine',body_support_configuration='hands_feet_supported'),'GEOM_NOT_UPRIGHT')=='NO_EFFECT'
+assert all(p2_match(obj(p),'GEOM_NOT_UPRIGHT')!='ATTENTION_NEAR_GROUND' for p in runner.S1['properties']['pose']['enum'])
 # aggregate
 assert aggregate(['NO_ALERT_NORMAL_POSE','ALERT_GROUND_LYING'])=='ALERT_GROUND_LYING'
 assert aggregate([],False)=='RECHECK_VISUAL_UNCERTAIN'

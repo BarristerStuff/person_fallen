@@ -219,3 +219,16 @@ HOLDOUT_CONSUMED=false
 ```
 
 此终态是 freeze 前 policy contract 测试失败，不是 matcher association 失败，也不是模型指标失败。任务禁止修改 policy，因此未创建 freeze、未发送 Ollama 请求。
+
+## 2026-09-16 V7-B0R1 pre-freeze policy contract correction
+
+- candidate: `V7-B0R1-STRICT-MATCH-FALLBACK`
+- branch: `v7-b0r1-clean`
+- formal workspace: `/home/yanbo/net_vlm_person_fallen_v2_optimization/28_person_fallen_v7_b0r1_strict_match_fallback_clean`
+- policy correction occurred before candidate freeze: `true`
+- formal requests before correction: `0`
+- correction scope: deterministic P2 `NO_EFFECT` precedence for explicit non-lying poses and limb-supported configurations only
+- association matcher/thresholds, geometry, prompts, schemas, manifests, GT, crops, model and options changed: `false`
+- pre-freeze rerun: workspace provenance PASS; geometry binding PASS; multi-person association PASS; PFV4_SCREEN_0066 offline association PASS; B0 48-row replay PASS with floor ALERT=0 and ATTENTION=0; strict schema PASS; full tests PASS; fake E2E PASS; crop QA PASS
+- candidate freeze created only after all checks and while formal Ollama request count remained `0`
+- freeze SHA-256: `b4591557c0ce7b1580fe1f5500ee636318a18d72fec88c2def9df2a4c8ebca44`

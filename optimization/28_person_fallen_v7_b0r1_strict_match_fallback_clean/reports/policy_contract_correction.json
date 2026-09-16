@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "policy_contract_fixed": true,
+  "formal_requests_before_policy_fix": 0,
+  "formal_requests_before_freeze": 0,
+  "policy_sha256": "e4a2d867eacc16b9c91dcb7288bac62a265b7f2c8a1e11b1b69b1d78321eae76",
+  "freeze_sha256": "b4591557c0ce7b1580fe1f5500ee636318a18d72fec88c2def9df2a4c8ebca44",
+  "checks": {
+    "workspace_provenance": "PASS",
+    "geometry_binding": "PASS",
+    "multi_person_association": "PASS",
+    "PFV4_SCREEN_0066_offline_association": "PASS",
+    "b0_offline_replay": "PASS",
+    "strict_schema": true,
+    "tests": "PASS",
+    "fake_e2e": "PASS",
+    "crop_qa": "PASS"
+  },
+  "b0_offline_replay": {
+    "candidate": "V7-B0R1-STRICT-MATCH-FALLBACK",
+    "source": "/home/yanbo/net_vlm_person_fallen_v2_optimization/26_person_fallen_v7_b0_hard_veto_crossview/eval/pilot/output.jsonl",
+    "source_formal_reuse": false,
+    "rows": 48,
+    "floor_NO_ALERT": 48,
+    "floor_RECHECK": 0,
+    "floor_ALERT": 0,
+    "floor_ATTENTION": 0,
+    "association_unmatched_before": "not_recorded_in_B0_output",
+    "association_unmatched_after": 0,
+    "gate": "PASS",
+    "model_requests": 0,
+    "notes": "Zero-request replay uses historical B0 parsed attributes only as diagnostic input; no historical row/output is copied into formal eval. GEOM_UPRIGHT hard veto and P2 NO_EFFECT semantics are applied deterministically."
+  },
+  "crop_qa": {
+    "planned": 319,
+    "valid": 319,
+    "rebuilt": 319,
+    "invalid": 0
+  }
+}
