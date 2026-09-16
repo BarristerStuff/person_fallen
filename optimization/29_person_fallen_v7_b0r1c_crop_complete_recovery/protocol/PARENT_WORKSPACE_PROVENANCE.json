@@ -1,0 +1,12 @@
+{
+  "candidate": "V7-B0R1-STRICT-MATCH-FALLBACK",
+  "workspace_generation": "CLEAN_R1",
+  "base_git_commit": "c0f39998474dd17586481bdacb289d1823af1940",
+  "contaminated_workspace": "/home/yanbo/net_vlm_person_fallen_v2_optimization/26_person_fallen_v7_b0_hard_veto_crossview",
+  "contaminated_workspace_reused": false,
+  "formal_workspace": "/home/yanbo/net_vlm_person_fallen_v2_optimization/28_person_fallen_v7_b0r1_strict_match_fallback_clean",
+  "formal_requests_at_creation": 0,
+  "formal_freeze_at_creation": false,
+  "historical_B0_requests_reused": false,
+  "historical_B0_outputs_formal_reuse": false
+}

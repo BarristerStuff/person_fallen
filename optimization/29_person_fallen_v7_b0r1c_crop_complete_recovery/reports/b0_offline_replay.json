@@ -1,0 +1,18 @@
+{
+  "candidate": "V7-B0R1C-CROP-COMPLETE-RECOVERY",
+  "source": "/home/yanbo/net_vlm_person_fallen_v2_optimization/26_person_fallen_v7_b0_hard_veto_crossview/eval/pilot/output.jsonl",
+  "source_formal_reuse": false,
+  "rows": 48,
+  "floor_NO_ALERT": 48,
+  "floor_RECHECK": 0,
+  "floor_ALERT": 0,
+  "floor_ATTENTION": 0,
+  "association_unmatched_before": "not_recorded_in_B0_output",
+  "association_unmatched_after": 0,
+  "gate": "PASS",
+  "model_requests": 0,
+  "notes": "Zero-request replay uses historical B0 parsed attributes only as diagnostic input; no historical row/output is copied into formal eval. GEOM_UPRIGHT hard veto and P2 NO_EFFECT semantics are applied deterministically.",
+  "semantic_equivalence_to_parent": "PASS",
+  "parent_report_sha256": "e5e833c168779f50f153eda1d3d53b7de89ca074c249a545af0b5bf459213f2d",
+  "recomputed_model_requests": 0
+}

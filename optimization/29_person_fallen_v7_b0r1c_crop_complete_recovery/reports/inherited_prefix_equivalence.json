@@ -1,0 +1,81 @@
+{
+  "rows": 4,
+  "payload_equivalent": 4,
+  "raw_verified": 4,
+  "resends": 0,
+  "gate": "PASS",
+  "audit": [
+    {
+      "row_index": 1,
+      "request_id": "V7_B0R1_pilot_0001_P2_scene",
+      "item_id": "P4D_PLAN::PF_P4D_HN_SIT_G001_V01",
+      "recomputed_payload_sha256": "69157c56db4a2cee72065cc5a795747a75f069ff7e603289d1fb0e15eb57eeb4",
+      "parent_payload_sha256": "69157c56db4a2cee72065cc5a795747a75f069ff7e603289d1fb0e15eb57eeb4",
+      "checks": {
+        "manifest_item_id": true,
+        "taxonomy": true,
+        "source_image_sha": true,
+        "full_view_sha": true,
+        "payload_sha": true,
+        "raw_sha": true,
+        "parsed_json": true,
+        "final_decision": true
+      },
+      "equivalent": true
+    },
+    {
+      "row_index": 2,
+      "request_id": "V7_B0R1_pilot_0002_P2_scene",
+      "item_id": "P4D_PLAN::PF_P4D_HN_SIT_G001_V02",
+      "recomputed_payload_sha256": "31d390972c1b74b457530f3d10f3deeb4e0a3aa60bffd758f6a076a8f6325419",
+      "parent_payload_sha256": "31d390972c1b74b457530f3d10f3deeb4e0a3aa60bffd758f6a076a8f6325419",
+      "checks": {
+        "manifest_item_id": true,
+        "taxonomy": true,
+        "source_image_sha": true,
+        "full_view_sha": true,
+        "payload_sha": true,
+        "raw_sha": true,
+        "parsed_json": true,
+        "final_decision": true
+      },
+      "equivalent": true
+    },
+    {
+      "row_index": 3,
+      "request_id": "V7_B0R1_pilot_0003_P2_scene",
+      "item_id": "P4D_PLAN::PF_P4D_HN_SIT_G001_V03",
+      "recomputed_payload_sha256": "ec606468ac94795c4bd1b5f31333d0f9c146d3a9260032bfee03dedfa5713feb",
+      "parent_payload_sha256": "ec606468ac94795c4bd1b5f31333d0f9c146d3a9260032bfee03dedfa5713feb",
+      "checks": {
+        "manifest_item_id": true,
+        "taxonomy": true,
+        "source_image_sha": true,
+        "full_view_sha": true,
+        "payload_sha": true,
+        "raw_sha": true,
+        "parsed_json": true,
+        "final_decision": true
+      },
+      "equivalent": true
+    },
+    {
+      "row_index": 4,
+      "request_id": "V7_B0R1_pilot_0004_P2_scene",
+      "item_id": "P4D_PLAN::PF_P4D_HN_SIT_G001_V04",
+      "recomputed_payload_sha256": "f412669608ace241d2bc526a97db9a5218a52853af97545014717c4368d77f13",
+      "parent_payload_sha256": "f412669608ace241d2bc526a97db9a5218a52853af97545014717c4368d77f13",
+      "checks": {
+        "manifest_item_id": true,
+        "taxonomy": true,
+        "source_image_sha": true,
+        "full_view_sha": true,
+        "payload_sha": true,
+        "raw_sha": true,
+        "parsed_json": true,
+        "final_decision": true
+      },
+      "equivalent": true
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "candidate": "V7-B0R1C-CROP-COMPLETE-RECOVERY",
+  "created_at": "2026-09-16T15:25:00+08:00",
+  "workspace_provenance": "PASS",
+  "semantic_equivalence": "PASS",
+  "source_binding": "437/437 PASS",
+  "full_view_binding": "437/437 PASS",
+  "geometry_binding": "PASS",
+  "multi_person_association_preflight": "PASS",
+  "PFV4_SCREEN_0066_offline_association": "PASS",
+  "b0_offline_replay": {
+    "rows": 48,
+    "floor_NO_ALERT": 48,
+    "floor_RECHECK": 0,
+    "floor_ALERT": 0,
+    "floor_ATTENTION": 0,
+    "gate": "PASS"
+  },
+  "strict_schema": true,
+  "unit_tests": "PASS",
+  "successor_protocol_tests": "PASS",
+  "fake_e2e": "PASS",
+  "crop_plan": {
+    "required_union": 377,
+    "old_planned": 319,
+    "old_missing": 58,
+    "new_planned": 377,
+    "new_valid": 377,
+    "required_without_crop": 0,
+    "gate": "PASS"
+  },
+  "old_crop_reproducibility": {
+    "checked": 319,
+    "exact_sha_match": 319,
+    "gate": "PASS"
+  },
+  "inherited_prefix": {
+    "rows": 4,
+    "payload_equivalent": 4,
+    "raw_verified": 4,
+    "resends": 0,
+    "gate": "PASS"
+  },
+  "formal_successor_requests_before_freeze": 0,
+  "gate": "PASS"
+}

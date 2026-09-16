@@ -1,0 +1,4154 @@
+{
+  "checked": 319,
+  "exact_sha_match": 319,
+  "gate": "PASS",
+  "rows": [
+    {
+      "item_id": "P4D_PLAN::PF_P4D_HN_CRAWL_G001_V01",
+      "person_idx": "0",
+      "expected_sha256": "0a96e58b9c8240b76a0d93b1ba73d3341f23df50789923a8b27a361759956fbd",
+      "regenerated_sha256": "0a96e58b9c8240b76a0d93b1ba73d3341f23df50789923a8b27a361759956fbd",
+      "match": true,
+      "bbox_scaled": [
+        67,
+        186,
+        1539,
+        1034
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_HN_CRAWL_G001_V02",
+      "person_idx": "0",
+      "expected_sha256": "a7e4eda79d8ca16ad04d4437c0fff93dfff432ddb01aab188dfe8473626b4841",
+      "regenerated_sha256": "a7e4eda79d8ca16ad04d4437c0fff93dfff432ddb01aab188dfe8473626b4841",
+      "match": true,
+      "bbox_scaled": [
+        955,
+        201,
+        1593,
+        838
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_HN_CRAWL_G001_V03",
+      "person_idx": "0",
+      "expected_sha256": "89507fb49a16a69e29179d8cc8531a31eb818770cadbbabaa9cd16a09b53c8a9",
+      "regenerated_sha256": "89507fb49a16a69e29179d8cc8531a31eb818770cadbbabaa9cd16a09b53c8a9",
+      "match": true,
+      "bbox_scaled": [
+        477,
+        233,
+        1756,
+        1080
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_HN_CRAWL_G001_V04",
+      "person_idx": "0",
+      "expected_sha256": "c40d7c6806133eea7e214b0904e95d9992216148ec363e5b9a1f131bc5f03973",
+      "regenerated_sha256": "c40d7c6806133eea7e214b0904e95d9992216148ec363e5b9a1f131bc5f03973",
+      "match": true,
+      "bbox_scaled": [
+        721,
+        85,
+        1539,
+        909
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_HN_CRAWL_G001_V05",
+      "person_idx": "0",
+      "expected_sha256": "c42f49d67ff8a1f6a4cb928f105a5b5216aac45c8e5a7ec9192b481b2167b286",
+      "regenerated_sha256": "c42f49d67ff8a1f6a4cb928f105a5b5216aac45c8e5a7ec9192b481b2167b286",
+      "match": true,
+      "bbox_scaled": [
+        389,
+        160,
+        1589,
+        766
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_HN_KNEEL_G002_V03",
+      "person_idx": "0",
+      "expected_sha256": "9c68bcae7e770be1c0c105716d6c98df760504fa5870158623b180af50633fa2",
+      "regenerated_sha256": "9c68bcae7e770be1c0c105716d6c98df760504fa5870158623b180af50633fa2",
+      "match": true,
+      "bbox_scaled": [
+        139,
+        37,
+        378,
+        303
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_HN_KNEEL_G002_V05",
+      "person_idx": "0",
+      "expected_sha256": "f4c2225b9a970afd36660a8b339447f9fb78da84113900f4b11a8e8a5a5bd374",
+      "regenerated_sha256": "f4c2225b9a970afd36660a8b339447f9fb78da84113900f4b11a8e8a5a5bd374",
+      "match": true,
+      "bbox_scaled": [
+        166,
+        0,
+        384,
+        336
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_HN_KNEEL_G003_V03",
+      "person_idx": "0",
+      "expected_sha256": "9061b87e639307fca779a0029f0d9df4472a2980cb5bae887fa05fb24e268c84",
+      "regenerated_sha256": "9061b87e639307fca779a0029f0d9df4472a2980cb5bae887fa05fb24e268c84",
+      "match": true,
+      "bbox_scaled": [
+        31,
+        0,
+        448,
+        336
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_HN_KNEEL_G004_V02",
+      "person_idx": "0",
+      "expected_sha256": "4711cc8a956ad41aed42ac34eea300ad1bdc104f952bdc008aed87c3d078d796",
+      "regenerated_sha256": "4711cc8a956ad41aed42ac34eea300ad1bdc104f952bdc008aed87c3d078d796",
+      "match": true,
+      "bbox_scaled": [
+        59,
+        28,
+        213,
+        336
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_HN_KNEEL_G004_V03",
+      "person_idx": "0",
+      "expected_sha256": "63089c65a20d0e2137423a7ad9aef14fef1ea48709358ce7a77a0144769e3486",
+      "regenerated_sha256": "63089c65a20d0e2137423a7ad9aef14fef1ea48709358ce7a77a0144769e3486",
+      "match": true,
+      "bbox_scaled": [
+        126,
+        23,
+        353,
+        317
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_HN_KNEEL_G005_V02",
+      "person_idx": "0",
+      "expected_sha256": "3f3afa097313a844f54aad2d0dc8ccdad68cdd64b2fbe6b40aa7dba7bea57b56",
+      "regenerated_sha256": "3f3afa097313a844f54aad2d0dc8ccdad68cdd64b2fbe6b40aa7dba7bea57b56",
+      "match": true,
+      "bbox_scaled": [
+        123,
+        0,
+        323,
+        327
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_HN_KNEEL_G005_V03",
+      "person_idx": "0",
+      "expected_sha256": "e5e981cb640b48c2185055718a45a268b8768701a00dbcbe34d250d22aec0895",
+      "regenerated_sha256": "e5e981cb640b48c2185055718a45a268b8768701a00dbcbe34d250d22aec0895",
+      "match": true,
+      "bbox_scaled": [
+        47,
+        44,
+        247,
+        323
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_HN_KNEEL_G005_V04",
+      "person_idx": "0",
+      "expected_sha256": "ba1a792a0635f6e4faaa8306fed65af120a97cf1d6e63fe10485f9e51e635f57",
+      "regenerated_sha256": "ba1a792a0635f6e4faaa8306fed65af120a97cf1d6e63fe10485f9e51e635f57",
+      "match": true,
+      "bbox_scaled": [
+        203,
+        21,
+        360,
+        218
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_HN_KNEEL_G006_V03",
+      "person_idx": "0",
+      "expected_sha256": "c59d4e8ac7bdf2ffd5fb87ba8fb2146a2a1a71e29908f42874e74411bdeef050",
+      "regenerated_sha256": "c59d4e8ac7bdf2ffd5fb87ba8fb2146a2a1a71e29908f42874e74411bdeef050",
+      "match": true,
+      "bbox_scaled": [
+        158,
+        65,
+        304,
+        224
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_HN_KNEEL_G007_V02",
+      "person_idx": "1",
+      "expected_sha256": "d9656be8ea70aed6cffbc83322a88b4041d292dd09c3887299f34439457e7b3e",
+      "regenerated_sha256": "d9656be8ea70aed6cffbc83322a88b4041d292dd09c3887299f34439457e7b3e",
+      "match": true,
+      "bbox_scaled": [
+        408,
+        90,
+        448,
+        336
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_HN_KNEEL_G007_V03",
+      "person_idx": "0",
+      "expected_sha256": "6aa327712650a2cd037b2fade6d2ad2d46fbd6b22e92413875ca97e15ba043ef",
+      "regenerated_sha256": "6aa327712650a2cd037b2fade6d2ad2d46fbd6b22e92413875ca97e15ba043ef",
+      "match": true,
+      "bbox_scaled": [
+        71,
+        28,
+        368,
+        336
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_HN_KNEEL_G007_V04",
+      "person_idx": "0",
+      "expected_sha256": "b75c085acefca4aabb6e783343ddf9283671b4a2a196d5d5b843f469321e770b",
+      "regenerated_sha256": "b75c085acefca4aabb6e783343ddf9283671b4a2a196d5d5b843f469321e770b",
+      "match": true,
+      "bbox_scaled": [
+        41,
+        64,
+        255,
+        316
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_HN_MAINT_G002_V01",
+      "person_idx": "0",
+      "expected_sha256": "0bec9c108bb638691c771fb94232f62d02c4244496711a458cdb886b96dd8e50",
+      "regenerated_sha256": "0bec9c108bb638691c771fb94232f62d02c4244496711a458cdb886b96dd8e50",
+      "match": true,
+      "bbox_scaled": [
+        443,
+        177,
+        1217,
+        938
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_HN_MAINT_G002_V02",
+      "person_idx": "0",
+      "expected_sha256": "259a18dd805cd887e8530897cedd095afb63b0e1dc4385bd631f3e4ac3afd17d",
+      "regenerated_sha256": "259a18dd805cd887e8530897cedd095afb63b0e1dc4385bd631f3e4ac3afd17d",
+      "match": true,
+      "bbox_scaled": [
+        346,
+        318,
+        1291,
+        1021
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_HN_MAINT_G002_V03",
+      "person_idx": "0",
+      "expected_sha256": "40eec7340b3449705198dcc04899d40361c1b428b37e2924565a86baf4f6f828",
+      "regenerated_sha256": "40eec7340b3449705198dcc04899d40361c1b428b37e2924565a86baf4f6f828",
+      "match": true,
+      "bbox_scaled": [
+        708,
+        198,
+        1393,
+        836
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_HN_MAINT_G002_V04",
+      "person_idx": "0",
+      "expected_sha256": "e53e8a77e660b3ff04a4721e1cdb16dcda1e7de9b468d5abd6558fc036551f20",
+      "regenerated_sha256": "e53e8a77e660b3ff04a4721e1cdb16dcda1e7de9b468d5abd6558fc036551f20",
+      "match": true,
+      "bbox_scaled": [
+        319,
+        189,
+        1209,
+        871
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_HN_MAINT_G002_V05",
+      "person_idx": "0",
+      "expected_sha256": "c89764791b8c305e83f375ce32bbd5f2373fd681cc492e67f63d1540f469a2a7",
+      "regenerated_sha256": "c89764791b8c305e83f375ce32bbd5f2373fd681cc492e67f63d1540f469a2a7",
+      "match": true,
+      "bbox_scaled": [
+        369,
+        269,
+        1366,
+        887
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_HN_PLANK_G001_V01",
+      "person_idx": "0",
+      "expected_sha256": "49d14315c5be4776be02b197c4584e408030b6701e70fdf58f4c2689581fd5a1",
+      "regenerated_sha256": "49d14315c5be4776be02b197c4584e408030b6701e70fdf58f4c2689581fd5a1",
+      "match": true,
+      "bbox_scaled": [
+        0,
+        167,
+        1761,
+        999
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_HN_PLANK_G001_V02",
+      "person_idx": "0",
+      "expected_sha256": "d1ae4b613038bd52f37fcf2194affe3ad3236d5f82b653271fef343d86df2f7f",
+      "regenerated_sha256": "d1ae4b613038bd52f37fcf2194affe3ad3236d5f82b653271fef343d86df2f7f",
+      "match": true,
+      "bbox_scaled": [
+        391,
+        363,
+        1331,
+        863
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_HN_PLANK_G001_V03",
+      "person_idx": "0",
+      "expected_sha256": "4e1a722e9fc2c1c935cb73ba3dc57ef0f7c4fb08152c06d0fc1dfec1804dc7cd",
+      "regenerated_sha256": "4e1a722e9fc2c1c935cb73ba3dc57ef0f7c4fb08152c06d0fc1dfec1804dc7cd",
+      "match": true,
+      "bbox_scaled": [
+        295,
+        293,
+        1734,
+        873
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_HN_PLANK_G001_V04",
+      "person_idx": "0",
+      "expected_sha256": "4556517653dace3488f618b3bf9cf942dc86e271675e27663300c6a7a2980511",
+      "regenerated_sha256": "4556517653dace3488f618b3bf9cf942dc86e271675e27663300c6a7a2980511",
+      "match": true,
+      "bbox_scaled": [
+        257,
+        274,
+        1691,
+        982
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_HN_PLANK_G001_V05",
+      "person_idx": "0",
+      "expected_sha256": "e39fd5bde9be536577df181f01839248c88a4e1c9ef39c5b51093f4ee22e6788",
+      "regenerated_sha256": "e39fd5bde9be536577df181f01839248c88a4e1c9ef39c5b51093f4ee22e6788",
+      "match": true,
+      "bbox_scaled": [
+        154,
+        211,
+        1548,
+        857
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_HN_PLANK_G002_V01",
+      "person_idx": "0",
+      "expected_sha256": "eb59f1072a7002be84a6d627d06e63a87057c97d9862296796f6eab00646da9a",
+      "regenerated_sha256": "eb59f1072a7002be84a6d627d06e63a87057c97d9862296796f6eab00646da9a",
+      "match": true,
+      "bbox_scaled": [
+        482,
+        338,
+        1682,
+        940
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_NEG_CHAIR_G001_V03",
+      "person_idx": "0",
+      "expected_sha256": "e5d0a0214f7f3a066f8a5b9cb10d98f11d0bb60d30a3f7a0ebd09113a8040751",
+      "regenerated_sha256": "e5d0a0214f7f3a066f8a5b9cb10d98f11d0bb60d30a3f7a0ebd09113a8040751",
+      "match": true,
+      "bbox_scaled": [
+        159,
+        4,
+        1100,
+        1080
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_NEG_CHAIR_G002_V03",
+      "person_idx": "0",
+      "expected_sha256": "6975ef63ce20c9f8266740d54af1762958ed9affb94cc33d56eaba18f1ae95c1",
+      "regenerated_sha256": "6975ef63ce20c9f8266740d54af1762958ed9affb94cc33d56eaba18f1ae95c1",
+      "match": true,
+      "bbox_scaled": [
+        213,
+        0,
+        1266,
+        1080
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_NEG_CHAIR_G003_V01",
+      "person_idx": "0",
+      "expected_sha256": "701732784f675da04ca0b8253788d202f0625ed0b9061368aaa0f760afdefaeb",
+      "regenerated_sha256": "701732784f675da04ca0b8253788d202f0625ed0b9061368aaa0f760afdefaeb",
+      "match": true,
+      "bbox_scaled": [
+        621,
+        0,
+        1621,
+        1080
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_NEG_CHAIR_G003_V03",
+      "person_idx": "0",
+      "expected_sha256": "a91d3f0294a29deb241f694c3c2c7aa4931cce18485c78ea77d413556955ac2f",
+      "regenerated_sha256": "a91d3f0294a29deb241f694c3c2c7aa4931cce18485c78ea77d413556955ac2f",
+      "match": true,
+      "bbox_scaled": [
+        155,
+        0,
+        1920,
+        1080
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_NEG_CHAIR_G003_V05",
+      "person_idx": "0",
+      "expected_sha256": "06ac7102bd6355106b6d522efeae8ae5e37919963c26b7401d686d1756010d02",
+      "regenerated_sha256": "06ac7102bd6355106b6d522efeae8ae5e37919963c26b7401d686d1756010d02",
+      "match": true,
+      "bbox_scaled": [
+        280,
+        13,
+        1180,
+        1080
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_POS_INTENTIONAL_G001_V01",
+      "person_idx": "0",
+      "expected_sha256": "605628598b72584f644d576f7518cc672bcd7f9050f1ccc5aeb63570b6ba7133",
+      "regenerated_sha256": "605628598b72584f644d576f7518cc672bcd7f9050f1ccc5aeb63570b6ba7133",
+      "match": true,
+      "bbox_scaled": [
+        349,
+        418,
+        1606,
+        691
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_POS_INTENTIONAL_G001_V02",
+      "person_idx": "0",
+      "expected_sha256": "9b24bc64b5a542c5b68427eb4495100c635afdd81b2419b9269d70a724f39cfa",
+      "regenerated_sha256": "9b24bc64b5a542c5b68427eb4495100c635afdd81b2419b9269d70a724f39cfa",
+      "match": true,
+      "bbox_scaled": [
+        630,
+        342,
+        1604,
+        629
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_POS_INTENTIONAL_G001_V03",
+      "person_idx": "0",
+      "expected_sha256": "1eb4cef7c974a4c49b2043bcb974b0912a1c005faccc828fe392c33ca4fa081d",
+      "regenerated_sha256": "1eb4cef7c974a4c49b2043bcb974b0912a1c005faccc828fe392c33ca4fa081d",
+      "match": true,
+      "bbox_scaled": [
+        586,
+        399,
+        1574,
+        960
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_POS_INTENTIONAL_G001_V04",
+      "person_idx": "0",
+      "expected_sha256": "2f899988ba20a66032883fcb6c0753748f0a02d1dee2df9e0037541908dc2725",
+      "regenerated_sha256": "2f899988ba20a66032883fcb6c0753748f0a02d1dee2df9e0037541908dc2725",
+      "match": true,
+      "bbox_scaled": [
+        177,
+        323,
+        1526,
+        753
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_POS_INTENTIONAL_G001_V05",
+      "person_idx": "0",
+      "expected_sha256": "0900d832f40e0813c0221b53ecf0f0590525b7f5203a64089642a8cb7ff881d6",
+      "regenerated_sha256": "0900d832f40e0813c0221b53ecf0f0590525b7f5203a64089642a8cb7ff881d6",
+      "match": true,
+      "bbox_scaled": [
+        151,
+        473,
+        1862,
+        842
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_POS_MULTI_G001_V01",
+      "person_idx": "0",
+      "expected_sha256": "cd6307ea58f0a6825874565e27f48a16f7c0e3d3783f2a6b87bd60e4fb7f83c7",
+      "regenerated_sha256": "cd6307ea58f0a6825874565e27f48a16f7c0e3d3783f2a6b87bd60e4fb7f83c7",
+      "match": true,
+      "bbox_scaled": [
+        1057,
+        0,
+        1446,
+        1066
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_POS_MULTI_G001_V02",
+      "person_idx": "0",
+      "expected_sha256": "700c9f0b477bf580e01aa1c5efce397526cbc70cd54b51ea3604e81095417808",
+      "regenerated_sha256": "700c9f0b477bf580e01aa1c5efce397526cbc70cd54b51ea3604e81095417808",
+      "match": true,
+      "bbox_scaled": [
+        945,
+        0,
+        1224,
+        636
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_POS_MULTI_G001_V02",
+      "person_idx": "1",
+      "expected_sha256": "081cb1aec7170f94b64f4d9bb0d8663bf1c17cbae1583222cc421c5714d8c4bc",
+      "regenerated_sha256": "081cb1aec7170f94b64f4d9bb0d8663bf1c17cbae1583222cc421c5714d8c4bc",
+      "match": true,
+      "bbox_scaled": [
+        1169,
+        0,
+        1391,
+        703
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_POS_MULTI_G001_V02",
+      "person_idx": "2",
+      "expected_sha256": "a115f34a9487420f5f71dafeee0279df33ebc0e46cb7b06636aa15e0039e8cf5",
+      "regenerated_sha256": "a115f34a9487420f5f71dafeee0279df33ebc0e46cb7b06636aa15e0039e8cf5",
+      "match": true,
+      "bbox_scaled": [
+        170,
+        567,
+        1426,
+        824
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_POS_MULTI_G001_V03",
+      "person_idx": "2",
+      "expected_sha256": "17f8dc03502932af67d507d572e2d6bd8e745c34f9df4345495867f94c640109",
+      "regenerated_sha256": "17f8dc03502932af67d507d572e2d6bd8e745c34f9df4345495867f94c640109",
+      "match": true,
+      "bbox_scaled": [
+        41,
+        0,
+        386,
+        619
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_POS_MULTI_G001_V03",
+      "person_idx": "3",
+      "expected_sha256": "7ce8ff6c011bd747ace0a066f53f431b7d3c8a85bff6cec9798933adbbd399d7",
+      "regenerated_sha256": "7ce8ff6c011bd747ace0a066f53f431b7d3c8a85bff6cec9798933adbbd399d7",
+      "match": true,
+      "bbox_scaled": [
+        0,
+        0,
+        193,
+        547
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_POS_MULTI_G001_V03",
+      "person_idx": "4",
+      "expected_sha256": "4324c1b40c548773e62d7efa20f9c189e7caaf0e94be56b088056dac21fe6b7b",
+      "regenerated_sha256": "4324c1b40c548773e62d7efa20f9c189e7caaf0e94be56b088056dac21fe6b7b",
+      "match": true,
+      "bbox_scaled": [
+        371,
+        393,
+        1293,
+        817
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_POS_MULTI_G001_V04",
+      "person_idx": "0",
+      "expected_sha256": "97235aaf9029cdf4961b8de76a2b63b78f154668bebc826c221479306c7c0027",
+      "regenerated_sha256": "97235aaf9029cdf4961b8de76a2b63b78f154668bebc826c221479306c7c0027",
+      "match": true,
+      "bbox_scaled": [
+        156,
+        416,
+        1563,
+        1051
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_POS_MULTI_G001_V04",
+      "person_idx": "1",
+      "expected_sha256": "2c42f87451448db813973e45310d35e552cc1c209e5c5504605695bf9118e37f",
+      "regenerated_sha256": "2c42f87451448db813973e45310d35e552cc1c209e5c5504605695bf9118e37f",
+      "match": true,
+      "bbox_scaled": [
+        1124,
+        0,
+        1363,
+        671
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_POS_MULTI_G001_V05",
+      "person_idx": "2",
+      "expected_sha256": "297f0b8f2b201ac6d9b632cf2bac7ebee3ee4efd2eb27b358a3baa6058f286cc",
+      "regenerated_sha256": "297f0b8f2b201ac6d9b632cf2bac7ebee3ee4efd2eb27b358a3baa6058f286cc",
+      "match": true,
+      "bbox_scaled": [
+        332,
+        426,
+        1556,
+        809
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_POS_PRONE_G001_V01",
+      "person_idx": "0",
+      "expected_sha256": "369021d861109d5f697f183528bb178788bc61d7fcce79e5d8a17a1220b29a02",
+      "regenerated_sha256": "369021d861109d5f697f183528bb178788bc61d7fcce79e5d8a17a1220b29a02",
+      "match": true,
+      "bbox_scaled": [
+        373,
+        503,
+        1846,
+        875
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_POS_PRONE_G001_V02",
+      "person_idx": "0",
+      "expected_sha256": "a8cfe68e0dce3439cbd69e0171945ad259b2f3b6c00d9259ef3d852421e943da",
+      "regenerated_sha256": "a8cfe68e0dce3439cbd69e0171945ad259b2f3b6c00d9259ef3d852421e943da",
+      "match": true,
+      "bbox_scaled": [
+        483,
+        607,
+        1563,
+        900
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_POS_PRONE_G001_V03",
+      "person_idx": "0",
+      "expected_sha256": "c8bd6f7a2e8c88fc5bdeb887f8cfa625a1c41488e4df0151970b9e8ac1f6c49c",
+      "regenerated_sha256": "c8bd6f7a2e8c88fc5bdeb887f8cfa625a1c41488e4df0151970b9e8ac1f6c49c",
+      "match": true,
+      "bbox_scaled": [
+        292,
+        329,
+        1678,
+        911
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_POS_PRONE_G001_V04",
+      "person_idx": "0",
+      "expected_sha256": "3567df93b3c5146ec6148610706be880859ccfa21b91a0921da1f8e3438fd43b",
+      "regenerated_sha256": "3567df93b3c5146ec6148610706be880859ccfa21b91a0921da1f8e3438fd43b",
+      "match": true,
+      "bbox_scaled": [
+        12,
+        342,
+        1667,
+        1080
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_POS_PRONE_G001_V05",
+      "person_idx": "0",
+      "expected_sha256": "1ee1277f915f6b515c9ba7dac398e5bb67f16d37d274469c259407e1fcecfb37",
+      "regenerated_sha256": "1ee1277f915f6b515c9ba7dac398e5bb67f16d37d274469c259407e1fcecfb37",
+      "match": true,
+      "bbox_scaled": [
+        246,
+        387,
+        1506,
+        961
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_POS_SIDE_G001_V01",
+      "person_idx": "0",
+      "expected_sha256": "48ed4c0c40858763a1d3c550dd7c638cbb05907ef6cbdebc8c141d522d767216",
+      "regenerated_sha256": "48ed4c0c40858763a1d3c550dd7c638cbb05907ef6cbdebc8c141d522d767216",
+      "match": true,
+      "bbox_scaled": [
+        186,
+        301,
+        1513,
+        727
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_POS_SIDE_G001_V02",
+      "person_idx": "0",
+      "expected_sha256": "3d01130556dd822fb51cba79e51435638a4e26215c1809155f5b189ba6360481",
+      "regenerated_sha256": "3d01130556dd822fb51cba79e51435638a4e26215c1809155f5b189ba6360481",
+      "match": true,
+      "bbox_scaled": [
+        639,
+        420,
+        1698,
+        914
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_POS_SIDE_G001_V03",
+      "person_idx": "0",
+      "expected_sha256": "d1dfb71cc8a2a813d4459f5821493c9651c5c93839d99c1e1c63ad7e14ccce9a",
+      "regenerated_sha256": "d1dfb71cc8a2a813d4459f5821493c9651c5c93839d99c1e1c63ad7e14ccce9a",
+      "match": true,
+      "bbox_scaled": [
+        187,
+        444,
+        1610,
+        927
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_POS_SIDE_G001_V04",
+      "person_idx": "0",
+      "expected_sha256": "e525115c61f8cc9657bc3b9df71042f1d40a19bb603519a93b7084a21ec7430f",
+      "regenerated_sha256": "e525115c61f8cc9657bc3b9df71042f1d40a19bb603519a93b7084a21ec7430f",
+      "match": true,
+      "bbox_scaled": [
+        0,
+        286,
+        1738,
+        1000
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_POS_SIDE_G001_V05",
+      "person_idx": "0",
+      "expected_sha256": "fd71a3ab42ac3f9c6f7596d1fb1d8bea9f0d41d0b3d3145106b2d84f6af6d73c",
+      "regenerated_sha256": "fd71a3ab42ac3f9c6f7596d1fb1d8bea9f0d41d0b3d3145106b2d84f6af6d73c",
+      "match": true,
+      "bbox_scaled": [
+        244,
+        315,
+        1909,
+        744
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_POS_SUPINE_G001_V01",
+      "person_idx": "0",
+      "expected_sha256": "5e99a1c3712f6a74804b0fb39e068048061195ca508589096334d36465f3ddcc",
+      "regenerated_sha256": "5e99a1c3712f6a74804b0fb39e068048061195ca508589096334d36465f3ddcc",
+      "match": true,
+      "bbox_scaled": [
+        329,
+        492,
+        1824,
+        863
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_POS_SUPINE_G001_V02",
+      "person_idx": "0",
+      "expected_sha256": "ce2eed971d1a7640502a6856bd949859627a6b92ebab22a3b9b434f689827050",
+      "regenerated_sha256": "ce2eed971d1a7640502a6856bd949859627a6b92ebab22a3b9b434f689827050",
+      "match": true,
+      "bbox_scaled": [
+        428,
+        491,
+        1543,
+        702
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_POS_SUPINE_G001_V03",
+      "person_idx": "0",
+      "expected_sha256": "8d9dd9c0f9ba2895d79adfb980faa42702c30dd4d9eb7dee939a5c149b962c8f",
+      "regenerated_sha256": "8d9dd9c0f9ba2895d79adfb980faa42702c30dd4d9eb7dee939a5c149b962c8f",
+      "match": true,
+      "bbox_scaled": [
+        325,
+        501,
+        1610,
+        826
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_POS_SUPINE_G001_V04",
+      "person_idx": "0",
+      "expected_sha256": "21ad02946d1854513ac0e3044c31ae1bd52b49316f4c61bef8617999ab31f810",
+      "regenerated_sha256": "21ad02946d1854513ac0e3044c31ae1bd52b49316f4c61bef8617999ab31f810",
+      "match": true,
+      "bbox_scaled": [
+        54,
+        324,
+        1796,
+        1080
+      ]
+    },
+    {
+      "item_id": "P4D_PLAN::PF_P4D_POS_SUPINE_G001_V05",
+      "person_idx": "0",
+      "expected_sha256": "6d00f6d13285fc7e9bebc9e60ae34aa6653800a47046bf3ac1de55333b5c24c7",
+      "regenerated_sha256": "6d00f6d13285fc7e9bebc9e60ae34aa6653800a47046bf3ac1de55333b5c24c7",
+      "match": true,
+      "bbox_scaled": [
+        175,
+        381,
+        1675,
+        885
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003702",
+      "person_idx": "1",
+      "expected_sha256": "f04d0f476986a974af2708a51e44e17e79d932a65aa92b9522a78de33a33b938",
+      "regenerated_sha256": "f04d0f476986a974af2708a51e44e17e79d932a65aa92b9522a78de33a33b938",
+      "match": true,
+      "bbox_scaled": [
+        308,
+        0,
+        346,
+        129
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003707",
+      "person_idx": "0",
+      "expected_sha256": "ca61f261d14252767fa15035a1182a017aa9f2a8cdefb7cd344f8f7375b64492",
+      "regenerated_sha256": "ca61f261d14252767fa15035a1182a017aa9f2a8cdefb7cd344f8f7375b64492",
+      "match": true,
+      "bbox_scaled": [
+        281,
+        15,
+        323,
+        183
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003726",
+      "person_idx": "0",
+      "expected_sha256": "a92990d83ce47dc89ccafde0b262537d6d2e80ddf580515c72d0eb9f213cd862",
+      "regenerated_sha256": "a92990d83ce47dc89ccafde0b262537d6d2e80ddf580515c72d0eb9f213cd862",
+      "match": true,
+      "bbox_scaled": [
+        93,
+        36,
+        326,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003727",
+      "person_idx": "0",
+      "expected_sha256": "df4949df55fcfad0b5cdc34cd3ed300f0f94a5bc89c9b86b94d0e089fe63fe71",
+      "regenerated_sha256": "df4949df55fcfad0b5cdc34cd3ed300f0f94a5bc89c9b86b94d0e089fe63fe71",
+      "match": true,
+      "bbox_scaled": [
+        49,
+        0,
+        330,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003729",
+      "person_idx": "0",
+      "expected_sha256": "0682e6a43f07386d6f0ac5ebd8677ce7f4496b220d9a8e7c0e534b5a4cee0a1d",
+      "regenerated_sha256": "0682e6a43f07386d6f0ac5ebd8677ce7f4496b220d9a8e7c0e534b5a4cee0a1d",
+      "match": true,
+      "bbox_scaled": [
+        177,
+        94,
+        309,
+        227
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003730",
+      "person_idx": "0",
+      "expected_sha256": "212a28e9aecffb00a1f401673e1d62c1efca68b1effe9ac42db47e8b985affac",
+      "regenerated_sha256": "212a28e9aecffb00a1f401673e1d62c1efca68b1effe9ac42db47e8b985affac",
+      "match": true,
+      "bbox_scaled": [
+        64,
+        0,
+        342,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003732",
+      "person_idx": "0",
+      "expected_sha256": "23ab53d616aa1ee3a2985df30d69c48724701b751586f5b97d19dee70dfd732f",
+      "regenerated_sha256": "23ab53d616aa1ee3a2985df30d69c48724701b751586f5b97d19dee70dfd732f",
+      "match": true,
+      "bbox_scaled": [
+        46,
+        14,
+        323,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003733",
+      "person_idx": "0",
+      "expected_sha256": "354533083e7cb2db4875db9c2650434612f009c061342178c713ec4e26a8f739",
+      "regenerated_sha256": "354533083e7cb2db4875db9c2650434612f009c061342178c713ec4e26a8f739",
+      "match": true,
+      "bbox_scaled": [
+        40,
+        0,
+        418,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003735",
+      "person_idx": "0",
+      "expected_sha256": "f4c2ddb0c425b9a8d93f790d969aa70427d0fc17652444215c80421cc6ffd1fc",
+      "regenerated_sha256": "f4c2ddb0c425b9a8d93f790d969aa70427d0fc17652444215c80421cc6ffd1fc",
+      "match": true,
+      "bbox_scaled": [
+        139,
+        80,
+        314,
+        321
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003737",
+      "person_idx": "0",
+      "expected_sha256": "3ec3808fbc83205c7768b556551a52fcc5946a343a40d6c1a8dcc4643473260c",
+      "regenerated_sha256": "3ec3808fbc83205c7768b556551a52fcc5946a343a40d6c1a8dcc4643473260c",
+      "match": true,
+      "bbox_scaled": [
+        182,
+        106,
+        341,
+        326
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003738",
+      "person_idx": "0",
+      "expected_sha256": "962a301f1845dd9313046fcdacec13068db14cc78ef0bc4d7e1536fd4640cca4",
+      "regenerated_sha256": "962a301f1845dd9313046fcdacec13068db14cc78ef0bc4d7e1536fd4640cca4",
+      "match": true,
+      "bbox_scaled": [
+        41,
+        0,
+        355,
+        317
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003740",
+      "person_idx": "0",
+      "expected_sha256": "817f41b88f69e87aaea6897b4f4ed1dc9caf5f351c5c683714383f0b01cb770b",
+      "regenerated_sha256": "817f41b88f69e87aaea6897b4f4ed1dc9caf5f351c5c683714383f0b01cb770b",
+      "match": true,
+      "bbox_scaled": [
+        197,
+        89,
+        381,
+        242
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003742",
+      "person_idx": "0",
+      "expected_sha256": "b176fd84dc5ce3600bb7f0357838c5ce7843033809b3f648fc389eb707bdaed3",
+      "regenerated_sha256": "b176fd84dc5ce3600bb7f0357838c5ce7843033809b3f648fc389eb707bdaed3",
+      "match": true,
+      "bbox_scaled": [
+        184,
+        38,
+        321,
+        262
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003747",
+      "person_idx": "0",
+      "expected_sha256": "431bb39f9dd95c6033699392097486cf053b0793591cc2ff5e656c65e91d21b4",
+      "regenerated_sha256": "431bb39f9dd95c6033699392097486cf053b0793591cc2ff5e656c65e91d21b4",
+      "match": true,
+      "bbox_scaled": [
+        207,
+        56,
+        344,
+        268
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003748",
+      "person_idx": "0",
+      "expected_sha256": "2cf4bff756d0f9ac9865db62df0f29c50354f60a4714d6e71a0d12a761e573c8",
+      "regenerated_sha256": "2cf4bff756d0f9ac9865db62df0f29c50354f60a4714d6e71a0d12a761e573c8",
+      "match": true,
+      "bbox_scaled": [
+        166,
+        53,
+        340,
+        325
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003752",
+      "person_idx": "0",
+      "expected_sha256": "34138caf35f2b28d3af75d4eeec6d999108fcfd05ea2b3d0f5a5298712721077",
+      "regenerated_sha256": "34138caf35f2b28d3af75d4eeec6d999108fcfd05ea2b3d0f5a5298712721077",
+      "match": true,
+      "bbox_scaled": [
+        113,
+        20,
+        315,
+        314
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003756",
+      "person_idx": "0",
+      "expected_sha256": "31ccfbcc0b432ec12bd827d6562df6a1ecc70e1bd89b23ac6df597e647e50a30",
+      "regenerated_sha256": "31ccfbcc0b432ec12bd827d6562df6a1ecc70e1bd89b23ac6df597e647e50a30",
+      "match": true,
+      "bbox_scaled": [
+        147,
+        55,
+        311,
+        284
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003759",
+      "person_idx": "0",
+      "expected_sha256": "353e1fe71e7f2b432347d91236693e70876e5d255f66178435c581424ee7fba0",
+      "regenerated_sha256": "353e1fe71e7f2b432347d91236693e70876e5d255f66178435c581424ee7fba0",
+      "match": true,
+      "bbox_scaled": [
+        195,
+        138,
+        293,
+        261
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003761",
+      "person_idx": "0",
+      "expected_sha256": "997fecdf335eaa79e9aaba89b8a6e6d90d2a7423ecc2ccb26f882c5314a62c4a",
+      "regenerated_sha256": "997fecdf335eaa79e9aaba89b8a6e6d90d2a7423ecc2ccb26f882c5314a62c4a",
+      "match": true,
+      "bbox_scaled": [
+        178,
+        89,
+        337,
+        308
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003762",
+      "person_idx": "0",
+      "expected_sha256": "bf52b0fc002e01e4655b3e439827e80e0a91e7bc7b99ec1996c5b9a50bacd4a8",
+      "regenerated_sha256": "bf52b0fc002e01e4655b3e439827e80e0a91e7bc7b99ec1996c5b9a50bacd4a8",
+      "match": true,
+      "bbox_scaled": [
+        124,
+        44,
+        304,
+        274
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003763",
+      "person_idx": "0",
+      "expected_sha256": "1ffa21a69a3c42bba2e3c6a718ffbcc8193891a6406d97519ece4cff3e1792b0",
+      "regenerated_sha256": "1ffa21a69a3c42bba2e3c6a718ffbcc8193891a6406d97519ece4cff3e1792b0",
+      "match": true,
+      "bbox_scaled": [
+        119,
+        0,
+        360,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003763",
+      "person_idx": "1",
+      "expected_sha256": "f6d15e028671f9a6e03555ec6a82c576b4ba9b635a533113436f598fb4370267",
+      "regenerated_sha256": "f6d15e028671f9a6e03555ec6a82c576b4ba9b635a533113436f598fb4370267",
+      "match": true,
+      "bbox_scaled": [
+        259,
+        67,
+        322,
+        224
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003764",
+      "person_idx": "0",
+      "expected_sha256": "892564c4190152f0bc195dc823a78d8f8fea83952d956e616c10ddbe1e21bcba",
+      "regenerated_sha256": "892564c4190152f0bc195dc823a78d8f8fea83952d956e616c10ddbe1e21bcba",
+      "match": true,
+      "bbox_scaled": [
+        101,
+        37,
+        293,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003765",
+      "person_idx": "0",
+      "expected_sha256": "cea52436d1b2883c1b5dbe269ccf0ffb0cfe633a184bf6eb29ef2a580c41846d",
+      "regenerated_sha256": "cea52436d1b2883c1b5dbe269ccf0ffb0cfe633a184bf6eb29ef2a580c41846d",
+      "match": true,
+      "bbox_scaled": [
+        186,
+        32,
+        376,
+        294
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003766",
+      "person_idx": "0",
+      "expected_sha256": "992fd72c7c6a7609365cd3cb924bd8a421e23feb969119e1a0cc78861cda5e38",
+      "regenerated_sha256": "992fd72c7c6a7609365cd3cb924bd8a421e23feb969119e1a0cc78861cda5e38",
+      "match": true,
+      "bbox_scaled": [
+        101,
+        14,
+        304,
+        311
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003767",
+      "person_idx": "0",
+      "expected_sha256": "de18ddaffa74fd9f5b7a07faa74057d3bacaab4ccc3b9028346817b50a19d256",
+      "regenerated_sha256": "de18ddaffa74fd9f5b7a07faa74057d3bacaab4ccc3b9028346817b50a19d256",
+      "match": true,
+      "bbox_scaled": [
+        78,
+        48,
+        242,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003768",
+      "person_idx": "0",
+      "expected_sha256": "ea1acae0d7fc61ef8107413c887747181d5bb470e70af43adc7ded86cb4f9e17",
+      "regenerated_sha256": "ea1acae0d7fc61ef8107413c887747181d5bb470e70af43adc7ded86cb4f9e17",
+      "match": true,
+      "bbox_scaled": [
+        138,
+        28,
+        299,
+        277
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003770",
+      "person_idx": "0",
+      "expected_sha256": "5848e1f9fa8cb97be98c0e05af4dceb43d999f76033c98694c48967fdf9db7d0",
+      "regenerated_sha256": "5848e1f9fa8cb97be98c0e05af4dceb43d999f76033c98694c48967fdf9db7d0",
+      "match": true,
+      "bbox_scaled": [
+        138,
+        55,
+        339,
+        318
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003771",
+      "person_idx": "0",
+      "expected_sha256": "190accf9039576398e991297dcf59accd1a638936b18d34e2c7beb638b32a6a8",
+      "regenerated_sha256": "190accf9039576398e991297dcf59accd1a638936b18d34e2c7beb638b32a6a8",
+      "match": true,
+      "bbox_scaled": [
+        77,
+        0,
+        346,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003771",
+      "person_idx": "2",
+      "expected_sha256": "81f43799ca0a5b5636e61fbd14fc219a7041648faf1b6798e1766df3ae98ded4",
+      "regenerated_sha256": "81f43799ca0a5b5636e61fbd14fc219a7041648faf1b6798e1766df3ae98ded4",
+      "match": true,
+      "bbox_scaled": [
+        356,
+        0,
+        448,
+        236
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003772",
+      "person_idx": "0",
+      "expected_sha256": "b0cd225fc6397a953bd9f717b09f64ccb26c9e841b679b789fd1533eacc51a09",
+      "regenerated_sha256": "b0cd225fc6397a953bd9f717b09f64ccb26c9e841b679b789fd1533eacc51a09",
+      "match": true,
+      "bbox_scaled": [
+        124,
+        0,
+        329,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003773",
+      "person_idx": "0",
+      "expected_sha256": "72853667e97bd0b58f4bee46141adbd941d9f020e2a9b50a7a0abbe23ce7b292",
+      "regenerated_sha256": "72853667e97bd0b58f4bee46141adbd941d9f020e2a9b50a7a0abbe23ce7b292",
+      "match": true,
+      "bbox_scaled": [
+        58,
+        0,
+        312,
+        331
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003774",
+      "person_idx": "0",
+      "expected_sha256": "c2608ae4bc5fc124c038ca7cb9bcaf4c6e40ecf0b212268a7a6c3d85c4c3ad72",
+      "regenerated_sha256": "c2608ae4bc5fc124c038ca7cb9bcaf4c6e40ecf0b212268a7a6c3d85c4c3ad72",
+      "match": true,
+      "bbox_scaled": [
+        132,
+        5,
+        344,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003775",
+      "person_idx": "0",
+      "expected_sha256": "45975da967617abb68a6637052131928088abe1373f43a24e1619bdac4c71541",
+      "regenerated_sha256": "45975da967617abb68a6637052131928088abe1373f43a24e1619bdac4c71541",
+      "match": true,
+      "bbox_scaled": [
+        132,
+        33,
+        303,
+        320
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003776",
+      "person_idx": "0",
+      "expected_sha256": "18c9763c42f5dc3cc04b34a39db637fb8d03fd53b03e898237575ba4778c1043",
+      "regenerated_sha256": "18c9763c42f5dc3cc04b34a39db637fb8d03fd53b03e898237575ba4778c1043",
+      "match": true,
+      "bbox_scaled": [
+        141,
+        51,
+        288,
+        266
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003777",
+      "person_idx": "0",
+      "expected_sha256": "199936b4fb53ba358606ba5d02e64a820f46d38d2194101c72a39d6c3687793a",
+      "regenerated_sha256": "199936b4fb53ba358606ba5d02e64a820f46d38d2194101c72a39d6c3687793a",
+      "match": true,
+      "bbox_scaled": [
+        178,
+        16,
+        311,
+        254
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003778",
+      "person_idx": "0",
+      "expected_sha256": "1e842780ff2a37a67f2e2d23c70a9f4e4ee7537965fd26f8d9fe305e725fffc1",
+      "regenerated_sha256": "1e842780ff2a37a67f2e2d23c70a9f4e4ee7537965fd26f8d9fe305e725fffc1",
+      "match": true,
+      "bbox_scaled": [
+        158,
+        37,
+        323,
+        333
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003779",
+      "person_idx": "0",
+      "expected_sha256": "69bf234ad62414391be1d7eb88288fea637e668de49254227bef2e4e1dabb67e",
+      "regenerated_sha256": "69bf234ad62414391be1d7eb88288fea637e668de49254227bef2e4e1dabb67e",
+      "match": true,
+      "bbox_scaled": [
+        137,
+        105,
+        248,
+        291
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003780",
+      "person_idx": "0",
+      "expected_sha256": "7c0346605ffb5e9a0c8e701975b8543f6b4f90b1b66203cf06e3a4bbc13e414d",
+      "regenerated_sha256": "7c0346605ffb5e9a0c8e701975b8543f6b4f90b1b66203cf06e3a4bbc13e414d",
+      "match": true,
+      "bbox_scaled": [
+        152,
+        69,
+        294,
+        273
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003781",
+      "person_idx": "0",
+      "expected_sha256": "0a984a0d0435a9788a2c3d6e5179b74e7a3f5f4017daf1810e10d9090ff363f8",
+      "regenerated_sha256": "0a984a0d0435a9788a2c3d6e5179b74e7a3f5f4017daf1810e10d9090ff363f8",
+      "match": true,
+      "bbox_scaled": [
+        93,
+        28,
+        256,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003781",
+      "person_idx": "2",
+      "expected_sha256": "0c58be7c0201b6b9fbb39d84f65f484d6e7a470036940f6bbcabbe5cda905024",
+      "regenerated_sha256": "0c58be7c0201b6b9fbb39d84f65f484d6e7a470036940f6bbcabbe5cda905024",
+      "match": true,
+      "bbox_scaled": [
+        168,
+        8,
+        248,
+        98
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003781",
+      "person_idx": "3",
+      "expected_sha256": "626a8bfc1dc5ebf4af690326b32fb9091b31ea49ea6a529775ecc0cc124709e3",
+      "regenerated_sha256": "626a8bfc1dc5ebf4af690326b32fb9091b31ea49ea6a529775ecc0cc124709e3",
+      "match": true,
+      "bbox_scaled": [
+        16,
+        0,
+        64,
+        166
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003781",
+      "person_idx": "4",
+      "expected_sha256": "ea6f7accc61b8adfc911a8d80d3461b52da864bd79762a9078af9f52127059f9",
+      "regenerated_sha256": "ea6f7accc61b8adfc911a8d80d3461b52da864bd79762a9078af9f52127059f9",
+      "match": true,
+      "bbox_scaled": [
+        0,
+        0,
+        46,
+        173
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003782",
+      "person_idx": "0",
+      "expected_sha256": "e71decf4526fda75e3a4cd0eeaa90877594cf5d44c46e2780f086883357d0789",
+      "regenerated_sha256": "e71decf4526fda75e3a4cd0eeaa90877594cf5d44c46e2780f086883357d0789",
+      "match": true,
+      "bbox_scaled": [
+        38,
+        79,
+        334,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003783",
+      "person_idx": "0",
+      "expected_sha256": "3ebcb4c52fa740abeb812afdf83d0dae61e9901d607672c03fa1cde2b4035145",
+      "regenerated_sha256": "3ebcb4c52fa740abeb812afdf83d0dae61e9901d607672c03fa1cde2b4035145",
+      "match": true,
+      "bbox_scaled": [
+        59,
+        86,
+        397,
+        270
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003784",
+      "person_idx": "0",
+      "expected_sha256": "44840114f92e5f660087e2b18a3ba00c6967c4ad893a70c471975928543d0dc2",
+      "regenerated_sha256": "44840114f92e5f660087e2b18a3ba00c6967c4ad893a70c471975928543d0dc2",
+      "match": true,
+      "bbox_scaled": [
+        12,
+        33,
+        448,
+        317
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003785",
+      "person_idx": "0",
+      "expected_sha256": "490910e85860594ac19a477901a96ac18a2ce2292223072cadcca60690182f58",
+      "regenerated_sha256": "490910e85860594ac19a477901a96ac18a2ce2292223072cadcca60690182f58",
+      "match": true,
+      "bbox_scaled": [
+        74,
+        81,
+        385,
+        330
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003786",
+      "person_idx": "0",
+      "expected_sha256": "331ceea39e03acf8be0e42169b6d1d26b8fd73e050e117f6678680c368c3a8c6",
+      "regenerated_sha256": "331ceea39e03acf8be0e42169b6d1d26b8fd73e050e117f6678680c368c3a8c6",
+      "match": true,
+      "bbox_scaled": [
+        74,
+        159,
+        352,
+        285
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003787",
+      "person_idx": "0",
+      "expected_sha256": "381699a05616da5614435f95257a77d4776b3fdd5827315cd5546e912c6ee22b",
+      "regenerated_sha256": "381699a05616da5614435f95257a77d4776b3fdd5827315cd5546e912c6ee22b",
+      "match": true,
+      "bbox_scaled": [
+        0,
+        23,
+        448,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003788",
+      "person_idx": "0",
+      "expected_sha256": "adc62562f841cc460287a77ab63d838af804dc0a25cfa80e59dc6ea303cf7936",
+      "regenerated_sha256": "adc62562f841cc460287a77ab63d838af804dc0a25cfa80e59dc6ea303cf7936",
+      "match": true,
+      "bbox_scaled": [
+        47,
+        104,
+        404,
+        323
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003789",
+      "person_idx": "0",
+      "expected_sha256": "5191d28310aea544dc8343ec5e403eba847fa22ff121b10be46859abb48a27eb",
+      "regenerated_sha256": "5191d28310aea544dc8343ec5e403eba847fa22ff121b10be46859abb48a27eb",
+      "match": true,
+      "bbox_scaled": [
+        198,
+        134,
+        330,
+        196
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003790",
+      "person_idx": "0",
+      "expected_sha256": "61c49f19e8c6bdb75cddd5216a213844a66d1734b816599bbd0008f3e8ee98be",
+      "regenerated_sha256": "61c49f19e8c6bdb75cddd5216a213844a66d1734b816599bbd0008f3e8ee98be",
+      "match": true,
+      "bbox_scaled": [
+        160,
+        116,
+        352,
+        306
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003791",
+      "person_idx": "0",
+      "expected_sha256": "f940150126cb7ec5cf0351fe732e9900efcdd6853ea5cd8354900ebd88140041",
+      "regenerated_sha256": "f940150126cb7ec5cf0351fe732e9900efcdd6853ea5cd8354900ebd88140041",
+      "match": true,
+      "bbox_scaled": [
+        74,
+        70,
+        339,
+        302
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003792",
+      "person_idx": "0",
+      "expected_sha256": "58f6a6c911db11a135e0a50e1f3177da356438205998d9210550cbedc514793d",
+      "regenerated_sha256": "58f6a6c911db11a135e0a50e1f3177da356438205998d9210550cbedc514793d",
+      "match": true,
+      "bbox_scaled": [
+        48,
+        47,
+        448,
+        289
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003793",
+      "person_idx": "0",
+      "expected_sha256": "578b597a3191efe15a7bbb9f69052aff1ca8e4455fdc9b1f0278d57a2dcaa4ac",
+      "regenerated_sha256": "578b597a3191efe15a7bbb9f69052aff1ca8e4455fdc9b1f0278d57a2dcaa4ac",
+      "match": true,
+      "bbox_scaled": [
+        59,
+        107,
+        433,
+        238
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003794",
+      "person_idx": "0",
+      "expected_sha256": "ef93a4ba7297022721790bc31c72064e6788a8c54fde6005472ccf88a564d1c9",
+      "regenerated_sha256": "ef93a4ba7297022721790bc31c72064e6788a8c54fde6005472ccf88a564d1c9",
+      "match": true,
+      "bbox_scaled": [
+        41,
+        40,
+        448,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003795",
+      "person_idx": "0",
+      "expected_sha256": "c9d590ddffb669bd53a6851a94f10ec3c5fe4056b263d0f9269b4556cddb15c3",
+      "regenerated_sha256": "c9d590ddffb669bd53a6851a94f10ec3c5fe4056b263d0f9269b4556cddb15c3",
+      "match": true,
+      "bbox_scaled": [
+        19,
+        84,
+        438,
+        237
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003796",
+      "person_idx": "0",
+      "expected_sha256": "26bf95a41febdad1a65af8abaae2011e4beca66e358921e758bef2c310fb0d65",
+      "regenerated_sha256": "26bf95a41febdad1a65af8abaae2011e4beca66e358921e758bef2c310fb0d65",
+      "match": true,
+      "bbox_scaled": [
+        0,
+        78,
+        372,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003797",
+      "person_idx": "0",
+      "expected_sha256": "9e4bdd1793c842329c767c056872bd8a8ad1a4f824d9b9e9b2c866eba2e5f78e",
+      "regenerated_sha256": "9e4bdd1793c842329c767c056872bd8a8ad1a4f824d9b9e9b2c866eba2e5f78e",
+      "match": true,
+      "bbox_scaled": [
+        95,
+        151,
+        351,
+        304
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003798",
+      "person_idx": "0",
+      "expected_sha256": "98e183735de16d893be1ee3b1668d20a4d2cde282142017b24850061b31c864a",
+      "regenerated_sha256": "98e183735de16d893be1ee3b1668d20a4d2cde282142017b24850061b31c864a",
+      "match": true,
+      "bbox_scaled": [
+        75,
+        130,
+        374,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003799",
+      "person_idx": "0",
+      "expected_sha256": "5ed28a504433fb67f53a24ee280e6d47c6afe7f6bcd69bd52d7d275cb3a9231c",
+      "regenerated_sha256": "5ed28a504433fb67f53a24ee280e6d47c6afe7f6bcd69bd52d7d275cb3a9231c",
+      "match": true,
+      "bbox_scaled": [
+        123,
+        173,
+        355,
+        266
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003800",
+      "person_idx": "0",
+      "expected_sha256": "1debb1158ce96d66f2fadb6fa7c9e35f99dcf44772fc5fee3f2b8ed1bdf60219",
+      "regenerated_sha256": "1debb1158ce96d66f2fadb6fa7c9e35f99dcf44772fc5fee3f2b8ed1bdf60219",
+      "match": true,
+      "bbox_scaled": [
+        0,
+        73,
+        448,
+        329
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003801",
+      "person_idx": "0",
+      "expected_sha256": "738bb7f0567265bba912961eb5a10ab9e254451943a6fffd9d06b6e8f12227ad",
+      "regenerated_sha256": "738bb7f0567265bba912961eb5a10ab9e254451943a6fffd9d06b6e8f12227ad",
+      "match": true,
+      "bbox_scaled": [
+        62,
+        99,
+        448,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003802",
+      "person_idx": "0",
+      "expected_sha256": "3490dd0d31104d272fa7de8d57909c6744f7262b89dea0e434e336b687bef9a3",
+      "regenerated_sha256": "3490dd0d31104d272fa7de8d57909c6744f7262b89dea0e434e336b687bef9a3",
+      "match": true,
+      "bbox_scaled": [
+        7,
+        20,
+        448,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003803",
+      "person_idx": "0",
+      "expected_sha256": "7844a804d3e98a488931208bc3765eb5c13605a0638e712aef20b7faf5e137b4",
+      "regenerated_sha256": "7844a804d3e98a488931208bc3765eb5c13605a0638e712aef20b7faf5e137b4",
+      "match": true,
+      "bbox_scaled": [
+        29,
+        51,
+        414,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003804",
+      "person_idx": "0",
+      "expected_sha256": "8ea0bbc41cec2e686f4d7d0e9940870eb4a3154d3bb257e09489879f45862ec4",
+      "regenerated_sha256": "8ea0bbc41cec2e686f4d7d0e9940870eb4a3154d3bb257e09489879f45862ec4",
+      "match": true,
+      "bbox_scaled": [
+        73,
+        0,
+        369,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003805",
+      "person_idx": "0",
+      "expected_sha256": "cff64ee88071d468be83bf64d7e722d142ab0cf74d8c7a91b2115c97e0f98990",
+      "regenerated_sha256": "cff64ee88071d468be83bf64d7e722d142ab0cf74d8c7a91b2115c97e0f98990",
+      "match": true,
+      "bbox_scaled": [
+        91,
+        81,
+        408,
+        332
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003806",
+      "person_idx": "0",
+      "expected_sha256": "0d4154ed273b4b2717aabb7e883b60225419f18f27a543cf23cf4988a0fb37c5",
+      "regenerated_sha256": "0d4154ed273b4b2717aabb7e883b60225419f18f27a543cf23cf4988a0fb37c5",
+      "match": true,
+      "bbox_scaled": [
+        92,
+        91,
+        363,
+        291
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003807",
+      "person_idx": "0",
+      "expected_sha256": "f0b831226b3d3185290983772826dbb8d9939a6100e4b4e139ff7e552b43cc85",
+      "regenerated_sha256": "f0b831226b3d3185290983772826dbb8d9939a6100e4b4e139ff7e552b43cc85",
+      "match": true,
+      "bbox_scaled": [
+        108,
+        65,
+        430,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003808",
+      "person_idx": "0",
+      "expected_sha256": "bfb9047190f83b5d355fecee55089e50e28f1e7f69e1c5516bab00aba2c08f2c",
+      "regenerated_sha256": "bfb9047190f83b5d355fecee55089e50e28f1e7f69e1c5516bab00aba2c08f2c",
+      "match": true,
+      "bbox_scaled": [
+        125,
+        118,
+        316,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003809",
+      "person_idx": "0",
+      "expected_sha256": "087f2a2b2b7d310d74cfddfd74a20a95ea34749cc8211dfd9e3db83052b7197c",
+      "regenerated_sha256": "087f2a2b2b7d310d74cfddfd74a20a95ea34749cc8211dfd9e3db83052b7197c",
+      "match": true,
+      "bbox_scaled": [
+        140,
+        55,
+        335,
+        171
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003810",
+      "person_idx": "0",
+      "expected_sha256": "f55f0e3b60331849322658810af4c99eb8973b7c03dda93aac30a65d27310574",
+      "regenerated_sha256": "f55f0e3b60331849322658810af4c99eb8973b7c03dda93aac30a65d27310574",
+      "match": true,
+      "bbox_scaled": [
+        71,
+        90,
+        331,
+        231
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003811",
+      "person_idx": "0",
+      "expected_sha256": "f41b88053d73f1987f694e813cc7a4eb398ba38fba605f3fa57e34db014eaafd",
+      "regenerated_sha256": "f41b88053d73f1987f694e813cc7a4eb398ba38fba605f3fa57e34db014eaafd",
+      "match": true,
+      "bbox_scaled": [
+        0,
+        45,
+        391,
+        312
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003882",
+      "person_idx": "0",
+      "expected_sha256": "6ddfcfd560b6fc1f69a3fa64206d6883d233a52a29e8ab041e5d4de36a406dc2",
+      "regenerated_sha256": "6ddfcfd560b6fc1f69a3fa64206d6883d233a52a29e8ab041e5d4de36a406dc2",
+      "match": true,
+      "bbox_scaled": [
+        197,
+        21,
+        250,
+        282
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003882",
+      "person_idx": "1",
+      "expected_sha256": "af970849c6c85988395a7558f8a62de7d646b3e478655b3c5136a4f147a21a0c",
+      "regenerated_sha256": "af970849c6c85988395a7558f8a62de7d646b3e478655b3c5136a4f147a21a0c",
+      "match": true,
+      "bbox_scaled": [
+        258,
+        25,
+        312,
+        287
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003883",
+      "person_idx": "1",
+      "expected_sha256": "98e98fa881d7a3b48daf62f1b421b39f36dc41e1d6be5806b529ddc6278c62a3",
+      "regenerated_sha256": "98e98fa881d7a3b48daf62f1b421b39f36dc41e1d6be5806b529ddc6278c62a3",
+      "match": true,
+      "bbox_scaled": [
+        205,
+        3,
+        241,
+        203
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003884",
+      "person_idx": "1",
+      "expected_sha256": "8afcbdb9425dee96a852cf879ae3035721ada1f8d19e02e12dee948adb54969d",
+      "regenerated_sha256": "8afcbdb9425dee96a852cf879ae3035721ada1f8d19e02e12dee948adb54969d",
+      "match": true,
+      "bbox_scaled": [
+        214,
+        0,
+        343,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003884",
+      "person_idx": "2",
+      "expected_sha256": "90dde640125083d0f4582cf622fcf13f020b405c848d8f3bf2156fc464bbb4b1",
+      "regenerated_sha256": "90dde640125083d0f4582cf622fcf13f020b405c848d8f3bf2156fc464bbb4b1",
+      "match": true,
+      "bbox_scaled": [
+        84,
+        0,
+        157,
+        267
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003885",
+      "person_idx": "0",
+      "expected_sha256": "18ce105bb9b59b9d5fc22afc1c0f584f39085e857e04415387d2c4f6416dff85",
+      "regenerated_sha256": "18ce105bb9b59b9d5fc22afc1c0f584f39085e857e04415387d2c4f6416dff85",
+      "match": true,
+      "bbox_scaled": [
+        107,
+        18,
+        146,
+        227
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003886",
+      "person_idx": "0",
+      "expected_sha256": "77d833694fc9a96cfeb4f0a10c949aee9796b1015e8886902e64f8de75af271f",
+      "regenerated_sha256": "77d833694fc9a96cfeb4f0a10c949aee9796b1015e8886902e64f8de75af271f",
+      "match": true,
+      "bbox_scaled": [
+        169,
+        41,
+        225,
+        261
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003886",
+      "person_idx": "1",
+      "expected_sha256": "7d38f4cc9bdeaf92809e1a66450aa23a26c85e5bf0280dbb800ab1287c3ddae6",
+      "regenerated_sha256": "7d38f4cc9bdeaf92809e1a66450aa23a26c85e5bf0280dbb800ab1287c3ddae6",
+      "match": true,
+      "bbox_scaled": [
+        222,
+        41,
+        265,
+        248
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003887",
+      "person_idx": "0",
+      "expected_sha256": "34a31c14642a4be011f53918fe4060580ab60b3b5c9e830e248ef03e859df3b1",
+      "regenerated_sha256": "34a31c14642a4be011f53918fe4060580ab60b3b5c9e830e248ef03e859df3b1",
+      "match": true,
+      "bbox_scaled": [
+        222,
+        43,
+        306,
+        335
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003888",
+      "person_idx": "0",
+      "expected_sha256": "289fb853915bb345d58f3ba4a76c62e0856959f05957586b7600d93fe0b3f270",
+      "regenerated_sha256": "289fb853915bb345d58f3ba4a76c62e0856959f05957586b7600d93fe0b3f270",
+      "match": true,
+      "bbox_scaled": [
+        200,
+        0,
+        280,
+        250
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003889",
+      "person_idx": "0",
+      "expected_sha256": "74da8e58f4a2eb931559c0d300b0d03780818d7ba1abd79776ed6ae2e3642bdd",
+      "regenerated_sha256": "74da8e58f4a2eb931559c0d300b0d03780818d7ba1abd79776ed6ae2e3642bdd",
+      "match": true,
+      "bbox_scaled": [
+        222,
+        64,
+        261,
+        246
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003889",
+      "person_idx": "2",
+      "expected_sha256": "6b5666e765b5fcae51874635bd88eb1e224da0faeb659655ac0f42a82ef538e4",
+      "regenerated_sha256": "6b5666e765b5fcae51874635bd88eb1e224da0faeb659655ac0f42a82ef538e4",
+      "match": true,
+      "bbox_scaled": [
+        175,
+        59,
+        230,
+        251
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003890",
+      "person_idx": "1",
+      "expected_sha256": "620c0aa6c41d2ede3f7777ae3852469cace8a141994c1cbf2d146ca50f3c7a1b",
+      "regenerated_sha256": "620c0aa6c41d2ede3f7777ae3852469cace8a141994c1cbf2d146ca50f3c7a1b",
+      "match": true,
+      "bbox_scaled": [
+        154,
+        48,
+        221,
+        311
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003891",
+      "person_idx": "1",
+      "expected_sha256": "071e065f19a5799799f62c0c2d4c48e0c7eb80da67a52b70a2e44d60c1ae8223",
+      "regenerated_sha256": "071e065f19a5799799f62c0c2d4c48e0c7eb80da67a52b70a2e44d60c1ae8223",
+      "match": true,
+      "bbox_scaled": [
+        132,
+        0,
+        203,
+        289
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003892",
+      "person_idx": "0",
+      "expected_sha256": "7f8bb9457bb690921ac3f25125ad8747963cdc1a9b2d5c6b391c4d92d0c914f4",
+      "regenerated_sha256": "7f8bb9457bb690921ac3f25125ad8747963cdc1a9b2d5c6b391c4d92d0c914f4",
+      "match": true,
+      "bbox_scaled": [
+        74,
+        0,
+        196,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003893",
+      "person_idx": "0",
+      "expected_sha256": "5bf64dc3c55e79e549b94291cc2f328ca7f902db5c1d50123978201ea03bb7c2",
+      "regenerated_sha256": "5bf64dc3c55e79e549b94291cc2f328ca7f902db5c1d50123978201ea03bb7c2",
+      "match": true,
+      "bbox_scaled": [
+        154,
+        0,
+        246,
+        332
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003893",
+      "person_idx": "1",
+      "expected_sha256": "ad9a28eb63682b5aadf7eca4d87d95d1ad0340e6bc80abba2303c9aa62fabf69",
+      "regenerated_sha256": "ad9a28eb63682b5aadf7eca4d87d95d1ad0340e6bc80abba2303c9aa62fabf69",
+      "match": true,
+      "bbox_scaled": [
+        250,
+        54,
+        300,
+        242
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003894",
+      "person_idx": "0",
+      "expected_sha256": "a1fec881da1526e588dd16fa0ead5a2698bb914ab91fc659c018efc8b933b79f",
+      "regenerated_sha256": "a1fec881da1526e588dd16fa0ead5a2698bb914ab91fc659c018efc8b933b79f",
+      "match": true,
+      "bbox_scaled": [
+        160,
+        0,
+        261,
+        324
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003894",
+      "person_idx": "1",
+      "expected_sha256": "26b572e54da13f1960b15fc2b9de4a9ee1b6a702426838cf75e2f0b33e68e459",
+      "regenerated_sha256": "26b572e54da13f1960b15fc2b9de4a9ee1b6a702426838cf75e2f0b33e68e459",
+      "match": true,
+      "bbox_scaled": [
+        220,
+        35,
+        265,
+        246
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003895",
+      "person_idx": "0",
+      "expected_sha256": "7bae8a60074523b68ac4a4b1210ffeac52f004761eccefdf3fcf9dfc4b30fcbf",
+      "regenerated_sha256": "7bae8a60074523b68ac4a4b1210ffeac52f004761eccefdf3fcf9dfc4b30fcbf",
+      "match": true,
+      "bbox_scaled": [
+        142,
+        0,
+        234,
+        322
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003896",
+      "person_idx": "0",
+      "expected_sha256": "79f724e21230d145bece886b454fbda454fd03b8a23e5a0c32f1140f2b27cf81",
+      "regenerated_sha256": "79f724e21230d145bece886b454fbda454fd03b8a23e5a0c32f1140f2b27cf81",
+      "match": true,
+      "bbox_scaled": [
+        218,
+        69,
+        274,
+        256
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003897",
+      "person_idx": "0",
+      "expected_sha256": "26026fea87c2ab4f8b22f13068eeeeab7146980ac4a6fa219cfcbaf1c5b2fc96",
+      "regenerated_sha256": "26026fea87c2ab4f8b22f13068eeeeab7146980ac4a6fa219cfcbaf1c5b2fc96",
+      "match": true,
+      "bbox_scaled": [
+        167,
+        28,
+        249,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003898",
+      "person_idx": "1",
+      "expected_sha256": "c77b5c3b49f5f2f34a8d9564542bc875aafc9bc4680428a1617e8987cc224791",
+      "regenerated_sha256": "c77b5c3b49f5f2f34a8d9564542bc875aafc9bc4680428a1617e8987cc224791",
+      "match": true,
+      "bbox_scaled": [
+        254,
+        3,
+        303,
+        211
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003899",
+      "person_idx": "0",
+      "expected_sha256": "c7d2d62b059fd637d93f76c4e41632f7554493bae4768574643b2af1eb7bcc70",
+      "regenerated_sha256": "c7d2d62b059fd637d93f76c4e41632f7554493bae4768574643b2af1eb7bcc70",
+      "match": true,
+      "bbox_scaled": [
+        153,
+        0,
+        230,
+        254
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003900",
+      "person_idx": "0",
+      "expected_sha256": "71e6dfa2eb233ace7e783ad18d7987fce56537b48f28398336b38b41085bc8ed",
+      "regenerated_sha256": "71e6dfa2eb233ace7e783ad18d7987fce56537b48f28398336b38b41085bc8ed",
+      "match": true,
+      "bbox_scaled": [
+        162,
+        0,
+        264,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003900",
+      "person_idx": "1",
+      "expected_sha256": "97b1db58641c1be0d1de99449e4733d203d0f3a34276849883f0f8a457f1d520",
+      "regenerated_sha256": "97b1db58641c1be0d1de99449e4733d203d0f3a34276849883f0f8a457f1d520",
+      "match": true,
+      "bbox_scaled": [
+        102,
+        73,
+        166,
+        306
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003901",
+      "person_idx": "0",
+      "expected_sha256": "273d6aa4393a7e874783b1cfa880a8e38c0e4752ddac01005b698508960f5654",
+      "regenerated_sha256": "273d6aa4393a7e874783b1cfa880a8e38c0e4752ddac01005b698508960f5654",
+      "match": true,
+      "bbox_scaled": [
+        49,
+        0,
+        181,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003901",
+      "person_idx": "1",
+      "expected_sha256": "fff4dc403e5b19eab6b2aef8e837ad78293ba5cdb33e0d3bcff927c2ec803f53",
+      "regenerated_sha256": "fff4dc403e5b19eab6b2aef8e837ad78293ba5cdb33e0d3bcff927c2ec803f53",
+      "match": true,
+      "bbox_scaled": [
+        339,
+        0,
+        395,
+        196
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003902",
+      "person_idx": "0",
+      "expected_sha256": "b0e55c8140aba3b6ff22687f8efdf2218e0913305794851c182c8f468717c606",
+      "regenerated_sha256": "b0e55c8140aba3b6ff22687f8efdf2218e0913305794851c182c8f468717c606",
+      "match": true,
+      "bbox_scaled": [
+        107,
+        0,
+        340,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003912",
+      "person_idx": "2",
+      "expected_sha256": "14a0d4c6642d22d02c1468f703fc644f6178463d3e3ddcb9b155f6d3de136b99",
+      "regenerated_sha256": "14a0d4c6642d22d02c1468f703fc644f6178463d3e3ddcb9b155f6d3de136b99",
+      "match": true,
+      "bbox_scaled": [
+        273,
+        58,
+        355,
+        221
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003912",
+      "person_idx": "3",
+      "expected_sha256": "8e5dc7b6276880a92619072bff05c7835fb006a08f9acb9765032c902fb24f63",
+      "regenerated_sha256": "8e5dc7b6276880a92619072bff05c7835fb006a08f9acb9765032c902fb24f63",
+      "match": true,
+      "bbox_scaled": [
+        233,
+        63,
+        276,
+        213
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003913",
+      "person_idx": "3",
+      "expected_sha256": "f15f59ea04109e868ad7f11d5de16f075656405c30a1200aad57f9b3f0090012",
+      "regenerated_sha256": "f15f59ea04109e868ad7f11d5de16f075656405c30a1200aad57f9b3f0090012",
+      "match": true,
+      "bbox_scaled": [
+        129,
+        1,
+        302,
+        296
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003915",
+      "person_idx": "2",
+      "expected_sha256": "6576f1ce1d332bf6a02a894829b166c5bb300a66f9740eb93f96ceb6e95e8943",
+      "regenerated_sha256": "6576f1ce1d332bf6a02a894829b166c5bb300a66f9740eb93f96ceb6e95e8943",
+      "match": true,
+      "bbox_scaled": [
+        143,
+        88,
+        259,
+        278
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003915",
+      "person_idx": "3",
+      "expected_sha256": "47019ba03c751a3070342e432274b0b211b0e060f6b0bc279003110d94b9e90d",
+      "regenerated_sha256": "47019ba03c751a3070342e432274b0b211b0e060f6b0bc279003110d94b9e90d",
+      "match": true,
+      "bbox_scaled": [
+        217,
+        85,
+        277,
+        217
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003916",
+      "person_idx": "3",
+      "expected_sha256": "4baedf725cfe6e5c6d1e44c3a93e808e86633edea3d9aa459e3182eab886b407",
+      "regenerated_sha256": "4baedf725cfe6e5c6d1e44c3a93e808e86633edea3d9aa459e3182eab886b407",
+      "match": true,
+      "bbox_scaled": [
+        210,
+        33,
+        280,
+        206
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003917",
+      "person_idx": "0",
+      "expected_sha256": "ab15bb3d150ac8f1517d781e5c3724a0a611731e2e4c1f677020e3b72e550b9e",
+      "regenerated_sha256": "ab15bb3d150ac8f1517d781e5c3724a0a611731e2e4c1f677020e3b72e550b9e",
+      "match": true,
+      "bbox_scaled": [
+        121,
+        35,
+        291,
+        278
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003917",
+      "person_idx": "3",
+      "expected_sha256": "9cf6d2523f0dc9beb6be17b00e8ccd22e145fce17cd937279c091de20e714e9d",
+      "regenerated_sha256": "9cf6d2523f0dc9beb6be17b00e8ccd22e145fce17cd937279c091de20e714e9d",
+      "match": true,
+      "bbox_scaled": [
+        50,
+        36,
+        92,
+        158
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003917",
+      "person_idx": "5",
+      "expected_sha256": "7d7fb25e2b6f5a70e37499e24f2537ad4506c57b0d3384dc8656307381785a06",
+      "regenerated_sha256": "7d7fb25e2b6f5a70e37499e24f2537ad4506c57b0d3384dc8656307381785a06",
+      "match": true,
+      "bbox_scaled": [
+        143,
+        22,
+        216,
+        280
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003920",
+      "person_idx": "0",
+      "expected_sha256": "4af12727e81dc965b21d101a307e800820d8478d2aea751ccf969c044e186b2b",
+      "regenerated_sha256": "4af12727e81dc965b21d101a307e800820d8478d2aea751ccf969c044e186b2b",
+      "match": true,
+      "bbox_scaled": [
+        214,
+        41,
+        359,
+        329
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003921",
+      "person_idx": "0",
+      "expected_sha256": "c1b5bbda674b4f9c34a04ddcf49a05605e4c005fcfc9b2619c57fb1978f899c2",
+      "regenerated_sha256": "c1b5bbda674b4f9c34a04ddcf49a05605e4c005fcfc9b2619c57fb1978f899c2",
+      "match": true,
+      "bbox_scaled": [
+        240,
+        42,
+        448,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003924",
+      "person_idx": "0",
+      "expected_sha256": "79703f74f50820367cf18ff06321c02b4c02b8247bfda342e54afe29c945f9c3",
+      "regenerated_sha256": "79703f74f50820367cf18ff06321c02b4c02b8247bfda342e54afe29c945f9c3",
+      "match": true,
+      "bbox_scaled": [
+        222,
+        0,
+        333,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003928",
+      "person_idx": "0",
+      "expected_sha256": "59f30a9550e3be5bb911a43987b4f07661442db65f9908b28064eda8def48ce1",
+      "regenerated_sha256": "59f30a9550e3be5bb911a43987b4f07661442db65f9908b28064eda8def48ce1",
+      "match": true,
+      "bbox_scaled": [
+        193,
+        0,
+        323,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003929",
+      "person_idx": "0",
+      "expected_sha256": "6ffe782de0af55d3cdb0471188ae3f9cef50ebb1850dbac123858261078c31f2",
+      "regenerated_sha256": "6ffe782de0af55d3cdb0471188ae3f9cef50ebb1850dbac123858261078c31f2",
+      "match": true,
+      "bbox_scaled": [
+        220,
+        18,
+        295,
+        275
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003932",
+      "person_idx": "0",
+      "expected_sha256": "71fbaaafbfe5d874fcfdcd9923b1631f9e88efcd8fa74c58dd506ebab0abef3e",
+      "regenerated_sha256": "71fbaaafbfe5d874fcfdcd9923b1631f9e88efcd8fa74c58dd506ebab0abef3e",
+      "match": true,
+      "bbox_scaled": [
+        120,
+        0,
+        215,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003932",
+      "person_idx": "2",
+      "expected_sha256": "2e0fa8005549629dacd5fe6ce932ed8fc0ee33e4639fcad45a794a714e9534e7",
+      "regenerated_sha256": "2e0fa8005549629dacd5fe6ce932ed8fc0ee33e4639fcad45a794a714e9534e7",
+      "match": true,
+      "bbox_scaled": [
+        401,
+        29,
+        436,
+        180
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003934",
+      "person_idx": "0",
+      "expected_sha256": "e5d0fd5cf54aae50f5b21a68df6c2cfe032538f1fcf1836cffc139a24e8abebb",
+      "regenerated_sha256": "e5d0fd5cf54aae50f5b21a68df6c2cfe032538f1fcf1836cffc139a24e8abebb",
+      "match": true,
+      "bbox_scaled": [
+        218,
+        0,
+        336,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003934",
+      "person_idx": "1",
+      "expected_sha256": "5edf202bb1ec9de5a250910c84617973deb49e418b6bbd3f04c87e5fb5c8d13e",
+      "regenerated_sha256": "5edf202bb1ec9de5a250910c84617973deb49e418b6bbd3f04c87e5fb5c8d13e",
+      "match": true,
+      "bbox_scaled": [
+        173,
+        45,
+        213,
+        206
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003935",
+      "person_idx": "0",
+      "expected_sha256": "0cb3c31f05a971d229cc7f3366686341ddf84db42f87e42cdc068bd65d50d140",
+      "regenerated_sha256": "0cb3c31f05a971d229cc7f3366686341ddf84db42f87e42cdc068bd65d50d140",
+      "match": true,
+      "bbox_scaled": [
+        0,
+        0,
+        136,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003935",
+      "person_idx": "1",
+      "expected_sha256": "2c9aa19da5fc518a2483ed40b712d76670bcf9e298945a7190491e8dca328ff3",
+      "regenerated_sha256": "2c9aa19da5fc518a2483ed40b712d76670bcf9e298945a7190491e8dca328ff3",
+      "match": true,
+      "bbox_scaled": [
+        112,
+        0,
+        194,
+        255
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003936",
+      "person_idx": "1",
+      "expected_sha256": "809da03463ecee5677773783037481da9dd56073533ddf7ad7fcca2ae1fc3eac",
+      "regenerated_sha256": "809da03463ecee5677773783037481da9dd56073533ddf7ad7fcca2ae1fc3eac",
+      "match": true,
+      "bbox_scaled": [
+        106,
+        3,
+        163,
+        203
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003937",
+      "person_idx": "1",
+      "expected_sha256": "7b2572e56d7ec9c0194ca45fde58289005ad485ab36ab50419f512960b45b171",
+      "regenerated_sha256": "7b2572e56d7ec9c0194ca45fde58289005ad485ab36ab50419f512960b45b171",
+      "match": true,
+      "bbox_scaled": [
+        197,
+        0,
+        269,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003938",
+      "person_idx": "0",
+      "expected_sha256": "73871439cbc90f56b74f2e038a5e47f9aca18dcc2faed72184f8287918b8a954",
+      "regenerated_sha256": "73871439cbc90f56b74f2e038a5e47f9aca18dcc2faed72184f8287918b8a954",
+      "match": true,
+      "bbox_scaled": [
+        233,
+        0,
+        365,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003939",
+      "person_idx": "0",
+      "expected_sha256": "29dd27052ab094bcec960e19a7b0f781968697ba9882318bf522689783b1fe9a",
+      "regenerated_sha256": "29dd27052ab094bcec960e19a7b0f781968697ba9882318bf522689783b1fe9a",
+      "match": true,
+      "bbox_scaled": [
+        303,
+        101,
+        360,
+        297
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003940",
+      "person_idx": "0",
+      "expected_sha256": "58447964eb78f3338e84e22dc3f000cba4b821afee1e3a3a3f2a9ef9379b69a3",
+      "regenerated_sha256": "58447964eb78f3338e84e22dc3f000cba4b821afee1e3a3a3f2a9ef9379b69a3",
+      "match": true,
+      "bbox_scaled": [
+        60,
+        0,
+        175,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003940",
+      "person_idx": "1",
+      "expected_sha256": "5b5ec9e2568c6932cfe277f175feff465c32380054a8f971151035f0ee6ef44c",
+      "regenerated_sha256": "5b5ec9e2568c6932cfe277f175feff465c32380054a8f971151035f0ee6ef44c",
+      "match": true,
+      "bbox_scaled": [
+        41,
+        11,
+        102,
+        230
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003941",
+      "person_idx": "0",
+      "expected_sha256": "c3a9145abad780359dd01d5f950991a88a7e1e0ab87d35a0697eb1fc2085ba8a",
+      "regenerated_sha256": "c3a9145abad780359dd01d5f950991a88a7e1e0ab87d35a0697eb1fc2085ba8a",
+      "match": true,
+      "bbox_scaled": [
+        263,
+        1,
+        332,
+        256
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003982",
+      "person_idx": "0",
+      "expected_sha256": "10f495478068f2011d2b8552e7c7f673a3b4b24f3fba7ce0bb8cfabe5d504c21",
+      "regenerated_sha256": "10f495478068f2011d2b8552e7c7f673a3b4b24f3fba7ce0bb8cfabe5d504c21",
+      "match": true,
+      "bbox_scaled": [
+        15,
+        111,
+        448,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003983",
+      "person_idx": "0",
+      "expected_sha256": "605b275e296b896130187407091a196dfd7faf8fbeef0b9d81f69abd3e8d3e0e",
+      "regenerated_sha256": "605b275e296b896130187407091a196dfd7faf8fbeef0b9d81f69abd3e8d3e0e",
+      "match": true,
+      "bbox_scaled": [
+        0,
+        122,
+        448,
+        300
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003984",
+      "person_idx": "0",
+      "expected_sha256": "b50c88e79b905ac8e2ecfefbed05f975bd7fc764878f596127fb97d2d7c9a3d8",
+      "regenerated_sha256": "b50c88e79b905ac8e2ecfefbed05f975bd7fc764878f596127fb97d2d7c9a3d8",
+      "match": true,
+      "bbox_scaled": [
+        59,
+        111,
+        443,
+        292
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003985",
+      "person_idx": "0",
+      "expected_sha256": "499a2b4058ee094742b7f6a838fdb3554b54ef79520a7a507be37af7b20cef9a",
+      "regenerated_sha256": "499a2b4058ee094742b7f6a838fdb3554b54ef79520a7a507be37af7b20cef9a",
+      "match": true,
+      "bbox_scaled": [
+        59,
+        168,
+        387,
+        274
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003986",
+      "person_idx": "0",
+      "expected_sha256": "821e6f47897b00cfb4a56001f1565f1936ff0100ebd2750f35164c59f39b7f34",
+      "regenerated_sha256": "821e6f47897b00cfb4a56001f1565f1936ff0100ebd2750f35164c59f39b7f34",
+      "match": true,
+      "bbox_scaled": [
+        82,
+        129,
+        415,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003987",
+      "person_idx": "0",
+      "expected_sha256": "14ec32e20bb7c8a06b42c08350a8a006237a176539bd59d80d3ad9da41be5d43",
+      "regenerated_sha256": "14ec32e20bb7c8a06b42c08350a8a006237a176539bd59d80d3ad9da41be5d43",
+      "match": true,
+      "bbox_scaled": [
+        58,
+        110,
+        353,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003988",
+      "person_idx": "0",
+      "expected_sha256": "d157b36945b1671056246e45d2ee94d719fcf8a3d8ba1e21962adacf32a37526",
+      "regenerated_sha256": "d157b36945b1671056246e45d2ee94d719fcf8a3d8ba1e21962adacf32a37526",
+      "match": true,
+      "bbox_scaled": [
+        20,
+        38,
+        448,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003989",
+      "person_idx": "0",
+      "expected_sha256": "cfa4914249b6ff05070b56a619e8789433db40916838b4fc1e4ef50d6112112e",
+      "regenerated_sha256": "cfa4914249b6ff05070b56a619e8789433db40916838b4fc1e4ef50d6112112e",
+      "match": true,
+      "bbox_scaled": [
+        81,
+        186,
+        370,
+        302
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003990",
+      "person_idx": "0",
+      "expected_sha256": "05826d9000f72b9982cf326d8e8efef3686420e8ae8f1ed1f1354227792fd52f",
+      "regenerated_sha256": "05826d9000f72b9982cf326d8e8efef3686420e8ae8f1ed1f1354227792fd52f",
+      "match": true,
+      "bbox_scaled": [
+        11,
+        119,
+        398,
+        297
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003991",
+      "person_idx": "0",
+      "expected_sha256": "ed0a6cdd1dfc63661bf0a6dce26c6fe431bbeb61b56780596a8ed65ce5c7a613",
+      "regenerated_sha256": "ed0a6cdd1dfc63661bf0a6dce26c6fe431bbeb61b56780596a8ed65ce5c7a613",
+      "match": true,
+      "bbox_scaled": [
+        6,
+        95,
+        435,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003992",
+      "person_idx": "0",
+      "expected_sha256": "75da3a1299f0da60058cf190124c35e17012e08aab85b22147cc19088015a2b3",
+      "regenerated_sha256": "75da3a1299f0da60058cf190124c35e17012e08aab85b22147cc19088015a2b3",
+      "match": true,
+      "bbox_scaled": [
+        2,
+        136,
+        382,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003993",
+      "person_idx": "0",
+      "expected_sha256": "cfb604baf0a7ad412e2d2ac67bb4397061ba98f1ef56629a94a4b5a2f4bbd6e5",
+      "regenerated_sha256": "cfb604baf0a7ad412e2d2ac67bb4397061ba98f1ef56629a94a4b5a2f4bbd6e5",
+      "match": true,
+      "bbox_scaled": [
+        0,
+        82,
+        448,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003994",
+      "person_idx": "0",
+      "expected_sha256": "e697f5544a4e02ebec22c4af323f01630b1afa67610c190f346cceed154690aa",
+      "regenerated_sha256": "e697f5544a4e02ebec22c4af323f01630b1afa67610c190f346cceed154690aa",
+      "match": true,
+      "bbox_scaled": [
+        82,
+        115,
+        373,
+        314
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003995",
+      "person_idx": "0",
+      "expected_sha256": "b3746f3b587d36a2564dbdb64b0a4c2f87b5300745ce9da71c94eed692590071",
+      "regenerated_sha256": "b3746f3b587d36a2564dbdb64b0a4c2f87b5300745ce9da71c94eed692590071",
+      "match": true,
+      "bbox_scaled": [
+        43,
+        63,
+        319,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003996",
+      "person_idx": "0",
+      "expected_sha256": "836f95111c8393b27eb6ce3030e4a38d1cfce3a8a6da11eba09f4633099c403f",
+      "regenerated_sha256": "836f95111c8393b27eb6ce3030e4a38d1cfce3a8a6da11eba09f4633099c403f",
+      "match": true,
+      "bbox_scaled": [
+        16,
+        62,
+        427,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003997",
+      "person_idx": "0",
+      "expected_sha256": "009bcf3c742f1f221b6dd76f8f6253a32ab18b16c2272825712fe986fac3ab58",
+      "regenerated_sha256": "009bcf3c742f1f221b6dd76f8f6253a32ab18b16c2272825712fe986fac3ab58",
+      "match": true,
+      "bbox_scaled": [
+        78,
+        136,
+        403,
+        315
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003998",
+      "person_idx": "0",
+      "expected_sha256": "59be901905d080ca629c685d11f0bb8b2fa2a43e391f1d04115b8f95da07a9fb",
+      "regenerated_sha256": "59be901905d080ca629c685d11f0bb8b2fa2a43e391f1d04115b8f95da07a9fb",
+      "match": true,
+      "bbox_scaled": [
+        0,
+        35,
+        401,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_003999",
+      "person_idx": "0",
+      "expected_sha256": "d41e450d1e71046b35965dc76684be4b27b5f04c9d7e7a5751e67a84c52b0421",
+      "regenerated_sha256": "d41e450d1e71046b35965dc76684be4b27b5f04c9d7e7a5751e67a84c52b0421",
+      "match": true,
+      "bbox_scaled": [
+        38,
+        147,
+        409,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004000",
+      "person_idx": "0",
+      "expected_sha256": "4daf64b71a6a14e2f6d0e0e0753480ce04b6d38959046cd6ef6ffeb00dd9121b",
+      "regenerated_sha256": "4daf64b71a6a14e2f6d0e0e0753480ce04b6d38959046cd6ef6ffeb00dd9121b",
+      "match": true,
+      "bbox_scaled": [
+        59,
+        135,
+        349,
+        335
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004001",
+      "person_idx": "0",
+      "expected_sha256": "7160f9cd067689a80a91fa1046544fac7c9ad51c92ab7d7ec3b982f5fdc64a4d",
+      "regenerated_sha256": "7160f9cd067689a80a91fa1046544fac7c9ad51c92ab7d7ec3b982f5fdc64a4d",
+      "match": true,
+      "bbox_scaled": [
+        0,
+        53,
+        430,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004002",
+      "person_idx": "0",
+      "expected_sha256": "94320b514617d792cf4db29176cdbb3542803255bc18bcda71ba014a18c25127",
+      "regenerated_sha256": "94320b514617d792cf4db29176cdbb3542803255bc18bcda71ba014a18c25127",
+      "match": true,
+      "bbox_scaled": [
+        24,
+        73,
+        442,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004003",
+      "person_idx": "0",
+      "expected_sha256": "1b470c8ffb5c0dfc70ace4014d2cf989068ec68747d02a0185afb0dbc440131c",
+      "regenerated_sha256": "1b470c8ffb5c0dfc70ace4014d2cf989068ec68747d02a0185afb0dbc440131c",
+      "match": true,
+      "bbox_scaled": [
+        0,
+        129,
+        448,
+        289
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004003",
+      "person_idx": "1",
+      "expected_sha256": "46f0ffa37861559900d5e5a6c0d690f2a51d4d60ca7b8213bfc3498de8c56477",
+      "regenerated_sha256": "46f0ffa37861559900d5e5a6c0d690f2a51d4d60ca7b8213bfc3498de8c56477",
+      "match": true,
+      "bbox_scaled": [
+        0,
+        2,
+        20,
+        213
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004004",
+      "person_idx": "0",
+      "expected_sha256": "75cb31c47281df9cd7f834e0d429ed1516f62968895f049b066512721e6a63e1",
+      "regenerated_sha256": "75cb31c47281df9cd7f834e0d429ed1516f62968895f049b066512721e6a63e1",
+      "match": true,
+      "bbox_scaled": [
+        139,
+        68,
+        448,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004005",
+      "person_idx": "0",
+      "expected_sha256": "6516a10d15a94b3b5961f2c384aab939b677f13eb3203efbb3c2eefc36b5aaef",
+      "regenerated_sha256": "6516a10d15a94b3b5961f2c384aab939b677f13eb3203efbb3c2eefc36b5aaef",
+      "match": true,
+      "bbox_scaled": [
+        4,
+        97,
+        395,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004006",
+      "person_idx": "0",
+      "expected_sha256": "464937759b0a8e867fb863fee22a8e67d76945bfebe88e4d9308d55388cad44c",
+      "regenerated_sha256": "464937759b0a8e867fb863fee22a8e67d76945bfebe88e4d9308d55388cad44c",
+      "match": true,
+      "bbox_scaled": [
+        52,
+        124,
+        387,
+        295
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004007",
+      "person_idx": "0",
+      "expected_sha256": "8cbc92feae383a0998be0ec5cd7dfde8cf18a4b69c3cdaef7e95e4f6dbfe358b",
+      "regenerated_sha256": "8cbc92feae383a0998be0ec5cd7dfde8cf18a4b69c3cdaef7e95e4f6dbfe358b",
+      "match": true,
+      "bbox_scaled": [
+        10,
+        121,
+        408,
+        314
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004008",
+      "person_idx": "0",
+      "expected_sha256": "6581f567731c80fefe10cdbad2345d88a433d1c6a7a3163a017ca9f67fed552b",
+      "regenerated_sha256": "6581f567731c80fefe10cdbad2345d88a433d1c6a7a3163a017ca9f67fed552b",
+      "match": true,
+      "bbox_scaled": [
+        0,
+        39,
+        421,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004009",
+      "person_idx": "0",
+      "expected_sha256": "4532661a5fb72f41ffc09ae50d692fbf01e2252f0b0dd1e0d669edefae060608",
+      "regenerated_sha256": "4532661a5fb72f41ffc09ae50d692fbf01e2252f0b0dd1e0d669edefae060608",
+      "match": true,
+      "bbox_scaled": [
+        61,
+        131,
+        270,
+        250
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004010",
+      "person_idx": "0",
+      "expected_sha256": "c985194b10de98b6e783b6c6f6fc9e820007da6a821e9ed778d8bfbd24ac915f",
+      "regenerated_sha256": "c985194b10de98b6e783b6c6f6fc9e820007da6a821e9ed778d8bfbd24ac915f",
+      "match": true,
+      "bbox_scaled": [
+        80,
+        128,
+        364,
+        250
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004011",
+      "person_idx": "0",
+      "expected_sha256": "3751ca4deec8629eaf6f9d0a6c5068bd908ac5a62c8c40e1a0f43807fa8e94e9",
+      "regenerated_sha256": "3751ca4deec8629eaf6f9d0a6c5068bd908ac5a62c8c40e1a0f43807fa8e94e9",
+      "match": true,
+      "bbox_scaled": [
+        31,
+        124,
+        418,
+        314
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004012",
+      "person_idx": "0",
+      "expected_sha256": "366d4744a054def6c56738cb07bb7f5bb57e46cb2c1cfbd9af0819254f523e1d",
+      "regenerated_sha256": "366d4744a054def6c56738cb07bb7f5bb57e46cb2c1cfbd9af0819254f523e1d",
+      "match": true,
+      "bbox_scaled": [
+        0,
+        72,
+        448,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004013",
+      "person_idx": "0",
+      "expected_sha256": "cb7dfdcf6291bd39a69afd1ddf5e404bc923378d39d82a71cc118d096fb74f56",
+      "regenerated_sha256": "cb7dfdcf6291bd39a69afd1ddf5e404bc923378d39d82a71cc118d096fb74f56",
+      "match": true,
+      "bbox_scaled": [
+        0,
+        114,
+        448,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004014",
+      "person_idx": "0",
+      "expected_sha256": "b1f28fa84b777d6849c438f5f7f0fba5bcd81a3a623b96de2ffe63a38cdd5920",
+      "regenerated_sha256": "b1f28fa84b777d6849c438f5f7f0fba5bcd81a3a623b96de2ffe63a38cdd5920",
+      "match": true,
+      "bbox_scaled": [
+        58,
+        21,
+        431,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004015",
+      "person_idx": "0",
+      "expected_sha256": "d53510b18ec740557fed1ec31b885561df6254763c5205bd7008757d762150ff",
+      "regenerated_sha256": "d53510b18ec740557fed1ec31b885561df6254763c5205bd7008757d762150ff",
+      "match": true,
+      "bbox_scaled": [
+        74,
+        108,
+        328,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004016",
+      "person_idx": "0",
+      "expected_sha256": "e6adfa95179e4f8d1f8174579d3f655d6c96ca5a2664d02ba812225c0de0692b",
+      "regenerated_sha256": "e6adfa95179e4f8d1f8174579d3f655d6c96ca5a2664d02ba812225c0de0692b",
+      "match": true,
+      "bbox_scaled": [
+        18,
+        82,
+        443,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004017",
+      "person_idx": "0",
+      "expected_sha256": "51ca57c080d5c83639994b8dbffac2dabb49db1cdc7a4593150e73c680c160e9",
+      "regenerated_sha256": "51ca57c080d5c83639994b8dbffac2dabb49db1cdc7a4593150e73c680c160e9",
+      "match": true,
+      "bbox_scaled": [
+        76,
+        91,
+        433,
+        315
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004018",
+      "person_idx": "0",
+      "expected_sha256": "1aa65e846d1d7e7265d2f0c8e5214c42fe2273620bba8779ef3ca3f5441d8163",
+      "regenerated_sha256": "1aa65e846d1d7e7265d2f0c8e5214c42fe2273620bba8779ef3ca3f5441d8163",
+      "match": true,
+      "bbox_scaled": [
+        0,
+        23,
+        448,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004019",
+      "person_idx": "0",
+      "expected_sha256": "1a00be05bdb857c1d729787617f13bd64323a0cc802e8dc0b561e3f1d53ed622",
+      "regenerated_sha256": "1a00be05bdb857c1d729787617f13bd64323a0cc802e8dc0b561e3f1d53ed622",
+      "match": true,
+      "bbox_scaled": [
+        81,
+        132,
+        342,
+        267
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004020",
+      "person_idx": "0",
+      "expected_sha256": "29a0a525c7e0dc72ddd77a689524d6d7ee43b6d471650f524850a718513bd808",
+      "regenerated_sha256": "29a0a525c7e0dc72ddd77a689524d6d7ee43b6d471650f524850a718513bd808",
+      "match": true,
+      "bbox_scaled": [
+        59,
+        153,
+        397,
+        288
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004021",
+      "person_idx": "0",
+      "expected_sha256": "c3f0b52546b9324cff8df0c5e0e82db5455385c6bdedcc8e523a7d07d8a501a6",
+      "regenerated_sha256": "c3f0b52546b9324cff8df0c5e0e82db5455385c6bdedcc8e523a7d07d8a501a6",
+      "match": true,
+      "bbox_scaled": [
+        96,
+        32,
+        438,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004022",
+      "person_idx": "0",
+      "expected_sha256": "51be253e923fe37f4a29a63fd3744fd06cfd5f6f04ff77b3924a44eb26b07804",
+      "regenerated_sha256": "51be253e923fe37f4a29a63fd3744fd06cfd5f6f04ff77b3924a44eb26b07804",
+      "match": true,
+      "bbox_scaled": [
+        0,
+        98,
+        443,
+        315
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004023",
+      "person_idx": "0",
+      "expected_sha256": "a82532779e38a15f39d89d2f61db77be5a56c6b2e9aa2ea2d8a4dc19c9258d38",
+      "regenerated_sha256": "a82532779e38a15f39d89d2f61db77be5a56c6b2e9aa2ea2d8a4dc19c9258d38",
+      "match": true,
+      "bbox_scaled": [
+        0,
+        119,
+        448,
+        330
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004024",
+      "person_idx": "0",
+      "expected_sha256": "f2c566c384f397e1b2699f9e2e8d917e5d75da5ac9dd08c21ba1f7dd40ad39c3",
+      "regenerated_sha256": "f2c566c384f397e1b2699f9e2e8d917e5d75da5ac9dd08c21ba1f7dd40ad39c3",
+      "match": true,
+      "bbox_scaled": [
+        37,
+        108,
+        425,
+        290
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004025",
+      "person_idx": "0",
+      "expected_sha256": "47bfe84d11a6490c6411b445a7ab190dd5aa343c5632f67f9a9a882c65c2debc",
+      "regenerated_sha256": "47bfe84d11a6490c6411b445a7ab190dd5aa343c5632f67f9a9a882c65c2debc",
+      "match": true,
+      "bbox_scaled": [
+        6,
+        105,
+        448,
+        291
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004026",
+      "person_idx": "0",
+      "expected_sha256": "c24051311914141cd96fffef613e2622c88e33e2844ffb60f532774b262dd4a2",
+      "regenerated_sha256": "c24051311914141cd96fffef613e2622c88e33e2844ffb60f532774b262dd4a2",
+      "match": true,
+      "bbox_scaled": [
+        70,
+        156,
+        448,
+        317
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004027",
+      "person_idx": "0",
+      "expected_sha256": "8492f455f6591b9b987d20d4c2c5f24ce4d145033958f4380cb29b65d9c3e526",
+      "regenerated_sha256": "8492f455f6591b9b987d20d4c2c5f24ce4d145033958f4380cb29b65d9c3e526",
+      "match": true,
+      "bbox_scaled": [
+        0,
+        67,
+        448,
+        274
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004028",
+      "person_idx": "0",
+      "expected_sha256": "3afd35e6ca349e2cd8a3ac1e2fb136df76903f1bba991d1a70a6f6026244a634",
+      "regenerated_sha256": "3afd35e6ca349e2cd8a3ac1e2fb136df76903f1bba991d1a70a6f6026244a634",
+      "match": true,
+      "bbox_scaled": [
+        0,
+        112,
+        429,
+        324
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004029",
+      "person_idx": "0",
+      "expected_sha256": "fa3f42990a42927bd223b016177c2953483128470b6b8da6174d5067f55e849a",
+      "regenerated_sha256": "fa3f42990a42927bd223b016177c2953483128470b6b8da6174d5067f55e849a",
+      "match": true,
+      "bbox_scaled": [
+        118,
+        163,
+        272,
+        218
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004030",
+      "person_idx": "0",
+      "expected_sha256": "4f2edddb2231afb24b7a763d7139fd9ed9ca04b3ec1512b3f173472f525142b2",
+      "regenerated_sha256": "4f2edddb2231afb24b7a763d7139fd9ed9ca04b3ec1512b3f173472f525142b2",
+      "match": true,
+      "bbox_scaled": [
+        0,
+        87,
+        448,
+        305
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004031",
+      "person_idx": "0",
+      "expected_sha256": "bbe5c2a017b6262095c97ed54dd9d202a1a596fdbcffa573d0d6eda4ea84e2ac",
+      "regenerated_sha256": "bbe5c2a017b6262095c97ed54dd9d202a1a596fdbcffa573d0d6eda4ea84e2ac",
+      "match": true,
+      "bbox_scaled": [
+        0,
+        96,
+        448,
+        264
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004032",
+      "person_idx": "0",
+      "expected_sha256": "29b180e3e66bc03baf8d2d0cac6c022c997ba9378ed1bb9af5156d57e8c4b7db",
+      "regenerated_sha256": "29b180e3e66bc03baf8d2d0cac6c022c997ba9378ed1bb9af5156d57e8c4b7db",
+      "match": true,
+      "bbox_scaled": [
+        1,
+        82,
+        448,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004033",
+      "person_idx": "0",
+      "expected_sha256": "a1cb4f7249eeacb9252724951e243a3984e2a74870095b504dd30c50459d7208",
+      "regenerated_sha256": "a1cb4f7249eeacb9252724951e243a3984e2a74870095b504dd30c50459d7208",
+      "match": true,
+      "bbox_scaled": [
+        0,
+        134,
+        448,
+        299
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004034",
+      "person_idx": "0",
+      "expected_sha256": "982c9c41c8fd40346e5d362f5e1e0c234d58958f0867d959b5964cc1856fbacc",
+      "regenerated_sha256": "982c9c41c8fd40346e5d362f5e1e0c234d58958f0867d959b5964cc1856fbacc",
+      "match": true,
+      "bbox_scaled": [
+        60,
+        139,
+        409,
+        289
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004035",
+      "person_idx": "0",
+      "expected_sha256": "f21754ecde8fc7f54168382f1de4f9b56bf130c5899e462b68ac0c81cd18d93e",
+      "regenerated_sha256": "f21754ecde8fc7f54168382f1de4f9b56bf130c5899e462b68ac0c81cd18d93e",
+      "match": true,
+      "bbox_scaled": [
+        99,
+        79,
+        376,
+        219
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004036",
+      "person_idx": "0",
+      "expected_sha256": "676f1b486cb806e18203724794269418e4042731080ecea370d40681ffd903c0",
+      "regenerated_sha256": "676f1b486cb806e18203724794269418e4042731080ecea370d40681ffd903c0",
+      "match": true,
+      "bbox_scaled": [
+        76,
+        120,
+        355,
+        292
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004037",
+      "person_idx": "0",
+      "expected_sha256": "9d75a44b280bb78350931e83bee4f8a8c8a4dd0f79081e014cff28adf32d2725",
+      "regenerated_sha256": "9d75a44b280bb78350931e83bee4f8a8c8a4dd0f79081e014cff28adf32d2725",
+      "match": true,
+      "bbox_scaled": [
+        46,
+        84,
+        417,
+        251
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004038",
+      "person_idx": "0",
+      "expected_sha256": "06a7fe5d0bc9ebc720a7ab70d44a2e752d2989b6ae66486db1f12576f488c6cc",
+      "regenerated_sha256": "06a7fe5d0bc9ebc720a7ab70d44a2e752d2989b6ae66486db1f12576f488c6cc",
+      "match": true,
+      "bbox_scaled": [
+        57,
+        62,
+        412,
+        313
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004039",
+      "person_idx": "0",
+      "expected_sha256": "48c77ddb779c1c0b96768c952e4a06b592af0f452c5bf3c0a025b728921210f6",
+      "regenerated_sha256": "48c77ddb779c1c0b96768c952e4a06b592af0f452c5bf3c0a025b728921210f6",
+      "match": true,
+      "bbox_scaled": [
+        118,
+        148,
+        290,
+        215
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004040",
+      "person_idx": "0",
+      "expected_sha256": "937dd343078f668416ea41527a9e7098ffde1f36e7e5d600241dd5e5f6a74747",
+      "regenerated_sha256": "937dd343078f668416ea41527a9e7098ffde1f36e7e5d600241dd5e5f6a74747",
+      "match": true,
+      "bbox_scaled": [
+        37,
+        138,
+        399,
+        327
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004041",
+      "person_idx": "0",
+      "expected_sha256": "5ca53c8b86fcca516415876a83039588ca16fcfe9c2278240e7f37ad9b7d231c",
+      "regenerated_sha256": "5ca53c8b86fcca516415876a83039588ca16fcfe9c2278240e7f37ad9b7d231c",
+      "match": true,
+      "bbox_scaled": [
+        46,
+        100,
+        383,
+        284
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004042",
+      "person_idx": "0",
+      "expected_sha256": "b1d1e1c1821febfb35b3b957cea53ddec27e4dc7b2f9bd9a40c6497420c468b8",
+      "regenerated_sha256": "b1d1e1c1821febfb35b3b957cea53ddec27e4dc7b2f9bd9a40c6497420c468b8",
+      "match": true,
+      "bbox_scaled": [
+        0,
+        40,
+        448,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004043",
+      "person_idx": "0",
+      "expected_sha256": "bcd74b35dfe6ba8cbc2c8b7789129abaa787866acc73009c8960fd32a55ca471",
+      "regenerated_sha256": "bcd74b35dfe6ba8cbc2c8b7789129abaa787866acc73009c8960fd32a55ca471",
+      "match": true,
+      "bbox_scaled": [
+        0,
+        76,
+        448,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004044",
+      "person_idx": "0",
+      "expected_sha256": "a966838e488e28fd0ff6e8279937c8713b7c7e6d98a6bd0a18ffb42c2586cf23",
+      "regenerated_sha256": "a966838e488e28fd0ff6e8279937c8713b7c7e6d98a6bd0a18ffb42c2586cf23",
+      "match": true,
+      "bbox_scaled": [
+        43,
+        85,
+        350,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004045",
+      "person_idx": "0",
+      "expected_sha256": "f4ebe89adca29df7689921bb54ad775674396cbdbf92a4e0067cdc2c7660ecb6",
+      "regenerated_sha256": "f4ebe89adca29df7689921bb54ad775674396cbdbf92a4e0067cdc2c7660ecb6",
+      "match": true,
+      "bbox_scaled": [
+        37,
+        84,
+        421,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004046",
+      "person_idx": "0",
+      "expected_sha256": "4277da547316c72cf1ecac954d5e746a158180cd03d664029c7f2bd62bb801c6",
+      "regenerated_sha256": "4277da547316c72cf1ecac954d5e746a158180cd03d664029c7f2bd62bb801c6",
+      "match": true,
+      "bbox_scaled": [
+        54,
+        62,
+        342,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004047",
+      "person_idx": "0",
+      "expected_sha256": "6346a493ba4f4cc7cdea126e98194565511638bfc60b40b7401cc2d2ee2829b8",
+      "regenerated_sha256": "6346a493ba4f4cc7cdea126e98194565511638bfc60b40b7401cc2d2ee2829b8",
+      "match": true,
+      "bbox_scaled": [
+        27,
+        110,
+        388,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004048",
+      "person_idx": "0",
+      "expected_sha256": "ac1218df0b5da4f197d7526130e0c0893654affbfb27f3b406637b5e9dc01e8e",
+      "regenerated_sha256": "ac1218df0b5da4f197d7526130e0c0893654affbfb27f3b406637b5e9dc01e8e",
+      "match": true,
+      "bbox_scaled": [
+        42,
+        50,
+        366,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004049",
+      "person_idx": "0",
+      "expected_sha256": "47add3346423f0e9c1dc742e9a888c2c84433398046a65cb9bfbefcda2ff9eca",
+      "regenerated_sha256": "47add3346423f0e9c1dc742e9a888c2c84433398046a65cb9bfbefcda2ff9eca",
+      "match": true,
+      "bbox_scaled": [
+        74,
+        152,
+        354,
+        306
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004050",
+      "person_idx": "0",
+      "expected_sha256": "d8403a5ed9f2d96bf1a9b13c32f5a44b3df0baba445b72f8549dfce05c29bd85",
+      "regenerated_sha256": "d8403a5ed9f2d96bf1a9b13c32f5a44b3df0baba445b72f8549dfce05c29bd85",
+      "match": true,
+      "bbox_scaled": [
+        80,
+        100,
+        379,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004051",
+      "person_idx": "0",
+      "expected_sha256": "fe063df0fe3ab4cfa2c397bb87fa02e922f6539e1a17fcdb8444da87a01c1646",
+      "regenerated_sha256": "fe063df0fe3ab4cfa2c397bb87fa02e922f6539e1a17fcdb8444da87a01c1646",
+      "match": true,
+      "bbox_scaled": [
+        0,
+        100,
+        448,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004052",
+      "person_idx": "0",
+      "expected_sha256": "0f6e1250c56ea1a5e80559aeabe8d5829fe3659f01148b43b4ab54ba7a3abbd2",
+      "regenerated_sha256": "0f6e1250c56ea1a5e80559aeabe8d5829fe3659f01148b43b4ab54ba7a3abbd2",
+      "match": true,
+      "bbox_scaled": [
+        59,
+        60,
+        419,
+        309
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004053",
+      "person_idx": "0",
+      "expected_sha256": "d663a5ff8329501acb4a2aafc40728b819ff3359a490e63ea6e416bca1701bf7",
+      "regenerated_sha256": "d663a5ff8329501acb4a2aafc40728b819ff3359a490e63ea6e416bca1701bf7",
+      "match": true,
+      "bbox_scaled": [
+        21,
+        51,
+        412,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004054",
+      "person_idx": "0",
+      "expected_sha256": "e21662700ed01dde680bd77a7d3caf46ba40ad1115d0afbdbc6d38120aada7ba",
+      "regenerated_sha256": "e21662700ed01dde680bd77a7d3caf46ba40ad1115d0afbdbc6d38120aada7ba",
+      "match": true,
+      "bbox_scaled": [
+        88,
+        3,
+        371,
+        315
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004055",
+      "person_idx": "0",
+      "expected_sha256": "3b8cc946c17485b86ff4f5f5e5fc5afe024f9d7ff25fa5a06b90a862785c1aed",
+      "regenerated_sha256": "3b8cc946c17485b86ff4f5f5e5fc5afe024f9d7ff25fa5a06b90a862785c1aed",
+      "match": true,
+      "bbox_scaled": [
+        12,
+        88,
+        374,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004056",
+      "person_idx": "0",
+      "expected_sha256": "b36ddcd18dbad7e2d0f9bcd57d63075e33c37b69d45913a5fa9a06a6b4726cf0",
+      "regenerated_sha256": "b36ddcd18dbad7e2d0f9bcd57d63075e33c37b69d45913a5fa9a06a6b4726cf0",
+      "match": true,
+      "bbox_scaled": [
+        132,
+        132,
+        316,
+        265
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004057",
+      "person_idx": "0",
+      "expected_sha256": "310571d98d420afdafd5f4414acce585fd3fb00bffa043830fe9d88091b70614",
+      "regenerated_sha256": "310571d98d420afdafd5f4414acce585fd3fb00bffa043830fe9d88091b70614",
+      "match": true,
+      "bbox_scaled": [
+        96,
+        116,
+        394,
+        311
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004058",
+      "person_idx": "0",
+      "expected_sha256": "92760aeecb1c87c7afbf6add7c40975afa951c3a1466d4c209292b40ebdb18cb",
+      "regenerated_sha256": "92760aeecb1c87c7afbf6add7c40975afa951c3a1466d4c209292b40ebdb18cb",
+      "match": true,
+      "bbox_scaled": [
+        0,
+        61,
+        417,
+        332
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004059",
+      "person_idx": "0",
+      "expected_sha256": "a9e426408e55e91dab0f850a98cd5dd0136a69af5cf77c0413041484d174617b",
+      "regenerated_sha256": "a9e426408e55e91dab0f850a98cd5dd0136a69af5cf77c0413041484d174617b",
+      "match": true,
+      "bbox_scaled": [
+        106,
+        91,
+        425,
+        257
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004060",
+      "person_idx": "0",
+      "expected_sha256": "fe1e855791256d95768eb42c40a893edbba0d73392f69bd16374aebc836aa6cc",
+      "regenerated_sha256": "fe1e855791256d95768eb42c40a893edbba0d73392f69bd16374aebc836aa6cc",
+      "match": true,
+      "bbox_scaled": [
+        29,
+        80,
+        429,
+        272
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004061",
+      "person_idx": "0",
+      "expected_sha256": "982924bd5ea171f8b537e9e96f606d97c2bccdb1a2c352b80e86d741509f132b",
+      "regenerated_sha256": "982924bd5ea171f8b537e9e96f606d97c2bccdb1a2c352b80e86d741509f132b",
+      "match": true,
+      "bbox_scaled": [
+        52,
+        64,
+        407,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004062",
+      "person_idx": "0",
+      "expected_sha256": "809e31eb7c1282cbae44b91edbfa2816a7a5c5734b6bf50ce921c53422efdcce",
+      "regenerated_sha256": "809e31eb7c1282cbae44b91edbfa2816a7a5c5734b6bf50ce921c53422efdcce",
+      "match": true,
+      "bbox_scaled": [
+        60,
+        80,
+        360,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004063",
+      "person_idx": "0",
+      "expected_sha256": "c910907364437107a19463dfc715857923c0790baf76f7eecdbe93b59495c7e2",
+      "regenerated_sha256": "c910907364437107a19463dfc715857923c0790baf76f7eecdbe93b59495c7e2",
+      "match": true,
+      "bbox_scaled": [
+        21,
+        65,
+        370,
+        319
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004064",
+      "person_idx": "0",
+      "expected_sha256": "b0056eeb1a65488a61a391d3c0efb3c60422bacd0fcad299289e58bbfd5da92d",
+      "regenerated_sha256": "b0056eeb1a65488a61a391d3c0efb3c60422bacd0fcad299289e58bbfd5da92d",
+      "match": true,
+      "bbox_scaled": [
+        23,
+        88,
+        349,
+        325
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004065",
+      "person_idx": "0",
+      "expected_sha256": "5bfec6c66f942c4afeffaf38854d87b7c11279906ce4e9fe7720f78e2def252d",
+      "regenerated_sha256": "5bfec6c66f942c4afeffaf38854d87b7c11279906ce4e9fe7720f78e2def252d",
+      "match": true,
+      "bbox_scaled": [
+        110,
+        92,
+        331,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004066",
+      "person_idx": "0",
+      "expected_sha256": "195e6c741454470a31f627efe0e1cbd9f9161f69f59d1ac31c72d8c5f58862aa",
+      "regenerated_sha256": "195e6c741454470a31f627efe0e1cbd9f9161f69f59d1ac31c72d8c5f58862aa",
+      "match": true,
+      "bbox_scaled": [
+        89,
+        101,
+        339,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004067",
+      "person_idx": "0",
+      "expected_sha256": "e1a8ecbdf2e08617a92372d2b16fc5d3d13a9658383441d753a648e0599b21d1",
+      "regenerated_sha256": "e1a8ecbdf2e08617a92372d2b16fc5d3d13a9658383441d753a648e0599b21d1",
+      "match": true,
+      "bbox_scaled": [
+        92,
+        158,
+        328,
+        273
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004068",
+      "person_idx": "0",
+      "expected_sha256": "e83b2269c36460902af13e56c7d3af0a5301f969459d1a66e07b90ba880af6c1",
+      "regenerated_sha256": "e83b2269c36460902af13e56c7d3af0a5301f969459d1a66e07b90ba880af6c1",
+      "match": true,
+      "bbox_scaled": [
+        104,
+        50,
+        411,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004069",
+      "person_idx": "0",
+      "expected_sha256": "1361001bc2b6039a10f010afaf9defc502c136932d365396c074bc46a437620b",
+      "regenerated_sha256": "1361001bc2b6039a10f010afaf9defc502c136932d365396c074bc46a437620b",
+      "match": true,
+      "bbox_scaled": [
+        75,
+        168,
+        394,
+        332
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004070",
+      "person_idx": "0",
+      "expected_sha256": "a7c2da3574969d9194861a8f434581fe7201f4600be1f93282dba9e90240d9b3",
+      "regenerated_sha256": "a7c2da3574969d9194861a8f434581fe7201f4600be1f93282dba9e90240d9b3",
+      "match": true,
+      "bbox_scaled": [
+        17,
+        96,
+        400,
+        280
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004071",
+      "person_idx": "0",
+      "expected_sha256": "936960131ab725a656afed2078baa50d547e8656b701b6d9c306859cff62bcda",
+      "regenerated_sha256": "936960131ab725a656afed2078baa50d547e8656b701b6d9c306859cff62bcda",
+      "match": true,
+      "bbox_scaled": [
+        123,
+        0,
+        368,
+        269
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004071",
+      "person_idx": "1",
+      "expected_sha256": "c91d9845cecc1b55facf2780e76f5a8e52330490b91a9754413ea14e63622817",
+      "regenerated_sha256": "c91d9845cecc1b55facf2780e76f5a8e52330490b91a9754413ea14e63622817",
+      "match": true,
+      "bbox_scaled": [
+        0,
+        0,
+        208,
+        252
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004072",
+      "person_idx": "0",
+      "expected_sha256": "c64455535e731a5aa165eaaa6551e8b3ffc51456e367a2052f411e8412ab47f3",
+      "regenerated_sha256": "c64455535e731a5aa165eaaa6551e8b3ffc51456e367a2052f411e8412ab47f3",
+      "match": true,
+      "bbox_scaled": [
+        31,
+        156,
+        247,
+        330
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004073",
+      "person_idx": "0",
+      "expected_sha256": "520de5e477a3ebb0a9babd00040d1eece0af6a1d15cd289d217331544c33926e",
+      "regenerated_sha256": "520de5e477a3ebb0a9babd00040d1eece0af6a1d15cd289d217331544c33926e",
+      "match": true,
+      "bbox_scaled": [
+        66,
+        60,
+        448,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004074",
+      "person_idx": "0",
+      "expected_sha256": "9092657796abe28f88ed98ffed2397e56b2629df87963f28d9ed2e211b7597b5",
+      "regenerated_sha256": "9092657796abe28f88ed98ffed2397e56b2629df87963f28d9ed2e211b7597b5",
+      "match": true,
+      "bbox_scaled": [
+        47,
+        68,
+        312,
+        227
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004075",
+      "person_idx": "0",
+      "expected_sha256": "bbef2f1a84ffcd4d80bc3fff910a26e0e049edf11c67ab350ac1920f83a4513b",
+      "regenerated_sha256": "bbef2f1a84ffcd4d80bc3fff910a26e0e049edf11c67ab350ac1920f83a4513b",
+      "match": true,
+      "bbox_scaled": [
+        121,
+        48,
+        417,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004076",
+      "person_idx": "0",
+      "expected_sha256": "3da2f1e8e32018bce48509048470b3db8ca3dd82a452df6fbed47255f2c9f2c1",
+      "regenerated_sha256": "3da2f1e8e32018bce48509048470b3db8ca3dd82a452df6fbed47255f2c9f2c1",
+      "match": true,
+      "bbox_scaled": [
+        170,
+        86,
+        365,
+        217
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004077",
+      "person_idx": "0",
+      "expected_sha256": "1503c37ee384d288ef6b783cd2003f9befc40c07fccf0d70f4e1f79cc2130f75",
+      "regenerated_sha256": "1503c37ee384d288ef6b783cd2003f9befc40c07fccf0d70f4e1f79cc2130f75",
+      "match": true,
+      "bbox_scaled": [
+        87,
+        88,
+        355,
+        332
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004078",
+      "person_idx": "0",
+      "expected_sha256": "0e4adc530c48c212b1081eccb40f8e6f2097b5c411224e86b783c6b366b9efad",
+      "regenerated_sha256": "0e4adc530c48c212b1081eccb40f8e6f2097b5c411224e86b783c6b366b9efad",
+      "match": true,
+      "bbox_scaled": [
+        0,
+        71,
+        295,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004079",
+      "person_idx": "0",
+      "expected_sha256": "52240778f7ab894417d1e5fbf98ee2283075a6a07ce184b2c58f974e81d397d8",
+      "regenerated_sha256": "52240778f7ab894417d1e5fbf98ee2283075a6a07ce184b2c58f974e81d397d8",
+      "match": true,
+      "bbox_scaled": [
+        37,
+        41,
+        448,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004081",
+      "person_idx": "0",
+      "expected_sha256": "8d92be7e3d90264920bc8cd29f069d172f8f34441b3bcef28a54ce2b54fa1e8a",
+      "regenerated_sha256": "8d92be7e3d90264920bc8cd29f069d172f8f34441b3bcef28a54ce2b54fa1e8a",
+      "match": true,
+      "bbox_scaled": [
+        123,
+        105,
+        333,
+        309
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004081",
+      "person_idx": "2",
+      "expected_sha256": "6ce26a8a950a972711708d8fa52af59f4b2eb11e9d3ecd001d23472a12ec6924",
+      "regenerated_sha256": "6ce26a8a950a972711708d8fa52af59f4b2eb11e9d3ecd001d23472a12ec6924",
+      "match": true,
+      "bbox_scaled": [
+        251,
+        0,
+        299,
+        126
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004082",
+      "person_idx": "0",
+      "expected_sha256": "8641993bf26bd3eb905c75a02c1bec560161d1e2900a89ccf6d02330315d96b5",
+      "regenerated_sha256": "8641993bf26bd3eb905c75a02c1bec560161d1e2900a89ccf6d02330315d96b5",
+      "match": true,
+      "bbox_scaled": [
+        163,
+        102,
+        366,
+        248
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004083",
+      "person_idx": "0",
+      "expected_sha256": "95079cd42f29d6ef858e60cbcf7e18f6a8c5a561c38bfacb04cd68a457e3f7cf",
+      "regenerated_sha256": "95079cd42f29d6ef858e60cbcf7e18f6a8c5a561c38bfacb04cd68a457e3f7cf",
+      "match": true,
+      "bbox_scaled": [
+        59,
+        110,
+        358,
+        245
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004084",
+      "person_idx": "0",
+      "expected_sha256": "66e601096e8831c85b33a0f3f5d54946e316b856d62f353568c6f2d666c6b71f",
+      "regenerated_sha256": "66e601096e8831c85b33a0f3f5d54946e316b856d62f353568c6f2d666c6b71f",
+      "match": true,
+      "bbox_scaled": [
+        146,
+        129,
+        365,
+        243
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004087",
+      "person_idx": "0",
+      "expected_sha256": "5f2ca1449b4583b39e0d77c73aeed6d9768650f24bef35320c38baaa67656eeb",
+      "regenerated_sha256": "5f2ca1449b4583b39e0d77c73aeed6d9768650f24bef35320c38baaa67656eeb",
+      "match": true,
+      "bbox_scaled": [
+        89,
+        172,
+        323,
+        316
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004088",
+      "person_idx": "0",
+      "expected_sha256": "4eb4d23786ebf741a9e5ae175ebe730662ddb824f751bd881551e45481ecf2d2",
+      "regenerated_sha256": "4eb4d23786ebf741a9e5ae175ebe730662ddb824f751bd881551e45481ecf2d2",
+      "match": true,
+      "bbox_scaled": [
+        102,
+        173,
+        323,
+        280
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004089",
+      "person_idx": "0",
+      "expected_sha256": "a679b1994cc5ae83a4d02aa6eeab1a86f02e8bb95c6430a57fe0e14042028942",
+      "regenerated_sha256": "a679b1994cc5ae83a4d02aa6eeab1a86f02e8bb95c6430a57fe0e14042028942",
+      "match": true,
+      "bbox_scaled": [
+        158,
+        159,
+        314,
+        244
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004090",
+      "person_idx": "2",
+      "expected_sha256": "494ed6ed1843f3f7c2294fa150385e72e8de646911ed184a455d32e3cbee74a0",
+      "regenerated_sha256": "494ed6ed1843f3f7c2294fa150385e72e8de646911ed184a455d32e3cbee74a0",
+      "match": true,
+      "bbox_scaled": [
+        84,
+        129,
+        230,
+        193
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004092",
+      "person_idx": "0",
+      "expected_sha256": "e0f22f3f3801e50f292cf8c00dd6b8e1b6a649e065af071a86b621eac43d800b",
+      "regenerated_sha256": "e0f22f3f3801e50f292cf8c00dd6b8e1b6a649e065af071a86b621eac43d800b",
+      "match": true,
+      "bbox_scaled": [
+        103,
+        147,
+        363,
+        321
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004093",
+      "person_idx": "0",
+      "expected_sha256": "94b3c9394a8b3bcc69a3dd608fd5bca35197ce8ac48fbf05baadca56c5929408",
+      "regenerated_sha256": "94b3c9394a8b3bcc69a3dd608fd5bca35197ce8ac48fbf05baadca56c5929408",
+      "match": true,
+      "bbox_scaled": [
+        49,
+        161,
+        305,
+        281
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004094",
+      "person_idx": "0",
+      "expected_sha256": "97814550b64a26d24aef7c73c0bb714e4ac3a4b5493941d1f9619569c647610c",
+      "regenerated_sha256": "97814550b64a26d24aef7c73c0bb714e4ac3a4b5493941d1f9619569c647610c",
+      "match": true,
+      "bbox_scaled": [
+        80,
+        92,
+        361,
+        275
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004095",
+      "person_idx": "0",
+      "expected_sha256": "999a35639ea9de6870a5e08b12178d143d334ce9b7b6308fb5ee9929db4af1ef",
+      "regenerated_sha256": "999a35639ea9de6870a5e08b12178d143d334ce9b7b6308fb5ee9929db4af1ef",
+      "match": true,
+      "bbox_scaled": [
+        92,
+        133,
+        317,
+        317
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004096",
+      "person_idx": "0",
+      "expected_sha256": "92bef078afd077cce7bfa7502060ddb357a5f89350591e1229d63712d2125723",
+      "regenerated_sha256": "92bef078afd077cce7bfa7502060ddb357a5f89350591e1229d63712d2125723",
+      "match": true,
+      "bbox_scaled": [
+        105,
+        143,
+        307,
+        234
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004097",
+      "person_idx": "0",
+      "expected_sha256": "08e00052f78858533cd6659036058d19060a00cf92e8b7dd5bef61eb2fad66a3",
+      "regenerated_sha256": "08e00052f78858533cd6659036058d19060a00cf92e8b7dd5bef61eb2fad66a3",
+      "match": true,
+      "bbox_scaled": [
+        69,
+        134,
+        279,
+        248
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004098",
+      "person_idx": "0",
+      "expected_sha256": "dd7ae01b14b7d60420b64e329cea01878014a6e78be349f8fddab2db181c4ced",
+      "regenerated_sha256": "dd7ae01b14b7d60420b64e329cea01878014a6e78be349f8fddab2db181c4ced",
+      "match": true,
+      "bbox_scaled": [
+        64,
+        115,
+        332,
+        291
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004099",
+      "person_idx": "0",
+      "expected_sha256": "16814ae01588e1b8ee7f0a80675f15706f3009bf95133ddd466226c25b4ed572",
+      "regenerated_sha256": "16814ae01588e1b8ee7f0a80675f15706f3009bf95133ddd466226c25b4ed572",
+      "match": true,
+      "bbox_scaled": [
+        134,
+        183,
+        376,
+        295
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004100",
+      "person_idx": "0",
+      "expected_sha256": "ea0bb513674a9ed2b59cdfedced1f06fb3187676031d927adf58d14c13ba6760",
+      "regenerated_sha256": "ea0bb513674a9ed2b59cdfedced1f06fb3187676031d927adf58d14c13ba6760",
+      "match": true,
+      "bbox_scaled": [
+        203,
+        160,
+        363,
+        206
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004101",
+      "person_idx": "0",
+      "expected_sha256": "730fe51b73ba4f24eef537807359970cf5b31e64df0840e2ca63326e4f54e7df",
+      "regenerated_sha256": "730fe51b73ba4f24eef537807359970cf5b31e64df0840e2ca63326e4f54e7df",
+      "match": true,
+      "bbox_scaled": [
+        113,
+        116,
+        433,
+        254
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004192",
+      "person_idx": "0",
+      "expected_sha256": "f763e7dda8cc45b3f70b373c401f4edd732f66a6fc6b2bb1d5f8c95745880c7f",
+      "regenerated_sha256": "f763e7dda8cc45b3f70b373c401f4edd732f66a6fc6b2bb1d5f8c95745880c7f",
+      "match": true,
+      "bbox_scaled": [
+        96,
+        0,
+        346,
+        272
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004193",
+      "person_idx": "0",
+      "expected_sha256": "eb96404ad855104a3e53c6e797cde57b65ded854f4ffddec918a057d7850d61b",
+      "regenerated_sha256": "eb96404ad855104a3e53c6e797cde57b65ded854f4ffddec918a057d7850d61b",
+      "match": true,
+      "bbox_scaled": [
+        183,
+        103,
+        426,
+        231
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004195",
+      "person_idx": "0",
+      "expected_sha256": "cd404d8fb710536bc791e1d5e85761bf637c0b6e8c3e549f293896dba3bf5790",
+      "regenerated_sha256": "cd404d8fb710536bc791e1d5e85761bf637c0b6e8c3e549f293896dba3bf5790",
+      "match": true,
+      "bbox_scaled": [
+        88,
+        144,
+        321,
+        300
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004196",
+      "person_idx": "0",
+      "expected_sha256": "098ba9f67fa94512ff6c147cccfdf003e33aea3ecda51b46b1217d97bbac9c57",
+      "regenerated_sha256": "098ba9f67fa94512ff6c147cccfdf003e33aea3ecda51b46b1217d97bbac9c57",
+      "match": true,
+      "bbox_scaled": [
+        145,
+        134,
+        261,
+        202
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004196",
+      "person_idx": "1",
+      "expected_sha256": "61421d2500d60c0cac7204bcad4efbbc8748a8fae5c28f2ab716c961e7814162",
+      "regenerated_sha256": "61421d2500d60c0cac7204bcad4efbbc8748a8fae5c28f2ab716c961e7814162",
+      "match": true,
+      "bbox_scaled": [
+        145,
+        22,
+        261,
+        233
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004200",
+      "person_idx": "0",
+      "expected_sha256": "69b0f60cfd474b95a3ff178fde8d41471898486e6d68c1a1b28878f15ccbfe73",
+      "regenerated_sha256": "69b0f60cfd474b95a3ff178fde8d41471898486e6d68c1a1b28878f15ccbfe73",
+      "match": true,
+      "bbox_scaled": [
+        60,
+        114,
+        228,
+        286
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004200",
+      "person_idx": "1",
+      "expected_sha256": "15b194ad2bbb661509e0f35146f4cf97d6c32a3f148d2a90f714c2d0ec0595af",
+      "regenerated_sha256": "15b194ad2bbb661509e0f35146f4cf97d6c32a3f148d2a90f714c2d0ec0595af",
+      "match": true,
+      "bbox_scaled": [
+        0,
+        0,
+        265,
+        336
+      ]
+    },
+    {
+      "item_id": "V2_ORIGINAL::IMG_004201",
+      "person_idx": "0",
+      "expected_sha256": "86378d3c9cd1c046d3b4d18abde59bb99a98a5956dbf079057b6a67587af2f4e",
+      "regenerated_sha256": "86378d3c9cd1c046d3b4d18abde59bb99a98a5956dbf079057b6a67587af2f4e",
+      "match": true,
+      "bbox_scaled": [
+        259,
+        75,
+        448,
+        211
+      ]
+    }
+  ]
+}

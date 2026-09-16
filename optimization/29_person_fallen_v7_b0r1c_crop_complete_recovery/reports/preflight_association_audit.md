@@ -1,0 +1,10 @@
+# B0R1 association preflight
+
+{
+  "rows": 48,
+  "current_iou_only_unmatched": 0,
+  "new_match_unmatched": 0,
+  "floor_sitting": {},
+  "multi_person_groups": {},
+  "known_failure": {}
+}

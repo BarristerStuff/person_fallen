@@ -1,0 +1,11 @@
+{
+  "candidate": "V7-B0R1C-CROP-COMPLETE-RECOVERY",
+  "parent_candidate": "V7-B0R1-STRICT-MATCH-FALLBACK",
+  "parent_freeze_sha": "b4591557c0ce7b1580fe1f5500ee636318a18d72fec88c2def9df2a4c8ebca44",
+  "base_git_commit": "2ae3c17188f1b065988920e8572faab97a05850f",
+  "semantic_change": false,
+  "protocol_change": true,
+  "crop_plan_change": true,
+  "runner_recovery_change": true,
+  "parent_requests_before_successor_freeze": 4
+}

@@ -1,0 +1,98 @@
+{
+  "candidate": "V7-B0R1C-CROP-COMPLETE-RECOVERY",
+  "parent_candidate": "V7-B0R1-STRICT-MATCH-FALLBACK",
+  "parent_freeze_sha": "b4591557c0ce7b1580fe1f5500ee636318a18d72fec88c2def9df2a4c8ebca44",
+  "checks": [
+    {
+      "path": "geometry/thresholds.json",
+      "parent_sha256": "650b824b6ad760ec6d9568e0b80fc52d466be6d6d8583c615e367bee19bb389f",
+      "successor_sha256": "650b824b6ad760ec6d9568e0b80fc52d466be6d6d8583c615e367bee19bb389f",
+      "equal": true
+    },
+    {
+      "path": "geometry/person_geometry.csv",
+      "parent_sha256": "34a896aae9bec05947ec0dee5764c36c0c385971753763b09b27b96691426bb5",
+      "successor_sha256": "34a896aae9bec05947ec0dee5764c36c0c385971753763b09b27b96691426bb5",
+      "equal": true
+    },
+    {
+      "path": "geometry/persons_full_dev.csv",
+      "parent_sha256": "3272dbadad4a2c0b640ee85211e4a842855716fe5a2eef96c7c13e23b4f5576c",
+      "successor_sha256": "3272dbadad4a2c0b640ee85211e4a842855716fe5a2eef96c7c13e23b4f5576c",
+      "equal": true
+    },
+    {
+      "path": "geometry/yolo11n-pose.pt",
+      "parent_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "successor_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "equal": true
+    },
+    {
+      "path": "policy/person_association.py",
+      "parent_sha256": "88ba9e84fb578ca09bfbc81ca44d438dc992affea677cc0f0455481a1aa0d5f6",
+      "successor_sha256": "88ba9e84fb578ca09bfbc81ca44d438dc992affea677cc0f0455481a1aa0d5f6",
+      "equal": true
+    },
+    {
+      "path": "policy/v7_b0_policy.py",
+      "parent_sha256": "e4a2d867eacc16b9c91dcb7288bac62a265b7f2c8a1e11b1b69b1d78321eae76",
+      "successor_sha256": "e4a2d867eacc16b9c91dcb7288bac62a265b7f2c8a1e11b1b69b1d78321eae76",
+      "equal": true
+    },
+    {
+      "path": "policy/v7_policy_base.py",
+      "parent_sha256": "53570e1877e76be3d56420e479964836b6878f5d2eb5e28fed020d9734bf8400",
+      "successor_sha256": "53570e1877e76be3d56420e479964836b6878f5d2eb5e28fed020d9734bf8400",
+      "equal": true
+    },
+    {
+      "path": "prompt/v7_b0_p1.txt",
+      "parent_sha256": "35f97f96516175b167dc25bc89463655fd7ca045dc60947a245e5bdfbc6d0c1e",
+      "successor_sha256": "35f97f96516175b167dc25bc89463655fd7ca045dc60947a245e5bdfbc6d0c1e",
+      "equal": true
+    },
+    {
+      "path": "prompt/v7_b0_p2.txt",
+      "parent_sha256": "d2d412fdd092d4b8a421f9cdd43a4c8a077367c1250d622a7f8fa9d8a7c1986c",
+      "successor_sha256": "d2d412fdd092d4b8a421f9cdd43a4c8a077367c1250d622a7f8fa9d8a7c1986c",
+      "equal": true
+    },
+    {
+      "path": "schema/v7_person_attributes.json",
+      "parent_sha256": "2deb3aafed7e43fe713999a928b3b764d6b05ddbe948559dd21248fb186a0df8",
+      "successor_sha256": "2deb3aafed7e43fe713999a928b3b764d6b05ddbe948559dd21248fb186a0df8",
+      "equal": true
+    },
+    {
+      "path": "schema/v7_scene_attributes.json",
+      "parent_sha256": "4d0ccd35c0c72351bfd4cacfd7ac64b43a0735f085be71f7ab29a9749f07fab7",
+      "successor_sha256": "4d0ccd35c0c72351bfd4cacfd7ac64b43a0735f085be71f7ab29a9749f07fab7",
+      "equal": true
+    },
+    {
+      "path": "manifests/pilot156.csv",
+      "parent_sha256": "21044b03610352bae37413fa6a89a96a9f983509d17feaa8a6556e8f95abaf31",
+      "successor_sha256": "21044b03610352bae37413fa6a89a96a9f983509d17feaa8a6556e8f95abaf31",
+      "equal": true
+    },
+    {
+      "path": "manifests/regression1.csv",
+      "parent_sha256": "bbdf1a50c415d0ee8b5dafbc0c5b916166e77e61af1fb067405880c9da4eed56",
+      "successor_sha256": "bbdf1a50c415d0ee8b5dafbc0c5b916166e77e61af1fb067405880c9da4eed56",
+      "equal": true
+    },
+    {
+      "path": "manifests/full_remaining.csv",
+      "parent_sha256": "5da420a20bb326ccb70cfe0cf15c86e577aa4923c47ec615a97eb01d7c1016fe",
+      "successor_sha256": "5da420a20bb326ccb70cfe0cf15c86e577aa4923c47ec615a97eb01d7c1016fe",
+      "equal": true
+    },
+    {
+      "path": "manifests/full_combined436.csv",
+      "parent_sha256": "4ea8fe6e220bc781f1644e33967dcca7e09e30c7810d2bda37c1c39bc8ef7576",
+      "successor_sha256": "4ea8fe6e220bc781f1644e33967dcca7e09e30c7810d2bda37c1c39bc8ef7576",
+      "equal": true
+    }
+  ],
+  "SEMANTIC_EQUIVALENCE_TO_PARENT": "PASS"
+}

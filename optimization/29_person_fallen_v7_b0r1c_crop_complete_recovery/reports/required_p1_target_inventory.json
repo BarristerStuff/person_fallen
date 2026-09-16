@@ -1,0 +1,884 @@
+{
+  "pilot_required_targets": 124,
+  "regression_required_targets": 0,
+  "full_remaining_required_targets": 253,
+  "union_required_targets": 377,
+  "primary_required": 319,
+  "background_required": 58,
+  "old_crop_plan_targets": 319,
+  "old_plan_missing_targets": 58,
+  "old_plan_extra_targets": 0,
+  "missing_targets": [
+    {
+      "phase": [
+        "pilot"
+      ],
+      "item_id": "P4D_PLAN::PF_P4D_HN_CRAWL_G001_V05",
+      "operational_id": "PFV6_PILOT_0151",
+      "taxonomy": "crawling_quadruped_support",
+      "person_idx": "1",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UNCERTAIN",
+      "image_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_03_gr3q6_authorized_20260831_01/08_final/PF_P4D_HN_CRAWL_G001_V05.png",
+      "image_sha256": "0675267dd08ba89d9482c066bfeef2e1b914045d2b897f6081099b5864ef4e0a",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0391/full_scene.jpg",
+      "full_view_sha256": "9c26aed9449ccd1c33b82f793930b2ff34c2143fa0d188e4b25a0f70a084fd88"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "P4D_PLAN::PF_P4D_HN_KNEEL_G002_V05",
+      "operational_id": "PFV4DEV_0355",
+      "taxonomy": "kneeling_half_kneeling",
+      "person_idx": "1",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UNCERTAIN",
+      "image_path": "/home/yanbo/下载/batches/batch-person-fallen-v2-p4d-hardneg-fullregen-r2-camera1p5m/final/PF_P4D_HN_KNEEL_G002_V05.png",
+      "image_sha256": "431ae4716b826e9bd246c175f818bf8aa2399eaae160e19af3ddb290e4eccf7b",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0355/full_scene.jpg",
+      "full_view_sha256": "a5343b027448ce2d784c09dbb5aee2c014e41079f4991805592aa223e2f8f28a"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "P4D_PLAN::PF_P4D_HN_KNEEL_G003_V04",
+      "operational_id": "PFV4DEV_0359",
+      "taxonomy": "kneeling_half_kneeling",
+      "person_idx": "1",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UPRIGHT",
+      "image_path": "/home/yanbo/下载/batches/batch-person-fallen-v2-p4d-hardneg-fullregen-r2-camera1p5m/final/PF_P4D_HN_KNEEL_G003_V04.png",
+      "image_sha256": "bc632cd9c7871519b71468c14b351601a6f24fe33a09a3c28504ffa3f91f1a40",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0359/full_scene.jpg",
+      "full_view_sha256": "96e7db1ab7eb8dc31ac650aea9532d3fc8dc869e4f797c5199d03c5ceeb2d0bc"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "P4D_PLAN::PF_P4D_HN_KNEEL_G004_V01",
+      "operational_id": "PFV4DEV_0361",
+      "taxonomy": "kneeling_half_kneeling",
+      "person_idx": "0",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_NOT_UPRIGHT",
+      "image_path": "/home/yanbo/下载/batches/batch-person-fallen-v2-p4d-hardneg-fullregen-r2-camera1p5m/final/PF_P4D_HN_KNEEL_G004_V01.png",
+      "image_sha256": "da2c71e8ed8df8420bd94c8aeaec0312c4051f4616550b0b852da846eaefbf0d",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0361/full_scene.jpg",
+      "full_view_sha256": "9c8caafa744555e4498f39ce77208165f7c2b0aa184058ab86acc3c285675a8a"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "P4D_PLAN::PF_P4D_HN_KNEEL_G004_V05",
+      "operational_id": "PFV4DEV_0365",
+      "taxonomy": "kneeling_half_kneeling",
+      "person_idx": "1",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UNCERTAIN",
+      "image_path": "/home/yanbo/下载/batches/batch-person-fallen-v2-p4d-hardneg-fullregen-r2-camera1p5m/final/PF_P4D_HN_KNEEL_G004_V05.png",
+      "image_sha256": "352272dd4b3fef4caccc8b08037f5c433e07ffe26906fd7f9d39e05aa39b2cae",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0365/full_scene.jpg",
+      "full_view_sha256": "6206ebed229ddc35f384afb3df4f4407432676d63a1fbab84ea904045de89e4e"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "P4D_PLAN::PF_P4D_HN_KNEEL_G007_V04",
+      "operational_id": "PFV4DEV_0379",
+      "taxonomy": "kneeling_half_kneeling",
+      "person_idx": "1",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UNCERTAIN",
+      "image_path": "/home/yanbo/下载/batches/batch-person-fallen-v2-p4d-hardneg-fullregen-r2-camera1p5m/final/PF_P4D_HN_KNEEL_G007_V04.png",
+      "image_sha256": "b04dc22a6651d55af655dd4e125319b7e8e1a6716944980f15dd0305555849e6",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0379/full_scene.jpg",
+      "full_view_sha256": "2d4c21fee26f2eef9705dcbe705a96cebae39df5c83410fa2e722d80677cbb75"
+    },
+    {
+      "phase": [
+        "pilot"
+      ],
+      "item_id": "P4D_PLAN::PF_P4D_HN_SIT_G001_V05",
+      "operational_id": "PFV6_PILOT_0005",
+      "taxonomy": "floor_sitting",
+      "person_idx": "0",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UNCERTAIN",
+      "image_path": "/home/yanbo/下载/batches/batch-person-fallen-v2-p4d-hardneg-fullregen-r2-camera1p5m/final/PF_P4D_HN_SIT_G001_V05.png",
+      "image_sha256": "8a601a296c493209ea6d0e4d3c42904a94ece62d0d799b801df68eeb49a3ec96",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared/PFV4D_0005/full_scene.jpg",
+      "full_view_sha256": "6db4e0f7736abbd876b08bb9199a29df8a704564d362eefdddf26ee1cc861ba7"
+    },
+    {
+      "phase": [
+        "pilot"
+      ],
+      "item_id": "P4D_PLAN::PF_P4D_HN_SIT_G004_V01",
+      "operational_id": "PFV6_PILOT_0016",
+      "taxonomy": "floor_sitting",
+      "person_idx": "1",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UNCERTAIN",
+      "image_path": "/home/yanbo/下载/batches/batch-person-fallen-v2-p4d-hardneg-fullregen-r2-camera1p5m/final/PF_P4D_HN_SIT_G004_V01.png",
+      "image_sha256": "9cc7238930c1217ea2d18dc48dbdea669e51a458fa066a7b6898b4246cbc93d9",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared/PFV4D_0016/full_scene.jpg",
+      "full_view_sha256": "346966b1f64514ab74513422699d787d9c753ea47491925d47fd42567d7617ee"
+    },
+    {
+      "phase": [
+        "pilot"
+      ],
+      "item_id": "P4D_PLAN::PF_P4D_HN_SIT_G005_V02",
+      "operational_id": "PFV6_PILOT_0022",
+      "taxonomy": "floor_sitting",
+      "person_idx": "1",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UNCERTAIN",
+      "image_path": "/home/yanbo/下载/batches/batch-person-fallen-v2-p4d-hardneg-fullregen-r2-camera1p5m/final/PF_P4D_HN_SIT_G005_V02.png",
+      "image_sha256": "abd0a0f74db8549cae12f43562177bf6118439858d02a4ea8ca8302f7474f48c",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared/PFV4D_0022/full_scene.jpg",
+      "full_view_sha256": "124b050ae4b5506a7dd1cae9e0f61f646ff6fb8c7cf3f9e423ad2f44ac187779"
+    },
+    {
+      "phase": [
+        "pilot"
+      ],
+      "item_id": "P4D_PLAN::PF_P4D_HN_SIT_G005_V02",
+      "operational_id": "PFV6_PILOT_0022",
+      "taxonomy": "floor_sitting",
+      "person_idx": "2",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UNCERTAIN",
+      "image_path": "/home/yanbo/下载/batches/batch-person-fallen-v2-p4d-hardneg-fullregen-r2-camera1p5m/final/PF_P4D_HN_SIT_G005_V02.png",
+      "image_sha256": "abd0a0f74db8549cae12f43562177bf6118439858d02a4ea8ca8302f7474f48c",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared/PFV4D_0022/full_scene.jpg",
+      "full_view_sha256": "124b050ae4b5506a7dd1cae9e0f61f646ff6fb8c7cf3f9e423ad2f44ac187779"
+    },
+    {
+      "phase": [
+        "pilot"
+      ],
+      "item_id": "P4D_PLAN::PF_P4D_HN_SIT_G006_V03",
+      "operational_id": "PFV6_PILOT_0028",
+      "taxonomy": "floor_sitting",
+      "person_idx": "1",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UNCERTAIN",
+      "image_path": "/home/yanbo/下载/batches/batch-person-fallen-v2-p4d-hardneg-fullregen-r2-camera1p5m/final/PF_P4D_HN_SIT_G006_V03.png",
+      "image_sha256": "3fb6a031562a93c0c4b0eb650169a3e64cd7b02b683434ad1968406d72e538b9",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared/PFV4D_0028/full_scene.jpg",
+      "full_view_sha256": "419811775b2e3619126c7d613750517bc9ebcbe2d1f89d0f61a3fcd26f428407"
+    },
+    {
+      "phase": [
+        "pilot"
+      ],
+      "item_id": "P4D_PLAN::PF_P4D_HN_SIT_G007_V04",
+      "operational_id": "PFV6_PILOT_0034",
+      "taxonomy": "floor_sitting",
+      "person_idx": "1",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UPRIGHT",
+      "image_path": "/home/yanbo/下载/batches/batch-person-fallen-v2-p4d-hardneg-fullregen-r2-camera1p5m/final/PF_P4D_HN_SIT_G007_V04.png",
+      "image_sha256": "af6d25edfd980970210e9ace684e295fb059ad083f946dec902cc0dd97c330e8",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared/PFV4D_0034/full_scene.jpg",
+      "full_view_sha256": "e8a621b8a05c53e35fc130c4959a04742191d4517707d5b579c5120ee8f317af"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "P4D_PLAN::PF_P4D_NEG_CHAIR_G003_V03",
+      "operational_id": "PFV4DEV_0434",
+      "taxonomy": "chair_seated_normal_work",
+      "person_idx": "2",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UNCERTAIN",
+      "image_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_03_gr3q6_authorized_20260831_01/08_final/PF_P4D_NEG_CHAIR_G003_V03.png",
+      "image_sha256": "01165733ce7d8f14508a07f43e62cc962d9fb73bdf5d45c6d962972a0c4adf32",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0434/full_scene.jpg",
+      "full_view_sha256": "90f439be404c1d66e09bdf82ab498981692fd6f2674754a58626ab5a29d58eef"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "P4D_PLAN::PF_P4D_NEG_CHAIR_G003_V03",
+      "operational_id": "PFV4DEV_0434",
+      "taxonomy": "chair_seated_normal_work",
+      "person_idx": "4",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UNCERTAIN",
+      "image_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_03_gr3q6_authorized_20260831_01/08_final/PF_P4D_NEG_CHAIR_G003_V03.png",
+      "image_sha256": "01165733ce7d8f14508a07f43e62cc962d9fb73bdf5d45c6d962972a0c4adf32",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0434/full_scene.jpg",
+      "full_view_sha256": "90f439be404c1d66e09bdf82ab498981692fd6f2674754a58626ab5a29d58eef"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "P4D_PLAN::PF_P4D_NEG_CHAIR_G003_V03",
+      "operational_id": "PFV4DEV_0434",
+      "taxonomy": "chair_seated_normal_work",
+      "person_idx": "5",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UNCERTAIN",
+      "image_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_03_gr3q6_authorized_20260831_01/08_final/PF_P4D_NEG_CHAIR_G003_V03.png",
+      "image_sha256": "01165733ce7d8f14508a07f43e62cc962d9fb73bdf5d45c6d962972a0c4adf32",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0434/full_scene.jpg",
+      "full_view_sha256": "90f439be404c1d66e09bdf82ab498981692fd6f2674754a58626ab5a29d58eef"
+    },
+    {
+      "phase": [
+        "pilot"
+      ],
+      "item_id": "P4D_PLAN::PF_P4D_POS_SUPINE_G001_V05",
+      "operational_id": "PFV6_PILOT_0096",
+      "taxonomy": "supine_ground_lying",
+      "person_idx": "1",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UNCERTAIN",
+      "image_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_05_gr3q8_authorized_20260831_01/08_final/PF_P4D_POS_SUPINE_G001_V05.png",
+      "image_sha256": "9273361ba7cea7d5d4a23ccc85d8a3f4b5bdbf992c337a8cb562a5d31b6dc290",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared/PFV4D_0096/full_scene.jpg",
+      "full_view_sha256": "dc61952a6124d81312ba2371d24a285d177d628fa2df507c06329aa36b6cdd78"
+    },
+    {
+      "phase": [
+        "pilot"
+      ],
+      "item_id": "P4D_PLAN::PF_P4D_POS_SUPINE_G001_V05",
+      "operational_id": "PFV6_PILOT_0096",
+      "taxonomy": "supine_ground_lying",
+      "person_idx": "2",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UNCERTAIN",
+      "image_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/08_p4d_new_hard_negative_dev_revision/02_generation/gr3_fullregen/06_execution/quota_campaign_window_05_gr3q8_authorized_20260831_01/08_final/PF_P4D_POS_SUPINE_G001_V05.png",
+      "image_sha256": "9273361ba7cea7d5d4a23ccc85d8a3f4b5bdbf992c337a8cb562a5d31b6dc290",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared/PFV4D_0096/full_scene.jpg",
+      "full_view_sha256": "dc61952a6124d81312ba2371d24a285d177d628fa2df507c06329aa36b6cdd78"
+    },
+    {
+      "phase": [
+        "pilot"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_003712",
+      "operational_id": "PFV6_PILOT_0046",
+      "taxonomy": "floor_sitting",
+      "person_idx": "1",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UNCERTAIN",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/311_h02-sitting-on-floor-01.png",
+      "image_sha256": "a08dc0677c5f0c67aecd4897fe8c39f6112c2732b2182b3d889b03b5a98b617d",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared/PFV4D_0046/full_scene.jpg",
+      "full_view_sha256": "b37deb61c8a354d99a35ee838d7f72bbe3b3bcf94207e6a0883874d2018ca0bf"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_003723",
+      "operational_id": "PFV4DEV_0134",
+      "taxonomy": "kneeling_half_kneeling",
+      "person_idx": "1",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UNCERTAIN",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/322_h03-kneeling-02.png",
+      "image_sha256": "bbf2f9c60794f8bc935d2c5b0b8b4f103c4e98e20d82758d877739c54216a75c",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0134/full_scene.jpg",
+      "full_view_sha256": "fdf356cb8f922422d7118a0d47f7040bd4a07974a9e08def5fecb84420932486"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_003723",
+      "operational_id": "PFV4DEV_0134",
+      "taxonomy": "kneeling_half_kneeling",
+      "person_idx": "2",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UNCERTAIN",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/322_h03-kneeling-02.png",
+      "image_sha256": "bbf2f9c60794f8bc935d2c5b0b8b4f103c4e98e20d82758d877739c54216a75c",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0134/full_scene.jpg",
+      "full_view_sha256": "fdf356cb8f922422d7118a0d47f7040bd4a07974a9e08def5fecb84420932486"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_003731",
+      "operational_id": "PFV4DEV_0143",
+      "taxonomy": "kneeling_half_kneeling",
+      "person_idx": "1",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UPRIGHT",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/330_h03-kneeling-10.png",
+      "image_sha256": "2945077368eabff86b0a88694c309b66a40b7b4224c9ade8d5cf2056b3e0fd12",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0143/full_scene.jpg",
+      "full_view_sha256": "b051d0d29fe9df2e930d0cb19a6f38c136c740976ade7ea140f469b31bff7cec"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_003739",
+      "operational_id": "PFV4DEV_0151",
+      "taxonomy": "kneeling_half_kneeling",
+      "person_idx": "0",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_NOT_UPRIGHT",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/338_h04-kneeling-08.png",
+      "image_sha256": "c8cb3323d15195f6ab37a8612bda59fe1b5c5709447488b249b6ad10f803b39d",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0151/full_scene.jpg",
+      "full_view_sha256": "9cc888674c4658780af7cb0a466ab6d32837e96902af131f023707a6dac3fb4b"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_003739",
+      "operational_id": "PFV4DEV_0151",
+      "taxonomy": "kneeling_half_kneeling",
+      "person_idx": "1",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_NOT_UPRIGHT",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/338_h04-kneeling-08.png",
+      "image_sha256": "c8cb3323d15195f6ab37a8612bda59fe1b5c5709447488b249b6ad10f803b39d",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0151/full_scene.jpg",
+      "full_view_sha256": "9cc888674c4658780af7cb0a466ab6d32837e96902af131f023707a6dac3fb4b"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_003744",
+      "operational_id": "PFV4DEV_0157",
+      "taxonomy": "squat_crouch_deep_bend",
+      "person_idx": "1",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UPRIGHT",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/343_h05-squatting-03.png",
+      "image_sha256": "1ed23067edcea8314d40a89b2f0099b09a4158392f566ffda462ffbf94f69dec",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0157/full_scene.jpg",
+      "full_view_sha256": "990cc24b76b7726f5b6339af058a55605c750503de971d629cb7b7b3ad723092"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_003744",
+      "operational_id": "PFV4DEV_0157",
+      "taxonomy": "squat_crouch_deep_bend",
+      "person_idx": "2",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UNCERTAIN",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/343_h05-squatting-03.png",
+      "image_sha256": "1ed23067edcea8314d40a89b2f0099b09a4158392f566ffda462ffbf94f69dec",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0157/full_scene.jpg",
+      "full_view_sha256": "990cc24b76b7726f5b6339af058a55605c750503de971d629cb7b7b3ad723092"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_003749",
+      "operational_id": "PFV4DEV_0162",
+      "taxonomy": "squat_crouch_deep_bend",
+      "person_idx": "0",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_NOT_UPRIGHT",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/348_h05-squatting-08.png",
+      "image_sha256": "57fb50e97101ae1cda04436212fb0824c636fe0e3c9191df396359df86b78885",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0162/full_scene.jpg",
+      "full_view_sha256": "e330cad6873aedadfe62ba85f51989d2752d0999c4cb88be77dcb667ee59aa85"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_003750",
+      "operational_id": "PFV4DEV_0163",
+      "taxonomy": "squat_crouch_deep_bend",
+      "person_idx": "1",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UNCERTAIN",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/349_h05-squatting-09.png",
+      "image_sha256": "1d65e08d16ef340f6405ccb60f352ea7050ebc21d5a07c0596a4300c3832ec60",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0163/full_scene.jpg",
+      "full_view_sha256": "59c0ad775f15ac00bf7a793413d900881459d530eac7f28b7774910314d357e9"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_003759",
+      "operational_id": "PFV4DEV_0173",
+      "taxonomy": "squat_crouch_deep_bend",
+      "person_idx": "1",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UNCERTAIN",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/358_h06-squatting-08.png",
+      "image_sha256": "30bae33ef6a87738d1ee9d7d6ce2d42944cd954b3f4062fd6de26355e168188b",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0173/full_scene.jpg",
+      "full_view_sha256": "66747a5729f9dc533dc6473ab9157145cf54a78758cbf17b7dc8705e8a07d067"
+    },
+    {
+      "phase": [
+        "pilot"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_003786",
+      "operational_id": "PFV6_PILOT_0115",
+      "taxonomy": "pushup_plank",
+      "person_idx": "1",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UNCERTAIN",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/385_h09-exercise-push-up-plank-05.png",
+      "image_sha256": "f7e3f93d49290d8262bf2f119da7e4d34e03675776f035ed52eb7b863efcd793",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0203/full_scene.jpg",
+      "full_view_sha256": "a5690d2a0aecfaf029b463cb83fffafa25bc22106b6e39cce195a47c549ba141"
+    },
+    {
+      "phase": [
+        "pilot"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_003789",
+      "operational_id": "PFV6_PILOT_0118",
+      "taxonomy": "pushup_plank",
+      "person_idx": "1",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UNCERTAIN",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/388_h09-exercise-push-up-plank-08.png",
+      "image_sha256": "21f4286a344ea0ac02c3f5ce64d9873282b0e088c68b5f15cb1aaee753ab9c96",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0206/full_scene.jpg",
+      "full_view_sha256": "fe698bd835e81b7eada45594067cc3dc19aba11b8ec9cf37354812ab268c5f0f"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_003885",
+      "operational_id": "PFV4DEV_0044",
+      "taxonomy": "standing",
+      "person_idx": "1",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UPRIGHT",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/204_n01-normal-standing-04.png",
+      "image_sha256": "ce9dc025af14a475e18224fc33de4e53f4c219f05c455b849eda6519a28280f2",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0044/full_scene.jpg",
+      "full_view_sha256": "40f2e3e566d96ee885785e9dbf2a02b2691bcdcb0b9185842874ee3cadc22564"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_003885",
+      "operational_id": "PFV4DEV_0044",
+      "taxonomy": "standing",
+      "person_idx": "2",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UNCERTAIN",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/204_n01-normal-standing-04.png",
+      "image_sha256": "ce9dc025af14a475e18224fc33de4e53f4c219f05c455b849eda6519a28280f2",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0044/full_scene.jpg",
+      "full_view_sha256": "40f2e3e566d96ee885785e9dbf2a02b2691bcdcb0b9185842874ee3cadc22564"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_003887",
+      "operational_id": "PFV4DEV_0046",
+      "taxonomy": "standing",
+      "person_idx": "1",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_NOT_UPRIGHT",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/206_n01-normal-standing-06.png",
+      "image_sha256": "6786cd4c5ce2d5100e95e9ca8a85a3ee6c0074d2661b445a20b694d5bf35814f",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0046/full_scene.jpg",
+      "full_view_sha256": "a126815b089127aed04c84228ba9bafc51a95e19a7f24dd28585109d29cd4104"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_003887",
+      "operational_id": "PFV4DEV_0046",
+      "taxonomy": "standing",
+      "person_idx": "2",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_NOT_UPRIGHT",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/206_n01-normal-standing-06.png",
+      "image_sha256": "6786cd4c5ce2d5100e95e9ca8a85a3ee6c0074d2661b445a20b694d5bf35814f",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0046/full_scene.jpg",
+      "full_view_sha256": "a126815b089127aed04c84228ba9bafc51a95e19a7f24dd28585109d29cd4104"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_003889",
+      "operational_id": "PFV4DEV_0048",
+      "taxonomy": "standing",
+      "person_idx": "1",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_NOT_UPRIGHT",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/208_n01-normal-standing-08.png",
+      "image_sha256": "5dbf27cf5cbc6edd6b8d4aedddf6f42e9ac9809a1f40a430e968ab70da572ea4",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0048/full_scene.jpg",
+      "full_view_sha256": "daeee04de77563e9410883781e8a0fc8995d8fbadc3b2eecdde4eced3fb24e36"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_003889",
+      "operational_id": "PFV4DEV_0048",
+      "taxonomy": "standing",
+      "person_idx": "3",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_NOT_UPRIGHT",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/208_n01-normal-standing-08.png",
+      "image_sha256": "5dbf27cf5cbc6edd6b8d4aedddf6f42e9ac9809a1f40a430e968ab70da572ea4",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0048/full_scene.jpg",
+      "full_view_sha256": "daeee04de77563e9410883781e8a0fc8995d8fbadc3b2eecdde4eced3fb24e36"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_003892",
+      "operational_id": "PFV4DEV_0052",
+      "taxonomy": "walking",
+      "person_idx": "1",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UNCERTAIN",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/211_n02-normal-walking-01.png",
+      "image_sha256": "84620ef986b653f83fe4161a06054c03b14bfde35ca3588d66b6dcdfeb104929",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0052/full_scene.jpg",
+      "full_view_sha256": "b29d6d3947f2dc42e3a979881af691c1e1fb94481b34b0056a2107f993bdf7fc"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_003895",
+      "operational_id": "PFV4DEV_0055",
+      "taxonomy": "walking",
+      "person_idx": "1",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_NOT_UPRIGHT",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/214_n02-normal-walking-04.png",
+      "image_sha256": "fc149aaea8829ea06f3ed12651debf67d1b41ee5405a8479d2855176ad1207f8",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0055/full_scene.jpg",
+      "full_view_sha256": "7b44600b1c11c9bb9085db14a94b27172b989521ab0694a759a13c41aa533da3"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_003895",
+      "operational_id": "PFV4DEV_0055",
+      "taxonomy": "walking",
+      "person_idx": "2",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UNCERTAIN",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/214_n02-normal-walking-04.png",
+      "image_sha256": "fc149aaea8829ea06f3ed12651debf67d1b41ee5405a8479d2855176ad1207f8",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0055/full_scene.jpg",
+      "full_view_sha256": "7b44600b1c11c9bb9085db14a94b27172b989521ab0694a759a13c41aa533da3"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_003896",
+      "operational_id": "PFV4DEV_0056",
+      "taxonomy": "walking",
+      "person_idx": "1",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_NOT_UPRIGHT",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/215_n02-normal-walking-05.png",
+      "image_sha256": "3ea5da470a7ca94ea0f92d87746573becb0e70b5d600f444a579417cca00be40",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0056/full_scene.jpg",
+      "full_view_sha256": "852f32ed4808098bae750f300b0660457eca8e399496366368956e07d687a7f2"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_003897",
+      "operational_id": "PFV4DEV_0057",
+      "taxonomy": "walking",
+      "person_idx": "1",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_NOT_UPRIGHT",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/216_n02-normal-walking-06.png",
+      "image_sha256": "5236377d0e960a946da10b1df70dee4dedb6b1ee8dfab55782303b948b178395",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0057/full_scene.jpg",
+      "full_view_sha256": "ddf2228482c27afe5d932c0cac311fa6fcfb40d088c54ef3f13ccbde5ed2da35"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_003899",
+      "operational_id": "PFV4DEV_0059",
+      "taxonomy": "walking",
+      "person_idx": "1",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UNCERTAIN",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/218_n02-normal-walking-08.png",
+      "image_sha256": "e5272b7ba0585b8642824a52f893afc42fc446c0ea9e9b7b11ed2b6eb4615835",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0059/full_scene.jpg",
+      "full_view_sha256": "9f6a9d900b88e4da890428daca137211b6694110536991e74d2b5b7bc0d63f7f"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_003902",
+      "operational_id": "PFV4DEV_0063",
+      "taxonomy": "chair_sitting",
+      "person_idx": "1",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UNCERTAIN",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/221_n03-normal-seated-on-chair-stool-01.png",
+      "image_sha256": "134dfe24ba4a545900acbfdb83b4a62b70449aaadd890b1c75651779c8f2e888",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0063/full_scene.jpg",
+      "full_view_sha256": "e5e65c14e395b063a4d919072935496a0b7b7f639dcc2639511a04b32570214f"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_003904",
+      "operational_id": "PFV4DEV_0065",
+      "taxonomy": "chair_sitting",
+      "person_idx": "1",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UPRIGHT",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/223_n03-normal-seated-on-chair-stool-03.png",
+      "image_sha256": "b0def42df09f987a7c46fd51ecb0ffb1a9d3017e809f2dcb08e60c5ec55a7c0f",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0065/full_scene.jpg",
+      "full_view_sha256": "9bbd4dfeac501d5cc8f604ccbffa9f3f0a7294480565e4234f5b03dec51e8b74"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_003904",
+      "operational_id": "PFV4DEV_0065",
+      "taxonomy": "chair_sitting",
+      "person_idx": "2",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UNCERTAIN",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/223_n03-normal-seated-on-chair-stool-03.png",
+      "image_sha256": "b0def42df09f987a7c46fd51ecb0ffb1a9d3017e809f2dcb08e60c5ec55a7c0f",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0065/full_scene.jpg",
+      "full_view_sha256": "9bbd4dfeac501d5cc8f604ccbffa9f3f0a7294480565e4234f5b03dec51e8b74"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_003910",
+      "operational_id": "PFV4DEV_0071",
+      "taxonomy": "chair_sitting",
+      "person_idx": "1",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UNCERTAIN",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/229_n03-normal-seated-on-chair-stool-09.png",
+      "image_sha256": "321f3a35a48e0a9f07f6f244168a419b8af6fa0e74498afebb4b61b11e640241",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0071/full_scene.jpg",
+      "full_view_sha256": "6759fc192f39c0c7311bd2d20474f061e6cc2ebc6bfbe8374392949722a6c4e0"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_003914",
+      "operational_id": "PFV4DEV_0076",
+      "taxonomy": "chair_sitting",
+      "person_idx": "5",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UPRIGHT",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/233_n04-normal-seated-on-chair-stool-03.png",
+      "image_sha256": "8bdf1601258e589a61a1ddaabcf4d9f5d44b83c59f28ad97f6030858e1d7ff54",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0076/full_scene.jpg",
+      "full_view_sha256": "449aca7e847634b420346ed67e7aa716e08a8dd8ffe7d6304475406c08dca48c"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_003919",
+      "operational_id": "PFV4DEV_0081",
+      "taxonomy": "chair_sitting",
+      "person_idx": "2",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UNCERTAIN",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/238_n04-normal-seated-on-chair-stool-08.png",
+      "image_sha256": "95d750ee89b98302502ce9d5dd13c9cfd0bb861ce62ff17fb6bb95ba2852da1f",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0081/full_scene.jpg",
+      "full_view_sha256": "3b27ab24d80ae6ebd3054d43c0740f9eb990b212d71fe12037dc3116fb2d0140"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_003920",
+      "operational_id": "PFV4DEV_0082",
+      "taxonomy": "chair_sitting",
+      "person_idx": "2",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UNCERTAIN",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/239_n04-normal-seated-on-chair-stool-09.png",
+      "image_sha256": "1d98c7785efcb98a45f71e366224ff1f43a9e4607bd7f11ac5a840e3fedbe349",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0082/full_scene.jpg",
+      "full_view_sha256": "61a06fc45536816ffd1716cb1de2b040e16fbac558345a150d7152e601c60818"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_003937",
+      "operational_id": "PFV4DEV_0101",
+      "taxonomy": "ordinary_work",
+      "person_idx": "0",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_NOT_UPRIGHT",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/256_n06-normal-work-activity-06.png",
+      "image_sha256": "15b2e5f1094add6b6262cc9d02d72f3cbacf86a9d4023024b7f9cbfc8d7a1dd8",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0101/full_scene.jpg",
+      "full_view_sha256": "90c6b7cc818690a6ba2898ed0953019e8648ab762aee1b47e0e1d3a0587e5212"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_003938",
+      "operational_id": "PFV4DEV_0102",
+      "taxonomy": "ordinary_work",
+      "person_idx": "2",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UPRIGHT",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/257_n06-normal-work-activity-07.png",
+      "image_sha256": "7d581bcff51b91f01017bb3a2479b738f8702d3532dc02bb5be374eb3acbfa33",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0102/full_scene.jpg",
+      "full_view_sha256": "c299b90166cd64c114d85d9d11f8e5fdfa2e87fbe7d0039f4c8d2bd2b4005cb8"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_003941",
+      "operational_id": "PFV4DEV_0106",
+      "taxonomy": "ordinary_work",
+      "person_idx": "3",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UPRIGHT",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/260_n06-normal-work-activity-10.png",
+      "image_sha256": "bd7cb37950286e8775216a9371b0eece1f9d46cfb09f046e0205804bd042b6a7",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0106/full_scene.jpg",
+      "full_view_sha256": "bdcdd66c91dba3834d0a2bd125e3a46d6a06fde1355209cfd0e49f77dac503cc"
+    },
+    {
+      "phase": [
+        "pilot"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_003993",
+      "operational_id": "PFV6_PILOT_0108",
+      "taxonomy": "supine_ground_lying",
+      "person_idx": "1",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UNCERTAIN",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/12_p02-supine-on-floor-02.png",
+      "image_sha256": "9bf58dce8362de316637a40ce17ef8cf5a4a65455b6bb9bdc22a40bb860abee4",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared/PFV4D_0108/full_scene.jpg",
+      "full_view_sha256": "8c77bf0ef516d1c0996385e243cbdc9f9c0df45504fe05cebe2b6eb68728c34a"
+    },
+    {
+      "phase": [
+        "pilot"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_004024",
+      "operational_id": "PFV6_PILOT_0081",
+      "taxonomy": "side_lying",
+      "person_idx": "1",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UNCERTAIN",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/43_p05-side-lying-on-floor-03.png",
+      "image_sha256": "27ab8404612d800fa1e25c2b6dfaab48a4dea15df2e9946e3a192a8ac2dff522",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared/PFV4D_0081/full_scene.jpg",
+      "full_view_sha256": "6479921bc3bd6dc68b40e936da1b902aeaeb1acf96cf5becaac9db62842a7ecb"
+    },
+    {
+      "phase": [
+        "pilot"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_004030",
+      "operational_id": "PFV6_PILOT_0087",
+      "taxonomy": "side_lying",
+      "person_idx": "1",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UNCERTAIN",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/49_p05-side-lying-on-floor-09.png",
+      "image_sha256": "62327680277259c675a6504f4dc31fb69739f19221e2a2a8e631806a19882e15",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared/PFV4D_0087/full_scene.jpg",
+      "full_view_sha256": "3f0f7a1378b88fe377f99c46f6c2b5c9c6b51234ee4e1d8e49f39108635cf3b8"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_004081",
+      "operational_id": "PFV4DEV_0310",
+      "taxonomy": "partially_occluded_lying",
+      "person_idx": "1",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UNCERTAIN",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/99_p10-partially-occluded-fallen-person-09.png",
+      "image_sha256": "c1986b13f838a910c7e2958d9851f9d61140c6f9ef8011a98ce6454153f1c5e1",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0310/full_scene.jpg",
+      "full_view_sha256": "ccb0339c76a6974dac83a19dfb5f4070bfe9eee2950aab3b90a4d7fec9bbd541"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_004090",
+      "operational_id": "PFV4DEV_0019",
+      "taxonomy": "small_target_ground_lying",
+      "person_idx": "0",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UNCERTAIN",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/109_p11-small-target-far-distance-09.png",
+      "image_sha256": "a845ea4ea68b331dc883ec7e9b81d613a0d71b5a12f0ff22ea26078d325592a8",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0019/full_scene.jpg",
+      "full_view_sha256": "d0d87676dc937505f379904120587bc915ca7e096bfccea80aceba71a97515a4"
+    },
+    {
+      "phase": [
+        "full_remaining"
+      ],
+      "item_id": "V2_ORIGINAL::IMG_004090",
+      "operational_id": "PFV4DEV_0019",
+      "taxonomy": "small_target_ground_lying",
+      "person_idx": "1",
+      "level": "background",
+      "geom_state_a2": "BACKGROUND_GEOM_UNCERTAIN",
+      "image_path": "/home/yanbo/下载/batches/batch_person-fallen-v2-camera1p5m/final/109_p11-small-target-far-distance-09.png",
+      "image_sha256": "a845ea4ea68b331dc883ec7e9b81d613a0d71b5a12f0ff22ea26078d325592a8",
+      "full_view_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/13_person_fallen_v4_pose_attributes/prepared_full_dev/PFV4DEV_0019/full_scene.jpg",
+      "full_view_sha256": "d0d87676dc937505f379904120587bc915ca7e096bfccea80aceba71a97515a4"
+    }
+  ],
+  "extra_targets": []
+}

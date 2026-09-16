@@ -1,0 +1,404 @@
+{
+  "candidate": "V7-B0R1C-CROP-COMPLETE-RECOVERY",
+  "INHERITED_PARENT_REQUESTS": 4,
+  "INHERITED_PARENT_ROWS": 4,
+  "INHERITANCE_TYPE": "EXACT_PAYLOAD_EQUIVALENCE",
+  "rows": [
+    {
+      "parent_candidate": "V7-B0R1-STRICT-MATCH-FALLBACK",
+      "parent_freeze_sha": "b4591557c0ce7b1580fe1f5500ee636318a18d72fec88c2def9df2a4c8ebca44",
+      "parent_request_id": "V7_B0R1_pilot_0001_P2_scene",
+      "row_index": 1,
+      "item_id": "P4D_PLAN::PF_P4D_HN_SIT_G001_V01",
+      "payload_sha256": "69157c56db4a2cee72065cc5a795747a75f069ff7e603289d1fb0e15eb57eeb4",
+      "raw_sha256": "8177adcbaa01f0b13194fe60b3981e8f6a28424255c461bca37a4c4742834755",
+      "source_image_sha256": "e2a581d85bad33fe876ee72c81c6ed053fc8ab9c62975f9daa63beb4393052fa",
+      "view_sha256": "a5318c14967edd2d4b86114703641c734049845616a93064713066287ee486e3",
+      "strict_json_ok": true,
+      "source_binding_ok": true,
+      "image_decision": "NO_ALERT_NORMAL_POSE",
+      "parent_output_record": {
+        "state": "completed",
+        "phase": "pilot",
+        "row_index": 1,
+        "item_id": "P4D_PLAN::PF_P4D_HN_SIT_G001_V01",
+        "operational_id": "PFV6_PILOT_0001",
+        "taxonomy": "floor_sitting",
+        "source_image_sha256": "e2a581d85bad33fe876ee72c81c6ed053fc8ab9c62975f9daa63beb4393052fa",
+        "strict_json_ok": true,
+        "source_binding_ok": true,
+        "p1": [],
+        "p2": {
+          "request_id": "V7_B0R1_pilot_0001_P2_scene",
+          "route": "P2_scene",
+          "vlm": {
+            "people": [
+              {
+                "pose": "pushup_plank",
+                "torso_orientation": "upright",
+                "torso_ground_contact": "none",
+                "support_surface": "floor",
+                "body_support_configuration": "torso_ground_supported",
+                "explicit_work_evidence": "no",
+                "visual_quality": "clear",
+                "bbox_1000": [
+                  350,
+                  300,
+                  580,
+                  650
+                ]
+              }
+            ]
+          },
+          "associations": [
+            {
+              "detector_index": 0,
+              "p2_index": 0,
+              "score": [
+                0.7551007763498635,
+                0.9999494137971298,
+                1,
+                1,
+                -0.02927844835816316,
+                0,
+                0
+              ],
+              "metrics": {
+                "iou": 0.7551007763498635,
+                "intersection_over_min_area": 0.9999494137971298,
+                "detector_center_inside_expanded_p2": true,
+                "p2_center_inside_expanded_detector": true,
+                "normalized_center_distance": 0.02927844835816316
+              }
+            }
+          ],
+          "person_decisions": [
+            {
+              "p2_index": 0,
+              "matched_detector_index": 0,
+              "decision": "NO_EFFECT",
+              "vlm": {
+                "pose": "pushup_plank",
+                "torso_orientation": "upright",
+                "torso_ground_contact": "none",
+                "support_surface": "floor",
+                "body_support_configuration": "torso_ground_supported",
+                "explicit_work_evidence": "no",
+                "visual_quality": "clear",
+                "bbox_1000": [
+                  350,
+                  300,
+                  580,
+                  650
+                ]
+              }
+            }
+          ],
+          "latency_seconds": 9.107936208005412,
+          "payload_sha256": "69157c56db4a2cee72065cc5a795747a75f069ff7e603289d1fb0e15eb57eeb4",
+          "raw_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/28_person_fallen_v7_b0r1_strict_match_fallback_clean/eval/pilot/raw/V7_B0R1_pilot_0001_P2_scene.json",
+          "raw_sha256": "8177adcbaa01f0b13194fe60b3981e8f6a28424255c461bca37a4c4742834755"
+        },
+        "image_decision": "NO_ALERT_NORMAL_POSE"
+      },
+      "equivalence_verified": true
+    },
+    {
+      "parent_candidate": "V7-B0R1-STRICT-MATCH-FALLBACK",
+      "parent_freeze_sha": "b4591557c0ce7b1580fe1f5500ee636318a18d72fec88c2def9df2a4c8ebca44",
+      "parent_request_id": "V7_B0R1_pilot_0002_P2_scene",
+      "row_index": 2,
+      "item_id": "P4D_PLAN::PF_P4D_HN_SIT_G001_V02",
+      "payload_sha256": "31d390972c1b74b457530f3d10f3deeb4e0a3aa60bffd758f6a076a8f6325419",
+      "raw_sha256": "88c8b0bb109ba76d243ef6db9377711141fe96736f07750cf89f31819e9e3ec6",
+      "source_image_sha256": "d21e3b0133297066faa98825f1b244b103aa41b025a604ab263570ced2abc6ae",
+      "view_sha256": "8c31ab5b43edf647fc26471fd374758919a9448665ad9b4a58002d05c0a5f321",
+      "strict_json_ok": true,
+      "source_binding_ok": true,
+      "image_decision": "NO_ALERT_NORMAL_POSE",
+      "parent_output_record": {
+        "state": "completed",
+        "phase": "pilot",
+        "row_index": 2,
+        "item_id": "P4D_PLAN::PF_P4D_HN_SIT_G001_V02",
+        "operational_id": "PFV6_PILOT_0002",
+        "taxonomy": "floor_sitting",
+        "source_image_sha256": "d21e3b0133297066faa98825f1b244b103aa41b025a604ab263570ced2abc6ae",
+        "strict_json_ok": true,
+        "source_binding_ok": true,
+        "p1": [],
+        "p2": {
+          "request_id": "V7_B0R1_pilot_0002_P2_scene",
+          "route": "P2_scene",
+          "vlm": {
+            "people": [
+              {
+                "pose": "pushup_plank",
+                "torso_orientation": "upright",
+                "torso_ground_contact": "none",
+                "support_surface": "floor",
+                "body_support_configuration": "hands_knees_supported",
+                "explicit_work_evidence": "no",
+                "visual_quality": "clear",
+                "bbox_1000": [
+                  442,
+                  388,
+                  574,
+                  642
+                ]
+              }
+            ]
+          },
+          "associations": [
+            {
+              "detector_index": 0,
+              "p2_index": 0,
+              "score": [
+                0.6309099718541554,
+                0.8922682124752884,
+                1,
+                1,
+                -0.15157123112344695,
+                0,
+                0
+              ],
+              "metrics": {
+                "iou": 0.6309099718541554,
+                "intersection_over_min_area": 0.8922682124752884,
+                "detector_center_inside_expanded_p2": true,
+                "p2_center_inside_expanded_detector": true,
+                "normalized_center_distance": 0.15157123112344695
+              }
+            }
+          ],
+          "person_decisions": [
+            {
+              "p2_index": 0,
+              "matched_detector_index": 0,
+              "decision": "NO_EFFECT",
+              "vlm": {
+                "pose": "pushup_plank",
+                "torso_orientation": "upright",
+                "torso_ground_contact": "none",
+                "support_surface": "floor",
+                "body_support_configuration": "hands_knees_supported",
+                "explicit_work_evidence": "no",
+                "visual_quality": "clear",
+                "bbox_1000": [
+                  442,
+                  388,
+                  574,
+                  642
+                ]
+              }
+            }
+          ],
+          "latency_seconds": 8.870010162005201,
+          "payload_sha256": "31d390972c1b74b457530f3d10f3deeb4e0a3aa60bffd758f6a076a8f6325419",
+          "raw_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/28_person_fallen_v7_b0r1_strict_match_fallback_clean/eval/pilot/raw/V7_B0R1_pilot_0002_P2_scene.json",
+          "raw_sha256": "88c8b0bb109ba76d243ef6db9377711141fe96736f07750cf89f31819e9e3ec6"
+        },
+        "image_decision": "NO_ALERT_NORMAL_POSE"
+      },
+      "equivalence_verified": true
+    },
+    {
+      "parent_candidate": "V7-B0R1-STRICT-MATCH-FALLBACK",
+      "parent_freeze_sha": "b4591557c0ce7b1580fe1f5500ee636318a18d72fec88c2def9df2a4c8ebca44",
+      "parent_request_id": "V7_B0R1_pilot_0003_P2_scene",
+      "row_index": 3,
+      "item_id": "P4D_PLAN::PF_P4D_HN_SIT_G001_V03",
+      "payload_sha256": "ec606468ac94795c4bd1b5f31333d0f9c146d3a9260032bfee03dedfa5713feb",
+      "raw_sha256": "e1ae4e0f73051b17e40124775cee434e14a851ef06b12336926e2ffec71ea488",
+      "source_image_sha256": "674601dc13de3a69747b95d3c61fcef59f1fbf0e4aff3cb3ab4b27dcbfd899d7",
+      "view_sha256": "95c764ada4e95c955572c64e9e5460ff0304d61f5e8faab81f275175fec3c934",
+      "strict_json_ok": true,
+      "source_binding_ok": true,
+      "image_decision": "NO_ALERT_NORMAL_POSE",
+      "parent_output_record": {
+        "state": "completed",
+        "phase": "pilot",
+        "row_index": 3,
+        "item_id": "P4D_PLAN::PF_P4D_HN_SIT_G001_V03",
+        "operational_id": "PFV6_PILOT_0003",
+        "taxonomy": "floor_sitting",
+        "source_image_sha256": "674601dc13de3a69747b95d3c61fcef59f1fbf0e4aff3cb3ab4b27dcbfd899d7",
+        "strict_json_ok": true,
+        "source_binding_ok": true,
+        "p1": [],
+        "p2": {
+          "request_id": "V7_B0R1_pilot_0003_P2_scene",
+          "route": "P2_scene",
+          "vlm": {
+            "people": [
+              {
+                "pose": "pushup_plank",
+                "torso_orientation": "horizontal",
+                "torso_ground_contact": "none",
+                "support_surface": "floor",
+                "body_support_configuration": "torso_ground_supported",
+                "explicit_work_evidence": "no",
+                "visual_quality": "clear",
+                "bbox_1000": [
+                  448,
+                  362,
+                  750,
+                  666
+                ]
+              }
+            ]
+          },
+          "associations": [
+            {
+              "detector_index": 0,
+              "p2_index": 0,
+              "score": [
+                0.6710159853992492,
+                0.959510104282539,
+                1,
+                1,
+                -0.054011474297199574,
+                0,
+                0
+              ],
+              "metrics": {
+                "iou": 0.6710159853992492,
+                "intersection_over_min_area": 0.959510104282539,
+                "detector_center_inside_expanded_p2": true,
+                "p2_center_inside_expanded_detector": true,
+                "normalized_center_distance": 0.054011474297199574
+              }
+            }
+          ],
+          "person_decisions": [
+            {
+              "p2_index": 0,
+              "matched_detector_index": 0,
+              "decision": "NO_EFFECT",
+              "vlm": {
+                "pose": "pushup_plank",
+                "torso_orientation": "horizontal",
+                "torso_ground_contact": "none",
+                "support_surface": "floor",
+                "body_support_configuration": "torso_ground_supported",
+                "explicit_work_evidence": "no",
+                "visual_quality": "clear",
+                "bbox_1000": [
+                  448,
+                  362,
+                  750,
+                  666
+                ]
+              }
+            }
+          ],
+          "latency_seconds": 9.085416143992916,
+          "payload_sha256": "ec606468ac94795c4bd1b5f31333d0f9c146d3a9260032bfee03dedfa5713feb",
+          "raw_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/28_person_fallen_v7_b0r1_strict_match_fallback_clean/eval/pilot/raw/V7_B0R1_pilot_0003_P2_scene.json",
+          "raw_sha256": "e1ae4e0f73051b17e40124775cee434e14a851ef06b12336926e2ffec71ea488"
+        },
+        "image_decision": "NO_ALERT_NORMAL_POSE"
+      },
+      "equivalence_verified": true
+    },
+    {
+      "parent_candidate": "V7-B0R1-STRICT-MATCH-FALLBACK",
+      "parent_freeze_sha": "b4591557c0ce7b1580fe1f5500ee636318a18d72fec88c2def9df2a4c8ebca44",
+      "parent_request_id": "V7_B0R1_pilot_0004_P2_scene",
+      "row_index": 4,
+      "item_id": "P4D_PLAN::PF_P4D_HN_SIT_G001_V04",
+      "payload_sha256": "f412669608ace241d2bc526a97db9a5218a52853af97545014717c4368d77f13",
+      "raw_sha256": "4ccc6638fd143d82d64087eb81fc388a254e0c53c2e529a3f826778f1f4403ae",
+      "source_image_sha256": "6c15404fd1f16c2c4e478e153bd3d7cc723e4e279c80ea6e91832cc998c0aa89",
+      "view_sha256": "417ec8415be70a01a6fce18bbeb57a958e7fd8a898832661352beefef8ab3793",
+      "strict_json_ok": true,
+      "source_binding_ok": true,
+      "image_decision": "NO_ALERT_NORMAL_POSE",
+      "parent_output_record": {
+        "state": "completed",
+        "phase": "pilot",
+        "row_index": 4,
+        "item_id": "P4D_PLAN::PF_P4D_HN_SIT_G001_V04",
+        "operational_id": "PFV6_PILOT_0004",
+        "taxonomy": "floor_sitting",
+        "source_image_sha256": "6c15404fd1f16c2c4e478e153bd3d7cc723e4e279c80ea6e91832cc998c0aa89",
+        "strict_json_ok": true,
+        "source_binding_ok": true,
+        "p1": [],
+        "p2": {
+          "request_id": "V7_B0R1_pilot_0004_P2_scene",
+          "route": "P2_scene",
+          "vlm": {
+            "people": [
+              {
+                "pose": "pushup_plank",
+                "torso_orientation": "horizontal",
+                "torso_ground_contact": "broad",
+                "support_surface": "floor",
+                "body_support_configuration": "hands_knees_supported",
+                "explicit_work_evidence": "no",
+                "visual_quality": "clear",
+                "bbox_1000": [
+                  382,
+                  382,
+                  758,
+                  768
+                ]
+              }
+            ]
+          },
+          "associations": [
+            {
+              "detector_index": 0,
+              "p2_index": 0,
+              "score": [
+                0.7314901554660541,
+                0.991930271716828,
+                1,
+                1,
+                -0.032604130866747606,
+                0,
+                0
+              ],
+              "metrics": {
+                "iou": 0.7314901554660541,
+                "intersection_over_min_area": 0.991930271716828,
+                "detector_center_inside_expanded_p2": true,
+                "p2_center_inside_expanded_detector": true,
+                "normalized_center_distance": 0.032604130866747606
+              }
+            }
+          ],
+          "person_decisions": [
+            {
+              "p2_index": 0,
+              "matched_detector_index": 0,
+              "decision": "NO_EFFECT",
+              "vlm": {
+                "pose": "pushup_plank",
+                "torso_orientation": "horizontal",
+                "torso_ground_contact": "broad",
+                "support_surface": "floor",
+                "body_support_configuration": "hands_knees_supported",
+                "explicit_work_evidence": "no",
+                "visual_quality": "clear",
+                "bbox_1000": [
+                  382,
+                  382,
+                  758,
+                  768
+                ]
+              }
+            }
+          ],
+          "latency_seconds": 9.257647074002307,
+          "payload_sha256": "f412669608ace241d2bc526a97db9a5218a52853af97545014717c4368d77f13",
+          "raw_path": "/home/yanbo/net_vlm_person_fallen_v2_optimization/28_person_fallen_v7_b0r1_strict_match_fallback_clean/eval/pilot/raw/V7_B0R1_pilot_0004_P2_scene.json",
+          "raw_sha256": "4ccc6638fd143d82d64087eb81fc388a254e0c53c2e529a3f826778f1f4403ae"
+        },
+        "image_decision": "NO_ALERT_NORMAL_POSE"
+      },
+      "equivalence_verified": true
+    }
+  ]
+}
