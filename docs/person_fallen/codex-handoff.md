@@ -186,3 +186,36 @@ B0R1_OLLAMA_REQUESTS=0
 ```
 
 污染的 `27_*` 工作区已原样保留并标记 `CONTAMINATED_DO_NOT_USE.md`，未作为正式 lineage 复用。Clean workspace 的 geometry binding 通过；B0 历史 48 行 floor-sitting zero-request replay 为 NO_ALERT=48、RECHECK=0、ALERT=0、ATTENTION=0。association preflight 因这 48 行仅含 floor-sitting，缺少 multi-person-one-lying 与 PFV4_SCREEN_0066 可验证 diagnostic，无法同时证明要求的匹配/漏检行为，故在 freeze 和首个模型请求前停止。
+
+## 11. V7-B0R1 CLEAN_R1 association evidence completion and test stop（2026-09-16）
+
+```text
+V7_B0R1_STATUS=TEST_FAIL_BEFORE_FREEZE
+FINAL_STATUS=B0R1_TEST_FAIL
+V7_B0R1_FORMAL_WORKSPACE=/home/yanbo/net_vlm_person_fallen_v2_optimization/28_person_fallen_v7_b0r1_strict_match_fallback_clean
+WORKSPACE_GENERATION=CLEAN_R1
+
+WORKSPACE_PROVENANCE=PASS
+GEOMETRY_BINDING=PASS
+MULTI_PERSON_ASSOCIATION_PREFLIGHT=PASS
+PFV4_SCREEN_0066_OFFLINE_ASSOCIATION=PASS
+B0_OFFLINE_REPLAY=PASS
+
+ASSOCIATION_MULTI_CANDIDATES=5
+ASSOCIATION_MULTI_VALID=1
+PFV4_SCREEN_0066_MEASURABLE=true
+WRONG_LYING_ATTACHMENT_TO_GEOM_UPRIGHT=0
+
+TEST_FAILURE=unmatched floor_sitting expected NO_EFFECT but frozen policy returned RECHECK_VISUAL_UNCERTAIN
+POLICY_MODIFIED=false
+B0R1_FREEZE=NOT_CREATED
+B0R1_OLLAMA_REQUESTS=0
+B0R1_PILOT=NOT_RUN
+B0R1_REGRESSION=NOT_RUN
+B0R1_FULL_DEV=NOT_RUN
+CURRENT_WINNER=NONE
+READY_FOR_FINAL_HOLDOUT=false
+HOLDOUT_CONSUMED=false
+```
+
+此终态是 freeze 前 policy contract 测试失败，不是 matcher association 失败，也不是模型指标失败。任务禁止修改 policy，因此未创建 freeze、未发送 Ollama 请求。

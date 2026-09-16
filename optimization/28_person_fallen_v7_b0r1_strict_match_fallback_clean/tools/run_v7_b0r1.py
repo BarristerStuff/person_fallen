@@ -1,74 +1,173 @@
-import csv,json,base64,hashlib,time,urllib.request,urllib.error,sys,io
+from __future__ import annotations
+import base64,csv,hashlib,json,os,statistics,sys,time,urllib.request
 from pathlib import Path
 from PIL import Image
-from jsonschema import validate
-from pathlib import Path
-import sys
-sys.path.insert(0,str(D/'policy')) if 'D' in globals() else None
-D=Path(__file__).resolve().parents[1]; END='http://192.168.20.62:11434'; MODEL='qwen3.5:4b'
-P1=(D/'prompt/v7_b0_p1.txt').read_text(); P2=(D/'prompt/v7_b0_p2.txt').read_text(); S1=json.loads((D/'schema/v7_person_attributes.json').read_text()); S2=json.loads((D/'schema/v7_scene_attributes.json').read_text())
-from person_association import match
-from v7_b0_policy import p1 as person_p1, p2 as p2_match, aggregate
 
-from importlib.util import spec_from_file_location,module_from_spec
-sp=spec_from_file_location('pol',D/'policy/v7_b0_policy.py'); pol=module_from_spec(sp); sp.loader.exec_module(pol)
-geo={}
-for x in csv.DictReader((D/'geometry/person_geometry.csv').open()): geo.setdefault(x['item_id'],[]).append(x)
-def payload(prompt,images,schema):
- return json.dumps({'model':MODEL,'prompt':prompt,'images':[base64.b64encode(x).decode() for x in images],'think':False,'stream':False,'format':schema,'options':{'temperature':0,'num_ctx':8192,'num_predict':1024 if prompt==P2 else 384}},separators=(',',':')).encode()
-def call(data, rid, root):
- ps=hashlib.sha256(data).hexdigest(); c={'request_id':rid,'claimed_at':time.time(),'payload_sha256':ps,'state':'CLAIMED'}
- with (root/'ledger.jsonl').open('a') as f:f.write(json.dumps(c)+'\n');f.flush()
- t=time.monotonic(); req=urllib.request.Request(END+'/api/generate',data=data,headers={'Content-Type':'application/json'})
+D=Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(D/'policy'))
+from person_association import match
+from v7_b0_policy import person_p1,p2_match,aggregate
+END='http://192.168.20.62:11434'; MODEL='qwen3.5:4b'; DIGEST='2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd'
+P1=(D/'prompt/v7_b0_p1.txt').read_text(); P2=(D/'prompt/v7_b0_p2.txt').read_text()
+S1=json.loads((D/'schema/v7_person_attributes.json').read_text()); S2=json.loads((D/'schema/v7_scene_attributes.json').read_text())
+BUDGET={'pilot':{'P1_primary':220,'P1_background':220,'P2_scene':160},'regression':{'P1_primary':8,'P1_background':8,'P2_scene':1},'full_remaining':{'P1_primary':700,'P1_background':700,'P2_scene':280}}
+ALLOWED_PHASES={'pilot','regression','full_remaining'}
+
+def hbytes(b): return hashlib.sha256(b).hexdigest()
+def hfile(p): return hbytes(Path(p).read_bytes())
+def append_jsonl(p,obj):
+ p.parent.mkdir(parents=True,exist_ok=True)
+ with p.open('a') as f: f.write(json.dumps(obj,ensure_ascii=False,separators=(',',':'))+'\n'); f.flush(); os.fsync(f.fileno())
+
+def validate_schema(obj,schema,path='$'):
+ typ=schema.get('type')
+ if typ=='object':
+  if not isinstance(obj,dict): raise ValueError(f'{path}: expected object')
+  req=set(schema.get('required',[])); missing=req-set(obj)
+  if missing: raise ValueError(f'{path}: missing {sorted(missing)}')
+  props=schema.get('properties',{})
+  if schema.get('additionalProperties') is False:
+   extra=set(obj)-set(props)
+   if extra: raise ValueError(f'{path}: extra {sorted(extra)}')
+  for k,v in obj.items():
+   if k in props: validate_schema(v,props[k],f'{path}.{k}')
+ elif typ=='array':
+  if not isinstance(obj,list): raise ValueError(f'{path}: expected array')
+  if len(obj)<schema.get('minItems',0) or len(obj)>schema.get('maxItems',10**9): raise ValueError(f'{path}: bad length')
+  for i,v in enumerate(obj): validate_schema(v,schema.get('items',{}),f'{path}[{i}]')
+ elif typ=='string':
+  if not isinstance(obj,str): raise ValueError(f'{path}: expected string')
+ elif typ=='number':
+  if not isinstance(obj,(int,float)) or isinstance(obj,bool): raise ValueError(f'{path}: expected number')
+  if obj<schema.get('minimum',float('-inf')) or obj>schema.get('maximum',float('inf')): raise ValueError(f'{path}: range')
+ if 'enum' in schema and obj not in schema['enum']: raise ValueError(f'{path}: enum')
+
+def validate_obj(obj,schema):
+ validate_schema(obj,schema)
+ if schema is S2:
+  for i,p in enumerate(obj['people']):
+   x1,y1,x2,y2=p['bbox_1000']
+   if not (x1<x2 and y1<y2): raise ValueError(f'$.people[{i}].bbox_1000 ordering')
+
+def build_payload(prompt,image_bytes,schema,num_predict):
+ body={'model':MODEL,'prompt':prompt,'images':[base64.b64encode(image_bytes).decode()],
+       'think':False,'stream':False,'format':schema,
+       'options':{'temperature':0,'num_ctx':8192,'num_predict':num_predict}}
+ return json.dumps(body,separators=(',',':'),ensure_ascii=False).encode()
+
+def existing_ids(root):
+ ids=set(); p=root/'ledger.jsonl'
+ if p.exists():
+  for line in p.read_text().splitlines():
+   if line.strip(): ids.add(json.loads(line)['request_id'])
+ return ids
+
+def call(data,rid,route,root,source_binding):
+ if not rid.startswith('V7_B0R1_'): raise RuntimeError('PROTOCOL_REQUEST_ID_PREFIX')
+ if rid in existing_ids(root): raise RuntimeError('DUPLICATE_REQUEST_ID')
+ payload_sha=hbytes(data); claimed=time.time()
+ append_jsonl(root/'ledger.jsonl',{'request_id':rid,'state':'CLAIMED','route':route,'claimed_timestamp':claimed,'payload_sha256':payload_sha,**source_binding})
+ req=urllib.request.Request(END+'/api/generate',data=data,headers={'Content-Type':'application/json'})
+ opener=urllib.request.build_opener(urllib.request.ProxyHandler({}),urllib.request.HTTPRedirectHandler())
+ t=time.monotonic()
  try:
-  opener=urllib.request.build_opener(urllib.request.ProxyHandler({}), urllib.request.HTTPRedirectHandler())
-  with opener.open(req,timeout=120) as r:
+  with opener.open(req,timeout=180) as r:
    if r.status!=200: raise RuntimeError('HTTP_'+str(r.status))
-   raw=r.read()
+   raw=r.read(); received=time.time()
  except Exception as e:
-  with (root/'ledger.jsonl').open('a') as f:f.write(json.dumps({'request_id':rid,'state':'UNKNOWN','error':repr(e)})+'\n');f.flush()
+  append_jsonl(root/'ledger.jsonl',{'request_id':rid,'state':'COMPLETION_UNKNOWN','route':route,'error':repr(e),'failed_timestamp':time.time()})
   raise
- (root/'raw').mkdir(exist_ok=True); rp=root/'raw'/(rid+'.json'); rp.write_bytes(raw)
+ raw_dir=root/'raw';raw_dir.mkdir(parents=True,exist_ok=True);rp=raw_dir/(rid+'.json');rp.write_bytes(raw)
+ raw_sha=hbytes(raw); append_jsonl(root/'ledger.jsonl',{'request_id':rid,'state':'RAW_SAVED','route':route,'raw_path':str(rp),'raw_sha256':raw_sha,'received_timestamp':received})
  env=json.loads(raw)
- if env.get('done') is not True or env.get('done_reason')=='length': raise RuntimeError('PROTOCOL_LENGTH_TRUNCATION_OR_NOT_DONE')
- text=env.get('response'); obj=json.loads(text); validate(instance=obj,schema=S2 if prompt==P2 else S1); lat=time.monotonic()-t
- with (root/'ledger.jsonl').open('a') as f:f.write(json.dumps({'request_id':rid,'state':'COMPLETED','raw_path':str(rp),'raw_sha256':hashlib.sha256(raw).hexdigest(),'latency':lat})+'\n');f.flush()
- return obj,lat,ps,str(rp)
-def crop(row,g):
- with Image.open(row['full_view_path']) as src:
-  src.load(); W,H=src.size;x1,y1,x2,y2=map(float,[g['x1'],g['y1'],g['x2'],g['y2']]);w=x2-x1;h=y2-y1
-  im=src.convert('RGB').crop((max(0,int(x1-.4*w)),max(0,int(y1-.4*h)),min(W,int(x2+.4*w)),min(H,int(y2+.4*h)))); im.thumbnail((448,448)); out=Image.new('RGB',(448,448),'gray');out.paste(im,((448-im.width)//2,(448-im.height)//2));b=io.BytesIO();out.save(b,'JPEG',quality=70);return b.getvalue()
+ if env.get('done') is not True: raise RuntimeError('PROTOCOL_NOT_DONE')
+ if env.get('done_reason')=='length': raise RuntimeError('PROTOCOL_LENGTH_TRUNCATION')
+ obj=json.loads(env.get('response','')); schema=S2 if route=='P2_scene' else S1; validate_obj(obj,schema)
+ latency=time.monotonic()-t
+ append_jsonl(root/'ledger.jsonl',{'request_id':rid,'state':'COMPLETED','route':route,'raw_path':str(rp),'raw_sha256':raw_sha,'latency_seconds':latency,'completed_timestamp':time.time(),'strict_json_ok':True,'source_binding_ok':True,'done':env.get('done'),'done_reason':env.get('done_reason'),'eval_count':env.get('eval_count')})
+ return obj,latency,payload_sha,str(rp),raw_sha,env
+
+def load_context(manifest):
+ geo={}
+ with (D/'geometry/person_geometry.csv').open() as f:
+  for x in csv.DictReader(f): geo.setdefault(x['item_id'],[]).append(x)
+ crop={}
+ qa=json.loads((D/'reports/crop_qa.json').read_text())
+ for q in qa['qa']: crop[(q['item_id'],str(q['person_idx']))]=q
+ rows=list(csv.DictReader(Path(manifest).open()))
+ return geo,crop,rows
+
+def route_budget_check(phase,counts,route):
+ if counts[route]>=BUDGET[phase][route]: raise RuntimeError('BUDGET_EXCEEDED_'+route)
+
+def source_size(row):
+ with Image.open(row['image_path']) as im: return im.size
+
+def should_stop_pilot(results):
+ # Only irreversible failures; positive recall impossibility is checked against remaining stratum counts.
+ c={}
+ for r in results:
+  c.setdefault(r['taxonomy'],{}).setdefault(r['image_decision'],0); c[r['taxonomy']][r['image_decision']]+=1
+ floor=c.get('floor_sitting',{})
+ if floor.get('ALERT_GROUND_LYING',0)>0 or floor.get('ATTENTION_NEAR_GROUND',0)>0: return 'FLOOR_IRREVERSIBLE_FP'
+ for tax in ('pushup_plank','crawling'):
+  if c.get(tax,{}).get('ALERT_GROUND_LYING',0)>0:return tax.upper()+'_IRREVERSIBLE_FP'
+ return None
+
 def run(phase,manifest):
- root=D/'eval'/phase;root.mkdir(parents=True,exist_ok=True); (root/'raw').mkdir(exist_ok=True)
- out=(root/'output.jsonl').open('a'); rows=list(csv.DictReader(open(manifest))); results=[]; route={"P1_primary":0,"P1_background":0,"P2_scene":0}
+ if phase not in ALLOWED_PHASES: raise RuntimeError('PHASE_REJECTED')
+ freeze=D/'freeze/CANDIDATE_FREEZE.json'
+ if not freeze.exists(): raise RuntimeError('FREEZE_REQUIRED')
+ root=D/'eval'/phase
+ if root.exists() and any(root.iterdir()): raise RuntimeError('CLEAN_EXECUTION_REQUIRED_NONEMPTY_PHASE')
+ root.mkdir(parents=True,exist_ok=True)
+ geo,crop_map,rows=load_context(manifest); results=[]; counts={'P1_primary':0,'P1_background':0,'P2_scene':0}; latencies={k:[] for k in counts}
+ output=root/'output.jsonl'
  for idx,row in enumerate(rows,1):
-  gs=geo.get(row['item_id'],[]); targets=[('P1_primary',x) for x in gs if x['level']=='primary' and x['geom_state_a2']!='GEOM_UPRIGHT']+[('P1_background',x) for x in gs if x['level']=='background' and x['geom_state_a2']!='GEOM_UPRIGHT']; ds=[]; provisional=[]
-  for rt,g in targets:
-   rid=f'V7_B0R1_{phase}_{idx:04d}_{rt}_{g["person_idx"]}'; obj,lat,ps,rp=call(payload(P1,[crop(row,g)],S1),rid,root); d=person_p1(obj,g['geom_state_a2']); ds.append(d); provisional.append({'route':rt,'person_idx':g['person_idx'],'geom':g['geom_state_a2'],'decision':d,'vlm':obj,'latency':lat,'payload_sha256':ps,'raw_path':rp});route[rt]+=1
-  need_p2=(not ds) or ('ALERT_GROUND_LYING' not in ds) or ('PROVISIONAL_PRONE' in ds)
-  p2=None
+  if hfile(row['image_path'])!=row['image_sha256']: raise RuntimeError('SOURCE_SHA_MISMATCH_'+row['item_id'])
+  if hfile(row['full_view_path'])!=row['full_view_sha256']: raise RuntimeError('FULL_VIEW_SHA_MISMATCH_'+row['item_id'])
+  gs=geo.get(row['item_id'],[]); targets=[]
+  for g in gs:
+   if g['geom_state_a2']!='GEOM_UPRIGHT': targets.append(('P1_primary' if g['level']=='primary' else 'P1_background',g))
+  p1recs=[]; decisions=[]
+  for route,g in targets:
+   route_budget_check(phase,counts,route); q=crop_map.get((row['item_id'],str(g['person_idx'])))
+   if not q or not q.get('valid'): raise RuntimeError('MISSING_VALID_PREPARED_CROP')
+   cp=Path(q['crop_path']); cb=cp.read_bytes()
+   if hbytes(cb)!=q['crop_sha256']: raise RuntimeError('CROP_SHA_MISMATCH')
+   rid=f'V7_B0R1_{phase}_{idx:04d}_{route}_{g["person_idx"]}'
+   bind={'item_id':row['item_id'],'source_image_sha256':row['image_sha256'],'view_sha256':q['crop_sha256'],'person_idx':g['person_idx'],'geom_state':g['geom_state_a2']}
+   obj,lat,ps,rp,rs,env=call(build_payload(P1,cb,S1,384),rid,route,root,bind); counts[route]+=1;latencies[route].append(lat)
+   dec=person_p1(obj,g['geom_state_a2']); decisions.append(dec);p1recs.append({'request_id':rid,'route':route,'person_idx':g['person_idx'],'geom_state':g['geom_state_a2'],'decision':dec,'vlm':obj,'latency_seconds':lat,'payload_sha256':ps,'raw_path':rp,'raw_sha256':rs})
+  need_p2=(not decisions) or ('ALERT_GROUND_LYING' not in decisions) or ('PROVISIONAL_PRONE' in decisions)
+  p2rec=None
   if need_p2:
-   rid=f'V7_B0R1_{phase}_{idx:04d}_P2_scene'; obj,lat,ps,rp=call(payload(P2,[open(row['full_view_path'],'rb').read()],S2),rid,root); route['P2_scene']+=1; p2={'vlm':obj,'latency':lat,'payload_sha256':ps,'raw_path':rp}
-   with Image.open(row['full_view_path']) as _im: W,H=_im.size
-   def iou(a,b):
-    ax1,ay1,ax2,ay2=a; bx1,by1,bx2,by2=b; ix1=max(ax1,bx1);iy1=max(ay1,by1);ix2=min(ax2,bx2);iy2=min(ay2,by2); iw=max(0,ix2-ix1);ih=max(0,iy2-iy1); inter=iw*ih
-    return inter/(max(1,(ax2-ax1)*(ay2-ay1)+(bx2-bx1)*(by2-by1)-inter))
-   p2ds=[]
-   det_boxes=[[float(g['x1'])/W*1000,float(g['y1'])/H*1000,float(g['x2'])/W*1000,float(g['y2'])/H*1000] for g in gs]
-   p2_boxes=[x.get('bbox_1000') for x in obj.get('people',[])]
-   associations=match(det_boxes,[x for x in p2_boxes])
-   by_p={x['p2_index']:x for x in associations}
-   for j,person in enumerate(obj.get('people',[])):
+   route='P2_scene';route_budget_check(phase,counts,route);fb=Path(row['full_view_path']).read_bytes();rid=f'V7_B0R1_{phase}_{idx:04d}_P2_scene'
+   bind={'item_id':row['item_id'],'source_image_sha256':row['image_sha256'],'view_sha256':row['full_view_sha256']}
+   obj,lat,ps,rp,rs,env=call(build_payload(P2,fb,S2,1024),rid,route,root,bind);counts[route]+=1;latencies[route].append(lat)
+   W,H=source_size(row);det_boxes=[[float(g['x1'])/W*1000,float(g['y1'])/H*1000,float(g['x2'])/W*1000,float(g['y2'])/H*1000] for g in gs]
+   people=obj.get('people',[]); associations=match(det_boxes,[p['bbox_1000'] for p in people]);by_p={a['p2_index']:a for a in associations};p2dec=[]
+   for j,person in enumerate(people):
     a=by_p.get(j)
     if a:
-     k=a['detector_index']; geom=gs[k]['geom_state_a2']; p1state=next((x['decision'] for x in provisional if int(x['person_idx'])==int(gs[k]['person_idx'])),None)
-     d=p2_match(person,geom,p1state,True)
-    else:
-     d=p2_match(person,'GEOM_NOT_UPRIGHT',None,False)
-    p2ds.append(d)
-   ds += p2ds
-  image=aggregate(ds,detected=bool(gs))
-  rec={'item_id':row['item_id'],'request_id':row.get('request_id'),'taxonomy':row['taxonomy'],'image_decision':image,'p1':provisional,'p2':p2};out.write(json.dumps(rec,ensure_ascii=False)+'\n');out.flush();results.append(rec)
- json.dump({'phase':phase,'rows':len(rows),'route_counts':route,'results':results},(root/'summary.json').open('w'),indent=2,ensure_ascii=False); return route
+     g=gs[a['detector_index']]; prior=next((x['decision'] for x in p1recs if str(x['person_idx'])==str(g['person_idx'])),None)
+     dec=p2_match(person,g['geom_state_a2'],prior)
+    else: dec=p2_match(person,'GEOM_NOT_UPRIGHT',None)
+    p2dec.append({'p2_index':j,'matched_detector_index':a['detector_index'] if a else None,'decision':dec,'vlm':person})
+    if dec!='NO_EFFECT': decisions.append(dec)
+   p2rec={'request_id':rid,'route':route,'vlm':obj,'associations':associations,'person_decisions':p2dec,'latency_seconds':lat,'payload_sha256':ps,'raw_path':rp,'raw_sha256':rs}
+  image=aggregate(decisions,detected=bool(gs))
+  rec={'state':'completed','phase':phase,'row_index':idx,'item_id':row['item_id'],'operational_id':row.get('operational_id'),'taxonomy':row['taxonomy'],'source_image_sha256':row['image_sha256'],'strict_json_ok':True,'source_binding_ok':True,'p1':p1recs,'p2':p2rec,'image_decision':image}
+  append_jsonl(output,rec);results.append(rec)
+  if phase=='pilot':
+   why=should_stop_pilot(results)
+   if why:
+    summary={'phase':phase,'status':'EARLY_STOP','reason':why,'rows':len(results),'route_counts':counts,'results':results};(root/'summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n');raise RuntimeError('PILOT_EARLY_STOP_'+why)
+ summary={'phase':phase,'status':'COMPLETE','rows':len(results),'route_counts':counts,'latency':{k:{'p50':statistics.median(v) if v else None,'p95':sorted(v)[max(0,int(len(v)*.95)-1)] if v else None} for k,v in latencies.items()},'results':results}
+ (root/'summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n')
+ return summary
+
 if __name__=='__main__':
- phase=sys.argv[1]; manifest=D/'manifests'/(('pilot156.csv' if phase=='pilot' else 'regression1.csv' if phase=='regression' else 'full_remaining.csv')); print(run(phase,manifest))
+ if len(sys.argv)!=2: raise SystemExit('usage: run_v7_b0r1.py pilot|regression|full_remaining')
+ phase=sys.argv[1]; names={'pilot':'pilot156.csv','regression':'regression1.csv','full_remaining':'full_remaining.csv'}
+ print(json.dumps(run(phase,D/'manifests'/names[phase]),ensure_ascii=False))

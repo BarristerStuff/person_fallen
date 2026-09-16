@@ -1,11 +1,27 @@
 {
-  "status":"CONSISTENT",
-  "formal_eval_files":0,
-  "formal_request_ledgers":0,
-  "formal_raw_responses":0,
-  "freeze_files":0,
-  "val_requests":0,
-  "holdout_requests":0,
-  "association_preflight_required_cases":{"floor":true,"multi":false,"PFV4_SCREEN_0066":false},
-  "recomputed_final_status":"B0R1_ASSOCIATION_PREFLIGHT_FAIL"
+  "audit_type": "zero_inference_independent_audit",
+  "final_status": "B0R1_TEST_FAIL",
+  "files_checked": {
+    "protocol/WORKSPACE_PROVENANCE.json": "623779cdc28578a617feba12c2b9f4f1fabb8e8e7da42d037e57b5cc24b9d8c3",
+    "geometry/thresholds.json": "650b824b6ad760ec6d9568e0b80fc52d466be6d6d8583c615e367bee19bb389f",
+    "policy/person_association.py": "88ba9e84fb578ca09bfbc81ca44d438dc992affea677cc0f0455481a1aa0d5f6",
+    "policy/v7_b0_policy.py": "07cc47ee982a4d6c4086b0d7af1567ae2c34683662af518f14e22bd80e1d4ece",
+    "reports/association_diagnostic_inventory.json": "3c4d764e4a503a79d9a9a87d2219a5b4dd12993101c2e2e8ba088c29157d1c4f",
+    "reports/b0_offline_replay.json": "e5e833c168779f50f153eda1d3d53b7de89ca074c249a545af0b5bf459213f2d",
+    "reports/crop_qa.json": "0f11f19c33b3ed3047ec55180fce540d0414ef81659e114e8a4434456e484047"
+  },
+  "checks": {
+    "workspace_provenance": true,
+    "geometry_binding": true,
+    "association_preflight": true,
+    "offline_replay": true,
+    "strict_schema": true,
+    "required_tests": false,
+    "freeze_absent": true,
+    "eval_empty": true,
+    "ollama_requests_zero": true,
+    "val_requests_zero": true,
+    "holdout_requests_zero": true
+  },
+  "discrepancies": []
 }
