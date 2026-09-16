@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/yanbo/net_vlm_person_fallen_v2_optimization/28_person_fallen_v7_b0r1_strict_match_fallback_clean/tools/run_v7_b0r1.py", line 173, in <module>
+    print(json.dumps(run(phase,D/'manifests'/names[phase]),ensure_ascii=False))
+  File "/home/yanbo/net_vlm_person_fallen_v2_optimization/28_person_fallen_v7_b0r1_strict_match_fallback_clean/tools/run_v7_b0r1.py", line 135, in run
+    if not q or not q.get('valid'): raise RuntimeError('MISSING_VALID_PREPARED_CROP')
+RuntimeError: MISSING_VALID_PREPARED_CROP

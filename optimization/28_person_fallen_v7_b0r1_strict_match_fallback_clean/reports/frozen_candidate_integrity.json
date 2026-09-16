@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "freeze_sha256": "b4591557c0ce7b1580fe1f5500ee636318a18d72fec88c2def9df2a4c8ebca44",
+  "freeze_inputs_total": 27,
+  "freeze_input_mismatches": [],
+  "source_total": 437,
+  "source_mismatches": [],
+  "full_view_total": 437,
+  "full_view_mismatches": [],
+  "prepared_crop_qa": "PASS",
+  "runner_sha256": "ba2a9955fb535b1d1cff1d2c96bce3e2d6991de307c3e5159c2c4d38415ea491",
+  "manifest_sha256": {
+    "pilot156.csv": "21044b03610352bae37413fa6a89a96a9f983509d17feaa8a6556e8f95abaf31",
+    "regression1.csv": "bbdf1a50c415d0ee8b5dafbc0c5b916166e77e61af1fb067405880c9da4eed56",
+    "full_remaining.csv": "5da420a20bb326ccb70cfe0cf15c86e577aa4923c47ec615a97eb01d7c1016fe",
+    "full_combined436.csv": "4ea8fe6e220bc781f1644e33967dcca7e09e30c7810d2bda37c1c39bc8ef7576"
+  },
+  "policy_sha256": "e4a2d867eacc16b9c91dcb7288bac62a265b7f2c8a1e11b1b69b1d78321eae76",
+  "association_sha256": "88ba9e84fb578ca09bfbc81ca44d438dc992affea677cc0f0455481a1aa0d5f6",
+  "schema_sha256": {
+    "v7_person_attributes.json": "2deb3aafed7e43fe713999a928b3b764d6b05ddbe948559dd21248fb186a0df8",
+    "v7_scene_attributes.json": "4d0ccd35c0c72351bfd4cacfd7ac64b43a0735f085be71f7ab29a9749f07fab7"
+  },
+  "prompt_sha256": {
+    "v7_b0_p1.txt": "35f97f96516175b167dc25bc89463655fd7ca045dc60947a245e5bdfbc6d0c1e",
+    "v7_b0_p2.txt": "d2d412fdd092d4b8a421f9cdd43a4c8a077367c1250d622a7f8fa9d8a7c1986c"
+  }
+}

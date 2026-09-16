@@ -1,0 +1,42 @@
+{
+  "final_status": "BLOCKED_B0R1_FROZEN_CROP_PLAN_INCOMPLETE",
+  "candidate": "V7-B0R1-STRICT-MATCH-FALLBACK",
+  "freeze_sha256": "b4591557c0ce7b1580fe1f5500ee636318a18d72fec88c2def9df2a4c8ebca44",
+  "freeze_unchanged": true,
+  "source_recovery_gate": "PASS",
+  "frozen_sources": 437,
+  "initially_missing": 380,
+  "restored": 380,
+  "unresolved": 0,
+  "pilot_rows_completed": 4,
+  "formal_requests": 4,
+  "ledger_state_counts": {
+    "CLAIMED": 4,
+    "RAW_SAVED": 4,
+    "COMPLETED": 4
+  },
+  "raw_responses": 4,
+  "failure": "MISSING_VALID_PREPARED_CROP",
+  "failure_row_index": 5,
+  "failure_item_id": "P4D_PLAN::PF_P4D_HN_SIT_G001_V05",
+  "failure_taxonomy": "floor_sitting",
+  "required_p1_targets_at_failure": [
+    {
+      "person_idx": "0",
+      "level": "background",
+      "geom_state": "BACKGROUND_GEOM_UNCERTAIN",
+      "crop_binding_present": false
+    }
+  ],
+  "crop_qa_report_claimed": {
+    "planned": 319,
+    "valid": 319,
+    "invalid": 0
+  },
+  "root_cause": "The frozen crop QA/lookup has no valid (item_id, person_idx) binding for a required non-UPRIGHT background person at Pilot row 5. The runner stopped before claiming that P1 request.",
+  "frozen_files_modified": false,
+  "retry_performed": false,
+  "regression_run": false,
+  "full_dev_run": false,
+  "holdout_requests": 0
+}

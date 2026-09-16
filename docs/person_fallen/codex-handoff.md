@@ -245,3 +245,15 @@ HOLDOUT_CONSUMED=false
 - frozen runner, manifests, association matcher, prompts, schemas, geometry, GT and crop preprocessing were not modified
 - no symlink/copy/reconstruction, resend, retry, Regression, Full DEV, VAL, or Holdout execution occurred
 - required next action: restore all missing source assets at their frozen paths with exact manifest SHA-256, then obtain explicit resume authorization because the current clean-execution runner created the Pilot phase directory during the failed pre-request attempt
+
+## 2026-09-16 V7-B0R1 source recovery and frozen Pilot stop
+
+- source asset recovery: `PASS` (`380/380` missing exact-SHA assets restored by byte-identical atomic copy; final source binding `437/437`; restored images were not added to Git)
+- Pilot pre-request directory recovery: `REMOVED_EMPTY_PRE_REQUEST_DIRECTORY`
+- freeze unchanged: `true`; SHA-256 remains `b4591557c0ce7b1580fe1f5500ee636318a18d72fec88c2def9df2a4c8ebca44`
+- Ollama endpoint/model/digest preflight: `PASS`
+- formal Pilot execution produced 4 completed P2 requests and 4 completed floor-sitting rows, all strict-JSON/source-bound and all `NO_ALERT_NORMAL_POSE`
+- execution then stopped at Pilot row 5 before claiming its next request: frozen crop QA/lookup contains no valid `(item_id, person_idx)` binding for required background person `0` of `P4D_PLAN::PF_P4D_HN_SIT_G001_V05`
+- status: `BLOCKED_B0R1_FROZEN_CROP_PLAN_INCOMPLETE`
+- this is a frozen execution-input defect, not a model metric failure; no retry/resend, runner/manifest/freeze modification, Regression, Full DEV, VAL, or Holdout occurred
+- B0R1 formal request count: `4`

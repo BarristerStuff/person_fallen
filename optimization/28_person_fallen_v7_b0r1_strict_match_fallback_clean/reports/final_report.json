@@ -1,29 +1,33 @@
 {
-  "FINAL_STATUS": "BLOCKED_B0R1_SOURCE_ASSET_MISSING",
-  "POLICY_CONTRACT_FIXED": true,
-  "FORMAL_REQUESTS_BEFORE_POLICY_FIX": 0,
-  "WORKSPACE_PROVENANCE": "PASS",
-  "GEOMETRY_BINDING": "PASS",
-  "MULTI_PERSON_ASSOCIATION_PREFLIGHT": "PASS",
-  "PFV4_SCREEN_0066_OFFLINE_ASSOCIATION": "PASS",
-  "B0_OFFLINE_REPLAY": {
-    "rows": 48,
-    "floor_NO_ALERT": 48,
-    "floor_RECHECK": 0,
-    "floor_ALERT": 0,
-    "floor_ATTENTION": 0,
+  "FINAL_STATUS": "BLOCKED_B0R1_FROZEN_CROP_PLAN_INCOMPLETE",
+  "FREEZE_SHA": "b4591557c0ce7b1580fe1f5500ee636318a18d72fec88c2def9df2a4c8ebca44",
+  "FREEZE_UNCHANGED": true,
+  "SOURCE_RECOVERY": {
+    "source_total": 437,
+    "initially_missing": 380,
+    "exact_matches_found": 380,
+    "restored": 380,
+    "unresolved": 0,
+    "final_exists": 437,
+    "final_sha_match": 437,
     "gate": "PASS"
   },
-  "STRICT_SCHEMA_PASS": true,
-  "TESTS": "PASS",
-  "FAKE_E2E": "PASS",
-  "CROP_QA": "PASS",
-  "FREEZE_SHA": "b4591557c0ce7b1580fe1f5500ee636318a18d72fec88c2def9df2a4c8ebca44",
+  "PILOT_PHASE_RECOVERY": "REMOVED_EMPTY_PRE_REQUEST_DIRECTORY",
+  "FROZEN_CANDIDATE_INTEGRITY": "FAIL_FROZEN_CROP_PLAN_INCOMPLETE",
   "PILOT": {
-    "rows": 0,
+    "rows": 4,
     "P1_requests": 0,
-    "P2_requests": 0,
-    "gate": "NOT_RUN_BLOCKED_SOURCE_ASSET_MISSING"
+    "P2_requests": 4,
+    "floor": {
+      "NO_ALERT_NORMAL_POSE": 4
+    },
+    "ground": "NOT_REACHED",
+    "pushup_plank": "NOT_REACHED",
+    "crawling": "NOT_REACHED",
+    "multi": "NOT_REACHED",
+    "strict_json": "4/4",
+    "source_binding": "4/4",
+    "gate": "BLOCKED_INCOMPLETE"
   },
   "REGRESSION": {
     "PFV4_SCREEN_0066": "NOT_RUN",
@@ -31,9 +35,13 @@
   },
   "FULL_DEV": {
     "status": "NOT_RUN",
+    "ground": "NOT_RUN",
+    "floor": "NOT_RUN",
+    "normal_negative": "NOT_RUN",
+    "auxiliary": "NOT_RUN",
     "gate": "NOT_RUN"
   },
-  "TOTAL_B0R1_NEW_REQUESTS": 0,
+  "TOTAL_B0R1_NEW_REQUESTS": 4,
   "CURRENT_DEVELOPMENT_WINNER": "NONE",
   "READY_FOR_FINAL_HOLDOUT_PROTOCOL_REVIEW": false,
   "READY_FOR_FINAL_HOLDOUT": false,

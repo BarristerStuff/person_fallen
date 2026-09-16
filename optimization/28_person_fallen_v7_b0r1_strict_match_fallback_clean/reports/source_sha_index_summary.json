@@ -1,0 +1,21 @@
+{
+  "roots_scanned": [
+    "/home/yanbo/net_vlm_xunjian_dataset",
+    "/home/yanbo/net_vlm_person_fallen_v2_optimization",
+    "/home/yanbo/下载",
+    "/home/yanbo/net_vlm_yanboversion"
+  ],
+  "candidate_image_paths_enumerated": 27630,
+  "files_hashed": 19154,
+  "unique_file_identities_hashed": 19154,
+  "expected_sha_count": 437,
+  "initially_missing": 380,
+  "exact_sha_matches": 380,
+  "unresolved_after_scan": 0,
+  "status_counts": {
+    "PRESENT_AND_MATCH": 57,
+    "PRESENT_SHA_MISMATCH": 0,
+    "MISSING_EXACT_MATCH_FOUND": 380,
+    "MISSING_UNRESOLVED": 0
+  }
+}

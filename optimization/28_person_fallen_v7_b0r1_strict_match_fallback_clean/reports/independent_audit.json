@@ -1,13 +1,35 @@
 {
   "audit_status": "PASS",
   "agrees_with_main_report": true,
-  "formal_request_count": 0,
-  "raw_response_count": 0,
-  "pilot_completed_rows": 0,
-  "freeze_exists": true,
   "freeze_sha256": "b4591557c0ce7b1580fe1f5500ee636318a18d72fec88c2def9df2a4c8ebca44",
-  "source_binding_pre_request": "FAIL_MISSING_PATH",
-  "missing_source_paths": 380,
+  "freeze_unchanged": true,
+  "source_recovery": "PASS",
+  "source_total": 437,
+  "source_sha_match": 437,
+  "formal_request_count": 4,
+  "unique_request_ids": 4,
+  "ledger_state_counts": {
+    "CLAIMED": 4,
+    "RAW_SAVED": 4,
+    "COMPLETED": 4
+  },
+  "raw_response_count": 4,
+  "completed_image_rows": 4,
+  "strict_json_completed": 4,
+  "source_binding_completed": 4,
+  "failure_before_next_request_claim": true,
+  "failure": "MISSING_VALID_PREPARED_CROP",
+  "failure_item_id": "P4D_PLAN::PF_P4D_HN_SIT_G001_V05",
+  "required_target_binding": [
+    {
+      "person_idx": "0",
+      "level": "background",
+      "geom_state": "BACKGROUND_GEOM_UNCERTAIN",
+      "crop_binding_present": false
+    }
+  ],
+  "regression_requests": 0,
+  "full_dev_requests": 0,
   "VAL_requests": 0,
   "Holdout_requests": 0
 }
